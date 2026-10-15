@@ -218,6 +218,23 @@ and metatranscriptomes must remain distinguishable. Location can record a countr
 without inventing coordinates. See [treatment-site research](docs/research/wastewater-metagenomics.md)
 for the seed-paper audit and the newly curated plants.
 
+## NGEE sites
+
+`db/curated/sites/ngee_arctic.yaml` and `ngee_tropics.yaml` contain 18 reviewed
+NGEE field-site records: seven Arctic locations and eleven named Tropics sites.
+They are curated from the projects' location pages and Phase 2 field overview,
+with source identities and evidence URLs retained in each record. The networks
+are represented separately as `NGEE_ARCTIC` and `NGEE_TROPICS`.
+
+This is a curated import, not an API refresh. No site measurement declarations
+or current operational status are inferred from project membership. Only three
+Tropics records have coordinates, transcribed from the cited Phase 2 proposal.
+The remaining locations retain verified country/region metadata without guessed
+points. Overlaps with broader DEIMS locations are documented without asserting
+exact equivalence. See [NGEE scope and evidence](docs/research/ngee-sites.md).
+
+Rebuild and validate with `just site`; edit these curated inputs to update them.
+
 ## BERVO harmonization
 
 Reviewed BERVO assertions live in `db/curated/variable_mappings/bervo.yaml`.
