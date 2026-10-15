@@ -1,0 +1,148 @@
+sites:
+- id: site_kb:deims-tatras_-_alpine_summits_-_slovakia
+  name: Tatras - alpine summits - Slovakia
+  network_registrations:
+  - network: DEIMS
+    network_id: 013642b8-ff75-4abd-a3de-63cc93b4b21f
+    network_url: https://deims.org/013642b8-ff75-4abd-a3de-63cc93b4b21f
+    name: Tatras - alpine summits - Slovakia
+  location:
+    latitude: 49.1733
+    longitude: 19.9894
+    country: Slovakia
+    elevation_meters: 2146.0
+  description: 'The Site was established in 2001 as a part of research initiative
+    GLORIA (Global Observation Research Initiative in Alpine Environments) and as
+    a long-term observation network for the comparative study of climate change impacts
+    on mountain biota respecting the multi-summit sampling design. The Site is situated
+    in the Tatra National Park and consists of four summits occurring in the alpine
+    belt: Krížna peak (1,918.6 m a.s.l.), Veľká kopa peak (2,052.4 m a.s.l.), Sedielková
+    kopa peak (2,061.3 m a.s.l.) and Summit – Krátka peak (2,374.5 m a.s.l.). The
+    re-investigation of site take place every 7 years and the data are compared with
+    other GLORIA research sites within the world-wide network.The first took place
+    in within the 5th RTD framework programme of the EU, the second in 2008 and the
+    next in 2015.'
+  variables:
+  - name: bryophytes presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: bryophytes presence
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22206
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: community composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: community composition
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22086
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: diversity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diversity index
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/21513
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: floristic diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: floristic diversity
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22122
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: plant cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant cover
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22188
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: plant species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant species composition
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22195
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species abundance
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/10018
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species composition
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22285
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: species group abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species group abundance
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/10021
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: species richness
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species richness
+      record_url: https://deims.org/api/sites/013642b8-ff75-4abd-a3de-63cc93b4b21f
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22287
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:24.163584+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

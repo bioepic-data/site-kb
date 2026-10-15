@@ -1,0 +1,242 @@
+{
+  "source_url": "https://deims.org/api/sites/8dfb2b7f-f950-4e17-b747-7ae7e6b9e0f3",
+  "retrieved_at": "2026-10-15T17:44:54.100736+00:00",
+  "record": {
+    "title": "Atlantic Forest Remnants in Goiás State - Brazil",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "8dfb2b7f-f950-4e17-b747-7ae7e6b9e0f3"
+    },
+    "type": "site",
+    "created": "2016-06-30T00:13:43+02:00",
+    "changed": "2020-06-29T10:38:58+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Brazil",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d22789fb-4663-4a77-a6ec-ddb279906cc9"
+              }
+            },
+            "siteCode": "LTER_BR_JTI",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Frederico Guilherme",
+            "email": "fredericoagg@gmail.com",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Universidade Federal de Goiás - Regional Jataí",
+            "url": null,
+            "ror": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Fundação de Amparo à Pesquisa do Estado de Goiás (FAPEG)",
+            "url": null,
+            "ror": null
+          }
+        ],
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The PELD Jataí site is located in Atlantic Forest remnants in the southern state of Goiás, Brazilian central plateau. Covering about 20,000 hectares of not continuous forests, distributed among the geographic coordinates 18o 55'S and 51o 42'W, with altitudes ranging from 520 to 650 m. The fragments are mostly immersed for pasture matrix. The climate is classified as Aw, tropical savanna, with marked seasonality, rain in summer and dry in winter, typically found in the Brazilian Cerrado. December and January are the months with the highest frequency of rainfall, and June to August there is less rainfall intensities. The annual average rainfall is 1650 mm. The site consists of different forest vegetation types in good conservation status, as woody savanna, deciduous and semideciduous forests; flooded and non-flooded gallery forests and riparian forests along the Rio Corrente, a tributary of the Rio Paranaiba. There are also small fragments of cerrado stricto sensu.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2014,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Atlantic Forest Remnants in Goiás State",
+        "shortName": "PELD Jataí",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Vegetacao.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 22,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1650,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "savanna",
+        "ecosystemType": [
+          {
+            "label": "Deciduous Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Rainforest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-51.705112 -18.934928)",
+        "country": [
+          "Brazil"
+        ],
+        "elevation": {
+          "avg": 585,
+          "min": 520,
+          "max": 650,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 20000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": null,
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "plant height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22192"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21587"
+          },
+          {
+            "label": "tree height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22305"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 365,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "1 place",
+            "uri": null
+          },
+          {
+            "label": "6 - 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Less than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "Monthly",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Other transmission types",
+            "uri": null
+          },
+          {
+            "label": "Satellite",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

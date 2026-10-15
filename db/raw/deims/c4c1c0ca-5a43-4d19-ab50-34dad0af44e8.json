@@ -1,0 +1,483 @@
+{
+  "source_url": "https://deims.org/api/sites/c4c1c0ca-5a43-4d19-ab50-34dad0af44e8",
+  "retrieved_at": "2026-10-15T17:43:59.002435+00:00",
+  "record": {
+    "title": "Vielsalm Terrestrial Observatory - Belgium",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "c4c1c0ca-5a43-4d19-ab50-34dad0af44e8"
+    },
+    "type": "site",
+    "created": "2016-05-30T10:00:15+02:00",
+    "changed": "2025-01-07T11:14:56+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ICOS",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "80633d38-4c85-4ee0-a4ce-7bbbd99c888c"
+              }
+            },
+            "siteCode": "http://meta.icos-cp.eu/resources/stations/ES_BE-Vie",
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Belgium",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "735946e0-4e9e-484a-acee-85e31f4e2a2e"
+              }
+            },
+            "siteCode": "LTER_EU_BE_16",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "AGAME",
+            "uri": "https://www.umweltbundesamt.at/en/services/agame"
+          },
+          {
+            "label": "FLUXNet",
+            "uri": "https://fluxnet.org/"
+          },
+          {
+            "label": "NEC Directive (2016/2284)",
+            "uri": "http://data.europa.eu/eli/dir/2016/2284/oj"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Caroline Vincke",
+            "email": "caroline.vincke@uclouvain.be",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Tanguy Manise",
+            "email": "tanguy.manise@ulg.ac.be",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Lonzee Terrestrial Observatory of ICOS Belgium",
+            "value": "http://www.icos-belgium.be/inf_ecosystem.html"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The site is a mixed mature forest composed mainly of Fagus Sylvatica, Pseudotsuga menziesii and Picea abies. The soil (100-150 cm deep) is a silty and stony soil with B structural horizon composed by schist and phyllades. Fluxes of CO2 and water vapour and micrometeorological measurements are performed above the forest by an eddy-covariance system installed on a tower since 1996. During the successive measurement years, several complementary campaigns have been organised : forest inventory, automatic soil respiration measurements, advection, ecosystem water budget, diffusion of CO2 and stable isotopes in soil, volatile organic compounds fluxes, soil carbon content inventory, monthly evolution of nitrogen deposition...  Research activities are carried out by the University of Liège (GxABT) and the Université catholique de Louvain (UCL) within the ICOS infrastructure.\r\n\r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1996,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Vielsalm Terrestrial Observatory",
+        "shortName": "Vielsalm",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Vielsalm%2520%25282%2529lter.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 7.8,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1062,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "continental",
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Temperate broadleaf and mixed forests",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((6.0028696060181 50.308508459, 6.0038995742798 50.304780819859, 6.0009813308716 50.302478308541, 5.9930849075317 50.301327011081, 5.990252494812 50.305767576302, 6.0004663467407 50.308892169972, 6.0028696060181 50.308508459))",
+        "coordinates": "POINT (5.998052 50.305068)",
+        "country": [
+          "Belgium"
+        ],
+        "elevation": {
+          "avg": 493,
+          "min": 493,
+          "max": 493,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 2,
+          "unit": "ha"
+        },
+        "relatedLocations": [
+          {
+            "title": "Vielsalm ICOS Station",
+            "id": {
+              "prefix": "https://deims.org/locations/",
+              "suffix": "d0a4e748-c7a4-41b0-8814-83f3db3db80a"
+            },
+            "changed": "2024-09-12T14:36:30+0200"
+          }
+        ]
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "canopy cover rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22076"
+          },
+          {
+            "label": "carbon dioxide flux per soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22083"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "cation exchange capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22084"
+          },
+          {
+            "label": "diffuse radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22106"
+          },
+          {
+            "label": "direct radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22044"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "forest structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21477"
+          },
+          {
+            "label": "global radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "incoming radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22134"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "inorganic nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22136"
+          },
+          {
+            "label": "interception",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22139"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "leaf area ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22158"
+          },
+          {
+            "label": "plant carbon concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22187"
+          },
+          {
+            "label": "plant transpiration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22197"
+          },
+          {
+            "label": "potential evaporation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10017"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "root density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22216"
+          },
+          {
+            "label": "sapwood area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22220"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22240"
+          },
+          {
+            "label": "soil bulk density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22245"
+          },
+          {
+            "label": "soil dry bulk density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22248"
+          },
+          {
+            "label": "soil gravimetric water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22252"
+          },
+          {
+            "label": "soil heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22253"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil moisture field capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10396"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil porosity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22267"
+          },
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          },
+          {
+            "label": "soil volumetric water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22280"
+          },
+          {
+            "label": "soil water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22281"
+          },
+          {
+            "label": "soil wilting point",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30036"
+          },
+          {
+            "label": "solar radiation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22284"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          },
+          {
+            "label": "tree age",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22300"
+          },
+          {
+            "label": "tree basal area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22301"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree diameter at breast height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22304"
+          },
+          {
+            "label": "tree distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21587"
+          },
+          {
+            "label": "tree height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22305"
+          },
+          {
+            "label": "vegetation layer composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22307"
+          },
+          {
+            "label": "vegetation layer structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21480"
+          },
+          {
+            "label": "water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22309"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 15
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Monthly",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

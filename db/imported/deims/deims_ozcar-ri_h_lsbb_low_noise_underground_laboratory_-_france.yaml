@@ -1,0 +1,32 @@
+sites:
+- id: site_kb:deims-ozcar-ri_h_lsbb_low_noise_underground_laboratory_-_france
+  name: OZCAR-RI H+ LSBB (Low Noise Underground Laboratory) - France
+  network_registrations:
+  - network: DEIMS
+    network_id: 9a573e9f-3dbb-44f4-82fb-e97988f2ab4c
+    network_url: https://deims.org/9a573e9f-3dbb-44f4-82fb-e97988f2ab4c
+    name: OZCAR-RI H+ LSBB (Low Noise Underground Laboratory) - France
+  location:
+    latitude: 43.941204
+    longitude: 5.483399
+    country: France
+  description: In the heart of the karstic massif of Fontaine-de-Vaucluse, LSBB enables
+    research to be undertaken at scales that are usually unobtainable, ranging from
+    flowing fractures (61 currently) to a continuum of 14,000 m2 (beneath 30 to 519
+    m of cover rocks), with everything in between, in particular one block 5 m on
+    a side and 20 m high (5 boreholes). It is thus possible to study problems of changing
+    scales with a real ability for validation.
+  variables:
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/9a573e9f-3dbb-44f4-82fb-e97988f2ab4c
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:45.021427+00:00'
+      source_modified_at: '2024-05-08T15:30:59+02:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

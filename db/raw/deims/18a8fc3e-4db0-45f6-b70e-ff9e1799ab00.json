@@ -1,0 +1,324 @@
+{
+  "source_url": "https://deims.org/api/sites/18a8fc3e-4db0-45f6-b70e-ff9e1799ab00",
+  "retrieved_at": "2026-10-15T17:47:20.730328+00:00",
+  "record": {
+    "title": "Anthropic impacts on the tropical forest of central Amazon - Brazil",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "18a8fc3e-4db0-45f6-b70e-ff9e1799ab00"
+    },
+    "type": "site",
+    "created": "2019-10-29T16:29:47+01:00",
+    "changed": "2020-06-29T10:38:55+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": null,
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Flávia Costa",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "National Council for Scientific and Technological Development (CNPq)",
+            "url": "http://www.cnpq.br",
+            "ror": "https://ror.org/03swz6y49"
+          }
+        ],
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The LTER IAFA site has been running since 1999 and was the first long-term ecological research site in the Amazon. It is situated north of Manaus, central Amazon and includes three sub-sites, with undisturbed terra-firme forest (Reserva Ducke), selective logging (ZF-2 Forest Management Station), and forest fragmentation (Biological Dynamics of forest fragments – BDFFP sites) spread over around 30 x 30 km landscape. Both logging and fragmentation were carried out as controlled experiments to test their effects on biodiversity and ecosystem processes, and thus to outline recommendations for management. The 3 research areas together have 156 permanent monitoring plots, both terrestrial and aquatic, as well as grids of trails for large-scale process monitoring. The information produced has been stored on a public website (https://ppbio.inpa.gov.br/repositorio/dados) where anyone can search data and metadata about the research, as well as the list of publications and all the educational material ( books, identification guides, training course materials) for download.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1999,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Anthropic impacts on the tropical forest of central Amazon",
+        "shortName": "IAFA",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/anthropic-impacts-tropical-forest-central-amazon-brazil_6830.jpg",
+            "alt": "Distribution of sub-sites of the IAFA LTER site"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 26,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2543,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "rainforest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Rainforest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "The site is located over the Alter-do-Chão geological formation, of Cretaceous age.",
+        "hydrology": "The hydrology if formed by a dense network of streams mostly from first to forth orders, dissecting the terrains and forming a complex undulating topography of plateaus incised by valleys. Valleys are permanently ot seasonally waterlogged, and stream flooding is irregular and of short duration (maximum of hours).",
+        "soils": "Soils are generally poor in nutrients (mostly less than 1 cmol.kg of exchangeable cations). Plateaus have clayey latossols and valleys sandy podzols, slopes have soils in between.",
+        "vegetation": "Forest is classified as dense tropical moist forest, around 32 m tall, with emergent trees up to 55 m. Tree diversity is very high, with 1200 sp document in one of the sub-sites for which there is a near complete flora, but the total number may reach 2000 tree sp over the 3 sub-sites."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-59.85 2.69)",
+        "country": [
+          "Brazil"
+        ],
+        "elevation": {
+          "avg": 80,
+          "min": 35,
+          "max": 140,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 90000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "above ground net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10043"
+          },
+          {
+            "label": "alpha diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22040"
+          },
+          {
+            "label": "altitudinal gradient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21352"
+          },
+          {
+            "label": "animal species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10336"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "available phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22061"
+          },
+          {
+            "label": "beta diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22067"
+          },
+          {
+            "label": "biological diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21391"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "birds abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10020"
+          },
+          {
+            "label": "birds presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10082"
+          },
+          {
+            "label": "canopy height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22079"
+          },
+          {
+            "label": "canopy structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21446"
+          },
+          {
+            "label": "cation exchange capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22084"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "community pattern",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21471"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "fish abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30017"
+          },
+          {
+            "label": "floristic composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22121"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "forest structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21477"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "plant distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21479"
+          },
+          {
+            "label": "plant diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22191"
+          },
+          {
+            "label": "plant species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10335"
+          },
+          {
+            "label": "plant species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22195"
+          },
+          {
+            "label": "root biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22215"
+          },
+          {
+            "label": "soil nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22259"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil texture",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22279"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          },
+          {
+            "label": "tree basal area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22301"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree diameter at breast height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22304"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "https://ppbio.inpa.gov.br/en/Data_Policy"
+              }
+            ],
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": "Data or metadata is available to free download for visualization, teaching, and any uses that do not involve scientific use for publications. In this case, a formal request to authors is expected."
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

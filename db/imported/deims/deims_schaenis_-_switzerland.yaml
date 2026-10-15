@@ -1,0 +1,98 @@
+sites:
+- id: site_kb:deims-schaenis_-_switzerland
+  name: Schaenis - Switzerland
+  network_registrations:
+  - network: DEIMS
+    network_id: 049de4d9-d7db-4b2c-ace5-de8873f5d277
+    network_url: https://deims.org/049de4d9-d7db-4b2c-ace5-de8873f5d277
+    name: Schaenis - Switzerland
+  location:
+    latitude: 47.1650464
+    longitude: 9.0670726
+    country: Switzerland
+    elevation_meters: 713.0
+  description: "The forest site \"Schaenis\" has been installed in 1997 as part of\
+    \ the Swiss Long-term Forest Ecosystem Research Programme LWF. The programme investigates\
+    \ anthropogenic and natural forces on the long-term health of the forests and\
+    \ the potential risks to humans. For this, a profound understanding of the relationship\
+    \ between processes, causes and effects in the ecosystem are necessary.\r\n\r\n\
+    The objectives of the LWF research programme include (i) early detection and a\
+    \ representative assessment of changes in forest condition, (ii) determination\
+    \ of external influences, both from anthropogenic and natural sources such as\
+    \ element inputs and climate and their effect on the forest ecosystem, (iii) development\
+    \ of indicators to assess the condition of the forest, (iv) integrated risk assessment\
+    \ based on different stress scenarios, and (v) extended platform for internal\
+    \ and external research projects. \r\n\r\nThe LWF research programme provides,\
+    \ on the one hand, long-term data series from the last 20 years, together with\
+    \ a scientific interpretation to national and international policy makers. On\
+    \ the other hand, the available data and latest LWF infrastructure provide an\
+    \ attractive scientific platform for collaboration with both national and international\
+    \ partners.\r\n\r\nThe site is located close to Schaenis in the canton of St.\
+    \ Gallen, within a natural, mixed forest stand which mainly consists of 130-150\
+    \ year-old European beech (Fagus sylvatica), 130-150 year-old European silver\
+    \ fir (Abies alba) and 130-150 year-old European ash (Fraxinus excelsior) trees.\
+    \ \r\nAmong others, the site is equipped with two meteorological measurement stations;\
+    \ one is located within the forest stand, the second is co-located in the nearby\
+    \ open-field, allowing to measure the forest stand effect on micro-climate.\r\n\
+    The following parameters are being measured (starting-end year): Atmospheric deposition\
+    \ (throughfall and bulk deposition) (1998-today), Circular vegetation plots (1998-today),\
+    \ Crown Condition Assessment (1998-today), Deadwood survey (2005-today), Diameter\
+    \ and Height measurements (2000-today), EC-5 soil water content measurement (2010-today),\
+    \ EC-5 soil water content measurement (2010-today), Foliar analyses (1999 (beech)-today),\
+    \ Leaf area index (LAI) (2001-today), Lichens (2003-today), Litter layer humidity\
+    \ and temperature (2000-today), Litterfall (1998-today), Manual circumference\
+    \ band measurement (2001-today), Matric potential (manual suction cups) (1998-today),\
+    \ Meteorological measurements (1998-today), O3 Injuries (2002-today), Ozone visible\
+    \ injury assessment (2002-today), Passive sampling of NH3 (1999-today), Passive\
+    \ sampling of NO2 (1999-2007), Passive sampling of O3 (2000-today), Permanent\
+    \ vegetation quadrats (1998-today), Phenological observations (1998-today), Soil\
+    \ matrix chemistry (1998-today), Soil morphology (1998-today), Soil solution chemistry\
+    \ (lysimeters) (1999-today), Soil temperature (2000-today), Tree core sampling\
+    \ (1868-1999), Deadwood sampling (2009-today)."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/049de4d9-d7db-4b2c-ace5-de8873f5d277
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:27.945568+00:00'
+      source_modified_at: '2024-03-25T14:18:38+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/049de4d9-d7db-4b2c-ace5-de8873f5d277
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:27.945568+00:00'
+      source_modified_at: '2024-03-25T14:18:38+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/049de4d9-d7db-4b2c-ace5-de8873f5d277
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:27.945568+00:00'
+      source_modified_at: '2024-03-25T14:18:38+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/049de4d9-d7db-4b2c-ace5-de8873f5d277
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:27.945568+00:00'
+      source_modified_at: '2024-03-25T14:18:38+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

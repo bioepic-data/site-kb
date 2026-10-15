@@ -1,0 +1,112 @@
+sites:
+- id: site_kb:deims-brandstatt_landslide_monitoring_site_-_austria
+  name: Brandstatt Landslide Monitoring Site - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 504dc9e9-3ea8-4ef8-9a00-b042fac11300
+    network_url: https://deims.org/504dc9e9-3ea8-4ef8-9a00-b042fac11300
+    name: Brandstatt Landslide Monitoring Site - Austria
+  location:
+    latitude: 48.015044
+    longitude: 15.119226
+    country: Austria
+    elevation_meters: 460.0
+  description: "The ENGAGE working group (Geomorphological Systems and Risk Research\
+    \ at the Institute for Geography and Regional Research) has been running a long-term\
+    \ monitoring project to investigate landslides in Lower Austria. Landslides (translational\
+    \ and rotational failures, debris flows, rock avalanches, rock falls, etc.) number\
+    \ among the most abundant natural hazards in Lower Austria. Resulting from sporadic\
+    \ phases of activity it is essential to generate specific long-term measurement\
+    \ series, enabling the analysis of changes in surface movements as well as underground\
+    \ in connection with triggering factors. Therefore, in 2014 the project “NoeSLIDE\
+    \ – Monitoring diverse types of landslides in Lower Austria” was initiated. The\
+    \ research sites are compiled under the parent site \"LTER NoeSLIDE\" which has\
+    \ three subsites, of which one is the Brandstatt Landslide Monitoring Site. \r\
+    \n\r\nThe Brandstatt landslide is a large-scale and deep landslide that is coupled\
+    \ with smaller and more superficial processes. The movement rates are low but\
+    \ have a high damaging effect. The area was therefore i.a. investigated by the\
+    \ GBA (Geological Survey of Austria) on behalf of the regional geology of Lower\
+    \ Austria. Since September 2022, a weather station installed in the eastern sector\
+    \ has been collecting atmospheric data. To monitor surface changes, close-range\
+    \ remote sensing techniques are applied at regular intervals. Terrestrial laser\
+    \ scanning (TLS) is conducted from the opposite slope, while UAV surveys are performed\
+    \ on-site, accounting for seasonal vegetation growth. Additionally, regular GNSS\
+    \ campaigns provide crucial data on the temporal evolution of surface features,\
+    \ enhancing our understanding of the landslide's activity over time. At the Brandstatt\
+    \ site, various investigation methods have been employed to gain insights into\
+    \ the geological and geomorphological conditions of the subsurface. As reported\
+    \ in the other sites, these include the combination of direct techniques (such\
+    \ as percussion drilling, soil core extraction and analysis, dynamic probing),\
+    \ and installations for monitoring slope hydrology and landslide displacements.\
+    \ In addition, indirect and non-invasive geophysical methods (e.g., Electrical\
+    \ Resistivity Tomography (ERT), electromagnetic induction (EMI), and Spectral\
+    \ Induced Polarization (SIP)) have been conducted in collaboration with the Vienna\
+    \ University of Technology (TU Wien), led by Ass.-Prof. Dr. Adrian Flores-Orozco\
+    \ and his team. \r\n\r\nThe subsurface investigations conducted as part of this\
+    \ project include 62 soil cores, and ca. 40 Dynamic Probing Heavy (DPH) measurements.\
+    \ These data were collected between April 2022 and September 2024, as part of\
+    \ the project itself and a project-related course in March 2023. Currently, several\
+    \ sensors are installed for the ongoing monitoring:\r\n    9 TDR probes at three\
+    \ locations, measuring soil water content at 0.5, 1, and 2 meters (at the moment,\
+    \ n. 8/9 are active);\r\n\r\n    3 piezometers measuring water column height between\
+    \ 4 and 6 meters (at the moment, n. 2/3 are active);\r\n\r\n    5 manual inclinometers\
+    \ installed at varying depths across the unstable slope (~4.5 to 5 to ~6 meters\
+    \ from April 2022 to September 2024)."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/504dc9e9-3ea8-4ef8-9a00-b042fac11300
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:43.411873+00:00'
+      source_modified_at: '2025-09-08T10:24:26+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/504dc9e9-3ea8-4ef8-9a00-b042fac11300
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:43.411873+00:00'
+      source_modified_at: '2025-09-08T10:24:26+02:00'
+  - name: remote sensing parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: remote sensing parameter
+      record_url: https://deims.org/api/sites/504dc9e9-3ea8-4ef8-9a00-b042fac11300
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20946
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:43.411873+00:00'
+      source_modified_at: '2025-09-08T10:24:26+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/504dc9e9-3ea8-4ef8-9a00-b042fac11300
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:43.411873+00:00'
+      source_modified_at: '2025-09-08T10:24:26+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/504dc9e9-3ea8-4ef8-9a00-b042fac11300
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:43.411873+00:00'
+      source_modified_at: '2025-09-08T10:24:26+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

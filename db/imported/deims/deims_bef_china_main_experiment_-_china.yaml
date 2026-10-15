@@ -1,0 +1,69 @@
+sites:
+- id: site_kb:deims-bef_china_main_experiment_-_china
+  name: BEF China Main Experiment - China
+  network_registrations:
+  - network: DEIMS
+    network_id: 5405581a-a34f-47b9-854a-319acb699654
+    network_url: https://deims.org/5405581a-a34f-47b9-854a-319acb699654
+    name: BEF China Main Experiment - China
+  location:
+    latitude: 29.102744
+    longitude: 117.921022
+    country: China
+    elevation_meters: 190.0
+  description: "The joint Chinese-German-Swiss research project “BEF-China” (FOR 891)\
+    \ integrates more than 15 German, Swiss, and Chinese universities and institutes\
+    \ into 14 collaborative subprojects. In 2009 and 2010, BEF-China established a\
+    \ large forest biodiversity–ecosystem functioning (BEF) experiment at the subtropical\
+    \ forest site Xingangshan in Jiangxi Province, China. It is the first BEF forest\
+    \ experiment in the highly species-rich subtropics.\r\n<!--break-->\r\nThe BEF-China\
+    \ Main Experiment was established at two sites (A and B), covering 50 ha. In total,\
+    \ there are 566 plots of 400 trees each, ranging in diversity from monocultures\
+    \ to 24-species mixtures. The experiment used 42 native tree species and 10 shrub\
+    \ species, combined into different species pools. More than 400 000 tree and shrub\
+    \ saplings were planted.\r\n<!--break-->\r\nThe present research concentrates\
+    \ on measuring ecosystem functions in the experimental plots, namely primary productivity,\
+    \ carbon and nitrogen storage, nutrient cycling, and prevention of soil erosion.\
+    \ The latter process is an ecosystem service which has until now never been studied\
+    \ in an experimental biodiversity manipulation, but has prominent importance in\
+    \ this region. An additional research focus will be interactions with other trophic\
+    \ levels and strata (herb layer, soil macrofauna, herbivores, decomposers, mycorrhiza,\
+    \ soil microorganisms). To meet these objectives, a wide range of scientists contribute\
+    \ to the BEF-China project, involving groups focusing on tree growth allometries,\
+    \ plant functional traits, plant-insect interactions, wood decomposition, phosphorus\
+    \ cycling and erosion potential."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/5405581a-a34f-47b9-854a-319acb699654
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:02.981254+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5405581a-a34f-47b9-854a-319acb699654
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:02.981254+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/5405581a-a34f-47b9-854a-319acb699654
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:02.981254+00:00'
+      source_modified_at: '2020-06-29T10:39:02+02:00'
+  status: ACTIVE

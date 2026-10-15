@@ -1,0 +1,262 @@
+{
+  "source_url": "https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d",
+  "retrieved_at": "2026-10-15T17:51:12.828139+00:00",
+  "record": {
+    "title": "Wildwood Grove – Dulverton - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "73781772-239e-4b6b-856b-95c1f199998d"
+    },
+    "type": "site",
+    "created": "2026-01-20T15:27:40+01:00",
+    "changed": "2026-01-26T17:22:50+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": null,
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Wildwood Grove – project website",
+            "value": "https://www.wildwoodgrove.co.uk"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The site comprises a mosaic of fields influenced by springs, seepage zones, wet ground, and a small headwater watercourse with downstream connectivity. These characteristics make the site suitable for long-term observation of hydrological, ecological, and soil processes during land-use transition.\r\nThe site is being secured for long-term ecological use (minimum 30 years) and is intended to function as an open, non-extractive observation and monitoring site. No fixed experimental design has been imposed at this stage, allowing for phased and proportionate monitoring aligned with future research or evidence-led initiatives.",
+        "citation": "Burns, J. (2026). Wildwood Grove – Dulverton: Headwater land transition and restoration observatory. Somerset, United Kingdom.",
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2025,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Wildwood Grove – Dulverton",
+        "shortName": "WG-Dulverton",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "not applicable",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/notApplicable"
+          }
+        ],
+        "landUse": [
+          {
+            "label": "other uses",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_5_AreasWithoutAnySpecifiedPlannedUse"
+          },
+          {
+            "label": "transitional areas",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_1_TransitionalAreas"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2026-01/Land%20at%20Dulverton_0.png",
+            "alt": "Aerial view of Wildwood Grove headwater site near Dulverton, Somerset, UK"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1200,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "grasslands",
+        "ecosystemType": [
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          },
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          }
+        ],
+        "landforms": [
+          {
+            "label": "River",
+            "uri": null
+          }
+        ],
+        "geoBonBiome": [
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": "The site lies within the Upper Exe catchment and is underlain by mixed Devonian sedimentary geology typical of Exmoor fringe landscapes. Local geology contributes to shallow groundwater emergence, spring formation, and variable permeability across the site.",
+        "hydrology": "The site contains multiple groundwater-influenced seepage zones, springs, and a small headwater watercourse with downstream connectivity. Historic agricultural drainage has influenced surface and subsurface flow pathways. The site is currently in an observation-led phase to document hydrological behaviour during early post-agricultural recovery.",
+        "soils": "Soils are predominantly permanent grassland soils with areas of seasonal waterlogging and locally high soil moisture. Variability in drainage and soil wetness reflects underlying geology, historic management, and proximity to springs and surface flows.",
+        "vegetation": "Vegetation is currently dominated by improved and semi-improved grassland, with early successional changes evident following cessation of agricultural management. Areas adjacent to wet ground and watercourses show increasing structural and botanical diversity."
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-3.575106 51.031706, -3.573003 51.032542, -3.571715 51.031598, -3.56708 51.033649, -3.565364 51.032219, -3.567681 51.031598, -3.569098 51.030896, -3.568754 51.029871, -3.574204 51.027603, -3.575191 51.027711, -3.575106 51.02844, -3.575106 51.031706))",
+        "coordinates": "POINT (-3.572338 51.030775)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 260,
+          "min": 240,
+          "max": 290,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 21.28,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "sub-catchment within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "groundwater level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "perched water table depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22184"
+          },
+          {
+            "label": "runoff amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30032"
+          },
+          {
+            "label": "soil depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22247"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22261"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22271"
+          },
+          {
+            "label": "soil texture",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22279"
+          },
+          {
+            "label": "surface runoff",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21510"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water table",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30028"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "footpath/trail",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 0,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": "Site is operated as a long-term observation and evidence platform.\r\nSite visits and observations occur on an irregular and seasonal basis, driven by hydrological conditions, ecological processes, and research requirements rather than fixed sampling intervals.\r\nObservation intensity varies through the year, with increased activity during wetter seasons and key ecological periods. No fixed maintenance schedule is defined at this stage.",
+          "siteVisitInterval": 0
+        },
+        "notes": "Wildwood Grove – Dulverton is operated as a low-infrastructure, land-based research platform during early post-agricultural transition. Instrumentation, power supply, and data transmission are mission-specific and deployed temporarily by visiting research teams where appropriate. Permanent fixed infrastructure is intentionally minimised to preserve ecological processes and future optionality.",
+        "collection": [
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No staff room",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "The opportunity to collaborate on the project using the dataset",
+              "The opportunity to review the results based on the dataset",
+              "The data provider is given and agrees to a statement of uses to which the dataset will be put"
+            ],
+            "notes": "Data generated at Wildwood Grove – Dulverton is collected as part of a long-term, observation-led land transition and restoration programme.\r\nDuring the early phases, data access is managed on a case-by-case basis to ensure appropriate use, correct interpretation, and alignment with the site’s ecological recovery objectives.\r\nCollaborative use of data is encouraged, with appropriate acknowledgement of Wildwood Grove as the data source.\r\nPublic data release may occur at later stages where datasets are sufficiently mature, validated, and contextually supported."
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

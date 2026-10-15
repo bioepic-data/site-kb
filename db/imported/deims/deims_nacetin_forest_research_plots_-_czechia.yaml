@@ -1,0 +1,104 @@
+sites:
+- id: site_kb:deims-nacetin_forest_research_plots_-_czechia
+  name: Nacetin forest research plots - Czechia
+  network_registrations:
+  - network: DEIMS
+    network_id: 85a36451-2dcf-4221-8d1e-5b95af210438
+    network_url: https://deims.org/85a36451-2dcf-4221-8d1e-5b95af210438
+    name: Nacetin forest research plots - Czechia
+  location:
+    latitude: 50.5901328
+    longitude: 13.2595011
+    country: Czechia
+    elevation_meters: 800.0
+  description: The spruce and beech stands under study are located in the Czech Republic
+    in the Ore Mountains near the German border, close to the village of Načetín (50_35026”
+    N, 13_15014” E). Both of the stands lie close to each other (ca. 700 m), so they
+    are exposed to the same geological and climatic conditions. The average annual
+    temperature is 7.1 _C and average annual precipitation is 1110 mm (2005–2017).
+    Paragneiss underlies both stands, which are sloped to the north-west. The dominant
+    soil type is dystric cambisol. The spruce stand lies at an elevation of 784ma.s.l.
+    and it is covered by 80 years old monoculture of Norway spruce (Picea abies).
+    The beech stand is situated at an elevation of 823 m a.s.l. and it is composed
+    predominantly of European beech trees (Fagus sylvatica) that are approximately
+    140 years old.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+      source_modified_at: '2025-05-01T19:03:24+02:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+      source_modified_at: '2025-05-01T19:03:24+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+      source_modified_at: '2025-05-01T19:03:24+02:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+      source_modified_at: '2025-05-01T19:03:24+02:00'
+  - name: remote sensing parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: remote sensing parameter
+      record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20946
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+      source_modified_at: '2025-05-01T19:03:24+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+      source_modified_at: '2025-05-01T19:03:24+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+      source_modified_at: '2025-05-01T19:03:24+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

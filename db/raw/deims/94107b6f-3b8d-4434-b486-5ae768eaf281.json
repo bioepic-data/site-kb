@@ -1,0 +1,333 @@
+{
+  "source_url": "https://deims.org/api/sites/94107b6f-3b8d-4434-b486-5ae768eaf281",
+  "retrieved_at": "2026-10-15T17:44:45.665488+00:00",
+  "record": {
+    "title": "Central Fluminense Mosaic of Parks and Reserves (Mosaico Central Fluminense) - Brazil",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "94107b6f-3b8d-4434-b486-5ae768eaf281"
+    },
+    "type": "site",
+    "created": "2016-06-22T16:49:28+02:00",
+    "changed": "2021-02-15T10:41:28+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Brazil",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d22789fb-4663-4a77-a6ec-ddb279906cc9"
+              }
+            },
+            "siteCode": "LTER_SAM_BR_21",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Marcus Vinicius Vieira",
+            "email": "mvvieira@gmail.com",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Sistema de Informação sobre a Biodiversidade Brasileira",
+            "url": "http://www.sibbr.gov.br/areas/?area=explorar&secao=indroducao",
+            "ror": null
+          },
+          {
+            "type": "person",
+            "name": "Marcus Vinicius Vieira",
+            "email": "mvvieira@gmail.com",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "National Council for Scientific and Technological Development (CNPq)",
+            "url": "http://www.cnpq.br",
+            "ror": "https://ror.org/03swz6y49"
+          }
+        ],
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Covers an elevational gradient from 0 to 2,200 m in the Serra dos Órgãos mountain range, with high elevation grasslands (campos de altitude), cloud and lowland rainforests in the Atlantic Forest biome. In the lowlands it includes fragmented landscapes due to deforestation occurred in the last 500 years, with a variety of land uses in the matrix were fragments are inserted. Long term studies and monitoring actions focus on the effects two main factors: effects of climate change and land use. Presents high species richness, embracing a National Park (Parque Nacional da Serra dos Órgãos), a state park (Parque Estadual dos Três Picos), a private reserve (Reserva Ecológica Guapiaçu), and other federal and state protected areas. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1997,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Central Fluminense Mosaic of Parks and Reserves (Mosaico Central Fluminense)",
+        "shortName": "PELD-MCF",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Rem_2012.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/UCs_MCF.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 21,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 3600,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "rainforest",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Rainforest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-42.909328 -22.471718)",
+        "country": [
+          "Brazil"
+        ],
+        "elevation": {
+          "avg": 700,
+          "min": 0,
+          "max": 2200,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 292597,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "carbon dioxide flux per soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22083"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "land use",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22143"
+          },
+          {
+            "label": "land use intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22144"
+          },
+          {
+            "label": "landscape composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22146"
+          },
+          {
+            "label": "landscape configuration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22147"
+          },
+          {
+            "label": "landscape connectivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22148"
+          },
+          {
+            "label": "landscape fragmentation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22149"
+          },
+          {
+            "label": "landscape metrics",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10042"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22169"
+          },
+          {
+            "label": "patch density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22179"
+          },
+          {
+            "label": "patch size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22180"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22257"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "10-100 kW",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No tower on site",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of places",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "The opportunity to collaborate on the project using the dataset",
+              "Reprints of articles using the dataset must be provided to the data provider"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Emerging Site"
+        }
+      }
+    }
+  }
+}

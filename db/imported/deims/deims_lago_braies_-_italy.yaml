@@ -1,0 +1,73 @@
+sites:
+- id: site_kb:deims-lago_braies_-_italy
+  name: Lago Braies - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: c54a2c21-2079-400d-b169-5e2de8dfdf06
+    network_url: https://deims.org/c54a2c21-2079-400d-b169-5e2de8dfdf06
+    name: Lago Braies - Italy
+  location:
+    latitude: 46.6936
+    longitude: 12.0848
+    country: Italy
+    elevation_meters: 1496.0
+  description: "The site Lake of Braies lies in the Eastern Alps at 1489 m a.s.l.\
+    \ and is the fourth largest natural lake of the province of Bolzano. The lake\
+    \ attracts many visitors during summer because of its scenic charm. The lake is\
+    \ oligotrophic and was formed by damming. The watershed is almost entirely composed\
+    \ of limestone and its soil is covered by rocks (32%), pasture (25%), forest (16%),\
+    \ shrubs (14%) and pioneer vegetation (12%). The lake is fed primarily by snowmelt\
+    \ water that reaches the lake mainly through underground springs. The outlet is\
+    \ also mostly underground. The annual level fluctuations are of 3- 4 m. \r\nThe\
+    \ first studies date back to the end of the 19th century when Damian published\
+    \ a paper including a bathymetric map and notes on geology and hydrography. During\
+    \ the first half of the 20th century various authors have conducted studies on\
+    \ the plankton. In 1967 a study was conducted by Engelen on the limnological characteristics\
+    \ of the lake including the physical-chemical properties of water and sediment.\r\
+    \nSince 1979, the lake is being limnologically surveyed, at non-regular intervals\
+    \ throughout the year, by the Environmental Agency of the province of  Bolzano\
+    \ in order to monitor its conditions and its development over time. This programme\
+    \ comprises basic limnology including physical and chemical profiles and qualitative\
+    \ and quantitative phyto- and zooplankton analyses. Because of its high naturalistic\
+    \ value, the lake is part of the European network monitoring programme since 2008\
+    \ and is subjected to the survey of its various biological elements according\
+    \ to the European WFD directive: in addition to phytoplankton, macrophytes, benthic\
+    \ fauna and fish are as well analyzed and evaluated at predetermined minimum intervals.\r\
+    \nThe Biological Laboratory, in charge of surveying the lake, is equipped with\
+    \ the necessary instruments and is located at a distance of 108 km from the lake."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/c54a2c21-2079-400d-b169-5e2de8dfdf06
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:18.294214+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/c54a2c21-2079-400d-b169-5e2de8dfdf06
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:18.294214+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/c54a2c21-2079-400d-b169-5e2de8dfdf06
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:18.294214+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

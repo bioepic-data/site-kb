@@ -1,0 +1,64 @@
+sites:
+- id: site_kb:deims-arrecifes_del_pacifico_mex-lter_-_mexico
+  name: Arrecifes del Pacifico Mex-LTER - Mexico
+  network_registrations:
+  - network: DEIMS
+    network_id: dcc17444-dbe6-4284-9eb8-9c7f39787bd7
+    network_url: https://deims.org/dcc17444-dbe6-4284-9eb8-9c7f39787bd7
+    name: Arrecifes del Pacifico Mex-LTER - Mexico
+  location:
+    latitude: 20.3
+    longitude: -107.0
+    country: Mexico
+    elevation_meters: 0.0
+  description: 'Arrecifes coralinos y rocosos del Pacífico Mexicano desde Baja California
+    hasta Chiapas. El trabajo se desarrolla en cuatro principales regiones: Sur del
+    Golfo de California, Islas Revillagigedo, Bahía de Banderas y Bahías de Huatulco.
+    Cabo Pulmo es el de mayor extensión. Tiene registradas 67 especies de corales
+    en 368 localidades.'
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/dcc17444-dbe6-4284-9eb8-9c7f39787bd7
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:07.133478+00:00'
+      source_modified_at: '2020-06-29T10:38:58+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/dcc17444-dbe6-4284-9eb8-9c7f39787bd7
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:07.133478+00:00'
+      source_modified_at: '2020-06-29T10:38:58+02:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/dcc17444-dbe6-4284-9eb8-9c7f39787bd7
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:07.133478+00:00'
+      source_modified_at: '2020-06-29T10:38:58+02:00'
+  - name: water salinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water salinity
+      record_url: https://deims.org/api/sites/dcc17444-dbe6-4284-9eb8-9c7f39787bd7
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10308
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:07.133478+00:00'
+      source_modified_at: '2020-06-29T10:38:58+02:00'
+  status: ACTIVE

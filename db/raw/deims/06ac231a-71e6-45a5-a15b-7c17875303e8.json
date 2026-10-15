@@ -1,0 +1,222 @@
+{
+  "source_url": "https://deims.org/api/sites/06ac231a-71e6-45a5-a15b-7c17875303e8",
+  "retrieved_at": "2026-10-15T17:38:03.862188+00:00",
+  "record": {
+    "title": "Yundola - Bulgaria",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "06ac231a-71e6-45a5-a15b-7c17875303e8"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:04:38+01:00",
+    "changed": "2021-11-23T11:49:20+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Bulgaria",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "20ad4fa2-cc07-4848-b9ed-8952c55f1a3f"
+              }
+            },
+            "siteCode": "LTER_EU_BG_008",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Elena Rafailova",
+            "email": "erafailova@yahoo.com",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Elena Rafailova",
+            "email": "erafailova@yahoo.com",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The ecological station is situated in the Yundola place in the Rila Mountain in Central South Bulgaria on an area of 321 hectares at an altitude of 1500 m. It includes 10 plots with different exposition and density of tree vegetation. The plots are equipped with controlled measuring systems. The open areas region is covered by dense coniferous forests of herbaceous species on the age of about 150 years. The river network is dense and includes small permanent and numerous temporary streams with high velocity. The stations were founded in 1961. However, the regular observations have started since 1964-1965.\r\n \r\n\r\nThe ecological station in Yundola is a part of a Training Experimental Forest Enterprise. Much other investigations, experiments, and students training, concerning almost all components of the forest ecosystems are carried out there since its creation in the beginning of the sixties. For example, studies were performed on: the characteristics of soil and litter forest cover, the forest stand and the regeneration, the understanding of run-off chemistry and leaf mass biochemistry, the fertilizing, the influence of logging technology of water supply, soil protection, growth functions of the forests, the precipitation chemistry in case of air pollution, etc.\r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1965,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Yundola",
+        "shortName": "Yundola",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Picture5.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 6.59,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 762.6,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (23.8545 42.0649)",
+        "country": [
+          "Bulgaria"
+        ],
+        "elevation": {
+          "avg": 1403,
+          "min": 1300,
+          "max": 1650,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 321,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "The opportunity to collaborate on the project using the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

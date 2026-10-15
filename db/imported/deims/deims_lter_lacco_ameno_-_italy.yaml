@@ -1,0 +1,94 @@
+sites:
+- id: site_kb:deims-lter_lacco_ameno_-_italy
+  name: LTER Lacco Ameno - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 4a05a2fb-0015-4310-96d5-a94c019bda58
+    network_url: https://deims.org/4a05a2fb-0015-4310-96d5-a94c019bda58
+    name: LTER Lacco Ameno - Italy
+  location:
+    latitude: 40.758167
+    longitude: 13.887333
+    country: Italy
+    elevation_meters: -16.0
+  description: "Researches on marine benthic organisms around the Flegrean islands\
+    \ in the Gulf of Naples have been  traditionally performed at the Stazione Zoologica\
+    \ since its foundation in 1872. The peculiarity of this area is strictly related\
+    \ to its geographic location, corrisponding to the winter surface isotherm of\
+    \ 14°C that cuts the Mediterranean Sea into two and represents a climatic boundary\
+    \ barrier for species with different biogeographic affinities. The richness in\
+    \ marine species and habitats of this area (including the islands of Ischia, Procida\
+    \ and Vivara) is preserved by the establishment in 2008 of the Marine Protected\
+    \ Area ‘Regno di Nettuno’. \r\nOne of the most important habitat of the Gulf of\
+    \ Naples is represented by the Posidonia oceanica beds, an endemic seagrass that\
+    \ forms around the island of Ischia a continuous belt, from 0.5 m down to 38 m\
+    \ in depth, covering about 1700ha of the seafloor.  Several meadows have been\
+    \ studied by the Benthic Group, located at Villa Dohrn on the Island of Ischia:\
+    \ Scarrupata di Barano, Cava dell’Isola, La Nave, San Pietro, Castello Aragonese\
+    \  and Lacco Ameno. \r\nThe best-known meadow is that of Lacco Ameno (LA), studied\
+    \ since 1976, and located in the northern part of the island, in the bay bounded\
+    \ by ‘Monte Vico’ and the city of Lacco Ameno (40,7598 N, 13,900 E). Only in this\
+    \ station, the meadow is continuous from 0.5 m down to 32 m in depth and it covers\
+    \ an area of about 308 ha.\r\nIn this pilot site (Station LTER-LA), a significant\
+    \ variability at different spatial and temporal scales has been recorded for plant\
+    \ descriptors and associated communities. In particular, at 5 and 10 m depths,\
+    \ a decrease in meadow density (a descriptor of the ecological status of a meadow,\
+    \ widely used by many authors to indicate the plant abundance) is evident since\
+    \ the end of 1980. This fact seems to suggest an increase in the anthropic pressure,\
+    \ even if other factors, such as physical disturbance, topographic complexity\
+    \ and nutrient availability, might operate to modify this system. \r\nThe high\
+    \ plasticity of P. oceanica, which responds to a wide range of environmental conditions,\
+    \ have driven our researches towards the study of the effects of climatic changes,\
+    \ such as ocean acidifcation, on this vegetated system.  Issues associated to\
+    \ climate changes are being approached  also by the comparison  with another Ischia\
+    \ P.oceanica meadow.  This is located at Castello Aragonese (40,73083°N 13,96310°E),\
+    \ on the east side of the island, where  a number of vents which release CO2 affect\
+    \ the P. oceanica system. These CO2 vents are unusual in that they are not heated\
+    \ and neither do they produce toxic compounds, providing a natural laboratory\
+    \ for the study of the ecosystem level effects of ocean acidification."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/4a05a2fb-0015-4310-96d5-a94c019bda58
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:06.223302+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/4a05a2fb-0015-4310-96d5-a94c019bda58
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:06.223302+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/4a05a2fb-0015-4310-96d5-a94c019bda58
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:06.223302+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/4a05a2fb-0015-4310-96d5-a94c019bda58
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:06.223302+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  status: ACTIVE

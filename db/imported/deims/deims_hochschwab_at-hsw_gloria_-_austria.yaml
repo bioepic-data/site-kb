@@ -1,0 +1,62 @@
+sites:
+- id: site_kb:deims-hochschwab_at-hsw_gloria_-_austria
+  name: Hochschwab (AT-HSW) GLORIA - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 4ac03ec3-39d9-4ca1-a925-b6c1ae80c90d
+    network_url: https://deims.org/4ac03ec3-39d9-4ca1-a925-b6c1ae80c90d
+    name: Hochschwab (AT-HSW) GLORIA - Austria
+  location:
+    latitude: 47.62202
+    longitude: 15.149292
+    country: Austria
+    elevation_meters: 2100.0
+  description: "GLORIA Target region\r\n\r\nThe site lies in the alpine zone of Hochschwab\
+    \ in the NE-Alps. It is defined as a standard Target region of the GLORIA network\
+    \ (www.gloria.ac.at). Hochschwab_GLORIA was the networks first test site for standardised\
+    \ monitoring of alpine summit vegetation established in 1998. Regular monitoring\
+    \ started in 2001 as part of the EU-FP-5 project GLORIA-Europe. All permanenent\
+    \ plots were resurveyed in 2008 and in 2015. The site consists of 4 separate summit\
+    \ sites arranged along the elevation gradient between 1910 and 2255m. The main\
+    \ scientific purpose is to detect impacts of climate change on alpine vegetation\
+    \ and its biodiversity. \r\nIn addition, downslope transects to the treeline ecotone\
+    \ were established in 2008, diversity of soil nematodes were studied at the GLORIA\
+    \ summit areas and the region was part of an assessment of useful plants of the\
+    \ alpine life zone.\r\nFor the sampling design and recording methods see the GLORIA\
+    \ Field manual and update documents downloadable under: http://www.gloria.ac.at/?a=20"
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/4ac03ec3-39d9-4ca1-a925-b6c1ae80c90d
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:24.236310+00:00'
+      source_modified_at: '2023-07-24T11:33:13+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/4ac03ec3-39d9-4ca1-a925-b6c1ae80c90d
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:24.236310+00:00'
+      source_modified_at: '2023-07-24T11:33:13+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/4ac03ec3-39d9-4ca1-a925-b6c1ae80c90d
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:24.236310+00:00'
+      source_modified_at: '2023-07-24T11:33:13+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

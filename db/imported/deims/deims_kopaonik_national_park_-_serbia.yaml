@@ -1,0 +1,127 @@
+sites:
+- id: site_kb:deims-kopaonik_national_park_-_serbia
+  name: Kopaonik National Park - Serbia
+  network_registrations:
+  - network: DEIMS
+    network_id: 6c636750-d0a7-4df3-bcdb-6146bc915496
+    network_url: https://deims.org/6c636750-d0a7-4df3-bcdb-6146bc915496
+    name: Kopaonik National Park - Serbia
+  location:
+    latitude: 43.3018
+    longitude: 20.8563
+    country: Serbia
+    elevation_meters: 1302.0
+  description: Kopaonik is the largest and the longest mountain range in Serbia located
+    in its central part. It is proclaimed a national park in 1981. The observatory
+    site in Kopaonik is located in strictly protected spruce forest, on the lower
+    distribution of spruce zone on the border zone with beach forest. The mountain
+    is characterized by alternating climate conditions; from warmer sub-mediterranean
+    climate in the lowest part of the mountain to cold subalpine climate in high elevation
+    areas. Vertical profile of the mountain with different climate zones and geological
+    diversity resulted in high habitat diversity. The largest part of the area is
+    covered by climatologically adapted mixed deciduous and coniferous forest having
+    obvious zonal transition. A large number of endemic and relict plant species makes
+    Kopaonik one of the most significant biodiversity centers in Serbia. Main threats
+    to the area besides soil erosion present logging, deforestation and tourism.
+  variables:
+  - name: carbon-to-nitrogen ratio
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: carbon-to-nitrogen ratio
+      record_url: https://deims.org/api/sites/6c636750-d0a7-4df3-bcdb-6146bc915496
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21350
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:30.973818+00:00'
+      source_modified_at: '2022-03-23T14:34:29+01:00'
+  - name: deadwood decaying rate
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: deadwood decaying rate
+      record_url: https://deims.org/api/sites/6c636750-d0a7-4df3-bcdb-6146bc915496
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22101
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:30.973818+00:00'
+      source_modified_at: '2022-03-23T14:34:29+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/6c636750-d0a7-4df3-bcdb-6146bc915496
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:30.973818+00:00'
+      source_modified_at: '2022-03-23T14:34:29+01:00'
+  - name: microbial diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: microbial diversity
+      record_url: https://deims.org/api/sites/6c636750-d0a7-4df3-bcdb-6146bc915496
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22169
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:30.973818+00:00'
+      source_modified_at: '2022-03-23T14:34:29+01:00'
+  - name: soil moisture field capacity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil moisture field capacity
+      record_url: https://deims.org/api/sites/6c636750-d0a7-4df3-bcdb-6146bc915496
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10396
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:30.973818+00:00'
+      source_modified_at: '2022-03-23T14:34:29+01:00'
+  - name: soil pH
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil pH
+      record_url: https://deims.org/api/sites/6c636750-d0a7-4df3-bcdb-6146bc915496
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22264
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:30.973818+00:00'
+      source_modified_at: '2022-03-23T14:34:29+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/6c636750-d0a7-4df3-bcdb-6146bc915496
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:30.973818+00:00'
+      source_modified_at: '2022-03-23T14:34:29+01:00'
+  - name: total carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total carbon
+      record_url: https://deims.org/api/sites/6c636750-d0a7-4df3-bcdb-6146bc915496
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22296
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:30.973818+00:00'
+      source_modified_at: '2022-03-23T14:34:29+01:00'
+  - name: tree condition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree condition
+      record_url: https://deims.org/api/sites/6c636750-d0a7-4df3-bcdb-6146bc915496
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22302
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:30.973818+00:00'
+      source_modified_at: '2022-03-23T14:34:29+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

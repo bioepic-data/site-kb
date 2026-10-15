@@ -1,0 +1,230 @@
+{
+  "source_url": "https://deims.org/api/sites/e9636471-06b8-4bc7-a14b-e6a4a698a838",
+  "retrieved_at": "2026-10-15T17:48:04.194694+00:00",
+  "record": {
+    "title": "Pringle Creek NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "e9636471-06b8-4bc7-a14b-e6a4a698a838"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-17T11:08:38+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "PRIN",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Rajit Patankar",
+            "email": "rpatankar@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/prin"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Pringle Creek (PRIN) is an aquatic NEON field site located in Wise County, Texas, about 3.8 km (2.4 mi.) west of Alvord, TX. The site is hosted by the U.S. Forest Service. The stream is deeply incised and is mostly pool and run, with one riffle section. It drains a watershed of 48.9 km2 (12,000 acres) of mixed oak forest, savanna, and riparian woodland with portions protected by the Caddo-LBJ National Grassland. PRIN is part of NEON's Southern Plains Domain (D11), which stretches over the central sections of Texas and Oklahoma and includes portions of southern Kansas and southern New Mexico. D11 has three other NEON field sites, including one additional aquatic and two terrestrial sites, located in Texas and Oklahoma. PRIN is colocated with the NEON LBJ National Grassland (CLBJ) terrestrial field site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2016,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "groups with",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Lyndon B. Johnson National Grassland NEON - United States of America",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "fa10b3cb-44a1-430e-9310-d0433b6cc484"
+                },
+                "changed": "2025-09-17T11:13:33+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "Pringle Creek NEON",
+        "shortName": "PRIN",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/48754679218_65dba80f48_z.jpg",
+            "alt": "equipment at Pringle Creek"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 17.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 898,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Deciduous Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": "Pringle Creek is a low gradient sandy-bottomed stream. Due to this sandy substrate the stream banks are highly erodible. The primary soils of the Wise County area surrounding Pringle Creek are comprised of gently sloping neutral to slightly acidic soils f",
+        "hydrology": null,
+        "soils": "The surface water flow regime of Pringle Creek has similar attributes that that of semi-arid waterways. Stream discharge exhibits strong seasonal patterns, with the greatest base and pulse flows observed in mid to late spring (May through June). Throughou",
+        "vegetation": "The dense riparian canopy surrounding Pringle Creek is a mixed oak forest. Dominant species of the mixed oak forest area include post oak and black-jack oak. However, the savannah portions of watershed are dominated by little blue stem co-associated with big blue stem and Indiangrass (USDA, 2009)."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-97.78226 33.37859)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 253,
+          "min": 258,
+          "max": 334,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 4910,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,184 @@
+sites:
+- id: site_kb:deims-marine_research_station_zmiinyi_island_-_ukraine
+  name: Marine research station "Zmiinyi island" - Ukraine
+  network_registrations:
+  - network: DEIMS
+    network_id: ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+    network_url: https://deims.org/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+    name: Marine research station "Zmiinyi island" - Ukraine
+  location:
+    latitude: 45.256111
+    longitude: 30.201055
+    country: Ukraine
+    elevation_meters: 17.0
+  description: Marine Research Station “Zmiinyi Island” (ZMN) of the Odessa National
+    I. I. Mechnikov University (ONU) is located on the Zmiinyi Island (45°15'22.0"
+    N and 30°12'03.8" E) in the north western Black Sea (NWBS) about 35-40 km far
+    from the Danube Delta.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: dissolved nutrient
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved nutrient
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22107
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: inorganic nitrogen content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: inorganic nitrogen content
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22136
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: water acidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water acidity
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22030
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: water salinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water salinity
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/10308
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/ff4a25df-809d-46b6-ae68-a5dccc5f34ab
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:35.928958+00:00'
+      source_modified_at: '2021-02-15T09:37:45+01:00'
+  status: ACTIVE

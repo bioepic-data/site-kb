@@ -1,0 +1,264 @@
+{
+  "source_url": "https://deims.org/api/sites/c595d441-ca98-483d-a259-3899bb55e32b",
+  "retrieved_at": "2026-10-15T17:35:14.302772+00:00",
+  "record": {
+    "title": "Kiryu Experimental Watershed - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "c595d441-ca98-483d-a259-3899bb55e32b"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:32:54+01:00",
+    "changed": "2020-06-29T10:41:20+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-30",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "FLUXNet",
+            "uri": "https://fluxnet.org/"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Yoshiko Kosugi",
+            "email": "ykosugi@kais.kyoto-u.ac.jp",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Forest Hydrology laboratory, Graduate School of Agriculture, Kyoto University",
+            "url": "http://www.bluemoon.kais.kyoto-u.ac.jp/fh_index.html",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Forest Hydrology laboratory, Graduate School of Agriculture, Kyoto University",
+            "url": "http://www.bluemoon.kais.kyoto-u.ac.jp/fh_index.html",
+            "ror": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Forest Hydrology laboratory, Graduate School of Agriculture, Kyoto University",
+            "url": "http://www.bluemoon.kais.kyoto-u.ac.jp/fh_index.html",
+            "ror": null
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.bluemoon.kais.kyoto-u.ac.jp/kiryu-e/contents.h"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The watershed covers 5.99 ha and ranges in elevation from 190 to 255 m. A meteorological observation tower is located in a small catchment within the experimental watershed. The watershed is mainly covered by Chamaecyparis obtuse Sieb. et Zucc. (Japanese cypress, an evergreen conifer) planted in 1959. Pinus densiflora Sieb. et Zucc. and several deciduous broad-leaved tree species are sparsely present. In 1990's, pine-wilt disease has decreased P. densiflora stands. Eurya japonica Thunb. dominates the forest floor. The total leaf area index (LAI) ranges approximately from 4.5 to 5.5 with a little seasonal fluctuation. The entire catchment consists of weathered granite with abundant amounts of albite. The topographic map of the area shows a mild northward inclination of approximately 9.2 degrees. Winds flow mainly from the north during the day and from the south at night. The annual mean air temperature from 1999 to 2012 was 13.5 C, and annual mean precipitation from 1972 to 2012 was 1,651 mm. The site therefore has a warm temperate climate. Rainfall occurs throughout the year, peaking in summer. Little snow falls in winter.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1967,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Kiryu Experimental Watershed",
+        "shortName": "KEW",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/P1000060.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 13.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1646,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "evergreen_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (136 34.9667)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": 223,
+          "min": 190,
+          "max": 255,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 5.99,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "paved road",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 15,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 15
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "1 place",
+            "uri": null
+          },
+          {
+            "label": "10-100 kW",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "More than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Temperature Controlled Container",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

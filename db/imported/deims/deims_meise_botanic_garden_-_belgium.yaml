@@ -1,0 +1,165 @@
+sites:
+- id: site_kb:deims-meise_botanic_garden_-_belgium
+  name: Meise Botanic Garden - Belgium
+  network_registrations:
+  - network: DEIMS
+    network_id: b6420f1b-00a6-4e36-bc5c-65de070ff75e
+    network_url: https://deims.org/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+    name: Meise Botanic Garden - Belgium
+  location:
+    latitude: 50.9281205
+    longitude: 4.3287709
+    country: Belgium
+    elevation_meters: 31.0
+  description: "The site of  Botanic Garden Meise is a 92 ha domain near Brussels.\
+    \ It has been assembled from parts of two historic castle parks. For more than\
+    \ 75 years it has been home to a collection of plants, as well as a research institute\
+    \ dedicated to botany, forming one of the largest botanic gardens in Europe but\
+    \ also an important tourist attraction close to Brussels. Some habitats get a\
+    \ high degree of disturbance, either due to garden maintenance, or from the large\
+    \ number of visitors. There are also managed and more natural areas. A variety\
+    \ of terrestrial and aquatic habitats occur, among which valuable woody (semi-)natural\
+    \ areas, and also managed meadows. \r\n\r\nThe study of biodiversity in the park\
+    \ has relealed an exceptional species richness in many taxonomic groups. More\
+    \ than 600 wild vascular plant species have been found since 2002, including rare\
+    \ species that were inadvertently introduced during the 19th century, so called\
+    \ wood lawn neophytes . Since 1993 the ectomycorrhizal fungi have been monitored,\
+    \ and there are observations of 52 Red List species in the domain. The park is\
+    \ also the richest Belgian site for Laboulbeniales (Ascomycetes), obligate ectoparasites\
+    \ of Arthropoda. Especially the wet ash-alder forests hold a number of rare and\
+    \ unique taxa and host-parasite combinations, some of them with only a few localities\
+    \ known worldwide. Moreover, the domain is a biodiversity hotspot for lichens\
+    \ and lichenicolous fungi, among other factors as a result of management, such\
+    \ as the regular maintenance of the undergrowth which has a positive effect on\
+    \ light-loving epiphytic lichens, and also due to the diversity of habitats and\
+    \ the large range of different substrates of varying age and of ecological conditions.\
+    \ Another well represented group are diatoms (Bacillariophyta), of which a mere\
+    \ survey in a small pond already yielded two species which have been described\
+    \ as new to science. \r\nThe site is also rich in fauna, for example rare bat\
+    \ species that overwinter in our historical underground ice cellars. The diverse\
+    \ range of cultivated species also attracts an enormous range of arthropods and\
+    \ plant pathogens, which we know exceeds what we know of it."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  - name: birds presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: birds presence
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10082
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  - name: leaf area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22156
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  - name: plant carbon concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant carbon concentration
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22187
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  - name: plant height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant height
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22192
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  - name: population size
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: population size
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22199
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  - name: root density
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: root density
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22216
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  - name: root growth rate
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: root growth rate
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22218
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  - name: species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species presence
+      record_url: https://deims.org/api/sites/b6420f1b-00a6-4e36-bc5c-65de070ff75e
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/10081
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:27.458663+00:00'
+      source_modified_at: '2026-06-22T15:36:26+02:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

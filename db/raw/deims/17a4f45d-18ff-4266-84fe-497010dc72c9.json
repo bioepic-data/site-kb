@@ -1,0 +1,270 @@
+{
+  "source_url": "https://deims.org/api/sites/17a4f45d-18ff-4266-84fe-497010dc72c9",
+  "retrieved_at": "2026-10-15T17:37:26.174990+00:00",
+  "record": {
+    "title": "Loch Tinker - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "17a4f45d-18ff-4266-84fe-497010dc72c9"
+    },
+    "type": "site",
+    "created": "2013-12-06T12:29:16+01:00",
+    "changed": "2023-07-28T11:16:18+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "UK Eutrophying and Acidifying atmospheric Pollutants network (UKEAP)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "47ccb7a9-ba65-4dd9-a564-4623d016d0ec"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_6",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Loch Tinker on UWMN",
+            "value": "https://uwmn.uk/loch-tinker"
+          },
+          {
+            "title": "Loch Tinker on UK Lakes Portal",
+            "value": "https://eip.ceh.ac.uk/apps/lakes/detail.html?wbid=24745"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK Upland Waters Monitoring Network (UK UWMN) site. Named Lochan a' Cheaird on historic maps, Loch Tinker lies at 418 m altitude and drains an adjacent catchment to the east of Loch Chon in the Trossachs region of central Scotland. The loch receives drainage from seepage through the catchment blanket peats and from the steep slopes to the south and east, although the main stream in this area is naturally captured just a few metres downstream of the loch outflow. The loch drains to the north east via the Allt Glasahoile which falls steeply to Loch Katrine. The loch (surface area 11.1 ha) has an irregular shoreline and the generally shallow (mean depth 3.5 m) bathymetry includes two distinct sub-basins reaching a maximum depth of 9.8 m. Three small islands are located towards the southern end of the loch. Some data managed by UK ECN Data Centre. Note: The area is the size of the catchment. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1988,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Loch Tinker",
+        "shortName": "UWMN_06",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category II – National Park",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/II"
+          },
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 3.2,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2500,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": "Mica schists & grits",
+        "hydrology": null,
+        "soils": "Blanket peat",
+        "vegetation": "Unforested blanket peat moorland (characterised by Calluna & Molinia)"
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-4.50766 56.2286)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 420,
+          "min": 420,
+          "max": 420,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 121,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "animal species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10336"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "chemical composition of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21213"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22121"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "plant species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10335"
+          },
+          {
+            "label": "plant species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10341"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "Chemistry sampled monthly. Biological measurements made annually",
+          "siteVisitInterval": 30
+        },
+        "notes": "Accommodation in nearby villages",
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "source_url": "https://deims.org/api/sites/f31c8242-7355-4d50-aee3-276fb7c1381d",
+  "retrieved_at": "2026-10-15T17:39:37.403969+00:00",
+  "record": {
+    "title": "River Cree - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "f31c8242-7355-4d50-aee3-276fb7c1381d"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:02:34+01:00",
+    "changed": "2023-09-01T15:34:47+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "UK ECN",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "a197664f-569e-4df6-933a-86de676dbfc5"
+              }
+            },
+            "siteCode": "LTER_EU_UK_035",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "John Goodwin",
+            "email": "john.goodwin@sepa.org.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "ECN website",
+            "value": "https://ecn.ac.uk/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK ECN site. The River Cree has a catchment area of 515.7km2, much of which is afforested, and a total river length of 57.5km. It has become one of the most acidic catchments in SW Scotland, with pH values as low as 5.0 being recorded occasionally. The raises concerns about its ability to meet the EC requirements for freshwater fisheries and about the survival of the salmon fishery. There are many sewage effluent discharges entering the river along its course, most of which have small flow rates; the largest discharge is from Newton Stewart. In the early 1980's, large stretches of the river were subject to excessive weed growth, believed to be due to the aerial application of fertilisers over large tracts of forest. The mean pH at Newton Stewart is 6.5, with lower mean pH levels upstream.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1994,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "River Cree",
+        "shortName": "R18",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/cree2-cropped.jpg",
+            "alt": "River Cree"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 8.21,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1508.6,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Surface running waters (C2)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": null,
+        "hydrology": "There are many sewage effluent discharges entering the river along its course, most of which have small flow rates; the largest discharge is from Newton Stewart.",
+        "soils": null,
+        "vegetation": "Much of the catchment is afforested"
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-4.5373586068292 55.207239091875, -4.5406552025248 55.201160654787, -4.5308505699314 55.200890973515, -4.5232789425795 55.200355761033, -4.5159614974459 55.197446778166, -4.5100521640128 55.195417960748, -4.5085701483578 55.188374642382, -4.5082968006856 55.188033065124, -4.5060529050755 55.185498236094, -4.5002602145938 55.183115993583, -4.5001595219529 55.182625346995, -4.4979867468969 55.172020684677, -4.4921807190824 55.166357913479, -4.4863578049869 55.160676683217, -4.4852748645323 55.159165020904, -4.481159885736 55.154052097098, -4.4771646817032 55.152598512427, -4.4691051886359 55.145351787829, -4.4677702593328 55.143804072406, -4.467693171647 55.143194942623, -4.4672359218478 55.139577135213, -4.4671854828211 55.13917702174, -4.465261362209 55.137644021096, -4.4487863020207 55.131640770005, -4.4482472246654 55.131444297709, -4.4413042070237 55.129958892046, -4.4368286440873 55.13018390731, -4.4355167456843 55.129858452641, -4.4332586080828 55.130969897411, -4.4317560194486 55.131708907189, -4.429025575627 55.131392592089, -4.4268291768494 55.131207153195, -4.4263854188181 55.130563733837, -4.4234248046861 55.126269220446, -4.4169484954553 55.11991464291, -4.4166425761871 55.113917231792, -4.4192759374353 55.107015933546, -4.4253315822381 55.100297571904, -4.4154749169866 55.095505761873, -4.4100533401613 55.092122119043, -4.4141558079054 55.088051428501, -4.4191859696137 55.084958809479, -4.4287081253947 55.084270320144, -4.4300823415299 55.078258466002, -4.4351403283222 55.075663493389, -4.4354259202618 55.07543417401, -4.4383083901017 55.073119661233, -4.4430746229356 55.072149903045, -4.4409177988317 55.065926688369, -4.4404527244342 55.06570229727, -4.4352517660822 55.063192916482, -4.4290858457165 55.061820029412, -4.4250899053686 55.062413771163, -4.4235685841467 55.062639818564, -4.4213349537823 55.062971705301, -4.4207746952865 55.062597168905, -4.4200662768092 55.062123586612, -4.4191426885463 55.061506161938, -4.417712974449 55.0605503889, -4.4197866062079 55.056585473295, -4.4189203481745 55.056244257994, -4.4188229232398 55.056205882733, -4.414575263003 55.054532747699, -4.4124202235083 55.053683886944, -4.4111885664961 55.053198742562, -4.4104151076705 55.052817424702, -4.4091874634644 55.052212191886, -4.4086621992665 55.05195323483, -4.4067591488749 55.051015024443, -4.4023919805405 55.051377734093, -4.3997745099211 55.051904932837, -4.396696455632 55.052524900199, -4.3954823154923 55.050415612051, -4.3944043912715 55.048542967609, -4.3932676515349 55.047817962366, -4.3927401357659 55.047481516225, -4.3909991323214 55.046371115502, -4.3963152822776 55.0418945237, -4.3855885122412 55.031759024672, -4.3791928605792 55.026398200844, -4.3770515234614 55.02085117972, -4.3818159707516 55.015657861688, -4.3758248501176 55.013496894104, -4.385402134732 55.007718285359, -4.3950011715726 55.002866577925, -4.406300561436 54.996814682657, -4.4117243130019 54.989848571687, -4.4120318703557 54.989824492696, -4.4203575220806 54.989178128764, -4.4293006084664 54.987322180561, -4.4593522491632 54.973165114698, -4.4589892366689 54.968453125701, -4.4603247636662 54.961942629269, -4.4659270749095 54.954347802355, -4.4726066116717 54.950221978498, -4.4726753779448 54.950165520076, -4.4743942338702 54.949218684957, -4.4816751812812 54.945131220345, -4.4901285268089 54.945665068743, -4.4931503673826 54.949137591851, -4.4992327099948 54.948204736243, -4.5116078992815 54.941285101824, -4.5173440400592 54.951668229226, -4.5221951264759 54.953486311417, -4.5412779925422 54.951062763889, -4.5521123285817 54.954800615029, -4.5579229895631 54.96436514311, -4.5584482075373 54.972624374289, -4.5574325565173 54.979261968046, -4.5585972705816 54.986267189382, -4.5690469446757 54.992249534303, -4.5781160448024 54.999087319278, -4.5851941233431 55.003243553319, -4.5855918356054 55.003477250988, -4.5980186255202 55.00652051374, -4.6050363889971 55.014788486343, -4.609426955697 55.019246421285, -4.6096541741605 55.019503927219, -4.6126499823702 55.024089432821, -4.6128514453146 55.024397490509, -4.6109636733663 55.028573198871, -4.6095039686282 55.033516156165, -4.6138643482959 55.033355679814, -4.6199675758854 55.034168841663, -4.6194642648358 55.037487820438, -4.6233521530954 55.04484005369, -4.6235723706935 55.045256126368, -4.6284131076861 55.05198536005, -4.6429147701509 55.046334237358, -4.6560155552257 55.045792733426, -4.6618995929118 55.040278235884, -4.6705058135428 55.04191956642, -4.6746582220176 55.044557259824, -4.6804380525422 55.047495522059, -4.6837858059157 55.049507880268, -4.6922799875306 55.049826441559, -4.7007072947283 55.051747184917, -4.6854718691635 55.062417458844, -4.6773734174233 55.062848747803, -4.6682495996627 55.064790885304, -4.6632769915461 55.072339256073, -4.6668335457282 55.079985670515, -4.6727344200728 55.084665102225, -4.6784919566155 55.088007964747, -4.6874421995896 55.091800956128, -4.6947577536707 55.097125714062, -4.6933225737053 55.101646665967, -4.6780546457727 55.107469922057, -4.6758813576991 55.114001427018, -4.6788214626424 55.118924303434, -4.689382668554 55.12068664208, -4.6956000173604 55.1225443044, -4.696540263953 55.136488822248, -4.7005221270099 55.143882190344, -4.7018862518215 55.147707350469, -4.7056452494269 55.155240350597, -4.7051464904622 55.160737881121, -4.7012882616809 55.16520870645, -4.6969187667267 55.167902917134, -4.6879636684802 55.171478043183, -4.6827225101544 55.176840042699, -4.6749321660626 55.177864165424, -4.6737298042282 55.177765821678, -4.6652928405308 55.177077531743, -4.661944656452 55.179145807982, -4.6549824091622 55.179297680846, -4.6490226505138 55.18142245702, -4.6459148166468 55.181713579282, -4.6430932027663 55.181653446779, -4.6420929164684 55.182071792691, -4.6380270487408 55.183753234559, -4.6370022326411 55.184177124823, -4.629234139358 55.185342204349, -4.6239133297969 55.183960703548, -4.6161775353918 55.18562315883, -4.6120112687471 55.188935182986, -4.6117207379542 55.189166141277, -4.6096373511799 55.192246900997, -4.6054468491417 55.194830508839, -4.602126797802 55.197395388319, -4.5998716819486 55.202929766895, -4.5960029057718 55.205969673949, -4.5957308110234 55.209618360186, -4.5835513533915 55.20676790374, -4.5693874647187 55.204201355867, -4.5689006955774 55.204266110483, -4.5616496653622 55.205235009384, -4.5540665951794 55.209384159228, -4.5464182901629 55.212536387749, -4.5431380537177 55.216118466941, -4.5367411243769 55.211241978284, -4.5373586068292 55.207239091875))",
+        "coordinates": "POINT (-4.477349 54.95273)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 425,
+          "min": 12,
+          "max": 840,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 0,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "stage height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22290"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "ECN freshwater monitoring is carried out at least once per month",
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://data.ecn.ac.uk/datapolicy.asp"
+              }
+            ],
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

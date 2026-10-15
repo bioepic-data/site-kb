@@ -1,0 +1,210 @@
+sites:
+- id: site_kb:deims-wegenernet_feldbach_region_-_austria
+  name: WegenerNet Feldbach Region - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 177d5587-6892-4cad-9609-e917b9578ed6
+    network_url: https://deims.org/177d5587-6892-4cad-9609-e917b9578ed6
+    name: WegenerNet Feldbach Region - Austria
+  location:
+    latitude: 46.93
+    longitude: 15.9
+    country: Austria
+    elevation_meters: 330.0
+  description: "The WegenerNet climate station network Feldbach region is a pioneering\
+    \ weather and climate observation experiment at very high resolution located in\
+    \ Eastern Styria near the city of Feldbach in Southeast Austria, a region characteristic\
+    \ for experiencing a rich variety of weather and climate patterns. The network\
+    \ comprises 156 meteorological stations measuring temperature, precipitation,\
+    \ and other parameters, in a tightly spaced grid within an area of 23 km x 18\
+    \ km centered near the city of Feldbach (46.93°N, 15.90°E). With its stations\
+    \ every about two square-km (area of about 300 square-km in total), and each station\
+    \ with 5-min time sampling, the network provides regular measurements since January\
+    \ 2007.\r\nAs of 2010 a complementary meteorological-hydrological network of several\
+    \ stations was added in the mountainous upper Styrian region of National Park\
+    \ Gesaeuse as contribution to the LTER site Johnsbachtal (the \"sister site\"\
+    \ LTER_EU_AT_029_001 of this site LTER_EU_AT_029_002, both affiliated with the\
+    \ LTSER Platform Eisenwurzen). As part of the Johnsbachtal site, the WegenerNet\
+    \ Johnsbachtal consists of fourteen mountain-proof stations within a region-scale\
+    \ of about 10 km, ranging from valley altitudes below 700 m to mountain tops higher\
+    \ than 2100 m.\r\nThe WegenerNet at both sites together provides strong value\
+    \ for both alpine foreland and mountain region studies."
+  variables:
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: atmospheric pressure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric pressure
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22060
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: net radiation irradiance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: net radiation irradiance
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22172
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: soil matrix water potential
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil matrix water potential
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22255
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: soil moisture content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil moisture content
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/10039
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: soil temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil temperature
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22278
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: soil texture
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil texture
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22279
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: soil water content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil water content
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22281
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: soil water retention curve
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil water retention curve
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/30035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: thickness of soil horizon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: thickness of soil horizon
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/22295
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: wind direction (mean and gust)
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind direction (mean and gust)
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22318
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  - name: wind speed (mean and gust)
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind speed (mean and gust)
+      record_url: https://deims.org/api/sites/177d5587-6892-4cad-9609-e917b9578ed6
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22320
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:55.859757+00:00'
+      source_modified_at: '2025-10-15T16:42:26+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

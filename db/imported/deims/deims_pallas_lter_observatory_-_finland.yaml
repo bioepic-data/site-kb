@@ -1,0 +1,86 @@
+sites:
+- id: site_kb:deims-pallas_lter_observatory_-_finland
+  name: Pallas LTER observatory - Finland
+  network_registrations:
+  - network: DEIMS
+    network_id: b0edd1d7-4fe7-4945-a366-4e9ff21e9dd3
+    network_url: https://deims.org/b0edd1d7-4fe7-4945-a366-4e9ff21e9dd3
+    name: Pallas LTER observatory - Finland
+  location:
+    latitude: 67.99725
+    longitude: 24.2091
+    country: Finland
+    elevation_meters: 269.0
+  description: "Pallas LTER observatory is located in northern Finland, in Muonio\
+    \ and Kittilä municipalities. The observatory consists of versatile research infrastructure\
+    \ for monitoring and studying the atmosphere, ecosystems and their interactions.\
+    \ Pallas is located 170 km north of the Arctic Circle, partly in the area of Pallas-Yllästunturi\
+    \ National Park. The Finnish Meteorological Institute (FMI) has a long history\
+    \ of atmospheric monitoring at Pallas: the first weather station was established\
+    \ near Lake Pallasjärvi in 1935. The measurements of atmospheric composition were\
+    \ started in 1991, and the Sammaltunturi station was established as a node of\
+    \ the Pallas–Sodankylä Global Atmosphere Watch (GAW) station in 1994. Currently,\
+    \ Pallas comprises one of the most important research infrastructures in Finland\
+    \ and in the wider circumpolar region, contributing to numerous European and global\
+    \ research programmes, such as GAW, ICOS, ACTRIS and EMEP. Research infrastructure\
+    \ at Pallas includes also the Pallasjärvi Research Forest and a research area\
+    \ of Lake Pallasjärvi catchment, locating in the immediate vicinity of the Pallas-Yllästunturi\
+    \ National Park. Due to the warming effect of the Gulf Stream the observatory\
+    \ area is included in the boreal forest region. However, with regard to stratospheric\
+    \ meteorology, the observatory can be classified as an Arctic site. Its strategic\
+    \ location, coupled with ready accessibility from all parts of the world, makes\
+    \ the observatory an excellent base for studying various themes of global change\
+    \ in a northern context. \r\n\r\nPallas LTER observatory is part of Pallas-Sodankylä\
+    \ GAW (Global Atmosphere Watch) station which incorporates a variety of biotopes,\
+    \ e.g. forests, bogs, barren mountain tops, lakes and rivers. In addition to the\
+    \ Pallas site, the Pallas-Sodankylä GAW station encompasses the Arctic Space Centre\
+    \ in Sodankylä (FMI-ARC). Upper-air soundings, climatological and other meteorological\
+    \ measurements are made at the Sodankylä Observatory, and tropospheric air composition\
+    \ and related boundary layer meteorological measurements at Pallas."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/b0edd1d7-4fe7-4945-a366-4e9ff21e9dd3
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:23.122103+00:00'
+      source_modified_at: '2025-12-15T09:51:34+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/b0edd1d7-4fe7-4945-a366-4e9ff21e9dd3
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:23.122103+00:00'
+      source_modified_at: '2025-12-15T09:51:34+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/b0edd1d7-4fe7-4945-a366-4e9ff21e9dd3
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:23.122103+00:00'
+      source_modified_at: '2025-12-15T09:51:34+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/b0edd1d7-4fe7-4945-a366-4e9ff21e9dd3
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:23.122103+00:00'
+      source_modified_at: '2025-12-15T09:51:34+01:00'
+  notes: 'Biogeographical region: boreal'
+  status: ACTIVE

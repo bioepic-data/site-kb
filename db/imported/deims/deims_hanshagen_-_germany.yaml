@@ -1,0 +1,39 @@
+sites:
+- id: site_kb:deims-hanshagen_-_germany
+  name: Hanshagen - Germany
+  network_registrations:
+  - network: DEIMS
+    network_id: 6e1b52c7-b7b1-4cf4-9011-a46c351365c6
+    network_url: https://deims.org/6e1b52c7-b7b1-4cf4-9011-a46c351365c6
+    name: Hanshagen - Germany
+  location:
+    latitude: 54.0445794
+    longitude: 13.5285787
+    country: Germany
+  description: 'Closed monodominant beech forest; Stand age: 80 years; average tree
+    height 28m.'
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/6e1b52c7-b7b1-4cf4-9011-a46c351365c6
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:59.365381+00:00'
+      source_modified_at: '2021-02-12T14:58:17+01:00'
+  - name: germination date
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: germination date
+      record_url: https://deims.org/api/sites/6e1b52c7-b7b1-4cf4-9011-a46c351365c6
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22097
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:59.365381+00:00'
+      source_modified_at: '2021-02-12T14:58:17+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

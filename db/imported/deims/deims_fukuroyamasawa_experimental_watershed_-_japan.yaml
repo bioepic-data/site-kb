@@ -1,0 +1,58 @@
+sites:
+- id: site_kb:deims-fukuroyamasawa_experimental_watershed_-_japan
+  name: Fukuroyamasawa Experimental Watershed - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 1ee3c021-d250-4faa-9e4a-ca45b15f20a3
+    network_url: https://deims.org/1ee3c021-d250-4faa-9e4a-ca45b15f20a3
+    name: Fukuroyamasawa Experimental Watershed - Japan
+  location:
+    latitude: 35.12
+    longitude: 140.06
+    country: Japan
+  variables:
+  - name: interception
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: interception
+      record_url: https://deims.org/api/sites/1ee3c021-d250-4faa-9e4a-ca45b15f20a3
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22139
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:13.654557+00:00'
+      source_modified_at: '2023-10-06T09:25:04+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/1ee3c021-d250-4faa-9e4a-ca45b15f20a3
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:13.654557+00:00'
+      source_modified_at: '2023-10-06T09:25:04+02:00'
+  - name: runoff amount
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: runoff amount
+      record_url: https://deims.org/api/sites/1ee3c021-d250-4faa-9e4a-ca45b15f20a3
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/30032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:13.654557+00:00'
+      source_modified_at: '2023-10-06T09:25:04+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/1ee3c021-d250-4faa-9e4a-ca45b15f20a3
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:13.654557+00:00'
+      source_modified_at: '2023-10-06T09:25:04+02:00'
+  status: ACTIVE

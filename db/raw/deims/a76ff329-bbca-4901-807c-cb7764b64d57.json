@@ -1,0 +1,207 @@
+{
+  "source_url": "https://deims.org/api/sites/a76ff329-bbca-4901-807c-cb7764b64d57",
+  "retrieved_at": "2026-10-15T17:46:20.918697+00:00",
+  "record": {
+    "title": "Wando arboretum forest - Korea (the Republic of)",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "a76ff329-bbca-4901-807c-cb7764b64d57"
+    },
+    "type": "site",
+    "created": "2017-03-17T02:45:15+01:00",
+    "changed": "2021-03-03T11:56:41+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "KLTER (Korea)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "639bbd69-dcf5-49de-98e2-35a1d0d1b97b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "National Institute of Forestry Science",
+            "url": "https://nifos.forest.go.kr",
+            "ror": "https://ror.org/01hyb4h74"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "National Institute of Forestry Science",
+            "url": "https://nifos.forest.go.kr",
+            "ror": "https://ror.org/01hyb4h74"
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "National Institute of Forestry Science",
+            "url": "https://nifos.forest.go.kr",
+            "ror": "https://ror.org/01hyb4h74"
+          }
+        ],
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The Wando Arboretum Forest (34° 31\" N, 126° 75\" E) was established in the Wando arboretum, Gunoe-myeon, Wando-gun, Jeollanam-do, Korea, and belongs to the warm-temperate forest region. The long-term (1981-2010) annual mean temperature and precipitation were 14.1 °C and 1532.7 mm. The dominance of the Quercus acuta is the highest, and the evergreen broad-leaved trees such as Castanopsis sieboldii, Machilus thunbergii, Neolitsea sericea, and Cinnamomum yabunikkei are mixed at a very high density. The value of Wando evergreen forests is considerably high because the temperate species in the southern temperate zone are attracting attention as an alternative to climate change adaptation.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2014,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Wando arboretum forest",
+        "shortName": "WAF",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/wando-arboretum-forest-south-korea_5840.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/wando-arboretum-forest-south-korea_5841.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/wando-arboretum-forest-south-korea_5842.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 14.92,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 79.84,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (126.66 34.35)",
+        "country": [
+          "Korea (the Republic of)"
+        ],
+        "elevation": {
+          "avg": 230,
+          "min": 230,
+          "max": 230,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

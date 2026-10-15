@@ -1,0 +1,210 @@
+{
+  "source_url": "https://deims.org/api/sites/6800108a-a7a4-4974-bcaf-e80c42a03334",
+  "retrieved_at": "2026-10-15T17:35:25.699942+00:00",
+  "record": {
+    "title": "Jeju island - Korea (the Republic of)",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "6800108a-a7a4-4974-bcaf-e80c42a03334"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:33:31+01:00",
+    "changed": "2021-03-03T11:37:32+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "KLTER (Korea)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "639bbd69-dcf5-49de-98e2-35a1d0d1b97b"
+              }
+            },
+            "siteCode": "LTER-EAP-KR-5",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "National Institute of Forestry Science",
+            "url": "https://nifos.forest.go.kr",
+            "ror": "https://ror.org/01hyb4h74"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "National Institute of Forestry Science",
+            "url": "https://nifos.forest.go.kr",
+            "ror": "https://ror.org/01hyb4h74"
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "National Institute of Forestry Science",
+            "url": "https://nifos.forest.go.kr",
+            "ror": "https://ror.org/01hyb4h74"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://klter.kfri.go.kr"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The JJI (33° 18\" 45' N, 126° 32\" 31' E) belongs to a warm-temperate forest. However, Mt. Hallasan is the highest mountain in South Korea (1,950 m), and is surrounded by the sea. The long-term (1981-2010) annual mean temperature and precipitation were 16.6 °C and 1923 mm. The evergreen broad-leaved forests were found in the coastal area, sub-alpine species were found in the vicinity of the summit, and various habitats were found depending on the altitude. Unlike other survey sites, many evergreen broad-leaved species are growing in this site, but most of the forests, except for the highlands, have been severely damaged by the development of ranches and production of wood for mushroom cultivation. Therefore, the remaining evergreen broad-leaved forests are not large. Major species growing in these forests include Quercus acuta, Camellia japonica, and Carpinus laxiflora.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2005,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Jeju island",
+        "shortName": "JJI",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/jeju-island-south-korea_5845.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/jeju-island-south-korea_5846.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 13,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1457,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (126.542 33.3125)",
+        "country": [
+          "Korea (the Republic of)"
+        ],
+        "elevation": {
+          "avg": 650,
+          "min": 464,
+          "max": 909,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

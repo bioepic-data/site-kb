@@ -1,0 +1,42 @@
+sites:
+- id: site_kb:deims-ch-sn1-cuo_-_switzerland
+  name: CH-SN1-CUO - Switzerland
+  network_registrations:
+  - network: DEIMS
+    network_id: 289f018e-0be8-48e9-8eb9-2da3fa04aa86
+    network_url: https://deims.org/289f018e-0be8-48e9-8eb9-2da3fa04aa86
+    name: CH-SN1-CUO - Switzerland
+  location:
+    latitude: 46.71551
+    longitude: 10.17101
+    country: Switzerland
+    elevation_meters: 2812.0
+  description: Summit associated with GLORIA target region on dolomite of the Swiss
+    national park. Not used for vegetation monitoring, only for teabag study. Original
+    GLORIA summit at the same altitude is located inhighly sensitive area of the park,
+    where access only occasionally permitted.
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/289f018e-0be8-48e9-8eb9-2da3fa04aa86
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:14.349335+00:00'
+      source_modified_at: '2023-07-25T08:39:15+02:00'
+  - name: litter residence time
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: litter residence time
+      record_url: https://deims.org/api/sites/289f018e-0be8-48e9-8eb9-2da3fa04aa86
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10048
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:14.349335+00:00'
+      source_modified_at: '2023-07-25T08:39:15+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

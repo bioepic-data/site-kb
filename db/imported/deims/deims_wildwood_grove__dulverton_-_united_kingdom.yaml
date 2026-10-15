@@ -1,0 +1,167 @@
+sites:
+- id: site_kb:deims-wildwood_grove__dulverton_-_united_kingdom
+  name: Wildwood Grove – Dulverton - United Kingdom
+  network_registrations:
+  - network: DEIMS
+    network_id: 73781772-239e-4b6b-856b-95c1f199998d
+    network_url: https://deims.org/73781772-239e-4b6b-856b-95c1f199998d
+    name: Wildwood Grove – Dulverton - United Kingdom
+  location:
+    latitude: 51.030775
+    longitude: -3.572338
+    country: United Kingdom
+    elevation_meters: 260.0
+  description: "The site comprises a mosaic of fields influenced by springs, seepage\
+    \ zones, wet ground, and a small headwater watercourse with downstream connectivity.\
+    \ These characteristics make the site suitable for long-term observation of hydrological,\
+    \ ecological, and soil processes during land-use transition.\r\nThe site is being\
+    \ secured for long-term ecological use (minimum 30 years) and is intended to function\
+    \ as an open, non-extractive observation and monitoring site. No fixed experimental\
+    \ design has been imposed at this stage, allowing for phased and proportionate\
+    \ monitoring aligned with future research or evidence-led initiatives."
+  variables:
+  - name: groundwater level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: groundwater level
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22126
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: perched water table depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: perched water table depth
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22184
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: runoff amount
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: runoff amount
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/30032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: soil depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil depth
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22247
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: soil moisture content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil moisture content
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10039
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: soil organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil organic carbon
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22261
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: soil saturation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil saturation
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22271
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: soil texture
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil texture
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22279
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: surface runoff
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: surface runoff
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/21510
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  - name: water table
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water table
+      record_url: https://deims.org/api/sites/73781772-239e-4b6b-856b-95c1f199998d
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/30028
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:51:12.828139+00:00'
+      source_modified_at: '2026-01-26T17:22:50+01:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

@@ -1,0 +1,48 @@
+sites:
+- id: site_kb:deims-grimsö_wildlife_research_station_-_sweden
+  name: Grimsö Wildlife Research Station - Sweden
+  network_registrations:
+  - network: DEIMS
+    network_id: ba81bcc6-8916-47f3-a54a-5ac8ebe1c455
+    network_url: https://deims.org/ba81bcc6-8916-47f3-a54a-5ac8ebe1c455
+    name: Grimsö Wildlife Research Station - Sweden
+  location:
+    latitude: 59.7289
+    longitude: 15.4723
+    country: Sweden
+    elevation_meters: 105.0
+  description: "Grimsö wildlife research area (GWRA), SLU, is located in south-central\
+    \ Sweden at the end of the Nordic taiga, in the hemi-boreal zone. GWRA comprise\
+    \ 130 km2, covered mainly by mixed coniferous forest (74%), bogs and mires 18%.\
+    \ About 85% of the area is managed by conventional forest practices, and the area\
+    \ also includes two forest reserves of ca 4 and 11 km2. Farmland constitutes 3%,\
+    \ and lakes and rivers 5% of the area. The landscape is relatively flat, with\
+    \ altitudes ranging from 75 m.a.s.l. in the south to 180 m.a.s.l. in the north.\
+    \ The area hosts the expected mid-Swedish flora and fauna.\r\nWildlife research\
+    \ started at Grimsö in 1974 and the activities has expanded over time and include\
+    \ at present an established staff of ca 40 people."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/ba81bcc6-8916-47f3-a54a-5ac8ebe1c455
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:11.513840+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/ba81bcc6-8916-47f3-a54a-5ac8ebe1c455
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:11.513840+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: boreal'
+  status: ACTIVE

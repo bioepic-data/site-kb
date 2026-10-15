@@ -1,0 +1,40 @@
+sites:
+- id: site_kb:deims-birkenes_calibrated_catchment_-_norway
+  name: Birkenes calibrated catchment - Norway
+  network_registrations:
+  - network: DEIMS
+    network_id: 711168dc-c88f-4b80-ab56-bd2af272e251
+    network_url: https://deims.org/711168dc-c88f-4b80-ab56-bd2af272e251
+    name: Birkenes calibrated catchment - Norway
+  location:
+    latitude: 58.383467
+    longitude: 8.237686
+    country: Norway
+    elevation_meters: 226.0
+  description: Catchment stream monitoring of water chemistry. Forested catchment
+    on acid-sensitives soils, 200-300 masl
+  variables:
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/711168dc-c88f-4b80-ab56-bd2af272e251
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:41:54.855839+00:00'
+      source_modified_at: '2023-07-24T14:31:23+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/711168dc-c88f-4b80-ab56-bd2af272e251
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:41:54.855839+00:00'
+      source_modified_at: '2023-07-24T14:31:23+02:00'
+  notes: 'Biogeographical region: boreal'
+  status: ACTIVE

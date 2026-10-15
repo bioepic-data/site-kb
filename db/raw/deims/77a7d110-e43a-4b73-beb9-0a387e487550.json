@@ -1,0 +1,267 @@
+{
+  "source_url": "https://deims.org/api/sites/77a7d110-e43a-4b73-beb9-0a387e487550",
+  "retrieved_at": "2026-10-15T17:36:39.412590+00:00",
+  "record": {
+    "title": "Vindelfjällens Research Station (Vindelfjällens forskningsstation) - Sweden",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "77a7d110-e43a-4b73-beb9-0a387e487550"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:08:27+01:00",
+    "changed": "2021-11-23T11:49:14+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Sweden",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "a50d9e39-d4b6-4d30-bba2-43580ac8c0b2"
+              }
+            },
+            "siteCode": "LTER_EU_SE_015",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Torleif Eriksson",
+            "email": "Torleif.Eriksson@lansstyrelsen.se",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Torleif Eriksson",
+            "email": "Torleif.Eriksson@lansstyrelsen.se",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Ulf Grandin",
+            "email": "ulf.grandin@slu.se",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.vindelfjallen.se/default.asp?ML=2534"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Vindelfjällen Research Society was created to enhance research and education in the Vindelfjällen area.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1960,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Vindelfjällens Research Station (Vindelfjällens forskningsstation)",
+        "shortName": "Vindelfjällens Research Station",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/vindelfjallens-research-station-vindelfjllens-forskningsstation-sweden_4509.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": -0.9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 900,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "alpine",
+        "ecosystemType": [
+          {
+            "label": "Alpine",
+            "uri": null
+          },
+          {
+            "label": "Boreal forests/taiga",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Taiga",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Heathland, scrub and tundra (F)",
+            "uri": null
+          },
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Mires, bogs and fens (D)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (16.2087 65.9586)",
+        "country": [
+          "Sweden"
+        ],
+        "elevation": {
+          "avg": 750,
+          "min": 350,
+          "max": 1792,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 550000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "2 - 5 places",
+            "uri": null
+          },
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Daily",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Snow clearing equipment",
+            "uri": null
+          },
+          {
+            "label": "Unstructured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

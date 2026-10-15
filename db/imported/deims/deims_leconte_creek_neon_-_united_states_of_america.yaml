@@ -1,0 +1,95 @@
+sites:
+- id: site_kb:deims-leconte_creek_neon_-_united_states_of_america
+  name: LeConte Creek NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: 68d82455-3f56-45d3-a9c1-643f73744fef
+    network_url: https://deims.org/68d82455-3f56-45d3-a9c1-643f73744fef
+    name: LeConte Creek NEON - United States of America
+  location:
+    latitude: 35.69043
+    longitude: -83.50379
+    country: United States of America
+    elevation_meters: 579.0
+  description: LeConte Creek (LECO) is an aquatic NEON field site in the northwest
+    part of the Great Smoky Mountains National Park, located in eastern Tennessee.
+    LECO is hosted by the National Park Service. LeConte Creek is a second-order wadeable
+    stream with a series of steps and pools, consisting of many large granitic boulders
+    and bordered by thick vegetation. It drains a 9.13 km2 (2256 acre) watershed.
+    The park is characterized by abundant rainfall, variable elevations, and an exceptional
+    richness of biota hosted by closed-canopy deciduous old growth forests. As one
+    of the largest protected areas in the eastern U.S., it is the most biodiverse
+    park in the national park system and the most visited. LECO is part of NEON Domain
+    07 - Appalachians & Cumberland Plateau, which includes eastern Tennessee, most
+    of Kentucky, southern Ohio, and parts of North Carolina, Georgia, Indiana, and
+    Illinois. D07 includes four other NEON field sites, including three terrestrial
+    sites and one additional aquatic site. LECO is colocated with the GRSM terrestrial
+    field site.
+  variables:
+  - name: DNA sequence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: DNA sequence
+      record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21400
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+      source_modified_at: '2025-09-18T08:58:00+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+      source_modified_at: '2025-09-18T08:58:00+02:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+      source_modified_at: '2025-09-18T08:58:00+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+      source_modified_at: '2025-09-18T08:58:00+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+      source_modified_at: '2025-09-18T08:58:00+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+      source_modified_at: '2025-09-18T08:58:00+02:00'
+  status: ACTIVE

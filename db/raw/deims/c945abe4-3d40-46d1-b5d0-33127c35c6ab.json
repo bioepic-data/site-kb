@@ -1,0 +1,470 @@
+{
+  "source_url": "https://deims.org/api/sites/c945abe4-3d40-46d1-b5d0-33127c35c6ab",
+  "retrieved_at": "2026-10-15T17:45:20.691576+00:00",
+  "record": {
+    "title": "TERENO - Harsleben - Germany",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "c945abe4-3d40-46d1-b5d0-33127c35c6ab"
+    },
+    "type": "site",
+    "created": "2016-08-30T10:28:21+02:00",
+    "changed": "2025-12-15T10:50:45+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER-D (Germany)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "e904354a-f3a0-40ce-a9b5-61741f66c824"
+              }
+            },
+            "siteCode": "LTER_EU_DE_002_006",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "TERENO",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "8dec8153-b077-4d68-abd5-b2a0bb3b09ff"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "Teabag",
+            "uri": null
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Oliver Schweiger",
+            "email": "oliver.schweiger@ufz.de",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Mark Frenzel",
+            "email": "mark.frenzel@ufz.de",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "UFZ Helmholtz Centre for Environmental Research",
+            "url": "http://www.ufz.de",
+            "ror": "https://ror.org/000h6jb29"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "TERENO site Harsleben",
+            "value": "https://www.ufz.de/index.php?en=40485"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The sites Friedeburg, Greifenhagen, Harsleben, Schafstädt, Siptenfelde and Wanzleben are part of the TERENO Harz / Central German Lowland Observatory in Saxony-Anhalt run by the Helmholtz Centre for Environmental Research UFZ. These sites have a focus on biodiversity monitoring in the “normal landscape” which is characterized by agricultural use (about 60 % coverage of Saxony-Anhalt). Each site is a 4x4 km landscape of mainly arable land and semi-natural habitats like e.g. hedges and forests.\r\nThe site Harsleben is north of the city of Quedlinburg. A part of it was formerly military training area which was afterwards just grazed by sheep. The site  is characterized by a mostly flat topography and has a mean elevation of 143 m asl. The total area covered by crop fields is 67 % and all semi-natural habitats summing up to 17 %. \r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2009,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "TERENO Harz/Central German Lowland LTER - Germany",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "d6ce4453-17a8-49d8-9c02-caae8b6629a6"
+                },
+                "changed": "2025-12-15T10:25:54+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "TERENO - Harsleben",
+        "shortName": "Harsleben",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": [
+          {
+            "label": "abandoned areas",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_2_AbandonedAreas"
+          },
+          {
+            "label": "agriculture",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_Agriculture"
+          },
+          {
+            "label": "commercial agricultural production",
+            "uri": "http://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_1_CommercialAgriculturalProduction"
+          },
+          {
+            "label": "energy production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/2_4_EnergyProduction"
+          },
+          {
+            "label": "forestry",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_2_Forestry"
+          },
+          {
+            "label": "forestry based on continuous cover",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_2_3_ForestryBasedOnContinuousCover"
+          },
+          {
+            "label": "land areas not in other economic use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_1_LandAreasNotInOtherEconomicUse"
+          },
+          {
+            "label": "natural areas not in other economic use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_NaturalAreasNotInOtherEconomicUse"
+          },
+          {
+            "label": "other uses",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_5_AreasWithoutAnySpecifiedPlannedUse"
+          },
+          {
+            "label": "primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction"
+          },
+          {
+            "label": "renewable energy production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/2_4_4_RenewableEnergyProduction"
+          },
+          {
+            "label": "road transport",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/4_1_1_RoadTransport"
+          },
+          {
+            "label": "secondary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/2_SecondaryProduction"
+          },
+          {
+            "label": "transport networks",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/4_1_TransportNetworks"
+          },
+          {
+            "label": "transport networks logistics and utilities",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/4_TransportNetworksLogisticsAndUtilities"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/tereno-harsleben-germany_4868.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/tereno-harsleben-germany_4869.jpg",
+            "alt": "Site Harsleben (Picture: UFZ / Mark Frenzel)"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/tereno-harsleben-germany_4870.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/tereno-harsleben-germany_4871.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/tereno-harsleben-germany_4872.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.2,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 516,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Temperate broadleaf and mixed forests",
+            "uri": null
+          },
+          {
+            "label": "Temperate coniferous forests",
+            "uri": null
+          },
+          {
+            "label": "Temperate grasslands, savannas, and shrublands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Arable land and market gardens (I1)",
+            "uri": null
+          },
+          {
+            "label": "Broadleaved deciduous woodland (G1)",
+            "uri": null
+          },
+          {
+            "label": "Dry grasslands (E1)",
+            "uri": null
+          },
+          {
+            "label": "Dry heaths (F4.2)",
+            "uri": null
+          },
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          },
+          {
+            "label": "Heathland, scrub and tundra (F)",
+            "uri": null
+          },
+          {
+            "label": "Intensive unmixed crops (I1.1)",
+            "uri": null
+          },
+          {
+            "label": "Lines of trees (G5.1)",
+            "uri": null
+          },
+          {
+            "label": "Lines of trees, small anthropogenic woodlands, recently felled woodland, early-stage woodland and coppice (G5)",
+            "uri": null
+          },
+          {
+            "label": "Meso- and eutrophic oak, hornbeam, ash, sycamore, lime, elm and related woodland (G1.A)",
+            "uri": null
+          },
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Mixed forestry plantations (G4.F)",
+            "uri": null
+          },
+          {
+            "label": "Mixed non-riverine deciduous and coniferous woodland (G4.8)",
+            "uri": null
+          },
+          {
+            "label": "Regularly or recently cultivated agricultural, horticultural and domestic habitats (I)",
+            "uri": null
+          },
+          {
+            "label": "Temperate shrub heathland (F4)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": [
+          {
+            "label": "Plain",
+            "uri": null
+          }
+        ],
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((11.046581268311 51.862252516351, 11.046581268311 51.823436048622, 11.108379364014 51.823436048622, 11.108379364014 51.862252516351, 11.046581268311 51.862252516351))",
+        "coordinates": "POINT (11.074772 51.843905)",
+        "country": [
+          "Germany"
+        ],
+        "elevation": {
+          "avg": 143,
+          "min": 120,
+          "max": 190,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1600,
+          "unit": "ha"
+        },
+        "relatedLocations": [
+          {
+            "title": "TERENO Harsleben  (Germany) Observation area",
+            "id": {
+              "prefix": "https://deims.org/locations/",
+              "suffix": "32ba4fdd-5fe1-4489-8d81-9ba27855b062"
+            },
+            "changed": "2024-05-07T14:22:28+0200"
+          }
+        ]
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "global radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22287"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 14
+        },
+        "notes": "Weather station",
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Spatial database (GIS)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

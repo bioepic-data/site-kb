@@ -1,0 +1,179 @@
+{
+  "source_url": "https://deims.org/api/sites/2b028377-640e-48f1-9a93-80f31ab665fa",
+  "retrieved_at": "2026-10-15T17:44:44.415759+00:00",
+  "record": {
+    "title": "H+ Majorque - France",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "2b028377-640e-48f1-9a93-80f31ab665fa"
+    },
+    "type": "site",
+    "created": "2016-06-21T11:25:33+02:00",
+    "changed": "2024-03-04T12:01:41+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "Critical Zone Collaborative Network (CZ Net)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fda96130-91b3-42e6-8c85-2b8879986070"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Philippe Pézard",
+            "email": "philippe.pezard@gm.univ-montp2.fr",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Network of hydrogeological research sites",
+            "value": "http://hplus.ore.fr/en/majorca"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Majorca site (12,000 m2) is located at Ses Sitjoles, in the southeast of the island. It offers an aquifer in a Miocene reefal limestone setting, highly permeable, with a number of meter-scale karstic cavities. Intensive farming and irrigation in this area have led to over-exploitation of the water tables, which has caused intrusions of salt water up to 15 km from the coast, resulting in chloride pollution of the water tables. The experimental site includes a network of twelve 100-m boreholes, six of which are fully cored. The site is monitored by a team from UMR Géosciences Montpellier.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2002,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "H+ Majorque",
+        "shortName": "H+_MA",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/google%2520earth.PNG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "mediterranean",
+        "biome": "agricultural",
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((2.9534783 39.415092, 2.954033 39.41627, 2.9545207 39.417393, 2.9550223 39.41687, 2.9540622 39.41435, 2.95304 39.41255, 2.95301 39.41257, 2.9534783 39.415092))",
+        "coordinates": "POINT (2.9534783 39.415092)",
+        "country": [
+          "France"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": 35,
+          "max": 42,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Web Catalog Service (CSW)",
+            "uri": null
+          },
+          {
+            "label": "Web Map Service (WMS)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://hplus.ore.fr/en/"
+              }
+            ],
+            "rights": [
+              "The opportunity to collaborate on the project using the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

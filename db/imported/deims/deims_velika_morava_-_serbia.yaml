@@ -1,0 +1,97 @@
+sites:
+- id: site_kb:deims-velika_morava_-_serbia
+  name: Velika Morava - Serbia
+  network_registrations:
+  - network: DEIMS
+    network_id: 5bc9428a-46e2-48c3-beb5-aec13d06f0fe
+    network_url: https://deims.org/5bc9428a-46e2-48c3-beb5-aec13d06f0fe
+    name: Velika Morava - Serbia
+  location:
+    latitude: 43.7547
+    longitude: 21.3936
+    country: Serbia
+    elevation_meters: 102.9
+  description: Velika Morava is 175 km long river originating from Western and Southern
+    Morava Rivers. The whole catchment area (including Western and Southern Morava)
+    is about 38.000 km², while the basin area of Velika Morava is 6.760 km². The mean
+    annual flow is 245 m³ s-1 (gauge station Ljubicevo, near to the mouth of the Danube
+    - Annual Water Quality Reports 1999-2008). Based on the size of catchments area
+    and its flow, Velika Morava is one of the major tributaries of the Danube. Over
+    95% of the basin is located at the territory of the Republic Serbia. The water
+    regime is unimodal, characterized by the prominent seasonal fluctuations. In the
+    spring the river can be almost torrential (the mean flow near to the mouth 560
+    m³/s), while in the rest of the year there is a "low water" period, particularly
+    in the autumn, when mean flow does not exceed 100 m³/s. The riverbed is 80-200
+    m wide, and up to 10 m deep, although average depth usually does not exceed 2
+    m. The silicates are the dominant geological substrate in entire catchment area.
+    According to the main geographical features  the river could be divided into two
+    main parts. The lower one, from confluence with Dunav to the Resava River mouth
+    (near Svilajnac), is 85 km long typical lowland watercourse (altitude lower the
+    100 m), with 0.35 ‰ declination, and with sand and mud/silt as dominant fractions
+    of the riverbed. This part of the Velika Morava River belongs to Ecoregion 11
+    (ER11_Ser). The upper one, from the Resava river mouth to Stalac (the confluence
+    of Southern and Western Morava Rivers), is 90 km long. The mean altitude is over
+    100 m a.s.l. (to 135 m), declination is 0.44 ‰ and in the riverbed the dominant
+    part are sand and gravel fractions. Upper part belongs to Ecoregion 5 (ER5_Ser).
+    Velika Morava river basin has four permanent monitoring sites. The area is densely
+    populated and the river is under the influence of various pollution sources (organic,
+    agricultural, industrial), as well as hydromorphological pressures (meander cutting,
+    shortening, channeling, as well as gravel and send extraction).
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5bc9428a-46e2-48c3-beb5-aec13d06f0fe
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:59.744550+00:00'
+      source_modified_at: '2021-11-23T11:49:18+01:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/5bc9428a-46e2-48c3-beb5-aec13d06f0fe
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:59.744550+00:00'
+      source_modified_at: '2021-11-23T11:49:18+01:00'
+  - name: runoff amount
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: runoff amount
+      record_url: https://deims.org/api/sites/5bc9428a-46e2-48c3-beb5-aec13d06f0fe
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/30032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:59.744550+00:00'
+      source_modified_at: '2021-11-23T11:49:18+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/5bc9428a-46e2-48c3-beb5-aec13d06f0fe
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:59.744550+00:00'
+      source_modified_at: '2021-11-23T11:49:18+01:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/5bc9428a-46e2-48c3-beb5-aec13d06f0fe
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:59.744550+00:00'
+      source_modified_at: '2021-11-23T11:49:18+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

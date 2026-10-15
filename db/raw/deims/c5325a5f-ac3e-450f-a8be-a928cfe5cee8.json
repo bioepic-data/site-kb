@@ -1,0 +1,251 @@
+{
+  "source_url": "https://deims.org/api/sites/c5325a5f-ac3e-450f-a8be-a928cfe5cee8",
+  "retrieved_at": "2026-10-15T17:46:07.636802+00:00",
+  "record": {
+    "title": "Făgăraș Mountains alpine zone - Romania",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "c5325a5f-ac3e-450f-a8be-a928cfe5cee8"
+    },
+    "type": "site",
+    "created": "2017-02-14T10:57:10+01:00",
+    "changed": "2020-06-29T10:41:01+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Romania",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4260f964-0ac4-4406-8adc-5afc06e31779"
+              }
+            },
+            "siteCode": "LTER_EU_RO_FAG",
+            "verified": false
+          }
+        ],
+        "projects": []
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Pavel Dan Turtureanu",
+            "email": "pavel.turtureanu@ubbcluj.ro",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Mihai Pușcaș",
+            "email": "mihai.puscas@ubbcluj.ro",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Pavel Dan Turtureanu",
+            "email": "pavel.turtureanu@ubbcluj.ro",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "ODYSSEE",
+            "value": "http://odyssee.granturi.ubbcluj.ro/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The site is located in the Southern Carpathians (Romania). The predominant ecosystems are grasslands located above tree line, dominated by Carex curvula, Juncus trifidus (alpine zone) and Festuca airoides, Nardus stricta (subalpine zone). The site consists of monitoring points in subalpine and alpine meadows in the Bâlea-Paltinul area.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2014,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Făgăraș Mountains alpine zone",
+        "shortName": "FAG-RO",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/DSC_0514.JPG",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/DSC_0521.JPG",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/DSC_0541.JPG",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/DSC_0561.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 1,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1300,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "grasslands",
+        "ecosystemType": [
+          {
+            "label": "Alpine",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Montane grasslands and shrublands",
+            "uri": null
+          },
+          {
+            "label": "Temperate grasslands, savannas, and shrublands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Acid alpine and subalpine grassland (E4.3)",
+            "uri": null
+          },
+          {
+            "label": "Alpine and subalpine grasslands (E4)",
+            "uri": null
+          },
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (24.609567 45.597353)",
+        "country": [
+          "Romania"
+        ],
+        "elevation": {
+          "avg": 2100,
+          "min": 1800,
+          "max": 2400,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 700,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "leaf nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "plant carbon concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22187"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "regular car",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 1000,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 1000
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Structured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider is given and agrees to a statement of uses to which the dataset will be put"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

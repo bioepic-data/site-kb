@@ -1,0 +1,71 @@
+sites:
+- id: site_kb:deims-arava_platform_arv_-_israel
+  name: Arava Platform (ARV) - Israel
+  network_registrations:
+  - network: DEIMS
+    network_id: 07736d90-a399-4e0c-9cce-9e676ee227a4
+    network_url: https://deims.org/07736d90-a399-4e0c-9cce-9e676ee227a4
+    name: Arava Platform (ARV) - Israel
+  location:
+    latitude: 30.4169
+    longitude: 35.1514
+    country: Israel
+    elevation_meters: 20.0
+  description: A very extreme desert located with in a part of the rift vally
+  variables:
+  - name: community composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: community composition
+      record_url: https://deims.org/api/sites/07736d90-a399-4e0c-9cce-9e676ee227a4
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22086
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:48.959975+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: diversity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diversity index
+      record_url: https://deims.org/api/sites/07736d90-a399-4e0c-9cce-9e676ee227a4
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/21513
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:48.959975+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/07736d90-a399-4e0c-9cce-9e676ee227a4
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:48.959975+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: plant species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant species composition
+      record_url: https://deims.org/api/sites/07736d90-a399-4e0c-9cce-9e676ee227a4
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22195
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:48.959975+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species composition
+      record_url: https://deims.org/api/sites/07736d90-a399-4e0c-9cce-9e676ee227a4
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22285
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:48.959975+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  status: ACTIVE

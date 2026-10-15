@@ -1,0 +1,75 @@
+sites:
+- id: site_kb:deims-kawatabi_special_research_area_of_the_japanese_ibp_-_japan
+  name: Kawatabi special research area of the Japanese IBP - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: e1ce2d83-21a7-4b4e-a4fc-ff32f4183c43
+    network_url: https://deims.org/e1ce2d83-21a7-4b4e-a4fc-ff32f4183c43
+    name: Kawatabi special research area of the Japanese IBP - Japan
+  location:
+    latitude: 38.770207
+    longitude: 140.755055
+    country: Japan
+    elevation_meters: 520.0
+  description: This site was established on a tall, Japanese native grass (Miscanthus
+    sinensis) pasture in 1982. Three different treatments (cutting, cattle grazing
+    and abundoning) has been carried out. Vegetational characteristics is investigated
+    on 60 locations (20 locations x 3 treatments, 2 m x 2 m each) in late August to
+    early September.
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/e1ce2d83-21a7-4b4e-a4fc-ff32f4183c43
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:12.475170+00:00'
+      source_modified_at: '2023-08-08T10:20:34+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/e1ce2d83-21a7-4b4e-a4fc-ff32f4183c43
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:12.475170+00:00'
+      source_modified_at: '2023-08-08T10:20:34+02:00'
+  - name: leaf area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area
+      record_url: https://deims.org/api/sites/e1ce2d83-21a7-4b4e-a4fc-ff32f4183c43
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22156
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:12.475170+00:00'
+      source_modified_at: '2023-08-08T10:20:34+02:00'
+  - name: plant height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant height
+      record_url: https://deims.org/api/sites/e1ce2d83-21a7-4b4e-a4fc-ff32f4183c43
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22192
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:12.475170+00:00'
+      source_modified_at: '2023-08-08T10:20:34+02:00'
+  - name: tree height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree height
+      record_url: https://deims.org/api/sites/e1ce2d83-21a7-4b4e-a4fc-ff32f4183c43
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22305
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:12.475170+00:00'
+      source_modified_at: '2023-08-08T10:20:34+02:00'
+  status: ACTIVE

@@ -1,0 +1,280 @@
+{
+  "source_url": "https://deims.org/api/sites/e3c6768b-ae4b-4069-aecb-7385438af452",
+  "retrieved_at": "2026-10-15T17:43:43.756202+00:00",
+  "record": {
+    "title": "Florida Coastal Everglades - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "e3c6768b-ae4b-4069-aecb-7385438af452"
+    },
+    "type": "site",
+    "created": "2016-05-09T18:33:47+02:00",
+    "changed": "2023-07-25T10:24:50+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "FCE",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Mike Rugge",
+            "email": "ruggem@fiu.edu",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Gabriel Kamener",
+            "email": "gkamener@fiu.edu",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "FCE LTER Website",
+            "value": "http://fce.lternet.edu/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The majority of Florida Coastal Everglades LTER sites are located in freshwater marsh, estuarine mangroves, seagrass estuary ecosystems in Everglades National Park. Everglades National Park covers approximately 4300 km² of south Florida and is part of the greater Everglades ecosystem which extends north to Lake Okeechobee and the Kissimmee River. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2000,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "contains",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Ecosistemas Costeros de la Peninsula de Yucatan Mex-LTER - Mexico",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "4458cb89-f03d-4f31-a153-a0c06f6992b7"
+                },
+                "changed": "2023-07-25T10:26:04+0200"
+              },
+              {
+                "type": "site",
+                "title": "Shark River Slough - United States of America",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "e1ef27ce-e501-45ca-9947-4064837d036b"
+                },
+                "changed": "2023-07-25T10:26:09+0200"
+              },
+              {
+                "type": "site",
+                "title": "Taylor Slough/Panhandle - United States of America",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "eede68ec-0b66-4df7-b653-946b2846fa13"
+                },
+                "changed": "2023-07-25T10:26:12+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "Florida Coastal Everglades",
+        "shortName": "FCE",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/florida-coastal-everglades-united-states-america_4496.jpg",
+            "alt": "Map of south Florida showing the Florida Coastal Everglades LTER study area"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 28.96,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1159.4,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "coastal",
+        "ecosystemType": [
+          {
+            "label": "Coastal",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Mangroves",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Coastal"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-81.370558806171 25.832636808941, -81.359708806161 25.832475808941, -81.359278806161 25.862525808968, -81.262660806071 25.861481808967, -81.260427806069 25.803562808914, -81.250083806059 25.803729808915, -81.249946806059 25.803654808915, -81.212863806025 25.803578808914, -81.213050806025 25.788714808901, -81.19708180601 25.788754808901, -81.19676880601 25.773853808887, -81.180560805995 25.773550808887, -81.180518805994 25.758651808874, -81.164318805979 25.758789808874, -81.164228805979 25.749935808866, -81.164211805979 25.749914808866, -81.164056805979 25.729017808846, -81.125124805943 25.729448808847, -81.116689805935 25.729529808847, -81.116575805935 25.714827808834, -81.10041480592 25.714941808834, -81.099900805919 25.685485808807, -81.083824805904 25.685719808807, -81.083674805904 25.671074808794, -81.067270805889 25.671313808794, -81.066745805889 25.649263808774, -81.050925805874 25.649667808774, -81.050221805873 25.624901808752, -81.050218805873 25.624864808752, -81.049880805873 25.61233980874, -80.999989805826 25.613277808741, -80.87498380571 25.615141808743, -80.857466805694 25.615373808743, -80.857432805694 25.624937808752, -80.857497805694 25.624965808752, -80.857440805694 25.630064808756, -80.857103805693 25.630051808756, -80.857219805693 25.749714808866, -80.857140805693 25.749997808866, -80.857212805693 25.760386808875, -80.827786805666 25.760400808875, -80.827860805666 25.761233808876, -80.826280805664 25.761293808876, -80.673766805523 25.760344808875, -80.605888805459 25.760403808875, -80.605896805459 25.757245808872, -80.603435805457 25.757252808872, -80.603485805457 25.760419808875, -80.49989980536 25.760462808875, -80.498414805359 25.760430808875, -80.498157805359 25.749970808866, -80.496030805357 25.68860080881, -80.49942480536 25.683120808805, -80.49890080536 25.668606808792, -80.515391805375 25.668250808791, -80.514830805375 25.653536808778, -80.539176805397 25.653039808777, -80.538768805397 25.640474808766, -80.547975805405 25.640320808766, -80.547874805405 25.637172808763, -80.547552805405 25.624961808752, -80.549780805407 25.624957808752, -80.549228805406 25.608072808737, -80.544012805402 25.608093808736, -80.543519805401 25.58952480872, -80.543434805401 25.586175808716, -80.551321805409 25.586227808717, -80.551401805409 25.57895680871, -80.568030805424 25.57918780871, -80.567918805424 25.564308808696, -80.569176805425 25.564305808697, -80.568988805425 25.550698808684, -80.568980805425 25.550345808684, -80.567825805424 25.550392808684, -80.567812805424 25.549281808683, -80.575080805431 25.549200808683, -80.575108805431 25.541930808676, -80.567194805423 25.541996808676, -80.567093805423 25.519998808656, -80.57502780543 25.520148808656, -80.57499980543 25.505399808643, -80.560762805417 25.505428808643, -80.560689805417 25.50183980864, -80.569655805426 25.50183380864, -80.569667805425 25.494319808633, -80.560033805417 25.494436808633, -80.563027805419 25.49143380863, -80.563033805419 25.484685808624, -80.56313080542 25.483008808623, -80.573797805429 25.483020808623, -80.57409380543 25.482926808622, -80.57438880543 25.482777808622, -80.57455780543 25.482386808622, -80.57439480543 25.462419808604, -80.57446080543 25.462272808604, -80.57481380543 25.462076808603, -80.589527805444 25.462072808603, -80.589826805444 25.462016808604, -80.590139805445 25.461823808603, -80.590367805445 25.461608808603, -80.590480805445 25.418121808564, -80.57427380543 25.418045808563, -80.57431380543 25.412511808558, -80.57398780543 25.360765808511, -80.574979805431 25.286055808443, -80.444897805309 25.287340808444, -80.431079805297 25.221426808384, -80.417075805284 25.195260808361, -80.413999805281 25.19449980836, -80.393153805261 25.186286808352, -80.388905805257 25.181612808348, -80.389609805258 25.179666808346, -80.421539805288 25.144607808314, -80.425893805292 25.141909808312, -80.425971805292 25.13968080831, -80.425362805291 25.137735808308, -80.425304805291 25.135374808306, -80.421922805288 25.130696808302, -80.423014805289 25.126392808298, -80.426976805293 25.125726808297, -80.4349108053 25.127365808299, -80.442724805307 25.1282818083, -80.44576880531 25.124667808296, -80.450918805315 25.113313808286, -80.46713580533 25.093217808268, -80.474621805337 25.081368808257, -80.479356805341 25.078337808254, -80.491152805352 25.072418808249, -80.506687805367 25.06278580824, -80.516026805376 25.057829808235, -80.516621805376 25.05208780823, -80.517354805377 25.026745808207, -80.529129805388 25.021671808202, -80.548745805406 25.014870808196, -80.560689805417 25.000846808184, -80.561352805418 24.998706808182, -80.570520805426 24.992858808176, -80.633942805485 24.966779808152, -80.664693805514 24.94188580813, -80.673255805522 24.939261808128, -80.726267805571 24.911981808103, -80.73515180558 24.89757680809, -80.835458805673 24.849563808046, -80.887399805721 24.871316808066, -80.938021805769 24.912253808103, -81.021559805846 25.000278808183, -81.082020805903 25.070887808247, -81.082031805903 25.085374808261, -81.161935805977 25.156426808325, -81.205091806017 25.226475808389, -81.17605080599 25.332615808485, -81.19678680601 25.436897808581, -81.260811806069 25.567142808699, -81.367611806169 25.691102808812, -81.399754806199 25.722768808841, -81.518503806309 25.819762808929, -81.518238806309 25.83113980894, -81.501245806293 25.83133180894, -81.501321806293 25.846168808953, -81.484583806278 25.846725808954, -81.484265806277 25.861211808967, -81.469625806264 25.861640808967, -81.469935806264 25.87600380898, -81.455915806251 25.876592808981, -81.456092806251 25.889101808992, -81.405501806204 25.889566808993, -81.404378806203 25.837278808945, -81.397149806196 25.837582808945, -81.397188806196 25.832230808941, -81.370558806171 25.832636808941))",
+        "coordinates": "POINT (-80.893056 25.286389)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 1.8,
+          "min": 0,
+          "max": 2.4,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 430000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10043"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "fire severity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22120"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 1
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "More than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://fcelter.fiu.edu/data/core/data_user_agreement/distribution_policy.html"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

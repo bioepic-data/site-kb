@@ -1,0 +1,355 @@
+{
+  "source_url": "https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35",
+  "retrieved_at": "2026-10-15T17:36:02.461787+00:00",
+  "record": {
+    "title": "Santa Barbara Coastal LTER - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "dbd399ed-9c26-4621-b479-7ab505c8aa35"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:36:18+01:00",
+    "changed": "2024-10-16T20:33:32+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "LTER-NAM-US-29",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "GEO-BON",
+            "uri": "https://geobon.org/"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Li Kui",
+            "email": "lkui@ucsb.edu",
+            "orcid": "https://orcid.org/0000-0002-5894-4907"
+          },
+          {
+            "type": "person",
+            "name": "Robert Miller",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Santa Barbara Coastal LTER",
+            "url": "https://sbclter.msi.ucsb.edu",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Li Kui",
+            "email": "lkui@ucsb.edu",
+            "orcid": "https://orcid.org/0000-0002-5894-4907"
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "US National Science Foundation (NSF)",
+            "url": "https://www.nsf.gov/",
+            "ror": "https://ror.org/021nxhr62"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "SBC LTER",
+            "value": "https://sbclter.msi.ucsb.edu"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Santa Barbara Coastal Long Term Ecological Research (SBC LTER) site is an interdisciplinary program established in 2000 to understand the ecology of coastal kelp forest ecosystems. Our research is focused on the nearshore waters of southern California, where ocean currents and climate are highly variable with season and longer-term cycles, including the El Niño-Southern Oscillation and the Pacific Decadal Oscillation. SBC’s principal study domain is a 10,000 square kilometer area of the northern portion of the Southern California Bight that includes the Santa Barbara Channel and the steep coastal watersheds, small estuaries and sandy beaches that border the Channel.",
+        "citation": null,
+        "relatedIdentifiers": [
+          {
+            "title": null,
+            "value": "https://ror.org/05hnkta08"
+          }
+        ],
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2000,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Santa Barbara Coastal LTER",
+        "shortName": "SBC LTER",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/5-Kelp_Forest_12.jpg",
+            "alt": "Kelp forest"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2024-10/rocky_reef_scdi_1000.jpg",
+            "alt": "Epibenthic anemones and tunicates on a rocky reef"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 15.1,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 463,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Chaparral",
+            "uri": null
+          },
+          {
+            "label": "Coastal",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Mediterranean forests, woodlands, and scrub",
+            "uri": null
+          },
+          {
+            "label": "Temperate shelfs and seas",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-120.750732 33.718914, -120.750732 34.573581, -119.080811 34.573581, -119.080811 33.718914, -120.750732 33.718914))",
+        "coordinates": "POINT (-119.8422 34.4125)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 0,
+          "min": -588,
+          "max": 1005.8,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1463712.2,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "ammonium nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10076"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22182"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "plant carbon concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22187"
+          },
+          {
+            "label": "plant height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22192"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": "The site is coastal marine and many measurements are done underwater by scuba divers or instruments.",
+        "collection": [
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Marine Platform",
+            "uri": null
+          },
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No staff room",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Web Catalog Service (CSW)",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://sbc.lternet.edu//data/data_agreement.html"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": "Data collected under the auspices of the SBC LTER are available to the public after primary publication, or at most two years after the completion of the study unless proprietary restrictions are warranted. "
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "ltser"
+        }
+      }
+    }
+  }
+}

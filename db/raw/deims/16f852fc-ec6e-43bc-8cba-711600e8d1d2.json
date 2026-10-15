@@ -1,0 +1,223 @@
+{
+  "source_url": "https://deims.org/api/sites/16f852fc-ec6e-43bc-8cba-711600e8d1d2",
+  "retrieved_at": "2026-10-15T17:35:04.027418+00:00",
+  "record": {
+    "title": "Kagoshima Bay - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "16f852fc-ec6e-43bc-8cba-711600e8d1d2"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:32:23+01:00",
+    "changed": "2020-06-29T10:28:31+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-48",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Tomoko Yamamoto",
+            "email": "yamamoto@fish.kagoshima-u.ac.jp",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Tomoko Yamamoto",
+            "email": "yamamoto@fish.kagoshima-u.ac.jp",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Kagoshima Bay is located at the south end of Kyushu Island. It is almost 80Km long (north and south), 20Km wide (east and west), and 1,130km2 in area. It is 117m depth on average and 237m depth at its deepest. Since it is only 100m depth at the mouth of the bay, Kagoshima Bay is considered a closed inner bay. A branch of the Kuroshio Current flows in to the bay and provides the right environment for corals, then we can find coral communities on the southern coast of Sakurajima Island. Seaweed beds composed by Sargassum algae are distributed in shallow areas and some pods of dolphin stay in the bay. We can also find benthic animals including some commercial species in the deep area and the shallowest species of vestimentifera (Lamellibrachia satsuma), a host of chemosynthetic bacterial symbionts. Thus, Kagoshima Bay has a variety of habitats and very unique environmental conditions. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Planned",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10774"
+        },
+        "yearEstablished": 2010,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Kagoshima Bay",
+        "shortName": "KGS Bay",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/kagoshima-bay-japan_4649.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 18.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2260,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Coastal",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Coastal habitats (B)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (130.7488 31.6665)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": -140,
+          "min": -200,
+          "max": 0,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 250,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 365,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 365
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Marine Platform",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of places",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The opportunity to collaborate on the project using the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

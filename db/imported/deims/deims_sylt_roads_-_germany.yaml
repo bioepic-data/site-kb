@@ -1,0 +1,92 @@
+sites:
+- id: site_kb:deims-sylt_roads_-_germany
+  name: Sylt Roads - Germany
+  network_registrations:
+  - network: DEIMS
+    network_id: 9d5e3aae-d569-4571-8058-96d5bafda2e7
+    network_url: https://deims.org/9d5e3aae-d569-4571-8058-96d5bafda2e7
+    name: Sylt Roads - Germany
+  location:
+    latitude: 55.01553
+    longitude: 8.4399
+    country: Germany
+  description: The Sylt Roads time series is closely related to the Helgoland Roads
+    time series and comprises an almost identical parameter set. Sylt Roads was initiated
+    in 1974 and is still ongoing. Its main station located in the Sylt-Romo bight
+    close to List/Sylt (55.030000N; 8.460000E) is generally sampled twice a week.
+    Two other stations (Entrance Koenigshafen 55.038300N; 8.438300E and Ferry Terminal
+    55.015530N; 8.439900E) are sporadically sampled depending on tide and weather
+    conditions. The measured parameters comprise phytoplankton, zooplankton, water
+    temperature, salinity, pH, chlorophylla and nutrient (N,P, Si) analyses. The plankton
+    time-series is augmented by the biological parameters gelatinous zooplankton,
+    meroplankton, primary productivity, fish monitoring, macroalgae, macro- and microzoobenthos
+    providing a unique opportunity to investigate longterm changes at an ecosystem
+    scale.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/9d5e3aae-d569-4571-8058-96d5bafda2e7
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:11.151584+00:00'
+      source_modified_at: '2025-12-11T16:02:45+01:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/9d5e3aae-d569-4571-8058-96d5bafda2e7
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:11.151584+00:00'
+      source_modified_at: '2025-12-11T16:02:45+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/9d5e3aae-d569-4571-8058-96d5bafda2e7
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:11.151584+00:00'
+      source_modified_at: '2025-12-11T16:02:45+01:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/9d5e3aae-d569-4571-8058-96d5bafda2e7
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:11.151584+00:00'
+      source_modified_at: '2025-12-11T16:02:45+01:00'
+  - name: physical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: physical parameter
+      record_url: https://deims.org/api/sites/9d5e3aae-d569-4571-8058-96d5bafda2e7
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20938
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:11.151584+00:00'
+      source_modified_at: '2025-12-11T16:02:45+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/9d5e3aae-d569-4571-8058-96d5bafda2e7
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:11.151584+00:00'
+      source_modified_at: '2025-12-11T16:02:45+01:00'
+  status: ACTIVE

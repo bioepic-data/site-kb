@@ -1,0 +1,117 @@
+sites:
+- id: site_kb:deims-lake_kerkini_national_park_-_greece
+  name: Lake Kerkini National Park - Greece
+  network_registrations:
+  - network: DEIMS
+    network_id: a3b78a8e-1ac6-4186-bd09-f721de2590f8
+    network_url: https://deims.org/a3b78a8e-1ac6-4186-bd09-f721de2590f8
+    name: Lake Kerkini National Park - Greece
+  location:
+    latitude: 41.205523
+    longitude: 23.147507
+    country: Greece
+  description: Lake Kerkini National Park is located on the north-west part of Serres
+    Prefecture, in the region of Central Macedonia in Greece. Its unique wetland has
+    been declared as National Park according to Ramsar Convention and it is one out
+    of ten wetlands of International Importance of Greece. It is a Natura 2000 site
+    coded GR1260010, GR1260008 and GR1260001. The man’s intervention caused the formation
+    of this place. In 1932 the first dam was constructed in the waters of river Strymonas
+    and gradually lake Kerkini took shape. The riparian plantations consisting of
+    riparian forests of wild willows, the suspended water-lilies expanded in a surface
+    of thousands hectares, the fish high diversity, the buffalos swimming in lake’s
+    calm water and the great mountainous areas of Belles and Krousia give a unique
+    grace to this land. The lake offers the ideal conditions for bird watching. It
+    is one of the best places in Europe for natural watching of about 300 rare and
+    protected bird species that live and breed here. It is no coincidence that many
+    scientists and amateurs from around the world visit us every year for their research.
+  variables:
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/a3b78a8e-1ac6-4186-bd09-f721de2590f8
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:22.647495+00:00'
+      source_modified_at: '2020-11-27T13:48:54+01:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/a3b78a8e-1ac6-4186-bd09-f721de2590f8
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:22.647495+00:00'
+      source_modified_at: '2020-11-27T13:48:54+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/a3b78a8e-1ac6-4186-bd09-f721de2590f8
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:22.647495+00:00'
+      source_modified_at: '2020-11-27T13:48:54+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/a3b78a8e-1ac6-4186-bd09-f721de2590f8
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:22.647495+00:00'
+      source_modified_at: '2020-11-27T13:48:54+01:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/a3b78a8e-1ac6-4186-bd09-f721de2590f8
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:22.647495+00:00'
+      source_modified_at: '2020-11-27T13:48:54+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/a3b78a8e-1ac6-4186-bd09-f721de2590f8
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:22.647495+00:00'
+      source_modified_at: '2020-11-27T13:48:54+01:00'
+  - name: wind direction
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind direction
+      record_url: https://deims.org/api/sites/a3b78a8e-1ac6-4186-bd09-f721de2590f8
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22317
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:22.647495+00:00'
+      source_modified_at: '2020-11-27T13:48:54+01:00'
+  - name: wind speed
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind speed
+      record_url: https://deims.org/api/sites/a3b78a8e-1ac6-4186-bd09-f721de2590f8
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22319
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:22.647495+00:00'
+      source_modified_at: '2020-11-27T13:48:54+01:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

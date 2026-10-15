@@ -1,0 +1,455 @@
+sites:
+- id: site_kb:deims-lter_hohe_tauern_national_park_npht_-_austria
+  name: LTER Hohe Tauern National Park (NPHT) - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+    network_url: https://deims.org/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+    name: LTER Hohe Tauern National Park (NPHT) - Austria
+  location:
+    latitude: 47.108531
+    longitude: 12.404147
+    country: Austria
+  description: "Hohe Tauern NP was established more than 40 years ago as one of the\
+    \ biggest protected areas in Central Europe to protect at long-term wide areas\
+    \ of the Austrian main-ridge of the Alps. The 1.856 square kilometre Hohe Tauern\
+    \ National Park is split into a 1.213 square kilometre core zone and a 643 square\
+    \ kilometre buffer zone and stretches over three provinces. Until the first and\
+    \ largest national park in Austria was actually created, the three provinces of\
+    \ Carinthia, Salzburg and Tyrol had to establish the corresponding legal framework.\
+    \ The Provincial Parliament of Carinthia passed the legislation to create the\
+    \ Hohe Tauern National Park in 1981. Salzburg followed with its national park\
+    \ legislation in 1984, followed by Tyrol in 1992. In this 40 years Hohe Tauern\
+    \ NP established the Nationalpark idea in its region working together with all\
+    \ stakeholders (land owners, tourism, majors, hunting organisations, governmental\
+    \ departments…). \r\nThe International Union for the Conservation of Nature IUCN\
+    \ awarded Carinthia in 2001 and Salzburg and Tyrol in 2006 with the international\
+    \ recognition of a national park with its \"Category II\" listing. The distinction\
+    \ that the national park has with a core zone, where nature can develop without\
+    \ human influence and a buffer zone, where traditional cultivation could be continued\
+    \ was key for gaining this international recognition. Contractual agreements between\
+    \ landowners, hunters and the national park paved the way and were pioneering\
+    \ for many protected areas.\r\n\r\nHohe Tauern NP contains 3 main zones:\r\n-\
+    \ core zone (km²): 1.078\r\n- buffer zone (km²): 643\r\n- special protected areas\
+    \ (km²): 135\r\nAbout 845 km² of the area is nature zone, which remains untouched\
+    \ by humans (no land use based on IUCN criteria, i.e. no hunting, no grazing).\r\
+    \n\r\nThe altitudinal belts from the valleys to the summits of the three-thousand-metre-tall\
+    \ mountains represent an exceptional biodiversity. This is home to many plants\
+    \ and wildlife species originating from the Central Asian tundra, the Arctic and\
+    \ even Southern Europe. The preservation of all significant Alpine ecosystems\
+    \ across large areas of the Hohe Tauern National Park has been unimpaired. More\
+    \ than one third of all plant species recorded in Austria can be found in the\
+    \ national park. For mammals, birds, reptiles and amphibians, this figure is at\
+    \ around 50%. Even those animals that were nearly extinct in almost all of Europe\
+    \ at the beginning of the 19th century are now provided a safe habitat in the\
+    \ Hohe Tauern National Park. This impressive biodiversity is a result of the different\
+    \ prevailing climatic, geological, geomorphological and hydrological conditions\
+    \ in the high mountains and the differing adaptation strategies of the plants\
+    \ and animals.\r\n\r\nThe Tauern Window – a unique tectonic window in terms of\
+    \ shape and size – provides insight into the deepest tectonic layer of the Alps\
+    \ and is thus key for understanding the geological structure of the Alps. Rocks\
+    \ of differing ages, different origins and different chemical composition harbour\
+    \ a genuine hoard of up to 200 different minerals.\r\n\r\nNature protection (ecosystems/Natura2000\
+    \ habitats) and species conservation projects play a big role in the work and\
+    \ history of Hohe Tauern NP (e.g. bearded vulture, ibex, golden eagle, …). The\
+    \ NP and its work do not stop at the protected areas borders and for a lot of\
+    \ species it is important that the whole region is aware of its impacts on biodiversity.\r\
+    \n\r\nAccording to the altitude gradation of the Hohe Tauern National Park \"\
+    high mountain habitat types\" are typical. Based on the aerial photo interpretation\
+    \ of the National Park montane to alpine grassland and pastures dominate with\
+    \ a third. This also reflects the zoning with the outer zone in the sense of an\
+    \ Alpine cultural landscape zone with alpine pastures – and the transition to\
+    \ the high alpine core zone. The core zone is formed by the \"eternal ice\" of\
+    \ the glaciers around the highest mountains of Austria as well as scree slopes\
+    \ with and without pioneer vegetation dominate.\r\n\r\nCORINE Land Cover L3 (2018):\
+    \ 35 % bare rocks, 24 % natural grasslands, 20 % sparsely vegetated areas, 9 %\
+    \ coniferous forest, 7 % glaciers and perpetual snow, 2 % moors and heathland,\
+    \ 1 % pastures."
+  variables:
+  - name: above ground biomass
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground biomass
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: animal species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: animal species presence
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22059
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: available phosphorus
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: available phosphorus
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22061
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: dissolved organic phosphorus
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic phosphorus
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22108
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: electrical conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: electrical conductivity
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/21552
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: lake temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: lake temperature
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/10011
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: microbial biomass carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: microbial biomass carbon
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/20794
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: oxygen concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: oxygen concentration
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/30179
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: oxygen saturation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: oxygen saturation
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/21215
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: pH value of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: pH value of water
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/18
+      source_id: http://vocabs.lter-europe.net/EnvThes/21218
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: root biomass
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: root biomass
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/19
+      source_id: http://vocabs.lter-europe.net/EnvThes/22215
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: root dry weight
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: root dry weight
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/20
+      source_id: http://vocabs.lter-europe.net/EnvThes/22217
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: runoff amount
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: runoff amount
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/21
+      source_id: http://vocabs.lter-europe.net/EnvThes/30032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: seasonal change
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: seasonal change
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/22
+      source_id: http://vocabs.lter-europe.net/EnvThes/21569
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: soil classification
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil classification
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/23
+      source_id: http://vocabs.lter-europe.net/EnvThes/21909
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: soil organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil organic carbon
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/24
+      source_id: http://vocabs.lter-europe.net/EnvThes/22261
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: soil pH
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil pH
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/25
+      source_id: http://vocabs.lter-europe.net/EnvThes/22264
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/26
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: soil particle size
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil particle size
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/27
+      source_id: http://vocabs.lter-europe.net/EnvThes/22265
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: soil porosity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil porosity
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/28
+      source_id: http://vocabs.lter-europe.net/EnvThes/22267
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: soil temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil temperature
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/29
+      source_id: http://vocabs.lter-europe.net/EnvThes/22278
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: soil texture
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil texture
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/30
+      source_id: http://vocabs.lter-europe.net/EnvThes/22279
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: soil water holding capacity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil water holding capacity
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/31
+      source_id: http://vocabs.lter-europe.net/EnvThes/30037
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: water alkalinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water alkalinity
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/32
+      source_id: http://vocabs.lter-europe.net/EnvThes/10303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/33
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/d6936d5d-e036-4b3d-bf3c-4a8702e82f1b
+      field_path: /attributes/focusDesignScale/observedProperties/34
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:50.219883+00:00'
+      source_modified_at: '2025-05-14T11:59:06+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

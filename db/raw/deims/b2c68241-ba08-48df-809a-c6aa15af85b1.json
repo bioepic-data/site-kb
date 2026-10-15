@@ -1,0 +1,381 @@
+{
+  "source_url": "https://deims.org/api/sites/b2c68241-ba08-48df-809a-c6aa15af85b1",
+  "retrieved_at": "2026-10-15T17:43:52.864352+00:00",
+  "record": {
+    "title": "Tellin - Belgium",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "b2c68241-ba08-48df-809a-c6aa15af85b1"
+    },
+    "type": "site",
+    "created": "2016-05-24T15:17:37+02:00",
+    "changed": "2025-01-07T11:14:56+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ICP Forests",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4e44c094-f4f7-4882-bfe5-685b666a0dc7"
+              }
+            },
+            "siteCode": "2_6",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Belgium",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "735946e0-4e9e-484a-acee-85e31f4e2a2e"
+              }
+            },
+            "siteCode": "LTER_EU_BE_23",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "ICP Forests (Level II)",
+            "uri": null
+          },
+          {
+            "label": "NEC Directive (2016/2284)",
+            "uri": "http://data.europa.eu/eli/dir/2016/2284/oj"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Quentin Ponette",
+            "email": "quentin.ponette@uclouvain.be",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Commune de Wellin",
+            "url": null,
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Hugues Titeux",
+            "email": "hugues.titeux@uclouvain.be",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Service Public de Wallonie",
+            "url": "http://www.wallonie.be/",
+            "ror": "https://ror.org/0215gxf82"
+          }
+        ],
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "ICP forest monitoring plots: 0.5 ha of fenced stand + 20 m buffer area. Managment, data collection and reserch activities carried on by catholic university of Louvain (UCL)\r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1995,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Tellin",
+        "shortName": "Wellin",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Wellin_30.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 7.7,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1282,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "continental",
+        "biome": "deciduous_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Temperate broadleaf and mixed forests",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Broadleaved deciduous woodland (G1)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((5.2078664645292 50.062982106147, 5.2357975641731 50.062775358711, 5.235471262939 50.044795320971, 5.2075506647475 50.04500199075, 5.2078664645292 50.062982106147))",
+        "coordinates": "POINT (5.221667 50.053889)",
+        "country": [
+          "Belgium"
+        ],
+        "elevation": {
+          "avg": 415,
+          "min": 415,
+          "max": 415,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 0.5,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "acid neutralising capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10310"
+          },
+          {
+            "label": "base saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22065"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "cation exchange capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22084"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "leaf nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "soil acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22243"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil texture",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22279"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          },
+          {
+            "label": "thickness of soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22295"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "tree age",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22300"
+          },
+          {
+            "label": "tree basal area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22301"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree diameter at breast height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22304"
+          },
+          {
+            "label": "tree distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21587"
+          },
+          {
+            "label": "tree height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22305"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 90,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 90
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Daily",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Weekly",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description",
+              "The opportunity to collaborate on the project using the dataset",
+              "The opportunity to review the results based on the dataset",
+              "Reprints of articles using the dataset must be provided to the data provider",
+              "Mutual agreement on reciprocal sharing of data",
+              "The data provider is given and agrees to a statement of uses to which the dataset will be put"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

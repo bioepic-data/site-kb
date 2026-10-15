@@ -1,0 +1,422 @@
+{
+  "source_url": "https://deims.org/api/sites/b5addebc-807c-496e-9a27-0329908cd41e",
+  "retrieved_at": "2026-10-15T17:47:20.144248+00:00",
+  "record": {
+    "title": "Beaufort Lagoon Ecosystems LTER - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "b5addebc-807c-496e-9a27-0329908cd41e"
+    },
+    "type": "site",
+    "created": "2019-10-14T23:54:39+02:00",
+    "changed": "2020-12-18T11:04:34+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "LTER_BLE_US_BLE",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "James McClelland",
+            "email": "jimm@utexas.edu",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Beaufort Lagoon Ecosystems LTER",
+            "url": "https://ble.lternet.edu",
+            "ror": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://ble.lternet.edu"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The BLE LTER program (https://ble.lternet.edu/) focuses on productivity, trophic relationships, and biogeochemical cycling in the network of lagoons that span Alaska’s northernmost coastline. BLE is examining factors that affect the stability and resilience of microbial and metazoan food webs, including drivers and forms of primary production, in these highly dynamic ecosystems. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2017,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Beaufort Lagoon Ecosystems LTER",
+        "shortName": "BLE",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/beaufort-lagoon-ecosystems-lter-united-states-america_6810.jpg",
+            "alt": "Coastal lagoons along the Eastern Beaufort Sea (courtesy of Susan Schonberg)"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 0,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 115,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "tundra",
+        "ecosystemType": [
+          {
+            "label": "Coastal",
+            "uri": null
+          },
+          {
+            "label": "Large river deltas",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          },
+          {
+            "label": "Small rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Coastal habitats (B)",
+            "uri": null
+          },
+          {
+            "label": "Ice-associated marine habitats (A8)",
+            "uri": null
+          },
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          },
+          {
+            "label": "Rock cliffs, ledges and shores, including the supralittoral (B3)",
+            "uri": null
+          },
+          {
+            "label": "Sea ice (A8.1)",
+            "uri": null
+          },
+          {
+            "label": "Soft sea-cliffs, often vegetated (B3.4)",
+            "uri": null
+          },
+          {
+            "label": "Sublittoral mixed sediments (A5.4)",
+            "uri": null
+          },
+          {
+            "label": "Sublittoral sediment (A5)",
+            "uri": null
+          },
+          {
+            "label": "Surface running waters (C2)",
+            "uri": null
+          },
+          {
+            "label": "Under-ice habitat (A8.4)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Coastal",
+          "Fresh water rivers"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "LINESTRING (-156.7357635498 71.436580874103, -157.2631072998 71.026561799675, -143.7718963623 69.728339011757, -142.8929901123 70.284252724706, -156.6918182373 71.575975083926)",
+        "coordinates": "POINT (-156.56479 71.32894)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 5,
+          "min": 0,
+          "max": 10,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 6147.46,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "annual net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21420"
+          },
+          {
+            "label": "bacteria abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22026"
+          },
+          {
+            "label": "bacterial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22062"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "carbon to nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21933"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "chlorophyll a content in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21214"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "community structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21472"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "current direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30026"
+          },
+          {
+            "label": "current speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30027"
+          },
+          {
+            "label": "denitrification potential",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21385"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "food chain length",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20707"
+          },
+          {
+            "label": "heterotrophic respiration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22131"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "net primary productivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21421"
+          },
+          {
+            "label": "nitrogen availability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20968"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "nutrient availability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21457"
+          },
+          {
+            "label": "nutrient concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22176"
+          },
+          {
+            "label": "nutrient flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21080"
+          },
+          {
+            "label": "oxygen uptake rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21320"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "percent nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22182"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "phytoplankton biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30021"
+          },
+          {
+            "label": "primary productivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21419"
+          },
+          {
+            "label": "residence time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10047"
+          },
+          {
+            "label": "sea ice extent",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22223"
+          },
+          {
+            "label": "sediment oxygen demand",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20904"
+          },
+          {
+            "label": "snow cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21559"
+          },
+          {
+            "label": "specific conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22289"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "boat",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 120,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "We travel to the sites to sample and collect data three times a year, generally April, June, and August.",
+          "siteVisitInterval": 120
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Web Catalog Service (CSW)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The opportunity to collaborate on the project using the dataset",
+              "Reprints of articles using the dataset must be provided to the data provider"
+            ],
+            "notes": "Under current development. Will be posted at ble.lternet.edu"
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

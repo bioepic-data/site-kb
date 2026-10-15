@@ -1,0 +1,171 @@
+{
+  "source_url": "https://deims.org/api/sites/b46ca052-567f-49a7-b542-e9464db577e1",
+  "retrieved_at": "2026-10-15T17:44:05.081269+00:00",
+  "record": {
+    "title": "Lake Biwa - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "b46ca052-567f-49a7-b542-e9464db577e1"
+    },
+    "type": "site",
+    "created": "2016-06-04T12:11:18+02:00",
+    "changed": "2023-10-06T09:26:35+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-49",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Lake Biwa Limnological Survey",
+            "value": "http://www.ecology.kyoto-u.ac.jp/biwako/biwako.html"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Lake Biwa is the largest lake in Japan. The maximum depth is 104 m, and the volume of water storage is 27.5 km3. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1965,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Lake Biwa",
+        "shortName": "Lake Biwa",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 14.6,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2007.5,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (135.999264 35.216494)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": 84,
+          "max": 84,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 67040,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": "Two survey boats, Survey preparatory office",
+        "collection": [
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

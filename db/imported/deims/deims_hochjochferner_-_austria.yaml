@@ -1,0 +1,43 @@
+sites:
+- id: site_kb:deims-hochjochferner_-_austria
+  name: Hochjochferner - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 86e3a1ca-b2ba-4b06-b096-71447df52841
+    network_url: https://deims.org/86e3a1ca-b2ba-4b06-b096-71447df52841
+    name: Hochjochferner - Austria
+  location:
+    latitude: 46.789
+    longitude: 10.8234
+    country: Austria
+    elevation_meters: 3029.0
+  description: Hochjochferner (glacier) is located between the Schnalstal and the
+    Venter valley. It extends over an area of 612 ha from the Grawandspitze (3.251
+    m) and the Fineilspitze (3.514 m) to the Hochjoch (2.750 m) and into the Rofen
+    valley. The western part of the glacier was used as year-round ski area until
+    2012.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/86e3a1ca-b2ba-4b06-b096-71447df52841
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:34.906338+00:00'
+      source_modified_at: '2023-07-25T08:47:59+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/86e3a1ca-b2ba-4b06-b096-71447df52841
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:34.906338+00:00'
+      source_modified_at: '2023-07-25T08:47:59+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

@@ -1,0 +1,272 @@
+{
+  "source_url": "https://deims.org/api/sites/a45423d6-360e-4e0e-a210-f8a3ae796306",
+  "retrieved_at": "2026-10-15T17:48:46.514759+00:00",
+  "record": {
+    "title": "OZCAR-RI AMMA-CATCH Niakhar complementary site - Senegal",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "a45423d6-360e-4e0e-a210-f8a3ae796306"
+    },
+    "type": "site",
+    "created": "2021-11-03T19:47:35+01:00",
+    "changed": "2024-03-04T09:30:15+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER France",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d8d9206f-b1bd-4f90-84b7-8c662d4235a2"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "OZCAR RI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "3439de4e-c64d-4a97-bed0-7e27fadbcb7b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "AMMA-CATCH : A hydrological, meteorological and ecological observatory on West Africa",
+            "value": "http://www.amma-catch.org/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Niakhar is a complementary site of the AMMA-CATCH observation network, that has been set up to study the longitudinal gradient over West Africa in comlement to the mesoscale sites. It is located in central Senegal, under Sahelian climate in a rural area, 150 km from Dakar. The studies focus on meteo/vegetation interactions in a cultural complex. The AMMA-CATCH site is coupled with the \"long-term Collaborative Observatory on agroforestry ecosystem services\", managed by partners since 2018.\r\n",
+        "citation": "AMMA-CATCH (2013): AMMA-CATCH observatory: Ferlo and Niakhar complementary sites in the Sahelian pastoral zone, Senegal. IRD, CNRS-INSU, OSUG, OMP, OREME. doi:10.17178/AMMA-CATCH.senegal",
+        "relatedIdentifiers": [
+          {
+            "title": null,
+            "value": "http://dx.doi.org/10.17178/AMMA-CATCH.senegal"
+          }
+        ],
+        "status": {
+          "label": "Partly operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10773"
+        },
+        "yearEstablished": 2018,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "OZCAR-RI AMMA-CATCH Niakhar complementary site",
+        "shortName": "AMMA-CATCH Niakhar site",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2021-11/Niakhar_Roupsard_0.png",
+            "alt": "Niakhar agro-silvo-pastoral landscape. Photo O. Roupsard"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 28.9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 520,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-16.456267 14.494402)",
+        "country": [
+          "Senegal"
+        ],
+        "elevation": {
+          "avg": 8,
+          "min": 7,
+          "max": 10,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 2000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "direct radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22044"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 90,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 90
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Less than 1 kW",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Sensor Web Enablement (SWE)",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          },
+          {
+            "label": "Web Catalog Service (CSW)",
+            "uri": null
+          },
+          {
+            "label": "Web Map Service (WMS)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://www.amma-catch.org/IMG/pdf/data_policy_bd_amma-catch_en.pdf"
+              }
+            ],
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "Formal acknowledgement of the dataset providers",
+              "The opportunity to collaborate on the project using the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

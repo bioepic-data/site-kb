@@ -1,0 +1,179 @@
+{
+  "source_url": "https://deims.org/api/sites/e40fb493-7926-44c7-8c5c-bc1943adfcdb",
+  "retrieved_at": "2026-10-15T17:49:05.373830+00:00",
+  "record": {
+    "title": "Trøndelag site cluster - Norway",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "e40fb493-7926-44c7-8c5c-bc1943adfcdb"
+    },
+    "type": "site",
+    "created": "2022-11-14T16:10:44+01:00",
+    "changed": "2025-03-28T13:27:53+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": null,
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": null,
+        "yearEstablished": null,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "contains",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Boergefjell - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "0c1221cf-5e37-4a40-bcee-a2d85dc8969f"
+                },
+                "changed": "2023-07-24T15:09:31+0200"
+              },
+              {
+                "type": "site",
+                "title": "Hotran - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "2a59476e-29cb-4949-9adb-8740057690f6"
+                },
+                "changed": "2023-07-24T15:09:25+0200"
+              },
+              {
+                "type": "site",
+                "title": "Jonsvatnet - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "b7d763f2-4361-44a3-9adc-dfa89a939ff3"
+                },
+                "changed": "2023-07-24T15:09:17+0200"
+              },
+              {
+                "type": "site",
+                "title": "Moose and forest dynamics in Trøndelag - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "1d733026-a0f3-4285-89ab-7de1421120a2"
+                },
+                "changed": "2023-07-24T15:09:04+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "Trøndelag site cluster",
+        "shortName": null,
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": null,
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((11.68396 62.837127, 9.486694 62.791953, 11.123657 64.078954, 11.8927 64.078954, 11.68396 62.837127))",
+        "coordinates": "POINT (10.601807 63.351744)",
+        "country": [
+          "Norway"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1027038.22,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": null,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": null,
+        "operation": {
+          "permanent": null,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

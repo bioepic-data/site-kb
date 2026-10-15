@@ -1,0 +1,87 @@
+sites:
+- id: site_kb:deims-central_arizona-phoenix_lter_-_united_states_of_america
+  name: Central Arizona-Phoenix LTER - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: 216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    network_url: https://deims.org/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    name: Central Arizona-Phoenix LTER - United States of America
+  location:
+    latitude: 33.2131
+    longitude: -111.573
+    country: United States of America
+    elevation_meters: 575.0
+  description: Our work focuses on a metropolitan area that includes the nation’s
+    sixth largest city, Phoenix, as well as 22 other municipalities and spans Maricopa
+    County and a small portion of Pinal County, Arizona. We engage biological, physical,
+    engineering, and social scientists in research that provides a foundation for
+    understanding urban socio-ecological systems in an arid, but rapidly growing,
+    metropolitan area.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+      source_modified_at: '2020-06-29T10:39:07+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+      source_modified_at: '2020-06-29T10:39:07+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+      source_modified_at: '2020-06-29T10:39:07+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+      source_modified_at: '2020-06-29T10:39:07+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+      source_modified_at: '2020-06-29T10:39:07+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+      source_modified_at: '2020-06-29T10:39:07+02:00'
+  status: ACTIVE

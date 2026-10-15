@@ -1,0 +1,81 @@
+sites:
+- id: site_kb:deims-rodnei_calimani_-_romania
+  name: Rodnei Calimani - Romania
+  network_registrations:
+  - network: DEIMS
+    network_id: 9350a1d0-a835-408f-a96c-7454e24368f5
+    network_url: https://deims.org/9350a1d0-a835-408f-a96c-7454e24368f5
+    name: Rodnei Calimani - Romania
+  location:
+    latitude: 47.3217
+    longitude: 24.9558
+    country: Romania
+    elevation_meters: 1450.0
+  description: Rodna-Calimani site is located in the north part of Eastern Carpathians.
+    The site consist on two national park (Rodna Mountain National Park and Calimani
+    National Park) and one Biosphere reserve (Pietrosul Rodnei). Forest cover more
+    50% of the site.  The main forestry species are beech (Fagus sylvatica), spruce
+    (Picea abies), mountain pine (Pinus mugo), fir (Abies alba), maple (Acer pseudoplatanus),
+    birch (Betula pendula), alder (Alnus viridis), Rowan (Sorbus aucuparia). Pinus
+    cembra population are the only one from Eastern Carpathians and is probably one
+    of the most representative of the Carpathian Mountains. Long term research consisting
+    on climate and tree growth continuous monitoring was placed in 2007. Several permanent
+    plots for natural forest stand dynamics were established starting with 1976.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/9350a1d0-a835-408f-a96c-7454e24368f5
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:42.296659+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/9350a1d0-a835-408f-a96c-7454e24368f5
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:42.296659+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/9350a1d0-a835-408f-a96c-7454e24368f5
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:42.296659+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/9350a1d0-a835-408f-a96c-7454e24368f5
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:42.296659+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/9350a1d0-a835-408f-a96c-7454e24368f5
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:42.296659+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

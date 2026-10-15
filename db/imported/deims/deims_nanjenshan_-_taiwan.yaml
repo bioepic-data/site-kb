@@ -1,0 +1,30 @@
+sites:
+- id: site_kb:deims-nanjenshan_-_taiwan
+  name: Nanjenshan - Taiwan
+  network_registrations:
+  - network: DEIMS
+    network_id: ed57c1d0-0ba3-4d0b-bc05-69a785215db3
+    network_url: https://deims.org/ed57c1d0-0ba3-4d0b-bc05-69a785215db3
+    name: Nanjenshan - Taiwan
+  location:
+    latitude: 24.55
+    longitude: 120.85
+    country: Taiwan
+    elevation_meters: 312.0
+  description: The Nanjenshan Long-Term Ecological Site is a part of Kenting National
+    Park. The site was classified as a tropical rain forest. It's a broad leaved evergreen
+    forest. Monsoons are considered as a key driver that shape the distribution and
+    ecology of forest ecosystems in Nanjenshan.
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/ed57c1d0-0ba3-4d0b-bc05-69a785215db3
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:43.629406+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  status: ACTIVE

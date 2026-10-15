@@ -1,0 +1,236 @@
+sites:
+- id: site_kb:deims-tern_wombat_stringybark_eucalypt_supersite_-_australia
+  name: TERN Wombat Stringybark Eucalypt SuperSite - Australia
+  network_registrations:
+  - network: DEIMS
+    network_id: e99a9257-6654-42d3-8baf-077906ab8f00
+    network_url: https://deims.org/e99a9257-6654-42d3-8baf-077906ab8f00
+    name: TERN Wombat Stringybark Eucalypt SuperSite - Australia
+  location:
+    latitude: -37.4222
+    longitude: 144.0944
+    country: Australia
+    elevation_meters: 700.0
+  description: "The Wombat Stringybark Eucalypt SuperSite is a member of the TERN\
+    \ Ecosystem Processes platform (https://www.tern.org.au/tern-observatory/tern-ecosystem-processes/),\
+    \ a field observatory within the Australian Terrestrial Ecosystem Network (TERN,\
+    \ http://www.tern.org.au/). The Wombat Stringybark Eucalypt SuperSite is located\
+    \ in the Wombat State Forest, Victoria, South Eastern Australia at an elevation\
+    \ of 713m.  The site is a secondary re-growth forest that was last harvested in\
+    \ 1980. Dominant tree species are Eucalyptus obliqua (messmate stringybark), Eucalyptus\
+    \ radiata (narrow leaf peppermint) and Eucalyptus rubida (candlebark) with an\
+    \ average canopy height of 25 m.  The understorey consists mainly of patchy grasses\
+    \ and the soil is a silty-clay overlying clay. The forest is managed by the Department\
+    \ of Environment, Land, Water and Planning and management includes selective harvesting\
+    \ and prescribed burning regimes. The climate of the study area is classified\
+    \ as cool-temperate to Mediterranean zone with cold and wet winters (May-Aug)\
+    \ and warm and dry summers (Dec-Feb). \r\n\r\nKey research objectives include:\r\
+    \n\r\n•\tWhat are the elements of structure, composition, functions and processes\
+    \ of the dry eucalypt forests of South Eastern Australia required for the sustainable\
+    \ management of these ecosystems? \r\n\r\n•\tWhat is the carbon sink/source strength\
+    \ of a dry sclerophyll forest and what is their contribution to Australia’s National\
+    \ Carbon Inventory? \r\n\r\n•\tWhat is the magnitude of emission and/or uptake\
+    \ of non-CO2 greenhouse gases, such as nitrous oxide and methane of dry eucalypt\
+    \ forest? \r\n\r\n•\tHow will climate variability, drought or fire influence the\
+    \ ecosystem processes of dry eucalypt forest? \r\n\r\nThe Dja Dja Wurrung peoples\
+    \ are the traditional owners at Wombat."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: carbon dioxide concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: carbon dioxide concentration
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22082
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: fire severity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: fire severity index
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22120
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: leaf area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22156
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: microbial diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: microbial diversity
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22169
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: plant height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant height
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22192
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: soil gas flux
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil gas flux
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22251
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: soil moisture field capacity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil moisture field capacity
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/10396
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: soil pH
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil pH
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22264
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: soil temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil temperature
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/22278
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: tree diameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: tree height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree height
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22305
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: wind direction
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind direction
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/22317
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  - name: wind speed
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind speed
+      record_url: https://deims.org/api/sites/e99a9257-6654-42d3-8baf-077906ab8f00
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/22319
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:35.053259+00:00'
+      source_modified_at: '2021-01-13T01:46:37+01:00'
+  status: ACTIVE

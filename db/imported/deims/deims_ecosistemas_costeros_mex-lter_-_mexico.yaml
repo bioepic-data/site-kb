@@ -1,0 +1,52 @@
+sites:
+- id: site_kb:deims-ecosistemas_costeros_mex-lter_-_mexico
+  name: Ecosistemas Costeros Mex-LTER - Mexico
+  network_registrations:
+  - network: DEIMS
+    network_id: 7a9b23b5-6f95-466c-9c74-b62953e8c2c7
+    network_url: https://deims.org/7a9b23b5-6f95-466c-9c74-b62953e8c2c7
+    name: Ecosistemas Costeros Mex-LTER - Mexico
+  location:
+    latitude: 19.1
+    longitude: -104.65
+    country: Mexico
+    elevation_meters: 0.0
+  description: El sitio abarca la franja costera y la plataforma continental que va
+    desde el Río Cuitzmala en Jalisco hasta la Laguna de Cuyutlán en Colima. . Incluye
+    áreas prioritarias de anidación de tortugas marinas y sitios RAMSAR. Se caracteriza
+    por una gran riqueza biológica.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/7a9b23b5-6f95-466c-9c74-b62953e8c2c7
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:32.759131+00:00'
+      source_modified_at: '2021-03-11T11:06:18+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/7a9b23b5-6f95-466c-9c74-b62953e8c2c7
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:32.759131+00:00'
+      source_modified_at: '2021-03-11T11:06:18+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/7a9b23b5-6f95-466c-9c74-b62953e8c2c7
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:32.759131+00:00'
+      source_modified_at: '2021-03-11T11:06:18+01:00'
+  status: ACTIVE

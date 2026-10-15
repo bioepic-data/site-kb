@@ -1,0 +1,70 @@
+sites:
+- id: site_kb:deims-jaú_national_park_-_brazil
+  name: Jaú National Park - Brazil
+  network_registrations:
+  - network: DEIMS
+    network_id: 61549175-8793-497b-9cab-9a67356eab75
+    network_url: https://deims.org/61549175-8793-497b-9cab-9a67356eab75
+    name: Jaú National Park - Brazil
+  location:
+    latitude: -1.866587
+    longitude: -61.60599
+    country: Brazil
+    elevation_meters: 60.0
+  description: Jaú National Park extends over 22.720 km2 and is located 220 km NW
+    the city of Manaus, at approximately -01º54’ and -61º27’. It includes upland forest
+    (terra firme), white-sand forest (campinarana) and black-water inundation forest
+    (igapó). The igapó forest under study is mostly pristine, and subject to annual
+    floods of up to 9 m through the oscillating water-levels of the Jaú and Negro
+    Rivers. The species-rich igapó forest contains several endemic tree species, some
+    of which grow at extremely flooded sites and with individuals that have ages of
+    up to 1,000 years, as measured by dendrochronological analyses. The monitoring
+    of wood growth, mortality, and regeneration in these tree species indicate how
+    tree populations react to intensified flood and drought regimes, how they are
+    predicted to occur under global climate change.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/61549175-8793-497b-9cab-9a67356eab75
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:41.913363+00:00'
+      source_modified_at: '2020-12-18T10:29:52+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/61549175-8793-497b-9cab-9a67356eab75
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:41.913363+00:00'
+      source_modified_at: '2020-12-18T10:29:52+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/61549175-8793-497b-9cab-9a67356eab75
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:41.913363+00:00'
+      source_modified_at: '2020-12-18T10:29:52+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/61549175-8793-497b-9cab-9a67356eab75
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:41.913363+00:00'
+      source_modified_at: '2020-12-18T10:29:52+01:00'
+  status: ACTIVE

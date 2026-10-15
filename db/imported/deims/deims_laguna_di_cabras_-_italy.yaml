@@ -1,0 +1,186 @@
+sites:
+- id: site_kb:deims-laguna_di_cabras_-_italy
+  name: Laguna di Cabras - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: d5071d21-9c8f-47cc-b534-1b1162a5e09c
+    network_url: https://deims.org/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+    name: Laguna di Cabras - Italy
+  location:
+    latitude: 39.939768
+    longitude: 8.481445
+    country: Italy
+    elevation_meters: 0.0
+  description: "Cabras Lagoon is located on the west coast of Sardinia (Italy), in\
+    \ the Gulf of Oristano (39°56’37’’N, 08°28’43’’E), and occupies about 2280 ha,\
+    \ with a mean water depth and maximum of 1.6 and 3 m respectively. The watershed\
+    \ of the site extends over approximately 430 km2. The input of freshwater into\
+    \ the lagoon is scarce and irregular because of the semi-arid Mediterranean climate.\
+    \ Most of the freshwater comes from the small Mare ‘e Foghe River, located in\
+    \ the north. \r\nThe predominance of agriculture in the region and the release\
+    \ of poorly depurated urban waste account for the high nutrient loads deposited\
+    \ in Cabras Lagoon. The resident population of about 38,000 inhabitants is grouped\
+    \ in 19 urban centres, the largest being Cabras, which is located on the southeast\
+    \ coastal side of the lagoon.\r\nDuring the twentieth century, the lagoon and\
+    \ its watershed underwent several modifications as a consequence of human activities\
+    \ that affected the hydrology and hydraulics of the region. In addition, in the\
+    \ late 1970s, water exchange with the sea was altered by the dredging of a large\
+    \ canal, the Scolmatore (spillway), which connected the lagoon with the adjacent\
+    \ Gulf of Oristano. The canal was constructed to avoid flooding of adjacent land\
+    \ during the heavy rainfall that occurs in winter. In addition, a cement dam was\
+    \ built into the Scolmatore to prevent further increases in the lagoon’s salinity\
+    \ and artificial barriers were constructed to control the fish catch, thereby\
+    \ impeding direct communication between the lagoon and the sea. Now the only link\
+    \ to the sea is via four very narrow creeks that flow into the large canal from\
+    \ the southern part of the lagoon over the barrier.\r\nThe lagoon has a high economic\
+    \ rating due to ex¬tensive fishery activities, involving about 300 people and\
+    \ those involved in related enterprises. In the site, in addition to the guard\
+    \ houses and warehouses of fishermen, there is also a restaurant, where the products\
+    \ of fishery in the lagoon are offered. In 1998, fish productivity reached 40,000\
+    \ kg km-2, corresponding to a catch of 850 tonnes but these values fell to around\
+    \ 20,000 kg km-2 and less than 80 tonnes after 1999. In fact, its high trophic\
+    \ status has often exposed the lagoon to important dystrophic crises, which have\
+    \ caused large reductions in its fishing productivity. Scientific monitoring has\
+    \ been carried out since the strong dystrophic crisis that affected Cabras Lagoon\
+    \ during the summer of 1999, killing the whole aquatic biota. A long-term series\
+    \ of data is available and derives from high-frequency measurements and samplings\
+    \ to assess environmental and biological parameters. In particular the data concern\
+    \ the main trophic descriptors (Secchi depth, temperature, pH, conductivity, dissolved\
+    \ oxygen and saturation, alkalinity, NH4-N, NO2-N, NO3-N, total nitrogen, soluble\
+    \ reactive phosphorus, total phosphorus, dissolved silica) and phytoplankton abundances,\
+    \ as chlorophyll a, cell densities and biomass, class and species composition.\
+    \ The activity was interrupted in 2009."
+  variables:
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: dissolved nutrient
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved nutrient
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22107
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: inorganic nutrient content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: inorganic nutrient content
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22137
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: secchi depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: secchi depth
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22226
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: specific conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: specific conductivity
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22289
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: water alkalinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water alkalinity
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/10303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/d5071d21-9c8f-47cc-b534-1b1162a5e09c
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:09.828685+00:00'
+      source_modified_at: '2025-07-11T10:56:09+02:00'
+  status: ACTIVE

@@ -1,0 +1,60 @@
+sites:
+- id: site_kb:deims-ltser_mondego_estuary_-_portugal
+  name: LTSER MONDEGO ESTUARY - Portugal
+  network_registrations:
+  - network: DEIMS
+    network_id: 5a38fc08-5257-4b13-8465-1d50ea166b95
+    network_url: https://deims.org/5a38fc08-5257-4b13-8465-1d50ea166b95
+    name: LTSER MONDEGO ESTUARY - Portugal
+  location:
+    latitude: 40.133577
+    longitude: -8.819962
+    country: Portugal
+    elevation_meters: 10.0
+  description: '3M_RECITAL - MINHO, MONDEGO, AND MIRA ESTUARIES observatory: Long
+    term vaRiation of ECOLOGICAL sTAtus as a response to naturaL and human induced
+    changes. Implications for management and restoration. Mondego estuary site: The
+    Mondego River drains a basin of approximately 6670 Km2 and its valley is considerably
+    steep in upstream sections, forming a large alluvial plain consisting of good
+    agricultural land in downstream areas. Since the 1960s, the Mondego catchment
+    area underwent a large scale morphological modification, involving the construction
+    of stone walls, to regulate the river water flow and enlarge harbor facilities,
+    and water reservoirs to control floods, improve the uses of water resources, and
+    produce electric power, which modified the riverbed topography and changed the
+    system hydrodynamics. The river contributes presently with a high anthropogenic
+    loading of nutrients and several chemicals into its relatively small estuary (1600
+    ha, splitting in two arms separated by an island in the terminal part), causing
+    eutrophication. Besides, the estuary - Western coast of Portugal - North Atlantic
+    Ocean Eco-region - supports industrial activities, salt-works, and aquaculture
+    farms, and is the location of Figueira da Foz, a harbour and a centre of seasonal
+    touristic activity. A comprehensive study on the Mondego estuary environmental
+    quality has been carried out during the last two decades, focusing on water quality,
+    hydraulics and sediments dynamics, plankton communities (phyto, zoo, and ichtyoplankton),
+    the term evolution of the benthic communities (intertidal and subtidal), and the
+    changes in macrophytes’ beds (Zostera noltei) and green macroalgae distribution
+    in relation to morphological alterations.'
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/5a38fc08-5257-4b13-8465-1d50ea166b95
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:49.554526+00:00'
+      source_modified_at: '2023-08-08T10:37:30+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/5a38fc08-5257-4b13-8465-1d50ea166b95
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:49.554526+00:00'
+      source_modified_at: '2023-08-08T10:37:30+02:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

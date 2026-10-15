@@ -1,0 +1,258 @@
+{
+  "source_url": "https://deims.org/api/sites/f5699647-fef5-4d94-a0bc-8016b0a7552a",
+  "retrieved_at": "2026-10-15T17:41:31.061703+00:00",
+  "record": {
+    "title": "Mordre - Norway",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "f5699647-fef5-4d94-a0bc-8016b0a7552a"
+    },
+    "type": "site",
+    "created": "2014-11-28T00:00:00+01:00",
+    "changed": "2023-07-25T13:54:38+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Norway",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bc7c517b-3648-40cc-a04c-8c98d009c4a9"
+              }
+            },
+            "siteCode": "LTER_EU_NO_025",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Jannes Stolte",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Norwegian Institute of Bioeconomy Research (NIBIO)",
+            "url": "http://nibio.no",
+            "ror": "https://ror.org/04aah1z61"
+          }
+        ],
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Program for jord- og vannovervÃ¥king i landbruket (JOVA)",
+            "value": "http://nibio.no/jova"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "grain dominated catchment located in the south-eastern part of Norway, monitored by The Norwegian Agricultural Environmental Monitoring Programme",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1991,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Hurdal site cluster - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "71117bfb-1bb6-47b4-82ee-2a04d5cbc465"
+                },
+                "changed": "2025-03-28T12:17:25+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Mordre",
+        "shortName": "JOVA Mordre",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Hostsadd%2520areal_mor.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 4.9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 729,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "boreal",
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Regularly or recently cultivated agricultural, horticultural and domestic habitats (I)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (11.4 60.11)",
+        "country": [
+          "Norway"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": 130,
+          "max": 230,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 680,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "plant nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22194"
+          },
+          {
+            "label": "runoff amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30032"
+          },
+          {
+            "label": "surface runoff",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21510"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 7,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 14
+        },
+        "notes": "Monitoring station is instrumented for continuous measurement of water flow and flow-proportional water sampling. Data for water flow, air temperature, water temperature and conductivity are transmitted daily via telephone and modem to NIBIO. \r\n\r\n",
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

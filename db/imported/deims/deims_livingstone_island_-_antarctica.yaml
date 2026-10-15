@@ -1,0 +1,65 @@
+sites:
+- id: site_kb:deims-livingstone_island_-_antarctica
+  name: Livingstone Island - Antarctica
+  network_registrations:
+  - network: DEIMS
+    network_id: d8000a4d-76fa-47c9-85c4-3f28380741f5
+    network_url: https://deims.org/d8000a4d-76fa-47c9-85c4-3f28380741f5
+    name: Livingstone Island - Antarctica
+  location:
+    latitude: -62.6337
+    longitude: -60.3479
+    country: Antarctica
+    elevation_meters: 600.0
+  description: "Livingston Island (62º39’S, 60º21’W) is situated in the South Shetlands,\
+    \ one of the Earth’s regions where warming has been more significant in\r\nthe\
+    \ last 50 years. Livingston island shows high mountain relief, is 90% covered\
+    \ by glaciers and the bedrock in the research area (Hurd Peninsula) is a low-grade\
+    \ metasedimentary sequence of sandstone, shales and quartzite. About 10% free\
+    \ of ice vegetated terrains."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/d8000a4d-76fa-47c9-85c4-3f28380741f5
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:40.752924+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: physical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: physical parameter
+      record_url: https://deims.org/api/sites/d8000a4d-76fa-47c9-85c4-3f28380741f5
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20938
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:40.752924+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/d8000a4d-76fa-47c9-85c4-3f28380741f5
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:40.752924+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/d8000a4d-76fa-47c9-85c4-3f28380741f5
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:40.752924+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  status: ACTIVE

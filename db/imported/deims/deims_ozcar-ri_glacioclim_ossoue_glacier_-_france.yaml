@@ -1,0 +1,35 @@
+sites:
+- id: site_kb:deims-ozcar-ri_glacioclim_ossoue_glacier_-_france
+  name: OZCAR-RI Glacioclim Ossoue Glacier - France
+  network_registrations:
+  - network: DEIMS
+    network_id: a8da96ac-da70-457b-a66b-521f11eb017b
+    network_url: https://deims.org/a8da96ac-da70-457b-a66b-521f11eb017b
+    name: OZCAR-RI Glacioclim Ossoue Glacier - France
+  location:
+    latitude: 42.77
+    longitude: 0.14
+    country: France
+    elevation_meters: 3000.0
+  description: "Ossoue glacier (OSS) is located in the Pyrennees massif (France),\
+    \ between 2750 and 3210 m altitude. The glacier is one of the last glacier in\
+    \ this massif.This site is characterized by various glaciological parameters performed\
+    \ annually : annual and seasonnal mass balance, ice velocity, ice thickness variation,\
+    \ snout position.OSS is a part of the French Glacier Observatory GLACIOCLIM/CRYOBS-CLIM.\r\
+    \n\r\nAll the series on Ossoue glacier (OSS) are unique and necessary for glaciological\
+    \ studies. They permit to calibrate models in order to determine future glacier\
+    \ evolution"
+  variables:
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/a8da96ac-da70-457b-a66b-521f11eb017b
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:46.621799+00:00'
+      source_modified_at: '2024-03-04T09:14:13+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

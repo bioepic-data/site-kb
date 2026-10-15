@@ -1,0 +1,65 @@
+sites:
+- id: site_kb:deims-unterer_eisboden_see_-_austria
+  name: Unterer Eisboden See - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: d1a44a78-1cbd-4f30-977b-fb43ac696df4
+    network_url: https://deims.org/d1a44a78-1cbd-4f30-977b-fb43ac696df4
+    name: Unterer Eisboden See - Austria
+  location:
+    latitude: 47.1339
+    longitude: 12.6057
+    country: Austria
+    elevation_meters: 2495.0
+  description: The formation of a periglacial lake was forced at the glacier terminus
+    in recent years by the fast disintegration of the glacier. The development of
+    the untere Eisboden See is well documented. Since August 2002, a runoff gauge
+    installed by the Hydrographical Service of Salzburg has recorded the discharge
+    at the outlet of the new Unterer Eisboden See.
+  variables:
+  - name: lake level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: lake level
+      record_url: https://deims.org/api/sites/d1a44a78-1cbd-4f30-977b-fb43ac696df4
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22141
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:32.308604+00:00'
+      source_modified_at: '2024-06-23T12:01:05+02:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/d1a44a78-1cbd-4f30-977b-fb43ac696df4
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:32.308604+00:00'
+      source_modified_at: '2024-06-23T12:01:05+02:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/d1a44a78-1cbd-4f30-977b-fb43ac696df4
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:32.308604+00:00'
+      source_modified_at: '2024-06-23T12:01:05+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/d1a44a78-1cbd-4f30-977b-fb43ac696df4
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:32.308604+00:00'
+      source_modified_at: '2024-06-23T12:01:05+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

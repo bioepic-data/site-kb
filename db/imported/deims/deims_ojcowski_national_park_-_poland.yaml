@@ -1,0 +1,78 @@
+sites:
+- id: site_kb:deims-ojcowski_national_park_-_poland
+  name: Ojcowski National Park - Poland
+  network_registrations:
+  - network: DEIMS
+    network_id: 86b52b33-d402-48e9-996f-5bc94cca3fb3
+    network_url: https://deims.org/86b52b33-d402-48e9-996f-5bc94cca3fb3
+    name: Ojcowski National Park - Poland
+  location:
+    latitude: 50.1908
+    longitude: 19.8242
+    country: Poland
+    elevation_meters: 440.0
+  description: In 1998 a permanent plot (50 x 50 m) was established at the height
+    of 440 m asl in 80 year old spruce stand, where bulk deposition, throughfall and
+    soil solution are collected. The investigations of health status of trees and
+    floral characteristic have been carried out since 2001. The analyses are carried
+    out in a certified laboratory of the Institute for Ecology of Industrial Areas,
+    Katowice (Certificate No AB 325). The basic meteo data are taken from the monitoring
+    station located 1 km from the plot).
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/86b52b33-d402-48e9-996f-5bc94cca3fb3
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:33.207654+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/86b52b33-d402-48e9-996f-5bc94cca3fb3
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:33.207654+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/86b52b33-d402-48e9-996f-5bc94cca3fb3
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:33.207654+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: habitat structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: habitat structure
+      record_url: https://deims.org/api/sites/86b52b33-d402-48e9-996f-5bc94cca3fb3
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/21478
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:33.207654+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/86b52b33-d402-48e9-996f-5bc94cca3fb3
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:33.207654+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

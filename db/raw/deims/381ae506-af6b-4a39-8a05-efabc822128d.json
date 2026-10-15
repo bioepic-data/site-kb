@@ -1,0 +1,316 @@
+{
+  "source_url": "https://deims.org/api/sites/381ae506-af6b-4a39-8a05-efabc822128d",
+  "retrieved_at": "2026-10-15T17:49:18.850703+00:00",
+  "record": {
+    "title": "TERENO - Fendt - Germany",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "381ae506-af6b-4a39-8a05-efabc822128d"
+    },
+    "type": "site",
+    "created": "2023-07-18T16:20:28+02:00",
+    "changed": "2025-12-15T09:52:12+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ICOS",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "80633d38-4c85-4ee0-a4ce-7bbbd99c888c"
+              }
+            },
+            "siteCode": "http://meta.icos-cp.eu/resources/stations/ES_DE-Fen",
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER-D (Germany)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "e904354a-f3a0-40ce-a9b5-61741f66c824"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Ralf Kiese",
+            "email": "ralf.kiese@kit.edu",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Karlsruhe Institute of Technology (KIT)",
+            "url": "http://www.kit.edu/english/",
+            "ror": "https://ror.org/04t3en479"
+          }
+        ],
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.tereno.net/joomla/index.php/observatories/pre-alpine-observatory"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Grassland site in the pre-apine region of S-Bavaria equipped with EC measuring system and lysimeter network for investigation of water, energy, carbon and nitrogen cycling and associated exchange processes with the atmosphere and hydrosphere. The Fendt site is part of ICOS-D and the main site of the TERENO per-alpine Observatory.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2010,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "TERENO - Fendt",
+        "shortName": "Fendt",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": [
+          {
+            "label": "agriculture",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_Agriculture"
+          },
+          {
+            "label": "primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2023-07/Roboter%20Fendt.jpg",
+            "alt": "Lysimeter network with automatic GHG measuring system "
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2023-07/EC%20Station%20Fendt.jpg",
+            "alt": "EC measuring system "
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 8.9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": {
+            "label": "Other, non-standardised or incomplete reference period",
+            "uri": null
+          }
+        },
+        "precipitation": {
+          "yearlyAverage": 956,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": {
+            "label": "Other, non-standardised or incomplete reference period",
+            "uri": null
+          }
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "grasslands",
+        "ecosystemType": [
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Montane grasslands and shrublands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          }
+        ],
+        "landforms": [
+          {
+            "label": "Valley",
+            "uri": null
+          }
+        ],
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "Quarternary moraines",
+        "hydrology": null,
+        "soils": "Cambisol",
+        "vegetation": "managed permanent grassland with gramnoids, forbes and clover/ about 20 different species"
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((11.058469 47.833065, 11.062742 47.833065, 11.062742 47.830657, 11.058469 47.830657, 11.058469 47.833065))",
+        "coordinates": "POINT (11.060788 47.831638)",
+        "country": [
+          "Germany"
+        ],
+        "elevation": {
+          "avg": 600,
+          "min": 590,
+          "max": 620,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 5,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "physical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20938"
+          },
+          {
+            "label": "remote sensing parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20946"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 7,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 365
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "10-100 kW",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "Lysimeter",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No staff room",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Probe continuous measurements",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Temperature Controlled Container",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

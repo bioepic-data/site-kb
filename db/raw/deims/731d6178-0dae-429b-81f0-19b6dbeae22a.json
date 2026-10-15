@@ -1,0 +1,308 @@
+{
+  "source_url": "https://deims.org/api/sites/731d6178-0dae-429b-81f0-19b6dbeae22a",
+  "retrieved_at": "2026-10-15T17:37:24.984297+00:00",
+  "record": {
+    "title": "Siljansfors Experimental Forest - Sweden",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "731d6178-0dae-429b-81f0-19b6dbeae22a"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:08:23+01:00",
+    "changed": "2023-05-11T11:36:57+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Sweden",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "a50d9e39-d4b6-4d30-bba2-43580ac8c0b2"
+              }
+            },
+            "siteCode": "LTER_EU_SE_013",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Ola Langvall",
+            "email": "ola.langvall@slu.se",
+            "orcid": "https://orcid.org/0000-0003-1709-400X"
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Swedish University of Agricultural Sciences (SLU)",
+            "url": "https://www.slu.se/",
+            "ror": "https://ror.org/02yy8x990"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Ulf Grandin",
+            "email": "ulf.grandin@slu.se",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.slu.se/siljansfors-lter"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Siljansfors Experimental Forest (1 520 ha) is a research facility within the Swedish University of Agricultural Sciences. It is situated in the central parts of Sweden (latitude 60º 53´ N, longitude 14º 24´ E) and was established in 1921. The area is dominated by productive forests (1 362 ha) of Scots pine (Pinus sylvestris), Norway spruce (Picea abies) and birch (Betula pendula and Betula pubescens). There are also wet lands, lakes, ponds and streams. The mean annual temperature is 3.3 degrees Celsius, the annual mean precipitation is 674 mm, and the mean snow coverage is 150 days per year. The soils are dominated by various types of moraine with porphyry, granite, diabase, clayey slate, quartzite and sandstone/conglomerate as the most common rocks in the moraine/till. Siljansfors has a rich history of forest fires, particularly during the 18th and 19th centuries. The Experimental Forest has suffered from at least 24 considerable storms during its 90 year history. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1921,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Siljansfors Experimental Forest",
+        "shortName": "Siljansfors",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/siljansfors-lter.PNG",
+            "alt": "Site location in Sweden"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 3.3,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 674,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "boreal",
+        "biome": "taiga",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Mires, bogs and fens (D)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes",
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((14.35589492781 60.871281005258, 14.357226110566 60.868719256353, 14.364614443709 60.861635856863, 14.395109393225 60.880440637103, 14.421391921773 60.889276671935, 14.414343489376 60.89208517679, 14.398137377684 60.889457185656, 14.397508234172 60.890357159974, 14.395752508509 60.890069491664, 14.393839178297 60.892930667582, 14.395577025257 60.893209196466, 14.39244123123 60.898292516932, 14.392945000257 60.898567083403, 14.39394627988 60.898425005453, 14.394995665913 60.898444989596, 14.395029112815 60.898939011168, 14.39573590528 60.899206719832, 14.398609859636 60.899218858407, 14.401212018506 60.899964115557, 14.403685572784 60.899864254775, 14.405315735458 60.900087677156, 14.381022987782 60.9130271168, 14.317673145221 60.897414458807, 14.330371656414 60.878202105984, 14.335212824458 60.873040085673, 14.337360429967 60.871178599206, 14.341220337191 60.870511596299, 14.35589492781 60.871281005258))",
+        "coordinates": "POINT (14.3764 60.8906)",
+        "country": [
+          "Sweden"
+        ],
+        "elevation": {
+          "avg": 260,
+          "min": 210,
+          "max": 425,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1520,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "2 - 5 places",
+            "uri": null
+          },
+          {
+            "label": "6 - 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "No tower on site",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Snow mobile",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          },
+          {
+            "label": "Web Feature Service (WFS)",
+            "uri": null
+          },
+          {
+            "label": "Web Map Service (WMS)",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

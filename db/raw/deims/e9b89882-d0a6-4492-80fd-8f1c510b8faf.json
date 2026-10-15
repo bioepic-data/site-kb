@@ -1,0 +1,229 @@
+{
+  "source_url": "https://deims.org/api/sites/e9b89882-d0a6-4492-80fd-8f1c510b8faf",
+  "retrieved_at": "2026-10-15T17:47:42.418378+00:00",
+  "record": {
+    "title": "McDiffett Creek NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "e9b89882-d0a6-4492-80fd-8f1c510b8faf"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-18T10:01:50+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "MCDI",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Becky Eaves",
+            "email": "beaves@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/mcdi"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "McDiffett Creek (MCDI) is an aquatic NEON field site located in the Flint Hills region of Kansas south of Manhattan, KS. It is within the Urban Prairie Research Area, approximately 25 km (15 mi.) southeast of the KONZ tower. It is a second-order perennial stream flowing through the middle of agricultural land. The Urban Prairie Research Area is a small tract of land composed of native prairie, grazing, hay, and historically cultivated fields. It is managed by the Konza Prairie Biological Station in association with Kansas State University. The surrounding region consists of grasslands, forests, and agricultural land cover types and includes the largest remaining areas of unplowed tallgrass prairie in North America. MCDI is part of the NEON Prairie Peninsula Domain (D06), which stretches from Kansas through Nebraska and Iowa to southern Minnesota, and moves east to encompass Illinois and most of Indiana. The Domain hosts four other NEON field sites: one other aquatic and three terrestrial, all of which are located in Kansas. Land use and land use management are key grand challenge themes for this Domain.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2015,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "McDiffett Creek NEON",
+        "shortName": "MCDI",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/limestone.jpg",
+            "alt": "Limestone Shelf"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/left%20bank.jpg",
+            "alt": "Left Bank"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 12.2,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 921,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Rivers",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": "The geology at MCDI can be characterized as metavolcanic bedrock.",
+        "hydrology": "McDiffett Creek is a second-order perennial stream flowing through the middle of typical Kansas crop land. The stream includes a small waterfall at the top of the reach with a large pool and several other riffle and pool segments.",
+        "soils": null,
+        "vegetation": "The riparian area adjacent to McDiffett Creek consists of steep banks lined with a forest buffer and is located within a historically farmed field with regular crop rotation. Grasses, woody shrubs, and larger timber are present in the riparian zone. A mix of small woody species, small herbaceous, and some invasive vetch are present within the channel."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-96.44197 38.94428)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 396,
+          "min": 312,
+          "max": 359,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 2310,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "land cover type",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10241"
+          },
+          {
+            "label": "soil carbon dioxide flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21560"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

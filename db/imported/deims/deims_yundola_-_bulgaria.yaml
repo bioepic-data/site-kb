@@ -1,0 +1,99 @@
+sites:
+- id: site_kb:deims-yundola_-_bulgaria
+  name: Yundola - Bulgaria
+  network_registrations:
+  - network: DEIMS
+    network_id: 06ac231a-71e6-45a5-a15b-7c17875303e8
+    network_url: https://deims.org/06ac231a-71e6-45a5-a15b-7c17875303e8
+    name: Yundola - Bulgaria
+  location:
+    latitude: 42.0649
+    longitude: 23.8545
+    country: Bulgaria
+    elevation_meters: 1403.0
+  description: "The ecological station is situated in the Yundola place in the Rila\
+    \ Mountain in Central South Bulgaria on an area of 321 hectares at an altitude\
+    \ of 1500 m. It includes 10 plots with different exposition and density of tree\
+    \ vegetation. The plots are equipped with controlled measuring systems. The open\
+    \ areas region is covered by dense coniferous forests of herbaceous species on\
+    \ the age of about 150 years. The river network is dense and includes small permanent\
+    \ and numerous temporary streams with high velocity. The stations were founded\
+    \ in 1961. However, the regular observations have started since 1964-1965.\r\n\
+    \ \r\n\r\nThe ecological station in Yundola is a part of a Training Experimental\
+    \ Forest Enterprise. Much other investigations, experiments, and students training,\
+    \ concerning almost all components of the forest ecosystems are carried out there\
+    \ since its creation in the beginning of the sixties. For example, studies were\
+    \ performed on: the characteristics of soil and litter forest cover, the forest\
+    \ stand and the regeneration, the understanding of run-off chemistry and leaf\
+    \ mass biochemistry, the fertilizing, the influence of logging technology of water\
+    \ supply, soil protection, growth functions of the forests, the precipitation\
+    \ chemistry in case of air pollution, etc."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/06ac231a-71e6-45a5-a15b-7c17875303e8
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:03.862188+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/06ac231a-71e6-45a5-a15b-7c17875303e8
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:03.862188+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/06ac231a-71e6-45a5-a15b-7c17875303e8
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:03.862188+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/06ac231a-71e6-45a5-a15b-7c17875303e8
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:03.862188+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/06ac231a-71e6-45a5-a15b-7c17875303e8
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:03.862188+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/06ac231a-71e6-45a5-a15b-7c17875303e8
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:03.862188+00:00'
+      source_modified_at: '2021-11-23T11:49:20+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

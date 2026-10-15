@@ -1,0 +1,783 @@
+{
+  "source_url": "https://deims.org/api/sites/474916b5-8734-407f-9179-109083c031d8",
+  "retrieved_at": "2026-10-15T17:43:46.485710+00:00",
+  "record": {
+    "title": "Doode Bemde - Belgium",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "474916b5-8734-407f-9179-109083c031d8"
+    },
+    "type": "site",
+    "created": "2016-05-19T13:58:41+02:00",
+    "changed": "2025-01-07T11:11:07+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Belgium",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "735946e0-4e9e-484a-acee-85e31f4e2a2e"
+              }
+            },
+            "siteCode": "LTER_EU_BE_29",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "Birds Directive (2009/147/EC)",
+            "uri": null
+          },
+          {
+            "label": "Natura 2000",
+            "uri": "https://natura2000.eea.europa.eu/"
+          },
+          {
+            "label": "Special Areas of Conservation (SAC) of Habitat Directive",
+            "uri": null
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Cécile  Herr",
+            "email": null,
+            "orcid": "http://orcid.org/0000-0002-2833-6046"
+          },
+          {
+            "type": "person",
+            "name": "Dries Adriaens",
+            "email": "dries.adriaens@inbo.be",
+            "orcid": "https://orcid.org/ 0000-0002-7216-3111"
+          },
+          {
+            "type": "person",
+            "name": "Piet De Becker",
+            "email": "Piet.Debecker@inbo.be",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Tom De Dobbelaer",
+            "email": "Tom.DeDobbelaer@inbo.be",
+            "orcid": "http://orcid.org/0000-0001-7636-997X"
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Natuurpunt",
+            "url": "https://www.natuurpunt.be",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Natuurpunt",
+            "url": "https://www.natuurpunt.be",
+            "ror": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Doode Bemde, Natuurpunt",
+            "value": "https://www.natuurpunt.be/natuurgebied/doode-bemde"
+          },
+          {
+            "title": "Doode Bemde, Vrienden van Heverleebos en Meerdaalwoud",
+            "value": "https://vhm.be/doode-bemde/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The site comprises 4 km stretch of a complete alluvial floodplane managed as a private nature reserve some 10 kilometer upstream of the city of Leuven. Since 1990, human interference in the river channel has stopped resulting in a spontaneous meander evolution and roughening of the river channel. This has induced frequent (e.g. yearly) inundations, thus avoiding flood damage in the city of Leuven downstream and this without creating the usual storm basins. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1990,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Dijleland - Belgium",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "7629b584-b8dd-4da5-a4ba-4175bb985673"
+                },
+                "changed": "2023-07-25T08:52:19+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "Doode Bemde",
+        "shortName": "Dyle Valley",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category IV – Habitat/Species Management Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/IV"
+          }
+        ],
+        "landUse": [
+          {
+            "label": "agriculture",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_Agriculture"
+          },
+          {
+            "label": "commercial agricultural production",
+            "uri": "http://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_1_CommercialAgriculturalProduction"
+          },
+          {
+            "label": "forestry",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_2_Forestry"
+          },
+          {
+            "label": "forestry based on continuous cover",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_2_3_ForestryBasedOnContinuousCover"
+          },
+          {
+            "label": "forestry based on intermediate or long rotation",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_2_2_ForestryBasedOnIntermediateOrLongRotation"
+          },
+          {
+            "label": "hunting",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_5_1_Hunting"
+          },
+          {
+            "label": "land areas not in other economic use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_1_LandAreasNotInOtherEconomicUse"
+          },
+          {
+            "label": "natural areas not in other economic use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_NaturalAreasNotInOtherEconomicUse"
+          },
+          {
+            "label": "other primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_5_OtherPrimaryProduction"
+          },
+          {
+            "label": "other uses",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_5_AreasWithoutAnySpecifiedPlannedUse"
+          },
+          {
+            "label": "primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction"
+          },
+          {
+            "label": "water areas not in other economic use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_2_WaterAreasNotInOtherEconomicUse"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/doode-bemde-belgium_1468.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 11,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 880,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "grasslands",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Deciduous Forest",
+            "uri": null
+          },
+          {
+            "label": "Flooded grasslands and savannas",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Rivers",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          },
+          {
+            "label": "Small rivers",
+            "uri": null
+          },
+          {
+            "label": "Temperate grasslands, savannas, and shrublands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Base-rich fens and calcareous spring mires (D4)",
+            "uri": null
+          },
+          {
+            "label": "Beds of large sedges normally without free-standing water (D5.2)",
+            "uri": null
+          },
+          {
+            "label": "Broadleaved deciduous woodland (G1)",
+            "uri": null
+          },
+          {
+            "label": "Broadleaved swamp woodland not on acid peat (G1.4)",
+            "uri": null
+          },
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          },
+          {
+            "label": "Highly artificial broadleaved deciduous forestry plantations (G1.C)",
+            "uri": null
+          },
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Lines of trees (G5.1)",
+            "uri": null
+          },
+          {
+            "label": "Lines of trees, small anthropogenic woodlands, recently felled woodland, early-stage woodland and coppice (G5)",
+            "uri": null
+          },
+          {
+            "label": "Littoral zone of inland surface waterbodies (C3)",
+            "uri": null
+          },
+          {
+            "label": "Mesic grasslands (E2)",
+            "uri": null
+          },
+          {
+            "label": "Mires, bogs and fens (D)",
+            "uri": null
+          },
+          {
+            "label": "Moist or wet eutrophic and mesotrophic grassland (E3.4)",
+            "uri": null
+          },
+          {
+            "label": "Non-riverine alder woodland (G1.B)",
+            "uri": null
+          },
+          {
+            "label": "Permanent mesotrophic pastures and aftermath-grazed meadows (E2.1)",
+            "uri": null
+          },
+          {
+            "label": "Permanent non-tidal, smooth-flowing watercourses (C2.3)",
+            "uri": null
+          },
+          {
+            "label": "Reedbeds normally without free-standing water (D5.1)",
+            "uri": null
+          },
+          {
+            "label": "Rich fens, including eutrophic tall-herb fens and calcareous flushes and soaks (D4.1)",
+            "uri": null
+          },
+          {
+            "label": "Seasonally wet and wet grasslands (E3)",
+            "uri": null
+          },
+          {
+            "label": "Sedge and reedbeds, normally without free-standing water (D5)",
+            "uri": null
+          },
+          {
+            "label": "Small broadleaved deciduous anthropogenic woodlands (G5.2)",
+            "uri": null
+          },
+          {
+            "label": "Species-rich helophyte beds (C3.1)",
+            "uri": null
+          },
+          {
+            "label": "Surface running waters (C2)",
+            "uri": null
+          },
+          {
+            "label": "Water-fringing reedbeds and tall helophytes other than canes (C3.2)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": [
+          {
+            "label": "River",
+            "uri": null
+          }
+        ],
+        "geoBonBiome": [
+          "Fresh water lakes",
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "MULTIPOLYGON (((4.6369634951348 50.815883366884, 4.6371376161097 50.815839640776, 4.6371490711464 50.815854412334, 4.637236369704 50.815832509972, 4.637909708432 50.816909437738, 4.6385335363193 50.817892034072, 4.639374643682 50.819111074878, 4.6364442001072 50.820358118756, 4.63594275914 50.820489788995, 4.6356781493689 50.820511155877, 4.635609783915 50.820517779083, 4.6355880717431 50.820522670456, 4.6359478523921 50.821109962313, 4.635584167533 50.821149418649, 4.6357015868721 50.821382847801, 4.6357167456298 50.821469973967, 4.6357067077083 50.821532064004, 4.6356764989056 50.821613113377, 4.6356977917587 50.821700548264, 4.6357787132044 50.821818615789, 4.6357497673512 50.821874218038, 4.6356757428038 50.821959122422, 4.6355395551735 50.822065897454, 4.6353893032587 50.822181022504, 4.6351401846792 50.822321926576, 4.634996285225 50.822390369671, 4.6345577420593 50.822537042629, 4.6347369878457 50.822730380375, 4.6349257207836 50.822935649752, 4.6349471943875 50.822959037724, 4.6350199594921 50.823081551694, 4.6351063405479 50.823227214353, 4.6351806270599 50.823352827969, 4.6351775717492 50.823451838596, 4.6351692002318 50.823710335514, 4.6351631461862 50.823884100806, 4.6349469590194 50.823912229999, 4.6347307730082 50.82394035789, 4.6343089346981 50.823995242805, 4.6343052494636 50.824043731326, 4.6358624226015 50.8259142692, 4.636202174186 50.826135356442, 4.6362587517141 50.826257151452, 4.63633808899 50.826433525172, 4.6364154365088 50.826601364146, 4.6364712413905 50.82672262323, 4.6366502128365 50.827457961505, 4.6368892685416 50.827776227677, 4.6377553205818 50.828507570174, 4.6374629289221 50.828560938655, 4.6360828420103 50.828810129611, 4.6361074864124 50.828960668187, 4.6361607326382 50.829285330395, 4.6362259753485 50.829604547074, 4.6359468605526 50.829609497477, 4.6359883563095 50.829972775361, 4.6353942340971 50.829981089534, 4.6345778197504 50.829992509617, 4.6345989872531 50.830072796255, 4.6353925471866 50.830075362938, 4.6356570662391 50.830076217608, 4.635723097842 50.83058182327, 4.6360383548159 50.830565642796, 4.6364250169359 50.830936673828, 4.6367243803784 50.831267491749, 4.63575587262 50.833286683346, 4.6358207089883 50.833362787812, 4.6359269342106 50.833358237364, 4.6394431208227 50.834473006205, 4.6398772540112 50.835044297516, 4.6398532318049 50.83744323909, 4.6402146193299 50.837686196007, 4.6405556753148 50.837913263198, 4.6407507498195 50.837818680576, 4.6410628231369 50.837650532227, 4.6414626723096 50.83743505675, 4.6416488578515 50.837334703139, 4.641721782529 50.837411949573, 4.6418416126474 50.837439124979, 4.6420573490099 50.837488099815, 4.6421717849661 50.837567660872, 4.6423782453451 50.837621121034, 4.6424308464906 50.83761204613, 4.6424216316933 50.83751647952, 4.6441270058072 50.83546185141, 4.6468626160309 50.835232130988, 4.6484892327365 50.835616008712, 4.6486866433271 50.835521066475, 4.647494494424 50.834434543401, 4.6469343520378 50.833964667893, 4.6450222132438 50.832683929915, 4.6450034733322 50.832654866726, 4.644440104155 50.831740677103, 4.6443276836357 50.831392818452, 4.6443219396579 50.831375051433, 4.6442788961759 50.83139525272, 4.6442726977901 50.831382044503, 4.6441001382168 50.831014664288, 4.6440138594412 50.830830974072, 4.6439275813398 50.830647283783, 4.6441287704555 50.830694074916, 4.6443620286569 50.830754189153, 4.6445478441291 50.830804062377, 4.6447529648128 50.830885312941, 4.6447440868336 50.830994731192, 4.6447290698014 50.831087054894, 4.6446830181176 50.831206299296, 4.6446727683034 50.831232880591, 4.6446978201886 50.831220739445, 4.6447245450071 50.831208493663, 4.6447746554584 50.831188734901, 4.6447764100744 50.831188035863, 4.6447780108087 50.831183379061, 4.644790537792 50.831148423951, 4.6448239963839 50.830942969177, 4.6448326085983 50.830889963168, 4.6448683579502 50.83087382422, 4.644933099829 50.83085189581, 4.6450142090573 50.830844837076, 4.6451234393457 50.830858028363, 4.6451657597148 50.830849431364, 4.6452240606888 50.830813669516, 4.6452565817921 50.830803517073, 4.6452862994215 50.83074809506, 4.6453056081461 50.830644291278, 4.6461289222218 50.828059650424, 4.6491796390177 50.827299955136, 4.6497226867564 50.824648327015, 4.6517767932336 50.822607546948, 4.6516980468195 50.822437437831, 4.6523307992323 50.822312028784, 4.6522225234832 50.822154621152, 4.6520039688156 50.821858843287, 4.6510332413624 50.820870188982, 4.6503618425357 50.819242563752, 4.6502882419499 50.818983885076, 4.6500924462477 50.818697493179, 4.6486723796106 50.816168105049, 4.6486233298825 50.815412757312, 4.6486622859561 50.814937518629, 4.6485974812076 50.814741745153, 4.6485965380499 50.81455789729, 4.6478002515421 50.811920518038, 4.6479103912156 50.811773976228, 4.647996990542 50.811619505022, 4.64825025329 50.811258641791, 4.6482777564116 50.811147581569, 4.6489244332803 50.808882154346, 4.6489649115034 50.808698910806, 4.6489358098697 50.808651264296, 4.6488772915158 50.808555447012, 4.6488146213803 50.808452865028, 4.646945245947 50.808123507228, 4.6473446791603 50.805559715378, 4.6475497702892 50.805032505971, 4.6476013192337 50.804925935342, 4.6476320237699 50.804862422835, 4.6476479822617 50.804829433995, 4.6477269531976 50.804665959735, 4.6477408456606 50.804637215344, 4.6457218113589 50.804624213812, 4.6439030734387 50.804815641107, 4.6429699031055 50.805409297169, 4.6410761634354 50.806333387885, 4.6397532347723 50.806453688817, 4.6378445103628 50.804240498585, 4.6377885267606 50.804037256751, 4.6377858497381 50.803955339105, 4.6377085329245 50.803787462263, 4.6376827616908 50.803731497907, 4.6377075020255 50.803649411084, 4.6377334066594 50.80359548623, 4.6378375274625 50.803378665476, 4.6378325836682 50.803334896234, 4.6378235367901 50.80331134613, 4.6378205728702 50.803303606549, 4.6377345308549 50.803259214008, 4.6353280056281 50.80185346624, 4.632573728206 50.801824961372, 4.6316150292925 50.801951348259, 4.6304972946579 50.803350937071, 4.6297402169576 50.805869213795, 4.6297310349943 50.805922515157, 4.6297573613932 50.805959641225, 4.6298274392991 50.806075261723, 4.6298233402226 50.806170049833, 4.6297945812009 50.806346245906, 4.629798664612 50.80640904039, 4.629825062004 50.806500433296, 4.6299219487108 50.806824215156, 4.629982009939 50.807006237605, 4.629986357134 50.807019773515, 4.6301531551993 50.807309946524, 4.6308770755508 50.808602951682, 4.6293882757925 50.810791226467, 4.6301858647583 50.811225220557, 4.6307616330092 50.810973433706, 4.6312064322487 50.811410414498, 4.6314448073004 50.811641188218, 4.6325116887878 50.814106427952, 4.6317160345718 50.814420333923, 4.629532491436 50.814264140119, 4.6286574292165 50.814132150518, 4.6280893318859 50.814082602811, 4.6275372063093 50.815040989981, 4.6281954127992 50.815306252788, 4.6284889051452 50.815414979815, 4.6296949581107 50.814497262952, 4.6308883880147 50.81471859768, 4.6316837302323 50.815849640708, 4.6332776939794 50.815406399801, 4.6336273488336 50.815959545515, 4.6336892386018 50.816057450828, 4.6339737201157 50.816507481782, 4.6342012257394 50.816571090339, 4.6342898079886 50.816552128678, 4.6351448579722 50.816340046854, 4.6364411274246 50.816014542763, 4.6369634951348 50.815883366884), (4.6398772540112 50.835044297516, 4.6400858409811 50.834437608989, 4.6401036181643 50.834385815502, 4.6403069647575 50.834419182196, 4.6405386417058 50.834488743168, 4.6408669579688 50.834565810835, 4.6411178364225 50.834638574829, 4.6412978679282 50.83469802709, 4.6414064708411 50.834740643577, 4.6414887915072 50.834788338353, 4.6415465156809 50.834871994912, 4.6398772540112 50.835044297516)))",
+        "coordinates": "POINT (4.647222 50.816667)",
+        "country": [
+          "Belgium"
+        ],
+        "elevation": {
+          "avg": 30,
+          "min": 25,
+          "max": 35,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 400,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "abiotic heterogeneity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21476"
+          },
+          {
+            "label": "acid neutralizing capacity of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22029"
+          },
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "ammonium nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10076"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "available phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22061"
+          },
+          {
+            "label": "biological oxygen demand",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22068"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "cation exchange capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22084"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "electrical conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21552"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "ground surface temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21526"
+          },
+          {
+            "label": "ground temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21527"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "groundwater level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "land use",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22143"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "maximum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21529"
+          },
+          {
+            "label": "minimum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21532"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "oxygen concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30179"
+          },
+          {
+            "label": "oxygen saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21215"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22182"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "plant cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22188"
+          },
+          {
+            "label": "plant diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22191"
+          },
+          {
+            "label": "plant height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22192"
+          },
+          {
+            "label": "plant species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10335"
+          },
+          {
+            "label": "plant species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10341"
+          },
+          {
+            "label": "plant species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22196"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "relative humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21579"
+          },
+          {
+            "label": "soil acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22243"
+          },
+          {
+            "label": "soil base saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22244"
+          },
+          {
+            "label": "soil bulk density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22245"
+          },
+          {
+            "label": "soil carbon storage",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22246"
+          },
+          {
+            "label": "soil classification",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21909"
+          },
+          {
+            "label": "soil depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22247"
+          },
+          {
+            "label": "soil dry bulk density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22248"
+          },
+          {
+            "label": "soil matrix water potential",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22255"
+          },
+          {
+            "label": "soil matrix water pressure head",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22256"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil moisture field capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10396"
+          },
+          {
+            "label": "soil nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22259"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "soil organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22261"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil particle size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22265"
+          },
+          {
+            "label": "soil profile water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22268"
+          },
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          },
+          {
+            "label": "soil texture",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22279"
+          },
+          {
+            "label": "soil volumetric water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22280"
+          },
+          {
+            "label": "soil water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22281"
+          },
+          {
+            "label": "soil water retention curve",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30035"
+          },
+          {
+            "label": "soil wilting point",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30036"
+          },
+          {
+            "label": "thickness of soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22295"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water table",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30028"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water velocity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22315"
+          },
+          {
+            "label": "water volume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22316"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 14,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 14
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

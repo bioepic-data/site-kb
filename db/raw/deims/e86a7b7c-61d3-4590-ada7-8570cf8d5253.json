@@ -1,0 +1,177 @@
+{
+  "source_url": "https://deims.org/api/sites/e86a7b7c-61d3-4590-ada7-8570cf8d5253",
+  "retrieved_at": "2026-10-15T17:41:29.314620+00:00",
+  "record": {
+    "title": "Heia - Norway",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "e86a7b7c-61d3-4590-ada7-8570cf8d5253"
+    },
+    "type": "site",
+    "created": "2014-11-28T00:00:00+01:00",
+    "changed": "2022-11-17T15:32:26+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Norway",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bc7c517b-3648-40cc-a04c-8c98d009c4a9"
+              }
+            },
+            "siteCode": "LTER_EU_NO_033",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Jannes Stolte",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Norwegian Institute of Bioeconomy Research (NIBIO)",
+            "url": "http://nibio.no",
+            "ror": "https://ror.org/04aah1z61"
+          }
+        ],
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Program for jord- og vannovervÃ¥king i landbruket (JOVA)",
+            "value": "http://nibio.no/jova"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "mixed agricultural catchment located in the south-eastern part of Norway, monitored by The Norwegian Agricultural Environmental Monitoring Programme (JOVA)",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1991,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Heia",
+        "shortName": "JOVA Heia",
+        "siteType": null,
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/20140613%2520Kal%2520og%2520korn%2520i%2520Heiafeltet.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 5.6,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 829,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "boreal",
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (10.8 59.36)",
+        "country": [
+          "Norway"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": 20,
+          "max": 50,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 166,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

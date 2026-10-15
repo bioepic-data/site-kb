@@ -1,0 +1,35 @@
+sites:
+- id: site_kb:deims-ozcar-ri_glacioclim_mer_de_glace_glacier_-_france
+  name: OZCAR-RI Glacioclim Mer de Glace Glacier - France
+  network_registrations:
+  - network: DEIMS
+    network_id: f436f990-2b02-4ac4-b27b-bcc7ad349ac6
+    network_url: https://deims.org/f436f990-2b02-4ac4-b27b-bcc7ad349ac6
+    name: OZCAR-RI Glacioclim Mer de Glace Glacier - France
+  location:
+    latitude: 45.90264
+    longitude: 6.942368
+    country: France
+    elevation_meters: 2500.0
+  description: 'Mer de Glace Glacier (MDG) is located in the Mont-Blanc valley (France),
+    between 1500 and 3600 m altitude. The glacier is the larger glacier in France
+    and one of the glaciers with longest records of glacier mass balance worldwide.
+    Data series are continuous and cover few decades.This site is also characterized
+    by the complete glaciological parameters performed annually to complete annual
+    and seasonal mass balance: ice velocity, ice thickness variation, snout position.In
+    addition, meteorological observations complete the data base. MDG is a part of
+    the French Glacier Observatory GLACIOCLIM/CRYOBS-CLIM.'
+  variables:
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/f436f990-2b02-4ac4-b27b-bcc7ad349ac6
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:40.434692+00:00'
+      source_modified_at: '2024-03-04T09:01:55+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

@@ -1,0 +1,39 @@
+sites:
+- id: site_kb:deims-goegap_nature_reserve_-_south_africa
+  name: Goegap Nature Reserve - South Africa
+  network_registrations:
+  - network: DEIMS
+    network_id: 3c1d1e1b-4ca9-4ab4-a83e-ceb510742832
+    network_url: https://deims.org/3c1d1e1b-4ca9-4ab4-a83e-ceb510742832
+    name: Goegap Nature Reserve - South Africa
+  location:
+    latitude: -29.688333
+    longitude: 17.965833
+    country: South Africa
+    elevation_meters: 1000.0
+  description: Goegap Nature Reserve is a protected area situated in the Succulent
+    Karoo Biome of the Northern Cape province
+  variables:
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/3c1d1e1b-4ca9-4ab4-a83e-ceb510742832
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:39.637753+00:00'
+      source_modified_at: '2025-01-21T14:39:43+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/3c1d1e1b-4ca9-4ab4-a83e-ceb510742832
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:39.637753+00:00'
+      source_modified_at: '2025-01-21T14:39:43+01:00'
+  status: ACTIVE

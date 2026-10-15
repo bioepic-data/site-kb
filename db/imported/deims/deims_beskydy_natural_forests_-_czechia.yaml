@@ -1,0 +1,84 @@
+sites:
+- id: site_kb:deims-beskydy_natural_forests_-_czechia
+  name: Beskydy natural forests - Czechia
+  network_registrations:
+  - network: DEIMS
+    network_id: cdda5581-80f7-4c9c-92c9-9d068404d8be
+    network_url: https://deims.org/cdda5581-80f7-4c9c-92c9-9d068404d8be
+    name: Beskydy natural forests - Czechia
+  location:
+    latitude: 49.4486
+    longitude: 18.5222
+    country: Czechia
+    elevation_meters: 745.0
+  description: Three natural forest reserves – Mionší, Razula, and Salajka – represent
+    current Carpathian fir-beech forests. They were historically influenced by a Walachian
+    colonization that came to the Beskydy Mts. from south and affected forests by
+    sheep grazing, litter raking, and gathering beech firewood. Although excess felling
+    was not realized in these natural forests, species structure was affected in favour
+    of fir during modern times. Since the 1930s, all three LTER sites have been left
+    to spontaneous development. Beech has returned as the main species of these stands.
+    Exceeding numbers of deer game populations, which represent main indirect human
+    influence in these reserves, block growing out of fir seedlings considerably.
+    Various ways of seedling protection are tested inside the sites; however, no selective
+    interventions on advanced growth are practiced. Indispensable positive influence
+    should play a gradual return of natural predators of deer game (lynx, wolf, and
+    also bear) into the western Carpathians.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/cdda5581-80f7-4c9c-92c9-9d068404d8be
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:00.254178+00:00'
+      source_modified_at: '2025-04-17T07:46:29+02:00'
+  - name: tree age
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree age
+      record_url: https://deims.org/api/sites/cdda5581-80f7-4c9c-92c9-9d068404d8be
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22300
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:00.254178+00:00'
+      source_modified_at: '2025-04-17T07:46:29+02:00'
+  - name: tree diameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter
+      record_url: https://deims.org/api/sites/cdda5581-80f7-4c9c-92c9-9d068404d8be
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:00.254178+00:00'
+      source_modified_at: '2025-04-17T07:46:29+02:00'
+  - name: tree distribution
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree distribution
+      record_url: https://deims.org/api/sites/cdda5581-80f7-4c9c-92c9-9d068404d8be
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/21587
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:00.254178+00:00'
+      source_modified_at: '2025-04-17T07:46:29+02:00'
+  - name: tree height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree height
+      record_url: https://deims.org/api/sites/cdda5581-80f7-4c9c-92c9-9d068404d8be
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22305
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:00.254178+00:00'
+      source_modified_at: '2025-04-17T07:46:29+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

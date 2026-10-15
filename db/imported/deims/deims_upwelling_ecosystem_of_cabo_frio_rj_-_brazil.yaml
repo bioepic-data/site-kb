@@ -1,0 +1,81 @@
+sites:
+- id: site_kb:deims-upwelling_ecosystem_of_cabo_frio_rj_-_brazil
+  name: Upwelling ecosystem of Cabo Frio (RJ) - Brazil
+  network_registrations:
+  - network: DEIMS
+    network_id: 96fc075d-96f1-4677-bf67-5777dd2225c3
+    network_url: https://deims.org/96fc075d-96f1-4677-bf67-5777dd2225c3
+    name: Upwelling ecosystem of Cabo Frio (RJ) - Brazil
+  location:
+    latitude: -23.0
+    longitude: -42.0
+    country: Brazil
+    elevation_meters: 0.0
+  description: The site is located at 23ºS and 42ºW, in the city of Arraial do Cabo,
+    Rio de Janeiro state. The area is influenced by the upwelling of SACW (South Atlantic
+    Central Water), from approximately 300 meters depth, with temperatures ranging
+    from 13 to 18 ° C. The occurrence of this phenomenon is due to topographical features,
+    meteorological and hydrological, unique in this region. This upwelling has attracted
+    attention because of the great fishing productivity, motivating many studies on
+    this issue, especially on the oceanographic processes involved. This has led to
+    the creation of the second Marine Extractive Reserve of Brazil, the RESEX-Mar
+    Arraial do Cabo. The results coming from LTER RECA contributes to the consolidation
+    of Extractive Reserve, through the provision of scientific information generated
+    in different studies.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:56.810359+00:00'
+      source_modified_at: '2020-06-29T10:46:02+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:56.810359+00:00'
+      source_modified_at: '2020-06-29T10:46:02+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:56.810359+00:00'
+      source_modified_at: '2020-06-29T10:46:02+02:00'
+  - name: remote sensing parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: remote sensing parameter
+      record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20946
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:56.810359+00:00'
+      source_modified_at: '2020-06-29T10:46:02+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:56.810359+00:00'
+      source_modified_at: '2020-06-29T10:46:02+02:00'
+  status: ACTIVE

@@ -1,0 +1,60 @@
+sites:
+- id: site_kb:deims-jeju_island_-_korea_the_republic_of
+  name: Jeju island - Korea (the Republic of)
+  network_registrations:
+  - network: DEIMS
+    network_id: 6800108a-a7a4-4974-bcaf-e80c42a03334
+    network_url: https://deims.org/6800108a-a7a4-4974-bcaf-e80c42a03334
+    name: Jeju island - Korea (the Republic of)
+  location:
+    latitude: 33.3125
+    longitude: 126.542
+    country: Korea (the Republic of)
+    elevation_meters: 650.0
+  description: The JJI (33° 18" 45' N, 126° 32" 31' E) belongs to a warm-temperate
+    forest. However, Mt. Hallasan is the highest mountain in South Korea (1,950 m),
+    and is surrounded by the sea. The long-term (1981-2010) annual mean temperature
+    and precipitation were 16.6 °C and 1923 mm. The evergreen broad-leaved forests
+    were found in the coastal area, sub-alpine species were found in the vicinity
+    of the summit, and various habitats were found depending on the altitude. Unlike
+    other survey sites, many evergreen broad-leaved species are growing in this site,
+    but most of the forests, except for the highlands, have been severely damaged
+    by the development of ranches and production of wood for mushroom cultivation.
+    Therefore, the remaining evergreen broad-leaved forests are not large. Major species
+    growing in these forests include Quercus acuta, Camellia japonica, and Carpinus
+    laxiflora.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/6800108a-a7a4-4974-bcaf-e80c42a03334
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:25.699942+00:00'
+      source_modified_at: '2021-03-03T11:37:32+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/6800108a-a7a4-4974-bcaf-e80c42a03334
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:25.699942+00:00'
+      source_modified_at: '2021-03-03T11:37:32+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/6800108a-a7a4-4974-bcaf-e80c42a03334
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:25.699942+00:00'
+      source_modified_at: '2021-03-03T11:37:32+01:00'
+  status: ACTIVE

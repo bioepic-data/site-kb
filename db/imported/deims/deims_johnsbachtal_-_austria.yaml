@@ -1,0 +1,77 @@
+sites:
+- id: site_kb:deims-johnsbachtal_-_austria
+  name: Johnsbachtal - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: b3ecdade-2c03-4ef2-85fe-e9c8f9e65a84
+    network_url: https://deims.org/b3ecdade-2c03-4ef2-85fe-e9c8f9e65a84
+    name: Johnsbachtal - Austria
+  location:
+    latitude: 47.5331
+    longitude: 14.6045
+    country: Austria
+    elevation_meters: 1200.0
+  description: "The Johnsbach river basin is situated in the Ennstal Alps (Styria)\
+    \ and covers an area of approximately 65 km2. Elevations range from 600–700 m\
+    \ in the valley to over 2,300 m in the summit regions. Due to its status as a\
+    \ comparatively small, high Alpine river headwatershed, research activities have\
+    \ a strong regional context. The Johnsbach valley is an area of high diversity\
+    \ in a variety of aspects, geological framework, relief energy, morphological\
+    \ and hydrological dynamics, or gradients in meteorological variables. Similarly,\
+    \ the economic interests are also varying: forest management, Alpine pasture farming,\
+    \ water resource economics, tourism (mountaineering, recreation, in winter skiing\
+    \ and dog sledding), and \"no use\" (national park). The catchment is situated\
+    \ in the administrative area of the community Johnsbach, the northern part belongs\
+    \ to the Gesaeuse National Park.\r\n\r\nThe Johnsbachtal test site is located\
+    \ in a high-lying valley in the northern part of Styria and is surrounded by the\
+    \ Gesaeuse mountains in the North, East and West and by the Western Eisenerzer\
+    \ Alps in the South. The landscape is dominated by high Alpine rock formations,\
+    \ forests and meadows with highest elevations found at the sumit of Hochtor (2369\
+    \ m). The lower altitudes of 700-900 m are partly covered by settlements.\r\n\
+    The area has been chosen for the construction of a hydrometeorological station\
+    \ network out of various reasons: The complex topographic, hydrological, geological,\
+    \ geomorphological and meteorological conditions found here pose a scientific\
+    \ challenge for all kinds of environmental monitoring and modelling. The region\
+    \ itself is a classic representative of suistanably tourism regions with, compared\
+    \ to other sites, a moderate number of visitors throughout the year. Covering\
+    \ an area of 65 km2, it is of reasonable size to allow the application of environmental\
+    \ models at high temporal and spatial resolution. Finally, its closeness to the\
+    \ city of Graz and the enormous support of the local communities make this region\
+    \ an ideal site for the establishment of an environmental monitoring network.\r\
+    \n\r\nThe main concerns of current activities are:\r\n- hydroclimatological measurements\r\
+    \n- geomorphology and sediment budgets\r\n- long-term monitoring\r\n- research\
+    \ cooperations\r\n- education and training\r\n- sustainable tourism and management\r\
+    \n- model development, parameterization and validation\r\n\r\nTo achieve these\
+    \ goals, a network of hydroclimatological stations has been installed at the following\
+    \ locations:\r\n- Oberkainz (920 m, recorded parameter: temperature, precipitation,\
+    \ wind speed and direction, humidity, global rad., shortwave rad., longwave rad.,\
+    \ snow water equivalent)\r\n- Zinödl (2191 m, recorded parameter: temperature,\
+    \ wind speed and direction, humidity, global rad., longwave rad.)\r\n- Blaseneck\
+    \ (1969 m, recorded parameter: temperature, wind speed and direction, humidity,\
+    \ global rad., longwave rad.)\r\n- Schröckalm (1344 m, recorded parameter: temperature,\
+    \ precipitation, wind speed and direction, humidity, global rad., shortwave rad.,\
+    \ longwave rad.)\r\n- Kölblwiese (870 m, recorded parameter: temperature, wind\
+    \ speed and direction, humidity, global rad., longwave rad.)\r\n- Oberkainz (920\
+    \ m, recorded parameter: temperature, precipitation, wind speed and direction,\
+    \ humidity, global rad., shortwave rad., longwave rad.)\r\n- Gseng (633 m, recorded\
+    \ parameter: river discharge)\r\n- Etzbach Gauge and Etzbach spring (850 m, river\
+    \ discharge, water temperature, electrical conductivity)\r\n\r\nA runoff and bedload\
+    \ measurement station is currently (Dec 2013) under construction at the \"Bachbrücke\"\
+    \ (catchment outlet). Further meteorological data is available from four stations\
+    \ operated by the local national park adminsitration (Nationalpark Gesäuse), the\
+    \ avalanche service (LWD) and the Central Institute for Meteorology and Geodynamics\
+    \ (ZAMG)."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/b3ecdade-2c03-4ef2-85fe-e9c8f9e65a84
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:22.655742+00:00'
+      source_modified_at: '2024-05-28T17:12:24+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

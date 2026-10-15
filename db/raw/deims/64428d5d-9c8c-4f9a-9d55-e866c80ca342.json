@@ -1,0 +1,368 @@
+{
+  "source_url": "https://deims.org/api/sites/64428d5d-9c8c-4f9a-9d55-e866c80ca342",
+  "retrieved_at": "2026-10-15T17:44:21.026473+00:00",
+  "record": {
+    "title": "Simon Stevin Research Vessel - Belgium",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "64428d5d-9c8c-4f9a-9d55-e866c80ca342"
+    },
+    "type": "site",
+    "created": "2016-06-13T14:00:55+02:00",
+    "changed": "2023-07-25T08:19:20+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ICOS",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "80633d38-4c85-4ee0-a4ce-7bbbd99c888c"
+              }
+            },
+            "siteCode": "http://meta.icos-cp.eu/resources/stations/OS_11SS",
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Belgium",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "735946e0-4e9e-484a-acee-85e31f4e2a2e"
+              }
+            },
+            "siteCode": "LTER_EU_BE_10_002",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Dre Cattrijsse",
+            "email": "andre.cattrijsse@vliz.be",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Flanders Marine Institute (VLIZ)",
+            "url": "http://www.vliz.be/en",
+            "ror": "https://ror.org/0496vr396"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Flanders Marine Institute (VLIZ)",
+            "url": "http://www.vliz.be/en",
+            "ror": "https://ror.org/0496vr396"
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.vliz.be"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Research Vessel Simon Stevin",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2012,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Belgian coastal waters and sand bank systems - Belgium",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "e83a90a3-2fb4-49bc-8991-a1d5b017ae19"
+                },
+                "changed": "2025-01-07T11:11:07+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Simon Stevin Research Vessel",
+        "shortName": "RV Simon Stevin",
+        "siteType": "Research vessel",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-01/picture1.png",
+            "alt": "Simon Stevin Picture"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 852.4,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Temperate shelfs and seas",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Coastal habitats (B)",
+            "uri": null
+          },
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine",
+          "Coastal"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((2.5422916 51.0927761, 2.3889555 51.2683397, 2.2370066 51.5569602, 2.252007 51.6122398, 2.4803457 51.8041898, 2.5380133 51.8753061, 3.0800821 51.5508499, 3.2109179 51.4839037, 3.2950868 51.4491811, 3.3525888 51.3786238, 3.3632836 51.3727904, 2.5422916 51.0927761))",
+        "coordinates": "POINT (2.704444 51.464833)",
+        "country": [
+          "Belgium"
+        ],
+        "elevation": {
+          "avg": 0,
+          "min": 0,
+          "max": 0,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 0,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22243"
+          },
+          {
+            "label": "soil alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22038"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22270"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 1,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 1
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "6 - 10 beds",
+            "uri": null
+          },
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Marine Platform",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Radio transmission system (repeaters, receivers, centralstation)",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Satellite",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

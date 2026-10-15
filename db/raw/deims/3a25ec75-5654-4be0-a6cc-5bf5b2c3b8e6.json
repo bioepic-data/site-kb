@@ -1,0 +1,260 @@
+{
+  "source_url": "https://deims.org/api/sites/3a25ec75-5654-4be0-a6cc-5bf5b2c3b8e6",
+  "retrieved_at": "2026-10-15T17:35:30.968139+00:00",
+  "record": {
+    "title": "Manantlan Mex-LTER - Mexico",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "3a25ec75-5654-4be0-a6cc-5bf5b2c3b8e6"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:33:51+01:00",
+    "changed": "2021-03-11T09:22:12+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "Mex-LTER (Mexico)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "dae20892-ab85-4994-9c7c-797582f1d9f9"
+              }
+            },
+            "siteCode": "LTER-NAM-MX-5",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Enrique Jose Jardel Pelaez",
+            "email": "ejardel@cucsur.udg.mx",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Luis Manuel Martinez Rivera",
+            "email": "lmartinez@cucsur.udg.mx",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "La Reserva de la Biosfera de Manantlan es un área protegida ubicada en los límites de los estados de Jalisco y Colima cuya importancia para la conservación radica en su diversidad de ecosistemas y especies, y en el papel que desempeñan sus bosques en la protección de cabeceras de cuencas que abastecen de agua a la región. En la RBSM se presenta la transición de las selvas bajas y medianas de las partes bajas a bosques de encino, mesófilo de montaña, pino y oyamel de las zonas altas. La variación en el sustrato geológico, la geomorfología y los suelos, y una larga historia de influencia humana a través de la agricultura, la ganadería, las actividades forestales y el uso del fuego, han contribuido a la heterogeneidad del paisaje.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1987,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Manantlan Mex-LTER",
+        "shortName": "Manantlan",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Manantlan.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 19,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1150,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Large rivers",
+            "uri": null
+          },
+          {
+            "label": "Mixed Forest",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Broadleaved deciduous woodland (G1)",
+            "uri": null
+          },
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": [
+          {
+            "label": "Basin",
+            "uri": null
+          }
+        ],
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-103.417 19.3)",
+        "country": [
+          "Mexico"
+        ],
+        "elevation": {
+          "avg": 1600,
+          "min": 400,
+          "max": 2800,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 139570,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "1 place",
+            "uri": null
+          },
+          {
+            "label": "6 - 10 beds",
+            "uri": null
+          },
+          {
+            "label": "All over site/catchment",
+            "uri": null
+          },
+          {
+            "label": "Less than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Mutual agreement on reciprocal sharing of data"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "ltser"
+        }
+      }
+    }
+  }
+}

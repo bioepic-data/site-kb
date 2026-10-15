@@ -1,0 +1,303 @@
+{
+  "source_url": "https://deims.org/api/sites/2828cadf-0ba2-4376-a185-cd1c5fc784da",
+  "retrieved_at": "2026-10-15T17:43:26.713661+00:00",
+  "record": {
+    "title": "Welverdiend-South African Wildlife College - South Africa",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "2828cadf-0ba2-4376-a185-cd1c5fc784da"
+    },
+    "type": "site",
+    "created": "2016-03-31T13:52:05+02:00",
+    "changed": "2023-07-26T09:31:22+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "SAEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bce17afa-e548-4410-99d2-4eade740c9a9"
+              }
+            },
+            "siteCode": "LTER-SAF-ZA-13",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Kruger National Park",
+            "url": "https://www.sanparks.org/parks/kruger/",
+            "ror": null
+          },
+          {
+            "type": "organisation",
+            "name": "Peace Parks Foundation",
+            "url": "http://www.peaceparks.co.za/",
+            "ror": null
+          },
+          {
+            "type": "organisation",
+            "name": "South African Environmental Observation Network (SAEON)",
+            "url": "http://www.saeon.ac.za/",
+            "ror": "https://ror.org/041j42q70"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Tony Swemmer",
+            "email": "tony@saeon.ac.za",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "SAEON Ndlovu Node",
+            "value": "http://ndlovu.dirisa.org/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "A developing long-term research site, designed to determine the effects of harvesting of natural resources (particularly fuelwood) and domestic livestock on the biodiversity and ecosystem functioning of a savanna ecosystem.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2009,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "contains",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "South African Wildlife College, Tree Plots - South Africa",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "d647afb2-ae8b-4f30-a3fe-b266bb60bb4f"
+                },
+                "changed": "2025-01-21T14:43:52+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Welverdiend-South African Wildlife College",
+        "shortName": "W-SAWC",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/welverdiend-south-african-wildlife-college-south-africa_4554.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/welverdiend-south-african-wildlife-college-south-africa_4555.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 22,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 550,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "savanna",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Savanna",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Habitat complexes (X)",
+            "uri": null
+          },
+          {
+            "label": "Mosaic landscapes with a woodland element (bocages) (X10)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "Granite, gabbro",
+        "hydrology": "No perennial rivers",
+        "soils": null,
+        "vegetation": "Granite Lowveld savanna"
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (31.3273 -23.5537)",
+        "country": [
+          "South Africa"
+        ],
+        "elevation": {
+          "avg": 480,
+          "min": 450,
+          "max": 510,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 3500,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "birds abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10020"
+          },
+          {
+            "label": "birds presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10082"
+          },
+          {
+            "label": "deadwood decaying rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22101"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "habitat structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21478"
+          },
+          {
+            "label": "plant cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22188"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10081"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 60
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of beds",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://saeon.dirisa.org/management/it-governance/G373.2%20Policy%20and%20Guidelines/G373.2.2%20Policies/data-policy-_stand-alone_.pdf/view"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "The data provider is given and agrees to a statement of uses to which the dataset will be put"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

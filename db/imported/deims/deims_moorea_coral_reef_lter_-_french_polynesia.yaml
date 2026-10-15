@@ -1,0 +1,162 @@
+sites:
+- id: site_kb:deims-moorea_coral_reef_lter_-_french_polynesia
+  name: Moorea Coral Reef LTER - French Polynesia
+  network_registrations:
+  - network: DEIMS
+    network_id: 2ecd078c-3bf8-4b70-8e0c-506c1116546e
+    network_url: https://deims.org/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+    name: Moorea Coral Reef LTER - French Polynesia
+  location:
+    latitude: -17.38
+    longitude: -149.67
+    country: French Polynesia
+    elevation_meters: 0.0
+  description: The Moorea Coral Reef LTER site encompasses the coral reef complex
+    that surrounds the island of Moorea, French Polynesia (17°30'S, 149°50'W). Moorea
+    is a small, triangular volcanic island 20 km west of Tahiti in the Society Islands
+    of French Polynesia.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: community composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: community composition
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22086
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: dissolved nutrient
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved nutrient
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22107
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: diversity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diversity index
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/21513
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: inorganic nutrient content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: inorganic nutrient content
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22137
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species abundance
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/10018
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species composition
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22285
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species presence
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/10081
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: species richness
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species richness
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22287
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: water alkalinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water alkalinity
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/10303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:01.254993+00:00'
+      source_modified_at: '2020-12-18T10:57:06+01:00'
+  status: ACTIVE

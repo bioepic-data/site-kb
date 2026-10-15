@@ -1,0 +1,58 @@
+sites:
+- id: site_kb:deims-krivoklat_forests_and_xeric_grasslands_-_czechia
+  name: Krivoklat forests and xeric grasslands - Czechia
+  network_registrations:
+  - network: DEIMS
+    network_id: 09f97e46-5c37-494e-b476-d5ec32ca909a
+    network_url: https://deims.org/09f97e46-5c37-494e-b476-d5ec32ca909a
+    name: Krivoklat forests and xeric grasslands - Czechia
+  location:
+    latitude: 50.0028
+    longitude: 13.8475
+    country: Czechia
+    elevation_meters: 420.0
+  description: "The Protected Landscape Area and Biosphere Reserve Křivoklátsko is\
+    \ mostly covered by broadleaved forests that are valuable by high diversity of\
+    \ flora, fauna and communities. This biodiversity is increased in deep valley\
+    \ of the Berounka River with xeric grasslands on the southern slopes. Inversion\
+    \ of vegetation belts is typical of narrow valleys of the Berounka River tributaries.\r\
+    \n\r\nMonitoring of vegetation changes and soil properties in natural forests\
+    \ (since 1994) and xeric grasslands (since 2004) is the main focus of the LTER\
+    \ sites. Continuously with vegetation changes, studies on soil fauna in forests\
+    \ were carried out."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/09f97e46-5c37-494e-b476-d5ec32ca909a
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:23.810617+00:00'
+      source_modified_at: '2021-11-23T11:49:17+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/09f97e46-5c37-494e-b476-d5ec32ca909a
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:23.810617+00:00'
+      source_modified_at: '2021-11-23T11:49:17+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/09f97e46-5c37-494e-b476-d5ec32ca909a
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:23.810617+00:00'
+      source_modified_at: '2021-11-23T11:49:17+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

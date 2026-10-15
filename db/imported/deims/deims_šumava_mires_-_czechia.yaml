@@ -1,0 +1,83 @@
+sites:
+- id: site_kb:deims-šumava_mires_-_czechia
+  name: Šumava mires - Czechia
+  network_registrations:
+  - network: DEIMS
+    network_id: 86f772ca-7da6-4269-9580-cce28eead36c
+    network_url: https://deims.org/86f772ca-7da6-4269-9580-cce28eead36c
+    name: Šumava mires - Czechia
+  location:
+    latitude: 49.0219208
+    longitude: 13.4404717
+    country: Czechia
+    elevation_meters: 1100.0
+  description: "The peat bogs are the most valuable as well as most sensitive biotopes\
+    \ of the Bohemian Forest. Its mystery and old-time stories are indissolubly connected\
+    \ trough this unique world on edge of dry land and water.\r\n\r\nFor the Bohemian\
+    \ Forest, as for the other Central European forested landscapes, peat lands or\
+    \ mires are relict ecosystems, being more typical for northern tundra and taiga.\
+    \ In the Bohemian Forest, the mire types range from the typical dome-shaped raised\
+    \ bogs that are fully dependant on the rainfall, to the forested or open fens\
+    \ fed mainly by the groundwater. Both types of bogs are often surrounded by waterlogged\
+    \ spruce forest or birch forest on peaty soils. They host rare orchids, such as\
+    \ lesser twayblade (Listera cordata) and coral-root orchid (Corallorhiza trifida).\
+    \ Non-forested sedge mires are usually smaller and can be either natural (located\
+    \ on springs) or secondary (developed as the results of deforestation and traditional\
+    \ land use). They are important for their high biodiversity (both plants and insects).\r\
+    \n\r\nThe largest Central European complex of peat bogs and marshlands covering\
+    \ over 10,000 ha has been designated as the Ramsar site since 1990.\r\n\r\nAbout\
+    \ 70% of mires in the Bohemian Forest have been influenced by past drainage for\
+    \ variously forestry, agriculture and peat extraction. Since 1999, a comprehensive\
+    \ \"Mire Restoration Programme\" has been implemented in the Šumava National Park,\
+    \ primarily focused on the disturbed hydrology. Selected drained and intact mires\
+    \ are monitored with the aim: i) to characterise the degradation changes induced\
+    \ by the disturbed hydrology; and ii) to evaluate the success of restoration.\
+    \ Water-table fluctuations, hydrochemistry of groundwater, surface-water outflow,\
+    \ amount of precipitation and the vegetation on permanent plots have been monitored."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:51.473460+00:00'
+      source_modified_at: '2023-07-25T10:42:22+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:51.473460+00:00'
+      source_modified_at: '2023-07-25T10:42:22+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:51.473460+00:00'
+      source_modified_at: '2023-07-25T10:42:22+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:51.473460+00:00'
+      source_modified_at: '2023-07-25T10:42:22+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

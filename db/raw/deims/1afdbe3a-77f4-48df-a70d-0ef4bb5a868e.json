@@ -1,0 +1,364 @@
+{
+  "source_url": "https://deims.org/api/sites/1afdbe3a-77f4-48df-a70d-0ef4bb5a868e",
+  "retrieved_at": "2026-10-15T17:51:04.447900+00:00",
+  "record": {
+    "title": "Taagdalen - Norway",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "1afdbe3a-77f4-48df-a70d-0ef4bb5a868e"
+    },
+    "type": "site",
+    "created": "2025-02-14T08:45:36+01:00",
+    "changed": "2025-02-14T09:22:41+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Norway",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bc7c517b-3648-40cc-a04c-8c98d009c4a9"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Dag-Inge Øien",
+            "email": "dag.oien@ntnu.no",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "NTNU University Museum",
+            "url": "https://www.ntnu.edu/museum/",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "NTNU University Museum",
+            "url": "https://www.ntnu.edu/museum",
+            "ror": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Rich fen and grassland communites formerly used for haymaking in the transition between the middle boreal and northern boreal vegetation zone, and in the markedly oceanic and continental vegetation section in Central Norway",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": null,
+        "yearEstablished": 1967,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "groups with",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Soelendet - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "578870a5-834d-4879-8434-b503598acbd2"
+                },
+                "changed": "2025-02-14T09:22:55+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Taagdalen",
+        "shortName": null,
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category Ia – Strict Nature Reserve",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/Ia"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "taiga",
+        "ecosystemType": null,
+        "eunisHabitat": [
+          {
+            "label": "Base-rich fens and calcareous spring mires (D4)",
+            "uri": null
+          },
+          {
+            "label": "Mires, bogs and fens (D)",
+            "uri": null
+          },
+          {
+            "label": "Poor fens and soft-water spring mires (D2.2)",
+            "uri": null
+          },
+          {
+            "label": "Raised and blanket bogs (D1)",
+            "uri": null
+          },
+          {
+            "label": "Raised bogs (D1.1)",
+            "uri": null
+          },
+          {
+            "label": "Valley mires, poor fens and transition mires (D2)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((9.064866 63.057033, 9.087089 63.059366, 9.088096 63.058265, 9.083892 63.057643, 9.084664 63.05562, 9.085179 63.05142, 9.079796 63.04972, 9.077565 63.05501, 9.075049 63.056165, 9.066153 63.056177, 9.064866 63.057033))",
+        "coordinates": "POINT (9.078969 63.056926)",
+        "country": [
+          "Norway"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": 386,
+          "max": 489,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 146,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": [
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "bryophytes presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22206"
+          },
+          {
+            "label": "change in population size over time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22085"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "cost of reproduction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21384"
+          },
+          {
+            "label": "dry matter content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21551"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "maximum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21529"
+          },
+          {
+            "label": "mean annual air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21530"
+          },
+          {
+            "label": "mean annual precipitation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22166"
+          },
+          {
+            "label": "mean annual temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21531"
+          },
+          {
+            "label": "minimum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21532"
+          },
+          {
+            "label": "plant cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22188"
+          },
+          {
+            "label": "plant density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22189"
+          },
+          {
+            "label": "plant distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21479"
+          },
+          {
+            "label": "plant species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10335"
+          },
+          {
+            "label": "plant species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22195"
+          },
+          {
+            "label": "plant species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10341"
+          },
+          {
+            "label": "plant species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22196"
+          },
+          {
+            "label": "population density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22198"
+          },
+          {
+            "label": "population size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22199"
+          },
+          {
+            "label": "population structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21415"
+          },
+          {
+            "label": "root biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22215"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21207"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22240"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species group abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10021"
+          },
+          {
+            "label": "species list",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22286"
+          },
+          {
+            "label": "species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10081"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          },
+          {
+            "label": "stand density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22291"
+          },
+          {
+            "label": "vegetation layer composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22307"
+          },
+          {
+            "label": "vegetation layer structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21480"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

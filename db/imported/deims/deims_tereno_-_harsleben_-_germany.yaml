@@ -1,0 +1,126 @@
+sites:
+- id: site_kb:deims-tereno_-_harsleben_-_germany
+  name: TERENO - Harsleben - Germany
+  network_registrations:
+  - network: DEIMS
+    network_id: c945abe4-3d40-46d1-b5d0-33127c35c6ab
+    network_url: https://deims.org/c945abe4-3d40-46d1-b5d0-33127c35c6ab
+    name: TERENO - Harsleben - Germany
+  location:
+    latitude: 51.843905
+    longitude: 11.074772
+    country: Germany
+    elevation_meters: 143.0
+  description: "The sites Friedeburg, Greifenhagen, Harsleben, Schafstädt, Siptenfelde\
+    \ and Wanzleben are part of the TERENO Harz / Central German Lowland Observatory\
+    \ in Saxony-Anhalt run by the Helmholtz Centre for Environmental Research UFZ.\
+    \ These sites have a focus on biodiversity monitoring in the “normal landscape”\
+    \ which is characterized by agricultural use (about 60 % coverage of Saxony-Anhalt).\
+    \ Each site is a 4x4 km landscape of mainly arable land and semi-natural habitats\
+    \ like e.g. hedges and forests.\r\nThe site Harsleben is north of the city of\
+    \ Quedlinburg. A part of it was formerly military training area which was afterwards\
+    \ just grazed by sheep. The site  is characterized by a mostly flat topography\
+    \ and has a mean elevation of 143 m asl. The total area covered by crop fields\
+    \ is 67 % and all semi-natural habitats summing up to 17 %."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/c945abe4-3d40-46d1-b5d0-33127c35c6ab
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:20.691576+00:00'
+      source_modified_at: '2025-12-15T10:50:45+01:00'
+  - name: community composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: community composition
+      record_url: https://deims.org/api/sites/c945abe4-3d40-46d1-b5d0-33127c35c6ab
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22086
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:20.691576+00:00'
+      source_modified_at: '2025-12-15T10:50:45+01:00'
+  - name: diversity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diversity index
+      record_url: https://deims.org/api/sites/c945abe4-3d40-46d1-b5d0-33127c35c6ab
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/21513
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:20.691576+00:00'
+      source_modified_at: '2025-12-15T10:50:45+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/c945abe4-3d40-46d1-b5d0-33127c35c6ab
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:20.691576+00:00'
+      source_modified_at: '2025-12-15T10:50:45+01:00'
+  - name: global radiation irradiance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: global radiation irradiance
+      record_url: https://deims.org/api/sites/c945abe4-3d40-46d1-b5d0-33127c35c6ab
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22125
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:20.691576+00:00'
+      source_modified_at: '2025-12-15T10:50:45+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/c945abe4-3d40-46d1-b5d0-33127c35c6ab
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:20.691576+00:00'
+      source_modified_at: '2025-12-15T10:50:45+01:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/c945abe4-3d40-46d1-b5d0-33127c35c6ab
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:20.691576+00:00'
+      source_modified_at: '2025-12-15T10:50:45+01:00'
+  - name: species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species composition
+      record_url: https://deims.org/api/sites/c945abe4-3d40-46d1-b5d0-33127c35c6ab
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22285
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:20.691576+00:00'
+      source_modified_at: '2025-12-15T10:50:45+01:00'
+  - name: species richness
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species richness
+      record_url: https://deims.org/api/sites/c945abe4-3d40-46d1-b5d0-33127c35c6ab
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22287
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:20.691576+00:00'
+      source_modified_at: '2025-12-15T10:50:45+01:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

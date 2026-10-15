@@ -1,0 +1,68 @@
+sites:
+- id: site_kb:deims-deep-sea_in_sagami_bay_-_japan
+  name: Deep-sea in Sagami Bay - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 5800e9c1-922a-455b-9c25-60ecab01fd92
+    network_url: https://deims.org/5800e9c1-922a-455b-9c25-60ecab01fd92
+    name: Deep-sea in Sagami Bay - Japan
+  location:
+    latitude: 35.0017
+    longitude: 139.2252
+    country: Japan
+    elevation_meters: -1000.0
+  description: In spite of the fact that the area of Sagami Bay occupies only 0.05%
+    of the total area of Japanese waters, the total species richness is 16.5% of the
+    total Japanese species richness. This suggests high species richness due to the
+    array of habitats present in Sagami Bay. The high species diversity of Sagami
+    Bay has been recognized previously, and one of the proposed reasons for this degree
+    of diversity is the influence of cold-water masses derived from the Oyashio Current,
+    as well as tropical or subtropical water masses derived from the Kuroshio Current.
+    Sagami Bay’s high reported diversity probably contains bias, because marine biologists
+    have historically paid more attention to Sagami Bay.
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5800e9c1-922a-455b-9c25-60ecab01fd92
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:22.151055+00:00'
+      source_modified_at: '2020-06-29T10:39:14+02:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/5800e9c1-922a-455b-9c25-60ecab01fd92
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:22.151055+00:00'
+      source_modified_at: '2020-06-29T10:39:14+02:00'
+  - name: species turnover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species turnover
+      record_url: https://deims.org/api/sites/5800e9c1-922a-455b-9c25-60ecab01fd92
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22288
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:22.151055+00:00'
+      source_modified_at: '2020-06-29T10:39:14+02:00'
+  - name: tree basal area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree basal area
+      record_url: https://deims.org/api/sites/5800e9c1-922a-455b-9c25-60ecab01fd92
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22301
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:22.151055+00:00'
+      source_modified_at: '2020-06-29T10:39:14+02:00'
+  status: ACTIVE

@@ -1,0 +1,328 @@
+{
+  "source_url": "https://deims.org/api/sites/22a26965-bb9c-4ec4-b149-f815fdeb86ac",
+  "retrieved_at": "2026-10-15T17:39:55.850811+00:00",
+  "record": {
+    "title": "Afon Gwy - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "22a26965-bb9c-4ec4-b149-f815fdeb86ac"
+    },
+    "type": "site",
+    "created": "2013-12-09T15:55:21+01:00",
+    "changed": "2023-07-28T11:17:38+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "UK Eutrophying and Acidifying atmospheric Pollutants network (UKEAP)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "47ccb7a9-ba65-4dd9-a564-4623d016d0ec"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_18",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Afon Gwy on UWMN",
+            "value": "https://uwmn.uk/afon-gwy-wye"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK Upland Waters Monitoring Network (UK UWMN) site. The Afon Gwy lies to the east of Plynlimon in central Wales and forms part of the headwater system of the River Wye. The catchment area is 389 ha and rises from 380 m at the sampling station to a maximum altitude of 730 m. Catchment soils are dominated by peats and stagnopodsols. The underlying geology is Lower Palaeozoic mudstones, shales and grits of the Gwestyn and Van formations, overlain in places by locally-derived glacial drift. The catchment consists of moorland grasses, notably Molinia and Nardus, with Eriophorum and the moss Racomitrium on areas of wetter land and Pteridium on the lower slopes. The majority of this grassland supports rough grazing for sheep and in summer, on the lower land, cattle. The local area is crossed with tracks used for rally testing, one of which passes through the southern edge of the catchment. Some data are managed by UK ECN Data Centre. Note: The area is the size of the catchment. Note that Afon Gwy is within the Plynlimon Experimental Catchments (see http://data.lter-europe.net/deims/site/EXPEER-UK-02). ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1991,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Plynlimon - United Kingdom",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "6d47f4ca-8621-49a4-8240-3021429d1db5"
+                },
+                "changed": "2025-01-07T11:14:56+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Afon Gwy",
+        "shortName": "UWMN_18b",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/afon-gwy-united-kingdom_5218.jpg",
+            "alt": "Gwy flume"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2600,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Surface running waters (C2)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": "The underlying geology is Lower Palaeozoic mudstones, shales and grits of the Gwestyn and Van formations, overlain in places by locally-derived glacial drift.",
+        "hydrology": "The altitude range is from 440 m to 700 m in the headwaters. The channel section utilised for biological sampling is 3-4 m wide and comprises a series of bedrock ledges, falls and boulder strewn riffles.",
+        "soils": "Peats and stagnopodsols",
+        "vegetation": "The catchment consists of moorland grasses, notably Molinia and Nardus, with Eriophorum and the moss Racomitrium on areas of wetter land and Pteridium on the lower slopes."
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-3.7317699943882 52.453509084942, -3.7318234947057 52.453372311638, -3.7320515398259 52.453124526858, -3.7321288575217 52.452809550205, -3.7325483565893 52.452331092369, -3.7331186065029 52.451897345309, -3.734220779334 52.451424606558, -3.735298184959 52.451106192775, -3.7364168317157 52.450936358798, -3.7372801774429 52.450659844383, -3.7384140723197 52.450363892416, -3.7393552240194 52.450218555866, -3.7403342783296 52.450078273276, -3.7409018716309 52.449964552835, -3.7415928360761 52.449924031601, -3.7422023541565 52.449998780733, -3.7424526627079 52.450316803679, -3.7425295270103 52.450807650918, -3.7427154384719 52.451183378529, -3.7430061167945 52.451626680212, -3.7432620098762 52.45219046865, -3.7436615341271 52.452489992536, -3.7441126874168 52.452594602603, -3.7449649797266 52.45265536021, -3.7459043251012 52.452835643732, -3.7464333320438 52.453071151671, -3.7472809164572 52.453337913925, -3.7485998963713 52.453755043163, -3.7496559351327 52.454151604714, -3.7503265479273 52.454431360007, -3.7508858892668 52.454757995712, -3.7514461251822 52.455130132865, -3.7517465626561 52.455607828345, -3.7521479767044 52.455975852863, -3.7525635350245 52.456560857006, -3.7529283937516 52.456980838453, -3.753293926814 52.457429186864, -3.7537460810775 52.457985266147, -3.7541240005948 52.458548064479, -3.7545387072926 52.459098795922, -3.7550388795355 52.45930013429, -3.7556947560769 52.459356987311, -3.756471138804 52.45934433258, -3.7570810332548 52.459436139466, -3.757746789574 52.459521493364, -3.7585357548012 52.459662891195, -3.7590229099793 52.459698633454, -3.7597818034332 52.459754774164, -3.7602286331581 52.460059439127, -3.7604701476935 52.460405933562, -3.7608434007116 52.460768447876, -3.7614470778084 52.460980299683, -3.7619555880764 52.461135686529, -3.7627645888334 52.461339976325, -3.763342722876 52.461671893087, -3.7636437943719 52.462149549444, -3.7638469630516 52.462444910339, -3.7641814157804 52.462744774533, -3.7647559454513 52.46291686563, -3.7654479220651 52.463310853569, -3.7659210488213 52.463558067505, -3.765945832736 52.463809447609, -3.7661766192749 52.464093153245, -3.7665111103766 52.464381771521, -3.7668517540788 52.46497318393, -3.7672549820702 52.465415588174, -3.7673841495756 52.465734526751, -3.767562044202 52.466144333426, -3.7677797223211 52.46666284287, -3.768171941491 52.467036570659, -3.76851656827 52.467370549119, -3.7685705702791 52.467684710155, -3.7687179185106 52.467986236099, -3.7690000047638 52.468458262547, -3.7687858619194 52.468900342874, -3.7683079828523 52.469282305563, -3.7677788361273 52.469452899525, -3.7671142060887 52.469836244097, -3.7670131775283 52.470311751926, -3.7665817075911 52.47068149406, -3.7662624567027 52.471027361743, -3.76573237038 52.471175201712, -3.7652475930463 52.471236666797, -3.764645496605 52.471493750573, -3.7644258403818 52.471707475416, -3.7641666318301 52.471841151275, -3.7636144933722 52.471829157252, -3.7626989831653 52.47187736702, -3.7623490185237 52.471720463025, -3.7618192535616 52.47147379758, -3.7612517894038 52.471193131886, -3.7596620375621 52.471235905103, -3.7582565453383 52.47113430816, -3.7568250426922 52.471118777005, -3.7558958707173 52.471412986328, -3.7550791439408 52.471688942165, -3.7543353517603 52.471890196033, -3.7537095872715 52.471935723073, -3.7528472436986 52.471874894388, -3.7523929792427 52.472044870812, -3.7513227973372 52.472311631508, -3.7502528392289 52.472572759711, -3.7490392247686 52.473098429151, -3.7481698825992 52.473546225749, -3.7471773194686 52.47391547898, -3.7465333042147 52.474395617149, -3.7460524897467 52.47465165681, -3.7455259079841 52.474530465396, -3.744922578326 52.474318526945, -3.7440800005091 52.473897419951, -3.743376622747 52.473400640811, -3.7427455327853 52.472799957235, -3.7422376829141 52.472278655017, -3.7415404249224 52.471644380633, -3.7409508891153 52.471220929616, -3.7404297955536 52.470922623901, -3.7399540428555 52.470572231281, -3.7394635597684 52.469976485713, -3.7388082917758 52.469553429118, -3.7380412821444 52.469131449431, -3.7373301724323 52.468703305128, -3.7366431205598 52.468114650425, -3.7360343813086 52.46766841772, -3.7356404353017 52.467208914476, -3.7356843643936 52.466665154767, -3.7357861769284 52.466201183699, -3.7357439708115 52.465561191656, -3.7355345565562 52.464985748212, -3.7355421333934 52.464476800262, -3.7355569079624 52.463893570525, -3.7356601763468 52.463080894064, -3.7356067799646 52.462355089086, -3.7353997341344 52.461465204836, -3.7352509789246 52.460688819591, -3.7350968105904 52.460067047158, -3.7346099770711 52.459196720102, -3.7344900350873 52.458860191454, -3.7343983149521 52.458106569787, -3.7343975736107 52.45765478043, -3.7343606918046 52.457266458525, -3.7343270523731 52.456586160845, -3.7342128027429 52.456089957172, -3.7337810795047 52.455590542, -3.7333333767566 52.455234373452, -3.7327897073107 52.454753173051, -3.7321704435052 52.454255657531, -3.7318246416142 52.453846853812, -3.7317424019624 52.453579450713, -3.7317699943882 52.453509084942))",
+        "coordinates": "POINT (-3.73202 52.4539)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 555,
+          "min": 380,
+          "max": 730,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 389,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "change in population size over time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22085"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "plant species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22195"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species list",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22286"
+          },
+          {
+            "label": "species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10081"
+          },
+          {
+            "label": "species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22287"
+          },
+          {
+            "label": "stage height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22290"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": "Chemistry sampled monthly. Biological measurements made annually ",
+          "siteVisitInterval": 30
+        },
+        "notes": "Accommodation in nearby villages",
+        "collection": [
+          {
+            "label": "Relational database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

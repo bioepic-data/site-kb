@@ -1,0 +1,346 @@
+{
+  "source_url": "https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d",
+  "retrieved_at": "2026-10-15T17:35:05.238361+00:00",
+  "record": {
+    "title": "Lake Shinji and Lake Nakaumi - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "54c1fc05-0e3a-424b-abca-f9afaef34e9d"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:32:26+01:00",
+    "changed": "2020-06-29T10:42:37+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-08",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Seto Koji",
+            "email": "seto@soc.shimane-u.ac.jp",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Estuary Research Center, Shimane University",
+            "url": "http://www.kisuiiki.jp/",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Seto Koji",
+            "email": "seto@soc.shimane-u.ac.jp",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.kisuiiki.shimane-u.ac.jp/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Lake Shinji and Lake nakaumi are coupled coastal lagoon lake systems in Japan, and these lakes have suffered detrimental efects by  human activities, especially during the last 40 years, because of the big national projects aiming at desalination and reclamation of these lakes.  In the year 2000, however, the land reclamation project in Lake Nakaumi was officially discontinued, leaving Honjou area unreclaimed.  Shortly thereafter, desalination project was also terminated.  This was the end of a large and expensive series of public works projects, and in 2005, these two lakes were included in the list of wetlands of international importance, and the efforts to restore the lakes are undergone.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1992,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Lake Shinji and Lake Nakaumi",
+        "shortName": "Shinji/Nakaumi",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/3049.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 14.9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1787,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "coastal",
+        "ecosystemType": [
+          {
+            "label": "Coastal",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Large lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Coastal habitats (B)",
+            "uri": null
+          },
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Coastal"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (132.949 35.4472)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": 0,
+          "min": -1,
+          "max": 1,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 16595,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "lake level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22141"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "secchi depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22226"
+          },
+          {
+            "label": "sight depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22238"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22287"
+          },
+          {
+            "label": "specific conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22289"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          },
+          {
+            "label": "water velocity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22315"
+          },
+          {
+            "label": "water volume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22316"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 10
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "1 place",
+            "uri": null
+          },
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Graph or object database",
+            "uri": null
+          },
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          },
+          {
+            "label": "Unstructured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "The opportunity to collaborate on the project using the dataset",
+              "The dataset provider is given a complete list of all products that make use of the dataset",
+              "The data provider is given and agrees to a statement of uses to which the dataset will be put"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

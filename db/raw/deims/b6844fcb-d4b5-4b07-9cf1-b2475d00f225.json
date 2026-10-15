@@ -1,0 +1,216 @@
+{
+  "source_url": "https://deims.org/api/sites/b6844fcb-d4b5-4b07-9cf1-b2475d00f225",
+  "retrieved_at": "2026-10-15T17:35:23.652390+00:00",
+  "record": {
+    "title": "Gwangneung Experimental Forest - Korea (the Republic of)",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "b6844fcb-d4b5-4b07-9cf1-b2475d00f225"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:33:25+01:00",
+    "changed": "2021-03-03T11:35:26+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "KLTER (Korea)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "639bbd69-dcf5-49de-98e2-35a1d0d1b97b"
+              }
+            },
+            "siteCode": "LTER-EAP-KR-2",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "National Institute of Forestry Science",
+            "url": "https://nifos.forest.go.kr",
+            "ror": "https://ror.org/01hyb4h74"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "National Institute of Forestry Science",
+            "url": "https://nifos.forest.go.kr",
+            "ror": "https://ror.org/01hyb4h74"
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "National Institute of Forestry Science",
+            "url": "https://nifos.forest.go.kr",
+            "ror": "https://ror.org/01hyb4h74"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://klter.kfri.go.kr"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The GEF (37° 44\" 39' N, 127° 9\" 22' E) is a well-preserved forest located in the central temperate forest sub zone of Gyeonggi-do, Korea. It has been managed since the Joseon Dynasty, and public access to this area is currently controlled for the purpose of preserving the experimental forest. The long-term (1981-2010) annual mean temperature and precipitation of this site were 11.5 °C and 1438.2 mm. The dominant woody plants are Quercus serrata, Carpinus laxiflora, Quercus mongolica, Cornus controversa, and Pinus koraiensis in GEF. A multidisciplinary, collaborative research is being carried out at GEF. In addition, it was officially registered with the internal and external flux research networks (KoFlux, FluxNet, and AsiaFlux), and was therefore called Super Site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1998,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Gwangneung Experimental Forest",
+        "shortName": "GEF",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/gwangneung-experimental-forest-south-korea_5843.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/gwangneung-experimental-forest-south-korea_5844.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.4,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1238,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (127.156 37.7441)",
+        "country": [
+          "Korea (the Republic of)"
+        ],
+        "elevation": {
+          "avg": 258,
+          "min": 90,
+          "max": 531,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

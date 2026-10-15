@@ -1,0 +1,37 @@
+sites:
+- id: site_kb:deims-kenting_karst_forest_dynamics_plot_-_taiwan
+  name: Kenting Karst Forest Dynamics Plot - Taiwan
+  network_registrations:
+  - network: DEIMS
+    network_id: ca10acc2-f4e8-401c-ba50-ebfad2c55c68
+    network_url: https://deims.org/ca10acc2-f4e8-401c-ba50-ebfad2c55c68
+    name: Kenting Karst Forest Dynamics Plot - Taiwan
+  location:
+    latitude: 21.966388888889
+    longitude: 120.81638888889
+    country: Taiwan
+    elevation_meters: 275.0
+  description: 'The plot was located in a monsoon forest. The area’s climate is clearly
+    divided into dry and wet seasons. According to data collected by the Hengchun
+    Weather Station, Central Weather Bureau, in the years between 2000 and 2010, the
+    average annual precipitation is 2,000 mm. About 87% of the rainfall occurs between
+    June and November due to Mei-Yu season and typhoons, while the months of October
+    to April are drier with strong northeast monsoon (so-called katabatic wind). The
+    mean annual temperature is 25.4°C and the difference between the average temperature
+    of the coldest and hottest months is small, from 20.9°C in January to 28.4°C in
+    August. On average, 2.3 typhoons invaded the Hengchun Peninsula every year from
+    1897 to 2007 (Data source: Central Weather Bureau), and the forests and vegetation
+    covers had often suffered mechanical damage and heavy rainfall.'
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/ca10acc2-f4e8-401c-ba50-ebfad2c55c68
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:22.688111+00:00'
+      source_modified_at: '2021-02-09T12:18:50+01:00'
+  status: ACTIVE

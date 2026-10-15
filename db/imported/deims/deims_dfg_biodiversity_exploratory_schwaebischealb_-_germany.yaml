@@ -1,0 +1,88 @@
+sites:
+- id: site_kb:deims-dfg_biodiversity_exploratory_schwaebischealb_-_germany
+  name: DFG_Biodiversity_Exploratory_SchwaebischeAlb - Germany
+  network_registrations:
+  - network: DEIMS
+    network_id: a51f9249-ddc8-4a90-95a8-c7bbebb35d29
+    network_url: https://deims.org/a51f9249-ddc8-4a90-95a8-c7bbebb35d29
+    name: DFG_Biodiversity_Exploratory_SchwaebischeAlb - Germany
+  location:
+    latitude: 48.4374
+    longitude: 9.38938
+    country: Germany
+    elevation_meters: 660.0
+  description: The establishing Biosphere Reserve Schwäbische Alb covers more than
+    84,000 ha in the centre of the mountain range of the Schwäbische Alb in the state
+    of Baden-Württemberg in SW-Germany. 42000 ha of this area comprise the Exploratory.
+    The Schwäbische Alb with its calcareous bedrock was formed during the tertiary,
+    when the sediments of the Jurassic sea rose due to tectonic movements in the upper
+    Rhine valley. The landscape is representative for a wide range of similar calcareous
+    mountain ranges, which extend from the Franconian Alb in the NE to Swiss and French
+    Jura mountains. It is characterized by a mosaic of forest and grassland, where
+    grasslands generally have a relatively high proportion, mainly due to a many-century-long
+    tradition of sheep herding. Forests range from natural old-growth beech forests
+    over mixed forests to intensely managed spruce monocultures. Special forest types
+    include park-like forests with many solitary trees created by century-long grazing,
+    and untouched mixed forests in small canyons. Grasslands range from unfertilized
+    pastures mainly grazed by sheep over unfertilized or moderately fertilized meadows
+    to fertilized intensely used grassland. Forest and grasslands are interspersed
+    with root crop fields, while hardly any cereals are cultivated in the area. The
+    area has been characterized by low-intensity agriculture for many centuries.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/a51f9249-ddc8-4a90-95a8-c7bbebb35d29
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:46.904017+00:00'
+      source_modified_at: '2025-12-11T16:56:36+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/a51f9249-ddc8-4a90-95a8-c7bbebb35d29
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:46.904017+00:00'
+      source_modified_at: '2025-12-11T16:56:36+01:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/a51f9249-ddc8-4a90-95a8-c7bbebb35d29
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:46.904017+00:00'
+      source_modified_at: '2025-12-11T16:56:36+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/a51f9249-ddc8-4a90-95a8-c7bbebb35d29
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:46.904017+00:00'
+      source_modified_at: '2025-12-11T16:56:36+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/a51f9249-ddc8-4a90-95a8-c7bbebb35d29
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:46.904017+00:00'
+      source_modified_at: '2025-12-11T16:56:36+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

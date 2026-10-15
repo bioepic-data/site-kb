@@ -1,0 +1,57 @@
+sites:
+- id: site_kb:deims-tereno_-_bode_catchment_-_germany
+  name: TERENO - Bode catchment - Germany
+  network_registrations:
+  - network: DEIMS
+    network_id: 5400ea90-5cb5-4b30-a98d-c8025ae61154
+    network_url: https://deims.org/5400ea90-5cb5-4b30-a98d-c8025ae61154
+    name: TERENO - Bode catchment - Germany
+  location:
+    latitude: 51.8617
+    longitude: 11.2585
+    country: Germany
+    elevation_meters: 150.0
+  description: The hydrological research within the Harz/Central German Lowland Observatory
+    is concentrated in the catchment area of the river Bode (catchment size approx.
+    3.300 km²). The detection of scale dependencies in flowpaths, run-off generation
+    or residence times requires scale-related approaches of observation. Therefore,
+    a nested approach including small process plots (< 2 km²), meso-scale subcatchments
+    (approx. 100 km²) up to the scale of the complete Bode catchment will be established.
+    A more detailed description of the hydrological observatory and the several intensive
+    test sites can be found at www.tereno.net.
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/5400ea90-5cb5-4b30-a98d-c8025ae61154
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:19.493904+00:00'
+      source_modified_at: '2025-12-15T10:25:27+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/5400ea90-5cb5-4b30-a98d-c8025ae61154
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:19.493904+00:00'
+      source_modified_at: '2025-12-15T10:25:27+01:00'
+  - name: soil water content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil water content
+      record_url: https://deims.org/api/sites/5400ea90-5cb5-4b30-a98d-c8025ae61154
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22281
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:19.493904+00:00'
+      source_modified_at: '2025-12-15T10:25:27+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

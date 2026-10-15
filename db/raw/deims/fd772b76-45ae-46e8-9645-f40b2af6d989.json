@@ -1,0 +1,258 @@
+{
+  "source_url": "https://deims.org/api/sites/fd772b76-45ae-46e8-9645-f40b2af6d989",
+  "retrieved_at": "2026-10-15T17:40:27.099828+00:00",
+  "record": {
+    "title": "Babiogórski National Park - Poland",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "fd772b76-45ae-46e8-9645-f40b2af6d989"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:03:40+01:00",
+    "changed": "2021-11-23T11:49:23+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Poland",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "67763729-45a7-4248-a70d-622b1d0a3d41"
+              }
+            },
+            "siteCode": "LTER_EU_PL_001",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Tomasz Staszewski",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Tomasz Staszewski",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "floral characteristics, dry and wet deposition, health status of trees, soil characteristics, coniferous,",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1998,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Babiogórski National Park",
+        "shortName": "Babiogórski National Park",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category II – National Park",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/II"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 5.2,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1119.5,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (19.5303 49.6044)",
+        "country": [
+          "Poland"
+        ],
+        "elevation": {
+          "avg": 777,
+          "min": 700,
+          "max": 1725,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 0.25,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "only experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "habitat structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21478"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "tree condition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22302"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No tower on site",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Spatial database (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

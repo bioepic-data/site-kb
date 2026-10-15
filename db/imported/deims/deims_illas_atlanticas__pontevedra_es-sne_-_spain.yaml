@@ -1,0 +1,83 @@
+sites:
+- id: site_kb:deims-illas_atlanticas__pontevedra_es-sne_-_spain
+  name: Illas Atlanticas / Pontevedra (ES-SNE) - Spain
+  network_registrations:
+  - network: DEIMS
+    network_id: 4240428e-0c36-47b7-bf49-666b99a4a183
+    network_url: https://deims.org/4240428e-0c36-47b7-bf49-666b99a4a183
+    name: Illas Atlanticas / Pontevedra (ES-SNE) - Spain
+  location:
+    latitude: 42.55
+    longitude: -8.88333
+    country: Spain
+    elevation_meters: 25.0
+  description: "The Atlantic Islands of Galicia were declared a national park in 2002\
+    \ in order to protect one of the best examples of Atlantic Ocean-associated ecosystems.\
+    \ Although on land there are highly valuable and exceptional ecosystems relating\
+    \ to cliffs, dunes and scrub, it is the marine setting that hosts the greatest\
+    \ biodiversity.\r\n\r\nSituated off the Rías Baixas (Lower Estuaries), the archipelagos\
+    \ Cíes, Ons, Sálvora and Cortegada, create a natural barrier to the ocean, thereby\
+    \ accentuating the rías’ estuary influence. The terrain features dune systems,\
+    \ cliffs with gorse and heather scrub, while the marine environment hosts a rocky\
+    \ seabed with large communities of brown algae (Sacorhiza polyschides and Laminaria\
+    \ spp.), which are home to a great variety of living things. The marine currents\
+    \ deposit sand in the most sheltered parts, and together with the important Mäerl\
+    \ beds consisting of the remains of calcareous algae, create a shifting substrate\
+    \ to which living things must adapt."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/4240428e-0c36-47b7-bf49-666b99a4a183
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:23.752175+00:00'
+      source_modified_at: '2021-11-23T11:49:30+01:00'
+  - name: atmospheric pressure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric pressure
+      record_url: https://deims.org/api/sites/4240428e-0c36-47b7-bf49-666b99a4a183
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22060
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:23.752175+00:00'
+      source_modified_at: '2021-11-23T11:49:30+01:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/4240428e-0c36-47b7-bf49-666b99a4a183
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:23.752175+00:00'
+      source_modified_at: '2021-11-23T11:49:30+01:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/4240428e-0c36-47b7-bf49-666b99a4a183
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:23.752175+00:00'
+      source_modified_at: '2021-11-23T11:49:30+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/4240428e-0c36-47b7-bf49-666b99a4a183
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:23.752175+00:00'
+      source_modified_at: '2021-11-23T11:49:30+01:00'
+  status: ACTIVE

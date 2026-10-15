@@ -1,0 +1,30 @@
+sites:
+- id: site_kb:deims-it04-mediterranean_forest_-_italy
+  name: IT04-Mediterranean forest - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 5355f2c8-2f10-440d-9faf-72611855a259
+    network_url: https://deims.org/5355f2c8-2f10-440d-9faf-72611855a259
+    name: IT04-Mediterranean forest - Italy
+  location:
+    latitude: 43.519
+    longitude: 10.4273
+    country: Italy
+    elevation_meters: 590.0
+  description: The site is the parent site of three research sites, performing long-term
+    research and monitoring in Mediterranean forests and meadows located within those
+    forests.
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5355f2c8-2f10-440d-9faf-72611855a259
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:21.318108+00:00'
+      source_modified_at: '2023-09-07T16:48:31+02:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

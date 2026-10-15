@@ -1,0 +1,858 @@
+{
+  "source_url": "https://deims.org/api/sites/2aedc444-7007-4d07-877c-0abf528b0ecd",
+  "retrieved_at": "2026-10-15T17:39:07.915764+00:00",
+  "record": {
+    "title": "Bornhoeved Lake District - Germany",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "2aedc444-7007-4d07-877c-0abf528b0ecd"
+    },
+    "type": "site",
+    "created": "2012-12-25T18:54:12+01:00",
+    "changed": "2025-03-26T14:29:43+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ICP Forests",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4e44c094-f4f7-4882-bfe5-685b666a0dc7"
+              }
+            },
+            "siteCode": "4_101",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER-D (Germany)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "e904354a-f3a0-40ce-a9b5-61741f66c824"
+              }
+            },
+            "siteCode": "LTER_EU_DE_006",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "FutMon",
+            "uri": "http://www.futmon.org/"
+          },
+          {
+            "label": "ICP Forests (Level II)",
+            "uri": null
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Henning Meesenburg",
+            "email": "henning.meesenburg@nw-fva.de",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Northwest German Forest Research Institute",
+            "url": "https://www.nw-fva.de/index.php?id=6",
+            "ror": "https://ror.org/03hpxd290"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Northwest German Forest Research Institute",
+            "url": "https://www.nw-fva.de/index.php?id=6",
+            "ror": "https://ror.org/03hpxd290"
+          },
+          {
+            "type": "person",
+            "name": "Henning Meesenburg",
+            "email": "henning.meesenburg@nw-fva.de",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.nw-fva.de/wir/abteilungen/umweltkontrolle/umweltmonitoring"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Ensemble of agricultural and forestry systems in a catchment area of five consecutively connected lakes",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1988,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Bornhoeved Lake District",
+        "shortName": "DE-06-BH",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/IMAGE_DEIMS.jpg",
+            "alt": "Lake Belau and Level II plot 101 (top right)"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/bornhoeved-lake-district-germany_4642.jpg",
+            "alt": "Level II plot 101 Bornhoeved"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/bornhoeved-lake-district-germany_4643.jpg",
+            "alt": "Level II plot 101 Bornhoeved in dormant season"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/bornhoeved-lake-district-germany_4644.jpg",
+            "alt": "canopy in dormant season"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/bornhoeved-lake-district-germany_4645.jpg",
+            "alt": "Meteo and air quality station"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/bornhoeved-lake-district-germany_4647.jpg",
+            "alt": "Meteo tower"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 12.4,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 711,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "continental",
+        "biome": "deciduous_forest",
+        "ecosystemType": [
+          {
+            "label": "Deciduous Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Rivers",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          },
+          {
+            "label": "Small rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Beech woodland (G1.6)",
+            "uri": null
+          },
+          {
+            "label": "Broadleaved deciduous woodland (G1)",
+            "uri": null
+          },
+          {
+            "label": "Closed non-Mediterranean dry acid and neutral grassland (E1.7)",
+            "uri": null
+          },
+          {
+            "label": "Dry grasslands (E1)",
+            "uri": null
+          },
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          },
+          {
+            "label": "Habitat complexes (X)",
+            "uri": null
+          },
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Intensively-farmed crops interspersed with strips of natural and/or semi-natural vegetation (X07)",
+            "uri": null
+          },
+          {
+            "label": "Lines of trees (G5.1)",
+            "uri": null
+          },
+          {
+            "label": "Lines of trees, small anthropogenic woodlands, recently felled woodland, early-stage woodland and coppice (G5)",
+            "uri": null
+          },
+          {
+            "label": "Littoral zone of inland surface waterbodies (C3)",
+            "uri": null
+          },
+          {
+            "label": "Mesic grasslands (E2)",
+            "uri": null
+          },
+          {
+            "label": "Non-riverine alder woodland (G1.B)",
+            "uri": null
+          },
+          {
+            "label": "Permanent mesotrophic pastures and aftermath-grazed meadows (E2.1)",
+            "uri": null
+          },
+          {
+            "label": "Permanent oligotrophic lakes, ponds and pools (C1.1)",
+            "uri": null
+          },
+          {
+            "label": "Surface standing waters (C1)",
+            "uri": null
+          },
+          {
+            "label": "Treeline ecotones (X20)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes",
+          "Terrestrial"
+        ],
+        "geology": "Complicated pattern of glacifluvial, limnetic, organic and anthropogenetic deposits",
+        "hydrology": "Fluvial system (watershed) of connected lakes",
+        "soils": "camibic Arenosols, eutric Arenosols, Luvisols, eutric Luvisols, stagnic Luvisols, Stagnosols, Histosols",
+        "vegetation": "Crops, grassland, deciduous forest, alder carr"
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((10.192 54.144, 10.285 54.144, 10.285 54.054, 10.192 54.054, 10.192 54.144))",
+        "coordinates": "POINT (10.24 54.099)",
+        "country": [
+          "Germany"
+        ],
+        "elevation": {
+          "avg": 40,
+          "min": 30,
+          "max": 60,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 6000,
+          "unit": "ha"
+        },
+        "relatedLocations": [
+          {
+            "title": "Bornhoeved intensive forest monitoring plot",
+            "id": {
+              "prefix": "https://deims.org/locations/",
+              "suffix": "7747c918-5fcd-4b9f-bd43-9be3c1ef71e4"
+            },
+            "changed": "2024-05-07T14:20:31+0200"
+          }
+        ]
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10043"
+          },
+          {
+            "label": "acid neutralising capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10310"
+          },
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air specific humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22034"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "air water vapour concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22036"
+          },
+          {
+            "label": "air water vapour pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22037"
+          },
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "ammonium nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10076"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "available phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22061"
+          },
+          {
+            "label": "base saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22065"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "canopy cover rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22076"
+          },
+          {
+            "label": "canopy gap area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22077"
+          },
+          {
+            "label": "canopy height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22079"
+          },
+          {
+            "label": "canopy transpiration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22081"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "cation exchange capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22084"
+          },
+          {
+            "label": "change in population size over time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22085"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "crop growth rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10058"
+          },
+          {
+            "label": "date of start of physiological maturity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22098"
+          },
+          {
+            "label": "dew point",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22104"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in soil",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22045"
+          },
+          {
+            "label": "dissolved organic nitrogen in soil",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22045"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "emergence date",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22114"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "flowering date",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22096"
+          },
+          {
+            "label": "forest structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21477"
+          },
+          {
+            "label": "global radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "inorganic nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22136"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "interception",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22139"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "leaf area ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22158"
+          },
+          {
+            "label": "leaf nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "ozone concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22178"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22182"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "plant carbon concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22187"
+          },
+          {
+            "label": "plant height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22192"
+          },
+          {
+            "label": "plant nitrogen concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22193"
+          },
+          {
+            "label": "plant nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22194"
+          },
+          {
+            "label": "plant species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22195"
+          },
+          {
+            "label": "plant transpiration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22197"
+          },
+          {
+            "label": "pore size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22200"
+          },
+          {
+            "label": "pore size distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22201"
+          },
+          {
+            "label": "potential evaporation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10017"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "pressure head",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22207"
+          },
+          {
+            "label": "root density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22216"
+          },
+          {
+            "label": "soil acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22243"
+          },
+          {
+            "label": "soil alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22038"
+          },
+          {
+            "label": "soil bulk density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22245"
+          },
+          {
+            "label": "soil dry bulk density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22248"
+          },
+          {
+            "label": "soil evaporation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22249"
+          },
+          {
+            "label": "soil matrix water potential",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22255"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil moisture field capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10396"
+          },
+          {
+            "label": "soil nitrate leaching",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10053"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil pore structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22266"
+          },
+          {
+            "label": "soil porosity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22267"
+          },
+          {
+            "label": "soil profile water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22268"
+          },
+          {
+            "label": "soil solute amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22272"
+          },
+          {
+            "label": "soil solution concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22274"
+          },
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          },
+          {
+            "label": "soil texture",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22279"
+          },
+          {
+            "label": "soil volumetric water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22280"
+          },
+          {
+            "label": "soil water capillary rise",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10394"
+          },
+          {
+            "label": "soil water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22281"
+          },
+          {
+            "label": "soil water content in the root zone",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22282"
+          },
+          {
+            "label": "soil water holding capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30037"
+          },
+          {
+            "label": "soil water potential",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22283"
+          },
+          {
+            "label": "soil water retention",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30034"
+          },
+          {
+            "label": "soil water retention curve",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30035"
+          },
+          {
+            "label": "soil wilting point",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30036"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species list",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22286"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          },
+          {
+            "label": "thickness of soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22295"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "tree age",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22300"
+          },
+          {
+            "label": "tree basal area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22301"
+          },
+          {
+            "label": "tree condition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22302"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree diameter at breast height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22304"
+          },
+          {
+            "label": "tree distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21587"
+          },
+          {
+            "label": "tree height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22305"
+          },
+          {
+            "label": "vapor pressure deficit",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22306"
+          },
+          {
+            "label": "vegetation layer composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22307"
+          },
+          {
+            "label": "vegetation layer structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21480"
+          },
+          {
+            "label": "vegetation layer type",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22308"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind direction (mean and gust)",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22318"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          },
+          {
+            "label": "wind speed (mean and gust)",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22320"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 14,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 14
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "1 place",
+            "uri": null
+          },
+          {
+            "label": "All over site/catchment",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "Lysimeter",
+            "uri": null
+          },
+          {
+            "label": "More than 100 kW",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Temperature Controlled Container",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description",
+              "Formal acknowledgement of the dataset providers",
+              "The opportunity to collaborate on the project using the dataset",
+              "The opportunity to review the results based on the dataset",
+              "Reprints of articles using the dataset must be provided to the data provider"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

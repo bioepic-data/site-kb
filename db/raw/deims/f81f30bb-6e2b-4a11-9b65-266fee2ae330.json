@@ -1,0 +1,773 @@
+{
+  "source_url": "https://deims.org/api/sites/f81f30bb-6e2b-4a11-9b65-266fee2ae330",
+  "retrieved_at": "2026-10-15T17:37:11.793738+00:00",
+  "record": {
+    "title": "Oulanka Research Station (Oulanka LTER) - Finland",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "f81f30bb-6e2b-4a11-9b65-266fee2ae330"
+    },
+    "type": "site",
+    "created": "2012-12-25T18:57:41+01:00",
+    "changed": "2025-04-30T12:48:24+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "ICP Forests (Level II)",
+            "uri": null
+          },
+          {
+            "label": "ICP Integrated Monitoring",
+            "uri": "https://unece.org/integrated-monitoring"
+          },
+          {
+            "label": "LIFEPLAN",
+            "uri": "https://cordis.europa.eu/project/id/856506"
+          },
+          {
+            "label": "Natura 2000",
+            "uri": "https://natura2000.eea.europa.eu/"
+          },
+          {
+            "label": "eLTER (H2020)",
+            "uri": "https://cordis.europa.eu/project/id/654359"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Riku Paavola",
+            "email": "riku.paavola@oulu.fi",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "University of Oulu",
+            "url": null,
+            "ror": "https://ror.org/03yj89h83"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Riku Paavola",
+            "email": "riku.paavola@oulu.fi",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "University of Oulu",
+            "url": null,
+            "ror": "https://ror.org/03yj89h83"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.oulu.fi/oulankaresearchstation/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Oulanka Research Station is part of the Infrastructure Platform and is situated in Kuusamo as a regional unit of the University of Oulu. The station is located in the Oulanka river valley within the Oulanka National Park (66°22'N, 29°19'E). The area lies within the boreal coniferous forest-zone (Taiga), where Norway spruce and Scots pine prevail. In the Oulanka river valley there are, also many alluvial meadows, stream mouths and crags supporting luxurious plant communities. The bedrock is calcium-rich in places. Bogs, fens and marshes as well as numerous springs, ponds and lakes, brooks and rivers characterize the landscapes. All these factors together create a diverse and exceptional rich environment with rich flora and fauna.In terms of temperature Oulanka has a continental climate. The coldest and warmest ever measured temperatures are -48.0°C and 32.1°C. The difference between the mean temperature of coldest (January, -15°C) and the warmest (July, 15°C) month is 30°C. The mean temperature for the whole year is c. -0.5°C (1967-2009).\r\n\r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1966,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Oulanka Research Station (Oulanka LTER)",
+        "shortName": "Oulanka LTER",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category II – National Park",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/II"
+          }
+        ],
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Aseman_ilmakuva.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": -0.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 540.6,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "boreal",
+        "biome": "taiga",
+        "ecosystemType": [
+          {
+            "label": "Boreal forests/taiga",
+            "uri": null
+          },
+          {
+            "label": "Deciduous Forest",
+            "uri": null
+          },
+          {
+            "label": "Evergreen Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Rivers",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Large lakes",
+            "uri": null
+          },
+          {
+            "label": "Large river headwaters",
+            "uri": null
+          },
+          {
+            "label": "Large rivers",
+            "uri": null
+          },
+          {
+            "label": "Mixed Forest",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          },
+          {
+            "label": "Small rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Base-rich fens and calcareous spring mires (D4)",
+            "uri": null
+          },
+          {
+            "label": "Coniferous woodland (G3)",
+            "uri": null
+          },
+          {
+            "label": "Films of water flowing over rocky watercourse margins (C2.6)",
+            "uri": null
+          },
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          },
+          {
+            "label": "Inland cliffs, rock pavements and outcrops (H3)",
+            "uri": null
+          },
+          {
+            "label": "Inland spray- and steam-dependent habitats (C3.8)",
+            "uri": null
+          },
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Inland unvegetated or sparsely vegetated habitats (H)",
+            "uri": null
+          },
+          {
+            "label": "Lines of trees, small anthropogenic woodlands, recently felled woodland, early-stage woodland and coppice (G5)",
+            "uri": null
+          },
+          {
+            "label": "Littoral zone of inland surface waterbodies (C3)",
+            "uri": null
+          },
+          {
+            "label": "Mires, bogs and fens (D)",
+            "uri": null
+          },
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Periodically inundated shores with pioneer and ephemeral vegetation (C3.5)",
+            "uri": null
+          },
+          {
+            "label": "Permanent dystrophic lakes, ponds and pools (C1.4)",
+            "uri": null
+          },
+          {
+            "label": "Permanent eutrophic lakes, ponds and pools (C1.3)",
+            "uri": null
+          },
+          {
+            "label": "Permanent mesotrophic lakes, ponds and pools (C1.2)",
+            "uri": null
+          },
+          {
+            "label": "Permanent non-tidal, fast, turbulent watercourses (C2.2)",
+            "uri": null
+          },
+          {
+            "label": "Permanent non-tidal, smooth-flowing watercourses (C2.3)",
+            "uri": null
+          },
+          {
+            "label": "Permanent oligotrophic lakes, ponds and pools (C1.1)",
+            "uri": null
+          },
+          {
+            "label": "Raised and blanket bogs (D1)",
+            "uri": null
+          },
+          {
+            "label": "Sedge and reedbeds, normally without free-standing water (D5)",
+            "uri": null
+          },
+          {
+            "label": "Species-poor beds of low-growing water-fringing or amphibious vegetation (C3.4)",
+            "uri": null
+          },
+          {
+            "label": "Species-rich helophyte beds (C3.1)",
+            "uri": null
+          },
+          {
+            "label": "Springs, spring brooks and geysers (C2.1)",
+            "uri": null
+          },
+          {
+            "label": "Surface running waters (C2)",
+            "uri": null
+          },
+          {
+            "label": "Surface standing waters (C1)",
+            "uri": null
+          },
+          {
+            "label": "Temporary running waters (C2.5)",
+            "uri": null
+          },
+          {
+            "label": "Unvegetated or sparsely vegetated shores with non-mobile substrates (C3.7)",
+            "uri": null
+          },
+          {
+            "label": "Unvegetated or sparsely vegetated shores with soft or mobile sediments (C3.6)",
+            "uri": null
+          },
+          {
+            "label": "Valley mires, poor fens and transition mires (D2)",
+            "uri": null
+          },
+          {
+            "label": "Water-fringing reedbeds and tall helophytes other than canes (C3.2)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes",
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((29.36395 66.592194, 28.43577 66.631444, 27.902747 66.189606, 28.144531 66.024966, 29.122654 65.888445, 29.935926 66.109645, 29.677657 66.278157, 29.36395 66.592194))",
+        "coordinates": "POINT (29.3167 66.3667)",
+        "country": [
+          "Finland"
+        ],
+        "elevation": {
+          "avg": 230,
+          "min": 190,
+          "max": 390,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 494068.87,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "micro sites"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air methane concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21935"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "ammonium nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10076"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "available phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22061"
+          },
+          {
+            "label": "biological diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21391"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "buffer capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21452"
+          },
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "chemical composition of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21213"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "chlorophyll a content in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21214"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21472"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "daylight length",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22100"
+          },
+          {
+            "label": "dew point",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22104"
+          },
+          {
+            "label": "diffuse radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22106"
+          },
+          {
+            "label": "diffuse reflectance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22106"
+          },
+          {
+            "label": "diffuse solar radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22106"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in soil",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22045"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "dissolved organic nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10125"
+          },
+          {
+            "label": "dissolved organic phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22108"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "greenness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22325"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "incoming radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22134"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "maximum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21529"
+          },
+          {
+            "label": "mean annual air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21530"
+          },
+          {
+            "label": "mean annual precipitation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22166"
+          },
+          {
+            "label": "mean annual temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21531"
+          },
+          {
+            "label": "methane concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22167"
+          },
+          {
+            "label": "minimum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21532"
+          },
+          {
+            "label": "net radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22172"
+          },
+          {
+            "label": "net solar radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22173"
+          },
+          {
+            "label": "nutrient concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22176"
+          },
+          {
+            "label": "oxygen saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21215"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "plant cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22188"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "radiation below canopy intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22208"
+          },
+          {
+            "label": "reflected radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22210"
+          },
+          {
+            "label": "relative humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21579"
+          },
+          {
+            "label": "root biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22215"
+          },
+          {
+            "label": "root density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22216"
+          },
+          {
+            "label": "root growth rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22218"
+          },
+          {
+            "label": "root length",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22219"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21207"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22240"
+          },
+          {
+            "label": "snow temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22241"
+          },
+          {
+            "label": "snow water equivalent",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22242"
+          },
+          {
+            "label": "soil carbon dioxide flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21560"
+          },
+          {
+            "label": "soil carbon storage",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22246"
+          },
+          {
+            "label": "soil nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22259"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil solution pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22276"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water colour",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10390"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water turbidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21217"
+          },
+          {
+            "label": "water velocity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22315"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind direction (mean and gust)",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22318"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          },
+          {
+            "label": "wind speed (mean and gust)",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22320"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": "The station operates around the year and is accessible around the year. We have researchers and field courses visiting at all possible times of the year.",
+          "siteVisitInterval": null
+        },
+        "notes": "We have grid power both at the station building and at at five field sites. Same with fiber optic data connection (500 megs both up and down).",
+        "collection": [
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Camera traps",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Daily",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "In canopy",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Snow clearing equipment",
+            "uri": null
+          },
+          {
+            "label": "Snow mobile",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description",
+              "The opportunity to collaborate on the project using the dataset",
+              "The data provider is given and agrees to a statement of uses to which the dataset will be put"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+sites:
+- id: site_kb:deims-zaisho-daira_kaname_river_yamagata_-_japan
+  name: Zaisho-daira, Kaname river, Yamagata - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 6e8d9229-c577-40b7-826c-7871a3ea28a9
+    network_url: https://deims.org/6e8d9229-c577-40b7-826c-7871a3ea28a9
+    name: Zaisho-daira, Kaname river, Yamagata - Japan
+  location:
+    latitude: 38.1333
+    longitude: 139.833
+    country: Japan
+    elevation_meters: 590.0
+  description: Dominant beech (Fagus crenata) forest, One of tallest beech forest
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/6e8d9229-c577-40b7-826c-7871a3ea28a9
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:11.872877+00:00'
+      source_modified_at: '2020-12-18T10:30:22+01:00'
+  status: ACTIVE

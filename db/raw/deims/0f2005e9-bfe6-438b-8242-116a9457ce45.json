@@ -1,0 +1,264 @@
+{
+  "source_url": "https://deims.org/api/sites/0f2005e9-bfe6-438b-8242-116a9457ce45",
+  "retrieved_at": "2026-10-15T17:47:57.598151+00:00",
+  "record": {
+    "title": "Central Plains Experimental Range NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "0f2005e9-bfe6-438b-8242-116a9457ce45"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-17T11:43:07+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "CPER",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Chau Tran",
+            "email": "ctran@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/cper"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Central Plains Experimental Range (CPER) is a terrestrial NEON field site located in Weld County on the Western boundary of the Pawnee National Grasslands in Colorado. This 65.4 km2 (16,160 acre) site is 120 km (75.5 mi.) north of Denver with an elevation around 1600 m (5249 ft.). The land is managed by the U.S. Department of Agriculture's Agricultural Research Service. CPER is part of NEON's Central Plains Domain (D10). D10 has two other terrestrial field sites and one aquatic field site. CPER is not colocated with an aquatic site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2014,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Central Plains Experimental Range NEON",
+        "shortName": "CPER",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/8643596400_0fd7d18eea_b.jpg",
+            "alt": "First day of field deployment at CPER"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/48787914193_891b4ba64a_c.jpg",
+            "alt": "CPER soil plots"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 8.6,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 344,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "grasslands",
+        "ecosystemType": [
+          {
+            "label": "Grasslands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "The major geologic formation at the Central Plains Experimental Range is the Laramie formation, containing shales and claystone with minor sandstone lenses. ",
+        "hydrology": null,
+        "soils": "The soil subgroup found at CPER is aridic argiustolls. The major soil series on the site include Vona, Ascalon, Renohill, Terry, Haverson, Nunn, Cascajo, Avar, Olney, Tassel, Playas, Shingle, Manter, and Bankard.",
+        "vegetation": "The dominant vegetation at CPER is moderately grazed shortgrass steppe. Dominant plant species include blue grama (Bouteloua gracilis), buffalograss (Bouteloua dactyloides), and plains prickly-pear cactus (Opuntia polyacantha)."
+      },
+      "geographic": {
+        "boundaries": "MULTIPOLYGON (((-104.677169695 40.869863606, -104.676693159 40.797303478, -104.681833057 40.797065526, -104.682064362 40.783211018, -104.714880757 40.783296765, -104.714983264 40.797782768, -104.748634703 40.797608743, -104.753111765 40.79724005, -104.753136491 40.790564768, -104.772033022 40.790351406, -104.771983032 40.804963169, -104.791048809 40.804873151, -104.790980015 40.826795257, -104.772571357 40.826882052, -104.772688393 40.841120199, -104.772664723 40.848047668, -104.746618746 40.848245637, -104.746755202 40.855930151, -104.74874621 40.855934505, -104.748720509 40.862735827, -104.747066907 40.861223298, -104.73412622 40.860815843, -104.734089452 40.870008867, -104.693764819 40.869908858, -104.677169695 40.869863606), (-104.753244566 40.841318406, -104.753187699 40.826746034, -104.734077914 40.826703571, -104.734352421 40.84127645, -104.753244566 40.841318406)))",
+        "coordinates": "POINT (-104.7456 40.81553)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 1654,
+          "min": 1601,
+          "max": 1686,
+          "unit": "msl"
+        },
+        "size": {
+          "value": null,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "latent heat",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22154"
+          },
+          {
+            "label": "leaf area index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22157"
+          },
+          {
+            "label": "ozone concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22178"
+          },
+          {
+            "label": "plant diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22191"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil carbon dioxyde flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21939"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

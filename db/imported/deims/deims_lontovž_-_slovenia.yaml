@@ -1,0 +1,50 @@
+sites:
+- id: site_kb:deims-lontovž_-_slovenia
+  name: Lontovž - Slovenia
+  network_registrations:
+  - network: DEIMS
+    network_id: e87be18b-9360-459f-81cb-ec4a53cab57a
+    network_url: https://deims.org/e87be18b-9360-459f-81cb-ec4a53cab57a
+    name: Lontovž - Slovenia
+  location:
+    latitude: 46.096138
+    longitude: 15.062737
+    country: Slovenia
+    elevation_meters: 927.0
+  description: http://meteo.gozdis.si/?page_id=46 (only in SLO language)
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/e87be18b-9360-459f-81cb-ec4a53cab57a
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:39.135907+00:00'
+      source_modified_at: '2023-09-25T08:13:32+02:00'
+  - name: ozone concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ozone concentration
+      record_url: https://deims.org/api/sites/e87be18b-9360-459f-81cb-ec4a53cab57a
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22178
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:39.135907+00:00'
+      source_modified_at: '2023-09-25T08:13:32+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/e87be18b-9360-459f-81cb-ec4a53cab57a
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:39.135907+00:00'
+      source_modified_at: '2023-09-25T08:13:32+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

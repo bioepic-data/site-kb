@@ -1,0 +1,275 @@
+{
+  "source_url": "https://deims.org/api/sites/cdd8c816-1fe7-41cb-af72-215e8e5ec185",
+  "retrieved_at": "2026-10-15T17:45:50.698681+00:00",
+  "record": {
+    "title": "PermaFrance Réseau éboulis froids - France",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "cdd8c816-1fe7-41cb-af72-215e8e5ec185"
+    },
+    "type": "site",
+    "created": "2016-11-27T18:01:46+01:00",
+    "changed": "2024-03-04T12:05:40+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": null,
+        "projects": [
+          {
+            "label": "PermaFrance",
+            "uri": "https://permafrance.osug.fr/?lang=en"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Stéphanie Huc",
+            "email": "stephanie.huc@cbn-alpin.fr",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "PermaFRANCE",
+            "url": "http://permafrance.osug.fr",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Philippe Schoeneich",
+            "email": "schoenei@univ-grenoble-alpes.fr",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Zone Atelier Alpes - ZAA",
+            "url": "http://www.za-alpes.org/",
+            "ror": null
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "PermaFRANCE Observatory",
+            "value": "http://permafrance.osug.fr"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Network of cold scree slope observation. Cold scree slopes are debris slopes which lower part is overcooled by seasonally alternating air circulations. \"Abyssal\" ecosystems develop on the cooled part, with dwarf trees, arctic-alpine plant, moss and lichen associations, on moor type humus. These sites show a unique combination of geomorphologically induced microclimate, vegetation, soil and soil microfauna. The network of monitoring sites is distributed over the French Alps and Jura mountains.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2012,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "LTSER Zone Atelier Alpes - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "79d6c1df-570f-455f-a929-6cfe5c4ca1e9"
+                },
+                "changed": "2025-01-10T09:06:34+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "PermaFrance Réseau éboulis froids",
+        "shortName": "Eboulis froids",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 2,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1000,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Alpine",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Temperate broadleaf and mixed forests",
+            "uri": null
+          },
+          {
+            "label": "Temperate coniferous forests",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Cold limestone screes (H2.2)",
+            "uri": null
+          },
+          {
+            "label": "Cold siliceous screes (H2.1)",
+            "uri": null
+          },
+          {
+            "label": "Coniferous woodland (G3)",
+            "uri": null
+          },
+          {
+            "label": "Inland unvegetated or sparsely vegetated habitats (H)",
+            "uri": null
+          },
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Screes (H2)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "Scrre slopes on various rock types, mainly on limestones.",
+        "hydrology": null,
+        "soils": "Histosols and similar types of sols, with moor type humus",
+        "vegetation": "Vegetation with caracteristics of cold climate, at ecological limits of trees, but at low altitude. Dwarf trees, abundant bryophite and moss cover."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (6 45)",
+        "country": [
+          "France"
+        ],
+        "elevation": {
+          "avg": 1500,
+          "min": 1200,
+          "max": 1800,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 10000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil moisture field capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10396"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          },
+          {
+            "label": "tree condition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22302"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "footpath/trail",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 365,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 365
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

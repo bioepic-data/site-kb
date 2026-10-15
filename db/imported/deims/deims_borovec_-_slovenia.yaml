@@ -1,0 +1,39 @@
+sites:
+- id: site_kb:deims-borovec_-_slovenia
+  name: Borovec - Slovenia
+  network_registrations:
+  - network: DEIMS
+    network_id: d5544ca4-8400-4553-b7f8-9728c358f03a
+    network_url: https://deims.org/d5544ca4-8400-4553-b7f8-9728c358f03a
+    name: Borovec - Slovenia
+  location:
+    latitude: 45.544073
+    longitude: 14.787981
+    country: Slovenia
+    elevation_meters: 705.0
+  description: http://meteo.gozdis.si/?page_id=50 (only in SLO language)
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/d5544ca4-8400-4553-b7f8-9728c358f03a
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:38.458497+00:00'
+      source_modified_at: '2023-09-25T08:13:46+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/d5544ca4-8400-4553-b7f8-9728c358f03a
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:38.458497+00:00'
+      source_modified_at: '2023-09-25T08:13:46+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

@@ -1,0 +1,73 @@
+sites:
+- id: site_kb:deims-centro_científico_huinay_-_chile
+  name: Centro Científico Huinay - Chile
+  network_registrations:
+  - network: DEIMS
+    network_id: bd485f64-c61b-496a-afee-3712d346b1af
+    network_url: https://deims.org/bd485f64-c61b-496a-afee-3712d346b1af
+    name: Centro Científico Huinay - Chile
+  location:
+    latitude: -42.22
+    longitude: -72.25
+    country: Chile
+    elevation_meters: 750.0
+  description: A steep and deep (500 m) fjord with temperate rain forest and glaciers
+    on top of the mountains, many small and one large river entering the fjord (without
+    glacial sediment), few inhabitants, no road access.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/bd485f64-c61b-496a-afee-3712d346b1af
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:53.402782+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/bd485f64-c61b-496a-afee-3712d346b1af
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:53.402782+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/bd485f64-c61b-496a-afee-3712d346b1af
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:53.402782+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/bd485f64-c61b-496a-afee-3712d346b1af
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:53.402782+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/bd485f64-c61b-496a-afee-3712d346b1af
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:53.402782+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  status: ACTIVE

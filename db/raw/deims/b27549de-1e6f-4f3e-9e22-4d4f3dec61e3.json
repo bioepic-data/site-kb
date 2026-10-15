@@ -1,0 +1,162 @@
+{
+  "source_url": "https://deims.org/api/sites/b27549de-1e6f-4f3e-9e22-4d4f3dec61e3",
+  "retrieved_at": "2026-10-15T17:49:38.506271+00:00",
+  "record": {
+    "title": "Hyltemossa - Sweden",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "b27549de-1e6f-4f3e-9e22-4d4f3dec61e3"
+    },
+    "type": "site",
+    "created": "2024-08-28T15:19:21+02:00",
+    "changed": "2024-09-12T16:48:55+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ICOS",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "80633d38-4c85-4ee0-a4ce-7bbbd99c888c"
+              }
+            },
+            "siteCode": "https://meta.icos-cp.eu/resources/stations/ES_SE-Htm",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "AGAME",
+            "uri": "https://www.umweltbundesamt.at/en/services/agame"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The station Hyltemossa, with ICOS code SE-Htm, is located in southern Sweden. The site is a evergreen needleleaf managed forest located in a temperate, maritime climate. The forest in the target area composed of two stands, 29 and 34 years old, and dominated by Picea abies (L.) H.Karst (Norway spruce) with a small fraction of Betula spp. (birch) and single occurrence of Pinus sylvestris L. (Scots pine). Understory vegetation is sparse. The forest floor is mainly covered by moss.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": null,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Hyltemossa",
+        "shortName": null,
+        "siteType": null,
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": null,
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((13.420733 56.099282, 13.41981 56.099696, 13.418987 56.099756, 13.418526 56.099702, 13.417799 56.099865, 13.417719 56.100256, 13.417101 56.100204, 13.416049 56.100257, 13.415427 56.10026, 13.414288 56.099768, 13.413392 56.099921, 13.412177 56.099938, 13.411848 56.098515, 13.4116 56.097034, 13.411507 56.096706, 13.411346 56.095991, 13.411258 56.093715, 13.41288 56.093374, 13.414859 56.092549, 13.416474 56.091744, 13.417568 56.091923, 13.419074 56.091909, 13.419924 56.092293, 13.41921 56.093226, 13.420012 56.094191, 13.422547 56.095379, 13.422991 56.096147, 13.423568 56.096527, 13.423631 56.097639, 13.423639 56.097663, 13.423647 56.097687, 13.423654 56.097706, 13.423669 56.09773, 13.423677 56.097749, 13.423684 56.097763, 13.423685 56.097782, 13.423693 56.097807, 13.423999 56.098511, 13.423018 56.09902, 13.422334 56.099218, 13.420733 56.099282))",
+        "coordinates": "POINT (13.41897 56.09763)",
+        "country": [
+          "Sweden"
+        ],
+        "elevation": {
+          "avg": 115,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 53.29,
+          "unit": "ha"
+        },
+        "relatedLocations": [
+          {
+            "title": "Hyltemossa - ICOS Station",
+            "id": {
+              "prefix": "https://deims.org/locations/",
+              "suffix": "5680ef6a-bb4f-4cf5-a732-2f40efb17adf"
+            },
+            "changed": "2024-09-12T14:57:12+0200"
+          }
+        ]
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": null,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": null,
+        "operation": {
+          "permanent": null,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

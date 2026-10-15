@@ -1,0 +1,50 @@
+sites:
+- id: site_kb:deims-centro_de_investigación_y_educación_parque_katalapi_-_chile
+  name: Centro de Investigación y Educación Parque Katalapi - Chile
+  network_registrations:
+  - network: DEIMS
+    network_id: b6e75585-21a5-4316-b43b-416b43d493fb
+    network_url: https://deims.org/b6e75585-21a5-4316-b43b-416b43d493fb
+    name: Centro de Investigación y Educación Parque Katalapi - Chile
+  location:
+    latitude: -41.534
+    longitude: -72.75
+    country: Chile
+    elevation_meters: 65.0
+  description: The site is located in Los Lagos Region, Mostly valdivian type forest
+    with North Patagonic influence.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/b6e75585-21a5-4316-b43b-416b43d493fb
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:52.765462+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/b6e75585-21a5-4316-b43b-416b43d493fb
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:52.765462+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  - name: physical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: physical parameter
+      record_url: https://deims.org/api/sites/b6e75585-21a5-4316-b43b-416b43d493fb
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20938
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:52.765462+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  status: ACTIVE

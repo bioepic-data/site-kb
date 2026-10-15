@@ -1,0 +1,62 @@
+sites:
+- id: site_kb:deims-murgia_alta_-_italy
+  name: Murgia Alta - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: bbd428c6-c4b8-4f47-9298-2b969d38a664
+    network_url: https://deims.org/bbd428c6-c4b8-4f47-9298-2b969d38a664
+    name: Murgia Alta - Italy
+  location:
+    latitude: 41.0044279
+    longitude: 16.3149389
+    country: Italy
+    elevation_meters: 500.0
+  description: "The Site of Community Importance Murgia Alta IT9120007 is located\
+    \ in Puglia, Italy, and it has an area of 1258,89 km2. The most important habitat\
+    \ types in this site, according to 42/93/EEC directive are 6210(*)Semi-natural\
+    \ dry grasslands and scrubland facies on calcareous substrates (Festuco-Brometalia)\
+    \ (*important orchid sites) and 6220* Pseudo-steppe with grasses and annuals of\
+    \ the Thero-Brachypodietea.\r\n\r\nThe regional Authority, in charge for compliance\
+    \ to the Habitat directive is most concerned of the degradation of the habitat\
+    \ (loss, fragmentation, quality depletion) particularly in connection to the conservation\
+    \ of Falco biarmicus feldeggi and Falco naumanii, (globally threatened and priority\
+    \ species according to the Bird Directive). These species are present in the reproductive\
+    \ phonological phase. About ten years were elapsed in the boundaries definition\
+    \ of the SCI Murgia Alta IT9120007, located in a hill area of Regione Puglia and\
+    \ to formalize its inclusion in Natura 2000 network. In such a time span the area,\
+    \ which is characterized by the presence of unique highly diverse ecosystems and\
+    \ also of endemic and threatened species, was exposed to a tremendously accelerated\
+    \ process of habitat fragmentation and contamination both within and at its borders\
+    \ by a number of combined pressures. Among these:\r\n•the Common Agricultural\
+    \ Policy (CAP) drove transformation of grassland pastures  into agricultural (cereal\
+    \ crops) areas by stone (rock) graining (clearance), which also induced soil erosion\
+    \ and sediment deposition in aquifer, contamination;\r\n•the illegal waste and\
+    \ toxic mud dumping on transformed areas causing heavy metal contamination of\
+    \ soils and aquifer system;\r\n•the increasing of traditional legal and illegal\
+    \ mining activities; wind farms infrastructures.\r\n•below-average precipitation\
+    \ for many years."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/bbd428c6-c4b8-4f47-9298-2b969d38a664
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:07.088340+00:00'
+      source_modified_at: '2020-11-27T13:24:17+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/bbd428c6-c4b8-4f47-9298-2b969d38a664
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:07.088340+00:00'
+      source_modified_at: '2020-11-27T13:24:17+01:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

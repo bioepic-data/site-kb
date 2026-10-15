@@ -1,0 +1,85 @@
+sites:
+- id: site_kb:deims-kilpisjärvi_biological_station_kilpisjärvi_lter_-_finland
+  name: Kilpisjärvi Biological Station (Kilpisjärvi LTER) - Finland
+  network_registrations:
+  - network: DEIMS
+    network_id: 2cd5de60-f0f4-4499-afc7-210692906856
+    network_url: https://deims.org/2cd5de60-f0f4-4499-afc7-210692906856
+    name: Kilpisjärvi Biological Station (Kilpisjärvi LTER) - Finland
+  location:
+    latitude: 69.0333
+    longitude: 20.8167
+    country: Finland
+    elevation_meters: 500.0
+  description: "Kilpisjärvi Biological Station is situated in the mountain birch forest\
+    \ zone near the 70th degree of northern latitude\r\n(69°03'N; 20°50'E) in the\
+    \ northwesterenmost part of Finland. The station belongs to University of Helsinki,\
+    \ the Faculty of Biological and Environmental sciences. The station is famous\
+    \ for its long-term ecological research projects (longest continuous ecological\
+    \ projects started already in 1946), and long-term follow-up studies form the\
+    \ core of the research activities. For instance, the projects were praised in\
+    \ the international \"Research Assessment Exercise 2005\" of the University of\
+    \ Helsinki. Data of these projects are constantly used as background information\
+    \ in many short-term projects, too (see Figure below). Because the station is\
+    \ situated in the Sámi indigenous people reindeer herding area, there are good\
+    \ opportunities for socioeconomic studies. Land use conflicts between different\
+    \ stakeholders (reindeer herding, tourism, scientific research, etc.) have already\
+    \ been studied."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/2cd5de60-f0f4-4499-afc7-210692906856
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:09.088699+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/2cd5de60-f0f4-4499-afc7-210692906856
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:09.088699+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/2cd5de60-f0f4-4499-afc7-210692906856
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:09.088699+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/2cd5de60-f0f4-4499-afc7-210692906856
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:09.088699+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/2cd5de60-f0f4-4499-afc7-210692906856
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:09.088699+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

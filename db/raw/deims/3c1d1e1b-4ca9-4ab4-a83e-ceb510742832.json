@@ -1,0 +1,228 @@
+{
+  "source_url": "https://deims.org/api/sites/3c1d1e1b-4ca9-4ab4-a83e-ceb510742832",
+  "retrieved_at": "2026-10-15T17:43:39.637753+00:00",
+  "record": {
+    "title": "Goegap Nature Reserve - South Africa",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "3c1d1e1b-4ca9-4ab4-a83e-ceb510742832"
+    },
+    "type": "site",
+    "created": "2016-04-26T11:40:52+02:00",
+    "changed": "2025-01-21T14:39:43+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "SAEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bce17afa-e548-4410-99d2-4eade740c9a9"
+              }
+            },
+            "siteCode": "LTER-SAF-ZA-16",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Goegap Nature Reserve",
+            "url": null,
+            "ror": null
+          },
+          {
+            "type": "organisation",
+            "name": "Northern Cape Department of Environment and Nature Conservation",
+            "url": null,
+            "ror": null
+          },
+          {
+            "type": "organisation",
+            "name": "South African Environmental Observation Network (SAEON)",
+            "url": "http://www.saeon.ac.za/",
+            "ror": "https://ror.org/041j42q70"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Helga van der Merwe",
+            "email": "helga@saeon.ac.za",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Goegap Nature Reserve is a protected area situated in the Succulent Karoo Biome of the Northern Cape province",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1966,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Goegap Nature Reserve",
+        "shortName": "GoegapNR",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/GoegapNR_MMK_August2015.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 16.6,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 150,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "desert_scrub",
+        "ecosystemType": [
+          {
+            "label": "Desert",
+            "uri": null
+          },
+          {
+            "label": "Deserts and xeric shrublands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland unvegetated or sparsely vegetated habitats (H)",
+            "uri": null
+          },
+          {
+            "label": "Miscellaneous inland habitats with very sparse or no vegetation (H5)",
+            "uri": null
+          },
+          {
+            "label": "Trampled areas (H5.6)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "Gneiss hills belonging to the Namaqua-Natal Metamorphic Province and sandy plains covered with early Tertiary to more recent deposits of sand",
+        "hydrology": null,
+        "soils": null,
+        "vegetation": "Namaqualand Klipkoppe Shrublands & Namaqualand Blomveld"
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (17.965833 -29.688333)",
+        "country": [
+          "South Africa"
+        ],
+        "elevation": {
+          "avg": 1000,
+          "min": 803,
+          "max": 1282,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 15000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": "Public campsite and cottages for hire at Nature Reserve gate.  Hester Malan Veldblom Reserve is within the reserve.",
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of beds",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://saeon.dirisa.org/management/it-governance/G373.2%20Policy%20and%20Guidelines/G373.2.2%20Policies/data-policy-_stand-alone_.pdf"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

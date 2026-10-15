@@ -1,0 +1,287 @@
+{
+  "source_url": "https://deims.org/api/sites/263e8218-04fd-415c-8c68-46ed2a181b38",
+  "retrieved_at": "2026-10-15T17:35:50.750193+00:00",
+  "record": {
+    "title": "Virginia Coast Reserve LTER - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "263e8218-04fd-415c-8c68-46ed2a181b38"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:35:14+01:00",
+    "changed": "2020-06-29T10:46:05+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "LTER-NAM-US-4",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "John Porter",
+            "email": "jhp7e@virginia.edu",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://vcr.lternet.edu"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Research activities of the VCR/LTER focus on the mosaic of transitions and steady-state systems that comprise the barrier-island/lagoon/mainland landscape of the Eastern Shore of Virginia. Primary study sites are located on Hog Island, Parramore Island and mainland marshes near Nassawadox VA. The VCR/LTER uses field laboratory and housing facilities at the Anheuser-Busch Coastal Research Center in Oyster, VA.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1987,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Virginia Coast Reserve LTER",
+        "shortName": "VCR",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/northampton14684218558670.gif",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 14.2,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1065,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "coastal",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Mixed Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Coastal dune scrub (B1.6)",
+            "uri": null
+          },
+          {
+            "label": "Coastal dune woods (B1.7)",
+            "uri": null
+          },
+          {
+            "label": "Coastal dunes and sandy shores (B1)",
+            "uri": null
+          },
+          {
+            "label": "Coastal habitats (B)",
+            "uri": null
+          },
+          {
+            "label": "Coastal saltmarshes and saline reedbeds (A2.5)",
+            "uri": null
+          },
+          {
+            "label": "Coastal stable dune grassland (grey dunes) (B1.4)",
+            "uri": null
+          },
+          {
+            "label": "Littoral mixed sediments (A2.4)",
+            "uri": null
+          },
+          {
+            "label": "Littoral sediment (A2)",
+            "uri": null
+          },
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          },
+          {
+            "label": "Moist and wet dune slacks (B1.8)",
+            "uri": null
+          },
+          {
+            "label": "Shifting coastal dunes (B1.3)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Coastal",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-75.1667 37.5)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 1,
+          "min": -2,
+          "max": 10,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 27500000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10043"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "disturbance pattern",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21473"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape metrics",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10042"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://www.vcrlter.virginia.edu/data/docs/IMPolicy_VCRLTER06.pdf"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "Reprints of articles using the dataset must be provided to the data provider"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "ltser"
+        }
+      }
+    }
+  }
+}

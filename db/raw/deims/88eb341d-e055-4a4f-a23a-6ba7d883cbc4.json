@@ -1,0 +1,199 @@
+{
+  "source_url": "https://deims.org/api/sites/88eb341d-e055-4a4f-a23a-6ba7d883cbc4",
+  "retrieved_at": "2026-10-15T17:41:47.857938+00:00",
+  "record": {
+    "title": "Endalen - Norway",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "88eb341d-e055-4a4f-a23a-6ba7d883cbc4"
+    },
+    "type": "site",
+    "created": "2014-11-28T00:00:00+01:00",
+    "changed": "2023-07-24T14:04:58+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Norway",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bc7c517b-3648-40cc-a04c-8c98d009c4a9"
+              }
+            },
+            "siteCode": "LTER_EU_NO_016",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Jørgen  Søraker",
+            "email": "jorgen.s.soraker@ntnu.no",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Per Gustav Thingstad",
+            "email": "per.thingstad@ntnu.no",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "In this project we monitor temporal trends in bird communities in a high-altitude birch-dominated habitat in Central Norway. The project aims to monitor both community composition and changes in territory size among and within species in the study period. The study started in 1967 and is still on-going.\r\n\r\nMethods: Standardized transects are monitored 10 timed in early parts of the breeding season, following a GPS-track of 3km. Bird species and numbers are noted and placed relative in the habitat. This is done to potentially estimate territory size, which is performed by standardized formulas annually. Both seen and heard individuals are noted. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1967,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "South Norwegian Mountain Range site cluster - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "788d705f-1421-4b53-b8ed-db2aafce9ca5"
+                },
+                "changed": "2023-07-24T14:02:39+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "Endalen",
+        "shortName": null,
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category II – National Park",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/II"
+          }
+        ],
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2023-01/Endalen.jpg",
+            "alt": "Example of the transect used in the monitoring. Geo-referenced points indicate stop-points in the transect, while birds observed while transporting between the plots are noted in a separate scheme. "
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2023-01/PHR.jpg",
+            "alt": "Bluethroat, one of the birds often observed in the area. Photo: Per Henrik Rishøi"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "alpine",
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (10.5 62.75)",
+        "country": [
+          "Norway"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 24,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

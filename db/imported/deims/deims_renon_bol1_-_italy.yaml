@@ -1,0 +1,81 @@
+sites:
+- id: site_kb:deims-renon_bol1_-_italy
+  name: Renon BOL1 - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 5d32cbf8-ab7c-4acb-b29f-600fec830a1d
+    network_url: https://deims.org/5d32cbf8-ab7c-4acb-b29f-600fec830a1d
+    name: Renon BOL1 - Italy
+  location:
+    latitude: 46.5868
+    longitude: 11.4336
+    country: Italy
+    elevation_meters: 1740.0
+  description: "Picea abies dominated forest,  since 1995 included in the ICP Forest\
+    \ European network and in ICP IM network code 01. This site is located in the\
+    \ Central Alps and it's grouped with LOM1;TRE1;FRI2 and Valbona in a cluster of\
+    \ sites called Forest of the Alps.\r\n\r\nThe Renon-Selva Verde site is located\
+    \ in the municipality of Renon, at a distance of 12.2 km North-Northeast from\
+    \ the town of Bolzano. Eddy covariance measurements started in the year 1997.\
+    \ The site is placed on a porphyric plateau; the soil is classified as Haplic\
+    \ Podsol following F.A.O. The site vegetation, a subalpine coniferous forest,\
+    \ is of natural origin and is used for wood production. As a result of the traditional\
+    \ harvesting method, which consists of irregular cuttings of 50-80 cubic meters,\
+    \ overall the forest is unevenly aged, but with homogenous groups. The largest\
+    \ group present in the area is growing approximately since the year 1820, after\
+    \ Napoleon wars. The main forest species is spruce (Picea abies (L.) Karst., 85%\
+    \ in number) followed by cembran pine (Pinus cembra L., 12%) and larch (Larix\
+    \ decidua Mill., 3%). In the clearings, covering approximately 15% of the area,\
+    \ the dominant grass species is Deschampsia flexuosa (L.) Trin. The canopy is\
+    \ irregular, with maximal height of 29 m. The mean leaf area index (LAI), measured\
+    \ by hemispherical photographs, is 5.1 m2 m-2. The climate is strongly influenced\
+    \ by elevation, with cool summer and moderately cold winter. Annual average temperature\
+    \ 4,6°C, average annual precipitation ammount 903 mm. An increase of the annual\
+    \ average temperature by 0,8°C were observed during the period 1990-2014."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/5d32cbf8-ab7c-4acb-b29f-600fec830a1d
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:16.802684+00:00'
+      source_modified_at: '2024-09-12T17:28:53+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/5d32cbf8-ab7c-4acb-b29f-600fec830a1d
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:16.802684+00:00'
+      source_modified_at: '2024-09-12T17:28:53+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5d32cbf8-ab7c-4acb-b29f-600fec830a1d
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:16.802684+00:00'
+      source_modified_at: '2024-09-12T17:28:53+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/5d32cbf8-ab7c-4acb-b29f-600fec830a1d
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:16.802684+00:00'
+      source_modified_at: '2024-09-12T17:28:53+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

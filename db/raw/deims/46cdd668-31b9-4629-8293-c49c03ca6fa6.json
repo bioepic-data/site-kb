@@ -1,0 +1,290 @@
+{
+  "source_url": "https://deims.org/api/sites/46cdd668-31b9-4629-8293-c49c03ca6fa6",
+  "retrieved_at": "2026-10-15T17:43:33.761313+00:00",
+  "record": {
+    "title": "Westhoek Coastal Dunes - Belgium",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "46cdd668-31b9-4629-8293-c49c03ca6fa6"
+    },
+    "type": "site",
+    "created": "2016-04-14T10:28:28+02:00",
+    "changed": "2022-10-24T09:55:45+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Belgium",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "735946e0-4e9e-484a-acee-85e31f4e2a2e"
+              }
+            },
+            "siteCode": "LTER_EU_BE_09",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Sam Provoost",
+            "email": "sam.provoost@inbo.be",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Agency For Nature and Forest (ANB)",
+            "url": "https://www.natuurenbos.be/",
+            "ror": "https://ror.org/04wcznf70"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Sam Provoost",
+            "email": "sam.provoost@inbo.be",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Coastal dune site with complete gradient from beach to coastal woodland, partly grazed - >20 year follow up of vegetation succession",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1953,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Westhoek Coastal Dunes",
+        "shortName": "Westhoek",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category IV – Habitat/Species Management Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/IV"
+          }
+        ],
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/LTER_EU_BE_09_Westhoek.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 11,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 682,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "coastal",
+        "ecosystemType": [
+          {
+            "label": "Coastal",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Coastal dunes and sandy shores (B1)",
+            "uri": null
+          },
+          {
+            "label": "Coastal habitats (B)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Coastal"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((2.5616689257263 51.094688369467, 2.5616884313674 51.094658615452, 2.5617092296031 51.094669254381, 2.5633791397785 51.092619818013, 2.5652504195221 51.093190753757, 2.565292046314 51.09331220773, 2.5655773207829 51.093291573151, 2.5656802214634 51.093368136532, 2.568714925186 51.093418660721, 2.5690213588059 51.093535822467, 2.5693699414282 51.093245347567, 2.5694415508479 51.093275602914, 2.5695031403224 51.093222383118, 2.5695378015931 51.093181250806, 2.5695463356751 51.093131387665, 2.5695479375073 51.093089750986, 2.5695761469599 51.093044354122, 2.5695966232546 51.093028002058, 2.569630483422 51.093007688056, 2.5696701545532 51.093008293251, 2.5697098256853 51.093008898433, 2.5697427247975 51.093013566409, 2.5697886874685 51.093022599761, 2.5697948188438 51.093035191623, 2.5699265755886 51.093049699709, 2.570440604609 51.092757579067, 2.5704739839156 51.09274975583, 2.5722421142083 51.0928766903, 2.5742936057146 51.093032906671, 2.5744193555375 51.093376440599, 2.5746922011669 51.093334764401, 2.5749002048994 51.093258772475, 2.5750020982977 51.093189498528, 2.575071251363 51.093111394336, 2.5751355488655 51.092987389111, 2.5753341873095 51.092465480839, 2.5758715970364 51.091044678103, 2.5759864798535 51.09080895658, 2.5760623988961 51.090726788571, 2.5762609955762 51.090550664834, 2.5769496559499 51.090015370612, 2.5772176226547 51.089927787556, 2.5774843126334 51.089873513356, 2.577861482987 51.089870909703, 2.5790581521521 51.08988907702, 2.5803474184876 51.089915089647, 2.580789408431 51.089914654872, 2.5810385822918 51.08991843253, 2.5811725869946 51.089970422649, 2.5813532593999 51.089987435158, 2.5815029518664 51.089925471305, 2.5816297192389 51.089870296807, 2.5825050963164 51.089797916105, 2.5825023304776 51.089276876194, 2.5825360602205 51.088987150733, 2.5780650327987 51.088947889877, 2.5827984386617 51.084490078543, 2.5828573510904 51.081759888658, 2.582001440851 51.081623213487, 2.5819504189299 51.081617581922, 2.5812616823517 51.081419171147, 2.5804620474381 51.080814779597, 2.5795477999998 51.080134609647, 2.5779818782324 51.079592602194, 2.5757614550829 51.079262721618, 2.5744708082919 51.079206069699, 2.571773485168 51.079053938116, 2.5688441075523 51.078824168453, 2.5673801418034 51.078690758794, 2.5658674352519 51.078297467667, 2.564184277202 51.077753480325, 2.5616904060601 51.076900909153, 2.5597137152017 51.07635235644, 2.5579003600486 51.076139431455, 2.5563161915122 51.076078069983, 2.5554424725253 51.075879549153, 2.5456713046811 51.088844083862, 2.5456665055517 51.088846646504, 2.5428557794401 51.092723777295, 2.559320363645 51.097583286863, 2.5616689257263 51.094688369467))",
+        "coordinates": "POINT (2.557 51.086)",
+        "country": [
+          "Belgium"
+        ],
+        "elevation": {
+          "avg": 11,
+          "min": 0,
+          "max": 23,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 340,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "change in population size over time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22085"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "plant cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22188"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species list",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22286"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+sites:
+- id: site_kb:deims-it12-northern_adriatic_sea_-_italy
+  name: IT12-Northern Adriatic Sea - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 92fd6fad-99cd-4972-93bd-c491f0be1301
+    network_url: https://deims.org/92fd6fad-99cd-4972-93bd-c491f0be1301
+    name: IT12-Northern Adriatic Sea - Italy
+  location:
+    latitude: 45.3075
+    longitude: 12.8145
+    country: Italy
+    elevation_meters: -25.0
+  description: The Northern Adriatic Sea is the northernmost basin of the Mediterranean
+    Sea. It is characterized by a shallow depth and by a dominant cyclonic circulation.
+    The oceanographic and meteorological parameters show a marked seasonal and interannual
+    variability. The remarkable river inputs (along the italian coast), the istro-dalmatian
+    current (bringing high salinity and oligotrophic waters from the southern basin),
+    and the notable sea-level range (relatively to the Mediterranean area), represent
+    major forcings of the system. Of ecological relevance are also the urban and industrial
+    inputs and the hydrodynamic exchange between the Northern Adriatic Sea and the
+    lagoons, located along the italian coast.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/92fd6fad-99cd-4972-93bd-c491f0be1301
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:35.332027+00:00'
+      source_modified_at: '2023-07-25T09:07:25+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/92fd6fad-99cd-4972-93bd-c491f0be1301
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:35.332027+00:00'
+      source_modified_at: '2023-07-25T09:07:25+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/92fd6fad-99cd-4972-93bd-c491f0be1301
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:35.332027+00:00'
+      source_modified_at: '2023-07-25T09:07:25+02:00'
+  - name: species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species abundance
+      record_url: https://deims.org/api/sites/92fd6fad-99cd-4972-93bd-c491f0be1301
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10018
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:35.332027+00:00'
+      source_modified_at: '2023-07-25T09:07:25+02:00'
+  - name: species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species presence
+      record_url: https://deims.org/api/sites/92fd6fad-99cd-4972-93bd-c491f0be1301
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10081
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:35.332027+00:00'
+      source_modified_at: '2023-07-25T09:07:25+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/92fd6fad-99cd-4972-93bd-c491f0be1301
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:35.332027+00:00'
+      source_modified_at: '2023-07-25T09:07:25+02:00'
+  status: ACTIVE

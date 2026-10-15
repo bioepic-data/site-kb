@@ -1,0 +1,80 @@
+sites:
+- id: site_kb:deims-stubai_combination_of_neustift_meadows_and_kaserstattalm_-_austria
+  name: Stubai (combination of Neustift meadows and Kaserstattalm) - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 324f92a3-5940-4790-9738-5aa21992511c
+    network_url: https://deims.org/324f92a3-5940-4790-9738-5aa21992511c
+    name: Stubai (combination of Neustift meadows and Kaserstattalm) - Austria
+  location:
+    latitude: 47.1167
+    longitude: 11.3
+    country: Austria
+    elevation_meters: 2000.0
+  description: 'The LTER grassland sites in the Stubai Valley are situated near the
+    village of Neustift (47° 7′ N, 11° 18′ E). They include a valley bottom meadow
+    at 970 m a.s.l., cut 3-4 times per year, as well as three grasslands differing
+    in land use, which are located on the mountain slope in the vicinity of the Kaserstattalm:
+    a mountain meadow at 1810 m a.s.l. (one cut, lightly grazed in late summer), a
+    pasture at 1870 m a.s.l. and a grassland at 1980 m a.s.l., which was abandoned
+    in 1984. Documentation of management history and vegetation dynamics of the whole
+    area date back to 1865, and detailed information on the current socio-economic
+    situation and future land-use scenarios is available.'
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+      source_modified_at: '2025-04-09T08:41:32+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+      source_modified_at: '2025-04-09T08:41:32+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+      source_modified_at: '2025-04-09T08:41:32+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+      source_modified_at: '2025-04-09T08:41:32+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+      source_modified_at: '2025-04-09T08:41:32+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

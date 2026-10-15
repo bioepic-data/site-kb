@@ -1,0 +1,186 @@
+{
+  "source_url": "https://deims.org/api/sites/383aab7b-139a-4776-8877-c741008a44c5",
+  "retrieved_at": "2026-10-15T17:51:25.574277+00:00",
+  "record": {
+    "title": "eLTER_ICOS_Braila Islands - Romania",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "383aab7b-139a-4776-8877-c741008a44c5"
+    },
+    "type": "site",
+    "created": "2026-09-07T15:58:55+02:00",
+    "changed": "2026-09-07T16:10:55+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Romania",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4260f964-0ac4-4406-8adc-5afc06e31779"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Mihai Adamescu",
+            "email": "mihaicristian.adamescu@g.unibuc.ro",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Tudor Racoviceanu",
+            "email": "tudor.racoviceanu@drd.unibuc.ro",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The ICOS ecosystem station on the Big Island of Brăila, operated by RCSES–University of Bucharest, monitors exchanges of carbon dioxide, water and energy between agricultural ecosystems and the atmosphere. Located within the Brăila Islands LTSER site, it supports long-term research on how land management and climate influence carbon cycling in the intensively modified Danube floodplain landscape.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": null,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "eLTER_ICOS_Braila Islands",
+        "shortName": "ICOS Braila Islands",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "continental",
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (27.981 45.234)",
+        "country": [
+          "Romania"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": null,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": [
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "solar radiation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22284"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": null,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

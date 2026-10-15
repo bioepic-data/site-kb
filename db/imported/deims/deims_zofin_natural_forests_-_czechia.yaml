@@ -1,0 +1,86 @@
+sites:
+- id: site_kb:deims-zofin_natural_forests_-_czechia
+  name: Zofin natural forests - Czechia
+  network_registrations:
+  - network: DEIMS
+    network_id: 8808a392-5f31-4760-8faf-a6a7bac80f73
+    network_url: https://deims.org/8808a392-5f31-4760-8faf-a6a7bac80f73
+    name: Zofin natural forests - Czechia
+  location:
+    latitude: 48.6664
+    longitude: 14.7067
+    country: Czechia
+    elevation_meters: 782.0
+  description: Nearly one hundred hectares of natural spruce-fir-beech forests have
+    survived in the former Nové Hrady domain, owing to the enlightened owner count
+    Buquoy, who founded here the Czech oldest natural forest reserves as early as
+    in 1838. Similarly to the Bohemian Forest (Šumava in Czech), human colonization
+    came to remote forests of the Novohradské Mts. as late as in the 15th century
+    and, during the 18th century, abundant glassworks caused the most intensive pressure
+    on the forests. For centuries, ship builders visited the utmost mountains’ corners
+    to find tall and straight fir stems suitable for ship masts. Both Žofín and Hojná
+    Voda were declared as reserves at the same time in 1838, yet timber had been taken
+    from these sites even in the half of the 19th century. Both sites have been left
+    to spontaneous development since the 1880s. Remarkable disturbance in the natural
+    forests became in January 2007 when the hurricane Kyrill blew over. Substantial
+    southern and south-western parts of the Žofín natural forest got down. Now we
+    can study large-disturbance dynamics, the potential of bark beetle resistance
+    in mixed forest, and many other unanswered questions.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/8808a392-5f31-4760-8faf-a6a7bac80f73
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:01.047878+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: tree age
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree age
+      record_url: https://deims.org/api/sites/8808a392-5f31-4760-8faf-a6a7bac80f73
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22300
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:01.047878+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: tree diameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter
+      record_url: https://deims.org/api/sites/8808a392-5f31-4760-8faf-a6a7bac80f73
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:01.047878+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: tree distribution
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree distribution
+      record_url: https://deims.org/api/sites/8808a392-5f31-4760-8faf-a6a7bac80f73
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/21587
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:01.047878+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: tree height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree height
+      record_url: https://deims.org/api/sites/8808a392-5f31-4760-8faf-a6a7bac80f73
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22305
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:01.047878+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

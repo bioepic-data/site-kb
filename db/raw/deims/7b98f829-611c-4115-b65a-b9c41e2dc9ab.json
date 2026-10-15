@@ -1,0 +1,300 @@
+{
+  "source_url": "https://deims.org/api/sites/7b98f829-611c-4115-b65a-b9c41e2dc9ab",
+  "retrieved_at": "2026-10-15T17:35:07.015674+00:00",
+  "record": {
+    "title": "Wakayama Forest Research Station - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "7b98f829-611c-4115-b65a-b9c41e2dc9ab"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:32:31+01:00",
+    "changed": "2020-06-29T10:46:05+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-15",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Naoko Tokuchi",
+            "email": "tokuchi@kais.kyoto-u.ac.jp",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Naoko Tokuchi",
+            "email": "tokuchi@kais.kyoto-u.ac.jp",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://fserc.kais.kyoto-u.ac.jp/waka/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "More than half is covered by plantations of Cryptomeria japonica and Chamaecyparis obtusa. In natural forest areas, Abies firma and Tsuga sieboldii are dominant. In the deciduous broad-leaved forests located over 950m above see level, Fagus crenata is observed. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1926,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Wakayama Forest Research Station",
+        "shortName": "Wakayama",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/wakayama-forest-research-station-japan_4616.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 12.3,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2647,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "alpine",
+        "ecosystemType": [
+          {
+            "label": "Evergreen Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Temperate broadleaf and mixed forests",
+            "uri": null
+          },
+          {
+            "label": "Temperate coniferous forests",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((135.50880432129 34.080531025253, 135.53970336914 34.07768740409, 135.54725646973 34.067449577394, 135.53901672363 34.059485967948, 135.53352355957 34.049245941932, 135.50331115723 34.041280622122, 135.49095153809 34.035021631706, 135.48820495606 34.042987539352, 135.50880432129 34.080531025253))",
+        "coordinates": "POINT (135.517 34.0667)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": 858,
+          "min": 455,
+          "max": 1261,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 842,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "disturbance pattern",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21473"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "inorganic nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22136"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "plant height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22192"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "tree age",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22300"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21587"
+          },
+          {
+            "label": "tree height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22305"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 7,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "1 place",
+            "uri": null
+          },
+          {
+            "label": "5-10 kW",
+            "uri": null
+          },
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "No tower on site",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Radio transmission system (repeaters, receivers, centralstation)",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

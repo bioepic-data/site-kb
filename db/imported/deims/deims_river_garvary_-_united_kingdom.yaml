@@ -1,0 +1,235 @@
+sites:
+- id: site_kb:deims-river_garvary_-_united_kingdom
+  name: River Garvary - United Kingdom
+  network_registrations:
+  - network: DEIMS
+    network_id: 48752f7d-1553-4815-8784-67f90585b69d
+    network_url: https://deims.org/48752f7d-1553-4815-8784-67f90585b69d
+    name: River Garvary - United Kingdom
+  location:
+    latitude: 54.499455
+    longitude: -7.990648
+    country: United Kingdom
+    elevation_meters: 115.0
+  description: "UK ECN site. Located to the north of Lower Lough Erne in County Fermanagh,\
+    \ the Garvary River has its source in the outflows from Loughs Vearty and Tullyasiddagh.\
+    \ It flows in a general south-easterly direction, augmented by the Crossowen River\
+    \ and the outflow from Lough Scolban, and eventually discharges to Lower Lough\
+    \ Erne. Approximately 7 km long, the river has a catchment area of 35.5km2 of\
+    \ which around 5% is lake surface. At the ECN site, the river is 2.5-3 metres\
+    \ wide and 30cm deep with a few holding pools around 60cm deep. \r\nThe drift\
+    \ geology of the catchment consists mainly of peat and bedrock at or near the\
+    \ surface which some glacial till and small amounts of sand and gravel. The solid\
+    \ geology has been identified as mainly mica schist of the Moinian period. In\
+    \ its upper reaches, the river flows though moorland and peat bog. Soils in the\
+    \ catchment are peats and gleys with poor drainage capacity, supporting a vegetation\
+    \ cover of rough pasture, bracken and heather. The upper part of the catchment\
+    \ supports low intensity sheep grazing, while downstream the land use is predominantly\
+    \ improved grassland. Although the Garvary River has not been designated under\
+    \ the Freshwater Fish Directive it has excellent water quality both chemically\
+    \ and biologically, and it is a very important nursery area with high densities\
+    \ of juvenile trout and salmon. Its banks have many trees (mainly alder, willow\
+    \ and hazel) which provide adequate shading for the juvenile fish. The river is\
+    \ not suitable for angling and does not have stocks of takable fish. Wildlife\
+    \ found in the river corridor include mallard duck and dragonflies."
+  variables:
+  - name: ammonium content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ammonium content
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10071
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: dissolved nutrient
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved nutrient
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22107
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: inorganic nutrient content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: inorganic nutrient content
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22137
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: nitrogen content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nitrogen content
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22174
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: stage height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: stage height
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22290
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: suspended solids
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: suspended solids
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22293
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: total organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total organic carbon
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22297
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: water acidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water acidity
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22030
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: water alkalinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water alkalinity
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/10303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  - name: water transparency
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water transparency
+      record_url: https://deims.org/api/sites/48752f7d-1553-4815-8784-67f90585b69d
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/10392
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:44.251447+00:00'
+      source_modified_at: '2023-09-01T15:44:23+02:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

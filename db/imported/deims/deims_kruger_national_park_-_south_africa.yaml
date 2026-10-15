@@ -1,0 +1,76 @@
+sites:
+- id: site_kb:deims-kruger_national_park_-_south_africa
+  name: Kruger National Park - South Africa
+  network_registrations:
+  - network: DEIMS
+    network_id: 8fb35fc0-08bc-480a-b779-afd01e89cac2
+    network_url: https://deims.org/8fb35fc0-08bc-480a-b779-afd01e89cac2
+    name: Kruger National Park - South Africa
+  location:
+    latitude: -24.025157
+    longitude: 31.455117
+    country: South Africa
+    elevation_meters: 140.0
+  description: "Kruger National Park (KNP) is a fenced National Park located in the\
+    \ north-eastern part of South Africa. KNP is one of Great Limpopo Transfontier\
+    \ Park, including Limpopo National Park in Mozambique and Gonarezhou in Zimbabwe.\
+    \ KNP is located in the dry savanna biome, and was established in 1898 to protect\
+    \ wildlife. Savanna means is characterized by the co-dominance of grasses and\
+    \ trees. It is nearly 2 million hactares with impressive number of species: 336\
+    \ trees, 49 fish, 34 amphibians, 114 reptiles, 507 birds and 147 mammals. It is\
+    \ a habitat of many species including the big 5 i.e. elephant, lion, buffalo,\
+    \ rhinoceros and leopard.\r\n\r\nThe major drivers of vegetation distribution\
+    \ are abiotic components such as geology, topography and soils. Two main geological\
+    \ types exist in KNP which influence the density of trees and high grass biomass.\
+    \ Basalt geological type is characterised by high fertility soils dominated by\
+    \ grasses with Acacia trees. On the other hand, granite geological types are characterised\
+    \ by low fertile soils dominated by high tree cover, especially the Combretum\
+    \ species. The abiotic and climatic factors make a dry savanna a complex ecosystem.\
+    \ Two seasons exist in this area, wet and dry season which in combinations with\
+    \ grass quality and quantity as well as tree greening and leaf off influence the\
+    \ feeding patterns and movements of animals. Several studies has been conducted\
+    \ in this National Park ranging from mapping grazing and browse resources to understanding\
+    \ the feeding patterns and population dynamics of the animals.\r\n\r\nMain threats\
+    \ to biodiversity in this national park include:\r\n•overabundance of certain\
+    \ wildlife populations\r\n•invasive alien plant and animal species\r\n•bush encroachment\r\
+    \n•pollutants\r\n•human development\r\n•excessive resource exploitation\r\n•poaching\
+    \ (especially Rhino)\r\n•climate change or other factors.\r\n\r\nMain ecosystem\
+    \ services can be packaged as follows:\r\n•grass quality (leaf nitrogen) as nutrients\
+    \ for animals\r\n•grass biomass, amount of fibre for grazers\r\n•tree cover (including\
+    \ bush encroaching species) for browsers and for fuel-wood for the rural areas\
+    \ around the park\r\n•biodioversity\r\n•ecotourism."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/8fb35fc0-08bc-480a-b779-afd01e89cac2
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:07.827797+00:00'
+      source_modified_at: '2020-06-29T10:42:32+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/8fb35fc0-08bc-480a-b779-afd01e89cac2
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:07.827797+00:00'
+      source_modified_at: '2020-06-29T10:42:32+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/8fb35fc0-08bc-480a-b779-afd01e89cac2
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:07.827797+00:00'
+      source_modified_at: '2020-06-29T10:42:32+02:00'
+  status: ACTIVE

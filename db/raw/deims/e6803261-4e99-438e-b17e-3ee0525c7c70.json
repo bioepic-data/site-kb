@@ -1,0 +1,270 @@
+{
+  "source_url": "https://deims.org/api/sites/e6803261-4e99-438e-b17e-3ee0525c7c70",
+  "retrieved_at": "2026-10-15T17:37:26.746526+00:00",
+  "record": {
+    "title": "Loch Chon - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "e6803261-4e99-438e-b17e-3ee0525c7c70"
+    },
+    "type": "site",
+    "created": "2013-12-06T11:40:10+01:00",
+    "changed": "2023-07-28T11:26:52+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "UK Eutrophying and Acidifying atmospheric Pollutants network (UKEAP)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "47ccb7a9-ba65-4dd9-a564-4623d016d0ec"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_05",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Loch Chon on UWMN",
+            "value": "https://uwmn.uk/loch-chon"
+          },
+          {
+            "title": "Loch Chon on UK Lakes Portal",
+            "value": "https://eip.ceh.ac.uk/apps/lakes/detail.html?wbid=24754"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK Upland Waters Monitoring Network (UK UWMN) site. Loch Chon is a relatively large (surface area 105.7 ha) lake lying at an altitude of 92 m in the Trossachs region of central Scotland. The loch is fed by several small streams and drains to the south via Loch Ard and the River Forth. The loch has two main basins, with the deepest area (25 m) represented by a trench near the western shore. The bathymetry was first surveyed by Murray and Pullar in 1910. Some data managed by UK ECN Data Centre. Note: The area is the size of the catchment. The lake area is 106 ha",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1988,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Loch Chon",
+        "shortName": "UWMN_05",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 4.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2500,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": "Mica schists; grits",
+        "hydrology": "Loch Chon is a relatively large (surface area 105.7 ha) lake lying at an altitude of 92 m in the Trossachs region of central Scotland. The loch is fed by several small streams and drains to the south via Loch Ard and the River Forth. The loch has two main basins, with the deepest area (25 m) represented by a trench near the western shore. The bathymetry was first surveyed by Murray and Pullar in 1910.",
+        "soils": "Peat gleys; peaty podsols; humus iron podsols",
+        "vegetation": "Catchment vegetation consists of coniferous forest and moorland."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-4.54834 56.2118)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 92,
+          "min": 92,
+          "max": 92,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1484,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "animal species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10336"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "chemical composition of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21213"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22121"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "plant species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10335"
+          },
+          {
+            "label": "plant species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10341"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "Chemistry sampled monthly. Biological measurements made annually",
+          "siteVisitInterval": 30
+        },
+        "notes": "Accommodation in nearby villages",
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

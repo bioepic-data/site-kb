@@ -1,0 +1,389 @@
+{
+  "source_url": "https://deims.org/api/sites/49066ab8-0e7e-437e-9b17-de4d65e378ae",
+  "retrieved_at": "2026-10-15T17:39:32.782453+00:00",
+  "record": {
+    "title": "Old Lodge - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "49066ab8-0e7e-437e-9b17-de4d65e378ae"
+    },
+    "type": "site",
+    "created": "2012-12-25T18:56:22+01:00",
+    "changed": "2023-09-01T15:15:42+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "UK ECN",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "a197664f-569e-4df6-933a-86de676dbfc5"
+              }
+            },
+            "siteCode": "LTER_EU_UK_028",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_13",
+            "verified": false
+          }
+        ],
+        "projects": [
+          {
+            "label": "eLTER (H2020)",
+            "uri": "https://cordis.europa.eu/project/id/654359"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Ewan Shilland",
+            "email": "e.shilland@ucl.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "ENSIS Ltd, Environmental Change Research Centre, University College London",
+            "url": null,
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Ewan Shilland",
+            "email": "e.shilland@ucl.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "ECN website",
+            "value": "https://ecn.ac.uk/"
+          },
+          {
+            "title": "Old Lodge on UWMN",
+            "value": "https://uwmn.uk/old-lodge"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK ECN and UK UWMN site. Old Lodge is a stream site within a catchment of 240 ha in Ashdown Forest, SE England. The altitude of the catchment ranges between 94 m and 198 m. The underlying geology comprises Ashdown sands (Hastings beds) and the catchment soils are typically podsolic. Approximately 15% of the catchment is deciduous woodland, principally around the sampling site. Conifers occupy less than 5% of the catchment, with the remainder classified as heathland vegetation dominated by Calluna (heather) and Erica (bell heather), with abundant stands of Pteridium (bracken). There has been no land use disturbance in the catchment for the past 200 years, although the severe wind-throw affected many trees after the storms of October 1987. Old Lodge is classified as having moderate-to-high acid deposition. Note: this site is a single point sampling location (gauging station) on a river (hence size: 0 ha). The shape file indicates the whole river catchment.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1988,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Old Lodge",
+        "shortName": "R11",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category IV – Habitat/Species Management Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/IV"
+          },
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/IMG_1319.jpg",
+            "alt": "Old Lodge, UK UWMN. Photo: Ewan Shilland"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/IMG_2540.JPG",
+            "alt": "Old Lodge catchment, UK UWMN. Photo: Ewan Shilland"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 9.57,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 823.2,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Surface running waters (C2)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": "The underlying geology is comprised of the Ashdown Formation.",
+        "hydrology": "The stream bed comprises mainly boulders, cobbles and gravel and the sampling reach contains very shallow water during dry-weather flow with numerous riffle sections.",
+        "soils": "Gley podsols",
+        "vegetation": "Approximately 15% of the catchment is deciduous woodland, principally around the sampling station. Conifers occupy less than 5% of the catchment with the remainder classified as heathland vegetation dominated by Calluna and Erica, with abundant stands of Pteridium."
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((0.098765747738236 51.054509432725, 0.098612428652809 51.053525065387, 0.098701892337802 51.052720564526, 0.098715768945576 51.052595817726, 0.099012921558403 51.051889608079, 0.099522409307992 51.051382989485, 0.10040546947813 51.050666390427, 0.10050047799652 51.050589288931, 0.10117594083543 51.049671810439, 0.10117391083597 51.04930353077, 0.10117134879588 51.048841602993, 0.10117664784446 51.048628959902, 0.10119321009993 51.047965033381, 0.10137784700943 51.047276300379, 0.10144116235813 51.047040141343, 0.10158332859309 51.046598083283, 0.10180384486544 51.045912365272, 0.10206794741736 51.04487200687, 0.10189262993834 51.044170430395, 0.10180245274409 51.043675363172, 0.10159778552803 51.043389144845, 0.10118280808557 51.043006859957, 0.10079302875267 51.042790010478, 0.10034772840461 51.042542265642, 0.09977616976011 51.042374357564, 0.099725651615776 51.042359517724, 0.099414714155197 51.042268173544, 0.099379034459377 51.042257690517, 0.098864945819274 51.04215014467, 0.098694467285496 51.042114480824, 0.098457293947282 51.042064859604, 0.097298819591815 51.04182246555, 0.095958543540251 51.041581765122, 0.094679380401105 51.041173436008, 0.093855616578084 51.040858463294, 0.09344339202457 51.04067353871, 0.092710839533725 51.040344907129, 0.091796154528831 51.039990580996, 0.091492348429087 51.039809123304, 0.091090192893548 51.039568926167, 0.090969705231922 51.039496958346, 0.090095965333179 51.038934753435, 0.089848636475962 51.038775611387, 0.089714039669905 51.038716746553, 0.088997393630327 51.038403339359, 0.088211422823933 51.038134163666, 0.087453381665911 51.037910783659, 0.086385366953065 51.03804122159, 0.086274102256231 51.038054810419, 0.085226889718479 51.038479901425, 0.08477513574949 51.038804988676, 0.084640903954389 51.038901582149, 0.084454739817483 51.039035545072, 0.084382247036194 51.039087707243, 0.083123739889876 51.039434212403, 0.082192374279019 51.039719984737, 0.08182901133191 51.039818313035, 0.081088623713052 51.04001867121, 0.080416894839905 51.040139879664, 0.079852170921788 51.040241778438, 0.079738086872291 51.040262361434, 0.079709372741219 51.040268108678, 0.07860568145299 51.040488802253, 0.078496530766278 51.040510630002, 0.077791578830697 51.040736417152, 0.077243222687182 51.04094522382, 0.077195026960217 51.040963571505, 0.076797438833529 51.041114961142, 0.076328526315381 51.041355726375, 0.076199560224241 51.041532412208, 0.075955498843713 51.041866770015, 0.075953005991122 51.041885007444, 0.07589133221588 51.042335783689, 0.075865446383469 51.042524901256, 0.076021099511989 51.04313447283, 0.076042505408244 51.043872268095, 0.075984406781268 51.044132847309, 0.07594074914403 51.044328676872, 0.075659248912283 51.044588303143, 0.075555386653223 51.044684087282, 0.075280587768331 51.044909886491, 0.075079756859539 51.045074906581, 0.074809264234885 51.045227331348, 0.074585105664513 51.045379429157, 0.074452304067149 51.045480149206, 0.074528413507588 51.045732588569, 0.074545462295037 51.045789124376, 0.074500928561713 51.045957915268, 0.074417355417042 51.046274668321, 0.074288214100646 51.046737181691, 0.07416875502477 51.047216808637, 0.07416418822441 51.047312930355, 0.074141642931489 51.047787742828, 0.074094125517307 51.048213532108, 0.07408625017977 51.048284147396, 0.074062420023344 51.048888614217, 0.074060337289891 51.048941632356, 0.074082384349714 51.049754387135, 0.074209319541316 51.050235043728, 0.074305652347936 51.050599819858, 0.074774317825474 51.051448630812, 0.074897957549444 51.051571851432, 0.075513586800133 51.052185411686, 0.07557068420285 51.052234420532, 0.076340682079776 51.052895258101, 0.076351499387448 51.052904535197, 0.076370524415134 51.052920862186, 0.076907138825108 51.053334867853, 0.077263758915278 51.053609999879, 0.078548631000716 51.054171606216, 0.078902949488421 51.054326467181, 0.080293172611887 51.054780071017, 0.081794102317209 51.054858032432, 0.082790478596204 51.054583247352, 0.082814051820199 51.05457875393, 0.083908661570772 51.0543700367, 0.084095691270855 51.054334368752, 0.085525316540489 51.054453170779, 0.086055844963726 51.054519631635, 0.087320048936343 51.054678005002, 0.087490938728704 51.054700088964, 0.088567432880035 51.054839190804, 0.089106145629112 51.054908792196, 0.089150074957553 51.054915310402, 0.08964440409491 51.054988645631, 0.090502582477489 51.055115957373, 0.090601088602169 51.055130573941, 0.091082739130252 51.055240390322, 0.091448846200334 51.055323864121, 0.092517799197386 51.055567580099, 0.093836682848389 51.056096707073, 0.094385603168254 51.056395455886, 0.095304240002145 51.056895416196, 0.095804902002358 51.057109576617, 0.096595708141331 51.057447838712, 0.096667940296433 51.05747872071, 0.097466081640382 51.05781992115, 0.098292134074748 51.058296157401, 0.099334992875397 51.058655011414, 0.09944355678144 51.058679070205, 0.099982803333384 51.058798580578, 0.10028628749794 51.058409352692, 0.10058492420628 51.057795306429, 0.10026662584474 51.057285370707, 0.10007210484872 51.056967904598, 0.099799543135967 51.056523060501, 0.099160868574197 51.055318502638, 0.098765747738236 51.054509432725))",
+        "coordinates": "POINT (0.083972 51.047443)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 160,
+          "min": 98,
+          "max": 223,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 0,
+          "unit": "ha"
+        },
+        "relatedLocations": [
+          {
+            "title": "Old Lodge",
+            "id": {
+              "prefix": "https://deims.org/locations/",
+              "suffix": "6c0dd89e-dbda-4b01-beb0-d2126943daef"
+            },
+            "changed": "2024-05-07T14:22:15+0200"
+          }
+        ]
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "change in population size over time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22085"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "plant species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22195"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species list",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22286"
+          },
+          {
+            "label": "species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10081"
+          },
+          {
+            "label": "species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22287"
+          },
+          {
+            "label": "stage height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22290"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "footpath/trail",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "UK UWMN freshwater monitoring is carried out at least once per month",
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://data.ecn.ac.uk/datapolicy.asp"
+              }
+            ],
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

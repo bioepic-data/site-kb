@@ -1,0 +1,187 @@
+{
+  "source_url": "https://deims.org/api/sites/3b6e9142-e09b-4467-8faf-299a3fe03bee",
+  "retrieved_at": "2026-10-15T17:45:53.709192+00:00",
+  "record": {
+    "title": "Lippenbroek - Belgium",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "3b6e9142-e09b-4467-8faf-299a3fe03bee"
+    },
+    "type": "site",
+    "created": "2016-11-30T13:24:41+01:00",
+    "changed": "2023-07-25T09:57:12+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": null,
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.lippenbroek.be/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Site with Controlled Reduced Tides (CRT) in het Scheldt Estuary. By sluices the tidal influence is regulated. As such a reduced tidal influence is alowed in a former agricultural landscape.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2006,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Scheldt Estuary and its alluvial plains - Belgium",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "f64f5541-c6a5-45ff-a996-bb4e799d6736"
+                },
+                "changed": "2025-01-07T11:14:56+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Lippenbroek",
+        "shortName": null,
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-02/070508-0018.jpg",
+            "alt": "Please update this"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 852.4,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": null,
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Rivers",
+            "uri": null
+          },
+          {
+            "label": "Large river deltas",
+            "uri": null
+          },
+          {
+            "label": "Large rivers",
+            "uri": null
+          },
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          },
+          {
+            "label": "Temperate shelfs and seas",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Estuaries (X01)",
+            "uri": null
+          },
+          {
+            "label": "Habitat complexes (X)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (4.17222222 51.08555556)",
+        "country": [
+          "Belgium"
+        ],
+        "elevation": {
+          "avg": 2.6,
+          "min": 3.2,
+          "max": 0.6,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 8.6,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+sites:
+- id: site_kb:deims-lago_piramide_inferiore_-_nepal
+  name: Lago Piramide Inferiore - Nepal
+  network_registrations:
+  - network: DEIMS
+    network_id: 81535ac1-1401-495e-a786-17be3a95f1c6
+    network_url: https://deims.org/81535ac1-1401-495e-a786-17be3a95f1c6
+    name: Lago Piramide Inferiore - Nepal
+  location:
+    latitude: 27.963143
+    longitude: 86.812424
+    country: Nepal
+    elevation_meters: 5067.0
+  description: "The lake is located in the Khumbu Valley, Sagarmatha National Park\
+    \ (SNP), Nepal. SNP is situated in the Solu-Khumbu district, in the north-eastern\r\
+    \nregion of Nepal and represents the northernmost part of the Dudh Koshi River\
+    \ Basin, which is part of the Koshi River Basin (or SaptaKoshi Basin), one of\
+    \ the seven major hydrographic basins into which Nepal is subdivided. The SNP\
+    \ covers an area of 1141 km2 and is surrounded on all sides by the highest mountain\
+    \ ranges on Earth. The terrain is extremely irregular, with altitudes that reach\
+    \ 8848 m. The lower topographic limit of permanent snow cover is located at an\
+    \ altitude of 5500–5600 m. The climate of the SNP is driven by the Asian monsoon.\r\
+    \nThe lake bedrock is mainly Late Tertiary Granites, with a primarily quartz–silicate\
+    \ composition and a low weathering rate. Soils are absent or very thin in most\
+    \ of the catchments. Vegetation cover is restricted to small areas of alpine meadow.\
+    \ The lake surface area is 0.017 km2. The lake lies above 5000 m a.s.l., the tree\
+    \ line limit. The lake is fed by the outflowing water of an upper lake (lake Piramide\
+    \ Superiore) and indirectly by a small glacier located in the catchment of the\
+    \ upper lake. The lake is  ice-covered for ca. 9–10 months every year (from October–November\
+    \ to June–July).Chlorophyll a concentrations are below 1 lg l-1 and are probably\
+    \ controlled by strong grazing pressure from a large pigmented (keto-carotenoid\
+    \ of astaxanthin type) zooplankton community. Total phosphorus concentrations\
+    \ (mean values) are at 3 µg P l-1, whereas total nitrate concentrations are about\
+    \ 100 µg N l-1. Concentrations of particulate organic carbon (POC) and dissolved\
+    \ organic carbon (DOC) are very low."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/81535ac1-1401-495e-a786-17be3a95f1c6
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:28.237908+00:00'
+      source_modified_at: '2024-05-08T14:54:15+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/81535ac1-1401-495e-a786-17be3a95f1c6
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:28.237908+00:00'
+      source_modified_at: '2024-05-08T14:54:15+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/81535ac1-1401-495e-a786-17be3a95f1c6
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:28.237908+00:00'
+      source_modified_at: '2024-05-08T14:54:15+02:00'
+  status: ACTIVE

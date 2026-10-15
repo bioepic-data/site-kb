@@ -1,0 +1,138 @@
+sites:
+- id: site_kb:deims-oak_ridge_neon_-_united_states_of_america
+  name: Oak Ridge NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+    network_url: https://deims.org/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+    name: Oak Ridge NEON - United States of America
+  location:
+    latitude: 35.96412
+    longitude: -84.2826
+    country: United States of America
+    elevation_meters: 334.0
+  description: Oak Ridge National Laboratory (ORNL) is a terrestrial NEON field site
+    located in the Cumberland Plateau within Anderson and Roane Counties, TN. The
+    57.4 km2 (14,000 acre) field site is managed by a combination of the Department
+    of Energy (DOE) and Tennessee Wildlife Resources Agency (TWRA). The DOE's Oak
+    Ridge National Laboratory is famous for its involvement in creating atomic bombs
+    associated with the Manhattan Project. The surrounding region includes the world’s
+    longest expanse of hardwood-forested plateau and is home to some of North America’s
+    greatest diversity of fish, mollusk, and wildflower species. ORNL is part of NEON
+    Domain 07 - Appalachians & Cumberland Plateau, which includes eastern Tennessee,
+    most of Kentucky, southern Ohio, and parts of North Carolina, Georgia, Indiana,
+    and Illinois. D07 includes four other NEON field sites, including two additional
+    terrestrial sites and two aquatic sites. ORNL is colocated with the WALK aquatic
+    field site.
+  variables:
+  - name: above ground biomass
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground biomass
+      record_url: https://deims.org/api/sites/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:52.018219+00:00'
+      source_modified_at: '2025-09-18T12:58:06+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:52.018219+00:00'
+      source_modified_at: '2025-09-18T12:58:06+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:52.018219+00:00'
+      source_modified_at: '2025-09-18T12:58:06+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:52.018219+00:00'
+      source_modified_at: '2025-09-18T12:58:06+02:00'
+  - name: heat flux
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: heat flux
+      record_url: https://deims.org/api/sites/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22130
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:52.018219+00:00'
+      source_modified_at: '2025-09-18T12:58:06+02:00'
+  - name: leaf area index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area index
+      record_url: https://deims.org/api/sites/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22157
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:52.018219+00:00'
+      source_modified_at: '2025-09-18T12:58:06+02:00'
+  - name: microbial diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: microbial diversity
+      record_url: https://deims.org/api/sites/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22169
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:52.018219+00:00'
+      source_modified_at: '2025-09-18T12:58:06+02:00'
+  - name: physical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: physical parameter
+      record_url: https://deims.org/api/sites/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/20938
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:52.018219+00:00'
+      source_modified_at: '2025-09-18T12:58:06+02:00'
+  - name: soil carbon dioxide flux
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil carbon dioxide flux
+      record_url: https://deims.org/api/sites/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/21560
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:52.018219+00:00'
+      source_modified_at: '2025-09-18T12:58:06+02:00'
+  - name: soil heat flux
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil heat flux
+      record_url: https://deims.org/api/sites/ee70c9dd-c91b-4248-a7b4-2e760b0c266c
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22253
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:52.018219+00:00'
+      source_modified_at: '2025-09-18T12:58:06+02:00'
+  status: ACTIVE

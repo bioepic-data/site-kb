@@ -1,0 +1,264 @@
+{
+  "source_url": "https://deims.org/api/sites/6d07b95f-37ef-467f-afc7-e69bbafbba39",
+  "retrieved_at": "2026-10-15T17:48:02.416459+00:00",
+  "record": {
+    "title": "Northern Great Plains Research Laboratory NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "6d07b95f-37ef-467f-afc7-e69bbafbba39"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-17T15:37:07+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "NOGP",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Andrea Anteau",
+            "email": "aanteau@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/nogp"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Northern Great Plains Research Laboratory (NOGP) is a terrestrial NEON field site located 9.6 km (6 mi.) west of Bismarck, North Dakota. The sampling area is about 6 km2 (1483 acres), placed on land that has been managed by the U.S. Department of Agriculture and the Agriculture Research Service (ARS) for over 100 years. The site is full of sprawling grassland vegetation which represent much of NEON's 770,995 km2 (190.5 million acre) Northern Plains Domain (D09), NEON's second largest Domain. D09 includes two other terrestrial field sites and two aquatic field sites. NOCP is not colocated with an aquatic site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2015,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Northern Great Plains Research Laboratory NEON",
+        "shortName": "NOGP",
+        "siteType": "Non-stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/48788395751_c70f62fcfb_h.jpg",
+            "alt": "NOGP tower and landscape"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/48788395526_631cc48cde_h.jpg",
+            "alt": "NOGP Soil Array"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 5.9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 457,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "grasslands",
+        "ecosystemType": [
+          {
+            "label": "Grasslands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "NOGP sits above the Oahe Formation, a geologic formation from the late Quaternary age consisting predominately of wind-blown silt.",
+        "hydrology": "NOGP has vast spanses of prairie potholes across its landscape. Prairie potholes are both seasonal and year-long depressional freshwater wetlands that fill with snowmelt and rain during spring and summer storms.",
+        "soils": "Soils at NOGP are nearly all Mollisols, which is characteristic of prairie grasslands. They are part of the subgroup Typic Argiustolls and have surface horizons that are dark and mollic with a thickness of 18-89 cm (7-35 in.). A small area of a shallow entisol of the Cabba series also exists at the site. Parent materials are sedimentary sandstone, siltstone, mudstone, and shale. ",
+        "vegetation": "The Great Plains region is dominated by native grasslands, tame grasses, legumes, and many species of wildflowers. Smooth Brome (Bromus inermis L.) and Kentucky blue grass (Poa pretensis L.) dominate the NOGP tower area along with various crop species planted depending on type of research being conducted in the field site. The five most common species within NOGP include Russian Olive (Elaeagnus angustifolia L.), Kentucky Bluegrass (Poa pratensis L.), Snowberry (Symphoricarpos occidentalis Hook.), Green Needlegrass (Nassella viridula (Trin.)), and Smooth Brome (Bromus inemis Leyss)."
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-100.918422784 46.771275046, -100.911818268 46.77132326, -100.911806366 46.769804093, -100.91796048 46.767242391, -100.918285481 46.767409207, -100.918422784 46.771275046))",
+        "coordinates": "POINT (-100.91535 46.76972)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 589,
+          "min": 517,
+          "max": 592,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 558,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "latent heat",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22154"
+          },
+          {
+            "label": "leaf area index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22157"
+          },
+          {
+            "label": "ozone concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22178"
+          },
+          {
+            "label": "plant diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22191"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil carbon dioxyde flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21939"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

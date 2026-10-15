@@ -1,0 +1,246 @@
+{
+  "source_url": "https://deims.org/api/sites/826b88be-415c-499d-bf03-b08ddc037955",
+  "retrieved_at": "2026-10-15T17:46:13.188536+00:00",
+  "record": {
+    "title": "CH-SN1-MBU - Switzerland",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "826b88be-415c-499d-bf03-b08ddc037955"
+    },
+    "type": "site",
+    "created": "2017-03-08T16:32:27+01:00",
+    "changed": "2023-07-25T08:38:24+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "Global Observation Research Initiative in Alpine Environments (GLORIA)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "2ac8d841-36f5-4d78-9fb9-d9ded9e5bb60"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": [
+          {
+            "label": "Teabag",
+            "uri": null
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Sonja Wipf",
+            "email": "wipf@slf.ch",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Sonja Wipf",
+            "email": "wipf@slf.ch",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "lowest GLORIA summit on dolomite in the Swiss Nationa Park region",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2002,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "contains",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "CH-SN1-CUO - Switzerland",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "289f018e-0be8-48e9-8eb9-2da3fa04aa86"
+                },
+                "changed": "2023-07-25T08:39:15+0200"
+              },
+              {
+                "type": "site",
+                "title": "CH-SN1-MCH - Switzerland",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "3daad3e9-2423-4a28-94e1-27ddb25cb8ec"
+                },
+                "changed": "2023-07-25T08:39:17+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "CH-SN1-MBU",
+        "shortName": "Gloria summit Munt Buffalora of CH-SN1 target region",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category Ia – Strict Nature Reserve",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/Ia"
+          }
+        ],
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/SN1_MBU_TC_160623_overview_1.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/SN1_MBU_TC_160623_soil_profile_SE.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/SN1_MBU_TC_160623_plot_A.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "alpine",
+        "ecosystemType": [
+          {
+            "label": "Alpine",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Alpine and subalpine grasslands (E4)",
+            "uri": null
+          },
+          {
+            "label": "Calcareous alpine and subalpine grassland (E4.4)",
+            "uri": null
+          },
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": "Dolomite",
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (10.23827 46.64066)",
+        "country": [
+          "Switzerland"
+        ],
+        "elevation": {
+          "avg": 2423,
+          "min": 2413,
+          "max": 2423,
+          "unit": "msl"
+        },
+        "size": {
+          "value": null,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "litter residence time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10048"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "footpath/trail",
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

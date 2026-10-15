@@ -1,0 +1,642 @@
+sites:
+- id: site_kb:deims-ozcar-ri_sno_karst_baget_karstic_experimental_catchment_-_france
+  name: OZCAR-RI SNO_KARST Baget karstic experimental catchment - France
+  network_registrations:
+  - network: DEIMS
+    network_id: c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+    network_url: https://deims.org/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+    name: OZCAR-RI SNO_KARST Baget karstic experimental catchment - France
+  location:
+    latitude: 42.9549
+    longitude: 1.02941
+    country: France
+    elevation_meters: 920.0
+  description: "The Baget catchment is managed by the Laboratory of Functional Ecology\
+    \ and Environment (EcoLab), a joint Research Unit between the Institute of Ecology\
+    \ and Environment (INEE) of CNRS, the National Polytechnic Institute of Toulouse\
+    \ and the University Toulouse III-Paul Sabatier, in collaboration with BRGM (Occitania\
+    \ regional agency), the laboratory Geosciences and Environment Toulouse (GET)\
+    \ and the Station of Theoretical and Experimental Ecology (SETE) in Moulis (Ariège,\
+    \ France).\r\n\r\nThe Baget catchment (Pyrénées, Ariège, France) is a mountain\
+    \ ecosystem of middle altitude (Alt.= 1000 m) receiving around 1000mm of precipitation\
+    \ per year. Located close to Balagué village at 10 km West from Saint-Girons,\
+    \ the Baget catchment (13.25 km2) is drained by a karstic network which supplied\
+    \ the surface runoff of Lachein stream (specific discharge: 36 l.s-1.km-2). It\
+    \ is a tributary of the Lez which joins the Salat River, right tributary of the\
+    \ Garonne River.\r\n\r\nFrom 1968, this experimental site was intensively equipped\
+    \ by the CNRS underground Laboratory of Moulis (today SETE). The device is composed\
+    \ of one main weir at the outlet, 3 full excess controls, 3 piezometers of which\
+    \ one inside the abyss, and one subterranean loss.\r\n\r\nThis karstic watershed\
+    \ has been surveyed since 1968 for some hydro-climatic parameters, particularly\
+    \ air temperature, precipitations and stream discharge at the outlet. Some geochemical\
+    \ parameters (pCO2, chemical and isotopic compositions of waters) and some hydro-biological\
+    \ and ecological data (invertebrates, particularly Crustacea) have been surveyed\
+    \ for periods during the last 40 years by the CNRS underground Laboratory of Moulis.\r\
+    \n\r\nSince 2011, Baget catchment belongs to the French Network of Catchments\
+    \ (RBV) and it is included in the certified National Observatory Service SNO Karst.\
+    \ Then, new parameters are measured twice a month or with higher frequencies during\
+    \ some flood events (major cations and anions, alkalinity, pH, conductivity, dissolved\
+    \ organic carbon, total suspended matter, H, O, C isotopes…). Since 2014, a multi-parameter\
+    \ probe has been installed with different sensors to measure continuously water\
+    \ level, pH, conductivity, turbidity, dissolved oxygen, nitrate and chloride.\
+    \ These continuous measurements are calibrated twice a month with laboratory analyses.\
+    \ The water discharge is measured by BRGM-Occitania because the Baget karst is\
+    \ part of the French patrimonial network of ground-waters and it belongs to the\
+    \ piezometric network managed by BRGM.\r\n\r\nThe Baget catchment is very sensitive\
+    \ to limit conditions of surface drainage and to land covers. It offers the possibility\
+    \ to develop an eco-systemic survey, which integrates the hydrology, the geochemistry\
+    \ and the ecology of a mountain ecosystem in the SW of France. In this region,\
+    \ climate and land use changes will have significant impacts on biodiversity,\
+    \ ecosystem functioning and biogeochemical cycles for the next decades\r\n\r\n\
+    The Baget catchment is  an international field site of the Critical Zone Exploration\
+    \ Network CZEN (http://www.czen.org/content/aurade-experimental-catchment) and\
+    \ it is one of the sites of the French SNO-KARST (Service National d'Observation)\
+    \ labellised by INSU-CNRS. It belongs to the French Research Infrastructure OZCAR\
+    \ and it is also a  site of the French LTSER ZA PYGAR \"Zone Atelier Pyrénées-Garonne\"\
+    ."
+  variables:
+  - name: acid neutralising capacity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: acid neutralising capacity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: acid neutralizing capacity of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: acid neutralizing capacity of water
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22029
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: altitudinal gradient
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: altitudinal gradient
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/21352
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: ammonium content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ammonium content
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10071
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: ammonium nitrate concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ammonium nitrate concentration
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10072
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: ammonium nitrogen content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ammonium nitrogen content
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/10076
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: base cations content in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: base cations content in water
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/21208
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: benthic invertebrates abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: benthic invertebrates abundance
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22027
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: benthic invertebrates presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: benthic invertebrates presence
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/10123
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: biological diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological diversity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/21391
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: buffer capacity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: buffer capacity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/21452
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: carbon dioxide concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: carbon dioxide concentration
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22082
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: chemical composition of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical composition of water
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/21213
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: current direction
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: current direction
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/30026
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: current speed
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: current speed
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/30027
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: dissolved nutrient
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved nutrient
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/22107
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/18
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/19
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: electrical conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: electrical conductivity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/20
+      source_id: http://vocabs.lter-europe.net/EnvThes/21552
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: elevated temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: elevated temperature
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/21
+      source_id: http://vocabs.lter-europe.net/EnvThes/21525
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: environmental heterogeneity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental heterogeneity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/22
+      source_id: http://vocabs.lter-europe.net/EnvThes/22116
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/23
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: ground water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ground water level
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/24
+      source_id: http://vocabs.lter-europe.net/EnvThes/22126
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: groundwater level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: groundwater level
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/25
+      source_id: http://vocabs.lter-europe.net/EnvThes/22126
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: inorganic carbon content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: inorganic carbon content
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/26
+      source_id: http://vocabs.lter-europe.net/EnvThes/22135
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: inorganic nitrogen content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: inorganic nitrogen content
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/27
+      source_id: http://vocabs.lter-europe.net/EnvThes/22136
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: neutralizing capacity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: neutralizing capacity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/28
+      source_id: http://vocabs.lter-europe.net/EnvThes/10037
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: nitrogen content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nitrogen content
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/29
+      source_id: http://vocabs.lter-europe.net/EnvThes/22174
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: nutrient concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nutrient concentration
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/30
+      source_id: http://vocabs.lter-europe.net/EnvThes/22176
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: oxygen concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: oxygen concentration
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/31
+      source_id: http://vocabs.lter-europe.net/EnvThes/30179
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: oxygen saturation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: oxygen saturation
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/32
+      source_id: http://vocabs.lter-europe.net/EnvThes/21215
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: pH value of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: pH value of water
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/33
+      source_id: http://vocabs.lter-europe.net/EnvThes/21218
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: river temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: river temperature
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/34
+      source_id: http://vocabs.lter-europe.net/EnvThes/10015
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: snow depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: snow depth
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/35
+      source_id: http://vocabs.lter-europe.net/EnvThes/21207
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: specific conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: specific conductivity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/36
+      source_id: http://vocabs.lter-europe.net/EnvThes/22289
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: surface runoff
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: surface runoff
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/37
+      source_id: http://vocabs.lter-europe.net/EnvThes/21510
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: suspended solids
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: suspended solids
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/38
+      source_id: http://vocabs.lter-europe.net/EnvThes/22293
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: total acidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total acidity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/39
+      source_id: http://vocabs.lter-europe.net/EnvThes/21449
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: total alkalinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total alkalinity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/40
+      source_id: http://vocabs.lter-europe.net/EnvThes/21451
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: total carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total carbon
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/41
+      source_id: http://vocabs.lter-europe.net/EnvThes/22296
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: total organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total organic carbon
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/42
+      source_id: http://vocabs.lter-europe.net/EnvThes/22297
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: water acidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water acidity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/43
+      source_id: http://vocabs.lter-europe.net/EnvThes/22030
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: water alkalinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water alkalinity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/44
+      source_id: http://vocabs.lter-europe.net/EnvThes/10303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/45
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/46
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/47
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/48
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: water salinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water salinity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/49
+      source_id: http://vocabs.lter-europe.net/EnvThes/10308
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/50
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: water turbidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water turbidity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/51
+      source_id: http://vocabs.lter-europe.net/EnvThes/21217
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  - name: water velocity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water velocity
+      record_url: https://deims.org/api/sites/c77eb1c9-54ce-42fc-97c2-f573666d6b9f
+      field_path: /attributes/focusDesignScale/observedProperties/52
+      source_id: http://vocabs.lter-europe.net/EnvThes/22315
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:54.405170+00:00'
+      source_modified_at: '2024-04-09T23:13:01+02:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

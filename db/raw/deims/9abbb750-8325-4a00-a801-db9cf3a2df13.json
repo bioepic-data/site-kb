@@ -1,0 +1,421 @@
+{
+  "source_url": "https://deims.org/api/sites/9abbb750-8325-4a00-a801-db9cf3a2df13",
+  "retrieved_at": "2026-10-15T17:37:15.700886+00:00",
+  "record": {
+    "title": "Lake Gårdsjön catchment - Sweden",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "9abbb750-8325-4a00-a801-db9cf3a2df13"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:08:20+01:00",
+    "changed": "2023-07-24T15:59:54+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ICP Integrated Monitoring",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "3f177430-eae5-4da2-926e-4a560dd262d6"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Filip Moldan",
+            "email": "Filip.Moldan@ivl.se",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Filip Moldan",
+            "email": "Filip.Moldan@ivl.se",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Ulf Grandin",
+            "email": "ulf.grandin@slu.se",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.ivl.se"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The lake Gårdsjön catchment is 2.1 km2 and includes 5 lakes and a number of headwater streams. It is located 50 km north of Göteborg. The whole area has been intensively studied for the last 30 years by scientists from IVL and from other institutes from Sweden and from abroad. Since 1979 several both national and international projects have been carried out. Smaller sub-catchments were used for experiments ranging from clear cutting, liming, fertilisation, sulphur addition and a combination of these treatments. In 1989 two large manipulation experiments were initiated. In the “Roof” experiment catchment G1 was covered by a transparent plastic roof and for 10 years the polluted precipitation was substituted with clean artificial precipitation sprinkled under the roof in a de-acidification experiment. The adjacent catchment G2 has been fertilised with NH4NO3 since 1991 to study several aspects (soil, water, vegetation) transition from N limited to N saturated conditions. Research at Gårdsjön resulted in three books and a large number of publications, covering different environmental problems, a range of pollutants, aquatic and terrestrial parts of the catchment, soils, vegetation and organisms. The site has served as an educational centre with countless visitors both from Sweden and abroad.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1979,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "contains",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Gårdsjön, IM-site SE04 - Sweden",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "c7f490fb-76a4-4d6c-ba3e-2fd2f33822ec"
+                },
+                "changed": "2025-01-07T11:14:56+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Lake Gårdsjön catchment",
+        "shortName": "Lake Gårdsjön catchment",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/P7310098_0.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 6.3,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1150,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "boreal",
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Temperate broadleaf and mixed forests",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((12.0116 58.069, 12.0361 58.069, 12.0361 58.0518, 12.0116 58.0518, 12.0116 58.069))",
+        "coordinates": "POINT (12.0225 58.0581)",
+        "country": [
+          "Sweden"
+        ],
+        "elevation": {
+          "avg": 130,
+          "min": 113,
+          "max": 170,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 210,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "acid neutralising capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10310"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "base saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22065"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "canopy height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22079"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "cation exchange capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22084"
+          },
+          {
+            "label": "deadwood decaying rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22101"
+          },
+          {
+            "label": "deadwood position",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22102"
+          },
+          {
+            "label": "deadwood volume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22103"
+          },
+          {
+            "label": "dissolved organic carbon in soil",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22045"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "inorganic nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22136"
+          },
+          {
+            "label": "interception",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22139"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "plant carbon concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22187"
+          },
+          {
+            "label": "plant nitrogen concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22193"
+          },
+          {
+            "label": "plant species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22195"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22240"
+          },
+          {
+            "label": "soil bulk density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22245"
+          },
+          {
+            "label": "soil dry bulk density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22248"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil solute amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22272"
+          },
+          {
+            "label": "soil solution concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22274"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species list",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22286"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21587"
+          },
+          {
+            "label": "tree height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22305"
+          },
+          {
+            "label": "vegetation layer composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22307"
+          },
+          {
+            "label": "vegetation layer structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21480"
+          },
+          {
+            "label": "vegetation layer type",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22308"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Other transmission types",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Temperature Controlled Container",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of places",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Mutual agreement on reciprocal sharing of data"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

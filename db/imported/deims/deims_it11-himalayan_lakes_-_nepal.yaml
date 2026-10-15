@@ -1,0 +1,53 @@
+sites:
+- id: site_kb:deims-it11-himalayan_lakes_-_nepal
+  name: IT11-Himalayan Lakes - Nepal
+  network_registrations:
+  - network: DEIMS
+    network_id: 53c835b3-9ecb-4613-9b96-6b36356e83a8
+    network_url: https://deims.org/53c835b3-9ecb-4613-9b96-6b36356e83a8
+    name: IT11-Himalayan Lakes - Nepal
+  location:
+    latitude: 27.9635
+    longitude: 86.813
+    country: Nepal
+    elevation_meters: 5140.0
+  description: The site include two high altitude oligomictic lakes located in the
+    Himalayas (Khumbu Valley, Mt. Everest). Those ecosystem lies at ca. 5000 m a.s.l.
+    and have similar characteristic to other high altitude sites, e.g. Alpine lakes,
+    but they are characterized by a tropical climate being under the influence of
+    monsoon activity.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/53c835b3-9ecb-4613-9b96-6b36356e83a8
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:21.422569+00:00'
+      source_modified_at: '2023-07-25T15:01:24+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/53c835b3-9ecb-4613-9b96-6b36356e83a8
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:21.422569+00:00'
+      source_modified_at: '2023-07-25T15:01:24+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/53c835b3-9ecb-4613-9b96-6b36356e83a8
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:21.422569+00:00'
+      source_modified_at: '2023-07-25T15:01:24+02:00'
+  status: ACTIVE

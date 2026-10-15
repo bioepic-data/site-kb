@@ -1,0 +1,86 @@
+sites:
+- id: site_kb:deims-nanki-kozagawa_-_wakayama_experimental_forest_hokakido_university_-_japan
+  name: Nanki-kozagawa - Wakayama Experimental Forest, Hokakido University - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 35da2ff6-5f00-4558-acfe-960c3d2b2d93
+    network_url: https://deims.org/35da2ff6-5f00-4558-acfe-960c3d2b2d93
+    name: Nanki-kozagawa - Wakayama Experimental Forest, Hokakido University - Japan
+  location:
+    latitude: 33.669166
+    longitude: 135.665833
+    country: Japan
+    elevation_meters: 610.0
+  description: The Wakayama Experimental Forest (approx. 450 ha) was established in
+    1925 for education and research of warm temperate forests. The mean annual temperature
+    is 15.2℃ (max. 37.8℃, min. -9.5℃), and annual precipitation is frequently over
+    4,000mm. The elevation ranges from 260 to 840 m. The mountainous areas are rather
+    steep with slopes mostly over 30°. More than 70% of forest area is covered with
+    plantations of Japanese cedar (Cryptomeria japonica) and Japanese cypress (Chamaecyparis
+    obtusa). The remaining area supports natural forests composed of evergreen broad-leaved
+    trees (mainly evergreen Fagaceae and Lauraceae) and deciduous broad-leaved trees
+    (Zelkova serrata, Aesculus turbinate and Mallotus japonicas). Near the mountain
+    summits, there are mixed forest of broad-leaved trees and conifers (Abies firma
+    and Tsuga sieboldii), and native forests of Japanese cedar, Japanese cypress and
+    Japanese umbrella-pine (Sciadopitys verticillata). In these forests, more than
+    23 species of mammals are living. Monitoring forest vegetation and wildlife populations,
+    and research on the impact of forestry on natural environments have been conducted.
+    The Wakayama Experimental Forest provides various field education programs for
+    elementary school children to post graduate students as well as to the public.
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/35da2ff6-5f00-4558-acfe-960c3d2b2d93
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:48.926411+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/35da2ff6-5f00-4558-acfe-960c3d2b2d93
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:48.926411+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/35da2ff6-5f00-4558-acfe-960c3d2b2d93
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:48.926411+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/35da2ff6-5f00-4558-acfe-960c3d2b2d93
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:48.926411+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/35da2ff6-5f00-4558-acfe-960c3d2b2d93
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:48.926411+00:00'
+      source_modified_at: '2020-06-29T10:43:38+02:00'
+  status: ACTIVE

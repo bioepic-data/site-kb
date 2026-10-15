@@ -1,0 +1,505 @@
+{
+  "source_url": "https://deims.org/api/sites/32f08dc2-9cef-4a03-9d29-912fa2719224",
+  "retrieved_at": "2026-10-15T17:37:55.146533+00:00",
+  "record": {
+    "title": "Lake Balaton LTER Site, Balaton LTER - Hungary",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "32f08dc2-9cef-4a03-9d29-912fa2719224"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:00:46+01:00",
+    "changed": "2025-01-07T11:14:56+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Hungary",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "0615a89f-2883-47ab-8cd0-2508f413cab7"
+              }
+            },
+            "siteCode": "LTER_EU_HU_005",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "Natura 2000",
+            "uri": "https://natura2000.eea.europa.eu/"
+          },
+          {
+            "label": "Ramsar Convention on Wetlands",
+            "uri": "https://www.ramsar.org"
+          },
+          {
+            "label": "eLTER (H2020)",
+            "uri": "https://cordis.europa.eu/project/id/654359"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Viktor Tóth",
+            "email": "toth.viktor@blki.hu",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Balaton Limnological Research Institute",
+            "url": "https://www.blki.hu/en",
+            "ror": "https://ror.org/02pnhwp93"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Viktor Tóth",
+            "email": "toth.viktor@blki.hu",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.blki.hu/en"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Balaton LTSER Platform is dedicated to the study of the largest shallow lake in Eastern Europe, situated in the mid-western part of Hungary. The site, which is a popular holiday resort, consists of the lake and its watershed. Lake Balaton went through considerable changes in trophic state during the past decades. After a period of anthropogenic eutrophication from the late 1960s until the mid '90s, restoration measures aimed at reducing the nutrient load reaching the lake led to gradual reoligotrophication. The Balaton Limnological Research Institute, situated on the Tihany peninsula, had an important role in improving the water quality and the ecological status of the lake by providing sound scientific knowledge for the decision-makers and the general public.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1927,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Balaton LTSER - Hungary",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "30e906bb-7ed6-4fee-8ae9-539db55dfd35"
+                },
+                "changed": "2025-01-07T11:11:07+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Lake Balaton LTER Site, Balaton LTER",
+        "shortName": "hu_ba_ba",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.4,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 621,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "pannonian",
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Large lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Surface standing waters (C1)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": "Geology of the catchment area is detailed at Balaton LTSER.",
+        "hydrology": "The Zala River provides the largest inflow of water to the lake, and the canalized Sió is the only outflow.",
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((17.258878788671 46.703420712134, 17.25719090835 46.703711196602, 17.256908283556 46.703945070015, 17.246564511675 46.713532199375, 17.246221929144 46.71399511898, 17.245410119561 46.715170130979, 17.245179646888 46.71556765793, 17.244600114501 46.716776472796, 17.244467103632 46.717880677351, 17.243289820142 46.7324223031, 17.24332378715 46.732938728976, 17.244884236362 46.746961047764, 17.245939496775 46.752133929017, 17.24766420219 46.754000503882, 17.250087878327 46.756499014848, 17.25527656367 46.761222215702, 17.25622474036 46.76195320734, 17.256307257874 46.762009362475, 17.261032474054 46.765097398653, 18.035596266193 47.06287913554, 18.035691711453 47.062913778729, 18.036271044105 47.062970579502, 18.115753679426 47.03151139228, 18.138691508685 47.021657257418, 18.159526042485 47.0116188728, 18.15991502631 47.011416452818, 18.160098621857 47.011294550433, 18.160284775431 47.01113192125, 18.160920140966 47.010383457723, 18.161096954031 47.010169482483, 18.165480905919 47.004136770322, 18.168441548181 46.996126296225, 18.167757453976 46.99302949725, 18.167642430231 46.992556249643, 18.166514449291 46.988289928365, 18.166453122631 46.988060840186, 18.163194737875 46.977091886099, 18.160664832739 46.97142341193, 18.160498000724 46.971093720858, 18.159566280678 46.969356373682, 18.159502039883 46.969250418284, 18.158793094533 46.968094415547, 18.156896090984 46.965115074697, 18.156845809274 46.965041109787, 18.156686629486 46.964829702555, 18.1528340054 46.959773779875, 18.152380760924 46.959196948327, 18.148422585262 46.954535728729, 18.148254392164 46.954344560743, 18.143149356891 46.950124958238, 18.138720819239 46.946649037208, 18.137645507131 46.945841166326, 18.13363057239 46.94327327232, 18.130780061283 46.941477373087, 18.126879527814 46.939124427367, 18.126755168717 46.939053796885, 18.126382363347 46.938843469844, 18.125889564712 46.938568379551, 18.119914034449 46.935251643027, 18.115862403941 46.93309053717, 18.115708471196 46.933010290136, 18.113434021518 46.931887891318, 18.111568247199 46.930980165402, 18.110783428368 46.930599213965, 17.747086702703 46.803349758841, 17.504584063535 46.721914443082, 17.495925785482 46.719178344713, 17.495444067608 46.719033539147, 17.476573068546 46.714196119788, 17.455194285325 46.709445028473, 17.453368933921 46.709074646783, 17.43792780427 46.706287968913, 17.435381717277 46.70586286072, 17.435139077386 46.705833888444, 17.411473260152 46.704711169629, 17.393957927682 46.70431458483, 17.258878788671 46.703420712134))",
+        "coordinates": "POINT (17.7 46.8333)",
+        "country": [
+          "Hungary"
+        ],
+        "elevation": {
+          "avg": 104,
+          "min": 104,
+          "max": 104,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 59400,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "bacillariophyceae abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10083"
+          },
+          {
+            "label": "bacillariophyceae biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10120"
+          },
+          {
+            "label": "bacillariophyceae biovolume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22070"
+          },
+          {
+            "label": "bacillariophyceae species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10086"
+          },
+          {
+            "label": "bacteria abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22026"
+          },
+          {
+            "label": "bacteria presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10122"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "disturbance pattern",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21473"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "lake level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22141"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "leaf area ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22158"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "plant cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22188"
+          },
+          {
+            "label": "plant development stage",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22190"
+          },
+          {
+            "label": "secchi depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22226"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species group abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10021"
+          },
+          {
+            "label": "species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10081"
+          },
+          {
+            "label": "species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22287"
+          },
+          {
+            "label": "specific conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22289"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 14,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 14
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Spatial database (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          },
+          {
+            "label": "Unstructured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "The opportunity to collaborate on the project using the dataset",
+              "Mutual agreement on reciprocal sharing of data"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

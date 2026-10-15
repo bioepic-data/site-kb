@@ -1,0 +1,220 @@
+{
+  "source_url": "https://deims.org/api/sites/32c023e0-e828-4152-9942-d65d64c97b8e",
+  "retrieved_at": "2026-10-15T17:48:12.636543+00:00",
+  "record": {
+    "title": "Martha Creek NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "32c023e0-e828-4152-9942-d65d64c97b8e"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-18T09:43:10+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "MART",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Ben Vierra",
+            "email": "bvierra@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/mart"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Martha Creek (MART) is an aquatic NEON field site located just north of the Columbia River Gorge in Gifford Pinchot National Forest. Martha Creek is a third-order wadeable stream that drains a 6.34 km2 (1570 acre) watershed and is a tributary of Trout Creek. The land is managed by the U.S. Forest Service. The watershed is dominated by old-growth coniferous forest and is designated a Tier I Key Watershed in the Northwest Forest Plan due to its importance in supporting threatened native fish populations. The 2012 removal of a dam to improve fish passage in the creek allows for the study of aquatic habitat restoration. MART is located in NEON's Pacific Northwest Domain (D16), which is bounded by the Pacific on the west and Canada on the north. It includes the eastern halves of Washington and Oregon and parts of northern California. The Domain hosts three other field sites: one additional aquatic and two terrestrial. MART is near the WREF terrestrial site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2017,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Martha Creek NEON",
+        "shortName": "MART",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/48754542218_809d2ace9e_b.jpg",
+            "alt": "Martha Creek"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/48793642067_b737ec3ba5_h.jpg",
+            "alt": "Hemlocks over creek"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 9.6,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2329,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Evergreen Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Rivers",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": "Martha Creek’s geology is primarily volcanic, featuring basalt and andesite bedrock with colluvial and glacial till.",
+        "hydrology": "Martha Creek’s drainage is largely in the “rain-on-snow” elevation zone, where alternating periods of snow accumulation and snowmelt are common throughout the winter. As a result, streamflow in Martha Creek typically peaks in response to these events in the late fall, winter, and spring, and decreases to annual lows during the summer dry season.",
+        "soils": "The substrate in Martha Creek is dominated by cobbles, including riffles and pool habitats.",
+        "vegetation": "The mild, wet climate of lowland valleys in the Western Cascades promotes the growth of dense western hemlock-Douglas fir forests which give way to mountain hemlock, noble fir and Pacific silver fir at higher elevations. The riparian area at Martha Creek consists of mixed deciduous forest of red alder (Alnus rubra), Pacific dogwood (Cornus nuttallii), and large conifers including Western hemlock (Tsuga heterophylla) and Pacific silver fir (Abies amabilis). Some areas of the stream bank have dense growth of understory shrubs and devil’s club (Oplopanax horridus)."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-121.93196 45.79125)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 434,
+          "min": 300,
+          "max": 1008,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 767,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": null,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

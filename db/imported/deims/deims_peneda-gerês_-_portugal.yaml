@@ -1,0 +1,65 @@
+sites:
+- id: site_kb:deims-peneda-gerês_-_portugal
+  name: Peneda-Gerês - Portugal
+  network_registrations:
+  - network: DEIMS
+    network_id: b1b47b83-fac5-4ca9-be17-65e367a70c58
+    network_url: https://deims.org/b1b47b83-fac5-4ca9-be17-65e367a70c58
+    name: Peneda-Gerês - Portugal
+  location:
+    latitude: 41.8386561
+    longitude: -8.2415908
+    country: Portugal
+  description: "The National Park covers ca. 70 000 hectares and was founded in 1971.\
+    \ It is located at a climatic transition zone (the climate is Temperate/Atlantic\
+    \ Sub-Mediterranean), with 1-2 dry months in summer. Annual rainfall is usually\
+    \ above 2000 mm, reaching 3500 mm in summits. Granite is by far the dominant bedrock\
+    \ type. The main ecosystem/land cover types are deciduous oak forests, heathland\
+    \ and scrub, meadows and rock outcrops (in highlands), and forest plantations,\
+    \ scrub, urban and agriculture (in lowlands).\r\nThis site is the only national\
+    \ park in the country, with over 40 years of experience in conservation and management,\
+    \ and since 1997 also part of a transnational park and of a UNESCO Biosphere Reserve\
+    \ (Gerês-Xurés). Also a Natura site (both SCI and SPA). It holds one of the highest\
+    \ diversity of Annex I habitat types in the country. The Park hosts several plant\
+    \ and animal species of high conservation value, including the Iberian wolf (EU\
+    \ priority species) and many other Iberian endemic species of fauna and flora.\
+    \ Also important for several European plant species having their only national\
+    \ occurrence in the National Park. High potential for rewilding in the highest\
+    \ elevations where human activities and only occasional.\r\n\r\nAvailable measurements\
+    \ include: updated land cover and Annex I habitat maps (1:10 000 and 1:25 000\
+    \ scales; for multiple dates); many data available on plant and animal diversity;\
+    \ several PhD projects developed in the Park over the last 15 years; reasonable\
+    \ coverage of climatic stations; geological maps and soil maps available at various\
+    \ scales; low and medium resolution satellite imagery available, and a few HR\
+    \ and VHR satellite images available from previous projects.\r\n\r\nMain drivers\
+    \ of change (and potential threats) in highlands are farmland and pastoral abandonment,\
+    \ infrastructures (wind farms), changes in wildfire regimes. In lowlands, the\
+    \ key drivers/threats are intensive forestry, expansion of non-native invasive\
+    \ plants, urban development, tourism and infrastructures. Climate change may become\
+    \ an important driver throughout the Park due to its elevation range and climatic\
+    \ transitional situation."
+  variables:
+  - name: above ground net primary production
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground net primary production
+      record_url: https://deims.org/api/sites/b1b47b83-fac5-4ca9-be17-65e367a70c58
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10043
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:03.886592+00:00'
+      source_modified_at: '2020-12-16T15:20:04+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/b1b47b83-fac5-4ca9-be17-65e367a70c58
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:03.886592+00:00'
+      source_modified_at: '2020-12-16T15:20:04+01:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

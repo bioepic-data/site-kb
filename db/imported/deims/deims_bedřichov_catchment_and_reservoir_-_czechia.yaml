@@ -1,0 +1,164 @@
+sites:
+- id: site_kb:deims-bedřichov_catchment_and_reservoir_-_czechia
+  name: Bedřichov catchment and reservoir - Czechia
+  network_registrations:
+  - network: DEIMS
+    network_id: 58923a61-9633-4d06-b147-65d45d2919d3
+    network_url: https://deims.org/58923a61-9633-4d06-b147-65d45d2919d3
+    name: Bedřichov catchment and reservoir - Czechia
+  location:
+    latitude: 50.8306642
+    longitude: 15.1507544
+    country: Czechia
+    elevation_meters: 825.0
+  description: Uhlířská (Jizerské Mts.) is a typical mountain catchment underlain
+    by acidic bedrock and strongly acidified during the second half of the 20th century.
+    Two thirds of the catchment were deforested in 1980s and subsequently reforested
+    by Norway spruce (Picela abies) monoculture. Research here has been mostly focused
+    on fluxes of ecologically important elements and water. The monitored characteristics
+    include bulk and throughfall precipitation amount and chemistry, runoff amount
+    and chemistry as well as soil chemistry, forest biomass and element pools but
+    also plant community composition. Biogeochemical (MAGIC) and hydrological models
+    (BROOK90) have been applied to predict future chemistry and hydrology under different
+    scenarios of atmospheric deposition, forest growth and climate change. Hydrological
+    processes of surface and subsurface runoff formation are studied in the catchment
+    as a whole and in detail at the experimental hillslope Tomšovka using standard
+    hydrologic and isotopic methods, incl. water transit time evaluation and groundwater
+    age dating. Hydrology research focuses on water and heat flux in soil profile
+    as well as on processes in the soil-plant-atmosphere system. Geophysical methods
+    are used to reveal subsurface structures.
+  variables:
+  - name: above ground biomass
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground biomass
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: nitrogen content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nitrogen content
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22174
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: physical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: physical parameter
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20938
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: runoff amount
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: runoff amount
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/30032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species composition
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22285
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: surface runoff
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: surface runoff
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/21510
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: total organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total organic carbon
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22297
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: tree diameter at breast height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter at breast height
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22304
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+      source_modified_at: '2025-11-24T12:36:36+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

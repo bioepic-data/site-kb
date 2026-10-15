@@ -1,0 +1,311 @@
+{
+  "source_url": "https://deims.org/api/sites/534b50b8-fe7d-433c-a9b9-85b8bb1f60a7",
+  "retrieved_at": "2026-10-15T17:47:19.523212+00:00",
+  "record": {
+    "title": "Northern Gulf of Alaska - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "534b50b8-fe7d-433c-a9b9-85b8bb1f60a7"
+    },
+    "type": "site",
+    "created": "2019-10-14T23:45:46+02:00",
+    "changed": "2020-06-29T10:43:41+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "LTER_NGA",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Elizabeth Dobbins",
+            "email": "eldobbins@alaska.edu",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Russell Hopcroft",
+            "email": "rrhopcroft@alaska.edu",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Chris Turner",
+            "email": "chris@axiomdatascience.com",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://nga.lternet.edu/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "In the NGA study area, the biological community is highly productive. The lower levels of the food chain (phytoplankton and zooplankton) support the iconic fish, crabs, seabirds, and marine mammals of Alaska. Large increases in phytoplankton during the spring and sustained production during the summer support zooplankton that transfer energy up the food chain. Substantial amounts of this organic matter also sink to feed animals on the sea bottom.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2017,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Northern Gulf of Alaska",
+        "shortName": "NGA",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/northern-gulf-alaska-united-states-america_6843.png",
+            "alt": "The NGA site within the North Pacific "
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1824,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Polar",
+            "uri": null
+          },
+          {
+            "label": "Temperate shelfs and seas",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          },
+          {
+            "label": "Pelagic water column (A7)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine",
+          "Coastal"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-152.29248046875 57.810821612445, -150.93017578125 57.220797797531, -143.67919921875 59.412665992986, -144.64599609375 60.382375941688, -147.45849609375 62.032864899146, -152.29248046875 57.810821612445))",
+        "coordinates": "POINT (-149 59)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 0,
+          "min": -4300,
+          "max": 0,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "current direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30026"
+          },
+          {
+            "label": "current speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30027"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "oxygen concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30179"
+          },
+          {
+            "label": "runoff amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30032"
+          },
+          {
+            "label": "sedimentation rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22227"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transmissivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22314"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 1,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Daily",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Marine Platform",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Snow clearing equipment",
+            "uri": null
+          },
+          {
+            "label": "Temperature Controlled Container",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The opportunity to collaborate on the project using the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

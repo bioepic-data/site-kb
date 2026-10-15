@@ -1,0 +1,200 @@
+{
+  "source_url": "https://deims.org/api/sites/22edfaa2-52be-48f0-aa0e-fddeaed6a5c2",
+  "retrieved_at": "2026-10-15T17:44:05.694560+00:00",
+  "record": {
+    "title": "Kiso River - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "22edfaa2-52be-48f0-aa0e-fddeaed6a5c2"
+    },
+    "type": "site",
+    "created": "2016-06-04T12:18:28+02:00",
+    "changed": "2023-10-06T09:26:02+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-50",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Center for Ecological Research, Kyoto University",
+            "url": "https://www.ecology.kyoto-u.ac.jp/en/index.html",
+            "ror": null
+          }
+        ],
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The Kiso Rivor has 5275 km2 water catchment area and runs in central Japan. The length is 229 km.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2007,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Kiso River",
+        "shortName": "Kiso River",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1884.9,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Large river headwaters",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Permanent non-tidal, fast, turbulent watercourses (C2.2)",
+            "uri": null
+          },
+          {
+            "label": "Surface running waters (C2)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (137.684732 35.839016)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": 0,
+          "max": 2446,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 527500,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 700,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 700
+        },
+        "notes": "Laboratory, accommodation, microscope",
+        "collection": [
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of beds",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of places",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

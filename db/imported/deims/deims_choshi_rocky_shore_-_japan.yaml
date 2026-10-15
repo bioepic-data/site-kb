@@ -1,0 +1,76 @@
+sites:
+- id: site_kb:deims-choshi_rocky_shore_-_japan
+  name: Choshi Rocky Shore - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 11d1a852-ccae-44f3-a6bd-22dd67fb2d3e
+    network_url: https://deims.org/11d1a852-ccae-44f3-a6bd-22dd67fb2d3e
+    name: Choshi Rocky Shore - Japan
+  location:
+    latitude: 35.695
+    longitude: 140.858
+    country: Japan
+    elevation_meters: 0.0
+  description: Choshi JaLTER site locate along the Pacific coast of Chiba Prefecture,
+    Central Honshu. The coastal site consists of various types of habitats, including
+    algal and seagrass beds, rocky intertidal and subtidal bottoms, boulder shore
+    and high energy sandy beach. This site locates the region where the warm Kuroshio
+    and the cold Oyashio meet, and is characterized by the co-occurrence of warm-water
+    and cold-water derived marine organisms.
+  variables:
+  - name: community composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: community composition
+      record_url: https://deims.org/api/sites/11d1a852-ccae-44f3-a6bd-22dd67fb2d3e
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22086
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:10.348948+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  - name: diversity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diversity index
+      record_url: https://deims.org/api/sites/11d1a852-ccae-44f3-a6bd-22dd67fb2d3e
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/21513
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:10.348948+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/11d1a852-ccae-44f3-a6bd-22dd67fb2d3e
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:10.348948+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  - name: species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species composition
+      record_url: https://deims.org/api/sites/11d1a852-ccae-44f3-a6bd-22dd67fb2d3e
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22285
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:10.348948+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  - name: species richness
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species richness
+      record_url: https://deims.org/api/sites/11d1a852-ccae-44f3-a6bd-22dd67fb2d3e
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22287
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:10.348948+00:00'
+      source_modified_at: '2020-06-29T10:39:10+02:00'
+  status: ACTIVE

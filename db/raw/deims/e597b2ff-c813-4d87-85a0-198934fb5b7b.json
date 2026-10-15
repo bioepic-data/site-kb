@@ -1,0 +1,264 @@
+{
+  "source_url": "https://deims.org/api/sites/e597b2ff-c813-4d87-85a0-198934fb5b7b",
+  "retrieved_at": "2026-10-15T17:42:14.279073+00:00",
+  "record": {
+    "title": "Round Loch of Glenhead - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "e597b2ff-c813-4d87-85a0-198934fb5b7b"
+    },
+    "type": "site",
+    "created": "2013-12-06T12:55:38+01:00",
+    "changed": "2023-07-28T11:14:57+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_7",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Round Loch of Glenhead on UWMN",
+            "value": "https://uwmn.uk/round-loch-glenhead"
+          },
+          {
+            "title": "Round Loch of Glenhead on UK Lakes Portal",
+            "value": "https://eip.ceh.ac.uk/apps/lakes/detail.html?wbid=27927"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK Upland Waters Monitoring Network (UK UWMN) site. The site lies at 298 m altitude in the Galloway region of south-west Scotland. The loch is 12.7 ha in area and receives drainage from minor streams and catchment blanket peats. The outflow drains to the south-west into the Glenhead Burn and Loch Trool. The loch bathymetry indicates a single deep basin (maximum depth 13.5 m) offset to the south with slopes rising gently away from the southern shore. An island is located just off the western shore some 250 m from the outflow. Some data are managed by UK ECN Data Centre.  Note: The area is the size of the catchment. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1988,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Round Loch of Glenhead",
+        "shortName": "UWMN_07",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category IV – Habitat/Species Management Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/IV"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 7.3,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2300,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": "Tonalite; tonalite/granite",
+        "hydrology": "The site lies at 298 m altitude in the Galloway region of south-west Scotland. The loch is 12.7 ha in area and receives drainage from minor streams and catchment blanket peats. The outflow drains to the south-west into the Glenhead Burn and Loch Trool. The loch bathymetry indicates a single deep basin (maximum depth 13.5 m) offset to the south with slopes rising gently away from the southern shore. An island is located just off the western shore some 250 m from the outflow.",
+        "soils": "Peat; peaty podsols",
+        "vegetation": "Unforested moorland dominated by Molinia, Erica and Trichophorum with Calluna, Nardus and Potentilla"
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-4.43419 55.0961, -4.42706 55.0961, -4.42706 55.0909, -4.43419 55.0909, -4.43419 55.0961))",
+        "coordinates": "POINT (-4.43032 55.0934)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 298,
+          "min": 298,
+          "max": 298,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 90,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "animal species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10336"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "chemical composition of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21213"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22121"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "plant species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10335"
+          },
+          {
+            "label": "plant species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10341"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "Chemistry sampled monthly. Biological measurements made annually",
+          "siteVisitInterval": 30
+        },
+        "notes": " There is accommodation nearby ",
+        "collection": [
+          {
+            "label": "Other data services",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

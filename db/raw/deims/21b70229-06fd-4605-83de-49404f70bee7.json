@@ -1,0 +1,675 @@
+{
+  "source_url": "https://deims.org/api/sites/21b70229-06fd-4605-83de-49404f70bee7",
+  "retrieved_at": "2026-10-15T17:49:21.460796+00:00",
+  "record": {
+    "title": "Brigalow Catchment Study - Australia",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "21b70229-06fd-4605-83de-49404f70bee7"
+    },
+    "type": "site",
+    "created": "2023-09-08T07:37:08+02:00",
+    "changed": "2023-09-21T08:33:36+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "TERN Australia",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1ebec4aa-df7e-4657-84b6-1869c0b9437c"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Amanda Elledge",
+            "email": "Amanda.Elledge@des.qld.gov.au",
+            "orcid": "0000-0003-2813-4898"
+          },
+          {
+            "type": "person",
+            "name": "Craig Thornton",
+            "email": "Craig.Thornton@des.qld.gov.au",
+            "orcid": "0000-0003-1927-9198"
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Queensland Department of Environment and Science",
+            "url": "https://www.des.qld.gov.au/",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Craig Thornton",
+            "email": "Craig.Thornton@des.qld.gov.au",
+            "orcid": "0000-0003-1927-9198"
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Click here to access the Brigalow Catchment Study website",
+            "value": "https://brigalowcatchmentstudy.com/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The aim of the Brigalow Catchment Study is to determine the effects of land clearing and land use change on hydrology, water quality, soil fertility and crop and animal productivity in the Brigalow Belt bioregion of central Queensland, Australia",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1965,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Brigalow Catchment Study",
+        "shortName": "BCS",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category VI – Protected Area with sustainable use of natural resources",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/VI"
+          },
+          {
+            "label": "not applicable",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/notApplicable"
+          }
+        ],
+        "landUse": [
+          {
+            "label": "agriculture",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_Agriculture"
+          },
+          {
+            "label": "commercial agricultural production",
+            "uri": "http://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_1_CommercialAgriculturalProduction"
+          },
+          {
+            "label": "land areas not in other economic use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_1_LandAreasNotInOtherEconomicUse"
+          },
+          {
+            "label": "natural areas not in other economic use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_NaturalAreasNotInOtherEconomicUse"
+          },
+          {
+            "label": "other uses",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_5_AreasWithoutAnySpecifiedPlannedUse"
+          },
+          {
+            "label": "primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2023-09/BCS_Aerial.jpg",
+            "alt": "An aerial image of the Brigalow Catchment Study"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": null,
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (149.796009 -24.81624)",
+        "country": [
+          "Australia"
+        ],
+        "elevation": {
+          "avg": 155,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 300,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "aggregate size distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22031"
+          },
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "albedo",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21351"
+          },
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "ammonium nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10076"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "available phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22061"
+          },
+          {
+            "label": "available water capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21544"
+          },
+          {
+            "label": "base cations content in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21208"
+          },
+          {
+            "label": "base saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22065"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "body weight",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21368"
+          },
+          {
+            "label": "carbon to nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21933"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "cation exchange capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22084"
+          },
+          {
+            "label": "chemical composition of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21213"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "concentration of nitrogen in seeds",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22087"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "dissolved organic nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10125"
+          },
+          {
+            "label": "dissolved organic phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22108"
+          },
+          {
+            "label": "dry matter yield",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21198"
+          },
+          {
+            "label": "dryland salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22110"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "electrical conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21552"
+          },
+          {
+            "label": "grain size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21407"
+          },
+          {
+            "label": "grain weight",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21408"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "groundwater level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "habitat degradation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21487"
+          },
+          {
+            "label": "harvest index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/1320"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "inorganic nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22136"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "insoluble organic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22138"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "land cover type",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10241"
+          },
+          {
+            "label": "land use",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22143"
+          },
+          {
+            "label": "land use intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22144"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "nitrogen balance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20969"
+          },
+          {
+            "label": "nitrogen budget",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20970"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "nutrient availability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21457"
+          },
+          {
+            "label": "nutrient concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22176"
+          },
+          {
+            "label": "nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22177"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22182"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "perched water table depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22184"
+          },
+          {
+            "label": "physical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20938"
+          },
+          {
+            "label": "plant cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22188"
+          },
+          {
+            "label": "rainfall variability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21948"
+          },
+          {
+            "label": "remote sensing parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20946"
+          },
+          {
+            "label": "runoff amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30032"
+          },
+          {
+            "label": "seed yield",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22233"
+          },
+          {
+            "label": "seedling survival rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22235"
+          },
+          {
+            "label": "soil base saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22244"
+          },
+          {
+            "label": "soil bulk density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22245"
+          },
+          {
+            "label": "soil carbon storage",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22246"
+          },
+          {
+            "label": "soil classification",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21909"
+          },
+          {
+            "label": "soil depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22247"
+          },
+          {
+            "label": "soil dry bulk density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22248"
+          },
+          {
+            "label": "soil fertility",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21461"
+          },
+          {
+            "label": "soil gravimetric water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22252"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil moisture field capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10396"
+          },
+          {
+            "label": "soil nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22259"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "soil organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22261"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil particle size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22265"
+          },
+          {
+            "label": "soil profile water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22268"
+          },
+          {
+            "label": "soil salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22270"
+          },
+          {
+            "label": "soil solution pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22276"
+          },
+          {
+            "label": "soil volumetric water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22280"
+          },
+          {
+            "label": "soil water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22281"
+          },
+          {
+            "label": "stage height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22290"
+          },
+          {
+            "label": "surface runoff",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21510"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "thickness of soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22295"
+          },
+          {
+            "label": "total acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21449"
+          },
+          {
+            "label": "total alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21451"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "tree age",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22300"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water turbidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21217"
+          },
+          {
+            "label": "water volume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22316"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 90,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": "Real time data collection for hydrology.\r\nDiscrete sampling for water quality, soil fertility, and crop, animal and pasture productivity.",
+          "siteVisitInterval": 30
+        },
+        "notes": "HL flumes.\r\nWater height pressure transducers.\r\nISCO water samplers.\r\nCosmOz soil water sensors.",
+        "collection": [
+          {
+            "label": "1 - 5 beds",
+            "uri": null
+          },
+          {
+            "label": "2 - 5 places",
+            "uri": null
+          },
+          {
+            "label": "All over site/catchment",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "Less than 1 kW",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Proprietary file format",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Satellite",
+            "uri": null
+          },
+          {
+            "label": "Spatial database (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description",
+              "Formal acknowledgement of the dataset providers",
+              "The opportunity to collaborate on the project using the dataset",
+              "The opportunity to review the results based on the dataset",
+              "The dataset provider is given a complete list of all products that make use of the dataset",
+              "Mutual agreement on reciprocal sharing of data",
+              "The data provider is given and agrees to a statement of uses to which the dataset will be put"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

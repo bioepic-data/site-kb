@@ -1,0 +1,86 @@
+sites:
+- id: site_kb:deims-florida_coastal_everglades_-_united_states_of_america
+  name: Florida Coastal Everglades - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: e3c6768b-ae4b-4069-aecb-7385438af452
+    network_url: https://deims.org/e3c6768b-ae4b-4069-aecb-7385438af452
+    name: Florida Coastal Everglades - United States of America
+  location:
+    latitude: 25.286389
+    longitude: -80.893056
+    country: United States of America
+    elevation_meters: 1.8
+  description: The majority of Florida Coastal Everglades LTER sites are located in
+    freshwater marsh, estuarine mangroves, seagrass estuary ecosystems in Everglades
+    National Park. Everglades National Park covers approximately 4300 km² of south
+    Florida and is part of the greater Everglades ecosystem which extends north to
+    Lake Okeechobee and the Kissimmee River.
+  variables:
+  - name: above ground net primary production
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground net primary production
+      record_url: https://deims.org/api/sites/e3c6768b-ae4b-4069-aecb-7385438af452
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10043
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:43.756202+00:00'
+      source_modified_at: '2023-07-25T10:24:50+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/e3c6768b-ae4b-4069-aecb-7385438af452
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:43.756202+00:00'
+      source_modified_at: '2023-07-25T10:24:50+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/e3c6768b-ae4b-4069-aecb-7385438af452
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:43.756202+00:00'
+      source_modified_at: '2023-07-25T10:24:50+02:00'
+  - name: fire severity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: fire severity index
+      record_url: https://deims.org/api/sites/e3c6768b-ae4b-4069-aecb-7385438af452
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22120
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:43.756202+00:00'
+      source_modified_at: '2023-07-25T10:24:50+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/e3c6768b-ae4b-4069-aecb-7385438af452
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:43.756202+00:00'
+      source_modified_at: '2023-07-25T10:24:50+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/e3c6768b-ae4b-4069-aecb-7385438af452
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:43.756202+00:00'
+      source_modified_at: '2023-07-25T10:24:50+02:00'
+  status: ACTIVE

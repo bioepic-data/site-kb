@@ -1,0 +1,244 @@
+sites:
+- id: site_kb:deims-river_eden_cumbria_-_united_kingdom
+  name: River Eden (Cumbria) - United Kingdom
+  network_registrations:
+  - network: DEIMS
+    network_id: 237d419d-ae65-4132-a07b-83727e52c751
+    network_url: https://deims.org/237d419d-ae65-4132-a07b-83727e52c751
+    name: River Eden (Cumbria) - United Kingdom
+  location:
+    latitude: 54.6333
+    longitude: -2.6
+    country: United Kingdom
+    elevation_meters: 447.0
+  description: UK ECN site.  The river rises south of Kirkby Stephen on the Cumbria/Yorkshire
+    border and flows northwards to Carlisle before discharging to the Solway Firth.
+    The eastern part of the catchment is drained by short, relatively steep streams
+    from the Pennines; the western part includes tributaries of the Eamont system
+    which arise in the eastern hills of the Lake District, and the major lakes, Ullswater
+    and Haweswater. The catchment is largely rural, with farming the main industry.
+    There are significant settlements on the upper part of the river at Kirkby Stephen
+    and Appleby-in-Westmorland. Water quality in the upper reaches is classified as
+    good and drinking water is abstracted to supply the city of Carlisle. The river
+    is excellent for salmon (Salmo salar) fishing and also supports a sea trout (Salmo
+    trutta) run. Many other species of fish are also found, eg brown trout (Salmo
+    trutta fario), grayling (Thymallus thymallus), chub (Leuciscus cephalus), dace
+    (Leuciscus leuciscus, eel, minnow (Phoxinus phoxinus), loach (Barbatula barbatula),
+    river lamprey (Lampetra fluviatilis), sea lamprey (Petromygon marinus), and brook
+    lamprey (Lampetra planeri), stickleback (Gasterosteus aculeatus) and bullhead
+    (Cottus gobio). Otters and native crayfish (Austropotamobius pallipes) are also
+    found in the Eden catchment. The Eden at Temple Sowerby is within the "River Eden
+    and Tributaries" SSSI, and is Special Area of Conservation (SAC) under the EC
+    Habitats and Species Directive. The sampling site is in an upland farming area
+    at an altitude of about 100 m AOD. The surrounding countryside is hilly, with
+    some woodlands, rising to the bare slopes of the Pennine hills to the east. These
+    have been mined for lead and silver in historic times, and gypsum is still extracted.
+    The underlying bedrock is Permo-Triassic Penrith Sandstone, with smaller tributaries
+    of the Eden draining from the surrounding Carboniferous Limestone. The market
+    town of Appleby, with a population of about 3000, is roughly 14 km away by road.
+    Its primary influence on the river is the discharge from the Sewage Treatment
+    Works 16 km upstream, which currently has secondary treatment and, since January
+    1999, phosphorus stripping of the wastewaters it receives. The ECN site is at
+    the Eden Bridge in Temple Sowerby, at NGR 3604 5282, where the A66 trunk road
+    crosses the river.
+  variables:
+  - name: ammonium content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ammonium content
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10071
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: dissolved nutrient
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved nutrient
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22107
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: inorganic nutrient content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: inorganic nutrient content
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22137
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: nitrogen content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nitrogen content
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22174
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: stage height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: stage height
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22290
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: suspended solids
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: suspended solids
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22293
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: total organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total organic carbon
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22297
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: water acidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water acidity
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22030
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: water alkalinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water alkalinity
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/10303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  - name: water transparency
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water transparency
+      record_url: https://deims.org/api/sites/237d419d-ae65-4132-a07b-83727e52c751
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/10392
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:38.210598+00:00'
+      source_modified_at: '2023-07-28T10:21:19+02:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

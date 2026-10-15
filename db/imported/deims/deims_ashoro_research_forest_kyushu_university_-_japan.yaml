@@ -1,0 +1,57 @@
+sites:
+- id: site_kb:deims-ashoro_research_forest_kyushu_university_-_japan
+  name: Ashoro Research Forest, Kyushu University - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 88502784-c478-480d-b42f-685da017fb91
+    network_url: https://deims.org/88502784-c478-480d-b42f-685da017fb91
+    name: Ashoro Research Forest, Kyushu University - Japan
+  location:
+    latitude: 43.304068
+    longitude: 143.507109
+    country: Japan
+    elevation_meters: 313.7
+  description: Ashoro Research Forest is located in Ashoro town (143° E, 43°33′′14′′N),
+    eastern Hokkaido, with a forest area of 3,713 hectares. The topography is hilly
+    with an altitude ranging from 114 m to 471 m above sea level. The nature of soil
+    is almost of the tuff strata derived from the Neogene Period and the horizontal
+    alternate strata of sandstone and shale. The natural vegetation consists of cool-temperate
+    deciduous broad-leaved tree species represented by Quercus crispula and Acer mono.
+    The area of artificial forest is about 1260 hectares and main species planted
+    is Larix kaempferi. Other tree species such as Abies sachalinensis,Picea glehni,
+    Picea abies, broad-leaved species are also planted.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/88502784-c478-480d-b42f-685da017fb91
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:09.588881+00:00'
+      source_modified_at: '2025-05-05T08:10:10+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/88502784-c478-480d-b42f-685da017fb91
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:09.588881+00:00'
+      source_modified_at: '2025-05-05T08:10:10+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/88502784-c478-480d-b42f-685da017fb91
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:09.588881+00:00'
+      source_modified_at: '2025-05-05T08:10:10+02:00'
+  status: ACTIVE

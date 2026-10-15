@@ -1,0 +1,41 @@
+sites:
+- id: site_kb:deims-ozcar-ri_h_-_hyderabad_-_india
+  name: OZCAR-RI H+ - Hyderabad - India
+  network_registrations:
+  - network: DEIMS
+    network_id: 5d8d9974-f627-469d-848b-b2034e297e8e
+    network_url: https://deims.org/5d8d9974-f627-469d-848b-b2034e297e8e
+    name: OZCAR-RI H+ - Hyderabad - India
+  location:
+    latitude: 17.294504
+    longitude: 78.920166
+    country: India
+    elevation_meters: 363.0
+  description: The Hyderabad Site comprises an aquifer in crystalline rocks in a weathering
+    profile characteristic of a tropical environment. The intense anthropic pressures
+    on groundwater resources have led to a need to develop tools for managing the
+    resource.
+  variables:
+  - name: groundwater level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: groundwater level
+      record_url: https://deims.org/api/sites/5d8d9974-f627-469d-848b-b2034e297e8e
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22126
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:42.554546+00:00'
+      source_modified_at: '2024-03-04T09:17:08+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/5d8d9974-f627-469d-848b-b2034e297e8e
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:42.554546+00:00'
+      source_modified_at: '2024-03-04T09:17:08+01:00'
+  status: ACTIVE

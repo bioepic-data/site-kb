@@ -1,0 +1,31 @@
+sites:
+- id: site_kb:deims-colognole_tos1_-_italy
+  name: Colognole TOS1 - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: fdd9b462-d2a9-441a-80a1-f4e8947f5577
+    network_url: https://deims.org/fdd9b462-d2a9-441a-80a1-f4e8947f5577
+    name: Colognole TOS1 - Italy
+  location:
+    latitude: 43.5094
+    longitude: 10.4386
+    country: Italy
+    elevation_meters: 150.0
+  description: Here we describe the characteristics of an observation plot within
+    Mediterranean Forests LTER Italy site. The name of the plot is TOS1 Colognole;
+    it belongs to the Italian branch of the ICP Forests network (CONECOFOR). It is
+    mainly represented by Quercus ilex
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/fdd9b462-d2a9-441a-80a1-f4e8947f5577
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:28.921324+00:00'
+      source_modified_at: '2023-10-26T13:52:46+02:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

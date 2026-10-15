@@ -1,0 +1,409 @@
+{
+  "source_url": "https://deims.org/api/sites/6f06d402-44a1-4876-8f7a-7f2549123314",
+  "retrieved_at": "2026-10-15T17:44:06.883705+00:00",
+  "record": {
+    "title": "Yamashiro Experimental Forest - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "6f06d402-44a1-4876-8f7a-7f2549123314"
+    },
+    "type": "site",
+    "created": "2016-06-04T12:45:18+02:00",
+    "changed": "2020-06-29T10:46:08+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-53",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Yuji Kominami",
+            "email": "kominy@ffpri.affrc.go.jp",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Forestry and Forest Products Research Institute",
+            "url": "http://www.ffpri.affrc.go.jp/en/",
+            "ror": "https://ror.org/044bma518"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Forestry and Forest Products Research Institute",
+            "url": "http://www.ffpri.affrc.go.jp/en/",
+            "ror": "https://ror.org/044bma518"
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Forestry and Forest Products Research Institute",
+            "url": "http://www.ffpri.affrc.go.jp/en/",
+            "ror": "https://ror.org/044bma518"
+          }
+        ],
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Suburban Kyoto",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2000,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Yamashiro Experimental Forest",
+        "shortName": "Yamashiro",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/2972.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 15.8,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1580,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Mixed Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((135.83839416504 34.786595426742, 135.83839416504 34.787018373219, 135.83787918091 34.787018373219, 135.83787918091 34.786595426742, 135.83839416504 34.786595426742))",
+        "coordinates": "POINT (135.840893 34.790246)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": 220,
+          "min": 180,
+          "max": 230,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1.6,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10043"
+          },
+          {
+            "label": "acid neutralising capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10310"
+          },
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "below ground autotrophic respiration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22066"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "canopy cover rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22076"
+          },
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "carbon dioxide flux per soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22083"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "deadwood decaying rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22101"
+          },
+          {
+            "label": "disturbance pattern",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21473"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "forest structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21477"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "leaf area ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22158"
+          },
+          {
+            "label": "leaf nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "litter residence time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10048"
+          },
+          {
+            "label": "methane concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22167"
+          },
+          {
+            "label": "microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22169"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "plant carbon concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22187"
+          },
+          {
+            "label": "plant development stage",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22190"
+          },
+          {
+            "label": "plant height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22192"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "root density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22216"
+          },
+          {
+            "label": "sapwood area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22220"
+          },
+          {
+            "label": "soil gas flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22251"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil moisture field capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10396"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "soil organic residual",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22262"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil respiration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22269"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "tree age",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22300"
+          },
+          {
+            "label": "tree basal area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22301"
+          },
+          {
+            "label": "tree condition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22302"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21587"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 7,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 7
+        },
+        "notes": "2 Flux towers(26m , 32m)",
+        "collection": [
+          {
+            "label": "5-10 kW",
+            "uri": null
+          },
+          {
+            "label": "All over site/catchment",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "More than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

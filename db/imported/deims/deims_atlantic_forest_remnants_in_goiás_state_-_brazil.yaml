@@ -1,0 +1,93 @@
+sites:
+- id: site_kb:deims-atlantic_forest_remnants_in_goiás_state_-_brazil
+  name: Atlantic Forest Remnants in Goiás State - Brazil
+  network_registrations:
+  - network: DEIMS
+    network_id: 8dfb2b7f-f950-4e17-b747-7ae7e6b9e0f3
+    network_url: https://deims.org/8dfb2b7f-f950-4e17-b747-7ae7e6b9e0f3
+    name: Atlantic Forest Remnants in Goiás State - Brazil
+  location:
+    latitude: -18.934928
+    longitude: -51.705112
+    country: Brazil
+    elevation_meters: 585.0
+  description: The PELD Jataí site is located in Atlantic Forest remnants in the southern
+    state of Goiás, Brazilian central plateau. Covering about 20,000 hectares of not
+    continuous forests, distributed among the geographic coordinates 18o 55'S and
+    51o 42'W, with altitudes ranging from 520 to 650 m. The fragments are mostly immersed
+    for pasture matrix. The climate is classified as Aw, tropical savanna, with marked
+    seasonality, rain in summer and dry in winter, typically found in the Brazilian
+    Cerrado. December and January are the months with the highest frequency of rainfall,
+    and June to August there is less rainfall intensities. The annual average rainfall
+    is 1650 mm. The site consists of different forest vegetation types in good conservation
+    status, as woody savanna, deciduous and semideciduous forests; flooded and non-flooded
+    gallery forests and riparian forests along the Rio Corrente, a tributary of the
+    Rio Paranaiba. There are also small fragments of cerrado stricto sensu.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/8dfb2b7f-f950-4e17-b747-7ae7e6b9e0f3
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:54.100736+00:00'
+      source_modified_at: '2020-06-29T10:38:58+02:00'
+  - name: plant height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant height
+      record_url: https://deims.org/api/sites/8dfb2b7f-f950-4e17-b747-7ae7e6b9e0f3
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22192
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:54.100736+00:00'
+      source_modified_at: '2020-06-29T10:38:58+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/8dfb2b7f-f950-4e17-b747-7ae7e6b9e0f3
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:54.100736+00:00'
+      source_modified_at: '2020-06-29T10:38:58+02:00'
+  - name: tree diameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter
+      record_url: https://deims.org/api/sites/8dfb2b7f-f950-4e17-b747-7ae7e6b9e0f3
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:54.100736+00:00'
+      source_modified_at: '2020-06-29T10:38:58+02:00'
+  - name: tree distribution
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree distribution
+      record_url: https://deims.org/api/sites/8dfb2b7f-f950-4e17-b747-7ae7e6b9e0f3
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/21587
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:54.100736+00:00'
+      source_modified_at: '2020-06-29T10:38:58+02:00'
+  - name: tree height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree height
+      record_url: https://deims.org/api/sites/8dfb2b7f-f950-4e17-b747-7ae7e6b9e0f3
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22305
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:54.100736+00:00'
+      source_modified_at: '2020-06-29T10:38:58+02:00'
+  status: ACTIVE

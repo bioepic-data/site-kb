@@ -1,0 +1,62 @@
+sites:
+- id: site_kb:deims-lter_delta_del_ebro_-_spain
+  name: LTER Delta del Ebro - Spain
+  network_registrations:
+  - network: DEIMS
+    network_id: abd23957-60f1-491f-8529-fab05d681f5a
+    network_url: https://deims.org/abd23957-60f1-491f-8529-fab05d681f5a
+    name: LTER Delta del Ebro - Spain
+  location:
+    latitude: 40.673119444444
+    longitude: 0.714316666667
+    country: Spain
+    elevation_meters: 3.0
+  description: 'This important wetland is a typical river delta that encompasses several
+    valuable habitats such as brackish coastal lagoons and salt marshes, wetlands,
+    coastal sandy areas and, to a lesser extent, some river islands and freshwater
+    springs (known as "ullals"). It is the largest and most important wetland in Catalonia
+    and one of the most remarkable, in extension and biodiversity, in the western
+    Mediterranean; it also has great importance for the maintenance of fisheries in
+    the region. From a biodiversity point of view the Ebro Delta has international
+    importance, holding some halophytes and aquatic plant communities (including a
+    large number of rare and endangered species), and several species of endemic threatened
+    fish, although the site is particularly noted for waterbirds: the population of
+    nesting waterfowl rises to 56,000 pairs, reaching the wintering numbers up to
+    200,000 individuals, and it is relevant the presence of the world’ largest colony
+    of the endemic Audouin''s Gull (60-70% of the world population).'
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/abd23957-60f1-491f-8529-fab05d681f5a
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:44.470364+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/abd23957-60f1-491f-8529-fab05d681f5a
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:44.470364+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/abd23957-60f1-491f-8529-fab05d681f5a
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:44.470364+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

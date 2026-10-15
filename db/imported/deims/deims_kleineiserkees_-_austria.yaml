@@ -1,0 +1,30 @@
+sites:
+- id: site_kb:deims-kleineiserkees_-_austria
+  name: Kleineiserkees - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: ab29ef62-1962-4d13-b56b-2af609c8f688
+    network_url: https://deims.org/ab29ef62-1962-4d13-b56b-2af609c8f688
+    name: Kleineiserkees - Austria
+  location:
+    latitude: 47.145944
+    longitude: 12.667429
+    country: Austria
+    elevation_meters: 2700.0
+  description: The Kleineiserkees has disintegrated into two small cirque glaciers
+    in the 2010s. They are located in the western Glocknergruppe in the upper Stubach
+    Valley.
+  variables:
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/ab29ef62-1962-4d13-b56b-2af609c8f688
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:30.852484+00:00'
+      source_modified_at: '2023-08-28T14:09:04+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

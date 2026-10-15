@@ -1,0 +1,57 @@
+sites:
+- id: site_kb:deims-reihoku_field_-_japan
+  name: Reihoku Field - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: e12677b5-a5b9-40ae-80f7-522be4aec673
+    network_url: https://deims.org/e12677b5-a5b9-40ae-80f7-522be4aec673
+    name: Reihoku Field - Japan
+  location:
+    latitude: 33.6333
+    longitude: 133.6
+    country: Japan
+    elevation_meters: 850.0
+  description: "This site is the university forest of Kochi University with an accommodation\
+    \  for 60 persons located close to the forest.\r\n60 % and 40% of the area was\
+    \ covered with conifer plantations (Japanese cedar and Japanese cypress) and secondary\
+    \ broad-leaved forests (both evergreen and deciduous, regenerated from charcoal\
+    \ production), respectively. The conifer plantation consists of small patches\
+    \ of various aged stands from just after planting to about 100 years of age. Now\
+    \ we are on the way of preparering a  patchwork of vegetation  at various stages\
+    \ of  succession. The small scale vegetation patchwork may be a distingushing\
+    \ feature of this site."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/e12677b5-a5b9-40ae-80f7-522be4aec673
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:16.669016+00:00'
+      source_modified_at: '2020-06-29T10:43:55+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/e12677b5-a5b9-40ae-80f7-522be4aec673
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:16.669016+00:00'
+      source_modified_at: '2020-06-29T10:43:55+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/e12677b5-a5b9-40ae-80f7-522be4aec673
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:16.669016+00:00'
+      source_modified_at: '2020-06-29T10:43:55+02:00'
+  status: ACTIVE

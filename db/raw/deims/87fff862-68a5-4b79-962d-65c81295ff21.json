@@ -1,0 +1,200 @@
+{
+  "source_url": "https://deims.org/api/sites/87fff862-68a5-4b79-962d-65c81295ff21",
+  "retrieved_at": "2026-10-15T17:41:33.457239+00:00",
+  "record": {
+    "title": "Vasshaglona - Norway",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "87fff862-68a5-4b79-962d-65c81295ff21"
+    },
+    "type": "site",
+    "created": "2014-11-28T00:00:00+01:00",
+    "changed": "2023-07-24T14:31:10+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Norway",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bc7c517b-3648-40cc-a04c-8c98d009c4a9"
+              }
+            },
+            "siteCode": "LTER_EU_NO_032",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Jannes Stolte",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Norwegian Institute of Bioeconomy Research (NIBIO)",
+            "url": "http://nibio.no",
+            "ror": "https://ror.org/04aah1z61"
+          }
+        ],
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Program for jord- og vannovervåking i landbruket (JOVA)",
+            "value": "http://nibio.no/jova"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "mixed agricultural catchment located in a vegetable district in the southernmost part of Norway, monitored by The Norwegian Agricultural Environmental Monitoring Programme (JOVA)",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1992,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Birkenes site cluster - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "e84ca4a3-42cc-43f3-8cc2-80b0a453e916"
+                },
+                "changed": "2025-03-28T12:12:43+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Vasshaglona",
+        "shortName": "JOVA Vasshaglona",
+        "siteType": null,
+        "protectionLevel": [
+          {
+            "label": "Category II – National Park",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/II"
+          }
+        ],
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/vas_malestasj2_smv.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 6.9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1230,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "boreal",
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (8.46 58.34)",
+        "country": [
+          "Norway"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": 5,
+          "max": 40,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 65,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "source_url": "https://deims.org/api/sites/2ecd078c-3bf8-4b70-8e0c-506c1116546e",
+  "retrieved_at": "2026-10-15T17:36:01.254993+00:00",
+  "record": {
+    "title": "Moorea Coral Reef LTER - French Polynesia",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "2ecd078c-3bf8-4b70-8e0c-506c1116546e"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:36:11+01:00",
+    "changed": "2020-12-18T10:57:06+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "LTER-NAM-US-25",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Andrew Brooks",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Moorea Coral Reef LTER",
+            "url": "http://mcr.lternet.edu",
+            "ror": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://mcr.lternet.edu"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Moorea Coral Reef LTER site encompasses the coral reef complex that surrounds the island of Moorea, French Polynesia (17°30'S, 149°50'W). Moorea is a small, triangular volcanic island 20 km west of Tahiti in the Society Islands of French Polynesia.\r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2005,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Moorea Coral Reef LTER",
+        "shortName": "MCR LTER",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/MCR_LTER_SchmittHolbrook_medium_jpg.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 25.9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1718,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "coastal",
+        "ecosystemType": [
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Tropical coral",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine"
+        ],
+        "geology": "Volcanic island.",
+        "hydrology": "Coral reef.",
+        "soils": "Coral-derived substrate and sand.",
+        "vegetation": "Algal."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-149.67 -17.38)",
+        "country": [
+          "French Polynesia"
+        ],
+        "elevation": {
+          "avg": 0,
+          "min": -20,
+          "max": 0,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 50000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10081"
+          },
+          {
+            "label": "species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22287"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "ltser"
+        }
+      }
+    }
+  }
+}

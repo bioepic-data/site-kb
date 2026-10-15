@@ -1,0 +1,30 @@
+sites:
+- id: site_kb:deims-ödenwinkelkees_-_austria
+  name: Ödenwinkelkees - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: e8bb84c0-280c-473e-902e-7d6c9055fb57
+    network_url: https://deims.org/e8bb84c0-280c-473e-902e-7d6c9055fb57
+    name: Ödenwinkelkees - Austria
+  location:
+    latitude: 47.1117
+    longitude: 12.6677
+    country: Austria
+    elevation_meters: 2700.0
+  description: 'The Ödenwinkelkees is a special glacier typ: a valley, cirque and
+    debris covered glacier on the main northern crest of the hohe Tauern in the upper
+    most stubach valley.'
+  variables:
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/e8bb84c0-280c-473e-902e-7d6c9055fb57
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:29.622010+00:00'
+      source_modified_at: '2025-10-15T13:54:14+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

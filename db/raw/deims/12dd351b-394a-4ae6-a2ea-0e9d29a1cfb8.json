@@ -1,0 +1,195 @@
+{
+  "source_url": "https://deims.org/api/sites/12dd351b-394a-4ae6-a2ea-0e9d29a1cfb8",
+  "retrieved_at": "2026-10-15T17:40:57.524188+00:00",
+  "record": {
+    "title": "River Etherow - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "12dd351b-394a-4ae6-a2ea-0e9d29a1cfb8"
+    },
+    "type": "site",
+    "created": "2013-12-06T15:59:15+01:00",
+    "changed": "2023-07-28T11:29:36+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "UK ECN",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "a197664f-569e-4df6-933a-86de676dbfc5"
+              }
+            },
+            "siteCode": "LTER_EU_UK_067",
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "UK Eutrophying and Acidifying atmospheric Pollutants network (UKEAP)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "47ccb7a9-ba65-4dd9-a564-4623d016d0ec"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_12",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "River Etherow on UWMN",
+            "value": "https://uwmn.uk/river-etherow"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK Upland Waters Monitoring Network (UK UWMN) site. Some data are managed by UK ECN Data Centre. Site description here: http://awmn.defra.gov.uk/sites/site_12.php. Note: The area is the size of the catchment. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1988,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "River Etherow",
+        "shortName": "UWMN_12",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category IV – Habitat/Species Management Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/IV"
+          },
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 7.2,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1600,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_rivers",
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": "Millstone grit",
+        "hydrology": "Situated in the Pennines east of Manchester, the upper catchment of the River Etherow drains an area of 1295 ha and flows into the Woodhead Reservoir, the first of a series of downstream reservoirs designed by John Frederick Bateman to supply water to the city. The altitude range is from 280 m at the sampling station to 620 m at the headwaters. The stream section utilised for biological sampling is c. 10 m wide and comprises a sequence of rapids and pools. The substrate is characterised by shallow bedrock ledges, large boulders and cobbles.",
+        "soils": "Peats; stagnohumic gleys; stagnopodsols",
+        "vegetation": "Moorland vegetation includes both improved and rough grazing land; Calluna and Vaccinium comprise the dominant vegetation with grasses (notably Agrostis and Molinia) and a scatter of deciduous trees (Betula and Quercus) accounting for the remaining areas."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-1.82528 53.493)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 456,
+          "min": 280,
+          "max": 633,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1295,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": null
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "Chemistry sampled monthly. Biological measurements made annually ",
+          "siteVisitInterval": 30
+        },
+        "notes": "Accommodation in nearby villages",
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

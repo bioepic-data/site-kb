@@ -1,0 +1,246 @@
+{
+  "source_url": "https://deims.org/api/sites/9c10bb93-74cc-4760-98fb-ec27dcf1ebcb",
+  "retrieved_at": "2026-10-15T17:44:29.376708+00:00",
+  "record": {
+    "title": "Lagamar - Brazil",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "9c10bb93-74cc-4760-98fb-ec27dcf1ebcb"
+    },
+    "type": "site",
+    "created": "2016-06-15T19:58:56+02:00",
+    "changed": "2021-11-18T10:49:22+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Brazil",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d22789fb-4663-4a77-a6ec-ddb279906cc9"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Fernando Passos",
+            "email": "tatopassos@gmail.com",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Mauricio Moura",
+            "email": "moura.ecologia@gmail.com",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Fundação Araucária",
+            "url": "http://www.fappr.pr.gov.br/",
+            "ror": null
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "Peld - Lagamar",
+            "value": "https://www.facebook.com/PELDLagamar"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The region of Lagamar covers the coast of Paraná and south of São Paulo, and comprises a complex that includes estuaries, mangroves, coastal lagoons, coastal rivers, salt marshes, lowland and mountain forests. It is a mosaic composed of 43 protected areas, which is the largest remnant of Atlantic Forest in the country. Despite this, some areas of the Lagamar went through a process of urbanization and agricultural expansion, which altered the natural systems on different scales. The areas studied are the Lauraceas State Park, the Cachoeira Natural Reserve, the Salto Morato Natural Reserve and the Guaraguaçu Reserve. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2012,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Lagamar",
+        "shortName": "Lag",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/PELD%2520Lagamar.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 21.2,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2118,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "rainforest",
+        "ecosystemType": [
+          {
+            "label": "Coastal",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-48.695833 -25.314167)",
+        "country": [
+          "Brazil"
+        ],
+        "elevation": {
+          "avg": 400,
+          "min": 10,
+          "max": 1200,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 3838.5,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "micro sites"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "plant height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22192"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "2 - 5 places",
+            "uri": null
+          },
+          {
+            "label": "6 - 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          },
+          {
+            "label": "Web Coverage Service (WCS)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Emerging Site"
+        }
+      }
+    }
+  }
+}

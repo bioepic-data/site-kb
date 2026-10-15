@@ -1,0 +1,73 @@
+sites:
+- id: site_kb:deims-mooring_d_western_ross_sea_terranova_bay_polynya_-_italy
+  name: 'Mooring D: Western Ross Sea, TerraNova Bay Polynya - Italy'
+  network_registrations:
+  - network: DEIMS
+    network_id: b4121cd7-8b02-4872-b1d2-516d1c02056a
+    network_url: https://deims.org/b4121cd7-8b02-4872-b1d2-516d1c02056a
+    name: 'Mooring D: Western Ross Sea, TerraNova Bay Polynya - Italy'
+  location:
+    latitude: -75.133
+    longitude: 164.542
+    country: Italy
+    elevation_meters: -1157.0
+  description: The Mooring D is located in the western Ross Sea in Terra Nova Bay.
+    The mooring is equipped with sediment traps, currentometers, trasmissometer, fluorimeter
+    and CTD.
+  variables:
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+      source_modified_at: '2023-10-27T10:42:40+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+      source_modified_at: '2023-10-27T10:42:40+02:00'
+  - name: water salinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water salinity
+      record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/10308
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+      source_modified_at: '2023-10-27T10:42:40+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+      source_modified_at: '2023-10-27T10:42:40+02:00'
+  - name: water transparency
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water transparency
+      record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10392
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+      source_modified_at: '2023-10-27T10:42:40+02:00'
+  status: ACTIVE

@@ -1,0 +1,305 @@
+sites:
+- id: site_kb:deims-ozcar-ri_othu_yzeron_experimental_catchment_-_france
+  name: OZCAR-RI OTHU Yzeron experimental catchment - France
+  network_registrations:
+  - network: DEIMS
+    network_id: cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+    network_url: https://deims.org/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+    name: OZCAR-RI OTHU Yzeron experimental catchment - France
+  location:
+    latitude: 45.74
+    longitude: 4.69
+    country: France
+    elevation_meters: 600.0
+  description: "The Yzeron catchment (150 km2) is located to the south-west of Lyon\
+    \ city, France. It forms part of the Observatoire de Terrain en Hydrologie Urbaine\
+    \ (OTHU, 2011) long term observatory. It is representative of French periurban\
+    \ areas and is characterised by a marked topography. The outlet reaches the Rhône\
+    \ river at the elevation of 162 meters and the highest point culminates at 917\
+    \ m above see level. The slope map calculated from a 25 m resolution Digital Elevation\
+    \ Model (DEM), derived from IGN BDTopo® shows that more than 50% of the catchment\
+    \ has slopes larger than 10%. The geology is contrasted with crystalline formations\
+    \ (granite, gneiss ) in the western part of the catchment and more alluvial and\
+    \ glaciar formations in the eastern part.  The land use is heterogeneous. The\
+    \ upstream and western part of the basin is limited by a range of hills covered\
+    \ with forests. The intermediate part is mainly covered with grassland and cultivated\
+    \ lands, mixed with urban nucleus. Thin green corridors remain along rivers, covered\
+    \ with deciduous trees. The downstream part is mainly covered with densely urbanized\
+    \ areas. A fast progression of urbanisation is observed since the eighties. \r\
+    \nThe area is prone to sharp Mediterranean-type flood events due to its steep\
+    \ topography in the upstream part and limited soil water storage capacity overall.\
+    \ The water coming from combined sewer overflow devices is rich of sediments and\
+    \ pollutions, causing quality problems in the rivers, especially during summer\
+    \ storms, where most of the water reaching the river comes from urbanised areas\
+    \ via SODs. Increased erosion of the river banks has also been evidenced with\
+    \ impact on the ecosystems.\r\nThe catchment is instrumented since 1997 in particular\
+    \ in two sub-catchments with different land uses (Mercier: agriculture and forest)\
+    \ and Chaudanne (agriculture and urban) with rainfall and discharge data. Some\
+    \ information about physico-chemical characteristics are also available."
+  variables:
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: ammonium nitrate concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ammonium nitrate concentration
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/10072
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: atmospheric pressure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric pressure
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22060
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: land use
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land use
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22143
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: potential evaporation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: potential evaporation
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/10017
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: soil bulk density
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil bulk density
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/22245
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: soil moisture content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil moisture content
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/10039
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: soil temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil temperature
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22278
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: soil water content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil water content
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/22281
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: solar radiation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: solar radiation
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/22284
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: stage height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: stage height
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/18
+      source_id: http://vocabs.lter-europe.net/EnvThes/22290
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/19
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/20
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/21
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: wind direction
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind direction
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/22
+      source_id: http://vocabs.lter-europe.net/EnvThes/22317
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  - name: wind speed
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind speed
+      record_url: https://deims.org/api/sites/cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8
+      field_path: /attributes/focusDesignScale/observedProperties/23
+      source_id: http://vocabs.lter-europe.net/EnvThes/22319
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:17.964561+00:00'
+      source_modified_at: '2024-03-04T09:31:55+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

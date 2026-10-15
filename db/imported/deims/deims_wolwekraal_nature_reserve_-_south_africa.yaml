@@ -1,0 +1,53 @@
+sites:
+- id: site_kb:deims-wolwekraal_nature_reserve_-_south_africa
+  name: Wolwekraal Nature Reserve - South Africa
+  network_registrations:
+  - network: DEIMS
+    network_id: 356fac88-0041-4833-8273-b31789bc3763
+    network_url: https://deims.org/356fac88-0041-4833-8273-b31789bc3763
+    name: Wolwekraal Nature Reserve - South Africa
+  location:
+    latitude: -33.19
+    longitude: 22.03
+    country: South Africa
+    elevation_meters: 550.0
+  description: The field site comprises 123 ha of natural Karoo shrubland. The Dorpsrivier
+    passes through the nature reserve. Habitats include exposed Ecca mudstone plains,
+    a north-facing ridge, pockets of aolian sand, and quatzite pebble bed conglomerate
+    along the levees of the Dorpsrivier. The field site has been fenced to exclude
+    domestic livestock since the 1970s.
+  variables:
+  - name: above ground net primary production
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground net primary production
+      record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10043
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:36.941671+00:00'
+      source_modified_at: '2020-06-29T10:46:08+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:36.941671+00:00'
+      source_modified_at: '2020-06-29T10:46:08+02:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:36.941671+00:00'
+      source_modified_at: '2020-06-29T10:46:08+02:00'
+  status: ACTIVE

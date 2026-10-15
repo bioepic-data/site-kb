@@ -1,0 +1,235 @@
+{
+  "source_url": "https://deims.org/api/sites/5800e9c1-922a-455b-9c25-60ecab01fd92",
+  "retrieved_at": "2026-10-15T17:35:22.151055+00:00",
+  "record": {
+    "title": "Deep-sea in Sagami Bay - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "5800e9c1-922a-455b-9c25-60ecab01fd92"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:33:21+01:00",
+    "changed": "2020-06-29T10:39:14+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-19",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Japan Agency for Marine-Earth Science and Technology (JAMSTEC)",
+            "url": "http://www.jamstec.go.jp/e/",
+            "ror": "https://ror.org/059qg2m13"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Japan Agency for Marine-Earth Science and Technology (JAMSTEC)",
+            "url": "http://www.jamstec.go.jp/e/",
+            "ror": "https://ror.org/059qg2m13"
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "In spite of the fact that the area of Sagami Bay occupies only 0.05% of the total area of Japanese waters, the total species richness is 16.5% of the total Japanese species richness. This suggests high species richness due to the array of habitats present in Sagami Bay. The high species diversity of Sagami Bay has been recognized previously, and one of the proposed reasons for this degree of diversity is the influence of cold-water masses derived from the Oyashio Current, as well as tropical or subtropical water masses derived from the Kuroshio Current. Sagami Bay’s high reported diversity probably contains bias, because marine biologists have historically paid more attention to Sagami Bay. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2010,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Deep-sea in Sagami Bay",
+        "shortName": "Sagami Bay",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/deep-sea-sagami-bay-japan_4732.jpg",
+            "alt": "Deep-sea Sagami Bay"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 4,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 0,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Marine",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((139.09240722656 35.133386854253, 139.34509277344 35.272531756602, 139.5703125 35.236646220932, 139.59228515625 35.07046911982, 139.5703125 34.894942447397, 139.43298339844 34.840858584773, 139.27368164062 34.858890491258, 139.15283203125 34.926474935846, 139.09240722656 35.133386854253))",
+        "coordinates": "POINT (139.2252 35.0017)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": -1000,
+          "min": -1500,
+          "max": -700,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 245000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          },
+          {
+            "label": "tree basal area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22301"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "boat",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 10,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "Depend on budget",
+          "siteVisitInterval": 2
+        },
+        "notes": "Submersibles",
+        "collection": [
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Marine Platform",
+            "uri": null
+          },
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No tower on site",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of places",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

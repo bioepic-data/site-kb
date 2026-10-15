@@ -1,0 +1,238 @@
+{
+  "source_url": "https://deims.org/api/sites/ea3edf5a-ae40-4ad7-9a20-b68e0e016182",
+  "retrieved_at": "2026-10-15T17:40:27.683302+00:00",
+  "record": {
+    "title": "Bieszczadzki National Park - Poland",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "ea3edf5a-ae40-4ad7-9a20-b68e0e016182"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:03:44+01:00",
+    "changed": "2020-11-27T13:32:13+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Poland",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "67763729-45a7-4248-a70d-622b1d0a3d41"
+              }
+            },
+            "siteCode": "LTER_EU_PL_003",
+            "verified": false
+          }
+        ],
+        "projects": []
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Tomasz Staszewski",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Tomasz Staszewski",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "In 1998 a permanent plot (50 x 50 m) was established at the height of 790 m asl in 120 year old spruce stand, where bulk deposition, throughfall and soil solution are collected. The investigations of health status of trees and floral characteristic have been carried out since 2001. The analyses are carried out in a certified laboratory of the Institute for Ecology of Industrial Areas, Katowice (Certificate No AB 325). The basic meteo data are taken from the monitoring station located about 1 kn from the plot.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1998,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Bieszczadzki National Park",
+        "shortName": "Bieszczadzki National Park",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category II – National Park",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/II"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 7.01,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 720.8,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": "Lithosol",
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (22.6645 49.098)",
+        "country": [
+          "Poland"
+        ],
+        "elevation": {
+          "avg": 780,
+          "min": 600,
+          "max": 1346,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 0.25,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "only experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "habitat structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21478"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "plant species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22195"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No tower on site",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Spatial database (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of places",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

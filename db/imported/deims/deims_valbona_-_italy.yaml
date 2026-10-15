@@ -1,0 +1,52 @@
+sites:
+- id: site_kb:deims-valbona_-_italy
+  name: Valbona - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 2b587e26-4550-4841-a032-ab3c93ced8a0
+    network_url: https://deims.org/2b587e26-4550-4841-a032-ab3c93ced8a0
+    name: Valbona - Italy
+  location:
+    latitude: 46.286
+    longitude: 11.761
+    country: Italy
+    elevation_meters: 1800.0
+  description: Research Site located inside the Paneveggio-Pale di S. Martino Provincial
+    Park mainly formed by pure Norway spruce stands. In the upper part of this forest
+    Norway spruce is mixed with Swiss stone pine and larch.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/2b587e26-4550-4841-a032-ab3c93ced8a0
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:15.064234+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/2b587e26-4550-4841-a032-ab3c93ced8a0
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:15.064234+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/2b587e26-4550-4841-a032-ab3c93ced8a0
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:15.064234+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

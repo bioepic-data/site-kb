@@ -1,0 +1,168 @@
+sites:
+- id: site_kb:deims-ramon_rmn_-_israel
+  name: Ramon (RMN) - Israel
+  network_registrations:
+  - network: DEIMS
+    network_id: 52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+    network_url: https://deims.org/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+    name: Ramon (RMN) - Israel
+  location:
+    latitude: 30.588964
+    longitude: 34.902072
+    country: Israel
+    elevation_meters: 850.0
+  description: 'The site is located between two bio -geographical zones arid and hyper-arid,
+    the research is carried out by both sides. The arid side is characterized by remains
+    of terraces from the Nabatean agriculture runoff. The main research topics that
+    being studied in the site are: biodiversity, climate change, runoff hydrology.
+    The arid zone is a geo hydrological ecological system which is depended on a combination
+    of rainfall and runoff that creates water enriched parches that support relatively
+    high biodiversity. The hyper arid zone is runoff depended system the source of
+    runoff are stipe, slope consist on bare bedrock, biological activities are constructed
+    in the dry riverbeds that functions as sinks for the runoff generated from the
+    slopes.'
+  variables:
+  - name: abiotic heterogeneity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: abiotic heterogeneity
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21476
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: change in population size over time
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: change in population size over time
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22085
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: diversity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diversity index
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/21513
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: floristic diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: floristic diversity
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22122
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: macrofauna abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: macrofauna abundance
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22028
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: plant species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant species composition
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22195
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: population size
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: population size
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22199
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: soil macrofauna abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil macrofauna abundance
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/10026
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species abundance
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/10018
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species composition
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22285
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  - name: species list
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species list
+      record_url: https://deims.org/api/sites/52d25867-33e7-4f27-8e0c-4f8a74bf22e0
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/22286
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:49.744847+00:00'
+      source_modified_at: '2025-05-08T09:57:05+02:00'
+  status: ACTIVE

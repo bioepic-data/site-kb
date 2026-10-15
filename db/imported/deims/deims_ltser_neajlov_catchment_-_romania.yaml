@@ -1,0 +1,77 @@
+sites:
+- id: site_kb:deims-ltser_neajlov_catchment_-_romania
+  name: LTSER Neajlov catchment - Romania
+  network_registrations:
+  - network: DEIMS
+    network_id: a6af4965-8352-461a-84b0-0cac30559ad7
+    network_url: https://deims.org/a6af4965-8352-461a-84b0-0cac30559ad7
+    name: LTSER Neajlov catchment - Romania
+  location:
+    latitude: 45.1
+    longitude: 24.0667
+    country: Romania
+    elevation_meters: 100.0
+  description: "The area is located in the south part of Romania with the geographic\
+    \ position of 24°51’12”-26°13’52” E longitude and 43°55’31”-44°49’32” N latitude.\r\
+    \nThe Neajlov River and its catchment are a tributary and a sub-catchment of the\
+    \ river Arges, which in turn is one of the main tributary for the lower Danube\
+    \ river stretch. The Neajlov river catchment belongs also to the four administrative\
+    \ units(counties) – Arges, Dimbovita, Giurgiu and Teleorman."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/a6af4965-8352-461a-84b0-0cac30559ad7
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:38.389300+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/a6af4965-8352-461a-84b0-0cac30559ad7
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:38.389300+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/a6af4965-8352-461a-84b0-0cac30559ad7
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:38.389300+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/a6af4965-8352-461a-84b0-0cac30559ad7
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:38.389300+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/a6af4965-8352-461a-84b0-0cac30559ad7
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:38.389300+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

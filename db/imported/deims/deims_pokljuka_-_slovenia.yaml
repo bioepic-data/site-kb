@@ -1,0 +1,39 @@
+sites:
+- id: site_kb:deims-pokljuka_-_slovenia
+  name: Pokljuka - Slovenia
+  network_registrations:
+  - network: DEIMS
+    network_id: 0d3e7231-2414-429f-80bb-71f1e1fc3d17
+    network_url: https://deims.org/0d3e7231-2414-429f-80bb-71f1e1fc3d17
+    name: Pokljuka - Slovenia
+  location:
+    latitude: 46.365497
+    longitude: 13.936152
+    country: Slovenia
+    elevation_meters: 1397.0
+  description: http://meteo.gozdis.si/?page_id=40 (only in SLO language)
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/0d3e7231-2414-429f-80bb-71f1e1fc3d17
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:42.328243+00:00'
+      source_modified_at: '2025-04-23T10:42:46+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/0d3e7231-2414-429f-80bb-71f1e1fc3d17
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:42.328243+00:00'
+      source_modified_at: '2025-04-23T10:42:46+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

@@ -1,0 +1,79 @@
+sites:
+- id: site_kb:deims-sacca_di_goro_-_italy
+  name: Sacca di Goro - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: b7869194-b220-473a-b035-feeadfa21aba
+    network_url: https://deims.org/b7869194-b220-473a-b035-feeadfa21aba
+    name: Sacca di Goro - Italy
+  location:
+    latitude: 44.81409
+    longitude: 12.31853
+    country: Italy
+    elevation_meters: 0.0
+  description: The Sacca di Goro is a shallow-water embayment of the Po River Delta
+    approximately triangular in shape with a surface area of 26 Km2, an average depth
+    of 1.5 m, and it is connected to the sea by two mouths about 0.9 Km wide each.
+    The lagoon is characterized by a clear zonation with the low energy eastern area
+    separated from two higher energy zones, the western area influenced by freshwater
+    inflow from the Po di Volano and the central area influenced by the sea The eastern
+    zone is very shallow (maximum depth 1 m) and accounts for one half of the total
+    surface area and one quarter of the water volume. The lagoon is surrounded by
+    embankments. The main freshwater inputs are the Po di Volano River, the Canal
+    Bianco and Giralda, which have approximately the same discharge rates. Freshwater
+    inlets are also located along the Po di Goro River and are regulated by sluices.
+    There are no direct estimates of the freshwater input from the Po di Goro, which
+    is usually assumed to be equivalent to that of the Po di Volano. The freshwater
+    system is mostly located in a subsident area and is regulated by a system of pumping
+    stations (scooping plants). The fresh water or hydraulic residence time oscillates
+    monthly between 2.5 and 122 days with a mean value of 24.5 days, whereas the water
+    exchange time ranges from 2 to 4 days. The tidal amplitude is ca 80 cm. The bottom
+    of the lagoon is flat and the sediment is alluvial mud with high clay and silt
+    content in the northern and central zones. Sand is more abundant near the southern
+    shoreline, whilst sandy mud occurs in the eastern area.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/b7869194-b220-473a-b035-feeadfa21aba
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:43.242649+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/b7869194-b220-473a-b035-feeadfa21aba
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:43.242649+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/b7869194-b220-473a-b035-feeadfa21aba
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:43.242649+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/b7869194-b220-473a-b035-feeadfa21aba
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:43.242649+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  status: ACTIVE

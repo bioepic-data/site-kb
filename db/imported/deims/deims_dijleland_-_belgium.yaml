@@ -1,0 +1,52 @@
+sites:
+- id: site_kb:deims-dijleland_-_belgium
+  name: Dijleland - Belgium
+  network_registrations:
+  - network: DEIMS
+    network_id: 7629b584-b8dd-4da5-a4ba-4175bb985673
+    network_url: https://deims.org/7629b584-b8dd-4da5-a4ba-4175bb985673
+    name: Dijleland - Belgium
+  location:
+    latitude: 50.8008
+    longitude: 4.6872
+    country: Belgium
+    elevation_meters: 63.5
+  description: Dijleland covers a study area containing the 3 individual LTER sites
+    of the Doode Bemde, Forest of Meerdaal and the Nature Reseve Rode Forest and Laan
+    Valley.
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/7629b584-b8dd-4da5-a4ba-4175bb985673
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:33.712167+00:00'
+      source_modified_at: '2023-07-25T08:52:19+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/7629b584-b8dd-4da5-a4ba-4175bb985673
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:33.712167+00:00'
+      source_modified_at: '2023-07-25T08:52:19+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/7629b584-b8dd-4da5-a4ba-4175bb985673
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:33.712167+00:00'
+      source_modified_at: '2023-07-25T08:52:19+02:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

@@ -1,0 +1,85 @@
+sites:
+- id: site_kb:deims-it25_-_val_mazia-matschertal_-_italy
+  name: IT25 - Val Mazia-Matschertal - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 11696de6-0ab9-4c94-a06b-7ce40f56c964
+    network_url: https://deims.org/11696de6-0ab9-4c94-a06b-7ce40f56c964
+    name: IT25 - Val Mazia-Matschertal - Italy
+  location:
+    latitude: 46.6928
+    longitude: 10.6157
+    country: Italy
+    elevation_meters: 1600.0
+  description: "The first data in the Matsch| Mazia valley was collected in the year\
+    \ 2008.  Originally  aimed  at studying  climatic change impacts on dry mountain\
+    \ grassland, the measuring activities have been strongly  expanded  throughout\
+    \  the  years.    Today's activities on the site include process-oriented  ecological\
+    \  research covering time (historical analysis, actual processes and future scenarios\
+    \ ) and space (from plot to landscape scale among different ecosystems) within\
+    \ a human-influenced catchment.  \r\nThe  valley  is  situated  in  the  central\
+    \  Alps  in the westernmost part of South Tyrol in North Italy. Matsch is a side\
+    \ valley of the Vinschgau valley, and extends over 90 km2 reaching  from  950\
+    \ m.a.s.l.  to  3700 m.a.sl.  at  the highest peak. The main village Matsch is\
+    \ located at 1600 m and has 458 inhabitants.Due to its protected location in the\
+    \ central Alps, the Mazia/Matsch valley represents one of the driest spots within\
+    \ the whole alpine range, with a mean annual precipitation of 525mm at 1500m.a.s.l\
+    \  (1950-2010)"
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/11696de6-0ab9-4c94-a06b-7ce40f56c964
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:21.956219+00:00'
+      source_modified_at: '2025-07-08T12:07:56+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/11696de6-0ab9-4c94-a06b-7ce40f56c964
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:21.956219+00:00'
+      source_modified_at: '2025-07-08T12:07:56+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/11696de6-0ab9-4c94-a06b-7ce40f56c964
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:21.956219+00:00'
+      source_modified_at: '2025-07-08T12:07:56+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/11696de6-0ab9-4c94-a06b-7ce40f56c964
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:21.956219+00:00'
+      source_modified_at: '2025-07-08T12:07:56+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/11696de6-0ab9-4c94-a06b-7ce40f56c964
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:21.956219+00:00'
+      source_modified_at: '2025-07-08T12:07:56+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

@@ -1,0 +1,78 @@
+sites:
+- id: site_kb:deims-vulcan_kiskunsag_kiskun_lter_-_hungary
+  name: VULCAN Kiskunsag, KISKUN LTER - Hungary
+  network_registrations:
+  - network: DEIMS
+    network_id: 3017d91e-8117-4b0a-bba7-de93d739ef5e
+    network_url: https://deims.org/3017d91e-8117-4b0a-bba7-de93d739ef5e
+    name: VULCAN Kiskunsag, KISKUN LTER - Hungary
+  location:
+    latitude: 46.864376
+    longitude: 19.415194
+    country: Hungary
+    elevation_meters: 109.0
+  description: The sample site of the VULCAN project in Hungary, where research was
+    conducted between 2001 and 2013. We studied the effects of a warming and drying
+    climate on the functioning and organisation of the sand forest-steppe ecosystem.
+    The research activities cover a wide range of areas, including plant phenology,
+    primary productivity, ecophysiology, plant population biology, the role of functional
+    groups, plant biodiversity, biodiversity of specific animal groups, litter decomposition,
+    N-mineralisation, soil respiration, etc.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/3017d91e-8117-4b0a-bba7-de93d739ef5e
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:25.893383+00:00'
+      source_modified_at: '2025-05-14T11:58:16+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/3017d91e-8117-4b0a-bba7-de93d739ef5e
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:25.893383+00:00'
+      source_modified_at: '2025-05-14T11:58:16+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/3017d91e-8117-4b0a-bba7-de93d739ef5e
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:25.893383+00:00'
+      source_modified_at: '2025-05-14T11:58:16+02:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/3017d91e-8117-4b0a-bba7-de93d739ef5e
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:25.893383+00:00'
+      source_modified_at: '2025-05-14T11:58:16+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/3017d91e-8117-4b0a-bba7-de93d739ef5e
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:25.893383+00:00'
+      source_modified_at: '2025-05-14T11:58:16+02:00'
+  notes: 'Biogeographical region: pannonian'
+  status: ACTIVE

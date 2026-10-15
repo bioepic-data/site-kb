@@ -1,0 +1,264 @@
+{
+  "source_url": "https://deims.org/api/sites/f5f2b29c-fa67-4280-84ed-9708366ab3d1",
+  "retrieved_at": "2026-10-15T17:38:06.173505+00:00",
+  "record": {
+    "title": "Llyn Cwm Mynach - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "f5f2b29c-fa67-4280-84ed-9708366ab3d1"
+    },
+    "type": "site",
+    "created": "2013-12-09T11:41:53+01:00",
+    "changed": "2023-07-28T11:26:28+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_16",
+            "verified": false
+          }
+        ],
+        "projects": [
+          {
+            "label": "Water Framework Directive (2000/60/EC)",
+            "uri": "https://ec.europa.eu/environment/water/water-framework/index_en.html"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Llyn Cwm Mynach on UWMN",
+            "value": "https://uwmn.uk/llyn-cwm-mynach"
+          },
+          {
+            "title": "Llyn Cwm Mynach on UK Lakes Portal",
+            "value": "https://eip.ceh.ac.uk/apps/lakes/detail.html?wbid=35578"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK Upland Waters Monitoring Network (UK UWMN) site. Llyn Cwm Mynach lies at 287 m altitude. The lake consists of two distinct basins; the southern section comprises a shallow limb separated from the deeper northern section by an old and broken stone causeway. The maximum depth of 11 m occurs in the northern basin in a localised hollow. Discrete drainage to the lake is by three small inflows and it is drained to the south-east by a small stream which flows to the Mawddach estuary. At some stage in the past a wooden weir (now derelict) was constructed at the outflow, presumably to raise the level of the southern section of the lake. Some data are managed by UK ECN Data Centre. Note: The area is the size of the catchment. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1988,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Llyn Cwm Mynach",
+        "shortName": "UWMN_16",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2200,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": "Cambrian siltstones to the north and grits and greywackes of the Cambrian Rhinog formation to the south.",
+        "hydrology": "The lake consists of two distinct basins; the southern section comprises a shallow limb separated from the deeper northern section by an old and broken stone causeway. The maximum depth of 11 m occurs in the northern basin in a localised hollow. Discrete drainage to the lake is by three small inflows and it is drained to the south-east by a small stream which flows to the Mawddach estuary. At some stage in the past a wooden weir (now derelict) was constructed at the outflow, presumably to raise the level of the southern section of the lake.",
+        "soils": "The north and east of the catchment is dominated by amorphous blanket peats, whereas acid ranker soils characterise the south and west.",
+        "vegetation": "Coniferous plantation (51%); acid moorland characterised by Calluna and Vaccinium (49%)"
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-3.96083 52.7958)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 287,
+          "min": 287,
+          "max": 287,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 119,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "animal species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10336"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "chemical composition of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21213"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22121"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "plant species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10335"
+          },
+          {
+            "label": "plant species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10341"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "Chemistry sampled monthly. Biological measurements made annually",
+          "siteVisitInterval": 30
+        },
+        "notes": "Accommodation in nearby villages.",
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+sites:
+- id: site_kb:deims-ordesa_y_monte_perdido__huesca_es_-_spain
+  name: Ordesa y Monte Perdido / Huesca ES - Spain
+  network_registrations:
+  - network: DEIMS
+    network_id: 829a2bcc-79d6-462f-ae2c-13653124359d
+    network_url: https://deims.org/829a2bcc-79d6-462f-ae2c-13653124359d
+    name: Ordesa y Monte Perdido / Huesca ES - Spain
+  location:
+    latitude: 42.65
+    longitude: 0.03
+    country: Spain
+    elevation_meters: 2000.0
+  description: "The Ordesa and Monte Perdido National Park (OMPNP) lies in the Southern\
+    \ slopes of the Central Pyrenees. It is in bounded to the north by the French\
+    \ border, and comprises 4 deep valleys occupying 15.608 ha: Ordesa, Añisclo, Escuaín\
+    \ and the upper part of Pineta. The peripheral part spreads over 19.679 ha more,\
+    \ and extends along parts of other valleys: Bujaruelo, Vió, Puértolas, Pineta,\
+    \ and La Larri.\r\n\r\nThe ice and the water constitute the main eroding agents\
+    \ responsible for the landscape: glaciar valleys (U shape), river valleys (V shape),\
+    \ deep canyons, mountain lakes… Despite most of the park is dominated by the alpine\
+    \ belt and subalpine grasslands, the impressive orography creates a mosaic of\
+    \ small areas covered by contrasted ecological systems. Such environmental heterogeneity\
+    \ promotes a high diversity (1400 plant species). Two particular geomorphological\
+    \ processes are noticeable in the park: glaciar and periglacial processes and\
+    \ karstic dynamics. The Monte Perdido ice masses are the only ones that can be\
+    \ considered as glaciers, and they are composed of two separate bodies that have\
+    \ been greatly reduced during the last decades. Because of the carbonate nature\
+    \ of the bedrock, karstic processes are very active in the Park and are the main\
+    \ control of its hydrogeology."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/829a2bcc-79d6-462f-ae2c-13653124359d
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:58.603828+00:00'
+      source_modified_at: '2023-10-25T14:32:47+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/829a2bcc-79d6-462f-ae2c-13653124359d
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:58.603828+00:00'
+      source_modified_at: '2023-10-25T14:32:47+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/829a2bcc-79d6-462f-ae2c-13653124359d
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:58.603828+00:00'
+      source_modified_at: '2023-10-25T14:32:47+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/829a2bcc-79d6-462f-ae2c-13653124359d
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:58.603828+00:00'
+      source_modified_at: '2023-10-25T14:32:47+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

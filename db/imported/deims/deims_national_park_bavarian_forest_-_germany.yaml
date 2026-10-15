@@ -1,0 +1,73 @@
+sites:
+- id: site_kb:deims-national_park_bavarian_forest_-_germany
+  name: National Park Bavarian Forest - Germany
+  network_registrations:
+  - network: DEIMS
+    network_id: 993ed2fc-1cb0-4810-a619-8bcf78b6ecee
+    network_url: https://deims.org/993ed2fc-1cb0-4810-a619-8bcf78b6ecee
+    name: National Park Bavarian Forest - Germany
+  location:
+    latitude: 48.960629
+    longitude: 13.395191
+    country: Germany
+    elevation_meters: 950.0
+  description: "The Bavarian Forest National Park is situated in the Bavarian part\
+    \ of the Bohemian Forest which is one of the largest forest landscapes in Central\
+    \ Europe. Its administration follows a strict non-intervention nature conservation\
+    \ management which allows untouched natural disturbance and regeneration of ecosystems\
+    \ on more 67 % of the area. And it allows the monitoring of changes in environmental\
+    \ conditions driven by direct and indirect anthropogenic impacts in the global\
+    \ change and their effects on biodiversity in terrestrial and aquatic habitats.\
+    \ \r\nThe park covers 245 km2 with an elevation range of 850 m between 600 and\
+    \ 1453 m a.s.l. (Großer Rachel). The bedrock consists of magmatic (mostly granite)\
+    \ and metamorphic rocks (paragneiss, migmatite, orthogneiss). Predominant soils\
+    \ are Cambisols, Rankers and Podzols on hillslopes as well as Histosols and Gleysols\
+    \ across the whole relief. Mean annual temperature and precipitation is 7–4°C\
+    \ and 1100–2000mm depending on altitude."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/993ed2fc-1cb0-4810-a619-8bcf78b6ecee
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:04.747432+00:00'
+      source_modified_at: '2025-12-15T08:45:01+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/993ed2fc-1cb0-4810-a619-8bcf78b6ecee
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:04.747432+00:00'
+      source_modified_at: '2025-12-15T08:45:01+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/993ed2fc-1cb0-4810-a619-8bcf78b6ecee
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:04.747432+00:00'
+      source_modified_at: '2025-12-15T08:45:01+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/993ed2fc-1cb0-4810-a619-8bcf78b6ecee
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:04.747432+00:00'
+      source_modified_at: '2025-12-15T08:45:01+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

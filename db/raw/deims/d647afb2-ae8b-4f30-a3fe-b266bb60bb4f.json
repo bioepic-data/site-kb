@@ -1,0 +1,218 @@
+{
+  "source_url": "https://deims.org/api/sites/d647afb2-ae8b-4f30-a3fe-b266bb60bb4f",
+  "retrieved_at": "2026-10-15T17:35:40.629706+00:00",
+  "record": {
+    "title": "South African Wildlife College, Tree Plots - South Africa",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "d647afb2-ae8b-4f30-a3fe-b266bb60bb4f"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:34:27+01:00",
+    "changed": "2025-01-21T14:43:52+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "SAEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bce17afa-e548-4410-99d2-4eade740c9a9"
+              }
+            },
+            "siteCode": "LTER-SAF-ZA-5",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "South African Environmental Observation Network (SAEON)",
+            "url": "http://www.saeon.ac.za/",
+            "ror": "https://ror.org/041j42q70"
+          },
+          {
+            "type": "organisation",
+            "name": "Southern African Wildlife College",
+            "url": "http://www.wildlifecollege.org.za/",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "South African Environmental Observation Network (SAEON)",
+            "url": "http://www.saeon.ac.za/",
+            "ror": "https://ror.org/041j42q70"
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://ndlovu.saeon.ac.za"
+          },
+          {
+            "title": "Southern African Wildlife College",
+            "value": "http://www.wildlifecollege.org.za/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Please refer to the general site description of the Welverdiend-South African Wildlife College site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1993,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Welverdiend-South African Wildlife College - South Africa",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "2828cadf-0ba2-4376-a185-cd1c5fc784da"
+                },
+                "changed": "2023-07-26T09:31:22+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "South African Wildlife College, Tree Plots",
+        "shortName": "SAWC-TP",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 21.65,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 651,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Savanna",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (31.3361 -24.3936)",
+        "country": [
+          "South Africa"
+        ],
+        "elevation": {
+          "avg": 500,
+          "min": 480,
+          "max": 520,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 250,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": null,
+          "scale": "plot within catchment"
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://saeon.dirisa.org/management/it-governance/G373.2%20Policy%20and%20Guidelines/G373.2.2%20Policies/data-policy-_stand-alone_.pdf/view"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Emerging Site"
+        }
+      }
+    }
+  }
+}

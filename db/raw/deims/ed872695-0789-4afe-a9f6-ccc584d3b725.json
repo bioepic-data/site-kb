@@ -1,0 +1,268 @@
+{
+  "source_url": "https://deims.org/api/sites/ed872695-0789-4afe-a9f6-ccc584d3b725",
+  "retrieved_at": "2026-10-15T17:37:03.798083+00:00",
+  "record": {
+    "title": "Bialowieza National Park - Poland",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "ed872695-0789-4afe-a9f6-ccc584d3b725"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:03:42+01:00",
+    "changed": "2021-02-23T10:01:38+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "EuroMAB",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "ea4aa6ab-115f-4801-b59f-fcb90b918371"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "LTER Poland",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "67763729-45a7-4248-a70d-622b1d0a3d41"
+              }
+            },
+            "siteCode": "LTER_EU_PL_002",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Bogdan Jaroszewicz",
+            "email": "b.jaroszewicz@uw.edu.pl",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Bogdan Jaroszewicz",
+            "email": "b.jaroszewicz@uw.edu.pl",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "primeval, deciduous forest, succession",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1962,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Bialowieza National Park",
+        "shortName": "Bialowieza National Park",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category II – National Park",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/II"
+          }
+        ],
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/bialowieza-national-park-poland_4484.jpg",
+            "alt": "Bialowieza National Park (c) Harm Smeenge"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/bialowieza-national-park-poland_4485.jpg",
+            "alt": "Bialowieza National Park (c) Harm Smeenge"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 6.7,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 642,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "continental",
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (23.8667 52.75)",
+        "country": [
+          "Poland"
+        ],
+        "elevation": {
+          "avg": 153,
+          "min": 134,
+          "max": 172,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 4747,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "habitat structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21478"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No tower on site",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Proprietary file format",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of beds",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

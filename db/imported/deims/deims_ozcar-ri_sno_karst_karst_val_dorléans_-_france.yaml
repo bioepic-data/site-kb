@@ -1,0 +1,78 @@
+sites:
+- id: site_kb:deims-ozcar-ri_sno_karst_karst_val_dorléans_-_france
+  name: OZCAR-RI SNO_KARST Karst Val d'Orléans - France
+  network_registrations:
+  - network: DEIMS
+    network_id: 09a5c45b-db4b-41b0-8068-675d2fb9a0bc
+    network_url: https://deims.org/09a5c45b-db4b-41b0-8068-675d2fb9a0bc
+    name: OZCAR-RI SNO_KARST Karst Val d'Orléans - France
+  location:
+    latitude: 47.8503
+    longitude: 1.9373
+    country: France
+    elevation_meters: 90.0
+  description: The Val d’Orléans is a vast depression in the Loire River main flow,
+    37 km long and from 4 to 7 km wide. This is a saturated karst aquifer, hosted
+    within a carbonate lacustrine deposit called the Beauce limestone with a high
+    porosity overlain by the Quaternary alluvia of the Loire River. The Loire River
+    feeds more than 80% of the water hosted in the carbonate karst aquifer (11.5 m3/s
+    during low water periods). Water outflows toward several resurgences of the Loiret
+    River through a saturated karst networks.
+  variables:
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/09a5c45b-db4b-41b0-8068-675d2fb9a0bc
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.784752+00:00'
+      source_modified_at: '2024-04-09T23:14:51+02:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/09a5c45b-db4b-41b0-8068-675d2fb9a0bc
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.784752+00:00'
+      source_modified_at: '2024-04-09T23:14:51+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/09a5c45b-db4b-41b0-8068-675d2fb9a0bc
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.784752+00:00'
+      source_modified_at: '2024-04-09T23:14:51+02:00'
+  - name: physical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: physical parameter
+      record_url: https://deims.org/api/sites/09a5c45b-db4b-41b0-8068-675d2fb9a0bc
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20938
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.784752+00:00'
+      source_modified_at: '2024-04-09T23:14:51+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/09a5c45b-db4b-41b0-8068-675d2fb9a0bc
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:07.784752+00:00'
+      source_modified_at: '2024-04-09T23:14:51+02:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

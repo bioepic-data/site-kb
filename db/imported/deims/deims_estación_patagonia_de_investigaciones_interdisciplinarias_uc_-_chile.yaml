@@ -1,0 +1,72 @@
+sites:
+- id: site_kb:deims-estación_patagonia_de_investigaciones_interdisciplinarias_uc_-_chile
+  name: Estación Patagonia de Investigaciones Interdisciplinarias UC - Chile
+  network_registrations:
+  - network: DEIMS
+    network_id: 081d8225-ac07-4d91-86f7-2a648eec7962
+    network_url: https://deims.org/081d8225-ac07-4d91-86f7-2a648eec7962
+    name: Estación Patagonia de Investigaciones Interdisciplinarias UC - Chile
+  location:
+    latitude: -46.274722
+    longitude: -73.53
+    country: Chile
+    elevation_meters: 50.0
+  description: Patagonian Forest (old-growth and second growth), with final intervention
+    of 50 years.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/081d8225-ac07-4d91-86f7-2a648eec7962
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:54.166119+00:00'
+      source_modified_at: '2020-12-18T11:01:41+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/081d8225-ac07-4d91-86f7-2a648eec7962
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:54.166119+00:00'
+      source_modified_at: '2020-12-18T11:01:41+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/081d8225-ac07-4d91-86f7-2a648eec7962
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:54.166119+00:00'
+      source_modified_at: '2020-12-18T11:01:41+01:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/081d8225-ac07-4d91-86f7-2a648eec7962
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:54.166119+00:00'
+      source_modified_at: '2020-12-18T11:01:41+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/081d8225-ac07-4d91-86f7-2a648eec7962
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:54.166119+00:00'
+      source_modified_at: '2020-12-18T11:01:41+01:00'
+  status: ACTIVE

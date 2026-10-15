@@ -1,0 +1,61 @@
+sites:
+- id: site_kb:deims-marine_area_of_portofino_promontory_-_italy
+  name: Marine Area of Portofino Promontory - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 769556a6-0ee6-46a9-acbb-a1f2d51c07e8
+    network_url: https://deims.org/769556a6-0ee6-46a9-acbb-a1f2d51c07e8
+    name: Marine Area of Portofino Promontory - Italy
+  location:
+    latitude: 44.3045
+    longitude: 9.191
+    country: Italy
+    elevation_meters: -100.0
+  description: 'The Marine area of Portofino Promontory stretches into the Ligurian
+    Sea for more than 3 kilometers, extending along the coast for about 13 kilometers.
+    The submerged cliffs of the Portofino Promontory house a particularly rich and
+    diversified fauna and flora. The rock forming the southern slope of the promontory,
+    rich in ravines and fissures, has favoured the settlement of a typical Mediterranean
+    environment, the coralligenous community, developing in a manner which can be
+    rarely observed in other areas. From 30 to more than 50 meters of depth, thanks
+    to the continuous building action of the coral algae and of calcareous skeleton
+    animals, a very complex ecosystem, dominated by big gorgonians, red corals, sponges,
+    stony corals, and bryozoans, has been formed. On the sandy seabed, along the western
+    and eastern slopes of the promontory, there are Posidonia beds, housing a very
+    rich fauna. Station sampling Portofino: Ca'' dell''Oro 9.16276° E , 44.31389°
+    N, Punta faro   9.21971° E , 44.29530° N.'
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/769556a6-0ee6-46a9-acbb-a1f2d51c07e8
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:57.707200+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/769556a6-0ee6-46a9-acbb-a1f2d51c07e8
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:57.707200+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/769556a6-0ee6-46a9-acbb-a1f2d51c07e8
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:57.707200+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  status: ACTIVE

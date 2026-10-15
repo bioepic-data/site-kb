@@ -1,0 +1,328 @@
+{
+  "source_url": "https://deims.org/api/sites/7c1cb7b8-8635-4d9c-8cb3-61559c8a66bc",
+  "retrieved_at": "2026-10-15T17:44:21.619457+00:00",
+  "record": {
+    "title": "VLIZ Marine Observatory - Belgium",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "7c1cb7b8-8635-4d9c-8cb3-61559c8a66bc"
+    },
+    "type": "site",
+    "created": "2016-06-13T14:01:55+02:00",
+    "changed": "2023-07-25T08:19:18+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Belgium",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "735946e0-4e9e-484a-acee-85e31f4e2a2e"
+              }
+            },
+            "siteCode": "LTER_EU_BE_10_003",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "Lifewatch",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d7f2fcc0-9a1b-4f33-8bb5-f930428e4468"
+              }
+            },
+            "siteCode": "https://www.lifewatch.be/en/sensors",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Klaas Deneudt",
+            "email": "klaas.deneudt@vliz.be",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Flanders Marine Institute (VLIZ)",
+            "url": "http://www.vliz.be/en",
+            "ror": "https://ror.org/0496vr396"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Flanders Marine Institute (VLIZ)",
+            "url": "http://www.vliz.be/en",
+            "ror": "https://ror.org/0496vr396"
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.vliz.be"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "To support the marine biodiversity and ecosystem dynamics research community in Belgium, the Flanders Marine Institute (VLIZ) has set up a local marine biodiversity observatory. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2012,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Belgian coastal waters and sand bank systems - Belgium",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "e83a90a3-2fb4-49bc-8991-a1d5b017ae19"
+                },
+                "changed": "2025-01-07T11:11:07+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "VLIZ Marine Observatory",
+        "shortName": "Marine Observatory",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/IMG_4543_JoM_boei1.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 852.4,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Temperate shelfs and seas",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Coastal habitats (B)",
+            "uri": null
+          },
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine",
+          "Coastal"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((2.5422916 51.092776, 2.3889555 51.2683397, 2.2370066 51.5569602, 2.252007 51.6122398, 2.4803457 51.8041898, 2.5380133 51.8753061, 3.0800821 51.5508499, 3.2109179 51.4839037, 3.2950868 51.4491811, 3.3525888 51.3786238, 3.3632836 51.3727904, 2.5422916 51.0927761, 2.5422916 51.092776))",
+        "coordinates": "POINT (2.704444 51.464833)",
+        "country": [
+          "Belgium"
+        ],
+        "elevation": {
+          "avg": 0,
+          "min": 0,
+          "max": 6,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 345400,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "nutrient availability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21457"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "boat",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 1
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "All over site/catchment",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Radio transmission system (repeaters, receivers, centralstation)",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Satellite",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

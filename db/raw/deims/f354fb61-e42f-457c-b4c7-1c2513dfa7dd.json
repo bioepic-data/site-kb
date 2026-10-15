@@ -1,0 +1,264 @@
+{
+  "source_url": "https://deims.org/api/sites/f354fb61-e42f-457c-b4c7-1c2513dfa7dd",
+  "retrieved_at": "2026-10-15T17:40:56.966701+00:00",
+  "record": {
+    "title": "Blue Lough - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "f354fb61-e42f-457c-b4c7-1c2513dfa7dd"
+    },
+    "type": "site",
+    "created": "2013-12-10T10:35:08+01:00",
+    "changed": "2023-07-28T11:18:44+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_21",
+            "verified": false
+          }
+        ],
+        "projects": [
+          {
+            "label": "ICP Waters",
+            "uri": null
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Blue Lough on UWMN",
+            "value": "https://uwmn.uk/blue-lough"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK Upland Waters Monitoring Network (UK UWMN) site.  Blue Lough is a small (1.9 ha) circular lake lying at 340 m altitude. The lough has no discrete inflow and drains through a Sphagnum bog to a tributary of the Annalong River. The bathymetry reveals a shallow concentric basin offset to the east, with a maximum depth of 5 m. Blue Lough is situated in a col between the Silent Valley and Annalong Valley in the Mourne Mountains of south-eastern Northern Ireland, very close to Bencrom River. The catchment is small (48 ha), but is steep and rugged, reaching a maximum altitude of 703 m. The solid geology of the catchment consists of granite which is exposed as bare rock and scree on the steep backwall and is covered with thin and often eroded blanket peat, peaty podsols and peaty gleys in the less steep areas. Bare rock, scree and eroded peat characterise the catchment, but elsewhere the vegetation is dominated by Calluna which in places is mature and in others has been intensively burnt. Land-use and management is restricted to low-intensity sheep grazing and occasional heather burning. Annual rainfall is c. 1600 mm. Some data are managed by UK ECN Data Centre. Note: The area is the size of the catchment. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1990,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Blue Lough",
+        "shortName": "UWMN_21",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category IV – Habitat/Species Management Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/IV"
+          },
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.7,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1600,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": "Granite",
+        "hydrology": "Blue Lough is a small (1.9 ha) circular lake lying at 340 m altitude. The lough has no discrete inflow and drains through a Sphagnum bog to a tributary of the Annalong River. The bathymetry reveals a shallow concentric basin offset to the east, with a maximum depth of 5 m.",
+        "soils": "Eroded blanket peat, peaty podsols and peaty gleys",
+        "vegetation": "Bare rock, scree and eroded peat characterise the catchment, but elsewhere the vegetation is dominated by Calluna which in places is mature and in others has been intensively burnt."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-5.96875 54.1585)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 340,
+          "min": 340,
+          "max": 340,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 48,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "animal species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10336"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "chemical composition of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21213"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22121"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "plant species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10335"
+          },
+          {
+            "label": "plant species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10341"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "Chemistry sampled monthly. Biological measurements made annually",
+          "siteVisitInterval": 30
+        },
+        "notes": "Accommodation in nearby villages. ",
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

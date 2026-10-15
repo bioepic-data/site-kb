@@ -1,0 +1,73 @@
+sites:
+- id: site_kb:deims-kiryu_experimental_watershed_-_japan
+  name: Kiryu Experimental Watershed - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: c595d441-ca98-483d-a259-3899bb55e32b
+    network_url: https://deims.org/c595d441-ca98-483d-a259-3899bb55e32b
+    name: Kiryu Experimental Watershed - Japan
+  location:
+    latitude: 34.9667
+    longitude: 136.0
+    country: Japan
+    elevation_meters: 223.0
+  description: The watershed covers 5.99 ha and ranges in elevation from 190 to 255
+    m. A meteorological observation tower is located in a small catchment within the
+    experimental watershed. The watershed is mainly covered by Chamaecyparis obtuse
+    Sieb. et Zucc. (Japanese cypress, an evergreen conifer) planted in 1959. Pinus
+    densiflora Sieb. et Zucc. and several deciduous broad-leaved tree species are
+    sparsely present. In 1990's, pine-wilt disease has decreased P. densiflora stands.
+    Eurya japonica Thunb. dominates the forest floor. The total leaf area index (LAI)
+    ranges approximately from 4.5 to 5.5 with a little seasonal fluctuation. The entire
+    catchment consists of weathered granite with abundant amounts of albite. The topographic
+    map of the area shows a mild northward inclination of approximately 9.2 degrees.
+    Winds flow mainly from the north during the day and from the south at night. The
+    annual mean air temperature from 1999 to 2012 was 13.5 C, and annual mean precipitation
+    from 1972 to 2012 was 1,651 mm. The site therefore has a warm temperate climate.
+    Rainfall occurs throughout the year, peaking in summer. Little snow falls in winter.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/c595d441-ca98-483d-a259-3899bb55e32b
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:14.302772+00:00'
+      source_modified_at: '2020-06-29T10:41:20+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/c595d441-ca98-483d-a259-3899bb55e32b
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:14.302772+00:00'
+      source_modified_at: '2020-06-29T10:41:20+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/c595d441-ca98-483d-a259-3899bb55e32b
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:14.302772+00:00'
+      source_modified_at: '2020-06-29T10:41:20+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/c595d441-ca98-483d-a259-3899bb55e32b
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:14.302772+00:00'
+      source_modified_at: '2020-06-29T10:41:20+02:00'
+  status: ACTIVE

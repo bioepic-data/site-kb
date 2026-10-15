@@ -1,0 +1,32 @@
+sites:
+- id: site_kb:deims-chia-yi_branch_station_-_taiwan
+  name: Chia-Yi branch station - Taiwan
+  network_registrations:
+  - network: DEIMS
+    network_id: 9102bd94-fd7d-4eda-b1aa-841a1e4fdade
+    network_url: https://deims.org/9102bd94-fd7d-4eda-b1aa-841a1e4fdade
+    name: Chia-Yi branch station - Taiwan
+  location:
+    latitude: 23.484378
+    longitude: 120.470899
+    country: Taiwan
+    elevation_meters: 65.0
+  description: "Chiayi Agricultural Experiment Branch was established on 1918.\r\n\
+    There are three research departments in Chiayi Agricultural Experiment Branch,\
+    \ include gardening, agriculture and plant protection.\r\nGardening department\
+    \ researches subtropical fruit trees.\r\nAgriculture department studies the quality\
+    \ rice breeding, diversification breeding and overall rice breed.\r\nPlant protection\
+    \ researches pest prevention and cure of agriculture."
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/9102bd94-fd7d-4eda-b1aa-841a1e4fdade
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:46.624612+00:00'
+      source_modified_at: '2022-10-28T18:03:04+02:00'
+  status: ACTIVE

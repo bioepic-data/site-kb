@@ -1,0 +1,49 @@
+sites:
+- id: site_kb:deims-ecological_research_site_of_mt_jirisan_-_korea_the_republic_of
+  name: Ecological research site of Mt. Jirisan - Korea (the Republic of)
+  network_registrations:
+  - network: DEIMS
+    network_id: 44f1d22e-9397-473e-a786-8011cd2af808
+    network_url: https://deims.org/44f1d22e-9397-473e-a786-8011cd2af808
+    name: Ecological research site of Mt. Jirisan - Korea (the Republic of)
+  location:
+    latitude: 35.1714
+    longitude: 127.2639
+    country: Korea (the Republic of)
+    elevation_meters: 295.0
+  description: Mt. Jirisan is located in the southern region of South Korea. It is
+    largest in its size, second highest and dedicated as the first national park in
+    South Korea. It is at the southern end of Backdudaegan mountain ranges. Mt. Jirisan
+    site in Gurae County is located in the very vicinity of the national park and
+    is the second KLTER(Korea Long Term Ecological Research) station by Ministry of
+    Environment and National Institute of Ecology. The site suffered natural forest
+    fire in 1999 and 2000 in a row that combusted vegetation about 13 and 7 hectares
+    respectively. Since that time, some tree species were planted in some of the area.
+    In 2010, the county designated the forest area of 155 ha including the KLTER site
+    as the Gurae Ecoforest and has managed the forest for ecological stability. The
+    area is composed of a variety of ecosystems like secondary pine forest as major
+    vegetation, naturally rehabilitated area, thinning area, reforested area.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/44f1d22e-9397-473e-a786-8011cd2af808
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:22.099270+00:00'
+      source_modified_at: '2020-12-18T10:29:39+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/44f1d22e-9397-473e-a786-8011cd2af808
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:22.099270+00:00'
+      source_modified_at: '2020-12-18T10:29:39+01:00'
+  status: ACTIVE

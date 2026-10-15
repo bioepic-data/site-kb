@@ -1,0 +1,195 @@
+{
+  "source_url": "https://deims.org/api/sites/ab18c648-7be6-4fb7-8f0e-6f76be769244",
+  "retrieved_at": "2026-10-15T17:41:32.886797+00:00",
+  "record": {
+    "title": "Time - Norway",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "ab18c648-7be6-4fb7-8f0e-6f76be769244"
+    },
+    "type": "site",
+    "created": "2014-11-28T00:00:00+01:00",
+    "changed": "2023-07-25T08:31:28+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Norway",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bc7c517b-3648-40cc-a04c-8c98d009c4a9"
+              }
+            },
+            "siteCode": "LTER_EU_NO_028",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Jannes Stolte",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Norwegian Institute of Bioeconomy Research (NIBIO)",
+            "url": "http://nibio.no",
+            "ror": "https://ror.org/04aah1z61"
+          }
+        ],
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Program for jord- og vannovervåking i landbruket (JOVA)",
+            "value": "http://nibio.no/jova"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "grass dominated catchment located at the south-western coast of Norway, monitored by The Norwegian Agricultural Environmental Monitoring Programme (JOVA)",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1985,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Jæren site cluster - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "790b004e-0406-434c-806e-bb2ab4a4fb01"
+                },
+                "changed": "2025-03-28T12:20:54+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Time",
+        "shortName": "JOVA Time",
+        "siteType": null,
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/IMG_0067_Feltet%2520fra%2520ovre%2520malestasjon.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 7.4,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1180,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (5.68 58.73)",
+        "country": [
+          "Norway"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": 35,
+          "max": 100,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 114,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

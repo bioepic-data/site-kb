@@ -1,0 +1,93 @@
+sites:
+- id: site_kb:deims-lausanne_-_switzerland
+  name: Lausanne - Switzerland
+  network_registrations:
+  - network: DEIMS
+    network_id: e60f9991-daf7-448c-9b78-44b00be86f6d
+    network_url: https://deims.org/e60f9991-daf7-448c-9b78-44b00be86f6d
+    name: Lausanne - Switzerland
+  location:
+    latitude: 46.5837664
+    longitude: 6.6580421
+    country: Switzerland
+    elevation_meters: 807.0
+  description: "The forest site \"Lausanne\" has been installed in 1994 as part of\
+    \ the Swiss Long-term Forest Ecosystem Research Programme LWF. The programme investigates\
+    \ anthropogenic and natural forces on the long-term health of the forests and\
+    \ the potential risks to humans. For this, a profound understanding of the relationship\
+    \ between processes, causes and effects in the ecosystem are necessary.\r\n\r\n\
+    The objectives of the LWF research programme include (i) early detection and a\
+    \ representative assessment of changes in forest condition, (ii) determination\
+    \ of external influences, both from anthropogenic and natural sources such as\
+    \ element inputs and climate and their effect on the forest ecosystem, (iii) development\
+    \ of indicators to assess the condition of the forest, (iv) integrated risk assessment\
+    \ based on different stress scenarios, and (v) extended platform for internal\
+    \ and external research projects. \r\n\r\nThe LWF research programme provides,\
+    \ on the one hand, long-term data series from the last 20 years, together with\
+    \ a scientific interpretation to national and international policy makers. On\
+    \ the other hand, the available data and latest LWF infrastructure provide an\
+    \ attractive scientific platform for collaboration with both national and international\
+    \ partners.\r\n\r\nThe site is located close to the city of Lausanne in the Swiss\
+    \ Plateau, within a natural, mixed forest stand which mainly consists of 160-170\
+    \ year-old European silver fir (Abies alba), spruce (Picea abies), and European\
+    \ beech (Fagus sylvatica) trees. \r\nAmong others, the site is equipped with two\
+    \ meteorological measurement stations; one is located within the forest stand,\
+    \ the second is co-located in the nearby open-field, allowing to measure the forest\
+    \ stand effect on micro-climate. \r\nThe following parameters are being measured\
+    \ (starting-end year): atmospheric deposition (1996-today), composition of ground\
+    \ vegetation (1994-today), crown condition (1995-today), tree-diameter and -height\
+    \ (2000-today), EC-5 soil water content (2010-today), leaf chemistry (1997-today),\
+    \ leaf area index (1996-today), lichens (2003-today), litterfall (1996-today),\
+    \ manual circumference band (2001-today), soil matric water potential (1996-today),\
+    \ meteorological parameters (1996-today), ozone symptoms (2002-today), ozone concentration\
+    \ (2000-today), passive sampling of NH3 & NO2 (1999-2000), soil matrix chemistry\
+    \ (1994-today), soil morphology (1994-today), soil solution chemistry (1999-today),\
+    \ tree cores (1998), crown transparency (1995-today), deadwood sampling (2009),\
+    \ point dendrometer (2011-today)."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/e60f9991-daf7-448c-9b78-44b00be86f6d
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:34.518412+00:00'
+      source_modified_at: '2024-03-25T14:10:06+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/e60f9991-daf7-448c-9b78-44b00be86f6d
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:34.518412+00:00'
+      source_modified_at: '2024-03-25T14:10:06+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/e60f9991-daf7-448c-9b78-44b00be86f6d
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:34.518412+00:00'
+      source_modified_at: '2024-03-25T14:10:06+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/e60f9991-daf7-448c-9b78-44b00be86f6d
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:34.518412+00:00'
+      source_modified_at: '2024-03-25T14:10:06+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

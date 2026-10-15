@@ -1,0 +1,406 @@
+{
+  "source_url": "https://deims.org/api/sites/1146f704-4085-4081-9d29-8f2e178fb9dd",
+  "retrieved_at": "2026-10-15T17:43:40.843090+00:00",
+  "record": {
+    "title": "Baileux - La Sormone - Belgium",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "1146f704-4085-4081-9d29-8f2e178fb9dd"
+    },
+    "type": "site",
+    "created": "2016-05-03T16:08:09+02:00",
+    "changed": "2021-11-23T11:48:44+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Belgium",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "735946e0-4e9e-484a-acee-85e31f4e2a2e"
+              }
+            },
+            "siteCode": "LTER_EU_BE_18",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Mathieu Jonard",
+            "email": "mathieu.jonard@uclouvain.be",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Commune de Chimay",
+            "url": "http://www.ville-de-chimay.be/",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Mathieu Jonard",
+            "email": "mathieu.jonard@uclouvain.be",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Service Public de Wallonie",
+            "url": "http://www.wallonie.be/",
+            "ror": "https://ror.org/0215gxf82"
+          }
+        ],
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The site comprises 4 plots installed in an oak and beech forest of 60 ha: 2 plots are in pure stands dominated either by oak (1.22 ha) or by beech (0.88 ha) and the two other plots are in mixed stands of contrasted densities (1.05 and 1.75 ha). All the stands are close to each other and are in very similar ecological conditions.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2001,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Baileux - La Sormone",
+        "shortName": "Baileux",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/DSCF8068.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 8,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1000,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "continental",
+        "biome": "deciduous_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Temperate broadleaf and mixed forests",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Broadleaved deciduous woodland (G1)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (4.402202 50.025461)",
+        "country": [
+          "Belgium"
+        ],
+        "elevation": {
+          "avg": 307,
+          "min": 300,
+          "max": 315,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 5,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "base saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22065"
+          },
+          {
+            "label": "canopy transpiration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22081"
+          },
+          {
+            "label": "carbon dioxide flux per soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22083"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "cation exchange capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22084"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "global radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "inorganic nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22136"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "leaf area ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22158"
+          },
+          {
+            "label": "leaf nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "litter residence time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10048"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "potential evaporation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10017"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "sapwood area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22220"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil moisture field capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10396"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil solution concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22274"
+          },
+          {
+            "label": "soil texture",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22279"
+          },
+          {
+            "label": "soil volumetric water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22280"
+          },
+          {
+            "label": "soil wilting point",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30036"
+          },
+          {
+            "label": "thickness of soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22295"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "tree age",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22300"
+          },
+          {
+            "label": "tree basal area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22301"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree diameter at breast height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22304"
+          },
+          {
+            "label": "tree distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21587"
+          },
+          {
+            "label": "tree height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22305"
+          },
+          {
+            "label": "water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22309"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 7
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Daily",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "The opportunity to collaborate on the project using the dataset",
+              "The opportunity to review the results based on the dataset",
+              "Reprints of articles using the dataset must be provided to the data provider",
+              "The dataset provider is given a complete list of all products that make use of the dataset",
+              "Mutual agreement on reciprocal sharing of data",
+              "The data provider is given and agrees to a statement of uses to which the dataset will be put"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

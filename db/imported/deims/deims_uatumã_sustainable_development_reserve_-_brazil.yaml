@@ -1,0 +1,70 @@
+sites:
+- id: site_kb:deims-uatumã_sustainable_development_reserve_-_brazil
+  name: Uatumã Sustainable Development Reserve - Brazil
+  network_registrations:
+  - network: DEIMS
+    network_id: 0bde5983-b296-4237-abdb-8fcc90f165f5
+    network_url: https://deims.org/0bde5983-b296-4237-abdb-8fcc90f165f5
+    name: Uatumã Sustainable Development Reserve - Brazil
+  location:
+    latitude: -2.1
+    longitude: -59.0
+    country: Brazil
+    elevation_meters: 45.0
+  description: USDR extends over 4.244 km2, and is located 150 km NE of the city of
+    Manaus, at approximately -02º10’ and -59º00’. It includes upland forest (terra
+    firme), white-sand forest (campinarana) and black-water inundation forest (igapó)
+    along the Uatumã River and smaller tributaries. The campinarana forest under study
+    is composed of small trees and shrubs that undergo episodically inundations through
+    upwelling groundwater during the rainy seasons. It is relatively poor in species
+    in comparison to surrounding upland forest, but contains elevated numbers of endemic
+    tree species. The study of hydrology, soils and the monitoring of tree growth,
+    mortality, and regeneration are the main goals of our project to understand how
+    climate seasonality and climate change affect abiotic factors, biomass, net primary
+    production, species populations, and biodiversity.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/0bde5983-b296-4237-abdb-8fcc90f165f5
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:01.256291+00:00'
+      source_modified_at: '2020-12-18T10:30:18+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/0bde5983-b296-4237-abdb-8fcc90f165f5
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:01.256291+00:00'
+      source_modified_at: '2020-12-18T10:30:18+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/0bde5983-b296-4237-abdb-8fcc90f165f5
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:01.256291+00:00'
+      source_modified_at: '2020-12-18T10:30:18+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/0bde5983-b296-4237-abdb-8fcc90f165f5
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:01.256291+00:00'
+      source_modified_at: '2020-12-18T10:30:18+01:00'
+  status: ACTIVE

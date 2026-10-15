@@ -1,0 +1,268 @@
+{
+  "source_url": "https://deims.org/api/sites/1a5fbe95-b936-4a0e-8cf5-bbed079cb76e",
+  "retrieved_at": "2026-10-15T17:47:32.628507+00:00",
+  "record": {
+    "title": "Blandy Experimental Farm NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "1a5fbe95-b936-4a0e-8cf5-bbed079cb76e"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-19T09:31:47+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "BLAN",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Ty Lindberg",
+            "email": "tlindberg@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Christine Laney",
+            "email": null,
+            "orcid": "https://orcid.org/0000-0002-4944-2083"
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/blan"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Blandy Experimental Farm (BLAN) is a terrestrial NEON field site located in Clarke County, Virginia, approximately 60 miles west of Washington, D.C. BLAN is subdivided between two locations, with 2.7 km2 (667 acres) at Blandy Experimental Farm and 3 km2 (741 acres) at Casey Tree Farm. The site includes a mix of land use types including woodland, hay fields, and tree nurseries. The surrounding region is characterized by general land use types including successional fields, pastures, woodlands, and small ponds. This site is located within NEON's Mid-Atlantic Domain (D02), a densely populated region bounded by the Atlantic Ocean on the east and stretching down the Eastern Seaboard from southern New Jersey to northern Georgia. The Mid-Atlantic Domain includes two other terrestrial sites and two aquatic sites. BLAN is located near the Lewis Run aquatic site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2015,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Blandy Experimental Farm NEON",
+        "shortName": "BLAN",
+        "siteType": "Non-stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-05/14983057104_63627abf4d_z.jpg",
+            "alt": "BLAN Boardwalk"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2020-05/14983648073_dd94cdfd41_b.jpg",
+            "alt": "BLAN Tower"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 12.1,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 983,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "deciduous_forest",
+        "ecosystemType": [
+          {
+            "label": "Deciduous Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "The Blandy Experimental Farm consists of limestone and dolostone of the Conocoheague Formation, while the Casey Tree Farm consists of limestone, dolostone, and shale.",
+        "hydrology": "Groundwater aquifers are recharged by precipitation, which percolates through fractures in carbonate rock and is sometimes facilitated by geologic structures such as sinkholes or sinking streams. This water is eventually discharged to streams in the form of spring discharge.",
+        "soils": "Soils are deep and well-drained with varying amounts of rock fragments. In general, Blandy and Casey Tree Farm soils lack organic horizons, though they are considered moderately to highly fertile. The elevated soil pH present across these sites presents an environment rich in biological activity. Soil types are predominantly Poplimento and Thurmont formed from shale, limestone, siltstone, and sandstone residual. The soil subgroup at the site are Ultic Hapludalfs.",
+        "vegetation": "The Blandy Experimental Farm is predominantly a fallow scrubland consisting primarily of hay crops and goldenrod (Solidago altissima), though the site is surrounded by fragmented secondary forests and successional shrubs. Casey Tree Farm, as the name suggests, is a tree nursery with hay fields encompassed by deciduous woodlands of black oak (Quercus velutina), tulip poplar (Liriodendron tulipifera), and pawpaw (Asimina triloba). NEON plots are distributed throughout Deciduous Forest and Pasture Hay NLCD classes, and these monitor and provide presence and absence data for over 100 plant species, including goldenrod (Solidago altissima), buckthorn (Rhamnus davurica), and Amur honeysuckle (Lonicera maackii)."
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-77.972697246 39.101319145, -77.973244132 39.101138348, -77.973629113 39.100933714, -77.974205202 39.100526052, -77.974651004 39.100043934, -77.975061038 39.099310317, -77.975211546 39.098503321, -77.975062978 39.097094507, -77.974781385 39.095409824, -77.974631451 39.093900301, -77.974417944 39.092466845, -77.973949782 39.09131248, -77.973388505 39.090435863, -77.972928635 39.089885733, -77.972243664 39.089413009, -77.971529489 39.08916714, -77.970815319 39.088921266, -77.969908349 39.088752523, -77.969195218 39.088582168, -77.968514396 39.088411543, -77.967642141 39.088418752, -77.966577419 39.088528261, -77.965609612 39.088636961, -77.964770001 39.08866906, -77.964029354 39.088851414, -77.963320667 39.089008321, -77.962678294 39.089290577, -77.962066861 39.089471857, -77.961650282 39.089727073, -77.961137462 39.090033436, -77.960493031 39.090164619, -77.959846899 39.090169915, -77.959039235 39.090176531, -77.957973117 39.090185255, -77.957262033 39.090165889, -77.956386033 39.089896071, -77.95566954 39.089473866, -77.954887769 39.089001833, -77.954526997 39.088601901, -77.954130547 39.087950464, -77.953994234 39.087422805, -77.953919495 39.08666803, -77.954041626 39.086138265, -77.95425729 39.085355944, -77.954570876 39.084648363, -77.955014008 39.083964904, -77.955490788 39.083381886, -77.956124677 39.082470251, -77.957206724 39.081252794, -77.958100007 39.080414565, -77.959026928 39.079676773, -77.960018093 39.078913265, -77.960883773 39.078427755, -77.961556995 39.078044535, -77.962264554 39.077812108, -77.963231879 39.077678258, -77.964039401 39.077671614, -77.966158103 39.079064211, -77.986801156 39.09304303, -77.983673287 39.095839086, -77.984202773 39.096741101, -77.983429147 39.09921519, -77.983434717 39.099618016, -77.983244681 39.099896585, -77.983568486 39.099944227, -77.983808591 39.100949391, -77.983388544 39.100952917, -77.983392372 39.101229859, -77.983944454 39.10142666, -77.984178299 39.101978645, -77.984185266 39.102482176, -77.983929905 39.102710937, -77.979693538 39.102494643, -77.978884349 39.10240069, -77.97748455 39.101656992, -77.976670534 39.101210551, -77.976153549 39.10121486, -77.973867703 39.101838191, -77.973447648 39.101841682, -77.973090841 39.101743928, -77.972697246 39.101319145))",
+        "coordinates": "POINT (-77.979278 39.094908)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 183,
+          "min": 119,
+          "max": 193,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 269,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "latent heat",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22154"
+          },
+          {
+            "label": "leaf area index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22157"
+          },
+          {
+            "label": "ozone concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22178"
+          },
+          {
+            "label": "plant diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22191"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil carbon dioxyde flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21939"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

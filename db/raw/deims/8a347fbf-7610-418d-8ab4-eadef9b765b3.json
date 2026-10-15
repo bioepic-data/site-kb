@@ -1,0 +1,442 @@
+{
+  "source_url": "https://deims.org/api/sites/8a347fbf-7610-418d-8ab4-eadef9b765b3",
+  "retrieved_at": "2026-10-15T17:51:21.049433+00:00",
+  "record": {
+    "title": "Osterseen - Germany",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "8a347fbf-7610-418d-8ab4-eadef9b765b3"
+    },
+    "type": "site",
+    "created": "2026-08-05T09:24:31+02:00",
+    "changed": "2026-08-05T10:35:32+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER-D (Germany)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "e904354a-f3a0-40ce-a9b5-61741f66c824"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Alexandra Schoenle",
+            "email": "a.schoenle@tum.de",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Ann-Marie Waldvogel",
+            "email": "a.waldvogel@tum.de",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Technical University Munich",
+            "url": null,
+            "ror": null
+          }
+        ],
+        "metadataProvider": null,
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Technical University Munich",
+            "url": null,
+            "ror": null
+          }
+        ],
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The Ostersee LTER-D site investigates how freshwater ecosystems respond to changing environmental conditions and to what extent these changes are reflected in eco-evolutionary dynamics. The site aims to establish a long-term assessment of interactions between ecological and evolutionary processes by integrating ecological monitoring with genomic approaches. Population genomics, together with eDNA, eRNA, and continuous environmental measurements, provides high-resolution insights into biodiversity dynamics, ecosystem functioning, and eco-evolutionary responses to changing environmental conditions.\r\nThe study area is located in the Osterseen lake district in Bavaria, southern Germany. The Osterseen comprise approximately 20 interconnected lakes (depending on the classification), which were formed during the last glacial period as kettle lakes (Toteisseen). The lakes are groundwater-fed and along the north-south lake chain, a pronounced trophic gradient develops before the system ultimately drains into Lake Starnberg. Research focuses on the largest lake, Großer Ostersee, an oligotrophic lake that serves as the core study system.\r\nThe Limnological Research Station Iffeldorf of the Technical University of Munich (TUM) provides the central research infrastructure for the site and supports long-term ecological observations, field experiments, and sampling activities. The site is organised as an interdisciplinary collaborative research platform involving several project partners and associated subprojects. It serves as the foundation for long-term research within a coordinated research network, combining expertise in limnology, ecology, evolutionary biology, genomics, and environmental monitoring to address fundamental questions on eco-evolutionary dynamics in freshwater ecosystems.\r\n\r\n\r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": null,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Osterseen",
+        "shortName": null,
+        "siteType": null,
+        "protectionLevel": [
+          {
+            "label": "Category IV – Habitat/Species Management Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/IV"
+          }
+        ],
+        "landUse": [
+          {
+            "label": "primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2026-08/Gros.png",
+            "alt": "Aerial view of Iffeldorf, Bavaria, with several interconnected lakes of the Osterseen lake district in the background. (c) Ann-Marie Waldvogel"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((11.290512 47.770637, 11.290512 47.800395, 11.327419 47.800395, 11.327419 47.770637, 11.290512 47.770637))",
+        "coordinates": "POINT (11.305185 47.783844)",
+        "country": [
+          "Germany"
+        ],
+        "elevation": {
+          "avg": 610,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 914.46,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": [
+          {
+            "label": "DNA polymorphism",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21399"
+          },
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "allele frequency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22039"
+          },
+          {
+            "label": "alpha diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22040"
+          },
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "animal species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10336"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "available phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22061"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "beta diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22067"
+          },
+          {
+            "label": "biodiversity loss",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20153"
+          },
+          {
+            "label": "biological diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21391"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "body length",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21363"
+          },
+          {
+            "label": "body mass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21364"
+          },
+          {
+            "label": "body size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21366"
+          },
+          {
+            "label": "body weight",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21368"
+          },
+          {
+            "label": "change in population size over time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22085"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "community structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21472"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "drift rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10091"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "effective population size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22113"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "gene polymorphism",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21401"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "genetic polymorphism",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21402"
+          },
+          {
+            "label": "ground temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21527"
+          },
+          {
+            "label": "interspecific variation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21394"
+          },
+          {
+            "label": "intraspecific variation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21395"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "land surface temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21528"
+          },
+          {
+            "label": "maximum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21529"
+          },
+          {
+            "label": "mean annual precipitation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22166"
+          },
+          {
+            "label": "mean annual temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21531"
+          },
+          {
+            "label": "minimum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21532"
+          },
+          {
+            "label": "oxygen concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30179"
+          },
+          {
+            "label": "oxygen saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21215"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "physical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20938"
+          },
+          {
+            "label": "ploidy level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21405"
+          },
+          {
+            "label": "population changes over time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10028"
+          },
+          {
+            "label": "population size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22199"
+          },
+          {
+            "label": "population structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21415"
+          },
+          {
+            "label": "rainfall variability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21948"
+          },
+          {
+            "label": "redox potential of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21216"
+          },
+          {
+            "label": "seasonal change",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21569"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species trait",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10024"
+          },
+          {
+            "label": "water colour",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10390"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water smell",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10387"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "zooplankton abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30019"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 7
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "6 - 10 beds",
+            "uri": null
+          },
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

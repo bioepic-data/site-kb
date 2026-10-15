@@ -1,0 +1,228 @@
+{
+  "source_url": "https://deims.org/api/sites/711168dc-c88f-4b80-ab56-bd2af272e251",
+  "retrieved_at": "2026-10-15T17:41:54.855839+00:00",
+  "record": {
+    "title": "Birkenes calibrated catchment - Norway",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "711168dc-c88f-4b80-ab56-bd2af272e251"
+    },
+    "type": "site",
+    "created": "2014-11-28T00:00:00+01:00",
+    "changed": "2023-07-24T14:31:23+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Norway",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bc7c517b-3648-40cc-a04c-8c98d009c4a9"
+              }
+            },
+            "siteCode": "LTER_EU_NO_020",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Oyvind Kaste",
+            "email": "oka@niva.no",
+            "orcid": "https://orcid.org/0000-0002-5493-3629?lang=en"
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Norwegian Institute for Water Research (NIVA)",
+            "url": "https://www.niva.no/",
+            "ror": "https://ror.org/03hrf8236"
+          }
+        ],
+        "metadataProvider": null,
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Norwegian Environment Agency",
+            "url": null,
+            "ror": "https://ror.org/023jta124"
+          }
+        ],
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Catchment stream monitoring of water chemistry. Forested catchment on acid-sensitives soils, 200-300 masl\r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1972,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Birkenes site cluster - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "e84ca4a3-42cc-43f3-8cc2-80b0a453e916"
+                },
+                "changed": "2025-03-28T12:12:43+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Birkenes calibrated catchment",
+        "shortName": "BIE01",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": [
+          {
+            "label": "natural areas not in other economic use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_NaturalAreasNotInOtherEconomicUse"
+          },
+          {
+            "label": "other uses",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_5_AreasWithoutAnySpecifiedPlannedUse"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2022-11/Birkenes.png",
+            "alt": "Catchment outlet (photo: RF Wright)"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 5.8,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": {
+            "label": "1961 - 1990",
+            "uri": null
+          }
+        },
+        "precipitation": {
+          "yearlyAverage": 1405,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": {
+            "label": "1961 - 1990",
+            "uri": null
+          }
+        },
+        "biogeographicalRegion": "boreal",
+        "biome": "evergreen_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": [
+          {
+            "label": "River",
+            "uri": null
+          }
+        ],
+        "geoBonBiome": null,
+        "geology": "Granite, biotite",
+        "hydrology": "Mean annual runoff: 1127 mm",
+        "soils": "Thin podzols and brown earth soils developed on patchy moraine of granitic mineralogy overlying biotite granite. Mineral soils have developed in a shallow layer of glacial till on granitic bedrock. Mineral soil types are acid brown earth and podzols. Peaty deposits have developed on poorly drained sites in the catchment. On the slopes, well-drained thin organic layers on gravel or bedrock are common.",
+        "vegetation": "Mainly Norway spruce (Picea abies L.) with some Scots pine (Pinus sylvestris L.) and birch (Betula pubescens L.) and undergrowth of mosses, blueberry, and fern."
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((8.235369 58.382509, 8.235369 58.384309, 8.239961 58.384309, 8.239961 58.382509, 8.235369 58.382509))",
+        "coordinates": "POINT (8.237686 58.383467)",
+        "country": [
+          "Norway"
+        ],
+        "elevation": {
+          "avg": 226,
+          "min": 190,
+          "max": 281,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 410,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 7
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

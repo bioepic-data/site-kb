@@ -1,0 +1,273 @@
+{
+  "source_url": "https://deims.org/api/sites/14d4e775-b092-4b13-beb2-2962bf86b7a3",
+  "retrieved_at": "2026-10-15T17:44:50.139560+00:00",
+  "record": {
+    "title": "OZCAR-RI REAL COLLOBRIER Catchments - France",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "14d4e775-b092-4b13-beb2-2962bf86b7a3"
+    },
+    "type": "site",
+    "created": "2016-06-27T10:21:04+02:00",
+    "changed": "2024-03-04T09:35:37+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "Critical Zone Collaborative Network (CZ Net)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fda96130-91b3-42e6-8c85-2b8879986070"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER France",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d8d9206f-b1bd-4f90-84b7-8c662d4235a2"
+              }
+            },
+            "siteCode": "CZO_EU_FR_160",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "OZCAR RI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "3439de4e-c64d-4a97-bed0-7e27fadbcb7b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Patrick Arnaud",
+            "email": "patrick.arnaud@inrae.fr",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "National Research Institute for Agriculture, Food and Environment (INRAE)",
+            "url": "https://www.inrae.fr/",
+            "ror": "https://ror.org/003vg9w96"
+          }
+        ],
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Database website",
+            "value": "https://bdoh.irstea.fr/REAL-COLLOBRIER/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The  Watershed  Research  and  Experimentation  of  Real  Collobrier  is  a  privileged  site  for  the \r\nobservation and the study of the water cycle in the Mediterranean forest. It is a landmark site of the \r\nhydro  regional  climatology  where  many  cognitive  approaches  have  been  carried  out.  Observation \r\nnetwork  allows  the  study  of  phenomena with a  particularly  fine  scale,  which  makes  it  an  ideal \r\nlaboratory  for  the  development  of  methodologies  directly  applicable  in  operation\r\nal  hydrology.  \r\nThe watershed is instrumented since 1966. It has long chronic hydro-climatic data for fifty years, with 15 rain gauges and 7 flow gauges. Climatology and physico-chemical measurements are also carried out continuously.\r\nThe multidisciplinary  approach, associated  with  specific  experiments,  allows  a  deepening  of  our understanding of the interaction soil-water-atmosphere.\r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1966,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "OZCAR-RI REAL COLLOBRIER Catchments",
+        "shortName": "Real_Collobrier_catchment",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Rimbaud2.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 900,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "mediterranean",
+        "biome": "deciduous_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Mediterranean forests, woodlands, and scrub",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Coastal",
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (6.3 43.233)",
+        "country": [
+          "France"
+        ],
+        "elevation": {
+          "avg": 280,
+          "min": 80,
+          "max": 770,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 7060,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "redox potential of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21216"
+          },
+          {
+            "label": "runoff amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30032"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Less than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Web Catalog Service (CSW)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

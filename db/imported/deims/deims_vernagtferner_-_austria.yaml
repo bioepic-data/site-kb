@@ -1,0 +1,54 @@
+sites:
+- id: site_kb:deims-vernagtferner_-_austria
+  name: Vernagtferner - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: a919d22f-f4a0-4fcf-99f6-7666fbc2f2af
+    network_url: https://deims.org/a919d22f-f4a0-4fcf-99f6-7666fbc2f2af
+    name: Vernagtferner - Austria
+  location:
+    latitude: 46.8773
+    longitude: 10.8161
+    country: Austria
+    elevation_meters: 3123.0
+  description: 'The Vernagtferner region has a long tradition of glaciological research
+    performed by groups from Munich. It started in 1889, when Prof. Sebastian Finsterwalder
+    from the Technical University in Munich produced the first map of a complete glacier
+    based on terrestrial photogrammetry. Since then, numerous maps of the glacier
+    have been made, describing the change in surface elevation for more than a century.
+    These maps form the basis of the geodetic method of glacier mass balance determination,
+    which provides volume changes as average data for the period between two surveys,
+    i.e. typically for 10 years. Since the start of the glaciological method on Vernagtferner
+    in 1964, annual as well as winter and summer mass balance data are available continuously.
+    But only since 1973, the construction of the Vernagtbach station, approximately
+    1 km below the glacier margin at that time, provided the means to record a larger
+    number of hydrological and meteorological parameters with a temporal resolution
+    of typically 1 hour. For more information see Braun, L. & Escher-Vetter, H. (2012):
+    Gletscherforschung am Vernagtferner. Themenband zum fünfzigjährigen Gründungsjubiläum
+    der Kommission für Glaziologie der Bayerischen Akademie der Wissenschaften, München.
+    In: Kuhn, M.: Zeitschrift für Gletscherkunde und Glzialgeologie. Band 45/46 (2011/2012).'
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/a919d22f-f4a0-4fcf-99f6-7666fbc2f2af
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:36.097048+00:00'
+      source_modified_at: '2023-07-25T08:48:28+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/a919d22f-f4a0-4fcf-99f6-7666fbc2f2af
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:36.097048+00:00'
+      source_modified_at: '2023-07-25T08:48:28+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

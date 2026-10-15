@@ -1,0 +1,72 @@
+sites:
+- id: site_kb:deims-lago_anterselva_-_italy
+  name: Lago Anterselva - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: e8342e5a-849b-4eba-8a99-249d285b5094
+    network_url: https://deims.org/e8342e5a-849b-4eba-8a99-249d285b5094
+    name: Lago Anterselva - Italy
+  location:
+    latitude: 46.886
+    longitude: 12.1661
+    country: Italy
+    elevation_meters: 1642.0
+  description: "The site Lake of Anterselva lies in the Eastern Alps at 1640 m a.s.l.\
+    \ and is for extension the third among the natural lakes of the province of Bolzano.\
+    \ Because of his natural charm it is ever since visited by tourists. The lake,\
+    \ surrounded by conifers, is of barrier origin and has presently an oligotrophic\
+    \ state. Its watershed is composed of acid rocks (75 %) and morenes (23 %) and\
+    \ is covered by shreds (41 %), pioneer vegetation (42 %) and pasture (7%).\r\n\
+    The literature on Lake Anterselva is extremely poor of physical, chemical and\
+    \ biological data. The only sufficiently sound research was conducted towards\
+    \ the end of the 19th century by Damian, who published a bathymetric map with\
+    \ notes on geology and hydrography.\r\nSince 1979 the lake is being limnologically\
+    \ surveyed by the Environmental Agency of the Province of Bolzano, at non-regular\
+    \ intervals throughout the year, in order to monitor its conditions and its development\
+    \ over time. This programme comprises basic limnology including physical and chemical\
+    \ profiles and qualitative and quantitative phyto- and zooplankton analyses. Because\
+    \ of its high naturalistic value, the lake is part of the European network monitoring\
+    \ programme since 2008 and is subjected to the monitoring of its various biological\
+    \ elements according to the European WFD directive: in addition to phytoplankton\
+    \ also macrophytes, benthic fauna and fish are analyzed and evaluated at predetermined\
+    \ minimum intervals. Being located in an area of rock-glaciers, the long-term\
+    \ data of chemistry, physics and plankton of this lake may be useful to identify\
+    \ the effects of climate change (in particular the melting of permafrost). \r\n\
+    The Biological Laboratory, in charge of surveying the lake, is equipped with the\
+    \ needed instruments and is located at a distance of 109 km from the lake."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/e8342e5a-849b-4eba-8a99-249d285b5094
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:59.371557+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/e8342e5a-849b-4eba-8a99-249d285b5094
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:59.371557+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/e8342e5a-849b-4eba-8a99-249d285b5094
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:59.371557+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

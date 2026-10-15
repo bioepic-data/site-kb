@@ -1,0 +1,212 @@
+{
+  "source_url": "https://deims.org/api/sites/4f6cb674-72af-4597-afdd-7561ed66c68c",
+  "retrieved_at": "2026-10-15T17:47:45.730656+00:00",
+  "record": {
+    "title": "Little Rock Lake NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "4f6cb674-72af-4597-afdd-7561ed66c68c"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-18T09:33:49+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "LIRO",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Peter Weishampel",
+            "email": "pweishampel@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/liro"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Little Rock Lake (LIRO) is a aquatic site in the American Legion State Forest in Vilas County in north-central Wisconsin. It is hosted by the Wisconsin Department of Natural Resources. LIRO is a 0.16 km2 (40 acre) mesotrophic lake with an elevation of 501 m (1640 ft.). The surrounding region is a matrix of hardwood, coniferous, and mixed forests and lakes and streams. LIRO is located within NEON's Great Lakes Domain (D05), which includes northern Ohio, Michigan, northern Wisconsin, and parts of Indiana and Illinois. D05 also includes three terrestrial sites and one additional aquatic site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2017,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Little Rock Lake NEON",
+        "shortName": "LIRO",
+        "siteType": "Non-stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/rock%20lake.jpg",
+            "alt": "Little Rock Lake"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 4.4,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 796,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Deciduous Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Mixed Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "The topography of the lake and surrounding land were formed by glacial processes 10,000 to 25,000 years ago. The leftover glacial deposits are mainly comprised of sand and gravel. The geology of the site is defined as migmatic gneiss and amphibolite.",
+        "hydrology": "Little Rock Lake (LIRO) is a seepage lake with a watershed size of about 0.9 km2 (220 acres) and no inflow or outflow streams. The lake consists of two main basins that are separated by a narrow water passage. The water moves southeast to northwest in the ground-water system the lake is situated within. Almost all of the lake’s water comes from rainfall and snowmelt. Precipitation, evaporation and groundwater flow affect the lake’s water levels, area and volume year-to-year. There is a known thermocline of the lake that varies during the seasons, approximately 8 m (26 ft.) deep on rough average. During the summer months, the bottom of the lake becomes anoxic. From late fall to early spring, LIRO may be ice covered.",
+        "soils": "The bed sediments of Little Rock Lake are comprised of 70% sand, 10% gravel, 15% rock and 5% muck.",
+        "vegetation": "The riparian canopy surrounding Little Rock Lake is dominated by primarily hardwood and mixed forests and some coniferous forests. Trees found in these habitats are the speckled alder (Alnus incana rugosa), white pine, and white and black spruce trees."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-89.704767 45.998269)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 502,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": null,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

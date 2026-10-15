@@ -1,0 +1,152 @@
+{
+  "source_url": "https://deims.org/api/sites/287989c8-e04e-4d8a-ae86-b56892af18e6",
+  "retrieved_at": "2026-10-15T17:49:02.874795+00:00",
+  "record": {
+    "title": "Svalbard site cluster - Norway",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "287989c8-e04e-4d8a-ae86-b56892af18e6"
+    },
+    "type": "site",
+    "created": "2022-11-14T15:56:19+01:00",
+    "changed": "2025-03-28T13:25:26+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": null,
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": null,
+        "yearEstablished": null,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "contains",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Sverdrup Research Station Ny-lesund LSF - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "9eeb23c9-80ce-4518-b255-c3c606b1daca"
+                },
+                "changed": "2023-07-26T09:34:09+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "Svalbard site cluster",
+        "shortName": null,
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": null,
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((11.524658 77.940513, 11.524658 78.998281, 18.270264 78.998281, 18.270264 77.940513, 11.524658 77.940513))",
+        "coordinates": "POINT (15.732422 78.160161)",
+        "country": [
+          "Norway"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1767427.29,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": null,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": null,
+        "operation": {
+          "permanent": null,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

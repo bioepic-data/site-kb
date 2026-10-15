@@ -1,0 +1,28 @@
+sites:
+- id: site_kb:deims-krakovski_gozd_-_slovenia
+  name: Krakovski gozd - Slovenia
+  network_registrations:
+  - network: DEIMS
+    network_id: deaa845b-dbd9-42a4-a9a5-d9db2a86d4c2
+    network_url: https://deims.org/deaa845b-dbd9-42a4-a9a5-d9db2a86d4c2
+    name: Krakovski gozd - Slovenia
+  location:
+    latitude: 45.876688
+    longitude: 15.422166
+    country: Slovenia
+    elevation_meters: 152.0
+  description: http://meteo.gozdis.si/?page_id=48 (only in SLO language)
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/deaa845b-dbd9-42a4-a9a5-d9db2a86d4c2
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:39.893094+00:00'
+      source_modified_at: '2023-09-25T08:13:35+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

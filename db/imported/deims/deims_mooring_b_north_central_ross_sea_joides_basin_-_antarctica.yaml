@@ -1,0 +1,214 @@
+sites:
+- id: site_kb:deims-mooring_b_north_central_ross_sea_joides_basin_-_antarctica
+  name: 'Mooring B: North Central Ross Sea, Joides Basin - Antarctica'
+  network_registrations:
+  - network: DEIMS
+    network_id: 1fb62b9c-4d5c-4f1f-8882-807032337de7
+    network_url: https://deims.org/1fb62b9c-4d5c-4f1f-8882-807032337de7
+    name: 'Mooring B: North Central Ross Sea, Joides Basin - Antarctica'
+  location:
+    latitude: -74.0105
+    longitude: 175.085
+    country: Antarctica
+    elevation_meters: -300.0
+  description: 'The Mooring B is located in the North-central Ross Sea in the Joides
+    Basin. The mooring is equiped with sediment traps, currentometers, trasmissometer,
+    fluorimeter and CTD. The study of mooring can be consider part of the activities
+    conduct in the framework of the research project "ABIOCLEAR - Antarctic biogeochemical
+    cycles - climatic and paleoclimatic reconstructions. (Resp. M. Ravaioli)". Such
+    Project is the natural prosecution of previous research activity carried out from
+    1987. Objectives : Study of the particle fluxes towards the marine bottom sediment,
+    in particular with the aim to obtain quali/quantitative estimate of the biogenica
+    component coming from the primary production. Analysis of the vertical rain rate
+    processes and, therefore, the marine cycle of the main biogenic particles such
+    as Carbon and Silica. Try to obtain mass budgets of these parameters, estimating
+    their cycle in the water column until the burial processes in sediments. From
+    apparent accumulate rate calculated in the bottom sediment we will tried to discriminate
+    the real vertical fluxes (Rain Rate) from the horizontal input from sediment remobilization
+    processes. Acquisition and elaboration of long time series of data. Collection
+    of bottom Sediment samples to estimate the variations of the productivity and
+    the paleoproductivity in the area. Historical time series of Mooring B: Primary
+    productivity data (every three years), fitoplancton, New and regenerated productivity,
+    Seasonal, annual and interannual fluxes measure, monthly Particles samples, current
+    velocity, water salinity, temperature and torbidity, Water-sediment interface
+    measure. Biogeochemical parameters. Radiometrical Data, Mineralogical and grain
+    size characterization.  Nutrient, metals. Biostratigraphy interpretations. Lidar
+    data are also available from 1997.'
+  variables:
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: dissolved nutrient
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved nutrient
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22107
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: inorganic nutrient content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: inorganic nutrient content
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22137
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: percent carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: percent carbon
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22181
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: percent organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: percent organic carbon
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22183
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species abundance
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/10018
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: total carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total carbon
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22296
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: total organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total organic carbon
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22297
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water salinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water salinity
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/10308
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water transparency
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water transparency
+      record_url: https://deims.org/api/sites/1fb62b9c-4d5c-4f1f-8882-807032337de7
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/10392
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:05.596871+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  status: ACTIVE

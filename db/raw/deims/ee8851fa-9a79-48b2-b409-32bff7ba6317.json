@@ -1,0 +1,330 @@
+{
+  "source_url": "https://deims.org/api/sites/ee8851fa-9a79-48b2-b409-32bff7ba6317",
+  "retrieved_at": "2026-10-15T17:35:53.948986+00:00",
+  "record": {
+    "title": "Niwot Ridge - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "ee8851fa-9a79-48b2-b409-32bff7ba6317"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:35:30+01:00",
+    "changed": "2023-07-17T17:56:16+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "LTER-NAM-US-12",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Nancy Emery",
+            "email": "nancy.emery@colorado.edu",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Sarah Elmendorf",
+            "email": "lternwt@colorado.edu",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Katherine Suding",
+            "email": "Suding@colorado.edu",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "US National Science Foundation (NSF)",
+            "url": "https://www.nsf.gov/",
+            "ror": "https://ror.org/021nxhr62"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://nwt.lternet.edu/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Niwot Ridge Long Term Ecological Research (LTER) site was established in 1980 with support from the National Science Foundation. The topography, climate and biota of the research site are representative of alpine ecosystems in the southern Rocky Mountains, including extensive expanses of alpine tundra and subalpine coniferous forests, as well as a cirque glacier (Arikaree Glacier), a variety of glacial landforms, lakes and moraines, cirques, talus slopes, patterned ground, and permafrost.\r\n\r\nThe LTER site includes Niwot Ridge, the southern-adjacent Green Lakes Valley, and the University of Colorado’s Mountain Research Station (MRS). Niwot Ridge is part of the Roosevelt National Forest and has been designated a United Nations Educational, Scientific and Cultural Organization (UNESCO) Biosphere Reserve and an Experimental Ecology Reserve (USDA Forest Service). The Green Lakes Valley is a part of the City of Boulder Watershed. The MRS is an interdisciplinary facility devoted to the advancement of the study of mountain ecosystems, providing research and educational opportunities for scientists, students, and the general public.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1980,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Niwot Ridge",
+        "shortName": "NWT",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/NWT_main_map.png",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 1.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 800,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "alpine",
+        "ecosystemType": [
+          {
+            "label": "Alpine",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Rivers",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          },
+          {
+            "label": "Small rivers",
+            "uri": null
+          },
+          {
+            "label": "Temperate coniferous forests",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes",
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-105.653 40.0715)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 3500,
+          "min": 3000,
+          "max": 3950,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 4200,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10043"
+          },
+          {
+            "label": "acid neutralising capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10310"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22169"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "population size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22199"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22240"
+          },
+          {
+            "label": "snow temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22241"
+          },
+          {
+            "label": "snow water equivalent",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22242"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water volume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22316"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "Reprints of articles using the dataset must be provided to the data provider"
+            ],
+            "notes": "Data Use Policy\r\n1. Use our data freely. All Niwot LTER data products (except some recent data sets for which metadata but not data are available) are released to the public and may be freely copied, distributed, edited, remixed, and built upon under the condition that you provide acknowledgement as described below.\r\n\r\n2. Give proper acknowledgement. Publications, models and data products that make use of these data sets must include proper acknowledgement, including citing data sets in a similar way to citing a journal article. See http://www.datacite.org/whycitedata). The following acknowledgment should accompany any publication or citation of these data: Logistical support and/or data were provided by the NSF supported Niwot Ridge Long-Term Ecological Research project and the University of Colorado Mountain Research Station\r\n\r\n3. Let us know how you will use the data. The data set creators and Niwot LTER would appreciate hearing of any plans to use the data set. Consider consultation or collaboration with data set creators.\r\n\r\n4. Although efforts have been made to ensure that these data are of the highest quality, the possibility of errors exists. Plase notify the data manager of any errors at lternwt@colorado.edu."
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "ltser"
+        }
+      }
+    }
+  }
+}

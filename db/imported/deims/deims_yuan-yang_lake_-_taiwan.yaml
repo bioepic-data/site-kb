@@ -1,0 +1,29 @@
+sites:
+- id: site_kb:deims-yuan-yang_lake_-_taiwan
+  name: Yuan-yang Lake - Taiwan
+  network_registrations:
+  - network: DEIMS
+    network_id: d40dcca2-4d45-44ae-bc95-dc6c68feb7b9
+    network_url: https://deims.org/d40dcca2-4d45-44ae-bc95-dc6c68feb7b9
+    name: Yuan-yang Lake - Taiwan
+  location:
+    latitude: 24.5833
+    longitude: 121.4
+    country: Taiwan
+    elevation_meters: 2041.0
+  description: "Yuan-yang Lake is located in Chienshih township in Hsinchu county\
+    \ and it's an alpine lake.\r\nYuan-yang Lake Nature Reserve contains 3.75 ha of\
+    \ lake and 2.2 ha of marsh."
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/d40dcca2-4d45-44ae-bc95-dc6c68feb7b9
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:43.038549+00:00'
+      source_modified_at: '2021-02-09T12:15:46+01:00'
+  status: ACTIVE

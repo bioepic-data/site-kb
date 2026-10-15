@@ -1,0 +1,77 @@
+sites:
+- id: site_kb:deims-stubacher_sonnblickkees_-_austria
+  name: Stubacher Sonnblickkees - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: f904bf5e-60a5-4d0d-b8b9-6ca009fbcb9f
+    network_url: https://deims.org/f904bf5e-60a5-4d0d-b8b9-6ca009fbcb9f
+    name: Stubacher Sonnblickkees - Austria
+  location:
+    latitude: 47.131773
+    longitude: 12.59266
+    country: Austria
+    elevation_meters: 2750.0
+  description: "Stubacher Sonnblickkees (SSK) is located in the Hohe Tauern Range\
+    \ (Eastern Alps) in the south of Salzburg Province (Austria) in the region of\
+    \ Oberpinzgau in the upper Stubach Valley. The glacier is situated at the main\
+    \ Alpine crest and faces east, starting at elevations close to 3050 m and in the\
+    \ 1980s terminated at 2500 m a.s.l. It had an area of 1.7 km² at that time, compared\
+    \ with 1 km² in 2013. The glacier type can be classified as a slope glacier, i.e.\
+    \ the relief is covered by a relatively thin ice sheet and there is no regular\
+    \ glacier tongue. The rough subglacial topography makes for a complex shape in\
+    \ the surface topography, with various concave and convex patterns.\r\nDirect\
+    \ yearly mass balance measurements were started in 1963, first for 3 years as\
+    \ part of a thesis project. In 1965 the project was incorporated into the Austrian\
+    \ glacier measurement sites within the International Hydrological Decade (IHD)\
+    \ 1965 - 1974 and was afterwards extended via the International Hydrological Program\
+    \ (IHP) 1975 - 1981. During both periods the main financial support came from\
+    \ the Hydrological Survey of Austria. After 1981 funds were provided by the Hydrological\
+    \ Service of the Federal Government of Salzburg. The research was conducted from\
+    \ 1965 onwards by Heinz Slupetzky from the (former) Department of Geography of\
+    \ the University of Salzburg.\r\nAlong with the mass balance measurement lenght\
+    \ variations and volumen changes where conducted repeatetly.\r\nThe SSK was mapped\
+    \ several times on a scale of 1:5000 to 1:10000. Length variations have been measured\
+    \ since 1960 within the OeAV glacier length measurement programme. \r\n In recent\
+    \ years, the glacier has disintegrated faster, forced by the formation of a periglacial\
+    \ lake at the glacier terminus and also by the outcrops of rocks (typical for\
+    \ the slope glacier type), which have accelerated the meltdown. The formation\
+    \ of this lake is well documented. The glacier has retreated by some 600 m since\
+    \ 1981. - Since August 2002, a runoff gauge installed by the Hydrographical Service\
+    \ of Salzburg has recorded the discharge of the main part of SSK at the outlet\
+    \ of the new Unterer Eisboden See."
+  variables:
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/f904bf5e-60a5-4d0d-b8b9-6ca009fbcb9f
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:28.416524+00:00'
+      source_modified_at: '2024-07-22T16:02:31+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/f904bf5e-60a5-4d0d-b8b9-6ca009fbcb9f
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:28.416524+00:00'
+      source_modified_at: '2024-07-22T16:02:31+02:00'
+  - name: water volume
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water volume
+      record_url: https://deims.org/api/sites/f904bf5e-60a5-4d0d-b8b9-6ca009fbcb9f
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22316
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:28.416524+00:00'
+      source_modified_at: '2024-07-22T16:02:31+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

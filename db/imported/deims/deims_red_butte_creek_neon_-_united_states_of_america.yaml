@@ -1,0 +1,91 @@
+sites:
+- id: site_kb:deims-red_butte_creek_neon_-_united_states_of_america
+  name: Red Butte Creek NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: 49d06c87-07ea-45b6-8762-fcc4989890de
+    network_url: https://deims.org/49d06c87-07ea-45b6-8762-fcc4989890de
+    name: Red Butte Creek NEON - United States of America
+  location:
+    latitude: 40.78374
+    longitude: -111.79765
+    country: United States of America
+    elevation_meters: 1694.0
+  description: Red Butte Creek (REDB) is an aquatic NEON field site located just east
+    of Salt Lake City, UT near Fort Douglas. It is a second-order wadeable stream.
+    The stream reach is located upstream of the Red Butte Reservoir and a U.S. Geological
+    Survey gaging station. The stream is confined within a steep canyon drainage basin
+    in the southwestern Rocky Mountains and drains a 16.7 km2 (4130 acre) watershed.
+    REDB is managed by the United States Forest Service and the University of Utah.
+    The site is part of NEON's Great Basin Domain (D15), which is bordered by the
+    Sierra Nevada to the west, the Rocky Mountains and Colorado Plateau to the east,
+    the Mojave Desert to the south, and the Columbia Plateau to the north. D15 has
+    one other field site, the terrestrial site ONAQ.
+  variables:
+  - name: DNA sequence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: DNA sequence
+      record_url: https://deims.org/api/sites/49d06c87-07ea-45b6-8762-fcc4989890de
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21400
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:11.304947+00:00'
+      source_modified_at: '2025-09-18T15:50:21+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/49d06c87-07ea-45b6-8762-fcc4989890de
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:11.304947+00:00'
+      source_modified_at: '2025-09-18T15:50:21+02:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/49d06c87-07ea-45b6-8762-fcc4989890de
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:11.304947+00:00'
+      source_modified_at: '2025-09-18T15:50:21+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/49d06c87-07ea-45b6-8762-fcc4989890de
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:11.304947+00:00'
+      source_modified_at: '2025-09-18T15:50:21+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/49d06c87-07ea-45b6-8762-fcc4989890de
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:11.304947+00:00'
+      source_modified_at: '2025-09-18T15:50:21+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/49d06c87-07ea-45b6-8762-fcc4989890de
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:11.304947+00:00'
+      source_modified_at: '2025-09-18T15:50:21+02:00'
+  status: ACTIVE

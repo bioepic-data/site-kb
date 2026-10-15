@@ -1,0 +1,131 @@
+sites:
+- id: site_kb:deims-ltser_zone_atelier_du_bassin_de_la_moselle_-_vosges_acidification_observatory_-_
+  name: LTSER Zone Atelier du Bassin de la Moselle - Vosges Acidification Observatory
+    - France
+  network_registrations:
+  - network: DEIMS
+    network_id: 22915474-7c50-47c1-8239-6c59fa924a1b
+    network_url: https://deims.org/22915474-7c50-47c1-8239-6c59fa924a1b
+    name: LTSER Zone Atelier du Bassin de la Moselle - Vosges Acidification Observatory
+      - France
+  location:
+    latitude: 48.270969
+    longitude: 6.821094
+    country: France
+    elevation_meters: 600.0
+  description: The observatory consists of 16 headstreams (15 in the Moselle River
+    watershed, 1 in the Rhône River watershed), draining forest (mixed coniferous,
+    beech) watersheds on sandstone and granites at very different altitudes.
+  variables:
+  - name: ammonium nitrate concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ammonium nitrate concentration
+      record_url: https://deims.org/api/sites/22915474-7c50-47c1-8239-6c59fa924a1b
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10072
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.615576+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: base cations content in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: base cations content in water
+      record_url: https://deims.org/api/sites/22915474-7c50-47c1-8239-6c59fa924a1b
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/21208
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.615576+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: chemical composition of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical composition of water
+      record_url: https://deims.org/api/sites/22915474-7c50-47c1-8239-6c59fa924a1b
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/21213
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.615576+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/22915474-7c50-47c1-8239-6c59fa924a1b
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.615576+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/22915474-7c50-47c1-8239-6c59fa924a1b
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.615576+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: dissolved organic nitrogen
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic nitrogen
+      record_url: https://deims.org/api/sites/22915474-7c50-47c1-8239-6c59fa924a1b
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/10125
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.615576+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: electrical conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: electrical conductivity
+      record_url: https://deims.org/api/sites/22915474-7c50-47c1-8239-6c59fa924a1b
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/21552
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.615576+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: land use
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land use
+      record_url: https://deims.org/api/sites/22915474-7c50-47c1-8239-6c59fa924a1b
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22143
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.615576+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/22915474-7c50-47c1-8239-6c59fa924a1b
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.615576+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/22915474-7c50-47c1-8239-6c59fa924a1b
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.615576+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

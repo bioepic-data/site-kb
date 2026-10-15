@@ -1,0 +1,50 @@
+sites:
+- id: site_kb:deims-lake_iseo_-_italy
+  name: Lake Iseo - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 0667dab1-f857-45a1-b01b-4261e6a499bd
+    network_url: https://deims.org/0667dab1-f857-45a1-b01b-4261e6a499bd
+    name: Lake Iseo - Italy
+  location:
+    latitude: 45.722307
+    longitude: 10.06793
+    country: Italy
+    elevation_meters: 186.0
+  description: na
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/0667dab1-f857-45a1-b01b-4261e6a499bd
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:01.663069+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/0667dab1-f857-45a1-b01b-4261e6a499bd
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:01.663069+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/0667dab1-f857-45a1-b01b-4261e6a499bd
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:01.663069+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

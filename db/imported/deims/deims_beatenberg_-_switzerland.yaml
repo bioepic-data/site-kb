@@ -1,0 +1,85 @@
+sites:
+- id: site_kb:deims-beatenberg_-_switzerland
+  name: Beatenberg - Switzerland
+  network_registrations:
+  - network: DEIMS
+    network_id: f6a6b3e0-9a39-4fe3-8ae5-24d833b8ad26
+    network_url: https://deims.org/f6a6b3e0-9a39-4fe3-8ae5-24d833b8ad26
+    name: Beatenberg - Switzerland
+  location:
+    latitude: 46.7003438
+    longitude: 7.7623374
+    country: Switzerland
+    elevation_meters: 1511.0
+  description: "The forest site \"Beatenberg\" has been installed in 1996 as part\
+    \ of the Swiss Long-term Forest Ecosystem Research Programme LWF. The programme\
+    \ investigates anthropogenic and natural forces on the long-term health of the\
+    \ forests and the potential risks to humans. For this, a profound understanding\
+    \ of the relationship between processes, causes and effects in the ecosystem are\
+    \ necessary.\r\n\r\nThe objectives of the LWF research programme include (i) early\
+    \ detection and a representative assessment of changes in forest condition, (ii)\
+    \ determination of external influences, both from anthropogenic and natural sources\
+    \ such as element inputs and climate and their effect on the forest ecosystem,\
+    \ (iii) development of indicators to assess the condition of the forest, (iv)\
+    \ integrated risk assessment based on different stress scenarios, and (v) extended\
+    \ platform for internal and external research projects. \r\n\r\nThe LWF research\
+    \ programme provides, on the one hand, long-term data series from the last 20\
+    \ years, together with a scientific interpretation to national and international\
+    \ policy makers. On the other hand, the available data and latest LWF infrastructure\
+    \ provide an attractive scientific platform for collaboration with both national\
+    \ and international partners.\r\n\r\nThe site is located near the village of Beatenberg\
+    \ in the Canton of Berne, within a natural, coniferous forest stand which consists\
+    \ of 190-210 year-old spruce (Picea abies) trees. Among others, the site is equipped\
+    \ with two meteorological measurement stations; one is located within the forest\
+    \ stand, the second is co-located in the nearby open-field, allowing to measure\
+    \ the forest stand effect on micro-climate. \r\n\r\nThe following parameters are\
+    \ being measured (starting-end year): Atmospheric deposition (throughfall and\
+    \ bulk deposition) (1999-today), Circular vegetation plots (1997-today), Crown\
+    \ Condition Assessment (1996-today), Deadwood survey (2005-today), Diameter and\
+    \ Height measurements (1999-today), EC-5 soil water content measurement (2010-today),\
+    \ EC-5 soil water content measurement (2010-today), Foliar analyses (1997-today),\
+    \ Leaf area index (LAI) (1997-today), Lichens (2003-today), Litter layer humidity\
+    \ and temperature (2000-today), Litterfall (1999-today), Manual circumference\
+    \ band measurement (2001-today), Matric potential (manual suction cups) (1999-today),\
+    \ Meteorological measurements (1997-today), Passive sampling of NH3 (1999-2000),\
+    \ Passive sampling of NO2 (1999-2000), Passive sampling of O3 (2002-2004), Permanent\
+    \ vegetation quadrates (1997-today), Phenological observations (1999-today), Soil\
+    \ matrix chemistry (1997-today), Soil morphology (1997-today), Soil solution chemistry\
+    \ (lysimeters) (1999-today), Soil temperature (2000-today), Tree core sampling\
+    \ (1727-1998), Deadwood sampling (2009-today)."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/f6a6b3e0-9a39-4fe3-8ae5-24d833b8ad26
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:29.359629+00:00'
+      source_modified_at: '2024-03-25T13:48:25+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/f6a6b3e0-9a39-4fe3-8ae5-24d833b8ad26
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:29.359629+00:00'
+      source_modified_at: '2024-03-25T13:48:25+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/f6a6b3e0-9a39-4fe3-8ae5-24d833b8ad26
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:29.359629+00:00'
+      source_modified_at: '2024-03-25T13:48:25+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

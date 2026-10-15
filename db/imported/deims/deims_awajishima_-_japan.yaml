@@ -1,0 +1,51 @@
+sites:
+- id: site_kb:deims-awajishima_-_japan
+  name: Awajishima - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 4f97b0b2-4ba7-4aae-a765-994449f21fc2
+    network_url: https://deims.org/4f97b0b2-4ba7-4aae-a765-994449f21fc2
+    name: Awajishima - Japan
+  location:
+    latitude: 34.5834
+    longitude: 135.023
+    country: Japan
+    elevation_meters: 0.0
+  description: Awajisima (Awaji Island) is located at eastern end of the Seto Inland
+    Sea, facing Osaka Bay. Seto Inland Sea is located in the western part of Japan
+    and is the largest enclosed coastal sea in Japan.
+  variables:
+  - name: diversity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diversity index
+      record_url: https://deims.org/api/sites/4f97b0b2-4ba7-4aae-a765-994449f21fc2
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21513
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:02.719992+00:00'
+      source_modified_at: '2020-10-27T14:00:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/4f97b0b2-4ba7-4aae-a765-994449f21fc2
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:02.719992+00:00'
+      source_modified_at: '2020-10-27T14:00:56+01:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/4f97b0b2-4ba7-4aae-a765-994449f21fc2
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:02.719992+00:00'
+      source_modified_at: '2020-10-27T14:00:56+01:00'
+  status: ACTIVE

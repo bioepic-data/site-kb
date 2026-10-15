@@ -1,0 +1,31 @@
+sites:
+- id: site_kb:deims-tarvisio_fri2_-_italy
+  name: Tarvisio FRI2 - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 5907d0b6-7b4d-4260-a669-4bc0f61d1696
+    network_url: https://deims.org/5907d0b6-7b4d-4260-a669-4bc0f61d1696
+    name: Tarvisio FRI2 - Italy
+  location:
+    latitude: 46.4894
+    longitude: 13.5933
+    country: Italy
+    elevation_meters: 820.0
+  description: Secondary Picea abies dominated forest with Abies alba Mill. (lower
+    tree layer) ﾖ Vaccynum myrtillus L. (str. Herbaceous layer).Belonging since 1995
+    to CONECOFOR Programme included in the ICP Forest European network. This site
+    is located in the Eastern Al
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5907d0b6-7b4d-4260-a669-4bc0f61d1696
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:11.173194+00:00'
+      source_modified_at: '2023-10-27T10:45:36+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

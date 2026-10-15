@@ -1,0 +1,28 @@
+sites:
+- id: site_kb:deims-kalahari_gemsbok_national_park_-_south_africa
+  name: Kalahari Gemsbok National Park - South Africa
+  network_registrations:
+  - network: DEIMS
+    network_id: a5ab4de8-ef23-44f7-b7f0-3a286cd6e13f
+    network_url: https://deims.org/a5ab4de8-ef23-44f7-b7f0-3a286cd6e13f
+    name: Kalahari Gemsbok National Park - South Africa
+  location:
+    latitude: -26.475522
+    longitude: 20.61386
+    country: South Africa
+    elevation_meters: 900.0
+  description: Kalahari Gemsbok National Park is situated in the Savanna Biome (Kalahari
+    Duneveld Bioregion) and forms part of the Kgalagadi Transfrontier Park
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/a5ab4de8-ef23-44f7-b7f0-3a286cd6e13f
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:47.028980+00:00'
+      source_modified_at: '2025-01-21T15:07:00+01:00'
+  status: ACTIVE

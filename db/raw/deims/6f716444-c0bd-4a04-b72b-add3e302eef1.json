@@ -1,0 +1,162 @@
+{
+  "source_url": "https://deims.org/api/sites/6f716444-c0bd-4a04-b72b-add3e302eef1",
+  "retrieved_at": "2026-10-15T17:49:43.220430+00:00",
+  "record": {
+    "title": "Bilos - France",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "6f716444-c0bd-4a04-b72b-add3e302eef1"
+    },
+    "type": "site",
+    "created": "2024-08-28T15:36:30+02:00",
+    "changed": "2024-09-12T16:25:12+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ICOS",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "80633d38-4c85-4ee0-a4ce-7bbbd99c888c"
+              }
+            },
+            "siteCode": "https://meta.icos-cp.eu/resources/stations/ES_FR-Bil",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "AGAME",
+            "uri": "https://www.umweltbundesamt.at/en/services/agame"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The Bilos site, code ICOS FR-Bil, is located in the Landes forest, 50 Km south west of Bordeaux, France. The site is a managed Pine forest plantation. The soil is a sandy podzol with a discontinuous layer of iron hard pan at 75 cm depth that limits root extension.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": null,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Bilos",
+        "shortName": null,
+        "siteType": null,
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": null,
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-0.955092 44.496272, -0.956263 44.496067, -0.957154 44.495888, -0.958439 44.495629, -0.959269 44.495322, -0.959595 44.49501, -0.959777 44.494555, -0.959856 44.493986, -0.959587 44.49319, -0.959113 44.492285, -0.958397 44.491717, -0.957462 44.491407, -0.9565 44.491498, -0.955279 44.491722, -0.954208 44.49193, -0.953181 44.492337, -0.952713 44.492945, -0.952677 44.493726, -0.952787 44.494366, -0.952962 44.494989, -0.953512 44.495698, -0.955092 44.496272))",
+        "coordinates": "POINT (-0.956092 44.493652)",
+        "country": [
+          "France"
+        ],
+        "elevation": {
+          "avg": 39,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 23.89,
+          "unit": "ha"
+        },
+        "relatedLocations": [
+          {
+            "title": "Bilos ICOS Station",
+            "id": {
+              "prefix": "https://deims.org/locations/",
+              "suffix": "fd03f6c9-c22d-4cb8-8ded-5973d723063d"
+            },
+            "changed": "2024-09-12T14:21:19+0200"
+          }
+        ]
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": null,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": null,
+        "operation": {
+          "permanent": null,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

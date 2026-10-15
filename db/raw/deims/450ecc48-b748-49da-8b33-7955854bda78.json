@@ -1,0 +1,459 @@
+{
+  "source_url": "https://deims.org/api/sites/450ecc48-b748-49da-8b33-7955854bda78",
+  "retrieved_at": "2026-10-15T17:44:00.901604+00:00",
+  "record": {
+    "title": "La Robinette - Belgium",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "450ecc48-b748-49da-8b33-7955854bda78"
+    },
+    "type": "site",
+    "created": "2016-05-30T22:08:22+02:00",
+    "changed": "2025-01-07T11:14:56+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Belgium",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "735946e0-4e9e-484a-acee-85e31f4e2a2e"
+              }
+            },
+            "siteCode": "LTER_EU_BE_27",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "CarboEurope",
+            "uri": "http://www.carboeurope.org/"
+          },
+          {
+            "label": "NEC Directive (2016/2284)",
+            "uri": "http://data.europa.eu/eli/dir/2016/2284/oj"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Monique Carnol",
+            "email": "m.carnol@ulg.ac.be",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Monique Carnol",
+            "email": "m.carnol@ulg.ac.be",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "La Robinette, ICOS (BE_JAL)",
+            "value": "http://www.icos-belgium.be/index.html"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "La Robinette is a 81 ha catchment located in the east of Belgium (« Hertogenwald »: Duke's forest) within the municipality of Baelen.  Biogeochemistry (nutrient and organic carbon in throughfall, rainfall, soil solution and outlet) has been studied since 1991 as a reference catchment within the frame of a liming experiment (Waroneu catchment) and critical loads calculations. The catchment, initially covered by Picea abies, was subjected to windthrow, reducing coverage to 46% (1990s) and experimental clearcut of 22 ha (1996), followed by afforestation with deciduous species in 1998. Four 2-ha plots were planted with deciduous species in alternate rows. Alder, rowan, birch and oak were also planted within the catchment. In 2012, the catchment was covered by 8% mature and 41% young conifers (Picea abies), 7% deciduous trees (Fagus sylvatica, Quercus robur, Betula pendula, Alnus glutinosa, Sorbus aucuparia, Salix caprea ), 44% open space. Biogeochemical measurements have been complemented with experiments on litterfall, litter decomposition, soil respiration, N cycle processes. Flux and meteorological data have been collected from 2007 to 2011 (CarboEurope) and from end 2016 (ICOS). In addition, since 2013, biogeochemistry and soil microbial parameters (microbial biomass, N mineralization, basal respiration) are studied in 6 intensive plots, reflecting major combinations of vegetation and upper soil characteristics within the catchment.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1991,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "La Robinette",
+        "shortName": "La Robinette",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/LTER_EU_BE_27_LaRobinette_1996_MCarnol.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/LTER_EU_27_LaRobinette_MCarnol_epiceas.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/Robinette-exutoire.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/P1040535_small.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 7,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1300,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "continental",
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Mixed Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((6.086028 50.55161, 6.076655 50.54885, 6.075088 50.55127, 6.074986 50.55165, 6.074941 50.55202, 6.074958 50.5525, 6.075059 50.55288, 6.075261 50.55364, 6.075528 50.55461, 6.075617 50.55546, 6.075547 50.55594, 6.074801 50.55699, 6.074729 50.5574, 6.074464 50.5581, 6.074391 50.55848, 6.07444 50.55903, 6.07439 50.55927, 6.073874 50.56024, 6.073753 50.56091, 6.07411 50.56116, 6.074641 50.56139, 6.07564 50.56173, 6.077365 50.56207, 6.077655 50.56207, 6.079541 50.56206, 6.080178 50.56201, 6.080693 50.56182, 6.081264 50.56155, 6.081804 50.56125, 6.08217 50.56095, 6.082756 50.56029, 6.082835 50.56007, 6.083202 50.55897, 6.083302 50.55855, 6.083813 50.55664, 6.08425 50.55428, 6.086028 50.55161))",
+        "coordinates": "POINT (6.07388 50.56096)",
+        "country": [
+          "Belgium"
+        ],
+        "elevation": {
+          "avg": 500,
+          "min": 470,
+          "max": 530,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 81,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "air water vapour concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22036"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "cation exchange capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22084"
+          },
+          {
+            "label": "direct radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22044"
+          },
+          {
+            "label": "dissolved organic carbon in soil",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22045"
+          },
+          {
+            "label": "dissolved organic nitrogen in soil",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22045"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "global radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "incoming radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22134"
+          },
+          {
+            "label": "inorganic nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22136"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "leaf area ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22158"
+          },
+          {
+            "label": "long wave radiation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22164"
+          },
+          {
+            "label": "net far infrared radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22171"
+          },
+          {
+            "label": "net radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22172"
+          },
+          {
+            "label": "net solar radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22173"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "runoff amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30032"
+          },
+          {
+            "label": "soil acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22243"
+          },
+          {
+            "label": "soil heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22253"
+          },
+          {
+            "label": "soil microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22257"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil moisture field capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10396"
+          },
+          {
+            "label": "soil nitrate leaching",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10053"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil solute amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22272"
+          },
+          {
+            "label": "soil solution concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22274"
+          },
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          },
+          {
+            "label": "soil water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22281"
+          },
+          {
+            "label": "solar radiation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22284"
+          },
+          {
+            "label": "thickness of soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22295"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind direction (mean and gust)",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22318"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          },
+          {
+            "label": "wind speed (mean and gust)",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22320"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 14,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 14
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "1-5 kW",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Less than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

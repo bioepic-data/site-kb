@@ -1,0 +1,245 @@
+sites:
+- id: site_kb:deims-smithsonian_conservation_biology_institute_neon_-_united_states_of_america
+  name: Smithsonian Conservation Biology Institute NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: 91af4ae3-c169-46f2-87d4-a0b836849596
+    network_url: https://deims.org/91af4ae3-c169-46f2-87d4-a0b836849596
+    name: Smithsonian Conservation Biology Institute NEON - United States of America
+  location:
+    latitude: 38.89292
+    longitude: -78.1395
+    country: United States of America
+    elevation_meters: 361.0
+  description: Smithsonian Conservation Biology Institute (SCBI) is a terrestrial
+    field site located on the foothills of the Blue Ridge Mountains in Front Royal,
+    Virginia. The 12 km2 (2966 acre) NEON field site is located within and hosted
+    by the Smithsonian Conservation Biology Institute, a research and education institution
+    run by the Smithsonian Institution. The site is dominated by mature and secondary
+    hardwood forest. This site is located within NEON's Mid-Atlantic Domain (D02),
+    a densely populated region bounded by the Atlantic Ocean on the east and stretching
+    down the Eastern Seaboard from southern New Jersey to northern Georgia. The Mid-Atlantic
+    Domain includes two other terrestrial sites and two aquatic sites. SCBI is colocated
+    with the POSE aquatic site.
+  variables:
+  - name: DNA sequence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: DNA sequence
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21400
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: above ground biomass
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground biomass
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: heat flux
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: heat flux
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22130
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: latent heat
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: latent heat
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22154
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: leaf area index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area index
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/22157
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: ozone concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ozone concentration
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/22178
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: plant diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant diversity
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22191
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: soil carbon dioxyde flux
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil carbon dioxyde flux
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/21939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: soil moisture content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil moisture content
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/10039
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/18
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  - name: species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species abundance
+      record_url: https://deims.org/api/sites/91af4ae3-c169-46f2-87d4-a0b836849596
+      field_path: /attributes/focusDesignScale/observedProperties/19
+      source_id: http://vocabs.lter-europe.net/EnvThes/10018
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:34.123797+00:00'
+      source_modified_at: '2025-09-18T15:30:56+02:00'
+  status: ACTIVE

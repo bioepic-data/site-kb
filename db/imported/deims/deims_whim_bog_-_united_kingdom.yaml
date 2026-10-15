@@ -1,0 +1,48 @@
+sites:
+- id: site_kb:deims-whim_bog_-_united_kingdom
+  name: Whim Bog - United Kingdom
+  network_registrations:
+  - network: DEIMS
+    network_id: c80eaaac-411f-4e8f-a2c8-5ee7797576db
+    network_url: https://deims.org/c80eaaac-411f-4e8f-a2c8-5ee7797576db
+    name: Whim Bog - United Kingdom
+  location:
+    latitude: 55.7667
+    longitude: -3.26667
+    country: United Kingdom
+    elevation_meters: 282.0
+  description: "Whim bog offers a globally unique comparison of how the main N forms\
+    \ affect semi-natural vegetation, with meteorological data and treatment history\
+    \ since 2002. \r\nA quantified ammonia concentration / deposition gradient, is\
+    \ provided, plus a wet deposition system, comparing oxidized (NaNO3) and reduced\
+    \ N (NH4Cl), where treatments are meteorology dependent. ie. wind direction and\
+    \ rainfall frequency define the treatment exposure(~120 events y-1).\r\nWet plots\
+    \ are large (13m²) and there are 4 replicates per treatment.\r\nOpportunities\
+    \ exist to evaluate a whole range of ecosystem services from conservation to carbon\
+    \ sequestration, GHG emissions and water chemistry in addition to understanding\
+    \ how changes in vegetation affect the delivery of these services."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/c80eaaac-411f-4e8f-a2c8-5ee7797576db
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:23.540800+00:00'
+      source_modified_at: '2023-06-20T08:59:28+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/c80eaaac-411f-4e8f-a2c8-5ee7797576db
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:23.540800+00:00'
+      source_modified_at: '2023-06-20T08:59:28+02:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

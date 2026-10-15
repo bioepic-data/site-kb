@@ -1,0 +1,278 @@
+{
+  "source_url": "https://deims.org/api/sites/23b07893-1ab5-438e-9fcf-b072589cd66b",
+  "retrieved_at": "2026-10-15T17:49:13.874032+00:00",
+  "record": {
+    "title": "TERENO - Rappbode - Germany",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "23b07893-1ab5-438e-9fcf-b072589cd66b"
+    },
+    "type": "site",
+    "created": "2023-03-14T08:53:06+01:00",
+    "changed": "2025-12-15T10:49:58+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER-D (Germany)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "e904354a-f3a0-40ce-a9b5-61741f66c824"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Karsten Rinke",
+            "email": null,
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Tom Shatwell",
+            "email": "tom.shatwell@ufz.de",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "UFZ Helmholtz Centre for Environmental Research",
+            "url": "http://www.ufz.de",
+            "ror": "https://ror.org/000h6jb29"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Tom Shatwell",
+            "email": "tom.shatwell@ufz.de",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": null,
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2011,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "TERENO - Hohes Holz - Germany",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "ddd2e8d2-44db-420e-8fa4-6b4fe1b00c78"
+                },
+                "changed": "2026-03-30T14:33:12+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "TERENO - Rappbode",
+        "shortName": "Rappbode",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Permanent non-tidal, fast, turbulent watercourses (C2.2)",
+            "uri": null
+          },
+          {
+            "label": "Permanent oligotrophic lakes, ponds and pools (C1.1)",
+            "uri": null
+          },
+          {
+            "label": "Surface standing waters (C1)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((10.770378 51.688481, 10.737419 51.725925, 10.753212 51.742935, 10.852089 51.755263, 10.93792 51.749737, 10.945473 51.719545, 10.841103 51.682947, 10.770378 51.688481))",
+        "coordinates": "POINT (10.889983 51.737017)",
+        "country": [
+          "Germany"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 8298.03,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "lake level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22141"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 60,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "During ice cover the reservoir cannot be accessed. The platform is not operational during winter to protect equipment from ice and freezing.",
+          "siteVisitInterval": 14
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No staff room",
+            "uri": null
+          },
+          {
+            "label": "Probe continuous measurements",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

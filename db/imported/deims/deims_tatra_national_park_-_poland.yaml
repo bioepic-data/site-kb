@@ -1,0 +1,141 @@
+sites:
+- id: site_kb:deims-tatra_national_park_-_poland
+  name: Tatra National Park - Poland
+  network_registrations:
+  - network: DEIMS
+    network_id: 2cfd89fe-e561-4551-9ae3-78ad8a8a4d72
+    network_url: https://deims.org/2cfd89fe-e561-4551-9ae3-78ad8a8a4d72
+    name: Tatra National Park - Poland
+  location:
+    latitude: 49.270893
+    longitude: 19.981755
+    country: Poland
+    elevation_meters: 1650.0
+  description: "The Tatra National Park was established in 1954 to protect the Polish\
+    \ part of the Tatra mountains: both the High Tatras and Western Tatras, plus the\
+    \ northern foothills of the range. The area of the Park is approx. 212 km2, with\
+    \ no formally established buffer zone. Since 1992, the Park has been included\
+    \ in the UNESCO MaB Reserve (covering both Polish and Slovak Tatras - please see\
+    \ its separate description as the \"Parent site\" here on this website). It is\
+    \ also also included in the Natura 2000 network: both as “bird” Special Protection\
+    \ Area (SPA) and “habitat” Site of Community Importance (SCI) - the code PLC 120001.\
+    \ \r\n\r\nThe Park protects nature, landscape, and cultural heritage of the only\
+    \ truly alpine  mountain range in Poland. Although currently devoid of glaciers\
+    \ (however, dotted with a number of beatiful mountain oligotrophic lakes instead)\
+    \ its geomorphology is largely a result of glacial activity which shaped its crystalline,\
+    \ metamorphic and sedimentary bedrocks. The mountains are characterized by climate,\
+    \ soils, hydrological features (mountain springs and lakes), caves and karst areas,\
+    \ and rich biodiversity typical of subalpine and alpine environments. Also characteristic\
+    \ are altitudinal vegetation zones / belts (described elsewhere in this profile),\
+    \ These vegetation zones span from mixed forests, through coniferous forests and\
+    \ dwarf pine to Alpine meadow communities, above which sparse vegetation endures\
+    \ among rocks and screes. About 2/3 of the Tatras are covered by forest ecosystems.\
+    \ Most important tree species are Picea abies and Abies alba, although Pinus sylvestris,\
+    \ Pinus cembra, Larix decidua and Pinus mugo occur as well, accompanied birch\
+    \ (Betula sp.) and rowan (Sorbus sp.). In mixed forests occurring at lower elevations,\
+    \ species of beech (Fagus sp.) and maple (Acer sp.) can be found.\r\n\r\nThe Park's\
+    \ ecosystems can be divided into terrestrial forest ecosystems (occupying almost\
+    \ 13 000 ha), terrestrial non-forest ecosystems (approx. 7770 ha, 49 plant communities)\
+    \ and freshwater ecosystems (approx. 192 ha, out of which lakes occupy approx.\
+    \ 149 ha). As much as 60% of the Park is covered by habitats requiring conservation\
+    \ (32 types of habitats of Community importance)\r\n\r\nThe Park is home to more\
+    \ than 10 000 species (approx. 5500 species of invertebrates, 290 - vertebrates,\
+    \ 1000 - vascular plants, over 1000 - fungi, 700 - lichens, 500 - mosses etc.).\
+    \ Out of them as many as 1000 are endemites. The Tatras are an important centre\
+    \ of endemic fauna and flora, including rare relic species. There are 35 endemic\
+    \ species mong flowering plants alone. Examples for regional endemic species are:\
+    \ Erysimum wahlenbergii, Cochlearia tatrae, Pulsatilla slavica and Erigeron hungaricus.\
+    \ The Alpine meadows are renowned for their diversity. About 300 plant species\
+    \ can be found there. Various species in the Alpine environments are interpreted\
+    \ as glacial relicts, e.g. Ranunculus alpestris, Ranunculus glacialis, Dianthus\
+    \ glacialis, Gentiana frigida, Primula minima and Saxifraga aizoides. In snowbed\
+    \ environments Salix herbacea and Salix reticulata are characteristic. The Tatra\
+    \ Mountains are famous for their large predator species such as the wildcat (Felis\
+    \ silvestris), lynx (Lynx lynx), wolf (Canis lupus) and brown bear (Ursus arctos),\
+    \ which are largely extinct in other parts of Central Europe. Characteristic bird\
+    \ species are the Golden eagle (Aquila chrysaetos), Eurasian nutcracker (Nucifraga\
+    \ caryocatactes), rock ptarmigan (Lagopus muta), Eurasian eagle-owl (Bubo bubo),\
+    \ Western capercaillie (Tetrao urogallus) and black grouse (Tetrao tetrix). An\
+    \ endemic subspecies of the chamois exist in the Tatra as well (Rupicapra rupicapra\
+    \ tatrica). 29 animal and 6 plant species are species of Community importance.\r\
+    \n\r\nThe site has code:LTER_EU_PL_017"
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/2cfd89fe-e561-4551-9ae3-78ad8a8a4d72
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:11.833009+00:00'
+      source_modified_at: '2023-07-26T09:35:57+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/2cfd89fe-e561-4551-9ae3-78ad8a8a4d72
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:11.833009+00:00'
+      source_modified_at: '2023-07-26T09:35:57+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/2cfd89fe-e561-4551-9ae3-78ad8a8a4d72
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:11.833009+00:00'
+      source_modified_at: '2023-07-26T09:35:57+02:00'
+  - name: landscape fragmentation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape fragmentation
+      record_url: https://deims.org/api/sites/2cfd89fe-e561-4551-9ae3-78ad8a8a4d72
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22149
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:11.833009+00:00'
+      source_modified_at: '2023-07-26T09:35:57+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/2cfd89fe-e561-4551-9ae3-78ad8a8a4d72
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:11.833009+00:00'
+      source_modified_at: '2023-07-26T09:35:57+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/2cfd89fe-e561-4551-9ae3-78ad8a8a4d72
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:11.833009+00:00'
+      source_modified_at: '2023-07-26T09:35:57+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/2cfd89fe-e561-4551-9ae3-78ad8a8a4d72
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:11.833009+00:00'
+      source_modified_at: '2023-07-26T09:35:57+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

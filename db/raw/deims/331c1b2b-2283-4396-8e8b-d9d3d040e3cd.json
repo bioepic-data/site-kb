@@ -1,0 +1,448 @@
+{
+  "source_url": "https://deims.org/api/sites/331c1b2b-2283-4396-8e8b-d9d3d040e3cd",
+  "retrieved_at": "2026-10-15T17:46:59.787686+00:00",
+  "record": {
+    "title": "OZCAR-RI PEATLAND La Guette - France",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "331c1b2b-2283-4396-8e8b-d9d3d040e3cd"
+    },
+    "type": "site",
+    "created": "2018-12-17T17:20:36+01:00",
+    "changed": "2025-04-30T12:48:27+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ICOS",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "80633d38-4c85-4ee0-a4ce-7bbbd99c888c"
+              }
+            },
+            "siteCode": "http://meta.icos-cp.eu/resources/stations/ES_FR-LGt",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER France",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d8d9206f-b1bd-4f90-84b7-8c662d4235a2"
+              }
+            },
+            "siteCode": "CZO_EU_FR_243",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "OZCAR RI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "3439de4e-c64d-4a97-bed0-7e27fadbcb7b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Jean-Sébastien Moquet",
+            "email": "jean-sebastien.moquet@cnrs-orleans.fr",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "OSUC",
+            "url": "https://www.univ-orleans.fr/osuc",
+            "ror": null
+          },
+          {
+            "type": "organisation",
+            "name": "Service National d'Observation Tourbières",
+            "url": "https://www.sno-tourbieres.cnrs.fr/",
+            "ror": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "This is a peatland located in Sologne, 80 km south of Orléans. La Guette peatland is one of the four sites of the SNO Tourbières (CNRS). All the sites of the SNO Tourbières are part of OZCAR (French Observatory on the critical zone). The site was hydrologicaly disturbed. Restoration works took place in 2014. A labeling procedure has began to become associated site of ICOS.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2008,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "LTSER Zone Atelier Loire - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "d2ffb931-ecac-48f9-8474-3d382d43f3f6"
+                },
+                "changed": "2026-06-05T09:58:28+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "OZCAR-RI PEATLAND La Guette",
+        "shortName": "LGT",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/ozcar-ri-peatland-la-guette-france_6093.png",
+            "alt": "Long term instrumentation at La Guette peatland"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 11,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 880,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "grasslands",
+        "ecosystemType": [
+          {
+            "label": "Flooded grasslands and savannas",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Mires, bogs and fens (D)",
+            "uri": null
+          },
+          {
+            "label": "Poor fens and soft-water spring mires (D2.2)",
+            "uri": null
+          },
+          {
+            "label": "Valley mires, poor fens and transition mires (D2)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": "The soil is an histosol.",
+        "vegetation": "The typical fen vegetation is being replaced by common species such as Molinia caerulea, Betula spp and Pinus sylvestris."
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((2.2904478585049 47.324846206304, 2.2905371320589 47.324798545574, 2.290678614122 47.324823527997, 2.2908368540793 47.324920934027, 2.2910128202877 47.325018449495, 2.2912243997715 47.32510413159, 2.2913832863181 47.325153327469, 2.291577785769 47.325190689915, 2.2917550430614 47.32519178544, 2.2919319782413 47.325216985394, 2.2919511534943 47.325108623735, 2.2917398950105 47.32499883827, 2.2916164598853 47.324949862011, 2.2913694291353 47.324863961446, 2.2910869480123 47.324777841075, 2.2908750474524 47.32471626343, 2.2905400368195 47.324581603282, 2.2902751226251 47.324507642995, 2.2900440452475 47.324554425194, 2.2899365616065 47.324638132768, 2.2898123213054 47.324649416315, 2.2896004227659 47.324587836322, 2.2895126032115 47.324527025198, 2.2894605580534 47.324442329102, 2.2893554983792 47.324345250922, 2.289339389404 47.324224617539, 2.2891814776504 47.324103104761, 2.2889533122913 47.32393294252, 2.2886539238394 47.32378644448, 2.2884960149625 47.323664930763, 2.2883379449397 47.323555469176, 2.2882151639372 47.323458279891, 2.2881273478418 47.323397467711, 2.28807482021 47.323348928025, 2.2879348009801 47.323215471297, 2.2877941344909 47.323130223781, 2.2876357434587 47.323044865923, 2.2875476046206 47.323008157993, 2.2875315001361 47.322887524352, 2.2874973467067 47.322790885207, 2.287392455969 47.32268175289, 2.2872334184604 47.322644603862, 2.2869675455668 47.32264295005, 2.2866841100804 47.32262913296, 2.2862413134691 47.322602269455, 2.2860110529206 47.322588781851, 2.2857629052133 47.322587235667, 2.2856033816982 47.322586241408, 2.2854423954853 47.322693717992, 2.2853176711915 47.32274115371, 2.2850989395324 47.322750407052, 2.2849575401668 47.322722746975, 2.2847475389569 47.322683765067, 2.284604319819 47.322622596743, 2.2845053169745 47.322569238592, 2.2844990202828 47.322564541935, 2.284399037615 47.322451758897, 2.2842230698133 47.322354220952, 2.284065481049 47.322208578002, 2.2838722764426 47.322074767177, 2.2838716960837 47.322074457802, 2.2838364976697 47.322045194267, 2.2836606544635 47.321938615063, 2.2831557970907 47.321581346104, 2.2830132962962 47.321467440134, 2.2829035238758 47.321391410295, 2.2827383559893 47.321315033675, 2.2825951428811 47.321253862858, 2.282411402286 47.321179984393, 2.2823424423785 47.321149026333, 2.2823154396528 47.321138308542, 2.2822315720064 47.321100900345, 2.2820986383845 47.321052256451, 2.2820955764596 47.321051041116, 2.2819634369714 47.320992808136, 2.2816986756644 47.320964700845, 2.2781329032964 47.320649032502, 2.2772948365108 47.320553026839, 2.2745752536557 47.320291729353, 2.2745744286444 47.320351998592, 2.274584682578 47.320412337956, 2.2746505375678 47.320457960615, 2.274771993705 47.320488866475, 2.2748821648477 47.320534769422, 2.2749704874273 47.320557931124, 2.2751137928027 47.320611577763, 2.2753232634191 47.320688245534, 2.2754445144746 47.320734217996, 2.2756533682099 47.320856087101, 2.2758073423303 47.320939937524, 2.2759723960177 47.321023857733, 2.2761372444147 47.321122845019, 2.276280243848 47.321199091179, 2.2764013940394 47.321252596292, 2.2765889164684 47.321314054548, 2.2766879089313 47.321367419494, 2.2767209642326 47.321399513061, 2.2767204980143 47.321433671276, 2.2767728488186 47.321494268436, 2.276896590946 47.321519155954, 2.2770738353895 47.321520274118, 2.2771185025179 47.321530712432, 2.2771619489844 47.321543699307, 2.2772489575658 47.321561198504, 2.2773388802762 47.321582212459, 2.2773866516241 47.321594366895, 2.2774270277634 47.321605645312, 2.2774368754706 47.321607145293, 2.2775331921521 47.321631650961, 2.2776922196717 47.321668813403, 2.2779218170012 47.321730526981, 2.2780982412502 47.321791905179, 2.2783084334088 47.321853017415, 2.2783132236712 47.321857286334, 2.2783798644037 47.321938319027, 2.2784062979427 47.321962752735, 2.278408255525 47.321965939845, 2.2784108676942 47.321966976758, 2.2784323817197 47.321986863113, 2.2784655528407 47.321988684271, 2.2784854001927 47.321996562755, 2.2786250706107 47.321997441965, 2.2786803621602 47.322000477478, 2.2787436308802 47.321998188156, 2.2787623824139 47.321998306162, 2.2787769862277 47.321996981208, 2.2789210020353 47.321991769954, 2.2789619121387 47.321992027341, 2.2790330454539 47.321996509049, 2.2792473858626 47.322016098165, 2.2794060879774 47.322077362891, 2.2795641350323 47.322186836702, 2.2797051133289 47.322247989597, 2.2799696736938 47.32234607886, 2.280234726162 47.322408010534, 2.2804596641185 47.322382473161, 2.2804856374357 47.322385853013, 2.2805077686797 47.322377011755, 2.2805365379098 47.322373745517, 2.280697042213 47.322302432853, 2.2807858088075 47.32224317792, 2.2807873051781 47.322242429372, 2.2808980572679 47.322202249203, 2.2809314704341 47.322192759194, 2.2809870715548 47.322178039421, 2.2810081243963 47.322178171498, 2.2811767541463 47.322221069127, 2.2813349687682 47.322318488185, 2.2814643577197 47.322380605859, 2.2815375653454 47.322437658053, 2.2816247224283 47.32246525836, 2.2818452291241 47.322598913867, 2.2822515941205 47.322697886335, 2.2823765393301 47.322749931534, 2.2824194276744 47.322774692289, 2.2824631334336 47.322820171749, 2.2825067372601 47.322873184857, 2.2825392616804 47.322926128591, 2.2825719901633 47.322964004985, 2.2825910126255 47.322977179943, 2.2826195738693 47.323013577466, 2.2827785569365 47.323057977029, 2.2827922546009 47.323063329529, 2.2829196831599 47.323110570305, 2.2829548804213 47.323124155976, 2.282964352162 47.323127746214, 2.2830567361092 47.323170464562, 2.2831226088043 47.323187732774, 2.2831488771889 47.323197689668, 2.2831697064442 47.32320219056, 2.2831891810902 47.323208964521, 2.2832884894789 47.323239722806, 2.2833450356193 47.323240076407, 2.2833786505995 47.323247340033, 2.2836089132768 47.323260832936, 2.283620844559 47.323256869333, 2.2836539112866 47.323257076018, 2.2837315735348 47.323220084792, 2.2838214004326 47.323190243878, 2.2838344725596 47.323187907272, 2.2839458741873 47.32316970795, 2.2839834894793 47.323187100798, 2.2840819574838 47.323294480222, 2.2840916491056 47.323313134292, 2.2841382225469 47.323444940593, 2.2841833609378 47.323531820712, 2.2841927391968 47.32356181472, 2.2842079117636 47.323578663799, 2.2842770932054 47.323662768254, 2.2845237812272 47.323772788704, 2.2846998946159 47.323858261466, 2.2848581206246 47.323955675694, 2.2849639844467 47.323992496273, 2.2851231869663 47.324017596118, 2.2853009277753 47.323982544593, 2.2855313566899 47.323983981313, 2.2856729966293 47.323996917557, 2.2858134995145 47.324094219996, 2.2860598679793 47.324228341836, 2.2861468711884 47.32434941728, 2.2862335500855 47.324494597336, 2.2864091817052 47.324616224503, 2.2865321243191 47.324701363362, 2.2867261318696 47.324774891035, 2.2870629177372 47.32477698654, 2.2872068300624 47.324621188131, 2.2873146421679 47.324513378457, 2.2874731991128 47.324586684416, 2.2876489959354 47.324696257357, 2.2878956958289 47.324806270591, 2.2881780099118 47.324904451144, 2.2883900698961 47.324953981418, 2.2886013211908 47.32506377302, 2.2888127351331 47.325161511892, 2.2891827114153 47.325332553984, 2.28946454584 47.32546688842, 2.2897639459999 47.325613384362, 2.2899571538556 47.325747168324, 2.290238669558 47.32590560556, 2.2905732036218 47.326076423638, 2.2908194320919 47.326222587659, 2.2909952412827 47.326332155501, 2.291260165595 47.326406114154, 2.2914902830094 47.326431643646, 2.2916135603118 47.326492672395, 2.2916288694063 47.326673567182, 2.2916619048845 47.32685457152, 2.2917851833649 47.326915600086, 2.2920855643734 47.326989775914, 2.2922623447144 47.327027027732, 2.29240479934 47.326979693954, 2.2927280564457 47.326668302336, 2.2929072488986 47.326524767888, 2.2932648270666 47.32629795989, 2.2934793082128 47.326166695486, 2.2935158852841 47.326082547548, 2.2932865721524 47.325996760356, 2.2930040818414 47.325910644678, 2.2928273046818 47.325873394014, 2.2925261242748 47.325859481905, 2.2922961698019 47.32582190215, 2.2919956340443 47.325759779244, 2.2917313563471 47.325637612892, 2.2914851280391 47.325491450816, 2.2912912723882 47.325405878809, 2.2910974173656 47.325320306477, 2.290974304656 47.325247224828, 2.2908334665663 47.325174033368, 2.2906397744906 47.325076407917, 2.290516662981 47.32500332578, 2.2904646157538 47.324918630137, 2.2904478585049 47.324846206304))",
+        "coordinates": "POINT (2.28047 47.32169)",
+        "country": [
+          "France"
+        ],
+        "elevation": {
+          "avg": 152,
+          "min": 147,
+          "max": 157,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 19.79,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "sub-catchment within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air methane concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21935"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "air vapor pressure deficit",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22306"
+          },
+          {
+            "label": "air water vapour concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22036"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved organic carbon in soil",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22045"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "floristic composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22121"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "global radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "ground surface temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21526"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "heat flow",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22129"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "incoming radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22134"
+          },
+          {
+            "label": "latent heat",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22154"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "long wave radiation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22164"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "reflected radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22210"
+          },
+          {
+            "label": "relative humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21579"
+          },
+          {
+            "label": "soil carbon dioxide flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21560"
+          },
+          {
+            "label": "soil heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22253"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          },
+          {
+            "label": "soil volumetric water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22280"
+          },
+          {
+            "label": "solar radiation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22284"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "vapor pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21577"
+          },
+          {
+            "label": "vapor pressure deficit",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22306"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "footpath/trail",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 60
+        },
+        "notes": "The infrastructure is composed of an eddy covariance station, 2 meteo-soil stations, 6 groundwater level stations, 2 hydrological stations (water column height + dissolved organic carbon).",
+        "collection": [
+          {
+            "label": "10-100 kW",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "The opportunity to collaborate on the project using the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

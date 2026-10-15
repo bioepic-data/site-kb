@@ -1,0 +1,70 @@
+sites:
+- id: site_kb:deims-blütenwald_-_austria
+  name: Blütenwald - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: aad56618-ca32-42c7-971a-a923f8a35c7e
+    network_url: https://deims.org/aad56618-ca32-42c7-971a-a923f8a35c7e
+    name: Blütenwald - Austria
+  location:
+    latitude: 48.391394
+    longitude: 16.700616
+    country: Austria
+  description: This site is part of the BFW project "Klimaforschungswald". The aim
+    of this research project is to evaluate which tree species will fullfil the important
+    tasks and functions of the forest ecosystem in the future. Furthermore, temperature
+    and precipitation fluctuations in particular are to be documented in order to
+    be able to map a possible trend and the influence of the growing vegetation. In
+    addition to the site characteristics, attention was paid to whether they were
+    particularly attractive for bees and insects, which should increase their food
+    supply.. When selecting the trees and shrubs, in addition to the site characteristics,
+    attention was paid to whether they were particularly attractive for bees and insects.
+    This should increase the food supply for bees and insects. Furthermore, information
+    boards were erected and meteorological measuring stations installed. The meterological
+    measuring stations record air temperature and relative humidity as well as precipitation.
+  variables:
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/aad56618-ca32-42c7-971a-a923f8a35c7e
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:10.433486+00:00'
+      source_modified_at: '2023-10-14T17:26:49+02:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/aad56618-ca32-42c7-971a-a923f8a35c7e
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:10.433486+00:00'
+      source_modified_at: '2023-10-14T17:26:49+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/aad56618-ca32-42c7-971a-a923f8a35c7e
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:10.433486+00:00'
+      source_modified_at: '2023-10-14T17:26:49+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/aad56618-ca32-42c7-971a-a923f8a35c7e
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:10.433486+00:00'
+      source_modified_at: '2023-10-14T17:26:49+02:00'
+  status: ACTIVE

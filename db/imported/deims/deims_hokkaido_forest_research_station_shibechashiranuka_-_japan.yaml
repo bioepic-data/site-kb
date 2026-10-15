@@ -1,0 +1,124 @@
+sites:
+- id: site_kb:deims-hokkaido_forest_research_station_shibechashiranuka_-_japan
+  name: Hokkaido Forest Research Station, Shibecha/Shiranuka - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 5877219e-c267-4896-897a-c1414b8f12e9
+    network_url: https://deims.org/5877219e-c267-4896-897a-c1414b8f12e9
+    name: Hokkaido Forest Research Station, Shibecha/Shiranuka - Japan
+  location:
+    latitude: 43.31667
+    longitude: 144.6167
+    country: Japan
+  description: "Hokkaido forest research station, Field Science Education and Research\
+    \ Center, Kyoto University is composed of two branches, Shibecha (1,447ha) and\
+    \ Shiranuka (880ha), which founded in 1949 and 1950, respectively.\r\n-----Shibecha\
+    \ Branch-----\r\nShibecha Branch is located on N43°19', E144°37', Shibecha town,\
+    \ Kakawami-gun, Hokkaido prefecture, Japan. The climate is strongly influenced\
+    \ by the Pacific Ocean, which is characterized by sea fog and cloudy weather in\
+    \ summer, and cold and dry weather in winter. The mean annual precipitation and\
+    \ air temperature from 1986–2015 were 1189 mm and 6.3°C, respectively. The soil\
+    \ of the study site is characterized as andosol.\r\nThe natural forest of Shibecha\
+    \ Branch is cool-temperate deciduous broad-leaved forest, and is typically dominated\
+    \ by Quercus crispula, Ulmus davidiana var. japonica, Fraxinus mandshurica var.\
+    \ japonica, Acer pictum subsp. mono, Phellodendron amurense and Kalopanax pictus.\
+    \ The forest floor is covered densely with dwarf bamboo (Sasa nipponica). The\
+    \ riparian forest of Shibecha Branch is dominated by Ulmus davidiana var. japonica,\
+    \ Fraxinus mandshurica var. japonica and several Salix species. The plantation\
+    \ forests is 29% of the total area, mainly Pseudolarix kaempferi, Abies sachalinensis,\
+    \ and Picea glehnii. Most plantations were established after clear cutting of\
+    \ natural forests from the 1960s to 1980s. Selective cutting was carried out around\
+    \ the 1950s throughout the residual natural forest area of Shibecha Branch.\r\n\
+    \ \r\n-----Shiranuka Branch-----\r\nShiranuka branch is located on N43°01', E143°57',\
+    \ Shiranuka town, Shiranuka-gun, Hokkaido prefecture, Japan. The climate in Shiranuka\
+    \ branch is more influenced by the Pacific Ocean than Shibecha branch because\
+    \ it is closer to the ocean. It is cooler than Shibecha due to intense sea fog\
+    \ in summer, while warmer and less snow in winter. The mean annual precipitation\
+    \ and air temperature from 1986–2015 were 1300.8 mm and 7.1°C, respectively. The\
+    \ soil of the study site is characterized as andosol.\r\nThe forest of Shibecha\
+    \ Branch is mostly natural mixed stands with conifers and deciduous broad-leaved\
+    \ trees. The forest floor is covered with dwarf bamboo (Sasa nipponica) whose\
+    \ heights are shorter than those of the Shibecha branch. The tree species diversity\
+    \ of Shiranuka branch is higher than Shibecha branch. The plantation forests is\
+    \ 14% of the total area, mainly Pseudolarix kaempferi, Abies sachalinensis, and\
+    \ Picea glehnii. Most plantations were established after clear cutting of natural\
+    \ forests from the 1960s to 1980s."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/5877219e-c267-4896-897a-c1414b8f12e9
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:29.109826+00:00'
+      source_modified_at: '2020-06-29T10:41:11+02:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/5877219e-c267-4896-897a-c1414b8f12e9
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:29.109826+00:00'
+      source_modified_at: '2020-06-29T10:41:11+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5877219e-c267-4896-897a-c1414b8f12e9
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:29.109826+00:00'
+      source_modified_at: '2020-06-29T10:41:11+02:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/5877219e-c267-4896-897a-c1414b8f12e9
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:29.109826+00:00'
+      source_modified_at: '2020-06-29T10:41:11+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/5877219e-c267-4896-897a-c1414b8f12e9
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:29.109826+00:00'
+      source_modified_at: '2020-06-29T10:41:11+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/5877219e-c267-4896-897a-c1414b8f12e9
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:29.109826+00:00'
+      source_modified_at: '2020-06-29T10:41:11+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/5877219e-c267-4896-897a-c1414b8f12e9
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:29.109826+00:00'
+      source_modified_at: '2020-06-29T10:41:11+02:00'
+  status: ACTIVE

@@ -1,0 +1,80 @@
+sites:
+- id: site_kb:deims-gwangneung_experimental_forest_-_korea_the_republic_of
+  name: Gwangneung Experimental Forest - Korea (the Republic of)
+  network_registrations:
+  - network: DEIMS
+    network_id: b6844fcb-d4b5-4b07-9cf1-b2475d00f225
+    network_url: https://deims.org/b6844fcb-d4b5-4b07-9cf1-b2475d00f225
+    name: Gwangneung Experimental Forest - Korea (the Republic of)
+  location:
+    latitude: 37.7441
+    longitude: 127.156
+    country: Korea (the Republic of)
+    elevation_meters: 258.0
+  description: The GEF (37° 44" 39' N, 127° 9" 22' E) is a well-preserved forest located
+    in the central temperate forest sub zone of Gyeonggi-do, Korea. It has been managed
+    since the Joseon Dynasty, and public access to this area is currently controlled
+    for the purpose of preserving the experimental forest. The long-term (1981-2010)
+    annual mean temperature and precipitation of this site were 11.5 °C and 1438.2
+    mm. The dominant woody plants are Quercus serrata, Carpinus laxiflora, Quercus
+    mongolica, Cornus controversa, and Pinus koraiensis in GEF. A multidisciplinary,
+    collaborative research is being carried out at GEF. In addition, it was officially
+    registered with the internal and external flux research networks (KoFlux, FluxNet,
+    and AsiaFlux), and was therefore called Super Site.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/b6844fcb-d4b5-4b07-9cf1-b2475d00f225
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:23.652390+00:00'
+      source_modified_at: '2021-03-03T11:35:26+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/b6844fcb-d4b5-4b07-9cf1-b2475d00f225
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:23.652390+00:00'
+      source_modified_at: '2021-03-03T11:35:26+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/b6844fcb-d4b5-4b07-9cf1-b2475d00f225
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:23.652390+00:00'
+      source_modified_at: '2021-03-03T11:35:26+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/b6844fcb-d4b5-4b07-9cf1-b2475d00f225
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:23.652390+00:00'
+      source_modified_at: '2021-03-03T11:35:26+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/b6844fcb-d4b5-4b07-9cf1-b2475d00f225
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:23.652390+00:00'
+      source_modified_at: '2021-03-03T11:35:26+01:00'
+  status: ACTIVE

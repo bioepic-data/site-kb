@@ -1,0 +1,209 @@
+{
+  "source_url": "https://deims.org/api/sites/5b1a474f-0430-47ec-8101-8792b3f64d5b",
+  "retrieved_at": "2026-10-15T17:45:49.226950+00:00",
+  "record": {
+    "title": "PermaFrance Derochoir - France",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "5b1a474f-0430-47ec-8101-8792b3f64d5b"
+    },
+    "type": "site",
+    "created": "2016-11-27T16:15:05+01:00",
+    "changed": "2024-03-04T12:03:18+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": null,
+        "projects": [
+          {
+            "label": "PermaFrance",
+            "uri": "https://permafrance.osug.fr/?lang=en"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Philippe Schoeneich",
+            "email": "schoenei@univ-grenoble-alpes.fr",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "PermaFRANCE",
+            "url": "http://permafrance.osug.fr",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Philippe Schoeneich",
+            "email": "schoenei@univ-grenoble-alpes.fr",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Observatoire des Sciences de l'Univers de Grenoble (OSUG)",
+            "url": "http://www.osug.fr",
+            "ror": "https://ror.org/03vte9x46"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "PermaFRANCE Observatory",
+            "value": "http://permafrance.osug.fr"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Derochoir rockglacier is situated above the village of Les Houches, in the western part of the Mont Blanc massif (France). It is one the very few rockglaciers in the Mont Banc massif. It is a small rockglacier with a suspended front, overhanging the torrential catchment of the Arandellys torrent, which flows through the village of Les Houches and eventually caused flooding of parts of the village. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2010,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "LTSER Zone Atelier Alpes - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "79d6c1df-570f-455f-a929-6cfe5c4ca1e9"
+                },
+                "changed": "2025-01-10T09:06:34+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "PermaFrance Derochoir",
+        "shortName": "DE",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": -2.8,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2000,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "alpine",
+        "ecosystemType": [
+          {
+            "label": "Alpine",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Rock glaciers and unvegetated ice-dominated moraines (H4.3)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "Cristalline schists fo the external zone of Mont Banc massif.",
+        "hydrology": "No surface hydrology",
+        "soils": "No soils",
+        "vegetation": "No vegetation, except rare and isolated plants"
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (6.80925 45.86582)",
+        "country": [
+          "France"
+        ],
+        "elevation": {
+          "avg": 2520,
+          "min": 2420,
+          "max": 2630,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 7.5,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "footpath/trail",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 365,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 365
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

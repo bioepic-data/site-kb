@@ -1,0 +1,260 @@
+{
+  "source_url": "https://deims.org/api/sites/5d4a0457-aff6-410b-b43a-2b3a00fba990",
+  "retrieved_at": "2026-10-15T17:47:58.808984+00:00",
+  "record": {
+    "title": "North Sterling NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "5d4a0457-aff6-410b-b43a-2b3a00fba990"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-18T16:09:47+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "STER",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Chau Tran",
+            "email": "ctran@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/ster"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "North Sterling (STER) is a terrestrial NEON field site located in Logan County in northeast Colorado. It has an sampling area of 3.2 km2 (791 acres) and sits at about 1350 m (4429 ft.) elevation. STER is an agriculture site on privately owned land. Various crops are grown across the site, including winter wheat, millet, and maize. The North Sterling site was selected to represent agricultural land and practices in eastern Colorado. The site is part of NEON’s Central Plains Domain (D10), along with two other terrestrial sites and one aquatic site. STER is not colocated with an aquatic field site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2014,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "North Sterling NEON",
+        "shortName": "STER",
+        "siteType": "Non-stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/48540742441_c242e5c2e5_b.jpg",
+            "alt": "NEON meteorological/flux tower at North Sterling, CO NEON"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 9.7,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 433,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "The geology at this site is characteristic of the Ogallala Formation which is comprised of alternating conglomerates and sandstones.",
+        "hydrology": "There are no major aquatic systems within the site boundary. Concentrated precipitation events can lead to flooding in the region. Snow cover does not last long due to the abundance of sunlight.",
+        "soils": "Soils at the STER site originate from aeolian deposits, loess, recent alluvium, and Tertiary aged alluvium. The major components of soils are from several different pedon types: Colby, Kuma, Platner, Rago, Sampson, Stoneham, Wages, and Weld.",
+        "vegetation": "Cropping systems under no-till management were initiated in 1985 at the STER location. Possible crops include winter wheat, winter wheat-maize, millet, maize, sorghum, triticale, forage millet, and sunﬂower. Over 85% of the sampling area is cultivated crops, with the rest being classified as grassland herbaceous or developed open space. However, under the current Land Use Agreement, sampling only occurs in the space for cultivated crops. Over 60 distinct plant species have been identified within the sampling area."
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-103.029507542 40.466975657, -103.027089686 40.466988437, -103.027090168 40.459734938, -103.036565818 40.4595753, -103.036622832 40.466964254, -103.029507542 40.466975657))",
+        "coordinates": "POINT (-103.0293 40.4619)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 1365,
+          "min": 1352,
+          "max": 1371,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 258,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "latent heat",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22154"
+          },
+          {
+            "label": "leaf area index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22157"
+          },
+          {
+            "label": "ozone concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22178"
+          },
+          {
+            "label": "plant diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22191"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil carbon dioxyde flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21939"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

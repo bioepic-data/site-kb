@@ -1,0 +1,420 @@
+sites:
+- id: site_kb:deims-engure_marine_site_-_latvia
+  name: Engure marine site - Latvia
+  network_registrations:
+  - network: DEIMS
+    network_id: 3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+    network_url: https://deims.org/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+    name: Engure marine site - Latvia
+  location:
+    latitude: 57.357
+    longitude: 23.14
+    country: Latvia
+    elevation_meters: -10.0
+  description: Western part of the Gulf of Riga (the Baltic Sea) littoral  and sublitoral
+    zone. The marine site is located on the west coast of the Gulf, in the Engure
+    Nature protected area. The monitoring activities are based on three transects
+    which represent an open area of very similar substrate type. These transects are
+    located on the tip of Mersrags, 2.5 km northwards from the port of Mersrags. Long-term
+    studies of the Gulf of Riga coastal zone communities and macrophytes as the key
+    component of littoral zone under natural and anthropogenic impact and possible
+    threats to the littoral zone biological resources. The   SCUBA diving is used
+    in marine site  assessment.
+  variables:
+  - name: algae species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: algae species abundance
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10338
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: algae species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: algae species presence
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10343
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: alpha diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: alpha diversity
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22040
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ammonium content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ammonium content
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10071
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ammonium nitrate concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ammonium nitrate concentration
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10072
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: animal species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: animal species abundance
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/10336
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: animal species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: animal species presence
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22059
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: bacteria abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: bacteria abundance
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22026
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: bacteria presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: bacteria presence
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/10122
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: bacterial diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: bacterial diversity
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22062
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: biological diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological diversity
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/21391
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: chemical composition of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical composition of water
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/21213
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: chlorophyll a content in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll a content in water
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/21214
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: community composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: community composition
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/22086
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: community structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: community structure
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/21472
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/18
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: habitat disturbance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: habitat disturbance
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/19
+      source_id: http://vocabs.lter-europe.net/EnvThes/21488
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: habitat heterogeneity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: habitat heterogeneity
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/20
+      source_id: http://vocabs.lter-europe.net/EnvThes/21489
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: microbial diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: microbial diversity
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/21
+      source_id: http://vocabs.lter-europe.net/EnvThes/22169
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: pH value of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: pH value of water
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/22
+      source_id: http://vocabs.lter-europe.net/EnvThes/21218
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: phytoplankton abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: phytoplankton abundance
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/23
+      source_id: http://vocabs.lter-europe.net/EnvThes/30018
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: phytoplankton biomass
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: phytoplankton biomass
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/24
+      source_id: http://vocabs.lter-europe.net/EnvThes/30021
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: sea surface temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: sea surface temperature
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/25
+      source_id: http://vocabs.lter-europe.net/EnvThes/22225
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: secchi depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: secchi depth
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/26
+      source_id: http://vocabs.lter-europe.net/EnvThes/22226
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species composition
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/27
+      source_id: http://vocabs.lter-europe.net/EnvThes/22285
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species presence
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/28
+      source_id: http://vocabs.lter-europe.net/EnvThes/10081
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: stress response
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: stress response
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/29
+      source_id: http://vocabs.lter-europe.net/EnvThes/21438
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/30
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water heavy metal concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water heavy metal concentration
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/31
+      source_id: http://vocabs.lter-europe.net/EnvThes/30024
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/32
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water salinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water salinity
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/33
+      source_id: http://vocabs.lter-europe.net/EnvThes/10308
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: zooplankton abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: zooplankton abundance
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/34
+      source_id: http://vocabs.lter-europe.net/EnvThes/30019
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: zooplankton biomass
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: zooplankton biomass
+      record_url: https://deims.org/api/sites/3706b1ea-2aad-4363-bf4d-ba3ccba584e6
+      field_path: /attributes/focusDesignScale/observedProperties/35
+      source_id: http://vocabs.lter-europe.net/EnvThes/30022
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:49.636714+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  status: ACTIVE

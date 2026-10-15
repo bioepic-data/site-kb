@@ -1,0 +1,72 @@
+sites:
+- id: site_kb:deims-ooyamazawa_riparian_forest_research_site_-_japan
+  name: Ooyamazawa Riparian Forest Research Site - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: c957caee-f36e-48bc-95d3-272522dc4799
+    network_url: https://deims.org/c957caee-f36e-48bc-95d3-272522dc4799
+    name: Ooyamazawa Riparian Forest Research Site - Japan
+  location:
+    latitude: 35.9583
+    longitude: 138.759
+    country: Japan
+    elevation_meters: 1450.0
+  description: Riparian forest in cool-temparate zone.The study site (35°57'30"N,
+    138°45'32"E) is located in a riparian zone along a small stream (Ooyamazawa) of
+    the Nakatsugawa branch of the Arakawa River, in Chichibu Mountains, central Japan.
+    This site is located in the protected Chichibu-Tama National Park and ranged from
+    1210-1530 m above sea level. This riparian forest in this area phytosociologically
+    belongs to the Chrysosplenio-Fraxinetum spaethianae, a typical riparian forest.
+    Dominant canopy species in this area are Fraxinus platypoda, Pterocarya rhoifolia
+    and Cercidiphyllum japonicum over 30 m in tree height. The subcanopy specie are
+    Acer shirasawanum and Acer mono, and the understory is primarily composed of Acer
+    carpinifolium and Acer argutum. The area around the study plot is no human disturbances
+    such as logging or erosion control works. This study site is a part of the Monitoring
+    Sites 1000 Project launched by the Ministry of the Environment, Japan, and also
+    is one of a Japan Long-Term Ecological Research (JaLTER) Sites.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/c957caee-f36e-48bc-95d3-272522dc4799
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:16.090193+00:00'
+      source_modified_at: '2020-06-29T10:43:43+02:00'
+  - name: tree age
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree age
+      record_url: https://deims.org/api/sites/c957caee-f36e-48bc-95d3-272522dc4799
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22300
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:16.090193+00:00'
+      source_modified_at: '2020-06-29T10:43:43+02:00'
+  - name: tree diameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter
+      record_url: https://deims.org/api/sites/c957caee-f36e-48bc-95d3-272522dc4799
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:16.090193+00:00'
+      source_modified_at: '2020-06-29T10:43:43+02:00'
+  - name: tree distribution
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree distribution
+      record_url: https://deims.org/api/sites/c957caee-f36e-48bc-95d3-272522dc4799
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/21587
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:16.090193+00:00'
+      source_modified_at: '2020-06-29T10:43:43+02:00'
+  status: ACTIVE

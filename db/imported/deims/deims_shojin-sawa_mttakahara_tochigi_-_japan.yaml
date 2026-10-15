@@ -1,0 +1,39 @@
+sites:
+- id: site_kb:deims-shojin-sawa_mttakahara_tochigi_-_japan
+  name: Shojin-sawa, Mt.Takahara, Tochigi - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 052b751b-4e8d-4493-8e91-ce4c42e5013a
+    network_url: https://deims.org/052b751b-4e8d-4493-8e91-ce4c42e5013a
+    name: Shojin-sawa, Mt.Takahara, Tochigi - Japan
+  location:
+    latitude: 36.52
+    longitude: 139.48
+    country: Japan
+    elevation_meters: 850.0
+  description: Temperate deciduous broad leaved forest, Two beech species (Fagus japonica
+    and Fagus crenata) are dominated.
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/052b751b-4e8d-4493-8e91-ce4c42e5013a
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:19.044088+00:00'
+      source_modified_at: '2020-12-17T11:03:11+01:00'
+  - name: nitrogen content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nitrogen content
+      record_url: https://deims.org/api/sites/052b751b-4e8d-4493-8e91-ce4c42e5013a
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22174
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:19.044088+00:00'
+      source_modified_at: '2020-12-17T11:03:11+01:00'
+  status: ACTIVE

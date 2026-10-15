@@ -1,0 +1,83 @@
+sites:
+- id: site_kb:deims-retezat_biosphere_reserve_-_romania
+  name: Retezat Biosphere Reserve - Romania
+  network_registrations:
+  - network: DEIMS
+    network_id: 41d84799-0ef0-48a0-ac20-ae192850c895
+    network_url: https://deims.org/41d84799-0ef0-48a0-ac20-ae192850c895
+    name: Retezat Biosphere Reserve - Romania
+  location:
+    latitude: 45.4097
+    longitude: 22.8697
+    country: Romania
+    elevation_meters: 1580.0
+  description: Retezat LTER site is located in the western part of the Southern Carpathians.
+    Retezat massif was declared a biosphere reserve in 1979, due to its landscape
+    diversity, geological complexity, composition of the flora and vegetation. Retezat
+    National Park is famous for its floral diversity, hosting more than 1190 species
+    of  plants. Forests cover about 49 % of the area , the most widespread species
+    are beech ( Fagus sylvatica ), spruce ( Picea abies ) , mountain pine (Pinus mugo
+    ) , fir ( Abies alba), maple (Acer pseudoplatanus ) , birch ( Betula pendula)
+    , alder ( Alnus viridis ) , elm ( Ulmus glabra) , Rowan ( Sorbus aucuparia ) .
+    Pinus cembre opulation is probably the most representative of the Carpathian Mountains.
+    The long term research network was placed in Retezat National Park in 2000, comprising
+    11 research plots (with a 0.25 ha surface) placed in representative forest or
+    alpine ecosystems.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/41d84799-0ef0-48a0-ac20-ae192850c895
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:46.297702+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/41d84799-0ef0-48a0-ac20-ae192850c895
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:46.297702+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/41d84799-0ef0-48a0-ac20-ae192850c895
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:46.297702+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/41d84799-0ef0-48a0-ac20-ae192850c895
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:46.297702+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/41d84799-0ef0-48a0-ac20-ae192850c895
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:46.297702+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

@@ -1,0 +1,79 @@
+sites:
+- id: site_kb:deims-ozcar-ri_ozc-r_forêt_de_mare_longue_-_france_réunion
+  name: OZCAR-RI OZC-R Forêt de Mare Longue - France, Réunion
+  network_registrations:
+  - network: DEIMS
+    network_id: 3f02d3de-a233-41c0-b6fb-5f02c6c15ba5
+    network_url: https://deims.org/3f02d3de-a233-41c0-b6fb-5f02c6c15ba5
+    name: OZCAR-RI OZC-R Forêt de Mare Longue - France, Réunion
+  location:
+    latitude: -21.346624
+    longitude: 55.740166
+    country: France, Réunion
+  description: Mare Longue Forest is located in the South East of the island of La
+    Réunion (French overseas, Indian Ocean) on the municipality of Saint-Philippe.
+    It is the last remnant of lowland tropical rainforest for the Mascarene archipelago,
+    located on a 364 year-old lava flow. The climate is warm (annual mean temperature
+    ranges from 19 to 25 °C) and humid ( in summer reaching 90 to 95 % of relative
+    humidity), precipitation varying between 408 mm at 130 m a.s.l to 18 000 mm at
+    1600 m a.s.l. Since 1958, a biological reserve of 21 ha has been established,
+    which was then extended into a natural reserve  in 1981, it is now since 2007
+    under the protection of the National Park  of Réunion. The site is composed of
+    a variety of forest habitats, from a primary forest with high diversity in woody
+    plants (more than 50 species of indigenous and endemic species) and epiphytes
+    with a 20 m canopy height, to planted forests of monospecific indigenous species,
+    plantations of vanilla in forest, coastal vegetation. The forest of Mare Longue,
+    in the only corridor land to sea on the island between 0 to 2600 m, with uninterrupted
+    vegetation and where the impact of human is recent (from 1665). In the native
+    forest 3 ha permanent plots have been monitored (MALO1 since 1990, MALO2 since
+    1999 and MALO3 since 2003) where all trees (> 50 000) are inventoried, tagged
+    and measured for their diameters. A climatic station in the native forest at 250
+    m has been operating since 2011. In the closest town, the Research forest station
+    of Mare Longue is welcoming researchers and students for their scientific stay
+    on the island with all needed facilities.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/3f02d3de-a233-41c0-b6fb-5f02c6c15ba5
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:33.561683+00:00'
+      source_modified_at: '2024-05-21T14:56:17+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/3f02d3de-a233-41c0-b6fb-5f02c6c15ba5
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:33.561683+00:00'
+      source_modified_at: '2024-05-21T14:56:17+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/3f02d3de-a233-41c0-b6fb-5f02c6c15ba5
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:33.561683+00:00'
+      source_modified_at: '2024-05-21T14:56:17+02:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/3f02d3de-a233-41c0-b6fb-5f02c6c15ba5
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:49:33.561683+00:00'
+      source_modified_at: '2024-05-21T14:56:17+02:00'
+  status: ACTIVE

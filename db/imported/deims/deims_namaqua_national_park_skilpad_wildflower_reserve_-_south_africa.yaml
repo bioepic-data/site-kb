@@ -1,0 +1,40 @@
+sites:
+- id: site_kb:deims-namaqua_national_park_skilpad_wildflower_reserve_-_south_africa
+  name: Namaqua National Park, Skilpad Wildflower Reserve - South Africa
+  network_registrations:
+  - network: DEIMS
+    network_id: 3c9b9a9f-08d6-436c-b88a-6105d4710650
+    network_url: https://deims.org/3c9b9a9f-08d6-436c-b88a-6105d4710650
+    name: Namaqua National Park, Skilpad Wildflower Reserve - South Africa
+  location:
+    latitude: -30.165851
+    longitude: 17.797942
+    country: South Africa
+    elevation_meters: 853.0
+  description: Namaqua National Park is situated in the Succulent Karoo Biome. The
+    Skilpad Wildflower Reserve section of the Park is managed for mass flower displays
+    while the remainder of the Park is managed as a conservation area.
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/3c9b9a9f-08d6-436c-b88a-6105d4710650
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:54.851195+00:00'
+      source_modified_at: '2025-01-21T14:41:23+01:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/3c9b9a9f-08d6-436c-b88a-6105d4710650
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:54.851195+00:00'
+      source_modified_at: '2025-01-21T14:41:23+01:00'
+  status: ACTIVE

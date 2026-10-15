@@ -1,0 +1,128 @@
+sites:
+- id: site_kb:deims-harvard_forest__quabbin_watershed_neon_-_united_states_of_america
+  name: Harvard Forest & Quabbin Watershed NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: 9dbbd9ea-21dc-43e3-b55d-42623427e642
+    network_url: https://deims.org/9dbbd9ea-21dc-43e3-b55d-42623427e642
+    name: Harvard Forest & Quabbin Watershed NEON - United States of America
+  location:
+    latitude: 42.5369
+    longitude: -72.17266
+    country: United States of America
+    elevation_meters: 348.0
+  description: Harvard Forest (HARV) is a terrestrial NEON field site located approximately
+    65 miles west of Boston, Massachusetts in the county of Worcester. The 48.1 km2
+    (11,900 acre) site has sampling plots within Harvard Forest (managed by Harvard
+    University and the Harvard Forest Long Term Ecological Research (LTER) program)
+    and the Quabbin Reservoir Watershed (managed by the Massachusetts Department of
+    Conservation and Recreation). Regionally, HARV represents a typical northeastern
+    rural/wildland, anchoring an urban-to-rural gradient from suburban areas outside
+    Boston to the wildlands throughout New England, Maine, and New Hampshire. The
+    site's dominant land cover is northern hardwood and coniferous forest, with some
+    areas used for agriculture. HARV is located in the Northeast Domain (D01), which
+    encompasses the New England and northern Eastern Seaboard states along with the
+    northern end of the Appalachian range. D01 includes one other terrestrial site
+    and one aquatic site. HARV is located near the Lower Hop Brook (HOPB) aquatic
+    site.
+  variables:
+  - name: above ground biomass
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground biomass
+      record_url: https://deims.org/api/sites/9dbbd9ea-21dc-43e3-b55d-42623427e642
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:31.219636+00:00'
+      source_modified_at: '2025-09-17T14:42:45+02:00'
+  - name: carbon dioxide concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: carbon dioxide concentration
+      record_url: https://deims.org/api/sites/9dbbd9ea-21dc-43e3-b55d-42623427e642
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22082
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:31.219636+00:00'
+      source_modified_at: '2025-09-17T14:42:45+02:00'
+  - name: carbon dioxide flux per soil horizon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: carbon dioxide flux per soil horizon
+      record_url: https://deims.org/api/sites/9dbbd9ea-21dc-43e3-b55d-42623427e642
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22083
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:31.219636+00:00'
+      source_modified_at: '2025-09-17T14:42:45+02:00'
+  - name: leaf area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area
+      record_url: https://deims.org/api/sites/9dbbd9ea-21dc-43e3-b55d-42623427e642
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22156
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:31.219636+00:00'
+      source_modified_at: '2025-09-17T14:42:45+02:00'
+  - name: leaf area index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area index
+      record_url: https://deims.org/api/sites/9dbbd9ea-21dc-43e3-b55d-42623427e642
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22157
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:31.219636+00:00'
+      source_modified_at: '2025-09-17T14:42:45+02:00'
+  - name: mean annual precipitation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: mean annual precipitation
+      record_url: https://deims.org/api/sites/9dbbd9ea-21dc-43e3-b55d-42623427e642
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22166
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:31.219636+00:00'
+      source_modified_at: '2025-09-17T14:42:45+02:00'
+  - name: snow depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: snow depth
+      record_url: https://deims.org/api/sites/9dbbd9ea-21dc-43e3-b55d-42623427e642
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22240
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:31.219636+00:00'
+      source_modified_at: '2025-09-17T14:42:45+02:00'
+  - name: soil carbon dioxide flux
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil carbon dioxide flux
+      record_url: https://deims.org/api/sites/9dbbd9ea-21dc-43e3-b55d-42623427e642
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/21560
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:31.219636+00:00'
+      source_modified_at: '2025-09-17T14:42:45+02:00'
+  - name: soil moisture content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil moisture content
+      record_url: https://deims.org/api/sites/9dbbd9ea-21dc-43e3-b55d-42623427e642
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/10039
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:31.219636+00:00'
+      source_modified_at: '2025-09-17T14:42:45+02:00'
+  status: ACTIVE

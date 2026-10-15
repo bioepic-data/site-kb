@@ -1,0 +1,145 @@
+sites:
+- id: site_kb:deims-wielkopolski_national_park_-_poland
+  name: Wielkopolski National Park - Poland
+  network_registrations:
+  - network: DEIMS
+    network_id: 67175d5b-6a90-4a09-bb7d-766162a3ca66
+    network_url: https://deims.org/67175d5b-6a90-4a09-bb7d-766162a3ca66
+    name: Wielkopolski National Park - Poland
+  location:
+    latitude: 52.2556
+    longitude: 16.7931
+    country: Poland
+    elevation_meters: 125.0
+  description: The monitoring site was established in 1993 and consists of a monitoring
+    station, where the measuring equipment is located, i.e., Wind Speed Meter (Young)
+    pyranometer (LiCo) hygrometers, etc., permanent plots in the 70-year-old pine
+    stands where bulk deposition, throughfall and soil solution are collected on the
+    monthly basis. The investigations of health status of trees and floral characteristic
+    have been carried out since 1994. The analyses are carried out in a certified
+    laboratory of the Institute for Ecology of Industrial Areas, Katowice (Certificate
+    No AB 325).
+  variables:
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: diversity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diversity index
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/21513
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: floristic diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: floristic diversity
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22122
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: habitat structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: habitat structure
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/21478
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: ozone concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ozone concentration
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22178
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: snow depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: snow depth
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22240
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/67175d5b-6a90-4a09-bb7d-766162a3ca66
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:35.211623+00:00'
+      source_modified_at: '2021-11-23T11:49:21+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

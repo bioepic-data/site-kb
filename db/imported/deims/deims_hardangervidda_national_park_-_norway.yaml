@@ -1,0 +1,62 @@
+sites:
+- id: site_kb:deims-hardangervidda_national_park_-_norway
+  name: Hardangervidda National Park - Norway
+  network_registrations:
+  - network: DEIMS
+    network_id: e932fc1f-416e-45a7-836c-3a9ebbbf1baa
+    network_url: https://deims.org/e932fc1f-416e-45a7-836c-3a9ebbbf1baa
+    name: Hardangervidda National Park - Norway
+  location:
+    latitude: 60.1040713
+    longitude: 7.473547
+    country: Norway
+    elevation_meters: 1100.0
+  description: "The National Park was established in 1981, and about half of the land\
+    \ is private and the rest is governmental. Hardangervidda is the largest mountain\
+    \ plateau in Europe, and the inner core of Hardangervidda is the largest National\
+    \ Park in Scandinavia (excluding Svalbard).  The park is 3422 km2 large, and spans\
+    \ three counties (Hordaland, Buskerud and Telemark) and eight municipalities.\
+    \ The protection regime is National Park (IUCN Category II) and it also includes\
+    \ some Landscape Protected Areas (IUCN Category V), see map.\r\n\r\nCultural heritage:\
+    \ Several hundred nomadic Stone Age settlements have been found in the area, most\
+    \ likely related to the migration of the reindeer. Ancient trails cross the plateau,\
+    \ linking western and eastern Norway.\r\n\r\nLand use: The natural resources on\
+    \ the plateau are of great value to the surrounding villages, and this National\
+    \ Park has allowed a rather high level of land use and associated buildings. The\
+    \ consequence of this type of management is that there is quite a lot of motorized\
+    \ traffic associated with the harvesting of resources and maintenance of buildings,\
+    \ in addition to the operation of tourist cabins. Large flocks of sheep are grazing\
+    \ and browsing every year. There is also regulated fishing and hunting. In addition,\
+    \ Hardangervidda National Park is used as a recreation area and as a source of\
+    \ extra food for urban citizens.\r\n\r\n•Hardangervidda National Park Centre at\
+    \ Skinnarbu in Tinn - is opening as a visiting centre with a new exhibition in\
+    \ 2013.\r\n•Hardangervidda Nature Centre Eidfjord - visitor centre for Norwegian\
+    \ nature, climate and environment. Open April to October.\r\n\r\nOn Skinnarbu\
+    \ you also find the Southern Norwegian Wild Reindeer Centre, a centre working\
+    \ with conservation and sustainable management of the wild reindeer and the wild\
+    \ reindeer areas in Norway."
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/e932fc1f-416e-45a7-836c-3a9ebbbf1baa
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:05.200558+00:00'
+      source_modified_at: '2020-06-29T10:41:08+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/e932fc1f-416e-45a7-836c-3a9ebbbf1baa
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:05.200558+00:00'
+      source_modified_at: '2020-06-29T10:41:08+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

@@ -1,0 +1,389 @@
+{
+  "source_url": "https://deims.org/api/sites/5d64b207-5a68-410f-a2ec-cf0e05d4c0ac",
+  "retrieved_at": "2026-10-15T17:51:06.797324+00:00",
+  "record": {
+    "title": "SMEAR-Agri Viikki - Finland",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "5d64b207-5a68-410f-a2ec-cf0e05d4c0ac"
+    },
+    "type": "site",
+    "created": "2025-05-06T09:02:34+02:00",
+    "changed": "2026-02-11T07:53:10+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "AnaEE",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c5a423a9-be7b-4b00-967a-d1e1e6d31d96"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Finland",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "aaae2a46-f355-41d0-8067-c2f0cd52e814"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Mari Pihlatie",
+            "email": "mari.pihlatie@helsinki.fi",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Markku Koskinen",
+            "email": "markku.koskinen@helsinki.fi",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Tatu Polvinen",
+            "email": "tatu.polvinen@helsinki.fi",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "University of Helsinki",
+            "url": "https://www.helsinki.fi/",
+            "ror": "https://ror.org/040af2s02"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Markku Koskinen",
+            "email": "markku.koskinen@helsinki.fi",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.atm.helsinki.fi/smear/smear-agri/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Agricultural field under grass cultivation for fodder. GHG (N2O, CH4, CO2) and other gas exchange measurements with eddy covariance method, meteorological measurements and soil status monitoring (soil moisture, temperature, water table level, redox potential, electric conductivity) continuously.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2021,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "SMEAR-Agri Viikki",
+        "shortName": "SMEAR-Agri Viikki",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "not applicable",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/notApplicable"
+          }
+        ],
+        "landUse": [
+          {
+            "label": "agriculture",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_Agriculture"
+          },
+          {
+            "label": "commercial agricultural production",
+            "uri": "http://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_1_CommercialAgriculturalProduction"
+          },
+          {
+            "label": "primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction"
+          }
+        ],
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "boreal",
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Arable land and market gardens (I1)",
+            "uri": null
+          },
+          {
+            "label": "Intensive unmixed crops (I1.1)",
+            "uri": null
+          },
+          {
+            "label": "Regularly or recently cultivated agricultural, horticultural and domestic habitats (I)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": "Clay soil, partly sulfate clay",
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((25.016558786928 60.21855328836, 25.016689764553 60.218592097095, 25.016697447531 60.21871013241, 25.01707691762 60.218804246429, 25.017155046015 60.218982295056, 25.020235306111 60.219735829505, 25.020343795771 60.219656378592, 25.020913034037 60.219797533707, 25.02382962152 60.217858486981, 25.022799667769 60.217496746478, 25.021702552162 60.21726665628, 25.021078457209 60.217544776666, 25.02054388946 60.217566279704, 25.01996122381 60.21740281204, 25.019285183712 60.217068436813, 25.016558786928 60.21855328836))",
+        "coordinates": "POINT (25.01986 60.21845)",
+        "country": [
+          "Finland"
+        ],
+        "elevation": {
+          "avg": 1.5,
+          "min": 0.4,
+          "max": 3.9,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 6.87,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "dew point",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22104"
+          },
+          {
+            "label": "diffuse solar radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22106"
+          },
+          {
+            "label": "direct radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22044"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "global radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "latent heat",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22154"
+          },
+          {
+            "label": "methane concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22167"
+          },
+          {
+            "label": "nitrous oxyde emission",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21937"
+          },
+          {
+            "label": "physical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20938"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21207"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22240"
+          },
+          {
+            "label": "soil nitrate leaching",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10053"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil solution eH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22275"
+          },
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          },
+          {
+            "label": "soil volumetric water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22280"
+          },
+          {
+            "label": "soil water potential",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22283"
+          },
+          {
+            "label": "total radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22298"
+          },
+          {
+            "label": "water turbidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21217"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "footpath/trail",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 7,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": "Continuous operation of EC tower and soil sensors in pits; continuous operation of subsurface drain water quality measurement well starting in 2025.",
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "Less than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "Probe continuous measurements",
+            "uri": null
+          },
+          {
+            "label": "Radio transmission system (repeaters, receivers, centralstation)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

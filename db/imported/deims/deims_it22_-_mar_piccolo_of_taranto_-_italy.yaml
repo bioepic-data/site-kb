@@ -1,0 +1,217 @@
+sites:
+- id: site_kb:deims-it22_-_mar_piccolo_of_taranto_-_italy
+  name: IT22 - Mar Piccolo of Taranto - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+    network_url: https://deims.org/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+    name: IT22 - Mar Piccolo of Taranto - Italy
+  location:
+    latitude: 40.4817
+    longitude: 17.2818
+    country: Italy
+  description: "The Mar Piccolo is an inner, semi-enclosed sea located on the North\
+    \ of the town of Taranto showing lagoon features. It has a surface area of 20.72\
+    \ Km2 and is divided by two promontories of land into two smaller inlets, called\
+    \ the First and the Second Inlet, which have a maximum depth of 12 and 8 m, respectively.\
+    \ Two canals, Navigable Canal (width 58 m, depth 12 m) and Porta Napoli Channel\
+    \ (width 48 m, depth 2.5 m), the most important for the water exchange, put the\
+    \ Mar Piccolo in communication with the nearby Mar Grande basin. The scarce hydrodinamism\
+    \ and the reduced water exchange, mainly in the Second Inlet, with the nearby\
+    \ Mar Grande determine the stratification of the water, especially in summer.\r\
+    \nDue to the strong anthropogenic impact, most of hard substrata are artificial.\
+    \ Soft substrata are sandy near the shore and muddy in the central zone of both\
+    \ Inlets.\r\nIn the Mar Piccolo basin, tidal range is reduced, not exceeding 30-40\
+    \ cm. Chemical-physical features of the basin, deeply studied in the last years,\
+    \ show a variable trend according to the seasons and to the Inlets. The two basins\
+    \ are characterized by different levels of confinement. Such a confinement is\
+    \ evident for chemichal-physical variables and let to immediately single out the\
+    \ two basins, as the variables values change moving from the First Inlet to the\
+    \ Second Inlet. Always along the same direction, besides the confinement, an evident\
+    \ increase of all the variables fluctuations is observable which points out a\
+    \ noticeable instability of the most confined basin.\r\nThe lagoon features of\
+    \ the Mar Piccolo are mainly due to the presence of 34 submarine freshwater springs\
+    \ (locally called \"Citri\") of which 20 are in the First Inlet and 14 in the\
+    \ Second Inlet . The most important are “Galeso” (mean flow 600 L s-1) and “Citrello”\
+    \ (mean flow 350 L s-1) in the First Inlet and “Le Copre” (mean flow 80 L s-1)\
+    \ in the Second Inlet. The freshwater of the “Citri” has a uniform temperature\
+    \ of 18°C; therefore, they locally affect both the salinity and the temperature\
+    \ of seawater.\r\nMoreover, in the Mar Piccolo several small tributary rivers\
+    \ flow, of which the most important is “Galeso” (mean flow 50,000 m3day-1) in\
+    \ the First Inlet; other small rivers, less important because their flow is strongly\
+    \ affected by the seasons, are “Cervaro”, “Rasca” and “Rubafemmine” in the Second\
+    \ Inlet. Salinity ranges from 34.3 to 37.7. Seawater temperature ranges from 7.1°C\
+    \ to 33.6°C.\r\nSince the Mar Piccolo is an enclosed and therefore sheltered basin,\
+    \ it has been using for human activities for a long time. Indeed, it houses the\
+    \ biggest mussel farm in Italy with plants widely distributed in both the Inlets,\
+    \ which has a production of about 30,000 tons year-1 and employs about 800 people.\
+    \ Until few years ago, the most important Italian Navy base was located in the\
+    \ First Inlet of which only the dry-docks are still present. In addition, a small\
+    \ fishing fleet, of about 300 boats, is present in the First Inlet. The water-scooping\
+    \ machine of the steel industry catches seawater from the basin for the cooling\
+    \ plants. Moreover, the Mar Piccolo is subject to agricultural pollution because\
+    \ the irrigating waters of the surrounding fields flow into the basin by both\
+    \ the rivers and the submarine freshwater springs. \r\nUp to 2000, also 14 urban\
+    \ sewage outfalls flowed into the basin coming from some small cities near Taranto.\
+    \ Starting from this year, the outfalls of 11 of these were closed since their\
+    \ seawage pipes were connected to Bellavista depuration plant flowing outside\
+    \ the Mar Grande basin; currently, only 5 seawage outfalls (1 in the First Inlet\
+    \ and 4 in the Second Inlet) till flow into the basin. Therefore, the discharging\
+    \ of waste waters in the basin has noticeably been reduced."
+  variables:
+  - name: algae species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: algae species abundance
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10338
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: algae species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: algae species presence
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10343
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: animal species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: animal species abundance
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/10336
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: animal species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: animal species presence
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22059
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: benthic invertebrates abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: benthic invertebrates abundance
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22027
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: benthic invertebrates presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: benthic invertebrates presence
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/10123
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: biological diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological diversity
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/21391
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: floristic composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: floristic composition
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22121
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: floristic diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: floristic diversity
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22122
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: plant cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant cover
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22188
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/ac3f674d-2922-47f6-b1d8-2c91daa81ce1
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:56.392604+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

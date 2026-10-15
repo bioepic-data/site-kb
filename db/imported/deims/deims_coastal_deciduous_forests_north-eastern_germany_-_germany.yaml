@@ -1,0 +1,84 @@
+sites:
+- id: site_kb:deims-coastal_deciduous_forests_north-eastern_germany_-_germany
+  name: Coastal Deciduous Forests North-Eastern Germany - Germany
+  network_registrations:
+  - network: DEIMS
+    network_id: 27aa5f5b-01f0-4855-83f7-4a24cff1fb8d
+    network_url: https://deims.org/27aa5f5b-01f0-4855-83f7-4a24cff1fb8d
+    name: Coastal Deciduous Forests North-Eastern Germany - Germany
+  location:
+    latitude: 54.078026
+    longitude: 13.474424
+    country: Germany
+    elevation_meters: 20.0
+  description: "In Mecklenburg-Vorpommern, we have built up a forest and tree monitoring\
+    \ network in recent years that is constantly growing.\r\nWe are observing several\
+    \ forest sites with several tree species, species admixtures and soil and environmental\
+    \ conditions. Across the network we are monitoring tree growth with high resolution\
+    \ dendrometers (sub-hourly timescale), forest microclimate, and tree water dynamics\
+    \ and root growth at selected sites, inlcuding a super-site with a canopy crane.\r\
+    \nThe species include: Black Alder, Douglas Fir, English Oak, European Beech,\
+    \ European Larch, European White Elm, Hornbeam, Northern Red Oak, Norway Spruce,\
+    \ Scots Pine, Silver Birch, Silver Fir, Small Leaved Linden and Sycamore.\r\n\r\
+    \nThree special sites are:\r\n(1) The university's own forest nature reserve Eldena.\
+    \ In the immediate vicinity of Greifswald, the approximately 400 ha large protected\
+    \ area comprises near-natural, deciduous beech-ash mixed forests on ground moraine\
+    \ sites. Due to the hydromorphic soils, which made agricultural use difficult,\
+    \ a very long forest continuity can be assumed. This can be seen, among other\
+    \ things, in a very extensive early geophyte carpet of anemones, larkspur, bogweed\
+    \ and other species of impressive beauty. \r\nOriginally owned by the Cistercian\
+    \ monastery of Eldena and the Pomeranian dukes, the area passed to the University\
+    \ of Greifswald in the 17th century. Intensive drainage works and the introduction\
+    \ of modern forestry in the 19th century changed the forest picture from wet,\
+    \ intensively used coppice and Hude forest with typical species such as hornbeam,\
+    \ oak or hazel, to beech dominated high forest. Remains of this former use have\
+    \ been preserved to this day in old, large-crowned oak trees, especially in the\
+    \ natural forest plots, which together cover about 30 hectares and are not used\
+    \ for forestry. The use of the forest during the war and reparation cuts after\
+    \ 1945 led to strong clearings, which are reflected in today’s age structure of\
+    \ the forest area. The forest has been a nature reserve since 1969. Detailed pollen,\
+    \ vegetation and soil studies are available for the area. Investigations of charcoal\
+    \ piles and old cartographic works shed light on the historical tree species inventory\
+    \ and use. \r\nThe monitoring is supplemented by satellite sites in alder forests.\
+    \ Here, specific questions, for example on the influence of rewetting and drainage\
+    \ on biomass and peat formation, are investigated. \r\n(2) The forest on the island\
+    \ of Vilm, that has been out of use since the 1950s.\r\n(3) The super site near\
+    \ Demmin, where there is a canopy crane that offers unparalleled ease of access\
+    \ to the canopy and enables special measurements. Here we work together with several\
+    \ other groups. You can find out more here: https://femophys.lup-umwelt.de/"
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/27aa5f5b-01f0-4855-83f7-4a24cff1fb8d
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:25.337792+00:00'
+      source_modified_at: '2025-12-11T16:13:36+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/27aa5f5b-01f0-4855-83f7-4a24cff1fb8d
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:25.337792+00:00'
+      source_modified_at: '2025-12-11T16:13:36+01:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/27aa5f5b-01f0-4855-83f7-4a24cff1fb8d
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:25.337792+00:00'
+      source_modified_at: '2025-12-11T16:13:36+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

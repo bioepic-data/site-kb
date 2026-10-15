@@ -1,0 +1,251 @@
+sites:
+- id: site_kb:deims-ecological_research_site_of_mt_jumbongsan_-_korea_the_republic_of
+  name: Ecological research site of Mt. Jumbongsan - Korea (the Republic of)
+  network_registrations:
+  - network: DEIMS
+    network_id: 57fd3758-3470-4564-a6e5-61a41c8caf82
+    network_url: https://deims.org/57fd3758-3470-4564-a6e5-61a41c8caf82
+    name: Ecological research site of Mt. Jumbongsan - Korea (the Republic of)
+  location:
+    latitude: 38.01743
+    longitude: 128.0819
+    country: Korea (the Republic of)
+    elevation_meters: 763.0
+  description: "Mt. Jumbongsan site has housed the KLTER(Korea Long Term Ecological\
+    \ Research) station run by Ministry of Environment and National Institute of Ecology\
+    \ since 2004. Mt. Jumbongsan is located between Mt. Soraksan and Mt. Bangtaesan\
+    \ and stretches over Gangwon-do, Baekdudaegan in the Korean Peninsula. \r\nThe\
+    \ well-preserved old-growth hardwood forest represents the vegetation of Mt. Jumbongsan\
+    \ within the core of Mt. Soraksan Biosphere Reserve designated by UNESCO in 1982.\
+    \ Qurecus mongolica and Lindera obtusiloba are the dominant species in the tree\
+    \ and shrub layer, respectively. Research equipment in the site consists of a\
+    \ flux tower, soil respiration measuring system and a V-notch weir. The flux tower\
+    \ is set for measuring the flow of CO2 and the photosynthesis rate and microclimate\
+    \ of the canopy layer in the area, and the soil respiration measurement system\
+    \ for studying correlation between the amount of CO2 from soil microbes and roots\
+    \ of plants and the soil temperature, and lastly the V-notch weir for measuring\
+    \ the portion material flow running through a mountain valley and hydrological\
+    \ studies. Altogether, we are conducting the study of interactions among various\
+    \ taxa using information produced from the equipment."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: carbon dioxide concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: carbon dioxide concentration
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22082
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: photosynthetically active radiation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: photosynthetically active radiation intensity
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22186
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: sky temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: sky temperature
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22239
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: soil water content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil water content
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22281
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: specific conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: specific conductivity
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22289
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: stage height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: stage height
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22290
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: thaw depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: thaw depth
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22294
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: total organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total organic carbon
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22297
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: water acidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water acidity
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/22030
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: water content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water content
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/22309
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: water salinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water salinity
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/10308
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/18
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  - name: water volume
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water volume
+      record_url: https://deims.org/api/sites/57fd3758-3470-4564-a6e5-61a41c8caf82
+      field_path: /attributes/focusDesignScale/observedProperties/19
+      source_id: http://vocabs.lter-europe.net/EnvThes/22316
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:28.961763+00:00'
+      source_modified_at: '2020-06-29T10:40:58+02:00'
+  status: ACTIVE

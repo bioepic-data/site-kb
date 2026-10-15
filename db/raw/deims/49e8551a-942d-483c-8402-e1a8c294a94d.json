@@ -1,0 +1,296 @@
+{
+  "source_url": "https://deims.org/api/sites/49e8551a-942d-483c-8402-e1a8c294a94d",
+  "retrieved_at": "2026-10-15T17:36:00.639590+00:00",
+  "record": {
+    "title": "Kellogg Biological Station - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "49e8551a-942d-483c-8402-e1a8c294a94d"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:35:53+01:00",
+    "changed": "2020-06-29T10:41:20+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "LTER-NAM-US-22",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Sven Bohm",
+            "email": "bohms@msu.edu",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "US National Science Foundation (NSF)",
+            "url": "https://www.nsf.gov/",
+            "ror": "https://ror.org/021nxhr62"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://lter.kbs.msu.edu/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Kellogg Biological Station (KBS) is located in southwest Michigan in the eastern portion of the U.S. cornbelt, 50 km east of Lake Michigan in the SW corner of the state (42° 24′ N, 85° 24′ W, elevation 288 m). Annual rainfall at KBS averages 1,005 mm/y with about half falling as snow; potential evapotranspiration (PET) exceeds precipitation for about 4 months of the year. Mean annual temperature is 10.1 °C. KBS is 1600 ha of cropping systems, successional communities, and small lakes. Surrounding KBS is a diverse, rural-to-semirural landscape typical of the U.S. Great Lakes and upper Midwest regions. The diversity of land use, soil and vegetation types, and aquatic habitats within a 50-km radius of the Station is high. Most of southwest Michigan is on the pitted outwash plain of the morainic system left by the last retreat of the Wisconsin glaciation, circa 12,000 years ago. Soils in the area developed on glacial till, and include well- and poorly-drained alfisols, mollisols, and entisols. Most regional soils are sandy loam and silty clay loam of moderate fertility, principal Station soils are Typic Hapludalfs.\r\n\r\nLand use around KBS ranges from urban (Kalamazoo, with a metropolitan population of 180,000, is 20 km south of the Station) to rural; vegetation ranges from cultivated and early successional old fields to older growth oak-hickory and beech-maple forests; and aquatic habitats include more than 200 bodies of water of different morphometries, alkalinities, and degrees of eutrophication within 50 km.\r\n\r\nCropping systems in the area are typical of the U.S. cornbelt — mainly corn/soybean rotations with wheat of varying importance, and alfalfa an important forage crop. KBS yields are typical of non-irrigated yields elsewhere in the North Central Region. KBS LTER research is carried out in a variety of experimental systems. The most important of these is the Main Cropping System Experiment (MCSE), which was started in 1989 and consists of 11 different cropping systems or successional plant communities, ranging from annual corn-soybean-wheat rotations to late-successional deciduous forest. All communities are replicated within the landscape.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1988,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Kellogg Biological Station",
+        "shortName": "KBS",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.1,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1005,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          },
+          {
+            "label": "Regularly or recently cultivated agricultural, horticultural and domestic habitats (I)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-85.4044 42.4199)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 288,
+          "min": 283,
+          "max": 291,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1600,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10043"
+          },
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "litter residence time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10048"
+          },
+          {
+            "label": "microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22169"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "plant carbon concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22187"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22253"
+          },
+          {
+            "label": "soil microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22257"
+          },
+          {
+            "label": "soil organic residual",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22262"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "tree condition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22302"
+          },
+          {
+            "label": "vegetation reflectance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10118"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://lter.kbs.msu.edu/data/terms-of-use/"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": "Data in the KBS LTER core database may not be published without written permission of the lead investigator or project director. These restrictions are intended mainly to preserve the primary investigators? rights to first publication and to ensure that data users are aware of the limitations that may be associated with any specific data set. These restrictions apply to both the baseline data set and to the data sets associated with specific LTER-supported subprojects. All investigators on-site are expected to release their data to the core database within a reasonable period of time following subproject completion.\r\n\r\nArchived LTER samples (e.g. soil and plant collections) are available on a more restrictive basis as a function of the amount of material requested vs. the amount archived and their expected value to the long-term goals of the Project.\r\n\r\nAccess to data is provided by the KBS LTER Data Manager with oversight provided by the Executive Committee, chaired by the Project Director. Access to sample archives is provided by the Project Director. All publications of KBS data and images must acknowledge KBS LTER support."
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "na"
+        }
+      }
+    }
+  }
+}

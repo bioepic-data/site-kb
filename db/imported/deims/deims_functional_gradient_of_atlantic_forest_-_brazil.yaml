@@ -1,0 +1,134 @@
+sites:
+- id: site_kb:deims-functional_gradient_of_atlantic_forest_-_brazil
+  name: Functional Gradient of Atlantic Forest - Brazil
+  network_registrations:
+  - network: DEIMS
+    network_id: 8b627268-5fcc-4587-ad4c-46ee43077746
+    network_url: https://deims.org/8b627268-5fcc-4587-ad4c-46ee43077746
+    name: Functional Gradient of Atlantic Forest - Brazil
+  location:
+    latitude: -23.3633
+    longitude: -45.1123
+    country: Brazil
+    elevation_meters: 800.0
+  description: "This research site develops long-term ecological studies in experimental\
+    \ units located in Protected Areas along the altitudinal gradient of Atlantic\
+    \ Forest types: Low Altitude Ombrophilous Dense Forest (5 to 50 m above sea level),\
+    \ Submontana Ombrophilous Dense Forest (50 to 500 m above sea level), and Montane\
+    \ Ombrophilous Dense Forest (500 to 1.200 m above sea level). In each altitude,\
+    \ all trees with a DBH ≥ 5,0 cm that fall inside 4 independent 1 hectare permanent\
+    \ plots, divided into a grid of 10 x 10 meter parcels, are being considered. The\
+    \ site extends from 23°15' S a 23° 40 S  to  44° 40’ a 45° 40’ W. within areas\
+    \ of the Nucleus Caraguatatuba, Cunha, Picinguaba and Santa Virginia from the\
+    \ Serra do Mar State Park/PESM.\r\n\r\nThe database on composition and structure\
+    \ of the forest will allow a choice of species for more detailed studies on reproduction\
+    \ biology; seed anatomy and reserves; germination; photosynthesis and water use\
+    \ efficiency; nitrogen assimilation, transport and metabolism; plant populations\
+    \ structure and dynamics; techniques; genetic structure of plant populations using\
+    \ molecular markers; determination of forest age by DBH classes and using 14C;\
+    \ determination of annual average growth rates of key species; and phenology.\r\
+    \nMultivariate analyses has been used to check for functional groups, or groups\
+    \ of species that share a common behavior and ecology. The comparison of different\
+    \ groups along the altitudinal gradient will allow investigation of the effect\
+    \ of altitude in the functioning of these groups.\r\nSimultaneously, the inputs\
+    \ of nitrogen through precipitation, biological fixation, and soil mineralization\
+    \ and nitrification are being determined, along with key parameters of N losses\
+    \ through denitrification and export by streams, allowing a preliminary nitrogen\
+    \ mass balance along the altitudinal gradient. Water and carbon balance of the\
+    \ forest will be estimated along with the seasonal variation of this balance through\
+    \ use of micrometeorological towers and Eddy-covariance technique. The photosynthesis/respiration\
+    \ balance of the ecosystem will be used to determine the role of the forest as\
+    \ a sink or source of carbon to the atmosphere.\r\nOur final goal is to integrate\
+    \ the results of all activities listed above, scaling-up from individual trees,\
+    \ to families, to functional groups, and finally to phytophysiognomies, allowing\
+    \ us to investigate in detail the structure and the functioning of the forest."
+  variables:
+  - name: above ground net primary production
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: above ground net primary production
+      record_url: https://deims.org/api/sites/8b627268-5fcc-4587-ad4c-46ee43077746
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10043
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:43.185019+00:00'
+      source_modified_at: '2020-12-18T10:29:42+01:00'
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/8b627268-5fcc-4587-ad4c-46ee43077746
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:43.185019+00:00'
+      source_modified_at: '2020-12-18T10:29:42+01:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/8b627268-5fcc-4587-ad4c-46ee43077746
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:43.185019+00:00'
+      source_modified_at: '2020-12-18T10:29:42+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/8b627268-5fcc-4587-ad4c-46ee43077746
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:43.185019+00:00'
+      source_modified_at: '2020-12-18T10:29:42+01:00'
+  - name: carbon dioxide concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: carbon dioxide concentration
+      record_url: https://deims.org/api/sites/8b627268-5fcc-4587-ad4c-46ee43077746
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22082
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:43.185019+00:00'
+      source_modified_at: '2020-12-18T10:29:42+01:00'
+  - name: daylight length
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: daylight length
+      record_url: https://deims.org/api/sites/8b627268-5fcc-4587-ad4c-46ee43077746
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22100
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:43.185019+00:00'
+      source_modified_at: '2020-12-18T10:29:42+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/8b627268-5fcc-4587-ad4c-46ee43077746
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:43.185019+00:00'
+      source_modified_at: '2020-12-18T10:29:42+01:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/8b627268-5fcc-4587-ad4c-46ee43077746
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:43.185019+00:00'
+      source_modified_at: '2020-12-18T10:29:42+01:00'
+  status: ACTIVE

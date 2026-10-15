@@ -1,0 +1,139 @@
+sites:
+- id: site_kb:deims-ozcar-ri_sno_karst_environmental_research_observatory_site_of_fontaine_de_vauclu
+  name: OZCAR-RI SNO_KARST Environmental Research Observatory Site of fontaine de
+    Vaucluse - LSBB - France
+  network_registrations:
+  - network: DEIMS
+    network_id: 8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+    network_url: https://deims.org/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+    name: OZCAR-RI SNO_KARST Environmental Research Observatory Site of fontaine de
+      Vaucluse - LSBB - France
+  location:
+    latitude: 44.056284048125
+    longitude: 5.47878914
+    country: France
+    elevation_meters: 870.0
+  description: "The  Environmental Research Observatory Site of Fontaine de Vaucluse\
+    \ – LSBB is an observation and experimental site located in south-eastern France.\
+    \ Observation and experimentations are performed by UMR EMMAH (AU/INRAE) at two\
+    \ different scales: at catchment scale since 1981 (these observations and experiments\
+    \ are reported within the SNO KARST) and at micro-site scale since 2002 at the\
+    \ Low Noise Underground Laboratory  (these measurements are reported within the\
+    \ SNO H+ network). \r\n\r\nFontaine de Vaucluse is both outstanding and typical\
+    \ of the mediterranean context. This spring is one of the largest springs in Europe\
+    \ with an average discharge over 20 m3/s. It is the main outlet of a large limestone\
+    \ catchment (~ 1160 km2), that extends mainly over natural land, with thick unsaturated\
+    \ zone (800 m in average)."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:18.286470+00:00'
+      source_modified_at: '2024-03-04T09:37:44+01:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:18.286470+00:00'
+      source_modified_at: '2024-03-04T09:37:44+01:00'
+  - name: perched water table
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: perched water table
+      record_url: https://deims.org/api/sites/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/30029
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:18.286470+00:00'
+      source_modified_at: '2024-03-04T09:37:44+01:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:18.286470+00:00'
+      source_modified_at: '2024-03-04T09:37:44+01:00'
+  - name: stage height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: stage height
+      record_url: https://deims.org/api/sites/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22290
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:18.286470+00:00'
+      source_modified_at: '2024-03-04T09:37:44+01:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:18.286470+00:00'
+      source_modified_at: '2024-03-04T09:37:44+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:18.286470+00:00'
+      source_modified_at: '2024-03-04T09:37:44+01:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:18.286470+00:00'
+      source_modified_at: '2024-03-04T09:37:44+01:00'
+  - name: water table
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water table
+      record_url: https://deims.org/api/sites/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/30028
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:18.286470+00:00'
+      source_modified_at: '2024-03-04T09:37:44+01:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/8de38654-c0f2-48a6-b206-d59a3b9ae6a0
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:18.286470+00:00'
+      source_modified_at: '2024-03-04T09:37:44+01:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

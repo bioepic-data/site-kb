@@ -1,0 +1,92 @@
+sites:
+- id: site_kb:deims-crampton_lake_neon_-_united_states_of_america
+  name: Crampton Lake NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: 02958637-043a-4e79-96be-31b47dab72bc
+    network_url: https://deims.org/02958637-043a-4e79-96be-31b47dab72bc
+    name: Crampton Lake NEON - United States of America
+  location:
+    latitude: 46.21111
+    longitude: -89.47825
+    country: United States of America
+    elevation_meters: 509.0
+  description: Crampton Lake (CRAM) is an aquatic NEON field site located in northern
+    Wisconsin in Vilas County near the town of Land O' Lakes at the Wisconsin/Michigan
+    border. The site is managed and hosted by The University of Notre Dame Environmental
+    Research Center (UNDERC). Crampton Lake is a clearwater lake with a watershed
+    of roughly 0.6 km2 (148 acres). It has an average depth of 4.6 m (15 ft.) and
+    maximum depth of 19 m (62 ft.). The surface area of Crampton Lake is 0.25 km2
+    (61 acres). CRAM is surrounded by boggy mixed hardwood/conifer forests and is
+    located in one of the most lake-abundant regions of the United States. CRAM is
+    located within the Great Lakes Domain (D05), which includes northern Ohio, Michigan,
+    northern Wisconsin, and parts of Indiana and Illinois. D05 also includes three
+    terrestrial sites and one additional aquatic site.
+  variables:
+  - name: DNA sequence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: DNA sequence
+      record_url: https://deims.org/api/sites/02958637-043a-4e79-96be-31b47dab72bc
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21400
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:47.262824+00:00'
+      source_modified_at: '2025-09-17T13:44:31+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/02958637-043a-4e79-96be-31b47dab72bc
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:47.262824+00:00'
+      source_modified_at: '2025-09-17T13:44:31+02:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/02958637-043a-4e79-96be-31b47dab72bc
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:47.262824+00:00'
+      source_modified_at: '2025-09-17T13:44:31+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/02958637-043a-4e79-96be-31b47dab72bc
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:47.262824+00:00'
+      source_modified_at: '2025-09-17T13:44:31+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/02958637-043a-4e79-96be-31b47dab72bc
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:47.262824+00:00'
+      source_modified_at: '2025-09-17T13:44:31+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/02958637-043a-4e79-96be-31b47dab72bc
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:47.262824+00:00'
+      source_modified_at: '2025-09-17T13:44:31+02:00'
+  status: ACTIVE

@@ -1,0 +1,395 @@
+{
+  "source_url": "https://deims.org/api/sites/f14a3e3e-96a6-4071-a8c6-08110ce45b85",
+  "retrieved_at": "2026-10-15T17:45:28.307006+00:00",
+  "record": {
+    "title": "NINA Aquatic Research Station, Ims - Norway",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "f14a3e3e-96a6-4071-a8c6-08110ce45b85"
+    },
+    "type": "site",
+    "created": "2016-09-16T09:57:32+02:00",
+    "changed": "2023-07-25T08:31:33+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Norway",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bc7c517b-3648-40cc-a04c-8c98d009c4a9"
+              }
+            },
+            "siteCode": "LTER_EU_NO_036",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Knut Aanestad Bergesen",
+            "email": "knut.bergesen@nina.no",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Norwegian Institute for Nature Research (NINA)",
+            "url": null,
+            "ror": "https://ror.org/04aha0598"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Norwegian Institute for Nature Research (NINA)",
+            "url": null,
+            "ror": "https://ror.org/04aha0598"
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "NINA Aquatic Research Station, Ims",
+            "value": "http://www.nina.no/Om-NINA/Kompetanse-og-tjenester/NINA-Forskningsstasjon"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "NINA Aquatic Research Station, Ims provides advanced research facilities on aquatic research, primarily focused on fish ecology",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1975,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Jæren site cluster - Norway",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "790b004e-0406-434c-806e-bb2ab4a4fb01"
+                },
+                "changed": "2025-03-28T12:20:54+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "NINA Aquatic Research Station, Ims",
+        "shortName": "Ims",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/IMS_Knut-Bergesen.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Coastal habitats (B)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": "pristine river in argiculture and forest landscape",
+        "hydrology": "Coastal, mild winter(litle snow)",
+        "soils": "Marine deposites",
+        "vegetation": "Desiduous forest"
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (5.64332 58.90451971)",
+        "country": [
+          "Norway"
+        ],
+        "elevation": {
+          "avg": 10,
+          "min": 0,
+          "max": 10,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 10,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "acid neutralising capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10310"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "available phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22061"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "lake level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22141"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "macrofauna abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22028"
+          },
+          {
+            "label": "potential evaporation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10017"
+          },
+          {
+            "label": "runoff amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30032"
+          },
+          {
+            "label": "sight depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22238"
+          },
+          {
+            "label": "soil acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22243"
+          },
+          {
+            "label": "soil alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22038"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22270"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "stream order",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21511"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water velocity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22315"
+          },
+          {
+            "label": "water volume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22316"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 1,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 1
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "1 - 5 beds",
+            "uri": null
+          },
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "All over site/catchment",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Daily",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Proprietary file format",
+            "uri": null
+          },
+          {
+            "label": "Snow clearing equipment",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          },
+          {
+            "label": "Unstructured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "ltser"
+        }
+      }
+    }
+  }
+}

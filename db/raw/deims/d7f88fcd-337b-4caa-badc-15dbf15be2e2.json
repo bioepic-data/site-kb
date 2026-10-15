@@ -1,0 +1,287 @@
+{
+  "source_url": "https://deims.org/api/sites/d7f88fcd-337b-4caa-badc-15dbf15be2e2",
+  "retrieved_at": "2026-10-15T17:44:47.612284+00:00",
+  "record": {
+    "title": "Baviaanskloof - South Africa",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "d7f88fcd-337b-4caa-badc-15dbf15be2e2"
+    },
+    "type": "site",
+    "created": "2016-06-24T10:31:39+02:00",
+    "changed": "2020-06-29T10:39:00+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "SAEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bce17afa-e548-4410-99d2-4eade740c9a9"
+              }
+            },
+            "siteCode": "LTER-SAF-ZA-20",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": null,
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Eastern Cape Parks Board",
+            "url": "http://www.dedea.gov.za/lists/eastern%20cape%20parks%20board/allitems.aspx",
+            "ror": null
+          },
+          {
+            "type": "organisation",
+            "name": "South African Environmental Observation Network (SAEON)",
+            "url": "http://www.saeon.ac.za/",
+            "ror": "https://ror.org/041j42q70"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Margaret Koopman",
+            "email": "margaret@saeon.ac.za",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Baviaanskloof",
+            "value": "http://www.visiteasterncape.co.za/nature-conservation/provincial-parks/baviaanskloof/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "This site  covers the catchment area of the Baviaanskloof River and surrounding Baviaanskloof Mega-Reserve area,  where ecological, agricultural and social systems are managed collaboratively in order to promote sustainable use of the landscape.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2004,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Baviaanskloof",
+        "shortName": "BVNKF",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Baviaanskloof.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 16.85,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 435,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Habitat complexes (X)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": "Peninsula Sandstone; Cederberg Shale; Goudini Sandstone; Skurweberg Sandstone; Sardinia Bay phyllitic shales and conglomerate; Grahamstown Formation; Enon Conglomerate Formation",
+        "hydrology": "The area is drained by the Baviaanskloof River",
+        "soils": "Quartzitic sandstones, shales, alluvium",
+        "vegetation": "Fynbos, Succulent Karoo, Nama Karoo, Afrotemperate forest, Sub-tropical thicket, grasslands, savannas"
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (24.1396 -33.59034)",
+        "country": [
+          "South Africa"
+        ],
+        "elevation": {
+          "avg": 958.5,
+          "min": 160,
+          "max": 1757,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 124000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "dew point",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22104"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "runoff amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30032"
+          },
+          {
+            "label": "vapor pressure deficit",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22306"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water volume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22316"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Satellite",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://saeon.dirisa.org/management/it-governance/G373.2%20Policy%20and%20Guidelines/G373.2.2%20Policies/data-policy-_stand-alone_.pdf"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

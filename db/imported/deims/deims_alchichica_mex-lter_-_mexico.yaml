@@ -1,0 +1,151 @@
+sites:
+- id: site_kb:deims-alchichica_mex-lter_-_mexico
+  name: Alchichica Mex-LTER - Mexico
+  network_registrations:
+  - network: DEIMS
+    network_id: 1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+    network_url: https://deims.org/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+    name: Alchichica Mex-LTER - Mexico
+  location:
+    latitude: 19.4153
+    longitude: -97.4
+    country: Mexico
+    elevation_meters: 2344.0
+  description: Lago Alchichica se localiza a una elevación de 2300 msnm con una profundidad
+    62 m y es de agua salobre.Habitan organismos endémicos y se encuentran rocas calizas
+    de particular interés por los microorganismos que viven en ellas. Se encuentra
+    en la Cuenca Oriental de Puebla.
+  variables:
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: lake level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: lake level
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22141
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: lake temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: lake temperature
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10011
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: suspended solids
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: suspended solids
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22293
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: water alkalinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water alkalinity
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/10303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: water content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water content
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22309
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+      source_modified_at: '2020-06-29T10:38:52+02:00'
+  status: ACTIVE

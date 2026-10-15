@@ -1,0 +1,216 @@
+{
+  "source_url": "https://deims.org/api/sites/2aa216dd-e81f-4945-af90-99179d0024ca",
+  "retrieved_at": "2026-10-15T17:47:30.503315+00:00",
+  "record": {
+    "title": "Bartlett Experimental Forest NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "2aa216dd-e81f-4945-af90-99179d0024ca"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-19T09:25:40+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "BART",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Kristin Godfrey",
+            "email": "kgodfrey@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/bart"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Bartlett Experimental Forest (BART) is a terrestrial NEON field site located within the Saco River Valley of the White Mountain National Forest in Carroll County, New Hampshire. The 15.66 km2 (3870 acre) site is hosted by the U.S. Forest Service. The site’s soils, elevational gradient, climate, and tree species composition are typical for many forested areas throughout New England. BART also represents the most northeastern NEON site and anchors the top of the north-south nitrogen deposition gradient along the eastern side of the U.S. BART is located in the Northeast Domain (D01), which encompasses the New England and northern Eastern Seaboard states along with the northern end of the Appalachian range. D01 includes one other terrestrial site and one aquatic site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2015,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Bartlett Experimental Forest NEON",
+        "shortName": "BART",
+        "siteType": "Non-stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-05/48788118261_a6cc26e3c4_k.jpg",
+            "alt": "BART tower from a drone"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2020-05/48678935623_a25368805c_4k.jpg",
+            "alt": "Spring comes to the BART Forest"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 6.2,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1056,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "deciduous_forest",
+        "ecosystemType": [
+          {
+            "label": "Deciduous Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "BART is made up of White Mountain Plutonic-Volcanic Succession bedrock. The parent materials at BART are mostly ablation till, lodgment till, melt-out till, and supraglacial till derived from conway granite and gneiss.",
+        "hydrology": "Due to the geology of the White Mountain National Forests, most of the locations are well drained. However, lower elevation locations may be slightly less effective at water drainage.",
+        "soils": "The soils at BART are spodosols within the subgroup Aquic Haplorthods. They developed on glacial till derived from granite and gneiss. The major soil series on the site include Marlow, Monadnock, and Danforth. The soils are moist, but relatively well-drained. The soil organic horizon under the forest canopy ranges between 3-30 cm in thickness.",
+        "vegetation": "Climate and glacial till soil make BART an ideal area for old-growth northern deciduous hardwoods consisting of beech (Fagus sp.) and sugar maple (Acer saccarum). White pines (Pinus strobus) are dispersed throughout the site but are primarily found in lower elevations. Softwood trees such as hemlock (Tsuga canadensis), balsam fir (Abies balsamea), and spruce are frequently found on cool steep slopes or in lower elevations with poor drainage."
+      },
+      "geographic": {
+        "boundaries": "MULTIPOLYGON (((-71.316513655 44.041960332, -71.320003796 44.043020684, -71.322271908 44.045623474, -71.319256555 44.051007486, -71.311146274 44.051386305, -71.315069658 44.05496111, -71.320963745 44.056007858, -71.320348456 44.062532628, -71.309277348 44.066610965, -71.305892284 44.064707239, -71.292728395 44.064648333, -71.293381112 44.067192393, -71.29430717 44.07178827, -71.291381207 44.071171333, -71.29230578 44.075095897, -71.290178177 44.075138586, -71.290283782 44.076298709, -71.288455466 44.076696896, -71.288583623 44.074707667, -71.288201368 44.074734383, -71.288344787 44.073997826, -71.286633464 44.073832012, -71.286410147 44.072038893, -71.286251249 44.070771534, -71.288066286 44.070544614, -71.287977139 44.069946113, -71.284429249 44.070474505, -71.284154896 44.069870178, -71.283009681 44.069988363, -71.283183206 44.069689514, -71.283154654 44.069036346, -71.280477993 44.06910517, -71.28057129 44.06465356, -71.277575777 44.064686312, -71.25410946 44.064483388, -71.252855648 44.0591053, -71.256382317 44.059136043, -71.257120014 44.058120984, -71.258948605 44.055841939, -71.258731904 44.0527495, -71.263310255 44.049849152, -71.261497878 44.049344867, -71.260510963 44.048588926, -71.262016224 44.046486694, -71.265967725 44.048716069, -71.267309726 44.047596588, -71.268050835 44.043651407, -71.269204183 44.040126807, -71.271902256 44.03814366, -71.272364781 44.03481505, -71.273731771 44.034176779, -71.276484891 44.035054575, -71.277210678 44.03678315, -71.281929109 44.035831406, -71.28070418 44.034005636, -71.281365685 44.031884262, -71.283837385 44.031763394, -71.286278749 44.031565292, -71.290851052 44.032551933, -71.292991444 44.030890512, -71.295198424 44.031926561, -71.299997394 44.036554417, -71.312359156 44.037202208, -71.316513655 44.041960332)))",
+        "coordinates": "POINT (-71.28731 44.06388)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 274,
+          "min": 230,
+          "max": 655,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1566,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "carbon dioxide flux per soil horizon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22083"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "leaf area index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22157"
+          },
+          {
+            "label": "soil carbon dioxyde flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21939"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

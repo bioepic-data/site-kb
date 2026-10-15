@@ -1,0 +1,82 @@
+sites:
+- id: site_kb:deims-danube_delta_biosphere_reserve_-_romania
+  name: Danube Delta Biosphere Reserve - Romania
+  network_registrations:
+  - network: DEIMS
+    network_id: cdf8ba96-4a30-4eb7-96cc-1c81e8320989
+    network_url: https://deims.org/cdf8ba96-4a30-4eb7-96cc-1c81e8320989
+    name: Danube Delta Biosphere Reserve - Romania
+  location:
+    latitude: 45.202807
+    longitude: 29.343232
+    country: Romania
+    elevation_meters: 3.0
+  description: "The Danube Delta is the second largest river delta in Europe. The\
+    \ Romanian Danube Delta Biosphere Reserve (580,000 ha) is situated northwest of\
+    \ the Black Sea in Eastern Europe. Four geographic divisions can be distinguished;\
+    \ the Danube Delta, the Razim-Sinoe lagoon complex,the Isaccea-Tulcea sector of\
+    \ the Danube flood plain and the shallow marine waters. \r\nThe Danube Delta is\
+    \ a low alluvial plain, mostly covered by wetlands and water. It consists of an\
+    \ intricate pattern of marshes, channels, streamlets and lakes. The average altitude\
+    \ is 0.52 m, with 20% of the territory below sea level, and more than half not\
+    \ exceeding one meter in altitude. Dunes on the most extensive strand plains of\
+    \ the delta (Letea and Caraorman strand plains) stand higher (12.4 m and 7 m respectively).\
+    \ The largest lakes are Dranov (21.7 km²), Roșu (14.5 km²), Gorgova (13.8 km²)."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/cdf8ba96-4a30-4eb7-96cc-1c81e8320989
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:44.002036+00:00'
+      source_modified_at: '2025-01-07T11:11:07+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/cdf8ba96-4a30-4eb7-96cc-1c81e8320989
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:44.002036+00:00'
+      source_modified_at: '2025-01-07T11:11:07+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/cdf8ba96-4a30-4eb7-96cc-1c81e8320989
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:44.002036+00:00'
+      source_modified_at: '2025-01-07T11:11:07+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/cdf8ba96-4a30-4eb7-96cc-1c81e8320989
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:44.002036+00:00'
+      source_modified_at: '2025-01-07T11:11:07+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/cdf8ba96-4a30-4eb7-96cc-1c81e8320989
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:37:44.002036+00:00'
+      source_modified_at: '2025-01-07T11:11:07+01:00'
+  notes: 'Biogeographical region: steppic'
+  status: ACTIVE

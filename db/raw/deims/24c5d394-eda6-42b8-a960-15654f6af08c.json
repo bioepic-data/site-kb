@@ -1,0 +1,257 @@
+{
+  "source_url": "https://deims.org/api/sites/24c5d394-eda6-42b8-a960-15654f6af08c",
+  "retrieved_at": "2026-10-15T17:46:34.515458+00:00",
+  "record": {
+    "title": "Agulhas System Climate Array - South Africa",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "24c5d394-eda6-42b8-a960-15654f6af08c"
+    },
+    "type": "site",
+    "created": "2017-07-07T15:30:36+02:00",
+    "changed": "2020-06-29T10:38:52+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "SAEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bce17afa-e548-4410-99d2-4eade740c9a9"
+              }
+            },
+            "siteCode": "LTER-SAF-ZA-25",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Tamaryn Morris",
+            "email": "tammy@saeon.ac.za",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Egagasini Node, SAEON",
+            "url": "http://egagasini.dirisa.org/",
+            "ror": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Agulhas System Climate Array (ASCA)",
+            "value": "http://asca.dirisa.org/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The ASCA shelf and tall moorings extend 200 km offshore of Hamburg just south of East London on the East coast of South Africa, along the decending TOPEX/Jason satellite ground track # 96, through the core of the Agulhas Current, with Current- and Pressure-recording Inverted Echo Sounders (CPIES) measurements extending the array to 300 km offshore.  There are  two shelf and seven full-depth tall moorings, interspersed with five  CPIES, measuring pressure, current velocities, temperatures and salinities.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2015,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Agulhas System Climate Array",
+        "shortName": "ASCA",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/agulhas-system-climate-array-south-africa_4623.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/agulhas-system-climate-array-south-africa_4634.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/agulhas-system-climate-array-south-africa_4636.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 20,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 61.7,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Marine",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          },
+          {
+            "label": "Pelagic water column (A7)",
+            "uri": null
+          },
+          {
+            "label": "Vertically stratified water column with full salinity (A7.9)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (28.404305555 -35.320972225)",
+        "country": [
+          "South Africa"
+        ],
+        "elevation": {
+          "avg": -2250,
+          "min": 0,
+          "max": -4500,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 30000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "current direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30026"
+          },
+          {
+            "label": "current speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30027"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30023"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 547,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://saeon.dirisa.org/management/it-governance/G373.2%20Policy%20and%20Guidelines/G373.2.2%20Policies/data-policy-_stand-alone_.pdf"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "Reprints of articles using the dataset must be provided to the data provider"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Emerging Site"
+        }
+      }
+    }
+  }
+}

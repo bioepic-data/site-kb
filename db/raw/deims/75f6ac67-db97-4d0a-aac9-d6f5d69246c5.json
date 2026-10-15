@@ -1,0 +1,929 @@
+{
+  "source_url": "https://deims.org/api/sites/75f6ac67-db97-4d0a-aac9-d6f5d69246c5",
+  "retrieved_at": "2026-10-15T17:49:22.906905+00:00",
+  "record": {
+    "title": "Lake Kinneret - Israel",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "75f6ac67-db97-4d0a-aac9-d6f5d69246c5"
+    },
+    "type": "site",
+    "created": "2023-09-20T10:04:44+02:00",
+    "changed": "2023-11-09T07:49:57+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Israel",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "e0f680c2-22b1-4424-bf54-58aa9b7476a0"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Gideon  Gal",
+            "email": "gal@ocean.org.il",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The Kinneret Limnological Laboratory (KLL) is situated at the ‘Sapir’ Site (Tabha) on the shores of Lake Kinneret (Sea of Galilee). The Lake Kinneret monitoring program conducted by KLL has been operating since Jan. 1969. The program has provided a unique database and information, due to the sampling resolution, accuracy of the measurements, and their continuity, it is used to make operational decisions and environmental policy. \r\nThe monitoring program includes several stations around the lake and from numerous depths and includes fixed on-lake, high-resolution, and manual sampling of water samples analyzed in the laboratory.\r\nThe Kinneret monitoring program has expanded in recent years and currently has four fixed on-lake and online sampling platforms, strategically placed, each with thermistor chains and multi-probe sensor systems including one that is a profiling system. Also, the program includes collaboration with the Ministry of Agriculture to carry out monitoring of fish and fisheries in the lake.\r\nAs the lake suffers typically from two seasonal cyanobacteria blooms, (i.e., a winter Microcystis bloom and a summer N-fixing cyanobacteria bloom) routing monitoring of cyanobacteria biomass and toxins is conducted and adaptive to the extent of the bloom. This is carried out simultaneously with satellite imaging over the lake.\r\n\r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1969,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Lake Kinneret",
+        "shortName": "KLL",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category II – National Park",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/II"
+          },
+          {
+            "label": "not applicable",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/notApplicable"
+          }
+        ],
+        "landUse": [
+          {
+            "label": "aquaculture and fishing",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_4_AquacultureAndFishing"
+          },
+          {
+            "label": "community services",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_CommunityServices"
+          },
+          {
+            "label": "cultural entertainment and recreational services",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_CulturalEntertainmentAndRecreationalServices"
+          },
+          {
+            "label": "cultural services",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_1_CulturalServices"
+          },
+          {
+            "label": "educational services",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_2_EducationalServices"
+          },
+          {
+            "label": "natural areas not in other economic use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_NaturalAreasNotInOtherEconomicUse"
+          },
+          {
+            "label": "open air recreational areas",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_4_OpenAirRecreationalAreas"
+          },
+          {
+            "label": "other community services",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_5_OtherCommunityServices"
+          },
+          {
+            "label": "other primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_5_OtherPrimaryProduction"
+          },
+          {
+            "label": "other recreational services",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_5_OtherRecreationalServices"
+          },
+          {
+            "label": "other services",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_5_OtherServices"
+          },
+          {
+            "label": "other uses",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_5_AreasWithoutAnySpecifiedPlannedUse"
+          },
+          {
+            "label": "primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction"
+          },
+          {
+            "label": "professional fishing",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_4_2_ProfessionalFishing"
+          },
+          {
+            "label": "religious services",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_3_4_ReligiousServices"
+          },
+          {
+            "label": "residential use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/5_ResidentialUse"
+          },
+          {
+            "label": "sports infrastructure",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_4_3_SportsInfrastructure"
+          },
+          {
+            "label": "tertiary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/3_TertiaryProduction"
+          },
+          {
+            "label": "water areas not in other economic use",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/6_3_2_WaterAreasNotInOtherEconomicUse"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2023-11/Kinneret%D7%93%D7%99%D7%92%D7%95%D7%9D-2.jpg",
+            "alt": "Sampling"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2023-11/Kinneret%D7%93%D7%99%D7%92%D7%95%D7%9D-3.jpg",
+            "alt": "Sampling_1"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2023-11/Kinneret%D7%9E%D7%93%D7%99%D7%93%D7%95%D7%AA.jpg",
+            "alt": "Measurements "
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2023-11/%D7%9E%D7%A2%D7%91%D7%93%D7%AA%20%D7%9B%D7%A0%D7%A8%D7%AA.jpg",
+            "alt": "Kinneret Lab"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2023-11/%D7%9E%D7%A2%D7%91%D7%93%D7%AA%20%D7%9B%D7%A0%D7%A8%D7%AA2.jpg",
+            "alt": "Kinneret Lab_2"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2023-11/%D7%9E%D7%A2%D7%91%D7%93%D7%AA%20%D7%9B%D7%A0%D7%A8%D7%AA3.jpg",
+            "alt": "Kinneret Lab_3"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2023-11/%D7%93%D7%99%D7%92%D7%95%D7%9D-1_Kinneret.jpg",
+            "alt": "Sampling_2"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2023-11/%D7%9E%D7%99%D7%9D.jpg",
+            "alt": "Sampling_3"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": {
+            "label": "1981 - 2010",
+            "uri": null
+          }
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": {
+            "label": "1981 - 2010",
+            "uri": null
+          }
+        },
+        "biogeographicalRegion": "mediterranean",
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Large lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland spray- and steam-dependent habitats (C3.8)",
+            "uri": null
+          },
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Littoral zone of inland surface waterbodies (C3)",
+            "uri": null
+          },
+          {
+            "label": "Periodically inundated shores with pioneer and ephemeral vegetation (C3.5)",
+            "uri": null
+          },
+          {
+            "label": "Permanent eutrophic lakes, ponds and pools (C1.3)",
+            "uri": null
+          },
+          {
+            "label": "Surface standing waters (C1)",
+            "uri": null
+          },
+          {
+            "label": "Unvegetated or sparsely vegetated shores with non-mobile substrates (C3.7)",
+            "uri": null
+          },
+          {
+            "label": "Unvegetated or sparsely vegetated shores with soft or mobile sediments (C3.6)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (35.552015 32.868671)",
+        "country": [
+          "Israel"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": null,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": null,
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "air water vapour pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22037"
+          },
+          {
+            "label": "algae species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10338"
+          },
+          {
+            "label": "algae species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10343"
+          },
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "ammonium nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10076"
+          },
+          {
+            "label": "animal species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10336"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "annual net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21420"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "available phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22061"
+          },
+          {
+            "label": "bacillariophyceae abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10083"
+          },
+          {
+            "label": "bacillariophyceae biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10120"
+          },
+          {
+            "label": "bacillariophyceae biovolume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22070"
+          },
+          {
+            "label": "bacillariophyceae presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10121"
+          },
+          {
+            "label": "bacteria abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22026"
+          },
+          {
+            "label": "bacteria presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10122"
+          },
+          {
+            "label": "bacterial growth efficiency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21031"
+          },
+          {
+            "label": "bacterial respiration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22063"
+          },
+          {
+            "label": "beta diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22067"
+          },
+          {
+            "label": "biological diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21391"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "body length",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21363"
+          },
+          {
+            "label": "body mass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21364"
+          },
+          {
+            "label": "body size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21366"
+          },
+          {
+            "label": "carbon to nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21933"
+          },
+          {
+            "label": "cell size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21379"
+          },
+          {
+            "label": "change in population size over time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22085"
+          },
+          {
+            "label": "chemical composition of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21213"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "chlorophyll a content in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21214"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "community structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21472"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "current direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30026"
+          },
+          {
+            "label": "current speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30027"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "dissolved organic nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10125"
+          },
+          {
+            "label": "dissolved organic phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22108"
+          },
+          {
+            "label": "ecosystem health",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21474"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "electrical conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21552"
+          },
+          {
+            "label": "fish abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30017"
+          },
+          {
+            "label": "global radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22125"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "incoming radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22134"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "inorganic nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22136"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "lake level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22141"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "latent heat",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22154"
+          },
+          {
+            "label": "long wave radiation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22164"
+          },
+          {
+            "label": "maximum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21529"
+          },
+          {
+            "label": "mean annual air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21530"
+          },
+          {
+            "label": "mean annual precipitation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22166"
+          },
+          {
+            "label": "mean annual temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21531"
+          },
+          {
+            "label": "methane concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22167"
+          },
+          {
+            "label": "microbial biomass carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22168"
+          },
+          {
+            "label": "microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22169"
+          },
+          {
+            "label": "microbial respiration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22170"
+          },
+          {
+            "label": "minimum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21532"
+          },
+          {
+            "label": "net photosynthetic rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21323"
+          },
+          {
+            "label": "net primary productivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21421"
+          },
+          {
+            "label": "net radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22172"
+          },
+          {
+            "label": "net solar radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22173"
+          },
+          {
+            "label": "nitrogen balance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20969"
+          },
+          {
+            "label": "nitrogen budget",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20970"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "nutrient availability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21457"
+          },
+          {
+            "label": "nutrient concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22176"
+          },
+          {
+            "label": "nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22177"
+          },
+          {
+            "label": "oxygen concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30179"
+          },
+          {
+            "label": "oxygen saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21215"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22182"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "physical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20938"
+          },
+          {
+            "label": "phytoplankton abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30018"
+          },
+          {
+            "label": "phytoplankton biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30021"
+          },
+          {
+            "label": "population changes over time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10028"
+          },
+          {
+            "label": "population density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22198"
+          },
+          {
+            "label": "population size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22199"
+          },
+          {
+            "label": "population structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21415"
+          },
+          {
+            "label": "potential evaporation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10017"
+          },
+          {
+            "label": "prey availability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21120"
+          },
+          {
+            "label": "primary productivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21419"
+          },
+          {
+            "label": "rainfall variability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21948"
+          },
+          {
+            "label": "redox potential of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21216"
+          },
+          {
+            "label": "relative abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22211"
+          },
+          {
+            "label": "relative humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21579"
+          },
+          {
+            "label": "residence time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10047"
+          },
+          {
+            "label": "retention time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21575"
+          },
+          {
+            "label": "river temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10015"
+          },
+          {
+            "label": "secchi depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22226"
+          },
+          {
+            "label": "sedimentation rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22227"
+          },
+          {
+            "label": "size distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10370"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species group abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10021"
+          },
+          {
+            "label": "species list",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22286"
+          },
+          {
+            "label": "species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10081"
+          },
+          {
+            "label": "specific conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22289"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "total acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21449"
+          },
+          {
+            "label": "total alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21451"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22309"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water heavy metal concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30024"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transmissivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22314"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          },
+          {
+            "label": "water turbidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21217"
+          },
+          {
+            "label": "water velocity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22315"
+          },
+          {
+            "label": "water volume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22316"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind direction (mean and gust)",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22318"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          },
+          {
+            "label": "wind speed (mean and gust)",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22320"
+          },
+          {
+            "label": "zooplankton abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30019"
+          },
+          {
+            "label": "zooplankton biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30022"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "footpath/trail",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 1,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 1
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "All over site/catchment",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Marine Platform",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Other transmission types",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Spatial database (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          },
+          {
+            "label": "Web Map Service (WMS)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "https://isramar.ocean.org.il/isramar2009/"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

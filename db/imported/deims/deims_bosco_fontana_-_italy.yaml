@@ -1,0 +1,83 @@
+sites:
+- id: site_kb:deims-bosco_fontana_-_italy
+  name: Bosco Fontana - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 0585b394-faf2-4850-913f-6351aace73e4
+    network_url: https://deims.org/0585b394-faf2-4850-913f-6351aace73e4
+    name: Bosco Fontana - Italy
+  location:
+    latitude: 45.2009
+    longitude: 10.744
+    country: Italy
+    elevation_meters: 25.0
+  description: "Bosco Fontana is an ancient primary woodland and represents one of\
+    \ the last remnants of the original Po plain forest. The historic events that\
+    \ have influenced the area are the fragmentation and the decrease of the forest\
+    \ habitat surface, the modification in the forest composition and structure. One\
+    \ of the most relevant events happened is the heavy storm in 1949, which uprooted\
+    \ more than 1500 m3 of wood, leaving “naked” a 50 ha area. The consequent reforestation\
+    \ with allochthonous species (plane tree and\r\nred oak) constitutes another alteration\
+    \ of the natural ecosystem. The allochthonous species are progressively eliminated\
+    \ to reconstitute the original oak-hornbeam woodland. From a faunistic point of\
+    \ view, the area represents a “tank” of forest species disappeared or extremely\
+    \ rare in the other areas. The central grassland, used for grazing till 70s, is\
+    \ now treated with scheduled mows."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/0585b394-faf2-4850-913f-6351aace73e4
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:59.059453+00:00'
+      source_modified_at: '2024-09-12T16:25:12+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/0585b394-faf2-4850-913f-6351aace73e4
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:59.059453+00:00'
+      source_modified_at: '2024-09-12T16:25:12+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/0585b394-faf2-4850-913f-6351aace73e4
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:59.059453+00:00'
+      source_modified_at: '2024-09-12T16:25:12+02:00'
+  - name: ozone concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ozone concentration
+      record_url: https://deims.org/api/sites/0585b394-faf2-4850-913f-6351aace73e4
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22178
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:59.059453+00:00'
+      source_modified_at: '2024-09-12T16:25:12+02:00'
+  - name: tree condition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree condition
+      record_url: https://deims.org/api/sites/0585b394-faf2-4850-913f-6351aace73e4
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22302
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:59.059453+00:00'
+      source_modified_at: '2024-09-12T16:25:12+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

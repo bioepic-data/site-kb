@@ -1,0 +1,80 @@
+sites:
+- id: site_kb:deims-dfg_biodiversity_exploratory_schorfheide-chorin_-_germany
+  name: DFG_Biodiversity_Exploratory_Schorfheide-Chorin - Germany
+  network_registrations:
+  - network: DEIMS
+    network_id: 4d7b73d7-62da-4d96-8cb3-3a9a744ae1f4
+    network_url: https://deims.org/4d7b73d7-62da-4d96-8cb3-3a9a744ae1f4
+    name: DFG_Biodiversity_Exploratory_Schorfheide-Chorin - Germany
+  location:
+    latitude: 53.0071
+    longitude: 13.7695
+    country: Germany
+    elevation_meters: 75.0
+  description: The Biosphere Reserve Schorfheide-Chorin with its sander areas, ground
+    and end moraines is representative for the glacially formed lowlands of northern
+    Germany. Different soil types (podzolised) brown earth, lessivé, pararendzina,
+    podzols, bog soils) are the base for diverse vegetation. With an annual precipitation
+    of about 480-580 mm, the Schorfheide belongs to the driest parts of Germany. Its
+    natural potential vegetation comprises zonal pine-oak forests, beech forests,
+    oak-beech forests, as well as azonal alder and downy birch forests. On dry sandy
+    hills subcontinental xerotherm grasslands occur. Typical of the area is the huge
+    number of lakes, moors, fens and mires.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/4d7b73d7-62da-4d96-8cb3-3a9a744ae1f4
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:48.097858+00:00'
+      source_modified_at: '2025-12-11T16:53:54+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/4d7b73d7-62da-4d96-8cb3-3a9a744ae1f4
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:48.097858+00:00'
+      source_modified_at: '2025-12-11T16:53:54+01:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/4d7b73d7-62da-4d96-8cb3-3a9a744ae1f4
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:48.097858+00:00'
+      source_modified_at: '2025-12-11T16:53:54+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/4d7b73d7-62da-4d96-8cb3-3a9a744ae1f4
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:48.097858+00:00'
+      source_modified_at: '2025-12-11T16:53:54+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/4d7b73d7-62da-4d96-8cb3-3a9a744ae1f4
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:48.097858+00:00'
+      source_modified_at: '2025-12-11T16:53:54+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

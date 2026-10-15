@@ -1,0 +1,75 @@
+sites:
+- id: site_kb:deims-val_masino_lom1_-_italy
+  name: Val Masino LOM1 - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: 68a5673c-9172-48cc-88e5-b9408b203309
+    network_url: https://deims.org/68a5673c-9172-48cc-88e5-b9408b203309
+    name: Val Masino LOM1 - Italy
+  location:
+    latitude: 46.242147
+    longitude: 9.59829
+    country: Italy
+    elevation_meters: 600.0
+  description: Secondary Picea abies dominated forest with Abies alba Mill.  Vaccynum
+    myrtillus L. Belonging since 1995 to CONECOFOR Programme included in the ICP Forest
+    European network. This site is located in the Central Alps and it's grouped with
+    FRI2;TRE1;BOL1
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/68a5673c-9172-48cc-88e5-b9408b203309
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:02.470268+00:00'
+      source_modified_at: '2023-10-27T10:46:51+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/68a5673c-9172-48cc-88e5-b9408b203309
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:02.470268+00:00'
+      source_modified_at: '2023-10-27T10:46:51+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/68a5673c-9172-48cc-88e5-b9408b203309
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:02.470268+00:00'
+      source_modified_at: '2023-10-27T10:46:51+02:00'
+  - name: ozone concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ozone concentration
+      record_url: https://deims.org/api/sites/68a5673c-9172-48cc-88e5-b9408b203309
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22178
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:02.470268+00:00'
+      source_modified_at: '2023-10-27T10:46:51+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/68a5673c-9172-48cc-88e5-b9408b203309
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:02.470268+00:00'
+      source_modified_at: '2023-10-27T10:46:51+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

@@ -1,0 +1,52 @@
+sites:
+- id: site_kb:deims-it03-forest_of_the_apennines_-_italy
+  name: IT03-Forest of the Apennines - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: a2e325b8-9aa2-4c1b-b74c-a2ce59149252
+    network_url: https://deims.org/a2e325b8-9aa2-4c1b-b74c-a2ce59149252
+    name: IT03-Forest of the Apennines - Italy
+  location:
+    latitude: 41.0758
+    longitude: 14.258
+    country: Italy
+    elevation_meters: 1400.0
+  description: The site is the parent site of three research sites, performing long-term
+    research and monitoring in Apennines forests (mostly beech - Fagus sylvatica L.
+    - forests) and meadows located within those forests.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/a2e325b8-9aa2-4c1b-b74c-a2ce59149252
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:55.351040+00:00'
+      source_modified_at: '2023-07-24T16:07:27+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/a2e325b8-9aa2-4c1b-b74c-a2ce59149252
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:55.351040+00:00'
+      source_modified_at: '2023-07-24T16:07:27+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/a2e325b8-9aa2-4c1b-b74c-a2ce59149252
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:55.351040+00:00'
+      source_modified_at: '2023-07-24T16:07:27+02:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

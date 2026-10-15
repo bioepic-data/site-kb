@@ -1,0 +1,162 @@
+sites:
+- id: site_kb:deims-aiguestortes__lleida_es-sne_-_spain
+  name: Aiguestortes / Lleida (ES-SNE) - Spain
+  network_registrations:
+  - network: DEIMS
+    network_id: cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+    network_url: https://deims.org/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+    name: Aiguestortes / Lleida (ES-SNE) - Spain
+  location:
+    latitude: 42.566667
+    longitude: 0.933333
+    country: Spain
+    elevation_meters: 3023.0
+  description: 'The National Park (14,119 ha) and its Peripheral Protected Area (26,733
+    ha) is located in the center of the Pyrenean range, in the southern axial chain,
+    in northwest Catalunya (42º 34’ N, 00º 56’ E). It is a high mountain area considered
+    one of the best representations of the Quaternary glacial erosion with typical
+    glacial cirques and "U" shaped valleys. The range of altitudes varies between
+    1,383 and 3,023 m asl, with a mean altitude of 2,236 m asl. The Aigüestortes National
+    Park has as a particular identity a wide variety of aquatic ecosystems (peatlands,
+    lakes and streams) and few artificial (dammed lakes, small reservoirs and open
+    channels). There are more than 200 lakes (with the local denomination of "estanys")
+    within its boundaries, which make the Park the most important alpine lacustrine
+    area of Europe and, of course, of the Pyrenees. Some of these lakes have been
+    naturally replenished causing the development of peatlands and wet meadows where
+    the stream meanders, locally called "aigüestortes" (literally, "twisted waters").
+    Climate is of mountain Atlantic type with precipitation abundant all year round
+    (range 1,200 to 1,300 mm) and monthly average usually higher than 100 mm. Temperatures
+    are low with yearly average of 5.2ºC and thermal amplitude 16ºC. The vegetation
+    is a typically alpine landscape of great phytogeographic interest with extensive
+    meadows, scree and snow bed endemic communities. In the montane and subalpine
+    belts there are beech, mixed deciduous, fir, and pine forests, diverse scrubs,
+    and a number of wetlands and peatlands which are the main feature of this space.
+    There are at least eight vulnerable or threatened iconic species of animals living
+    in the Park: Rosalia alpina (rosalia beetle), Salmo trutta (trout), Galemys pyrenaicus
+    (Pyrenean desman), Gypaetus barbatus (bearded vulture), Aquila chrysaetos (golden
+    eagle), Lagopus mutus (ptarmigan), Tetrao urogallus (capercaillie), and Ursus
+    arctos (brown bear).'
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: physical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: physical parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/20938
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: remote sensing parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: remote sensing parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/20946
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/cf8247a0-e3d7-499f-84a9-3b2d1215fe06
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:46.832883+00:00'
+      source_modified_at: '2025-01-07T11:09:19+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

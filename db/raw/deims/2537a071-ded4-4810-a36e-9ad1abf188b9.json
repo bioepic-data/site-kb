@@ -1,0 +1,396 @@
+{
+  "source_url": "https://deims.org/api/sites/2537a071-ded4-4810-a36e-9ad1abf188b9",
+  "retrieved_at": "2026-10-15T17:35:51.544708+00:00",
+  "record": {
+    "title": "Bonanza Creek LTER - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "2537a071-ded4-4810-a36e-9ad1abf188b9"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:35:16+01:00",
+    "changed": "2023-07-25T08:23:57+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "LTER-NAM-US-5",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Jamie Hollingsworth",
+            "email": "jhollingsworth@alaska.edu",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "University of Alaska Fairbanks",
+            "url": "http://www.uaf.edu/",
+            "ror": "https://ror.org/01j7nq853"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Jason Downing",
+            "email": "jpdowning@alaska.edu",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.lter.uaf.edu/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Bonanza Creek Experimental Forest (BCEF), located approximately 20 km southwest of Fairbanks, Alaska, was established in 1963 with about 3360 ha (8,300 acres) of upland, interior Alaska boreal forest. In 1969, the experimental forest was enlarged to 5053 ha (12,487 acres) to include representative floodplain forests along the Tanana River. The Forest is within the Tanana Valley State Forest, a unit managed by the Division of Forestry, State of Alaska. In 1987 the Bonanza Creek Long-Term Ecological Research program was established, with BCEF as its primary research site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1989,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "contains",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Caribou-Poker Creeks Research Watershed - United States of America",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "5a288b80-1cc0-4db2-a1e1-c4f98f50d7be"
+                },
+                "changed": "2023-07-25T08:24:31+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "Bonanza Creek LTER",
+        "shortName": "BNZ",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/bonanza-creek-lter-united-states-america_2783.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/UP2_icedamage.JPG",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/chatanika_river.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/CPCRW_peak.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": -2.94,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 262.6,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "taiga",
+        "ecosystemType": [
+          {
+            "label": "Boreal forests/taiga",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-148.21517618632 64.718783360863, -148.34774445003 64.719014397204, -148.34756858531 64.776933066954, -148.21414088384 64.776812864194, -148.21425563404 64.733287314921, -148.14765831714 64.733394380266, -148.11405685487 64.733120690807, -148.11406533575 64.731317459372, -148.11428869635 64.730714723095, -148.11501260605 64.730214287545, -148.11547819858 64.729468300348, -148.11528221366 64.728727295066, -148.11513106282 64.727066689226, -148.11540791759 64.725756422467, -148.11628537901 64.724971972695, -148.11798813048 64.724145932609, -148.11968785382 64.723249182601, -148.12138600037 64.722317068015, -148.12390780856 64.721307970991, -148.1270022184 64.720153047231, -148.12911767209 64.719323723315, -148.13215558995 64.718805517316, -148.1347122336 64.718644504805, -148.13784896915 64.718514344112, -148.14033926505 64.718742665757, -148.14234107687 64.719151500797, -148.14450977434 64.719594374775, -148.14526423203 64.719836032245, -148.14650273016 64.719791083644, -148.14731141631 64.719360536373, -148.14819974214 64.718858653362, -148.14925635937 64.718426170712, -148.15040161096 64.718134417397, -148.15112001198 64.717527767683, -148.15133492201 64.716748250534, -148.15105990393 64.716113972079, -148.15022892218 64.714069753547, -148.14999007252 64.712339137626, -148.14991953205 64.710677925928, -148.15069034965 64.709363736777, -148.15056867609 64.708445411328, -148.15086015427 64.707523871419, -148.15182013409 64.70677390907, -148.15326978555 64.70587869586, -148.15513244514 64.70498024242, -148.15717833457 64.704504611338, -148.15965539675 64.704449851613, -148.16113193329 64.704190769004, -148.1630995929 64.703821739483, -148.16458213964 64.703704001782, -148.16573877136 64.703694888908, -148.16707281646 64.703967221192, -148.1698327637 64.704723264367, -148.17217516751 64.705376496523, -148.17626505272 64.706298659143, -148.17943246878 64.70690985772, -148.18210271849 64.707489606893, -148.18361781607 64.708113914024, -148.1853746899 64.708594841015, -148.18723130105 64.709463873081, -148.18815267363 64.709739330187, -148.18897746469 64.709697345703, -148.18971185607 64.70947929907, -148.19060528612 64.709118540872, -148.19222837046 64.708433684967, -148.19401818691 64.707782821776, -148.19522797476 64.707101267735, -148.1960869169 64.70596290003, -148.1964438287 64.704687160841, -148.19685989964 64.702880586241, -148.19734759 64.700825930545, -148.19778073026 64.699408141001, -148.19837276982 64.697847633679, -148.19954758612 64.696388467649, -148.20057588817 64.695354766092, -148.2013704522 64.694641170112, -148.20241586767 64.693996243856, -148.20312305311 64.693177277021, -148.20366660396 64.69239499591, -148.2045451499 64.691716054885, -148.20567767074 64.691176465847, -148.20698474037 64.690847585831, -148.20895080245 64.690477949275, -148.21033879425 64.690113020153, -148.21222376494 64.689779360567, -148.21460886985 64.689547640009, -148.21666206259 64.689283255546, -148.2183071293 64.689128278206, -148.22085567176 64.688859751945, -148.22415526226 64.688761750616, -148.22803120895 64.688623531505, -148.22968258239 64.68860980415, -148.23347269326 64.688401441415, -148.23636095403 64.688341956345, -148.23702955879 64.688513150162, -148.23762689872 64.688932439726, -148.23830844235 64.689386379124, -148.23980603021 64.689621329389, -148.2413004069 64.689785576701, -148.24230422711 64.690060004535, -148.24333238534 64.690864583211, -148.24312194193 64.69167957481, -148.2418476615 64.692715650216, -148.24071094573 64.693149482998, -148.23866739044 64.693626264266, -148.23785931106 64.694021963533, -148.23696862201 64.694418349354, -148.23582369805 64.694675425214, -148.2346787523 64.69493249225, -148.23238718817 64.695411255882, -148.23026072438 64.695888609875, -148.22855996574 64.696645254921, -148.22742927577 64.697220362192, -148.22598094369 64.698080952751, -148.22479150389 64.699186885302, -148.22327154965 64.700295541917, -148.22273638479 64.701254613766, -148.2217055204 64.702217779141, -148.21942436166 64.704782325722, -148.2174764548 64.707414805125, -148.21530104761 64.708670195919, -148.21517618632 64.718783360863))",
+        "coordinates": "POINT (-148.25480126902 64.739756182473)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 186,
+          "min": 123,
+          "max": 470,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 8423,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10043"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "cation exchange capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22084"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "land use",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22143"
+          },
+          {
+            "label": "landscape fragmentation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22149"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22169"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "normalized vegetation index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22175"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "plant height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22192"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22240"
+          },
+          {
+            "label": "snow water equivalent",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22242"
+          },
+          {
+            "label": "soil gas flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22251"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil moisture field capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10396"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil respiration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22269"
+          },
+          {
+            "label": "tree age",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22300"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21587"
+          },
+          {
+            "label": "tree height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22305"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water table",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30028"
+          },
+          {
+            "label": "water volume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22316"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "boat",
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Web Map Service (WMS)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://www.lternet.edu/policies/data-access"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "The opportunity to collaborate on the project using the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "na"
+        }
+      }
+    }
+  }
+}

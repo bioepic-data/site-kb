@@ -1,0 +1,307 @@
+{
+  "source_url": "https://deims.org/api/sites/177ff4a8-9481-495e-a55a-ec7d32bf6e30",
+  "retrieved_at": "2026-10-15T17:43:53.996696+00:00",
+  "record": {
+    "title": "VLIZ Thornton Buoy - Belgium",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "177ff4a8-9481-495e-a55a-ec7d32bf6e30"
+    },
+    "type": "site",
+    "created": "2016-05-24T16:30:49+02:00",
+    "changed": "2023-07-25T08:19:13+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ICOS",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "80633d38-4c85-4ee0-a4ce-7bbbd99c888c"
+              }
+            },
+            "siteCode": "http://meta.icos-cp.eu/resources/stations/OS_1199",
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Belgium",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "735946e0-4e9e-484a-acee-85e31f4e2a2e"
+              }
+            },
+            "siteCode": "LTER_EU_BE_10_001",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "Lifewatch",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d7f2fcc0-9a1b-4f33-8bb5-f930428e4468"
+              }
+            },
+            "siteCode": "https://www.lifewatch.be/en/sensors",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Dre Cattrijsse",
+            "email": "andre.cattrijsse@vliz.be",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Flanders Marine Institute (VLIZ)",
+            "url": "http://www.vliz.be/en",
+            "ror": "https://ror.org/0496vr396"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Flanders Marine Institute (VLIZ)",
+            "url": "http://www.vliz.be/en",
+            "ror": "https://ror.org/0496vr396"
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.vliz.be"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The site consists of a marine databuoy equipped with a suite of sensors that monitor water quality parameters and acoustic receivers for the detection of Porpoises and tagged fish. The buoy is moored near an offshore windmill farm, approx. 30km off the coast on the Belgian Continental Shelf. \r\n",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2015,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Belgian coastal waters and sand bank systems - Belgium",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "e83a90a3-2fb4-49bc-8991-a1d5b017ae19"
+                },
+                "changed": "2025-01-07T11:11:07+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "VLIZ Thornton Buoy",
+        "shortName": "VLIZ Buoy",
+        "siteType": "Buoy(s)",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/vliz%2520bouy%2520LTER.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 12,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 800,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Temperate shelfs and seas",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine",
+          "Coastal"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (2.9955 51.58)",
+        "country": [
+          "Belgium"
+        ],
+        "elevation": {
+          "avg": 0,
+          "min": 0,
+          "max": 0,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 0,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "specific conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22289"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Less than 1 kW",
+            "uri": null
+          },
+          {
+            "label": "Marine Platform",
+            "uri": null
+          },
+          {
+            "label": "Other transmission types",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

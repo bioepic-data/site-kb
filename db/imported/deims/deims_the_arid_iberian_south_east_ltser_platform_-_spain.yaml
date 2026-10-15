@@ -1,0 +1,115 @@
+sites:
+- id: site_kb:deims-the_arid_iberian_south_east_ltser_platform_-_spain
+  name: The Arid Iberian South East LTSER Platform - Spain
+  network_registrations:
+  - network: DEIMS
+    network_id: 889b159a-8b58-4685-9418-73ee70388799
+    network_url: https://deims.org/889b159a-8b58-4685-9418-73ee70388799
+    name: The Arid Iberian South East LTSER Platform - Spain
+  location:
+    latitude: 37.0848
+    longitude: -2.2871
+    country: Spain
+    elevation_meters: 813.6
+  description: "The Arid Iberian South East LTSER Platform aims to seek multidisciplinary\
+    \ solutions to the environmental problems occurring in the socio-ecological systems\
+    \ of Anthropocene. The Platform encompasses a wide range of humanized and semi\
+    \ natural landscapes which make up interesting socio-ecosystems. These singular\
+    \ environments represent both natural processes of aridification as traditional\
+    \ land uses, forcing an effective management of the scarce and irregular water\
+    \ resources. Further, agricultural land abandonment linked to land use changes\
+    \ is driving biodiversity loss and alteration of the ecosystem functioning. All\
+    \ these features provide excellent natural laboratories where researching “in\
+    \ live” similar scenarios as those forecasted in other Mediterranean regions and\
+    \ testing adaptive management models to improve ecosystem resilience. The platform\
+    \ area has an extension of 1,426446 ha including a wide orographic heterogeneity\
+    \ and an altitude gradient from the sea level until 2,260 m. The climate is Mediterranean\
+    \ hot (annual average temperature between 12º-15ºC ) and dry, with some localities\
+    \ where rainfall is lower than 200 mm/year. The traditional uses of natural resources\
+    \ were mining and the exploitation of the species Macrochloa tenacissima as vegetable\
+    \ fibre. Currently, the most frequent land uses are intensive agriculture (e.g.,\
+    \ greenhouses), marble quarries, tourism and the service sector derived from these\
+    \ activities.\r\nThe monitoring program includes several dozens of standardised\
+    \ methodological protocols producing up to date results on ecosystem functioning,\
+    \ biophysical processes, biodiversity trends and social perceptions. Facilities\
+    \ are composed by a laboratory on remote sensing and GIS, a laboratory for biological\
+    \ and chemical analysis, Eddy covariance systems for carbon and water fluxes measurement\
+    \ (atmosphere- ecosystem-soil), a weather station, field instrumental for measuring\
+    \ ecophysiological processes, biological collections, a 4x4 wheel vehicle. The\
+    \ research areas covered by the Arid Iberian South East LTSER Platform are regional\
+    \ ecology by using remote sensing, carbon/water exchange ecosystem-atmosphere/soil-atmosphere\
+    \ and water balance, phenology of xerophytic vegetation, occurrence of invasive\
+    \ alien species, climate trends, land use changes, biophysical and socio-cultural\
+    \ assessment of ecosystem services, spatial distribution of species (birds, mammals\
+    \ and plants), ecological integrity of arid riparian environments, karst systems,\
+    \ and water quality. We are working to guarantee the quality of our datasets and\
+    \ searching for collaborators with the aim of expanding our current dataset catalogue."
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/889b159a-8b58-4685-9418-73ee70388799
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:41:58.705109+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/889b159a-8b58-4685-9418-73ee70388799
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:41:58.705109+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/889b159a-8b58-4685-9418-73ee70388799
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:41:58.705109+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/889b159a-8b58-4685-9418-73ee70388799
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:41:58.705109+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/889b159a-8b58-4685-9418-73ee70388799
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:41:58.705109+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/889b159a-8b58-4685-9418-73ee70388799
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:41:58.705109+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

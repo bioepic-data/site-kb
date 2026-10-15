@@ -1,0 +1,296 @@
+{
+  "source_url": "https://deims.org/api/sites/47851c62-58c2-4041-81c5-57a5043729e0",
+  "retrieved_at": "2026-10-15T17:46:47.255559+00:00",
+  "record": {
+    "title": "Northeast U.S. Shelf LTER - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "47851c62-58c2-4041-81c5-57a5043729e0"
+    },
+    "type": "site",
+    "created": "2018-07-05T18:52:57+02:00",
+    "changed": "2024-05-16T10:07:12+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "LTER-NES",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Heidi Sosik",
+            "email": null,
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Kate Morkeski",
+            "email": "kmorkeski@whoi.edu",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Woods Hole Oceanographic Institution",
+            "url": "http://www.whoi.edu/",
+            "ror": "https://ror.org/03zbnzt98"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Heidi Sosik",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "US National Science Foundation (NSF)",
+            "url": "https://www.nsf.gov/",
+            "ror": "https://ror.org/021nxhr62"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "NES-LTER",
+            "value": "https://nes-lter.whoi.edu/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Northeast US Shelf (NES) ecosystem spans the Middle Atlantic Bight and Gulf of Maine, is a large portion of the NW Atlantic Shelves Province, and is in a coastal biome. The waters over the NES provide an array of ecosystem services including fishing, energy development, shipping, waste disposal, recreation, and conservation. The NES ecosystem, like other productive temperate shelf ecosystems, is characterized by strong seasonality along with high levels of variability in physical forcing at timescales from days to decades, including climate impacts.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2017,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Northeast U.S. Shelf LTER",
+        "shortName": "NES",
+        "siteType": "not applicable",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/northeast-us-shelf-lter-united-states-america_5541.jpg",
+            "alt": "Deploying the CTD/rosette from R/V Endeavor during the NES-LTER 2018 Winter Transect cruise EN608. Image credit: Jacob Strock, University of Rhode Island."
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1150,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Coastal",
+            "uri": null
+          },
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Temperate shelfs and seas",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          },
+          {
+            "label": "Pelagic water column (A7)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine",
+          "Coastal"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-73.9599609375 35.135633017927, -65.1708984375 43.163119282469, -69.1259765625 44.93175198384, -78.0029296875 36.277493049943, -73.9599609375 35.135633017927))",
+        "coordinates": "POINT (-70.8833 40.6967)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 0,
+          "min": 0,
+          "max": 0,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 150000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "biological diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21391"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community pattern",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21471"
+          },
+          {
+            "label": "community structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21472"
+          },
+          {
+            "label": "current direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30026"
+          },
+          {
+            "label": "current speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30027"
+          },
+          {
+            "label": "oxygen saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21215"
+          },
+          {
+            "label": "water colour",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10390"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30023"
+          },
+          {
+            "label": "water reflectance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10391"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Marine Platform",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "https://lternet.edu/data-access-policy/"
+              }
+            ],
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "na"
+        }
+      }
+    }
+  }
+}

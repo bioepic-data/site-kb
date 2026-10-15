@@ -1,0 +1,120 @@
+sites:
+- id: site_kb:deims-ltser_platform_eisenwurzen_ew_-_austria
+  name: LTSER Platform Eisenwurzen (EW) - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: d0a8da18-0881-4ebe-bccf-bc4cb4e25701
+    network_url: https://deims.org/d0a8da18-0881-4ebe-bccf-bc4cb4e25701
+    name: LTSER Platform Eisenwurzen (EW) - Austria
+  location:
+    latitude: 47.6667
+    longitude: 14.5
+    country: Austria
+    elevation_meters: 840.0
+  description: "The LTSER platform Eisenwurzen represents both a natural space and\
+    \ a historically developed social and economic area. It does not correspond exactly\
+    \ to federal county borders but extends over 91 municipalities and a total area\
+    \ of 5,904 km2 in the counties of Upper Austria, Lower Austria and Styria. 80\
+    \ % of the LTSER platform are part of the Northern Alps, 11 % of the area belong\
+    \ to the Northern Alpine Foothills and 9 % belong to the Central Alps. Altitudes\
+    \ range from 167 to 2,515 m a.s.l. The climate type is Continental. Depending\
+    \ on local conditions, annual precipitation values between 730 mm and 2,202 mm\
+    \ are measured. The annual mean temperatures range from -0.8 °C to 9.14 °C.\r\n\
+    The LTSER Platform Eisenwurzen was established in 2004. A network of already existing\
+    \ institutions (national parks, research centers in the region, etc.) and high-quality\
+    \ documentation (data material) provide good prerequisites for the first Austrian\
+    \ LTSER platform. Research institutions and regional institutions, decision-making\
+    \ bodies and regional management participate actively in the research platform.\
+    \ On one hand, scientists work on sociological and natural science themes in cross-disciplinary\
+    \ teams and in close cooperation with regional populations and their representatives.\
+    \ On the other hand, regional research questions are formulated and – as far as\
+    \ possible - integrated into research agendas. The project results build the basis\
+    \ for sustainable ecosystem management and preservation as well as sustainable\
+    \ regional development.\r\nThe research projects cover questions of: basic ecosystem\
+    \ research: e.g. at the site Zöbelboden, where long-term monitoring has been carried\
+    \ out into the forest ecosystem on calcareous bedrock.; applied biodiversity and\
+    \ conservation research: e.g. investigation into the impacts of increased forestation\
+    \ upon biodiversity brought about by the retreat of human activity; socio-ecological\
+    \ research: e.g. the Reichraming project, in which a participatively-developed\
+    \ integrated model shows what impacts both internal and external factors have\
+    \ upon material flows, community structure and agriculture;"
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/d0a8da18-0881-4ebe-bccf-bc4cb4e25701
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:19.864969+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/d0a8da18-0881-4ebe-bccf-bc4cb4e25701
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:19.864969+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/d0a8da18-0881-4ebe-bccf-bc4cb4e25701
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:19.864969+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/d0a8da18-0881-4ebe-bccf-bc4cb4e25701
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:19.864969+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: nutrient availability
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nutrient availability
+      record_url: https://deims.org/api/sites/d0a8da18-0881-4ebe-bccf-bc4cb4e25701
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/21457
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:19.864969+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/d0a8da18-0881-4ebe-bccf-bc4cb4e25701
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:19.864969+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/d0a8da18-0881-4ebe-bccf-bc4cb4e25701
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:19.864969+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

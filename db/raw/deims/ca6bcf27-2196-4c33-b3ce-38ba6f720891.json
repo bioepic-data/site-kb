@@ -1,0 +1,183 @@
+{
+  "source_url": "https://deims.org/api/sites/ca6bcf27-2196-4c33-b3ce-38ba6f720891",
+  "retrieved_at": "2026-10-15T17:42:21.608696+00:00",
+  "record": {
+    "title": "Pristine Forest Rothwald (part of Dürrenstein Wilderness Area) - Austria",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "ca6bcf27-2196-4c33-b3ce-38ba6f720891"
+    },
+    "type": "site",
+    "created": "2012-12-25T18:53:45+01:00",
+    "changed": "2023-08-28T14:14:45+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Austria",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d45c2690-dbef-4dbc-a742-26ea846edf28"
+              }
+            },
+            "siteCode": "LTER_EU_AT_004_001",
+            "verified": false
+          }
+        ],
+        "projects": [
+          {
+            "label": "Natura 2000",
+            "uri": "https://natura2000.eea.europa.eu/"
+          },
+          {
+            "label": "eLTER PLUS (H2020) - VA",
+            "uri": "https://doi.org/10.3030/871128"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Georg Gratzer",
+            "email": "georg.gratzer@boku.ac.at",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Georg Gratzer",
+            "email": "georg.gratzer@boku.ac.at",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": null,
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1944,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Wilderness Area Dürrenstein-Lassingtal - Austria",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "5578e8f9-0f3d-4210-9ace-660c33f837f5"
+                },
+                "changed": "2025-12-10T08:34:51+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "Pristine Forest Rothwald (part of Dürrenstein Wilderness Area)",
+        "shortName": "Rothwald PristineForest",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1199.1,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "deciduous_forest",
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((15.083346 47.799935, 15.083346 47.800004, 15.083459 47.800004, 15.083459 47.799935, 15.083346 47.799935))",
+        "coordinates": "POINT (15.083443 47.799967)",
+        "country": [
+          "Austria"
+        ],
+        "elevation": {
+          "avg": 1200,
+          "min": 1000,
+          "max": 1400,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 2000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

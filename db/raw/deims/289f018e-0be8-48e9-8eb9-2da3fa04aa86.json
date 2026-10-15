@@ -1,0 +1,220 @@
+{
+  "source_url": "https://deims.org/api/sites/289f018e-0be8-48e9-8eb9-2da3fa04aa86",
+  "retrieved_at": "2026-10-15T17:46:14.349335+00:00",
+  "record": {
+    "title": "CH-SN1-CUO - Switzerland",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "289f018e-0be8-48e9-8eb9-2da3fa04aa86"
+    },
+    "type": "site",
+    "created": "2017-03-09T14:55:31+01:00",
+    "changed": "2023-07-25T08:39:15+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "Global Observation Research Initiative in Alpine Environments (GLORIA)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "2ac8d841-36f5-4d78-9fb9-d9ded9e5bb60"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": [
+          {
+            "label": "Teabag",
+            "uri": null
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Sonja Wipf",
+            "email": "wipf@slf.ch",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Sonja Wipf",
+            "email": "wipf@slf.ch",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Summit associated with GLORIA target region on dolomite of the Swiss national park. Not used for vegetation monitoring, only for teabag study. Original GLORIA summit at the same altitude is located inhighly sensitive area of the park, where access only occasionally permitted.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2016,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "CH-SN1-MBU - Switzerland",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "826b88be-415c-499d-bf03-b08ddc037955"
+                },
+                "changed": "2023-07-25T08:38:24+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "CH-SN1-CUO",
+        "shortName": "Ils Cuogns, W summit",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/SN1_CUO_TC_160705_overview_1.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/SN1_CUO_TC_160705_soil_profile.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "alpine",
+        "ecosystemType": [
+          {
+            "label": "Alpine",
+            "uri": null
+          },
+          {
+            "label": "Tundra",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Alpine and subalpine grasslands (E4)",
+            "uri": null
+          },
+          {
+            "label": "Calcareous alpine and subalpine grassland (E4.4)",
+            "uri": null
+          },
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          },
+          {
+            "label": "Moss and lichen dominated mountain summits, ridges and exposed slopes (E4.2)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (10.17101 46.71551)",
+        "country": [
+          "Switzerland"
+        ],
+        "elevation": {
+          "avg": 2812,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": null,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": [
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "litter residence time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10048"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

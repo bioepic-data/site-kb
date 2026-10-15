@@ -1,0 +1,926 @@
+{
+  "source_url": "https://deims.org/api/sites/7bafe09f-1fd9-4014-a038-650bada37ca5",
+  "retrieved_at": "2026-10-15T17:41:36.779473+00:00",
+  "record": {
+    "title": "LTSER Zone Atelier Bassin du Rhône - France",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "7bafe09f-1fd9-4014-a038-650bada37ca5"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:09:37+01:00",
+    "changed": "2023-07-26T08:46:45+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER France",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d8d9206f-b1bd-4f90-84b7-8c662d4235a2"
+              }
+            },
+            "siteCode": "LTER_EU_FR_006",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "Natura 2000",
+            "uri": "https://natura2000.eea.europa.eu/"
+          },
+          {
+            "label": "Ramsar Convention on Wetlands",
+            "uri": "https://www.ramsar.org"
+          },
+          {
+            "label": "Water Supply Sanitation Technology Platform (WssTP)",
+            "uri": null
+          },
+          {
+            "label": "eLTER (H2020)",
+            "uri": "https://cordis.europa.eu/project/id/654359"
+          },
+          {
+            "label": "eLTER PLUS (H2020) - VA",
+            "uri": "https://doi.org/10.3030/871128"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Anne Clemens",
+            "email": "anne.clemens@zabr.org",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Laurent Simon",
+            "email": "laurent.simon@univ-lyon1.fr",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Nicolas Lamouroux",
+            "email": "nicolas.lamouroux@inrae.fr",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Scientific Interest Group ZABR - GIS ZABR",
+            "url": "http://www.graie.org/zabr/index.htm",
+            "ror": null
+          },
+          {
+            "type": "organisation",
+            "name": "UMR 5023 LEHNA",
+            "url": "https://umr5023.univ-lyon1.fr/",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Anne Clemens",
+            "email": "anne.clemens@zabr.org",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Nicolas Lamouroux",
+            "email": "nicolas.lamouroux@inrae.fr",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Pierre Marmonier",
+            "email": "pierre.marmonier@univ-lyon1.fr",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "CNRS - Institut écologie et environnement (INEE)",
+            "url": "http://www.cnrs.fr/inee/",
+            "ror": "https://ror.org/01q76b368"
+          },
+          {
+            "type": "organisation",
+            "name": "National Research Institute for Agriculture, Food and Environment (INRAE)",
+            "url": "https://www.inrae.fr/",
+            "ror": "https://ror.org/003vg9w96"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "Zone Atelier Bassin du Rhône",
+            "value": "http://www.zabr.org"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The LTSER platform Zone Atelier Bassin du Rhône belongs to LTER-France network and is  located in south eastern France, ranging from the Alp mountains to the Camargue delta, in the mediterannean sea. The LTSER focus on aquatic continental ecosystems (lakes, rivers and wetlands) from alpin to mediterannean climats. The ZABR aims at elucidating the relationship between a large river, the Rhône river, its channel and associated ecosystems and the societies established in its landscape, using a multidisciplinary approach. Research topics include physical and chimical characteristics, ecosystem dynamics, sociological studies. Long term changes in ecological processing and pollution are taken into account using paleoecological studies. Perception of the natural and anthropised environment are considered through geographical and sociological studies.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2001,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Platform Lautaret - Guisane - Haute Romanche - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "ff1d49b8-47e9-44b3-9621-ac16b93fcfe1"
+                },
+                "changed": "2025-03-11T09:32:32+0100"
+              }
+            ]
+          },
+          {
+            "typeOfRelationship": {
+              "label": "contains",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "OZCAR-RI Draix-Bleone observatory - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "be7fcb7d-d3c2-486d-a437-4754d18ca1ca"
+                },
+                "changed": "2024-04-19T15:21:21+0200"
+              },
+              {
+                "type": "site",
+                "title": "OZCAR-RI OHMCV Olivier de Serres catchment - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "249ac142-c0d3-4818-b521-ddcf5609ec0f"
+                },
+                "changed": "2025-01-07T11:18:03+0100"
+              },
+              {
+                "type": "site",
+                "title": "OZCAR-RI OHMCV Tourgueille catchment - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "7509f05b-edcb-4c52-92f7-5ab9f8655374"
+                },
+                "changed": "2024-04-09T23:08:10+0200"
+              },
+              {
+                "type": "site",
+                "title": "OZCAR-RI OHMCV Valescure catchment - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "02df05b8-45de-4518-89d8-ec49e8a05c37"
+                },
+                "changed": "2025-01-07T11:14:56+0100"
+              },
+              {
+                "type": "site",
+                "title": "OZCAR-RI OTHU Yzeron experimental catchment - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "cb1f4a9f-f6e3-4d2a-8b34-2f9c4c3f61b8"
+                },
+                "changed": "2024-03-04T09:31:55+0100"
+              },
+              {
+                "type": "site",
+                "title": "OZCAR-RI SNO_KARST Environmental Research Observatory Site of fontaine de Vaucluse - LSBB - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "8de38654-c0f2-48a6-b206-d59a3b9ae6a0"
+                },
+                "changed": "2024-03-04T09:37:44+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "LTSER Zone Atelier Bassin du Rhône",
+        "shortName": "ZABR",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/ltser-zone-atelier-bassin-du-rhone-france_1463.jpg",
+            "alt": "Sampling the Ain River (photo: Graie)"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/ltser-zone-atelier-bassin-du-rhone-france_1465.jpg",
+            "alt": "Dam on the Rhône River (photo: CNR)"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/ltser-zone-atelier-bassin-du-rhone-france_1466.jpg",
+            "alt": "Miribel site on the Rhône (photo: Graie)"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/ltser-zone-atelier-bassin-du-rhone-france_3890.jpg",
+            "alt": "The Rhône at Lyon  (photo: Graie)"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/rhone_lacdubourget%2540PGaydou.jpg",
+            "alt": "The Upper Rhône  (photo: P. Gaydou)"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 12.3,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 886,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "continental",
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Large rivers",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Surface running waters (C2)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes",
+          "Fresh water rivers"
+        ],
+        "geology": "Fluvial sediment deposit Calcareous karstic system",
+        "hydrology": "Continental and alpine hydrology",
+        "soils": "From alpin to medeterranean soils, but mostly fluvial soil",
+        "vegetation": "From alpine to mediterrannean vegetation"
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((4.17 46.18, 8.23 46.18, 8.23 43.2, 4.17 43.2, 4.17 46.18))",
+        "coordinates": "POINT (4.5 45.45)",
+        "country": [
+          "France"
+        ],
+        "elevation": {
+          "avg": 126,
+          "min": 0,
+          "max": 3000,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 2229800,
+          "unit": "ha"
+        },
+        "relatedLocations": [
+          {
+            "title": "Rhône river",
+            "id": {
+              "prefix": "https://deims.org/locations/",
+              "suffix": "742bfc9a-d08b-42ba-b688-17c468ac4510"
+            },
+            "changed": "2024-05-07T14:22:15+0200"
+          }
+        ]
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "partly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "abiotic heterogeneity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21476"
+          },
+          {
+            "label": "acid neutralising capacity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10310"
+          },
+          {
+            "label": "age class",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21353"
+          },
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "ammonium nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10076"
+          },
+          {
+            "label": "annelida presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22205"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "bacteria abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22026"
+          },
+          {
+            "label": "bacteria presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10122"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "birds abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10020"
+          },
+          {
+            "label": "birds presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10082"
+          },
+          {
+            "label": "change in population size over time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22085"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "disturbance pattern",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21473"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "emergence date",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22114"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "flowering date",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22096"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "germination date",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22097"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "groundwater permeability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22127"
+          },
+          {
+            "label": "habitat structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21478"
+          },
+          {
+            "label": "hydraulic conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22133"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "lake level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22141"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "land use",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22143"
+          },
+          {
+            "label": "land use intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22144"
+          },
+          {
+            "label": "landscape composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22146"
+          },
+          {
+            "label": "landscape configuration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22147"
+          },
+          {
+            "label": "landscape connectivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22148"
+          },
+          {
+            "label": "landscape fragmentation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22149"
+          },
+          {
+            "label": "landscape metrics",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10042"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "leaf area ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22158"
+          },
+          {
+            "label": "litter residence time",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10048"
+          },
+          {
+            "label": "macrofauna abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22028"
+          },
+          {
+            "label": "microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22169"
+          },
+          {
+            "label": "mineral nitrogen mineralised from organic matter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22047"
+          },
+          {
+            "label": "nitrate flow in drain",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22048"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "nitrogen symbiotic fixation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22051"
+          },
+          {
+            "label": "normalized vegetation index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22175"
+          },
+          {
+            "label": "nutrient availability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21457"
+          },
+          {
+            "label": "patch density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22179"
+          },
+          {
+            "label": "patch size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22180"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "plant carbon concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22187"
+          },
+          {
+            "label": "plant cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22188"
+          },
+          {
+            "label": "plant development stage",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22190"
+          },
+          {
+            "label": "plant nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22194"
+          },
+          {
+            "label": "plant species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22195"
+          },
+          {
+            "label": "population size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22199"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "redox potential of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21216"
+          },
+          {
+            "label": "root density",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22216"
+          },
+          {
+            "label": "root growth rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22218"
+          },
+          {
+            "label": "root length",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22219"
+          },
+          {
+            "label": "runoff amount",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30032"
+          },
+          {
+            "label": "secchi depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22226"
+          },
+          {
+            "label": "snow depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22240"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species group abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10021"
+          },
+          {
+            "label": "species list",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22286"
+          },
+          {
+            "label": "species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10081"
+          },
+          {
+            "label": "species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22287"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          },
+          {
+            "label": "stream order",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21511"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "tree age",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22300"
+          },
+          {
+            "label": "tree condition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22302"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "tree distribution",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21587"
+          },
+          {
+            "label": "tree height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22305"
+          },
+          {
+            "label": "vegetation layer composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22307"
+          },
+          {
+            "label": "vegetation layer structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21480"
+          },
+          {
+            "label": "vegetation layer type",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22308"
+          },
+          {
+            "label": "vegetation reflectance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10118"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water table",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30028"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water velocity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22315"
+          },
+          {
+            "label": "water volume",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22316"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": "Sampling interval and maintenance frequency varie according to ecosystem study : very frequent for urban instrument (waste water, river and ground water) and more rarely for lakes and the Rhône river itself.",
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Daily",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "More than 100 kW",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Radio transmission system (repeaters, receivers, centralstation)",
+            "uri": null
+          },
+          {
+            "label": "Radio transmission system (repeaters. receivers. centralstation)",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Satellite",
+            "uri": null
+          },
+          {
+            "label": "Snow clearing equipment",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Spatial database (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Telephone line",
+            "uri": null
+          },
+          {
+            "label": "Temperature Controlled Container",
+            "uri": null
+          },
+          {
+            "label": "Unknown number of places",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          },
+          {
+            "label": "Web Catalog Service (CSW)",
+            "uri": null
+          },
+          {
+            "label": "Web Map Service (WMS)",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description",
+              "The opportunity to collaborate on the project using the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "ltser"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+sites:
+- id: site_kb:deims-pinios_hydrologic_observatory_-_greece
+  name: Pinios Hydrologic Observatory - Greece
+  network_registrations:
+  - network: DEIMS
+    network_id: d375c09a-74ac-4d97-88b0-2edf5561ca49
+    network_url: https://deims.org/d375c09a-74ac-4d97-88b0-2edf5561ca49
+    name: Pinios Hydrologic Observatory - Greece
+  location:
+    latitude: 39.713069
+    longitude: 22.764836
+    country: Greece
+    elevation_meters: 634.1
+  description: The Pinios Hydrologic Observatory (PHO) covers an area of 53 sq.km
+    and is situated within a complex geological/geomorphological environment with
+    forest and agricultural landscapes dominating. PHO was established in year 2015
+    with the joint efforts of Agrosphere Institute (IBG-3) of Forschungszentrum Jülich
+    (Germany) and Soil & Water Resources Institute of Hellenic Agricultural Organization
+    “DEMETER” (Greece), aiming primarily at developing deep knowledge of water balance
+    at the river basin scale and to improve understanding of the major hydrodynamic
+    mechanisms, thus to improve hydrological modeling and ultimately sustainable water
+    resources management.  Moreover, and since agriculture constitutes the major economic
+    activity in PHO, agro-hydrology constitutes one of its top-priority research topics.
+    PHO is located in the River Pinios basin (RPB), which is one of the most productive
+    basins in Greece having a spatial extent of about 11,000  sq.km. RPB is facing
+    a wide range of problems related to water resources management including groundwater
+    overexploitation and quality deterioration triggered by prolonged droughts and
+    poor management practices in the mid-1980s, which affect and jeopardize the regional
+    socio-economic stability and growth. PHO is envisaging to investigate and address
+    critical scientific questions on how to effectively preserve water and soil resources
+    of the basin and to efficiently manage water availability on the basis of natural
+    recharge occurrence.
+  variables:
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: runoff amount
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: runoff amount
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/30032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: soil water content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil water content
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22281
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: solar radiation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: solar radiation
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22284
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: specific conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: specific conductivity
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22289
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water content
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22309
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water salinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water salinity
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/10308
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: wind direction
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind direction
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/22317
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: wind speed
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind speed
+      record_url: https://deims.org/api/sites/d375c09a-74ac-4d97-88b0-2edf5561ca49
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22319
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:26.116838+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

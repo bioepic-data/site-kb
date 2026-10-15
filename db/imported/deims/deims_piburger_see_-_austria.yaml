@@ -1,0 +1,220 @@
+sites:
+- id: site_kb:deims-piburger_see_-_austria
+  name: Piburger See - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: ed1f621f-d337-4a3c-9cf1-7be144fc556c
+    network_url: https://deims.org/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+    name: Piburger See - Austria
+  location:
+    latitude: 47.194728
+    longitude: 10.889153
+    country: Austria
+    elevation_meters: 1650.0
+  description: Piburger See is a small mountain lake in the Eastern Alps (Austria)
+    and was part of the OECD study on eutrophication (OECD, 1980). This lake experienced
+    cultural eutrophication during several decades in the 20th century. In the 1950s
+    and 1960s, recreational activities increased with a concurrent rise in tourism,
+    and increasing amounts of fertilisers were used on nearby fields (Pechlaner, 1968).
+    This resulted in enhanced primary production and rising hypolimnetic oxygen depletion
+    in the lake (Pechlaner, 1979). Lake restoration started in 1970 by exporting anoxic
+    and nutrient-rich hypolimnetic waters with an Olszewski tube (Pechlaner, 1971,
+    1979). External nutrient loading was reduced by altering fertiliser application
+    and by diverting sewage from a public bath (Psenner, Pechlaner & Rott, 1984).
+    After the installation of the Olszewski tube in June 1970, phytoplankton biomass
+    increased, accompanied by an increase in chlorophyll "a" and total phosphorus
+    (TP) (Rott, 1983; Tolotti & Thies, 2002). The period from 1970 until 1988 was
+    characterised by a marked increase in the filamentous cyanobacterium Oscillatoria
+    limosa C.A. Agardh, which became the dominant algal taxon in the lake and contributed
+    up to 40% to the mean annual phytoplankton biovolume (Rott, 1976; Wolf, 1991).
+    The response of  phytoplankton biovolume to lake restoration was delayed by two
+    decades and re-oligotrophication of Piburger See began during the late-1980s (Pechlaner,
+    1979; Rott, 1983; Pipp & Rott, 1995). At present, Piburger See is oligomesotrophic
+    (Tolotti & Thies, 2002). Since the early 2000s, chlorophyll "a" and phytoplankton
+    biovolume values suggest a reversing trend in lake trophic status with a rising
+    contribution of diatoms including blooms of Asterionella formosa (Tolotti et al.,
+    2005; Tolotti net al. 2012, Thies et al. 2012). Monitoring of lake water quality,
+    control of deep water siphoning discharge and operation of gauges are current
+    activities at this site. A rowing boat for lake water sampling is available. A
+    smaller part of the lake has the status of a research area. During summer, tourism
+    is an important factor at this site (public bath, rowing boats, angling, swimming,
+    walking).
+  variables:
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: lake temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: lake temperature
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10011
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: percent carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: percent carbon
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22181
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: percent organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: percent organic carbon
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22183
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: photosynthetically active radiation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: photosynthetically active radiation intensity
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22186
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: secchi depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: secchi depth
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22226
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: specific conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: specific conductivity
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22289
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: total organic carbon
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total organic carbon
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22297
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: water alkalinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water alkalinity
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/10303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: water transparency
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water transparency
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/10392
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  - name: water volume
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water volume
+      record_url: https://deims.org/api/sites/ed1f621f-d337-4a3c-9cf1-7be144fc556c
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22316
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:38.064726+00:00'
+      source_modified_at: '2024-10-22T16:55:54+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

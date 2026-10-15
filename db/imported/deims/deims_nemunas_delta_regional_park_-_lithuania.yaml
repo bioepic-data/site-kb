@@ -1,0 +1,85 @@
+sites:
+- id: site_kb:deims-nemunas_delta_regional_park_-_lithuania
+  name: Nemunas Delta Regional Park - Lithuania
+  network_registrations:
+  - network: DEIMS
+    network_id: e3b03313-adad-4910-a78a-b9a685174c69
+    network_url: https://deims.org/e3b03313-adad-4910-a78a-b9a685174c69
+    name: Nemunas Delta Regional Park - Lithuania
+  location:
+    latitude: 55.340626
+    longitude: 21.370342
+    country: Lithuania
+    elevation_meters: 2.0
+  description: "Arrived to the littoral region you will see a unique Nemunas delta\
+    \ with its major branches Atmata and Skirvytė and the island Rusnė surrounded\
+    \ by them. This landscape is created by water - there are many interlaced rivers,\
+    \ lakes - the lagoon of Krokų lanka and many other smaller lakes. There are also\
+    \ old river beds, marshes and fens. During the spring floods the regional park\
+    \ will provide you with unforgettable impressions. Your gaze will be able to travel\
+    \  flooded delta meadows full of rear water birds without hindrance. The delta\
+    \ is famous because of rare breeding birds abundance and because it is an important\
+    \ place for travelling birds. Under the Ramsar Convention criteria the delta was\
+    \ added to the wet areas of international importance list in 1993. This unique,\
+    \ versatile regional park landscape that still retains its natural dynamics must\
+    \ be preserved.\r\nThe Nemunas River delta area with adjacent floodplains is the\
+    \ most important stopover site for numerous species of waterbirds in the South\
+    \ Eastern Baltic Region."
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/e3b03313-adad-4910-a78a-b9a685174c69
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:29.967290+00:00'
+      source_modified_at: '2020-11-27T14:42:47+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/e3b03313-adad-4910-a78a-b9a685174c69
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:29.967290+00:00'
+      source_modified_at: '2020-11-27T14:42:47+01:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/e3b03313-adad-4910-a78a-b9a685174c69
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:29.967290+00:00'
+      source_modified_at: '2020-11-27T14:42:47+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/e3b03313-adad-4910-a78a-b9a685174c69
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:29.967290+00:00'
+      source_modified_at: '2020-11-27T14:42:47+01:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/e3b03313-adad-4910-a78a-b9a685174c69
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:29.967290+00:00'
+      source_modified_at: '2020-11-27T14:42:47+01:00'
+  notes: 'Biogeographical region: boreal'
+  status: ACTIVE

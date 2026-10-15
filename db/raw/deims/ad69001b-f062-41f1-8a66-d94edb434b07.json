@@ -1,0 +1,234 @@
+{
+  "source_url": "https://deims.org/api/sites/ad69001b-f062-41f1-8a66-d94edb434b07",
+  "retrieved_at": "2026-10-15T17:35:30.353016+00:00",
+  "record": {
+    "title": "Chamela Mex-LTER - Mexico",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "ad69001b-f062-41f1-8a66-d94edb434b07"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:33:49+01:00",
+    "changed": "2020-06-29T10:39:10+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "Mex-LTER (Mexico)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "dae20892-ab85-4994-9c7c-797582f1d9f9"
+              }
+            },
+            "siteCode": "LTER-NAM-MX-4",
+            "verified": true
+          }
+        ],
+        "projects": []
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Patricia Balvanera",
+            "email": "pbalvane@oikos.unam.mx",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.ibiologia.unam.mx/ebchamela"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Reserva de la Biósfera Chamela-Cuixmala dominada por bosque tropical seco en la Costa del Pacífico Mexicano en el estado de Jalisco. El relieve predominante en Chamela consiste de lomeríos bajos y con fuerte pendiente sobre rocas volcánicas del Terciario en las que predominan la riolita, el granito y la granodiorita. Los suelos de Chamela son  relativamente jóvenes y someros e identificados como Entisoles. La geología y topografía de la región de Chamela pertenece a la provincia fisiográfica de la Sierra Madre del Sur.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1971,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Chamela Mex-LTER",
+        "shortName": "Chamela",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Chamela%252C%2520Foto%2520M%2520Maass.JPG",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 24.7,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 770,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "deciduous_forest",
+        "ecosystemType": [
+          {
+            "label": "Deciduous Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-105.044 19.4986)",
+        "country": [
+          "Mexico"
+        ],
+        "elevation": {
+          "avg": 150,
+          "min": 10,
+          "max": 580,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 3600,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "paved road",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "In canopy",
+            "uri": null
+          },
+          {
+            "label": "Less than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Mutual agreement on reciprocal sharing of data"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "ltser"
+        }
+      }
+    }
+  }
+}

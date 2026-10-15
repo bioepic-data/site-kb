@@ -1,0 +1,223 @@
+sites:
+- id: site_kb:deims-burnmoor_tarn_-_united_kingdom
+  name: Burnmoor Tarn - United Kingdom
+  network_registrations:
+  - network: DEIMS
+    network_id: 5559bc3a-10b4-492f-875d-67378af4c1df
+    network_url: https://deims.org/5559bc3a-10b4-492f-875d-67378af4c1df
+    name: Burnmoor Tarn - United Kingdom
+  location:
+    latitude: 54.4282
+    longitude: -3.25942
+    country: United Kingdom
+    elevation_meters: 253.0
+  description: 'UK Upland Waters Monitoring Network (UK UWMN) site. Burnmoor Tarn
+    is the largest ''tarn'' in the English Lake District. It occupies 23.9 ha and
+    lies at an altitude of 253 m in a moraine hollow on the uplands between Wastwater
+    and Eskdale. The lake has two distinct basins close to the south-eastern shore
+    and a maximum depth of 13 m. There are four main inflow streams to the north and
+    north-west. The outflow at the eastern end joins the Hardrigg Beck which drains
+    the slopes of Scafell and, in times of especially high flow, is partly diverted
+    into the lake across a braided delta. Some data are managed by UK ECN Data Centre.
+    Note: The area is the size of the catchment.'
+  variables:
+  - name: animal species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: animal species abundance
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10336
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: animal species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: animal species presence
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22059
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: benthic invertebrates abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: benthic invertebrates abundance
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22027
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: benthic invertebrates presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: benthic invertebrates presence
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10123
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: chemical composition of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical composition of water
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/21213
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: dissolved organic carbon in water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dissolved organic carbon in water
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/10307
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: faunistic diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: faunistic diversity
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22119
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: floristic composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: floristic composition
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22121
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: floristic diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: floristic diversity
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22122
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: lake temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: lake temperature
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/10011
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: pH value of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: pH value of water
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/21218
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: plant species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant species abundance
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/10335
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: plant species presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant species presence
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/10341
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: water alkalinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water alkalinity
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/10303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:40:10.755530+00:00'
+      source_modified_at: '2023-07-28T11:12:55+02:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

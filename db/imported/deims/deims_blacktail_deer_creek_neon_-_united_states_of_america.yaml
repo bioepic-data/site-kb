@@ -1,0 +1,100 @@
+sites:
+- id: site_kb:deims-blacktail_deer_creek_neon_-_united_states_of_america
+  name: Blacktail Deer Creek NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: 1b4a6b6c-45f0-4d58-8707-fbac095eed0f
+    network_url: https://deims.org/1b4a6b6c-45f0-4d58-8707-fbac095eed0f
+    name: Blacktail Deer Creek NEON - United States of America
+  location:
+    latitude: 44.95011
+    longitude: -110.58715
+    country: United States of America
+    elevation_meters: 2053.0
+  description: 'Blacktail Deer Creek (BLDE) is an aquatic NEON field site located
+    in Yellowstone National Park. It is 100 km (62 mi.) southeast of Bozeman, MT,
+    just south of the Wyoming-Montana state line. It is hosted by the National Park
+    Service. BLDE is a small perennial stream that flows through the northern part
+    of Yellowstone National Park and into the Yellowstone River east of Mammoth Hot
+    Springs. The creek flows through relatively open terrain, with a dense riparian
+    willow canopy on the stream banks, and drains a watershed of 37.81 km2 (8100 acres).
+    It is shallow with clear water and has the potential to flood during snowmelt
+    and heavy rainfall events. The area is visited by tourists and fisherman regularly
+    during the summer. BLDE is highly representative of a wildland area in NEON''s
+    Northern Rockies Domain (D12). The trophic structure and community interactions
+    are probably more representative of those that were widespread in the region before
+    Euro-American influence than any other place in the Domain. Thus, the site offers
+    a rare opportunity to understand interactions among climate, natural disturbance,
+    ecosystem processes, and community structure in integrated terrestrial and aquatic
+    systems that are representative of those of intact wildlands across the Domain.
+    Domain 12 comprises the northern part of the Rocky Mountain Range in western Montana,
+    Idaho and northwestern Wyoming. D12 has two colocated field sites: BLDE and the
+    YELL terrestrial site.'
+  variables:
+  - name: DNA sequence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: DNA sequence
+      record_url: https://deims.org/api/sites/1b4a6b6c-45f0-4d58-8707-fbac095eed0f
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21400
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:05.674163+00:00'
+      source_modified_at: '2025-09-19T09:28:53+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/1b4a6b6c-45f0-4d58-8707-fbac095eed0f
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:05.674163+00:00'
+      source_modified_at: '2025-09-19T09:28:53+02:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/1b4a6b6c-45f0-4d58-8707-fbac095eed0f
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:05.674163+00:00'
+      source_modified_at: '2025-09-19T09:28:53+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/1b4a6b6c-45f0-4d58-8707-fbac095eed0f
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:05.674163+00:00'
+      source_modified_at: '2025-09-19T09:28:53+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/1b4a6b6c-45f0-4d58-8707-fbac095eed0f
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:05.674163+00:00'
+      source_modified_at: '2025-09-19T09:28:53+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/1b4a6b6c-45f0-4d58-8707-fbac095eed0f
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:05.674163+00:00'
+      source_modified_at: '2025-09-19T09:28:53+02:00'
+  status: ACTIVE

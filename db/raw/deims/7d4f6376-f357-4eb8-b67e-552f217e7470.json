@@ -1,0 +1,326 @@
+{
+  "source_url": "https://deims.org/api/sites/7d4f6376-f357-4eb8-b67e-552f217e7470",
+  "retrieved_at": "2026-10-15T17:35:04.633494+00:00",
+  "record": {
+    "title": "Lake Kasumigaura long-term monitoring station - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "7d4f6376-f357-4eb8-b67e-552f217e7470"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:32:25+01:00",
+    "changed": "2021-03-11T10:05:40+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-06",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "UNEP GEMS/water programme",
+            "uri": null
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Shin-ichiro Matsuzaki",
+            "email": "matsuzakiss@nies.go.jp",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Kumiko Totsu",
+            "email": "cebes.data@nies.go.jp",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www-cger2.nies.go.jp/gems/kasumi/index_j.html"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "We have been monitoring Lake Kasumigaura, the second largest lake in Japan, monthly for nearly four decades. We have monitored not only environmental variables, water quality, nutrients, and heavy metals, but also plankton (e.g., bacteria, heterotrophic nanoflagellates, ciliates, picoplankton, phytoplankton, zooplankton, mysids), primary production, benthos (chironomids and oligochetes), and fish.\r\nTo increase data availability and the numbers of data users, we created an English web database (http://db.cger.nies.go.jp/gem/moni-e/inter/GEMS/database/kasumi/index.html) in this research period, and strengthened our relationships with international observational networks. We also provided monitoring data to the Japan Long-Term Ecological Research Network (JaLTER; http://www.jalter.org/index.php?ml_lang=en) and published two data papers in the international journal Ecological Research (Takamura et al. 2012 a, b). We have also started to register fish monitoring data in the Global Biodiversity Information Facility (GBIF) (http://www.gbif.org/dataset/f648085b-8e1c-4a79-bc8d-f45d36296564) .",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1976,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Lake Kasumigaura long-term monitoring station",
+        "shortName": "Lake Kasumigaura",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": [
+          {
+            "label": "aquaculture and fishing",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_4_AquacultureAndFishing"
+          },
+          {
+            "label": "primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction"
+          },
+          {
+            "label": "professional fishing",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_4_2_ProfessionalFishing"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/lake-kasumigaura-long-term-monitoring-station-japan_4729.jpg",
+            "alt": "Our research boat"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 14.4,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1187,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Large lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (140.383 36.0447)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": 0.16,
+          "min": 0.16,
+          "max": 0.16,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 22000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "micro sites"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground net primary production",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10043"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "lake level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22141"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "secchi depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22226"
+          },
+          {
+            "label": "soil water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22281"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22309"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": "Research boat",
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Unstructured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://db.cger.nies.go.jp/gem/moni-e/inter/GEMS/database/kasumi/contents/terms.html"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

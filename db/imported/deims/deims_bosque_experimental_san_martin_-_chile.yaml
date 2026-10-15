@@ -1,0 +1,79 @@
+sites:
+- id: site_kb:deims-bosque_experimental_san_martin_-_chile
+  name: Bosque Experimental San Martin - Chile
+  network_registrations:
+  - network: DEIMS
+    network_id: da6330bc-fadc-48ab-b391-52e9810dd568
+    network_url: https://deims.org/da6330bc-fadc-48ab-b391-52e9810dd568
+    name: Bosque Experimental San Martin - Chile
+  location:
+    latitude: -39.640317
+    longitude: -73.201561
+    country: Chile
+    elevation_meters: 30.0
+  description: The site covers an area of 200 hectares of well-preserved native forest,
+    which has remained unmanaged since it was donated to the University by Don Adolfo
+    Woerner in the early 1970s. The Bosque San Martín Experimental Station of the
+    Austral University of Chile , is probably one of the oldest long-term study sites
+    in the country. Scientific research is developed from multiple disciplines such
+    as biology, evolution, botany and zoology, among others, applied to forest ecology,
+    climate change, functional ecology and mammalian ecology. The site has an installed
+    infrastructure that also represents a permanent training resource for our undergraduate
+    and graduate students.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/da6330bc-fadc-48ab-b391-52e9810dd568
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:40.472564+00:00'
+      source_modified_at: '2021-11-18T10:52:17+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/da6330bc-fadc-48ab-b391-52e9810dd568
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:40.472564+00:00'
+      source_modified_at: '2021-11-18T10:52:17+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/da6330bc-fadc-48ab-b391-52e9810dd568
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:40.472564+00:00'
+      source_modified_at: '2021-11-18T10:52:17+01:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/da6330bc-fadc-48ab-b391-52e9810dd568
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:40.472564+00:00'
+      source_modified_at: '2021-11-18T10:52:17+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/da6330bc-fadc-48ab-b391-52e9810dd568
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:40.472564+00:00'
+      source_modified_at: '2021-11-18T10:52:17+01:00'
+  status: ACTIVE

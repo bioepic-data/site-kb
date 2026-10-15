@@ -1,0 +1,78 @@
+sites:
+- id: site_kb:deims-unterpullendorf_-_austria
+  name: Unterpullendorf - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 2e80048a-3b38-4a25-9764-bd7c3d2c6a7d
+    network_url: https://deims.org/2e80048a-3b38-4a25-9764-bd7c3d2c6a7d
+    name: Unterpullendorf - Austria
+  location:
+    latitude: 47.4872475
+    longitude: 16.563365
+    country: Austria
+    elevation_meters: 300.0
+  description: The site Unterpullendorf is part of the European Level II Forest Monitoring
+    System in the frame of the International Co-operative Programme on Assessment
+    and Monitoring of Air Pollution Effects on Forests (ICP Forests). This site is
+    one out of 16 Austrian Level II sites; it  was established in 1995 and is, since
+    2006, part of the LTER Austria network. The site is situated about 80 km south
+    of Vienna near the Hungarian border at 290 m a.s.l., in a homogenous about 100
+    years old managed oak stand.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/2e80048a-3b38-4a25-9764-bd7c3d2c6a7d
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:53.442424+00:00'
+      source_modified_at: '2026-10-06T11:35:01+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/2e80048a-3b38-4a25-9764-bd7c3d2c6a7d
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:53.442424+00:00'
+      source_modified_at: '2026-10-06T11:35:01+02:00'
+  - name: leaf area
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: leaf area
+      record_url: https://deims.org/api/sites/2e80048a-3b38-4a25-9764-bd7c3d2c6a7d
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22156
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:53.442424+00:00'
+      source_modified_at: '2026-10-06T11:35:01+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/2e80048a-3b38-4a25-9764-bd7c3d2c6a7d
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:53.442424+00:00'
+      source_modified_at: '2026-10-06T11:35:01+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/2e80048a-3b38-4a25-9764-bd7c3d2c6a7d
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:53.442424+00:00'
+      source_modified_at: '2026-10-06T11:35:01+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

@@ -1,0 +1,63 @@
+sites:
+- id: site_kb:deims-ikawa_forest_station_-_japan
+  name: Ikawa Forest Station - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 3915b491-87de-4f1e-a931-0edb82d29671
+    network_url: https://deims.org/3915b491-87de-4f1e-a931-0edb82d29671
+    name: Ikawa Forest Station - Japan
+  location:
+    latitude: 35.340144
+    longitude: 138.22504
+    country: Japan
+    elevation_meters: 1676.89
+  description: The Oi River upper river basin is sandwiched between two of Japan’s
+    major fault lines, the Median Tectonic Line and the Itoigawa-Shizuoka Tectonic
+    Line making the area subject to intense crustal deformation and the foundation
+    in the area here collapses easily. Sandstone and shale formed on the ocean floor
+    end of the Cretaceous period (approx. 60 million year ago) rose at an accelerated
+    rate over the last several million years and at the same time severely corroded.
+    As a result the Ikawa Forest Station boasts one of the country’s highest sediment
+    yields and the sediment movement here is more active than any other university-owned
+    field in Japan. A debris avalanche occurs virtually every year, and research is
+    conducted on erosion control and topography that make use of this phenomenon.
+    The movement of the forest’s soil and water is surveyed in exercises for acquiring
+    knowledge and skills regarding the forest’s function and usage. We measure the
+    effects climate change, changes in forest vegetation, and deforestation have on
+    micro weather systems and soil movement, as well as carbon and nitrogen circulation.
+    Topography and erosion control engineering research is also often conducted here.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/3915b491-87de-4f1e-a931-0edb82d29671
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:29.735746+00:00'
+      source_modified_at: '2020-11-17T09:29:33+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/3915b491-87de-4f1e-a931-0edb82d29671
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:29.735746+00:00'
+      source_modified_at: '2020-11-17T09:29:33+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/3915b491-87de-4f1e-a931-0edb82d29671
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:29.735746+00:00'
+      source_modified_at: '2020-11-17T09:29:33+01:00'
+  status: ACTIVE

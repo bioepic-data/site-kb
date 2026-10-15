@@ -1,0 +1,114 @@
+sites:
+- id: site_kb:deims-ltser_platform_pannonischer_raum_-_austria
+  name: LTSER Platform Pannonischer Raum - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 1230b149-9ba5-4ab8-86c9-cf93120f8ae2
+    network_url: https://deims.org/1230b149-9ba5-4ab8-86c9-cf93120f8ae2
+    name: LTSER Platform Pannonischer Raum - Austria
+  location:
+    latitude: 47.767853
+    longitude: 16.764476
+    country: Austria
+    elevation_meters: 370.0
+  description: "The LTSER Platform Pannonischer Raum represents the entire area of\
+    \ the federal state of Burgenland in Austria an so the Pannonian Region. \r\n\r\
+    \nLocated on the eastern edge of the alps and the western edge of the small hungarian\
+    \ plain the area is one of Austria’s hotspots of biodiversity. Alpine, asian,\
+    \ mediterranean and nordic species are present as well as endemics.  The high\
+    \ diversity of habitats results from a high variability of environmental factors\
+    \ as different soil types, flooding and draught but also anthropogenic influence.\r\
+    \nIt also represents Europe‘s most western steppe lake - Lake Neusiedl (Austria)\
+    \ - and the cultural landscape that it’s surrounded by. It extends a total area\
+    \ of about 500 km² and is characterized by the steppe lake, it’s reed belt and\
+    \ a mosaic of salt marshes, periodically dry saline lakes, sand habitats, dry\
+    \ and wet grasslands, vineyards, cropland, touristic infrastructure and rural\
+    \ settlements. The region (average altitude 120 m.a.s.l.) is characterised by\
+    \ a hot, dry Pannonian climate with an annual precipitation of 600 mm and temperatures\
+    \ between 40 °C in summer and -20 °C in winter, making this area unique in Austria\
+    \ and contrasts the alpine landscapes of western Austria.\r\n\r\nThe LTSER Platform\
+    \ Pannonischer Raum, in turn, attempts to cover all socio-ecological aspects across\
+    \ the north and south of the federal state and to ensure that these are recorded\
+    \ in a representative and comparable manner. \r\nThe aim of the research is to\
+    \ provide decision-making tools for sustainable ecosystem management and conservation\
+    \ as well as sustainable regional development fort the entire area of Burgenland."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/1230b149-9ba5-4ab8-86c9-cf93120f8ae2
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:49.534891+00:00'
+      source_modified_at: '2026-01-26T11:31:16+01:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/1230b149-9ba5-4ab8-86c9-cf93120f8ae2
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:49.534891+00:00'
+      source_modified_at: '2026-01-26T11:31:16+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/1230b149-9ba5-4ab8-86c9-cf93120f8ae2
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:49.534891+00:00'
+      source_modified_at: '2026-01-26T11:31:16+01:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/1230b149-9ba5-4ab8-86c9-cf93120f8ae2
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:49.534891+00:00'
+      source_modified_at: '2026-01-26T11:31:16+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/1230b149-9ba5-4ab8-86c9-cf93120f8ae2
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:49.534891+00:00'
+      source_modified_at: '2026-01-26T11:31:16+01:00'
+  - name: physical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: physical parameter
+      record_url: https://deims.org/api/sites/1230b149-9ba5-4ab8-86c9-cf93120f8ae2
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20938
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:49.534891+00:00'
+      source_modified_at: '2026-01-26T11:31:16+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/1230b149-9ba5-4ab8-86c9-cf93120f8ae2
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:49.534891+00:00'
+      source_modified_at: '2026-01-26T11:31:16+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

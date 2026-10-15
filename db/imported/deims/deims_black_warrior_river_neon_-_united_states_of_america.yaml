@@ -1,0 +1,91 @@
+sites:
+- id: site_kb:deims-black_warrior_river_neon_-_united_states_of_america
+  name: Black Warrior River NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: afc73ef8-d5fc-477e-8c05-d98cb671ce76
+    network_url: https://deims.org/afc73ef8-d5fc-477e-8c05-d98cb671ce76
+    name: Black Warrior River NEON - United States of America
+  location:
+    latitude: 31.85388
+    longitude: -88.16122
+    country: United States of America
+    elevation_meters: 22.0
+  description: The Black Warrior River site (BLWA) is an aquatic site on the Black
+    Warrior River in west-central Alabama. The site sits in the lower extent of the
+    river’s 16,160 km2 (nearly 4 million acre) watershed, 11 km upriver from its confluence
+    with the Tombigbee River. As a navigable river, it is managed by the U.S. Army
+    Corps of Engineers; the property used to access BLWA is privately owned. The site
+    is forested, and the topography is flat with shallow depressions. The river is
+    impacted by a series of locks and dams, coal-fired steam power plants, and urban
+    and agricultural use. BLWA is part of NEON's Ozarks Complex Domain (D08). D08
+    includes 2 other aquatic field sites and 3 terrestrial field sites. BLWA is colocated
+    with the terrestrial site at Dead Lake (DELA).
+  variables:
+  - name: DNA sequence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: DNA sequence
+      record_url: https://deims.org/api/sites/afc73ef8-d5fc-477e-8c05-d98cb671ce76
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21400
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:53.227224+00:00'
+      source_modified_at: '2025-09-19T09:27:06+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/afc73ef8-d5fc-477e-8c05-d98cb671ce76
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:53.227224+00:00'
+      source_modified_at: '2025-09-19T09:27:06+02:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/afc73ef8-d5fc-477e-8c05-d98cb671ce76
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:53.227224+00:00'
+      source_modified_at: '2025-09-19T09:27:06+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/afc73ef8-d5fc-477e-8c05-d98cb671ce76
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:53.227224+00:00'
+      source_modified_at: '2025-09-19T09:27:06+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/afc73ef8-d5fc-477e-8c05-d98cb671ce76
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:53.227224+00:00'
+      source_modified_at: '2025-09-19T09:27:06+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/afc73ef8-d5fc-477e-8c05-d98cb671ce76
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:53.227224+00:00'
+      source_modified_at: '2025-09-19T09:27:06+02:00'
+  status: ACTIVE

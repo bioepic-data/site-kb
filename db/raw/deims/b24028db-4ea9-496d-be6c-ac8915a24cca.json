@@ -1,0 +1,320 @@
+{
+  "source_url": "https://deims.org/api/sites/b24028db-4ea9-496d-be6c-ac8915a24cca",
+  "retrieved_at": "2026-10-15T17:44:06.280183+00:00",
+  "record": {
+    "title": "Mase paddy flux site - Japan",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "b24028db-4ea9-496d-be6c-ac8915a24cca"
+    },
+    "type": "site",
+    "created": "2016-06-04T12:42:55+02:00",
+    "changed": "2021-03-11T10:25:08+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "JaLTER (Japan)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "6a7c82f8-f472-40ad-ae28-3035e239f3b6"
+              }
+            },
+            "siteCode": "LTER-EAP-JP-52",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "FLUXNet",
+            "uri": "https://fluxnet.org/"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "GDPR 33ce8b24-eccb-40f7-af5a-eacc6d7e93ba",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "NARO - National Institute for Agro-Environmental Sciences (NIAES)",
+            "url": "http://www.naro.affrc.go.jp/english/niaes/index.html",
+            "ror": "https://ror.org/023kfg220"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "GDPR 33ce8b24-eccb-40f7-af5a-eacc6d7e93ba",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "NARO - National Institute for Agro-Environmental Sciences (NIAES)",
+            "url": "http://www.naro.affrc.go.jp/english/niaes/index.html",
+            "ror": "https://ror.org/023kfg220"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "Site information at AsiaFlux website",
+            "value": "http://asiaflux.net/index.php?page_id=83"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Mase rice paddy site is a flux station in the AsiaFlux micrometeorological tower network. Located in a regularly cultivated rice paddy area of the Kanto plain in Japan, the site was established in 1999. The initial motivation was to quantify the energy and carbon balance in the rice paddy (ca, 54 a) where the tower was situated. Because of the accessibility and line-power availability, the site has involved many researchers and students from universities and institutes, broadening its target to studies on satellite and field remote sensing, ecosystem modelling, and nutrient cycling.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1999,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Mase paddy flux site",
+        "shortName": "Mase",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": [
+          {
+            "label": "agriculture",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_Agriculture"
+          },
+          {
+            "label": "farming infrastructure",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_1_2_FarmingInfrastructure"
+          },
+          {
+            "label": "primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/mase-paddy-flux-site-japan_4740.jpg",
+            "alt": "Site view"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 13.7,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1200,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((140.02659916878 36.053808477097, 140.02715706825 36.053426825256, 140.02743601799 36.053721738205, 140.02683520317 36.054068693201, 140.02659916878 36.053808477097))",
+        "coordinates": "POINT (140.02692 36.05392)",
+        "country": [
+          "Japan"
+        ],
+        "elevation": {
+          "avg": 11,
+          "min": 11,
+          "max": 11,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 0.54,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air specific humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22034"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "air water vapour concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22036"
+          },
+          {
+            "label": "air water vapour pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22037"
+          },
+          {
+            "label": "atmosphere stability",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21542"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "dew point",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22104"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "leaf area",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22156"
+          },
+          {
+            "label": "plant carbon concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22187"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "saturated water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22222"
+          },
+          {
+            "label": "sky temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22239"
+          },
+          {
+            "label": "soil heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22253"
+          },
+          {
+            "label": "vapor pressure deficit",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22306"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 14,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 14
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "5-10 kW",
+            "uri": null
+          },
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "All over site/catchment",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "Less than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://asiaflux.net/?page_id=23"
+              }
+            ],
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": "Almost adopt the fair-use policy based on AsiaFlux"
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

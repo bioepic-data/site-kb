@@ -1,0 +1,330 @@
+{
+  "source_url": "https://deims.org/api/sites/51d0598a-e9e1-4252-8850-60fc8f329aab",
+  "retrieved_at": "2026-10-15T17:43:21.148148+00:00",
+  "record": {
+    "title": "Mazia-Matsch Grassland - Italy",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "51d0598a-e9e1-4252-8850-60fc8f329aab"
+    },
+    "type": "site",
+    "created": "2015-09-30T14:12:27+02:00",
+    "changed": "2025-09-22T11:26:21+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Italia (Italy)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "7fef6b73-e5cb-4cd2-b438-ed32eb1504b3"
+              }
+            },
+            "siteCode": "LTER_EU_IT_098",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Georg Niedrist",
+            "email": "Georg.Niedrist@eurac.edu",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Veronika Fontana",
+            "email": "Veronika.Fontana@eurac.edu",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "European Academy of Bolzano (Eurac research)",
+            "url": "http://www.eurac.edu/en/pages/default.aspx",
+            "ror": "https://ror.org/01xt1w755"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Georg Niedrist",
+            "email": "Georg.Niedrist@eurac.edu",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Veronika Fontana",
+            "email": "Veronika.Fontana@eurac.edu",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "Autonomous Province of Bolzano - Bozen",
+            "url": "https://home.provinz.bz.it/en/home",
+            "ror": null
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "LTER-Italy website",
+            "value": "http://www.lteritalia.it/"
+          },
+          {
+            "title": "Muntatschinig Research Site",
+            "value": "http://lter.eurac.edu/en/Research-sites/Monteschino"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The grassland site is located in the area of Muntatschinig (Monteschino) and comprises meadows and dry pastures at an elevation of app. 1500m a.s.l.. The site was first established in 2008 as a weather station and was expanded in the following years. In 2010 the University of Innsbruck installed an eddy covariance station. Nine automatic lysimeters were added to measure evapotranspiration and water use efficiency. Since 2012 a rain-out shelter system has been used for simulating spring and summer droughts. This site is one of the sites along the elevation transect used for grassland studies.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2008,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "IT25 - Val Mazia-Matschertal - Italy",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "11696de6-0ab9-4c94-a06b-7ce40f56c964"
+                },
+                "changed": "2025-07-08T12:07:56+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "Mazia-Matsch Grassland",
+        "shortName": "Monteschino",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/monteschino.jpg",
+            "alt": "Measuring station at Muntatschinig in Matschertal - Val Mazia"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 5.6,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 525,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "alpine",
+        "ecosystemType": [
+          {
+            "label": "Grasslands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          },
+          {
+            "label": "Mesic grasslands (E2)",
+            "uri": null
+          },
+          {
+            "label": "Mountain hay meadows (E2.3)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((10.585075302084 46.686802064269, 10.584121385541 46.687239276018, 10.583405948134 46.687795727335, 10.582770003772 46.688411798436, 10.582312918761 46.688709897356, 10.580882043946 46.690319631522, 10.580703184595 46.690120898909, 10.580106986755 46.689445208024, 10.578854971292 46.688352178652, 10.578437632804 46.687736107551, 10.578616492156 46.687358515586, 10.578318393237 46.686861684053, 10.57776194192 46.68712003645, 10.577503589522 46.687477755154, 10.577801688442 46.687954713426, 10.578417759543 46.688213065823, 10.578616492156 46.688590657788, 10.57867611194 46.688888756708, 10.57851712585 46.688888756708, 10.578378013021 46.689723433683, 10.578020294317 46.690339504784, 10.577205490603 46.690081152386, 10.576072714708 46.689484954547, 10.575635502959 46.689584320854, 10.573986022269 46.689166982366, 10.574184754883 46.687696361028, 10.574880319029 46.687457881893, 10.574641839893 46.686643078179, 10.57595347514 46.686086626862, 10.576211827537 46.686146246646, 10.576649039286 46.685669288374, 10.576370813628 46.685470555761, 10.575854108833 46.685510302284, 10.575138671426 46.685748781419, 10.57430399445 46.685212203364, 10.574582220109 46.684953850967, 10.574840572506 46.684616005524, 10.574880319029 46.684238413559, 10.574959812074 46.683860821594, 10.574979685335 46.683363990061, 10.575476516868 46.683026144619, 10.57611246123 46.682688299177, 10.576629166025 46.682569059609, 10.577066377774 46.682270960689, 10.577503589522 46.682251087428, 10.577901054749 46.681754255895, 10.57851712585 46.681694636111, 10.579192816734 46.681813875679, 10.579749268051 46.681436283714, 10.58048457872 46.681416410452, 10.580305719368 46.682429946779, 10.580842297424 46.681774129156, 10.58183596049 46.681038818487, 10.582809750294 46.680581733477, 10.583525187702 46.680561860216, 10.583781866551 46.680750091526, 10.583783540099 46.680740719567, 10.58410151228 46.68062148, 10.586247824502 46.67972718324, 10.587241487568 46.679230351707, 10.58771844584 46.679150858662, 10.587917178453 46.679627816934, 10.588414009986 46.680263761296, 10.589825011539 46.681694636111, 10.590083363936 46.682350453734, 10.589308306745 46.682966524835, 10.588235150634 46.683522976152, 10.587161994523 46.683980061162, 10.587102374739 46.683999934423, 10.587003008432 46.684496765956, 10.586625416467 46.685510302284, 10.585870232537 46.686106500123, 10.585075302084 46.686802064269))",
+        "coordinates": "POINT (10.579786 46.686294)",
+        "country": [
+          "Italy"
+        ],
+        "elevation": {
+          "avg": 1480,
+          "min": 1480,
+          "max": 1480,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 81.74,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil pH",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22264"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil texture",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22279"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 15,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 15
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "Lysimeter",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Web Catalog Service (CSW)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

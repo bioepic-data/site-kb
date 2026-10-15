@@ -1,0 +1,134 @@
+sites:
+- id: site_kb:deims-gameljne_-_slovenia
+  name: Gameljne - Slovenia
+  network_registrations:
+  - network: DEIMS
+    network_id: 6934836e-57af-40f6-bfff-299c12a532a0
+    network_url: https://deims.org/6934836e-57af-40f6-bfff-299c12a532a0
+    name: Gameljne - Slovenia
+  location:
+    latitude: 46.117064
+    longitude: 14.487763
+    country: Slovenia
+    elevation_meters: 296.0
+  description: "URBAN RIPARIAL AND FLOODPLAIN FORESTS TRANSECT IN THE CITY OF LJUBLJANA.\r\
+    \nThe urban forest site consists of a riparian pine forest, floodplain hardwood\
+    \ forest and a meadow. It is located in the sub-urban part of Ljubljana, along\
+    \ the Sava river at 300 m above sea level. Bedrock material is glaciofluvial gravel\
+    \ and the soil was classified as Fluvisols (WRB 2007). Each part of this site\
+    \ consists of a 0.25 ha square plot. The urban riparian forest site is positioned\
+    \ on a river terrace, outside of the direct influence of the river water. It is\
+    \ composed of Pinus sylvestris L. in the upper canopy layer, and a mixture of\
+    \ deciduous tree species in the mid-story and lower canopy layer, such as Tilia\
+    \ cordata Mill., Quercus petraea (Mattuschka) Liebl. and Carpinus betulus L. The\
+    \ canopy cover is very loose, with a dense understorey. The thickness of the O\
+    \ horizon is 0 to 6 cm and the depth of the M horizon is 0 to 40 cm, with a sandy\
+    \ loam texture. The floodplain hardwood forest is located near the riparian pine\
+    \ forest, approximately 2 m above the Sava River terrace. It is composed of Acer\
+    \ pseudoplatanus L., Alnus incana (L.) Moench., Tilia cordata Mill., etc. Canopy\
+    \ cover is loose, with rather dense shrub and forest floor vegetation. This site\
+    \ is exposed to spontaneous spreading of invasive alien plant species due to frequent\
+    \ flooding. The thickness of the O horizon is 0 t to 4 cm and the depth of the\
+    \ M horizon was between 0 and 90 cm, with a clay-loam texture."
+  variables:
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/6934836e-57af-40f6-bfff-299c12a532a0
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:26.107596+00:00'
+      source_modified_at: '2025-04-23T10:41:15+02:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/6934836e-57af-40f6-bfff-299c12a532a0
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:26.107596+00:00'
+      source_modified_at: '2025-04-23T10:41:15+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/6934836e-57af-40f6-bfff-299c12a532a0
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:26.107596+00:00'
+      source_modified_at: '2025-04-23T10:41:15+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/6934836e-57af-40f6-bfff-299c12a532a0
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:26.107596+00:00'
+      source_modified_at: '2025-04-23T10:41:15+02:00'
+  - name: relative humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: relative humidity
+      record_url: https://deims.org/api/sites/6934836e-57af-40f6-bfff-299c12a532a0
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/21579
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:26.107596+00:00'
+      source_modified_at: '2025-04-23T10:41:15+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/6934836e-57af-40f6-bfff-299c12a532a0
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:26.107596+00:00'
+      source_modified_at: '2025-04-23T10:41:15+02:00'
+  - name: soil temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil temperature
+      record_url: https://deims.org/api/sites/6934836e-57af-40f6-bfff-299c12a532a0
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22278
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:26.107596+00:00'
+      source_modified_at: '2025-04-23T10:41:15+02:00'
+  - name: wind direction
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind direction
+      record_url: https://deims.org/api/sites/6934836e-57af-40f6-bfff-299c12a532a0
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22317
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:26.107596+00:00'
+      source_modified_at: '2025-04-23T10:41:15+02:00'
+  - name: wind speed
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind speed
+      record_url: https://deims.org/api/sites/6934836e-57af-40f6-bfff-299c12a532a0
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22319
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:26.107596+00:00'
+      source_modified_at: '2025-04-23T10:41:15+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

@@ -1,0 +1,286 @@
+{
+  "source_url": "https://deims.org/api/sites/8d00bd9f-3bee-4d10-ade1-499fb061b7ff",
+  "retrieved_at": "2026-10-15T17:47:59.729891+00:00",
+  "record": {
+    "title": "Dakota Coteau Field Site NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "8d00bd9f-3bee-4d10-ade1-499fb061b7ff"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-17T13:40:15+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "DCFS",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Andrea Anteau",
+            "email": "aanteau@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/dcfs"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Dakota Coteau Field Site (DCFS) is a terrestrial NEON field site located in Stuntsman County, North Dakota, approximately 160 km (100 mi.) northeast of Bismarck, in an area known as the \"Prairie Pothole Region.\" This region includes a patchwork of grasslands, agricultural, and wetland/aquatic communities embedded in a matrix of small agrarian communities. This site is managed by the State of North Dakota Land Trust and is moderately grazed throughout the year. NEON sampling at DCFS occurs across nonadjacent land parcels interspersed by private land with a total sampling area of 2.6 km2 (642 acres). DCFS is part of NEON's Northern Plains Domain (D09). D09 has two other terrestrial field sites and two aquatic field sites. DCFS is colocated with the Prairie Lake at Dakota Coteau Field Site aquatic site (PRLA).",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2017,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "groups with",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Prairie Lake NEON - United States of America",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "42eb952f-58d0-4089-90f1-d7784bf3679b"
+                },
+                "changed": "2025-09-18T15:36:54+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "Dakota Coteau Field Site NEON",
+        "shortName": "DCFS",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/48788361496_bf5a793bc8_h.jpg",
+            "alt": "Cows at Dakota Coteau Field School Site"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/48788507042_fec3400ec1_h.jpg",
+            "alt": "Field scientists at Dakota Coteau Field School Site"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 4.9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 490,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "grasslands",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "The geology at this site is characterized by glacial sediments of mud, clay, and silt. More specifically, the parent materials at DCFS are mostly Wisconsin age, fine-loamy glacial till and alluvium derived from the till. In addition to the till, the northeastern section of the site consists of sandy and gravelly glacial outwash. ",
+        "hydrology": null,
+        "soils": "The soil order at this site is Mollisol. The soil family is fine-loamy, mixed, superactive, frigid Typic Haplustolls.",
+        "vegetation": "The Northern Plains Domain is dominated by prairie grasslands, including a combination of short and mid-stature grasses, and croplands. Dominant vegetation types include silverberry (Elaeagnus commutata), Kentucky bluegrass (Poa pretensis), and ﬁreberry hawthorn (Crataegus chrysocarpa)."
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-99.1219166 47.153329799, -99.121969201 47.167823799, -99.1006809 47.167763699, -99.1006235 47.153276699, -99.1219166 47.153329799))",
+        "coordinates": "POINT (-99.10656 47.16165)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 575,
+          "min": 494,
+          "max": 592,
+          "unit": "msl"
+        },
+        "size": {
+          "value": null,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "latent heat",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22154"
+          },
+          {
+            "label": "leaf area index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22157"
+          },
+          {
+            "label": "ozone concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22178"
+          },
+          {
+            "label": "plant diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22191"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil carbon dioxyde flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21939"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

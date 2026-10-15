@@ -1,0 +1,149 @@
+sites:
+- id: site_kb:deims-srebarna_-_bulgaria
+  name: Srebarna - Bulgaria
+  network_registrations:
+  - network: DEIMS
+    network_id: bc7e400a-ad18-4aeb-b11e-846362983a04
+    network_url: https://deims.org/bc7e400a-ad18-4aeb-b11e-846362983a04
+    name: Srebarna - Bulgaria
+  location:
+    latitude: 44.0945
+    longitude: 27.064
+    country: Bulgaria
+    elevation_meters: 11.6
+  description: "The Srebarna Lake was designated as a Monument of World Cultural and\
+    \ Natural Heritage (1983), UNESCO biosphere reserve (1977), Ramsar site (1975)\
+    \ and Important Bird Area (1990) because of its extremely rich ornithofauna and\
+    \ mainly because of the breeding of globally threatened species Dalmatian Pelican\
+    \ (Pelecanus crispus), Pygmy Cormorant (Phalacrocorax pygmeus) and Ferruginous\
+    \ Duck (Aythya nyroca). During the last years the lake ecosystem underwent significant\
+    \ changes towards strong eutrophication and anthropogenically speeded-up succession.\
+    \ The main reasons were the interrupted connection with the Danube River (because\
+    \ of a dyke built in 1948) together with the pumping-out of the underground waters,\
+    \ as well as the agricultural changes and activities in the watershed basin. The\
+    \ restoration activities carried out in 1993-1994 and especially the canal which\
+    \ connected the lake with the Danube lead to the beginning of lake recovery. All\
+    \ these events influenced the biodiversity of the reserve.\r\n\r\nThe dominant\
+    \ plant association is that of the Reed (Phragmites australis), which occupies\
+    \ about two-thirds (400 ha) of the Reserve's total surface area. Gray Willow (Salix\
+    \ cinerea) and Purple Willow (Salix purpurea) bushes grow in some places. The\
+    \ second widest spread plant species after the Reed is the Lesser Reedmace (Typha\
+    \ angustifolia), and it is more abundant than the Great Reedmace (Typha latifolia).\
+    \ Of all 139 vascular plant species hosted by the Reserve, 11 are rare or endangered.\
+    \ Some 19 fish species occurred in the lake until 1948. There are 21 reptile and\
+    \ amphibian species, and 41 mammal species. The avifauna numbered a total of 230\
+    \ bird species. The nesting colony of Dalmatian Pelican (Pelecanus crispus) is\
+    \ the pearl of the Reserve."
+  variables:
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/bc7e400a-ad18-4aeb-b11e-846362983a04
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:02.522664+00:00'
+      source_modified_at: '2025-09-17T12:09:55+02:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/bc7e400a-ad18-4aeb-b11e-846362983a04
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:02.522664+00:00'
+      source_modified_at: '2025-09-17T12:09:55+02:00'
+  - name: atmospheric pressure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric pressure
+      record_url: https://deims.org/api/sites/bc7e400a-ad18-4aeb-b11e-846362983a04
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22060
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:02.522664+00:00'
+      source_modified_at: '2025-09-17T12:09:55+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/bc7e400a-ad18-4aeb-b11e-846362983a04
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:02.522664+00:00'
+      source_modified_at: '2025-09-17T12:09:55+02:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/bc7e400a-ad18-4aeb-b11e-846362983a04
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:02.522664+00:00'
+      source_modified_at: '2025-09-17T12:09:55+02:00'
+  - name: mean annual air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: mean annual air temperature
+      record_url: https://deims.org/api/sites/bc7e400a-ad18-4aeb-b11e-846362983a04
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/21530
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:02.522664+00:00'
+      source_modified_at: '2025-09-17T12:09:55+02:00'
+  - name: mean annual precipitation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: mean annual precipitation
+      record_url: https://deims.org/api/sites/bc7e400a-ad18-4aeb-b11e-846362983a04
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22166
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:02.522664+00:00'
+      source_modified_at: '2025-09-17T12:09:55+02:00'
+  - name: minimum temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: minimum temperature
+      record_url: https://deims.org/api/sites/bc7e400a-ad18-4aeb-b11e-846362983a04
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/21532
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:02.522664+00:00'
+      source_modified_at: '2025-09-17T12:09:55+02:00'
+  - name: physical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: physical parameter
+      record_url: https://deims.org/api/sites/bc7e400a-ad18-4aeb-b11e-846362983a04
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/20938
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:02.522664+00:00'
+      source_modified_at: '2025-09-17T12:09:55+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/bc7e400a-ad18-4aeb-b11e-846362983a04
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:02.522664+00:00'
+      source_modified_at: '2025-09-17T12:09:55+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

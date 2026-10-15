@@ -1,0 +1,227 @@
+{
+  "source_url": "https://deims.org/api/sites/69452a1c-841f-4f80-be28-61bdd99ac8b7",
+  "retrieved_at": "2026-10-15T17:45:48.547149+00:00",
+  "record": {
+    "title": "PermaFrance Aiguille du Midi - France",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "69452a1c-841f-4f80-be28-61bdd99ac8b7"
+    },
+    "type": "site",
+    "created": "2016-11-27T15:40:00+01:00",
+    "changed": "2024-03-04T12:02:30+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "Global Terrestrial Network for Permafrost (GTN-P)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "29686b40-2ef8-41fb-a652-91204962e4d6"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": [
+          {
+            "label": "PermaFrance",
+            "uri": "https://permafrance.osug.fr/?lang=en"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Ludovic Ravanel",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "PermaFRANCE",
+            "url": "http://permafrance.osug.fr",
+            "ror": null
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "PermaFRANCE",
+            "url": "http://permafrance.osug.fr",
+            "ror": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "PermaFRANCE Observatory",
+            "value": "http://permafrance.osug.fr"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "High mountain granite peak at 3750 m above Chamonix, in the French Alps. The site dominates a glacial environment, with the Vallée Blanche-Mer de Glace to the Est and North. The site is made of two peaks: the Western peak is accessible by cable car, whereas the monitoring activities are performed on the Central peak. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2005,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "LTSER Zone Atelier Alpes - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "79d6c1df-570f-455f-a929-6cfe5c4ca1e9"
+                },
+                "changed": "2025-01-10T09:06:34+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "PermaFrance Aiguille du Midi",
+        "shortName": "AdM",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": -8,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 3000,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "alpine",
+        "ecosystemType": [
+          {
+            "label": "Alpine",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland cliffs, rock pavements and outcrops (H3)",
+            "uri": null
+          },
+          {
+            "label": "Inland unvegetated or sparsely vegetated habitats (H)",
+            "uri": null
+          },
+          {
+            "label": "Snow or ice-dominated habitats (H4)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "Mont Banc granite",
+        "hydrology": "No liquid water. Surrounded by glaciers.",
+        "soils": null,
+        "vegetation": "No vegetation."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (6.887625 45.878403)",
+        "country": [
+          "France"
+        ],
+        "elevation": {
+          "avg": 3750,
+          "min": 3600,
+          "max": 3845,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 0.1,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot without link to explicit catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "cable car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 180,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 180
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://gtnpdatabase.org/"
+              }
+            ],
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": "Borehole data available on-line for free on the GTN-P database. Other data on request."
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

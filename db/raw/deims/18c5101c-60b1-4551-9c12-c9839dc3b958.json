@@ -1,0 +1,208 @@
+{
+  "source_url": "https://deims.org/api/sites/18c5101c-60b1-4551-9c12-c9839dc3b958",
+  "retrieved_at": "2026-10-15T17:47:58.205603+00:00",
+  "record": {
+    "title": "Arikaree River NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "18c5101c-60b1-4551-9c12-c9839dc3b958"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-19T09:24:35+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "ARIK",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Chau Tran",
+            "email": "ctran@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/arik"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Arikaree River (ARIK) is an aquatic NEON field site located in the central plains of Northeastern Colorado. It has a large watershed size of 2631.8 km2 (650,332 acres), and the land is managed by The Nature Conservancy. The area is sensitive to invasive plant species and disturbance, and NEON works with The Nature Conservancy to maintain Arikaree’s tall-grass prairie and diverse bird community. In the winter, Arikaree River is a free-flowing stream and dries into standing pools in the summer. The site is part of NEON's Central Plains Domain (D10). D10 has three terrestrial field sites and one other aquatic field site. ARIK is not colocated with a terrestrial site.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2014,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Arikaree River NEON",
+        "shortName": "ARIK",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/15603480355_893d018201_b.jpg",
+            "alt": "ARIK landscape"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/15416852659_133a33c91b_b.jpg",
+            "alt": "PAR at S1 from right bank"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.4,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 452,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "grasslands",
+        "ecosystemType": [
+          {
+            "label": "Grasslands",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": "The geology at this site is characteristic of the Ogallala Formation which is comprised of alternating conglomerates and sandstones.",
+        "hydrology": "The Arikaree River drains a large watershed of 2631.8 km2 (650,332 acres), but maintains the characteristics of a small wadeable stream throughout its length. Flow is fed primarily through surface run off, though some of the river comes from underground aquifers. Large peaks in flow can happen whenever strong, localized storms occur in the watershed, but generally the river dries up in the summer and leaves only pools. The Arikaree is thought to be one of the last free flowing rivers in the Great Plains.",
+        "soils": "The Arikaree River flows through a sand-alluvial basin and its bed and banks are composed mostly of sand.",
+        "vegetation": "The grassy shores of Arikaree River are dominated by grasses. Blue grama grass (Bouteloua gracilis), needle-and-thread grass (Hesperostipa comata), and big bluestem (Andropogon gerardii) grow strong here among others."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-102.4471 39.75825)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 1179,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 289000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

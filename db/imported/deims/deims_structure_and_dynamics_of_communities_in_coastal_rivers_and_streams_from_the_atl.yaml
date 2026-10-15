@@ -1,0 +1,92 @@
+sites:
+- id: site_kb:deims-structure_and_dynamics_of_communities_in_coastal_rivers_and_streams_from_the_atl
+  name: STRUCTURE AND DYNAMICS OF COMMUNITIES IN COASTAL RIVERS AND STREAMS FROM THE
+    ATLANTIC FOREST - ITANHAÉM RIVER BASIN. - Brazil
+  network_registrations:
+  - network: DEIMS
+    network_id: 411804c4-2661-4c15-ba0f-6507fdddb9cb
+    network_url: https://deims.org/411804c4-2661-4c15-ba0f-6507fdddb9cb
+    name: STRUCTURE AND DYNAMICS OF COMMUNITIES IN COASTAL RIVERS AND STREAMS FROM
+      THE ATLANTIC FOREST - ITANHAÉM RIVER BASIN. - Brazil
+  location:
+    latitude: -24.0848
+    longitude: -46.4904
+    country: Brazil
+    elevation_meters: 450.0
+  description: Itanhaém River basin is located in the Center-South coastal of São
+    Paulo State, Brazil(23° 50’ a 24° 15’ S; 46° 35’ a 47° 00’) have an area of 944.3
+    Km2, and is the larger coastal basin exclusively of the state. Itanhaém River
+    basin has a great diversity of natural characteristics and different land uses
+    that determines the occurrence of rivers and streams with distinct limnological
+    characteristics. Within the PELD-ITA we aim to study different aquatic communities
+    (fish, aquatic macrophytes, macroinvertebrates and perifiton) with concomitant
+    samples and within a georeferenced basin. We already have data about landscape,
+    riparian zone, and limnological variables that allows us to monitor spatial and
+    temporal changes in the land use and relate these changes with biotic and abiotic
+    characteristics of water bodies. The data on fish and aquatic macrophytes distribution
+    clearly show a mouth-headwater gradient in the watershed. Fish communities form
+    four fish zones based in the dominance of families that are determined by the
+    marine influence (salt and brackish water), declivity, barriers and food availability.
+    Aquatic macrophytes also show a longitudinal gradient, with species tolerant to
+    salinity in the lower portion of the watershed (Spartina alterniflora, Crinum
+    procerum) and submersed species close to the headwaters (Egeria densa, Cabomba
+    furcata). The spatial distribution of macrophytes is also related with water temperature,
+    turbidity and nutrient concentrations, and canal characteristics (depth, margin
+    declivity, riparian plant cover). The Itanhaém watershed has rivers with different
+    water types (white, black and clear). Limnological characteristics of these rivers
+    are distinct and black waters have low pH values (4 – 5), whereas white waters
+    have higher turbidity ​​and higher nitrogen and phosphorus concentrations. However,
+    only the perifiton respond to different water types. In the white water, perifiton
+    has higher values of biomass (2.5) than in black waters (1.8 µg.cm-2 chlorophyll
+    a). Macroinvertebrates from headwater streams have characteristic taxa of coastal
+    basins, such as shrimps and freshwater decapods, and characteristic groups of
+    preserved streams with well-oxygenated water and rocky substratum, such as plecopterans
+    and riffle beetles. Regarding the temporal scale, our analyses suggest that taxonomic
+    composition of most groups remain constant throughout the year. It seems the rainy
+    season only reduces species abundance but not species occurrence.
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/411804c4-2661-4c15-ba0f-6507fdddb9cb
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:51.405805+00:00'
+      source_modified_at: '2020-06-29T10:45:05+02:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/411804c4-2661-4c15-ba0f-6507fdddb9cb
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:51.405805+00:00'
+      source_modified_at: '2020-06-29T10:45:05+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/411804c4-2661-4c15-ba0f-6507fdddb9cb
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:51.405805+00:00'
+      source_modified_at: '2020-06-29T10:45:05+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/411804c4-2661-4c15-ba0f-6507fdddb9cb
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:51.405805+00:00'
+      source_modified_at: '2020-06-29T10:45:05+02:00'
+  status: ACTIVE

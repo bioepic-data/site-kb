@@ -1,0 +1,97 @@
+sites:
+- id: site_kb:deims-lake_suggs_neon_-_united_states_of_america
+  name: Lake Suggs NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: ff8f509e-f06b-4d62-bd64-d53241fceee2
+    network_url: https://deims.org/ff8f509e-f06b-4d62-bd64-d53241fceee2
+    name: Lake Suggs NEON - United States of America
+  location:
+    latitude: 29.68705
+    longitude: -82.01617
+    country: United States of America
+    elevation_meters: 32.0
+  description: Lake Suggs (SUGG) is an aquatic NEON field site located in Putman County,
+    Florida about 20 miles east of Gainesville. It is part of the Ordway Swisher Biological
+    Station (OSBS), a 38.5 km2 (9500 acre) property owned and managed by the University
+    of Florida as a biological research center. Suggs Lake is 0.73 km2 (180 acres)
+    in area. It is classified as a seepage lake dominated by groundwater flow with
+    the local aquifer, but it is also fed by the local surface and subsurface flow
+    through the wetland complex. The lake is situated on limestone geology overlain
+    by a variable mixture of sand, gravel, clay, phosphate and carbonate sediments.
+    The site is encompassed within the NEON Southeast Domain that is bounded by the
+    Atlantic Ocean on the east and the Gulf of Mexico to the west. The Domain features
+    a patchwork of forest, grassland and wetland communities embedded in a matrix
+    that is increasingly dominated by a fast-growing human population. The Domain
+    hosts five other NEON field sites, including two additional aquatic and three
+    terrestrial sites, located in Florida and Georgia. SUGG is colocated with the
+    OSBS terrestrial field site. The Barco Lake (BARC) aquatic site is also located
+    within OSBS.
+  variables:
+  - name: DNA sequence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: DNA sequence
+      record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21400
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.828793+00:00'
+      source_modified_at: '2025-09-17T15:24:43+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.828793+00:00'
+      source_modified_at: '2025-09-17T15:24:43+02:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.828793+00:00'
+      source_modified_at: '2025-09-17T15:24:43+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.828793+00:00'
+      source_modified_at: '2025-09-17T15:24:43+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.828793+00:00'
+      source_modified_at: '2025-09-17T15:24:43+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.828793+00:00'
+      source_modified_at: '2025-09-17T15:24:43+02:00'
+  status: ACTIVE

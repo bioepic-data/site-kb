@@ -1,0 +1,228 @@
+{
+  "source_url": "https://deims.org/api/sites/b0fdc17a-5e99-469b-98b3-d1b21336078c",
+  "retrieved_at": "2026-10-15T17:44:59.246959+00:00",
+  "record": {
+    "title": "The Upper Paraná River Floodplain - Brazil",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "b0fdc17a-5e99-469b-98b3-d1b21336078c"
+    },
+    "type": "site",
+    "created": "2016-06-30T20:57:29+02:00",
+    "changed": "2020-06-29T10:45:12+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Brazil",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d22789fb-4663-4a77-a6ec-ddb279906cc9"
+              }
+            },
+            "siteCode": "LTER_SAM_BR_06",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Claudia Bonecker",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": [
+          {
+            "type": "organisation",
+            "name": "National Council for Scientific and Technological Development (CNPq)",
+            "url": "http://www.cnpq.br",
+            "ror": "https://ror.org/03swz6y49"
+          }
+        ],
+        "siteUrl": [
+          {
+            "title": "The upper ParanÃ¡ River floodplain",
+            "value": "http://www.peld.uem.br/index.htm"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The chosen area is located in the last stretch of the Parana River in Brazil without reservoirs. However, the whole dynamics of this ecosystem is influenced by the operation of a large number of reservoirs located upstream. These reservoirs also contribute to oligotrophization of the floodplain, and promote changes in the hydrological level of the river, reducing the intensity of the flood pulse and, especially, increasing the frequency of smaller pulses. These changes affect also the connectivity between the environments of the floodplain, supporting the concept of Discontinuity Serial in floodplain rivers. The reservoirs also represent propagule sources of non-native species, causing environments located downstream of these reservoirs become more susceptible to invasion. Space large-scale events and time, such as those related to the El Niño - Southern Oscillation also strongly influence the dynamics of ecosystem processes in the floodplain and are not counteracted by existing dams in the basin, unlike the seasonal flood pulses and annual recurrence.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1999,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "The Upper Paraná River Floodplain",
+        "shortName": "PIAP",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 22.8,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1280,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-53.2569444444 -22.765)",
+        "country": [
+          "Brazil"
+        ],
+        "elevation": {
+          "avg": 255,
+          "min": 241,
+          "max": 276,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 526000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "physical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20938"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 6,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 90
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "1 place",
+            "uri": null
+          },
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

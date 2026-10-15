@@ -1,0 +1,259 @@
+{
+  "source_url": "https://deims.org/api/sites/5559bc3a-10b4-492f-875d-67378af4c1df",
+  "retrieved_at": "2026-10-15T17:40:10.755530+00:00",
+  "record": {
+    "title": "Burnmoor Tarn - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "5559bc3a-10b4-492f-875d-67378af4c1df"
+    },
+    "type": "site",
+    "created": "2013-12-06T15:31:35+01:00",
+    "changed": "2023-07-28T11:12:55+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_11",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Burnmoor Tarn on UWMN",
+            "value": "https://uwmn.uk/burnmoor-tarn"
+          },
+          {
+            "title": "Burnmoor Tarn on UK Lakes Portal",
+            "value": "https://eip.ceh.ac.uk/apps/lakes/detail.html?wbid=29215"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK Upland Waters Monitoring Network (UK UWMN) site. Burnmoor Tarn is the largest 'tarn' in the English Lake District. It occupies 23.9 ha and lies at an altitude of 253 m in a moraine hollow on the uplands between Wastwater and Eskdale. The lake has two distinct basins close to the south-eastern shore and a maximum depth of 13 m. There are four main inflow streams to the north and north-west. The outflow at the eastern end joins the Hardrigg Beck which drains the slopes of Scafell and, in times of especially high flow, is partly diverted into the lake across a braided delta. Some data are managed by UK ECN Data Centre. Note: The area is the size of the catchment.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1988,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Burnmoor Tarn",
+        "shortName": "UWMN_11",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 6.5,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 2200,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": "The bedrock is Ordovician andesite lava of the Borrowdale Volcanic series, to the south and east it is granite.",
+        "hydrology": "Burnmoor Tarn is the largest tarn in the English Lake District. It occupies 23.9 ha and lies at an altitude of 253 m in a moraine hollow on the uplands between Wastwater and Eskdale. The lake has two distinct basins close to the south-eastern shore and a maximum depth of 13 m. There are four main inflow streams to the north and north-west. The outflow at the eastern end joins the Hardrigg Beck which drains the slopes of Scafell and, in times of especially high flow, is partly diverted into the lake across a braided delta.",
+        "soils": "There are thick till deposits in the catchment, notably on the southern side of the lake and the catchment soils are characterised by podsols and shallow peat rankers.",
+        "vegetation": "Mainly rough Agrostis-Festuca and Nardus grassland with Pteridium, Vaccinium, Calluna, and Sphagnum and is utilised for rough grazing by sheep and hill cattle."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-3.25942 54.4282)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 253,
+          "min": 253,
+          "max": 253,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 602,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "animal species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10336"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "chemical composition of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21213"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22121"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "lake temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10011"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "plant species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10335"
+          },
+          {
+            "label": "plant species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10341"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "Chemistry sampled monthly. Biological measurements made annually ",
+          "siteVisitInterval": 30
+        },
+        "notes": "Remote location. Access (by foot) may be difficult in the winter. Accommodation in nearby villages.",
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

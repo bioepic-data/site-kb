@@ -1,0 +1,90 @@
+sites:
+- id: site_kb:deims-ltser_minho_estuary_-_portugal
+  name: LTSER Minho Estuary - Portugal
+  network_registrations:
+  - network: DEIMS
+    network_id: 923cb154-83c9-444d-817a-cde7879c09b5
+    network_url: https://deims.org/923cb154-83c9-444d-817a-cde7879c09b5
+    name: LTSER Minho Estuary - Portugal
+  location:
+    latitude: 41.900704
+    longitude: -8.827
+    country: Portugal
+    elevation_meters: -15.0
+  description: 'The Minho River estuary is located in the western Iberian margin (SW
+    Europe), in the border region between the Minho (north of Portugal) and Galicia
+    (Spain) regions. It is classified as a mesotidal estuary, covering a total area
+    of 23 km2. The estuary has a great socio-economic importance, providing goods
+    and services to about 80,000 of persons. It has also a high ecological value,
+    mainly due to its large diversity of habitats and biodiversity (it is included
+    in NATURA 2000; it is classified as a “Zona de Protecção Especial para Aves” (ZEP),
+    an “Important Bird Area” (IBA) and is a CORINE Biotope). The high productivity
+    of this estuary makes it a refuge place for nursery and feeding of marine species,
+    essential to ecosystem functioning. The Minho estuary is still relatively low
+    impacted by anthropogenic activities, however, in the last decades, the environmental
+    pressures and impacts have been increasing, with the most important at the present
+    being: physical and hydrological alterations mainly due to the construction of
+    dams and other facilities to support human activities (e.g. fluvial transport
+    of people and goods, touristic activities, etc); the presence of non-native (exotic)
+    invasive species that have been contributed to the decline of several native species,
+    including some with high economic and conservational interest; and organic and
+    chemical contamination produced or increased by anthropogenic activities (industrial,
+    urban and agricultural sources) still found in low concentrations in water, sediments
+    and organisms but with a general increasing trend over the years; and alterations
+    resulting from global climate changes. This ecosystem has been intensively studied,
+    especially in the last two decades, in relation to hydromorphological characteristics,
+    water quality, communities diversity and functioning, populations health, pollution,
+    among other aspects. However, more knowledge is still needed on environmental
+    chemical contamination and on the effects of complex mixtures of those pollutants
+    in wild populations, communities and ecosystem functioning. In addition, more
+    attention should be given to alterations resulting from global climate changes,
+    in particular in relation to extreme events (e.g. heat waves, floods) and interactions
+    between pollution, invasive species, and abiotic factors variation. Knowledge
+    on plants and microorganisms (especially pathogens and parasits) is lacking.'
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/923cb154-83c9-444d-817a-cde7879c09b5
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:31.145693+00:00'
+      source_modified_at: '2023-08-08T10:33:14+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/923cb154-83c9-444d-817a-cde7879c09b5
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:31.145693+00:00'
+      source_modified_at: '2023-08-08T10:33:14+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/923cb154-83c9-444d-817a-cde7879c09b5
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:31.145693+00:00'
+      source_modified_at: '2023-08-08T10:33:14+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/923cb154-83c9-444d-817a-cde7879c09b5
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:43:31.145693+00:00'
+      source_modified_at: '2023-08-08T10:33:14+02:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

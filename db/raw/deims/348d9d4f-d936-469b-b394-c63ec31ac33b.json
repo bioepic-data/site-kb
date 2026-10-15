@@ -1,0 +1,268 @@
+{
+  "source_url": "https://deims.org/api/sites/348d9d4f-d936-469b-b394-c63ec31ac33b",
+  "retrieved_at": "2026-10-15T17:47:35.947595+00:00",
+  "record": {
+    "title": "Lajas Experimental Station NEON - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "348d9d4f-d936-469b-b394-c63ec31ac33b"
+    },
+    "type": "site",
+    "created": "2020-05-25T09:36:50+02:00",
+    "changed": "2025-09-17T15:19:17+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "NEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9fbc88-0baa-4d02-b824-dc29f721782c"
+              }
+            },
+            "siteCode": "LAJA",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Yamil Toro",
+            "email": "ytoro@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Melissa Marquez",
+            "email": "marquez@battelleecology.org",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "https://www.neonscience.org/field-sites/laja"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Lajas Experimental Station (LAJA) is a terrestrial NEON field site located in the southwestern corner of Puerto Rico in the Lajas Valley. The site consists of two areas, a plot of farmland owned by a private farmer known as Hacienda Resolucion and the Lajas Experimental Station, one of six Agricultural Experimental Stations on the island. Hacienda Resolucion is east of the dairy farm managed by the Experimental Station and west of the Laguna Cartagena National Wildlife Refuge managed by the Fish and Wildlife Service. The Lajas Experimental Station is managed by the University of Puerto Rico – Mayaguez Campus. NEON samples approximately 3.9 km2 (976 acres) of land at the station. This location is part of the NEON Atlantic Neotropical Domain (D04), which includes the island of Puerto Rico and the southern tip of Florida. The Domain includes one additional terrestrial field site and two aquatic field sites.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2016,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Lajas Experimental Station NEON",
+        "shortName": "LAJA",
+        "siteType": "Platform",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2020-06/laja.jpg",
+            "alt": "LAJA Tower"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 25,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 830,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "evergreen_forest",
+        "ecosystemType": [
+          {
+            "label": "Evergreen Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Rainforest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "The Lajas Agricultural Site is composed of alluvium, a sediment composed of materials such as clay, silt, sand, or gravel, deposited during recent geological time by a stream or other body of running water.",
+        "hydrology": "The Lajas Valley is about 13 m (43 ft.) above sea level. Hydrology characteristics of the area surrounding the Lajas Valley consist of a drainage that runs alongside PR Route 303 that divides the eastern and western sides of the valley. Alluvial deposits are the primary aquifer in the area. These deposits are formed of consolidated sedimentary rocks and the aquifer is recharged by rainfall. Groundwater discharge occurs by means of evapotranspiration and pumping. ",
+        "soils": "Soils within the site are from the order Vertisol, which are clay-rich soils that typically form under grassland vegetation. These types of soils are best suited for use as pastureland and for cultivation. Subgroup classification is Sodic Haplusterts.",
+        "vegetation": "Crop types are rotated depending on current research priorities in the Lajas Experimental Station. Dominant vegetation in the privately owned farmland that makes up the other part of the LAJA site consists mostly of crops cultivated for livestock feeding."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-67.0769 18.02125)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 16,
+          "min": 13,
+          "max": 41,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 395,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "DNA sequence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21400"
+          },
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "genetic parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20942"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "latent heat",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22154"
+          },
+          {
+            "label": "leaf area index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22157"
+          },
+          {
+            "label": "ozone concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22178"
+          },
+          {
+            "label": "plant diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22191"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "soil carbon dioxyde flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21939"
+          },
+          {
+            "label": "soil moisture content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10039"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

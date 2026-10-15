@@ -1,0 +1,243 @@
+{
+  "source_url": "https://deims.org/api/sites/deaa845b-dbd9-42a4-a9a5-d9db2a86d4c2",
+  "retrieved_at": "2026-10-15T17:44:39.893094+00:00",
+  "record": {
+    "title": "Krakovski gozd - Slovenia",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "deaa845b-dbd9-42a4-a9a5-d9db2a86d4c2"
+    },
+    "type": "site",
+    "created": "2016-06-20T13:16:55+02:00",
+    "changed": "2023-09-25T08:13:35+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ICP Forests",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4e44c094-f4f7-4882-bfe5-685b666a0dc7"
+              }
+            },
+            "siteCode": "60_10",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Slovenia",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fda2984f-9aea-4abf-9f6c-c3eca0f82eb8"
+              }
+            },
+            "siteCode": "LTER_EU_SI_10",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "David Vodičar",
+            "email": "david.vodicar@gozdis.si",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Slovenian Forestry Institute (SFI)",
+            "url": "http://www.gozdis.si",
+            "ror": "https://ror.org/0232eqz57"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Iztok Sinjur",
+            "email": "iztok.sinjur@gozdis.si",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "http://meteo.gozdis.si/?page_id=48 (only in SLO language)",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2003,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Krakovski gozd",
+        "shortName": "Krakovski gozd",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/9_Krakovski_gozd_SFI_site.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/krakovski-gozd-slovenia_4770.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 10.3,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1205,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "continental",
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Deciduous Forest",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Broadleaved deciduous woodland (G1)",
+            "uri": null
+          },
+          {
+            "label": "Broadleaved swamp woodland not on acid peat (G1.4)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (15.422166 45.876688)",
+        "country": [
+          "Slovenia"
+        ],
+        "elevation": {
+          "avg": 152,
+          "min": 152,
+          "max": 152,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 90,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 90
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description",
+              "Formal acknowledgement of the dataset providers",
+              "The opportunity to collaborate on the project using the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

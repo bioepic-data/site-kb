@@ -1,0 +1,84 @@
+sites:
+- id: site_kb:deims-south-moravian_floodplain_forests_-_czechia
+  name: South-Moravian floodplain forests - Czechia
+  network_registrations:
+  - network: DEIMS
+    network_id: e742a1a7-61d2-4e65-8fef-2e809fd3963e
+    network_url: https://deims.org/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+    name: South-Moravian floodplain forests - Czechia
+  location:
+    latitude: 48.6669
+    longitude: 16.9456
+    country: Czechia
+    elevation_meters: 153.0
+  description: The central Europe’s largest complex of floodplain forest covers an
+    area between the Morava River and Dyje River upstream their confluence. Permanent
+    high water table and (more or less) periodical floods on either river have determined
+    this phenomenon. As the Morava River was channelized and the Dyje River was dammed
+    (the Nové Mlýny reservoirs), common floods have been replaced with the simulated
+    flood regime right on the Dyje River. The LTER sites Ranšpurk and Cahnov–Soutok
+    represent hardwood alluvial floodplain forest. European hornbeam, ash, and field
+    maple have substituted formerly dominant species – pedunculate oak and smooth
+    elm. As the oaks formed the grazed forest framework, their recent generation has
+    spent the rest of their lives. Both sites have been left to spontaneous development
+    since 1932. Because the plots, situated inside of a deer and fallow deer game-park,
+    offered quiet spot for game stalls and natural regeneration became absolutely
+    blocked, the reserves have been fenced.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+      source_modified_at: '2024-09-12T17:31:12+02:00'
+  - name: tree age
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree age
+      record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22300
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+      source_modified_at: '2024-09-12T17:31:12+02:00'
+  - name: tree diameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter
+      record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+      source_modified_at: '2024-09-12T17:31:12+02:00'
+  - name: tree distribution
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree distribution
+      record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/21587
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+      source_modified_at: '2024-09-12T17:31:12+02:00'
+  - name: tree height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree height
+      record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22305
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+      source_modified_at: '2024-09-12T17:31:12+02:00'
+  notes: 'Biogeographical region: pannonian'
+  status: ACTIVE

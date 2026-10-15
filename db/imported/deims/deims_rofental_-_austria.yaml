@@ -1,0 +1,540 @@
+sites:
+- id: site_kb:deims-rofental_-_austria
+  name: Rofental - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+    network_url: https://deims.org/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+    name: Rofental - Austria
+  location:
+    latitude: 46.8336
+    longitude: 10.8314
+    country: Austria
+    elevation_meters: 2889.0
+  description: In the Rofental (Ötztal Alps) a consortium of the three institutions,
+    and open to research partners worldwide, concentrates on studying and monitoring
+    cryospheric, atmospheric and hydrological processes and changes with particular
+    attention to the complex topography and climate settings of the Alpine terrain.
+    First documents from glaciers in the Rofental, Ötztal Alps, date back as far as
+    1601 and regular observations and systematic studies had begun more than 150 years
+    ago. First geodetic maps where generated in the late 19th century, first rain
+    gauges were mounted in 1929 and glacier mass balance time series of Hintereis-,
+    Vernagt- and Kesselwandferner are among the longest uninterrupted world-wide,
+    building a basis for regional hydrological studies, for glacier-climate and ice
+    dynamic research, and for estimating the world wide glacier’s contribution to
+    sea level rise. By 2014, networks of stakes and pits for mass balance monitoring
+    are maintained at Hochjoch-, Hintereis-, Kesselwand- and Vernagtferner by the
+    consortium members. Runoff gauges at Vernagtferner and in Vent (operated by the
+    Hydrological Office of Tyrol) and a network of rain gauges in the Rofental basin
+    are the basis for high mountain hydrological studies. A varying number of automatic
+    weather stations on and in the surroundings of the glaciers are operated by the
+    Rofental consortium. The glaciers in the Rofental are frequently used as a test
+    site for process studies, model development and evaluations and for new remote
+    sensing or ground based methods in glaciological research. A series of airborne
+    LIDAR derived high resolution DTMs of Hintereisferner and its surroundings are
+    available since 2001. They are subject of ongoing evaluations and method comparison
+    studies as well as for monitoring and studying periglacial morphodynamics. The
+    generated data are available from the consortium partners, glaciological key results
+    are annually reported to the World Glacier Monitoring Service (WGMS). A research
+    station on Hintereisferner (with observer status in the Horizon 2020 INTERACT
+    network) and one at Vernagtbach serve as logistic bases for fieldwork. In recent
+    studies, socio-ecological research aspects – e.g. in relation with the use of
+    water for energy production and tourism – comprise the natural scientific investigations.
+  variables:
+  - name: air humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air humidity
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air temperature
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22035
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: air vapor pressure deficit
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: air vapor pressure deficit
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22306
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: albedo
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: albedo
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/21351
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: atmospheric pressure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric pressure
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22060
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: daylight length
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: daylight length
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22100
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: diffuse radiation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diffuse radiation intensity
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/22106
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: diffuse reflectance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diffuse reflectance
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22106
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: diffuse solar radiation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diffuse solar radiation intensity
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22106
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: direct radiation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: direct radiation intensity
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22044
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: global radiation irradiance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: global radiation irradiance
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/22125
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: ground surface temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ground surface temperature
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/21526
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: incoming radiation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: incoming radiation intensity
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22134
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: irradiance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: irradiance
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22140
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: long wave radiation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: long wave radiation
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/22164
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: maximum temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: maximum temperature
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/21529
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: mean annual air temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: mean annual air temperature
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/18
+      source_id: http://vocabs.lter-europe.net/EnvThes/21530
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: mean annual precipitation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: mean annual precipitation
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/19
+      source_id: http://vocabs.lter-europe.net/EnvThes/22166
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: mean annual temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: mean annual temperature
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/20
+      source_id: http://vocabs.lter-europe.net/EnvThes/21531
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: minimum temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: minimum temperature
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/21
+      source_id: http://vocabs.lter-europe.net/EnvThes/21532
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: net radiation irradiance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: net radiation irradiance
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/22
+      source_id: http://vocabs.lter-europe.net/EnvThes/22172
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: net solar radiation irradiance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: net solar radiation irradiance
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/23
+      source_id: http://vocabs.lter-europe.net/EnvThes/22173
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: precipitation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: precipitation intensity
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/24
+      source_id: http://vocabs.lter-europe.net/EnvThes/22204
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: rainfall variability
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: rainfall variability
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/25
+      source_id: http://vocabs.lter-europe.net/EnvThes/21948
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: reflected global radiation irradiance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: reflected global radiation irradiance
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/26
+      source_id: http://vocabs.lter-europe.net/EnvThes/22209
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: reflected radiation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: reflected radiation intensity
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/27
+      source_id: http://vocabs.lter-europe.net/EnvThes/22210
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: relative humidity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: relative humidity
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/28
+      source_id: http://vocabs.lter-europe.net/EnvThes/21579
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: remote sensing parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: remote sensing parameter
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/29
+      source_id: http://vocabs.lter-europe.net/EnvThes/20946
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: runoff amount
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: runoff amount
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/30
+      source_id: http://vocabs.lter-europe.net/EnvThes/30032
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: snow cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: snow cover
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/31
+      source_id: http://vocabs.lter-europe.net/EnvThes/21559
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: snow depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: snow depth
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/32
+      source_id: http://vocabs.lter-europe.net/EnvThes/21207
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: snow depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: snow depth
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/33
+      source_id: http://vocabs.lter-europe.net/EnvThes/22240
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: snow temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: snow temperature
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/34
+      source_id: http://vocabs.lter-europe.net/EnvThes/22241
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: snow water equivalent
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: snow water equivalent
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/35
+      source_id: http://vocabs.lter-europe.net/EnvThes/22242
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: soil albedo
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil albedo
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/36
+      source_id: http://vocabs.lter-europe.net/EnvThes/10302
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: solar radiation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: solar radiation
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/37
+      source_id: http://vocabs.lter-europe.net/EnvThes/22284
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: sunshine duration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: sunshine duration
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/38
+      source_id: http://vocabs.lter-europe.net/EnvThes/22111
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: total radiation irradiance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: total radiation irradiance
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/39
+      source_id: http://vocabs.lter-europe.net/EnvThes/22298
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/40
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: wind direction
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind direction
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/41
+      source_id: http://vocabs.lter-europe.net/EnvThes/22317
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: wind direction (mean and gust)
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind direction (mean and gust)
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/42
+      source_id: http://vocabs.lter-europe.net/EnvThes/22318
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: wind speed
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind speed
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/43
+      source_id: http://vocabs.lter-europe.net/EnvThes/22319
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  - name: wind speed (mean and gust)
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: wind speed (mean and gust)
+      record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+      field_path: /attributes/focusDesignScale/observedProperties/44
+      source_id: http://vocabs.lter-europe.net/EnvThes/22320
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+      source_modified_at: '2024-05-08T15:35:56+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

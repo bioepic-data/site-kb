@@ -1,0 +1,291 @@
+{
+  "source_url": "https://deims.org/api/sites/4ed8c99b-cb25-4a19-96f9-fc3c72b549fc",
+  "retrieved_at": "2026-10-15T17:40:58.143246+00:00",
+  "record": {
+    "title": "Coneyglen Burn - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "4ed8c99b-cb25-4a19-96f9-fc3c72b549fc"
+    },
+    "type": "site",
+    "created": "2013-12-10T10:36:47+01:00",
+    "changed": "2023-07-28T11:17:56+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_22",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Coneyglen Burn on UWMN",
+            "value": "https://uwmn.uk/coneyglen-burn"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "UK Upland Waters Monitoring Network (UK UWMN) site. The Coneyglen Burn lies in the Sperrin Mountains of central Northern Ireland. The catchment area is 1264 ha and rises from 230 m at the sampling station to a maximum of 562 m at Carnanelly. The underlying geology is schists of the Mullaghcarn series, which occur in places as rocky outcrops. Catchment soils are dominated by blanket peats and peaty podsols. Adjacent to the stream the thin peat is interspersed with alluvium, sands and gravels. Originally some 4% of the catchment (the lower section) was planted with conifers but this has increased slightly since 2000 as the forested area was enlarged. Previously improved grazing land in the middle section of the catchment, adjacent to a small farm, is no longer actively managed, except by grazing, and is reverting to moorland, with a predominance of Juncus species. Old field systems and drainage patterns suggest a higher intensity of land-use in the past. Elsewhere, the vegetation is characterised by moorland species, notably Calluna. Contemporary land-use and management is confined to low-intensity sheep grazing and infrequent heather burning. The annual rainfall is c.1500 mm. Note: The area is the size of the catchment. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1990,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Coneyglen Burn",
+        "shortName": "UWMN_22",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 6.4,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1500,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_rivers",
+        "ecosystemType": [
+          {
+            "label": "Rivers",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Surface running waters (C2)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": "Schists of the Mullaghcarn series",
+        "hydrology": "The altitude range is from 230 m at the sampling station to 460 m at the headwaters. The channel section utilised for biological sampling is straight and about 4 m wide and is characterised by shallow rapids with a stream bed comprising largely bedrock and boulders.",
+        "soils": "Blanket peats and peaty podsols. Adjacent to the stream the thin peat is interspersed with alluvium, sands and gravels.",
+        "vegetation": "Originally some 4% of the catchment (the lower section) was planted with conifers but this has increased slightly since 2000 as the forested area was enlarged. Previously improved grazing land in the middle section of the catchment, adjacent to a small farm, is no longer actively managed, except by grazing, and is reverting to moorland, with a predominance of Juncus species. Old field systems and drainage patterns suggest a higher intensity of land-use in the past. Elsewhere, the vegetation is characterised by moorland species, notably Calluna."
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-7.00554 54.7394)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 396,
+          "min": 230,
+          "max": 562,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1264,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "floristic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22122"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "plant species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22195"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10081"
+          },
+          {
+            "label": "species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22287"
+          },
+          {
+            "label": "stage height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22290"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "Chemistry sampled monthly. Biological measurements made annually",
+          "siteVisitInterval": 30
+        },
+        "notes": "Accommodation in nearby villages. ",
+        "collection": [
+          {
+            "label": "Relational database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

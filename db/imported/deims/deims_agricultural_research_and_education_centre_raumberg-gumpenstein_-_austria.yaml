@@ -1,0 +1,138 @@
+sites:
+- id: site_kb:deims-agricultural_research_and_education_centre_raumberg-gumpenstein_-_austria
+  name: Agricultural Research and Education Centre Raumberg-Gumpenstein - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 11aff5a6-d464-40fa-b218-fcad8f57c81f
+    network_url: https://deims.org/11aff5a6-d464-40fa-b218-fcad8f57c81f
+    name: Agricultural Research and Education Centre Raumberg-Gumpenstein - Austria
+  location:
+    latitude: 47.495121014384
+    longitude: 14.099665023386
+    country: Austria
+    elevation_meters: 750.0
+  description: The Agricultural Research and Education Centre Raumberg-Gumpenstein
+    is the largest Austrian multidisciplinary research and education centre, which
+    holds the legal status of an institution under public law. As part of the Austrian
+    Federal Ministry of Agriculture, Forestry, Regions and Water Management, it is
+    a driving-force for sustainable business in the agricultural, food and environmental
+    sectors of rural areas in agricultural research. The head office is situated in
+    the municipality Irdning-Donnersbachtal, in the Styrian Enns Valley, at an altitude
+    of 700 meter a.s.l.. The rural area is dominated by grassland and forests, embedded
+    in a mountainous landscape. More than 280 employees work in four research institutes
+    (organic farming and livestock biodiversity, livestock research, crop production
+    and cultural landscape, animals, technology and environment) and as teachers at
+    the higher agricultural college (branches agriculture with a focus on agricultural
+    management, environmental and resource management) with about 410 students. AREC
+    has external research areas and test sites with different climate conditions all
+    over Austria (Wels, Lambach, Winklhof, Admont). The centre is specialised in research
+    for multifunctional farm and environmental systems and in developing complex landscape
+    analysis in view of agriculture, sustainable and efficient usage of natural resources,
+    climate change, preservation of biodiversity and rural development. AREC offers
+    a high expertise in dissemination of know-how for scientists, farmers, practitioners,
+    decision makers, stakeholders and the local population. Workshops, trainings and
+    national as well as international conferences are organized regularly with several
+    hundred participants each year. AREC participates in national and international
+    projects as well as relevant research networks.
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/11aff5a6-d464-40fa-b218-fcad8f57c81f
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:17.221255+00:00'
+      source_modified_at: '2026-01-19T13:30:00+01:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/11aff5a6-d464-40fa-b218-fcad8f57c81f
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:17.221255+00:00'
+      source_modified_at: '2026-01-19T13:30:00+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/11aff5a6-d464-40fa-b218-fcad8f57c81f
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:17.221255+00:00'
+      source_modified_at: '2026-01-19T13:30:00+01:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/11aff5a6-d464-40fa-b218-fcad8f57c81f
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:17.221255+00:00'
+      source_modified_at: '2026-01-19T13:30:00+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/11aff5a6-d464-40fa-b218-fcad8f57c81f
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:17.221255+00:00'
+      source_modified_at: '2026-01-19T13:30:00+01:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/11aff5a6-d464-40fa-b218-fcad8f57c81f
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:17.221255+00:00'
+      source_modified_at: '2026-01-19T13:30:00+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/11aff5a6-d464-40fa-b218-fcad8f57c81f
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:17.221255+00:00'
+      source_modified_at: '2026-01-19T13:30:00+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/11aff5a6-d464-40fa-b218-fcad8f57c81f
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:17.221255+00:00'
+      source_modified_at: '2026-01-19T13:30:00+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/11aff5a6-d464-40fa-b218-fcad8f57c81f
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:17.221255+00:00'
+      source_modified_at: '2026-01-19T13:30:00+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

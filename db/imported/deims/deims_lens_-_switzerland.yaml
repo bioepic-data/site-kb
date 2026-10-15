@@ -1,0 +1,92 @@
+sites:
+- id: site_kb:deims-lens_-_switzerland
+  name: Lens - Switzerland
+  network_registrations:
+  - network: DEIMS
+    network_id: dda5ccfa-3fd3-447c-bf61-08a02a3d8374
+    network_url: https://deims.org/dda5ccfa-3fd3-447c-bf61-08a02a3d8374
+    name: Lens - Switzerland
+  location:
+    latitude: 46.2685558
+    longitude: 7.4359392
+    country: Switzerland
+    elevation_meters: 1063.0
+  description: "The forest site \"Lens\" has been installed in 1996 as part of the\
+    \ Swiss Long-term Forest Ecosystem Research Programme LWF. The programme investigates\
+    \ anthropogenic and natural forces on the long-term health of the forests and\
+    \ the potential risks to humans. For this, a profound understanding of the relationship\
+    \ between processes, causes and effects in the ecosystem are necessary.\r\n\r\n\
+    The objectives of the LWF research programme include (i) early detection and a\
+    \ representative assessment of changes in forest condition, (ii) determination\
+    \ of external influences, both from anthropogenic and natural sources such as\
+    \ element inputs and climate and their effect on the forest ecosystem, (iii) development\
+    \ of indicators to assess the condition of the forest, (iv) integrated risk assessment\
+    \ based on different stress scenarios, and (v) extended platform for internal\
+    \ and external research projects. \r\n\r\nThe LWF research programme provides,\
+    \ on the one hand, long-term data series from the last 20 years, together with\
+    \ a scientific interpretation to national and international policy makers. On\
+    \ the other hand, the available data and latest LWF infrastructure provide an\
+    \ attractive scientific platform for collaboration with both national and international\
+    \ partners.\r\n\r\nThe site is located next to Lens in the canton of Valais, within\
+    \ a natural, coniferous forest stand which consists of 150-170 year-old Scots\
+    \ pine (Pinus sylvestris) trees. \r\nAmong others, the site is equipped with two\
+    \ meteorological measurement stations; one is located within the forest stand,\
+    \ the second is co-located in the nearby open-field, allowing to measure the forest\
+    \ stand effect on micro-climate.\r\nThe following parameters are being measured\
+    \ (starting-end year): Circular vegetation plots (1996-today), Crown Condition\
+    \ Assessment (1996-today), Deadwood survey (2005-today), Diameter and Height measurements\
+    \ (2000-today), EC-5 soil water content measurement (2010-today), EC-5 soil water\
+    \ content measurement (2010-today), Foliar analyses (1997-today), Leaf area index\
+    \ (LAI) (1996-today), Lichens (2003-today), Manual circumference band measurement\
+    \ (2001-today), Meteorological measurements (1997-today), O3 Injuries (2002-today),\
+    \ Ozone visible injury assessment (2002-today), Passive sampling of O3 (2002-2006),\
+    \ Permanent vegetation quadrats (1996-today), Soil matrix chemistry (1996-today),\
+    \ Soil morphology (1996-today), Tree core sampling (1820-1997), Tree crown measurements\
+    \ (1996-today), Deadwood sampling (2009-today), stem discs (2012-today)."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/dda5ccfa-3fd3-447c-bf61-08a02a3d8374
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:35.095303+00:00'
+      source_modified_at: '2024-03-25T14:10:54+01:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/dda5ccfa-3fd3-447c-bf61-08a02a3d8374
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:35.095303+00:00'
+      source_modified_at: '2024-03-25T14:10:54+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/dda5ccfa-3fd3-447c-bf61-08a02a3d8374
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:35.095303+00:00'
+      source_modified_at: '2024-03-25T14:10:54+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/dda5ccfa-3fd3-447c-bf61-08a02a3d8374
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:38:35.095303+00:00'
+      source_modified_at: '2024-03-25T14:10:54+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

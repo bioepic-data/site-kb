@@ -1,0 +1,209 @@
+sites:
+- id: site_kb:deims-experimental_farm_gross-enzersdorf_-_austria
+  name: Experimental Farm Gross-Enzersdorf - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: a5298d7f-307b-45d6-bd23-92ea7d65eed6
+    network_url: https://deims.org/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+    name: Experimental Farm Gross-Enzersdorf - Austria
+  location:
+    latitude: 48.198304
+    longitude: 16.560292
+    country: Austria
+    elevation_meters: 156.0
+  description: The Experimental Farm Groß Enzersdorf is a research and teaching facility
+    of BOKU University of Natural Resources and Life Sciences, Vienna. It was founded
+    in 1902 as a donation to the university by the Austrian emperor; it is a typical
+    arable farm of 140 ha arable fields in Gross-Enzersdorf, Lower Austria. The farm
+    is run in conventional agriculture, but 26 ha are converted to organic farming
+    since more than 20 years. Another 35 ha acreage in Tulln, Lower Austria, plus
+    6 ha of experimental garden in the city of Vienna, 21. district, are additionally
+    managed by the farm and available for experiments with arable crops, vegetables
+    and fruit species. The experiments include two long-term field experiments that
+    are descibed individually as related plots. These experiments are focussed on
+    long term effects (i) of crop rotation and fertlization since 1906, and (ii) of
+    soil tillage treatments since 1996. The whole farm beyond can be used for any
+    kind of soil, plant or atmosphere observations in experimental settings, representing
+    a typical Pannonian agricultural environment. It is equipped with complete sets
+    of agricultural machinery for large scale farming operation as well as for small
+    experimental plots. On the farm there is also a weather observation station installed
+    by the Austrian Zentralanstalt für Meteorologie und Geodynamik (ZAMG).
+  variables:
+  - name: agricultural parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: agricultural parameter
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20936
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: concentration of nitrogen in seeds
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: concentration of nitrogen in seeds
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22087
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: concentration of nitrogen in the entire plant
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: concentration of nitrogen in the entire plant
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: dry matter yield
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: dry matter yield
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/21198
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: grain weight
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: grain weight
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/21408
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: harvest index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: harvest index
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/1320
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: nitrogen harvest index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nitrogen harvest index
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/21514
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: nitrogen symbiotic fixation
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nitrogen symbiotic fixation
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22051
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: nutrient concentration
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nutrient concentration
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22176
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: nutrient content
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: nutrient content
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22177
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: seed yield
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: seed yield
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/22233
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: soil fertility
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil fertility
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/21461
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: soil nitrogen
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil nitrogen
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22259
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/a5298d7f-307b-45d6-bd23-92ea7d65eed6
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:26.010024+00:00'
+      source_modified_at: '2026-05-18T08:51:07+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

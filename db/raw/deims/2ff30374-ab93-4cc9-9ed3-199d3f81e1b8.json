@@ -1,0 +1,685 @@
+{
+  "source_url": "https://deims.org/api/sites/2ff30374-ab93-4cc9-9ed3-199d3f81e1b8",
+  "retrieved_at": "2026-10-15T17:35:57.891480+00:00",
+  "record": {
+    "title": "Georgia Coastal Ecosystems LTER - United States of America",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "2ff30374-ab93-4cc9-9ed3-199d3f81e1b8"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:35:44+01:00",
+    "changed": "2020-06-29T10:41:03+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "US LTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "fd9cd567-bba5-4b3e-a351-cc4404640972"
+              }
+            },
+            "siteCode": "LTER-NAM-US-18",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Merryl Alber",
+            "email": "malber@uga.edu",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Steven Pennings",
+            "email": "scpennin@Central.UH.EDU",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Wade Sheldon",
+            "email": "sheldon@uga.edu",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "organisation",
+            "name": "Georgia Coastal Ecosystems LTER",
+            "url": "http://gce-lter.marsci.uga.edu",
+            "ror": null
+          },
+          {
+            "type": "organisation",
+            "name": "US LTER Network Data Portal",
+            "url": "https://portal.lternet.edu",
+            "ror": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://gce-lter.marsci.uga.edu/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Georgia Coastal Ecosystems Long Term Ecological Research (GCE-LTER) site is located on the central Georgia coast of the Southeastern United States. The primary study area encompasses the estuaries, sounds and marsh complexes surrounding Sapelo Island. The GCE study area is bounded on the east by the Atlantic Ocean (South Atlantic Bight). The upland-estuarine interface consists of the riverine estuary of the Altamaha River, the lagoonal estuaries bordering the mainland and Sapelo Island, and the tidal marsh complexes fringing small hammocks distributed throughout the coastal area. The salinity regimes of these estuaries vary extensively due to the interactions of river discharge, ground-water delivery and oceanic tides. The ecology of the GCE site is typical of the Carolinian biogeographic province, which is characterized by vast expanses of tidal salt marshes protected by a buffer of barrier islands. The principal biome type is coastal barrier island/marsh complex, and the main types of communities under study are salt marsh, estuary, intertidal sediment, surficial aquifer, oceanic sound, and oyster reef.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2000,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Georgia Coastal Ecosystems LTER",
+        "shortName": "GCE",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/gce-lter-map.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 20.2,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1050,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "coastal",
+        "ecosystemType": [
+          {
+            "label": "Coastal",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Rivers",
+            "uri": null
+          },
+          {
+            "label": "Large river deltas",
+            "uri": null
+          },
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Mixed Forest",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          },
+          {
+            "label": "Temperate shelfs and seas",
+            "uri": null
+          },
+          {
+            "label": "Tropical and subtropical coniferous forests",
+            "uri": null
+          },
+          {
+            "label": "Tropical and subtropical moist broadleaf forests",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Bentho-pelagic habitats (X30)",
+            "uri": null
+          },
+          {
+            "label": "Brackish coastal lagoons (X03)",
+            "uri": null
+          },
+          {
+            "label": "Broadleaved deciduous woodland (G1)",
+            "uri": null
+          },
+          {
+            "label": "Coastal dune scrub (B1.6)",
+            "uri": null
+          },
+          {
+            "label": "Coastal dune woods (B1.7)",
+            "uri": null
+          },
+          {
+            "label": "Coastal dunes and sandy shores (B1)",
+            "uri": null
+          },
+          {
+            "label": "Coastal habitats (B)",
+            "uri": null
+          },
+          {
+            "label": "Coastal saltmarshes and saline reedbeds (A2.5)",
+            "uri": null
+          },
+          {
+            "label": "Coastal stable dune grassland (grey dunes) (B1.4)",
+            "uri": null
+          },
+          {
+            "label": "Habitat complexes (X)",
+            "uri": null
+          },
+          {
+            "label": "Inland saline and brackish marshes and reedbeds (D6)",
+            "uri": null
+          },
+          {
+            "label": "Inland saltmarshes (D6.1)",
+            "uri": null
+          },
+          {
+            "label": "Littoral mixed sediments (A2.4)",
+            "uri": null
+          },
+          {
+            "label": "Littoral mud (A2.3)",
+            "uri": null
+          },
+          {
+            "label": "Littoral sand and muddy sand (A2.2)",
+            "uri": null
+          },
+          {
+            "label": "Littoral sediment (A2)",
+            "uri": null
+          },
+          {
+            "label": "Littoral sediments dominated by aquatic angiosperms (A2.6)",
+            "uri": null
+          },
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          },
+          {
+            "label": "Mires, bogs and fens (D)",
+            "uri": null
+          },
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Mixed riparian floodplain and gallery woodland (G1.2)",
+            "uri": null
+          },
+          {
+            "label": "Mixed swamp woodland (G4.1)",
+            "uri": null
+          },
+          {
+            "label": "Moist and wet dune slacks (B1.8)",
+            "uri": null
+          },
+          {
+            "label": "Partially mixed water column with reduced salinity and medium or long residence time (A7.4)",
+            "uri": null
+          },
+          {
+            "label": "Pelagic water column (A7)",
+            "uri": null
+          },
+          {
+            "label": "Saline coastal lagoons (X02)",
+            "uri": null
+          },
+          {
+            "label": "Sand beach driftlines (B1.1)",
+            "uri": null
+          },
+          {
+            "label": "Shifting coastal dunes (B1.3)",
+            "uri": null
+          },
+          {
+            "label": "Sublittoral mixed sediments (A5.4)",
+            "uri": null
+          },
+          {
+            "label": "Sublittoral mud (A5.3)",
+            "uri": null
+          },
+          {
+            "label": "Sublittoral sediment (A5)",
+            "uri": null
+          },
+          {
+            "label": "Vertically stratified water column with full salinity (A7.9)",
+            "uri": null
+          },
+          {
+            "label": "Vertically stratified water column with reduced salinity (A7.6)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine",
+          "Coastal",
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((-81.553125 31.367909, -81.504513 31.359006, -81.492013 31.334671, -81.462846 31.315679, -81.441318 31.293125, -81.423957 31.274132, -81.421179 31.259294, -81.443401 31.232586, -81.443401 31.211813, -81.436457 31.170266, -81.412151 31.170266, -81.414234 31.199349, -81.414234 31.221903, -81.412151 31.234366, -81.392012 31.23496, -81.363539 31.259294, -81.346178 31.288377, -81.231593 31.290727, -81.236455 31.371298, -81.205204 31.445945, -81.151731 31.514076, -81.151037 31.557916, -81.210065 31.56384, -81.292011 31.559693, -81.355206 31.558043, -81.428123 31.551526, -81.442707 31.52901, -81.401734 31.505903, -81.367706 31.495238, -81.428123 31.41051, -81.486457 31.4271, -81.510763 31.398067, -81.573958 31.41051, -81.586458 31.395697, -81.553125 31.367909))",
+        "coordinates": "POINT (-81.339605 31.40971)",
+        "country": [
+          "United States of America"
+        ],
+        "elevation": {
+          "avg": 2,
+          "min": 0,
+          "max": 4,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 77544,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air humidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22032"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "air water vapour pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22037"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "carbon dioxide concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22082"
+          },
+          {
+            "label": "carbon-to-nitrogen ratio",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21350"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "direct radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22044"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ground water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22130"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "inorganic nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22136"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22140"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "landscape metrics",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10042"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "long wave radiation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22164"
+          },
+          {
+            "label": "net radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22172"
+          },
+          {
+            "label": "net solar radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22173"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "plant development stage",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22190"
+          },
+          {
+            "label": "plant height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22192"
+          },
+          {
+            "label": "population size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22199"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "reflected radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22210"
+          },
+          {
+            "label": "root growth rate",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22218"
+          },
+          {
+            "label": "soil alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22038"
+          },
+          {
+            "label": "soil heat flux",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22253"
+          },
+          {
+            "label": "soil nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22260"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22270"
+          },
+          {
+            "label": "solar radiation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22284"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "specific conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22289"
+          },
+          {
+            "label": "stage height",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22290"
+          },
+          {
+            "label": "suspended solids",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22293"
+          },
+          {
+            "label": "total carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22296"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "total radiation irradiance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22298"
+          },
+          {
+            "label": "tree diameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22303"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "In canopy",
+            "uri": null
+          },
+          {
+            "label": "Less than 10 m above canopy",
+            "uri": null
+          },
+          {
+            "label": "Proprietary file format",
+            "uri": null
+          },
+          {
+            "label": "Radio transmission system (repeaters, receivers, centralstation)",
+            "uri": null
+          },
+          {
+            "label": "Radio transmission system (repeaters. receivers. centralstation)",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Satellite",
+            "uri": null
+          },
+          {
+            "label": "Spatial data file (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Spatial database (GIS)",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "ltser"
+        }
+      }
+    }
+  }
+}

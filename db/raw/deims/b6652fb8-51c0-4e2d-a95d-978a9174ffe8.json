@@ -1,0 +1,181 @@
+{
+  "source_url": "https://deims.org/api/sites/b6652fb8-51c0-4e2d-a95d-978a9174ffe8",
+  "retrieved_at": "2026-10-15T17:49:20.142265+00:00",
+  "record": {
+    "title": "Danby Beck - United Kingdom",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "b6652fb8-51c0-4e2d-a95d-978a9174ffe8"
+    },
+    "type": "site",
+    "created": "2023-07-28T12:54:24+02:00",
+    "changed": "2023-07-28T13:06:43+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "UK Upland Waters Monitoring Network",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "421275c4-acb7-4d5e-8cd8-929707ba28bd"
+              }
+            },
+            "siteCode": "UWMN_26",
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Andrew Sier [Primary ECN contact]",
+            "email": "arjs@ceh.ac.uk",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Don Monteith",
+            "email": "donm@ceh.ac.uk",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Danby Beck on UWMN",
+            "value": "https://uwmn.uk/danby-beck"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Situated in the North York Moors, Danby Beck was added to the Network in 2011, when systematic chemical and biological sampling commenced. Surface water acidity data however has been collected since 1990 by Environet, a local volunteer group. The long-term historic pH record plus the site's geographical location in an area of high acid deposition, not originally represented within the original UK Acid Waters Monitoring Network, led to the decision to incorporate Danby Beck into the network. Danby Beck is a sub-catchment in the headwaters of the River Esk. The 77 hectare Danby Beck catchment lies between an elevation of 299m at the sampling point/biological survey section and an altitude of 432m at the trig point to the south east. The site is highly designated. Both the Beck and the catchment lie within the North York Moors SAC, SPA, SSSI and National Park. The catchment also falls within the North York Moors Upland land Management Initiative, a Catchment Sensitive Farming area and is under Entry plus Higher Level Stewardship.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1990,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Danby Beck",
+        "shortName": "UWMN_26",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category II – National Park",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/II"
+          },
+          {
+            "label": "Category IV – Habitat/Species Management Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/IV"
+          },
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          },
+          {
+            "label": "Category VI – Protected Area with sustainable use of natural resources",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/VI"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "freshwater_rivers",
+        "ecosystemType": null,
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water rivers"
+        ],
+        "geology": "The underlying geology is Jurassic, sedimentary and largely consists of two main formations, with another two present at the bottom of the catchment. Transitions between them broadly follow the contour lines of the valley. Capping the higher areas is sedimentary bedrock of the Scarborough Formation. Below this lie the undifferentiated sandstone, siltstone and mudstone of the Saltwick and Cloughton Formations. A thin band of Dogger Formation sandstone then overlies Whitby Mudstone, which is only present in the area immediately around the sampling station at the bottom of the catchment.",
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (-0.934491 54.412994)",
+        "country": [
+          "United Kingdom"
+        ],
+        "elevation": {
+          "avg": 365,
+          "min": 299,
+          "max": 432,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 77,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": null
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": "Chemistry sampled monthly. Biological measurements made annually",
+          "siteVisitInterval": 30
+        },
+        "notes": "Accommodation in nearby villages",
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

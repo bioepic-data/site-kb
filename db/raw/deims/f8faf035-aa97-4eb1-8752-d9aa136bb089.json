@@ -1,0 +1,291 @@
+{
+  "source_url": "https://deims.org/api/sites/f8faf035-aa97-4eb1-8752-d9aa136bb089",
+  "retrieved_at": "2026-10-15T17:35:41.822411+00:00",
+  "record": {
+    "title": "Tierberg Karoo Research Station - South Africa",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "f8faf035-aa97-4eb1-8752-d9aa136bb089"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:34:44+01:00",
+    "changed": "2025-08-08T09:00:08+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "SAEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bce17afa-e548-4410-99d2-4eade740c9a9"
+              }
+            },
+            "siteCode": "LTER-SAF-ZA-12",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Sue Milton-Dean",
+            "email": "renukaroo@gmail.com",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Zanele Ntshidi",
+            "email": "z.ntshidi@saeon.nrf.ac.za",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "National Research Foundation (NRF)",
+            "url": "http://www.nrf.ac.za/",
+            "ror": "https://ror.org/05s0g1g46"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Sue Milton-Dean",
+            "email": "renukaroo@gmail.com",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.azef.co.za/pdf/TKRCsite.pdf"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Tierberg Karoo Research Station (TKRS) is a Long Term Ecological Research field facility available for use by organisations involved in research and tertiary education in the natural sciences. The field site comprises 100 ha of natural Karoo shrubland situated in the Karoo Biome. The field site has been fenced to exclude domestic livestock since July 1987. Studies of plant, bird and small mammal populations at this site have contributed substantially to present conceptual understanding of ecological process in the Karoo and provide valuable baselines for research. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1987,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Tierberg Karoo Research Station",
+        "shortName": "TKRS",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/Tierberg%2520Sign.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 19,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 176,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "agricultural",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland unvegetated or sparsely vegetated habitats (H)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": "The TKRS is situated within the Cape Fold Belt.  Soils are derived from Witteberg Quartzite, Dwyka Tillite and Ecca shales with a sandy loam texture.",
+        "hydrology": null,
+        "soils": "Soils are fine and alkaline",
+        "vegetation": "The field site comprises of natural Karoo shrubland in the Succulent/Nama Karoo transition zone"
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (22.268082 -33.165436)",
+        "country": [
+          "South Africa"
+        ],
+        "elevation": {
+          "avg": 780,
+          "min": 780,
+          "max": 780,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 100,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "above ground biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22025"
+          },
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "land cover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22142"
+          },
+          {
+            "label": "land use",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22143"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "dirt road  (4WD)",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": "Staff room with 2 beds on site",
+        "collection": [
+          {
+            "label": "1 - 5 beds",
+            "uri": null
+          },
+          {
+            "label": "2 - 5 places",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Less than 1 kW",
+            "uri": null
+          },
+          {
+            "label": "No tower on site",
+            "uri": null
+          },
+          {
+            "label": "Other transmission types",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://saeon.dirisa.org/management/it-governance/G373.2%20Policy%20and%20Guidelines/G373.2.2%20Policies/data-policy-_stand-alone_.pdf/view"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "Reprints of articles using the dataset must be provided to the data provider",
+              "The data provider is given and agrees to a statement of uses to which the dataset will be put"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

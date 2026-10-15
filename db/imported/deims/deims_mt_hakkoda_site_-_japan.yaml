@@ -1,0 +1,66 @@
+sites:
+- id: site_kb:deims-mt_hakkoda_site_-_japan
+  name: Mt. Hakkoda Site - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: afc3500b-ef22-453d-a287-f4c71261a552
+    network_url: https://deims.org/afc3500b-ef22-453d-a287-f4c71261a552
+    name: Mt. Hakkoda Site - Japan
+  location:
+    latitude: 40.35
+    longitude: 140.47
+    country: Japan
+    elevation_meters: 900.0
+  description: "The Hakkoda site is located on the east slope of Mt. Takada-Ohtake,\
+    \ and on the west slope of Mt. Akakuradake (40.35 ~ 40 N, 140.47 ~ 57 E). The\
+    \ forest site includes 14 permanent plots (0.05 ~ 0.25 ha) ranging over beech\
+    \ forests (alt. 400 – 800m), mixed forests (alt. 900m) and abies forests (alt.\
+    \ 1000 – 1400m). In the two plots at each elevation (400, 600, 800, 900, 1000,\
+    \ 1200, 1400m), the studies for forest dynamics and carbon/nutrient cycling have\
+    \ been conducted since 2007. In the plots of beech forests, Fagus crenata dominates\
+    \ canopy layer, and other deciduous broad-leaved species such as Quercus crispula,\
+    \ Acer japonicum and Magnolia obovata coexist. In the plots of abies forests,\
+    \ the forest canopy is dominated by Abies mariesii, and the understory is dominated\
+    \ by dwarf bamboo Sasa kurilensis and Sasa veitchii. \r\n　Twenty-eight moorland\
+    \ sites are located across an altitudinal gradient (574–1285 m). Moorland areas\
+    \ differs among sites (1000–160,000 m2). Six 20-m transects were spaced evenly\
+    \ within each moorland site in 2009. Vegetation survey and measurements of environmental\
+    \ conditions such as pH, EC, and temperature have been conducted since then. The\
+    \ sites are dominated by Moliniopsis japonica and Eriophorum vaginatum. Of these\
+    \ sites, the moor Takada-Yachi has been registered as the Monitoring Sites 1000\
+    \ founded by the Ministry of the Environment Japan in 2009."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/afc3500b-ef22-453d-a287-f4c71261a552
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:08.106452+00:00'
+      source_modified_at: '2021-02-09T12:17:38+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/afc3500b-ef22-453d-a287-f4c71261a552
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:08.106452+00:00'
+      source_modified_at: '2021-02-09T12:17:38+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/afc3500b-ef22-453d-a287-f4c71261a552
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:08.106452+00:00'
+      source_modified_at: '2021-02-09T12:17:38+01:00'
+  status: ACTIVE

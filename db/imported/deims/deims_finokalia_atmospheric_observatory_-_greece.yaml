@@ -1,0 +1,39 @@
+sites:
+- id: site_kb:deims-finokalia_atmospheric_observatory_-_greece
+  name: Finokalia Atmospheric Observatory - Greece
+  network_registrations:
+  - network: DEIMS
+    network_id: d16cc035-054d-4b0e-9e19-6e9ec10aecd0
+    network_url: https://deims.org/d16cc035-054d-4b0e-9e19-6e9ec10aecd0
+    name: Finokalia Atmospheric Observatory - Greece
+  location:
+    latitude: 35.337718
+    longitude: 25.66975
+    country: Greece
+    elevation_meters: 250.0
+  description: "FKL is the atmospheric research station of the Environmental Chemical\
+    \ Processes Laboratory, Department of Chemistry, University of Crete.\r\nThe station\
+    \ is situated at Finokalia (35°20'N, 25°40'E ) on the north coast of Crete. The\
+    \ nearest large urban centre is Heraklion with 150000 inhabitants located 70 km\
+    \ west of Finokalia. The station is located at the top of a hilly elevation (250\
+    \ m asl) facing the sea within a sector 270° to 90°. No significant human activities\
+    \ occur at a distance shorter than 15 km within the above mentioned sector. The\
+    \ area is characterized by the existence of two well-distinguished seasons: the\
+    \ dry season (from April to September) mainly characterised by increased levels\
+    \ of pollution and biomass burning events and the wet season (from October to\
+    \ April). Important transport from Sahara (S/SW winds; occurrence up to 20%) takes\
+    \ place during the intermediate season (spring and autumn)."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/d16cc035-054d-4b0e-9e19-6e9ec10aecd0
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:23.519539+00:00'
+      source_modified_at: '2023-06-20T10:50:02+02:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

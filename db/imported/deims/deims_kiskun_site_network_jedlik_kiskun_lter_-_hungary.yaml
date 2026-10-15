@@ -1,0 +1,72 @@
+sites:
+- id: site_kb:deims-kiskun_site_network_jedlik_kiskun_lter_-_hungary
+  name: Kiskun Site Network (Jedlik), KISKUN LTER - Hungary
+  network_registrations:
+  - network: DEIMS
+    network_id: cc6ee9af-f985-4bff-bf6c-2b8ce2eda3f3
+    network_url: https://deims.org/cc6ee9af-f985-4bff-bf6c-2b8ce2eda3f3
+    name: Kiskun Site Network (Jedlik), KISKUN LTER - Hungary
+  location:
+    latitude: 46.8
+    longitude: 19.3833
+    country: Hungary
+    elevation_meters: 120.0
+  description: Network of 16 sites for the examination of land use effect on biodiversity
+  variables:
+  - name: biological diversity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological diversity
+      record_url: https://deims.org/api/sites/cc6ee9af-f985-4bff-bf6c-2b8ce2eda3f3
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21391
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:40.736631+00:00'
+      source_modified_at: '2025-05-14T11:48:12+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/cc6ee9af-f985-4bff-bf6c-2b8ce2eda3f3
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:40.736631+00:00'
+      source_modified_at: '2025-05-14T11:48:12+02:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/cc6ee9af-f985-4bff-bf6c-2b8ce2eda3f3
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:40.736631+00:00'
+      source_modified_at: '2025-05-14T11:48:12+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/cc6ee9af-f985-4bff-bf6c-2b8ce2eda3f3
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:40.736631+00:00'
+      source_modified_at: '2025-05-14T11:48:12+02:00'
+  - name: plant cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: plant cover
+      record_url: https://deims.org/api/sites/cc6ee9af-f985-4bff-bf6c-2b8ce2eda3f3
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22188
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:40.736631+00:00'
+      source_modified_at: '2025-05-14T11:48:12+02:00'
+  notes: 'Biogeographical region: pannonian'
+  status: ACTIVE

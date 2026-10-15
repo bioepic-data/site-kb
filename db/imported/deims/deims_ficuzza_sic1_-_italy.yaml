@@ -1,0 +1,31 @@
+sites:
+- id: site_kb:deims-ficuzza_sic1_-_italy
+  name: Ficuzza SIC1 - Italy
+  network_registrations:
+  - network: DEIMS
+    network_id: ec2bba9a-365f-45d8-9e0d-229de0f41332
+    network_url: https://deims.org/ec2bba9a-365f-45d8-9e0d-229de0f41332
+    name: Ficuzza SIC1 - Italy
+  location:
+    latitude: 37.90865
+    longitude: 13.406738
+    country: Italy
+    elevation_meters: 940.0
+  description: Here we describe the characteristics of an observation plot within
+    Mediterranean Forests LTER Italy site. The name of the plot is SIC1 Ficuzza. It
+    belongs to the Italian branch of the ICP Forests Network (CONECOFOR) but it is
+    managed by the Sicily Agency
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/ec2bba9a-365f-45d8-9e0d-229de0f41332
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:30.228016+00:00'
+      source_modified_at: '2023-10-26T13:54:10+02:00'
+  notes: 'Biogeographical region: mediterranean'
+  status: ACTIVE

@@ -1,0 +1,415 @@
+{
+  "source_url": "https://deims.org/api/sites/28a399bc-e90f-43c2-a17d-2556b9644868",
+  "retrieved_at": "2026-10-15T17:38:10.478613+00:00",
+  "record": {
+    "title": "Lake Päijänne LTER - Finland",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "28a399bc-e90f-43c2-a17d-2556b9644868"
+    },
+    "type": "site",
+    "created": "2012-12-25T18:57:34+01:00",
+    "changed": "2025-09-30T11:09:58+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Finland",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "aaae2a46-f355-41d0-8067-c2f0cd52e814"
+              }
+            },
+            "siteCode": "LTER_EU_FI_003",
+            "verified": true
+          }
+        ],
+        "projects": [
+          {
+            "label": "LIFEPLAN",
+            "uri": "https://cordis.europa.eu/project/id/856506"
+          }
+        ]
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Juha Karjalainen",
+            "email": "juha.karjalainen@jyu.fi",
+            "orcid": "https://orcid.org/0000-0001-9302-1174"
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Juha Karjalainen",
+            "email": "juha.karjalainen@jyu.fi",
+            "orcid": "https://orcid.org/0000-0001-9302-1174"
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://www.paijanne.org"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Lake Päijänne LTER site constitutes one of the biggest lakes in Finland (and smaller lakes in catchment area) with almost 300 000 habitants in surrounding areas. The lake has been heavily polluted but its condition has been improved, and today the lake has both high economic and social importance for a significant proportion of the Finnish population. There is a long experience of lake research in the L. Päijänne area, including some long-term data series. Research at L. Päijänne is diverse and is already well-equipped with instrumentation supporting long-term monitoring. The research covers large scales from hydrology to fish stock assessment.  This research area includes also another large Finnish lake, Lake Konnevesi, as a natural reference lake in the northern branch of the Lake Päijänne system.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2007,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Lake Päijänne LTER",
+        "shortName": "Lake Päijänne LTER",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": [
+          {
+            "label": "aquaculture and fishing",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_4_AquacultureAndFishing"
+          },
+          {
+            "label": "primary production",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_PrimaryProduction"
+          },
+          {
+            "label": "professional fishing",
+            "uri": "https://inspire.ec.europa.eu/codelist/HILUCSValue/1_4_2_ProfessionalFishing"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/loka1%2520028.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 2.9,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 591,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "boreal",
+        "biome": "freshwater_lakes",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Fresh Water Lakes",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Large lakes",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Littoral zone of inland surface waterbodies (C3)",
+            "uri": null
+          },
+          {
+            "label": "Permanent lake ice (C1.7)",
+            "uri": null
+          },
+          {
+            "label": "Permanent mesotrophic lakes, ponds and pools (C1.2)",
+            "uri": null
+          },
+          {
+            "label": "Permanent oligotrophic lakes, ponds and pools (C1.1)",
+            "uri": null
+          },
+          {
+            "label": "Surface standing waters (C1)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "MULTIPOLYGON (((25.743031 62.234034, 25.753327 62.237873, 25.761223 62.234674, 25.770493 62.247147, 25.786628 62.240911, 25.805511 62.237713, 25.786286 62.231475, 25.773239 62.234034, 25.765343 62.232595, 25.745432 62.230835, 25.73307 62.226196, 25.725173 62.227476, 25.732043 62.229076, 25.743031 62.234034)), ((26.559447 62.615457, 26.45645 62.635032, 26.375429 62.66973, 26.391911 62.631876, 26.346596 62.617352, 26.434478 62.605349, 26.526497 62.579431, 26.597904 62.550958, 26.629489 62.533228, 26.673438 62.54526, 26.732478 62.568045, 26.634977 62.583225, 26.628117 62.613562, 26.559447 62.615457)))",
+        "coordinates": "POINT (25.48 61.85)",
+        "country": [
+          "Finland"
+        ],
+        "elevation": {
+          "avg": 78,
+          "min": 78,
+          "max": 210,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 8267.23,
+          "unit": "ha"
+        },
+        "relatedLocations": [
+          {
+            "title": "Lake Päijänne",
+            "id": {
+              "prefix": "https://deims.org/locations/",
+              "suffix": "9286d8ef-f623-493a-affb-4c77c3d563f7"
+            },
+            "changed": "2024-05-07T14:21:53+0200"
+          }
+        ]
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "mainly experimentation",
+          "scale": "micro sites"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "entire catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "agricultural parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20936"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "water acidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22030"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30025"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water quality",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22312"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water transparency",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10392"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 10,
+        "permanentPowerSupply": true,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 50
+        },
+        "notes": "Two profiling awqm stations in the site. ",
+        "collection": [
+          {
+            "label": "> 10 beds",
+            "uri": null
+          },
+          {
+            "label": "> 5 places",
+            "uri": null
+          },
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "Snow mobile",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          },
+          {
+            "label": "XML database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "The data provider must be offered co-authorship for publications using this dataset at least within the metadata description"
+            ],
+            "notes": "Passwords accepted to data sytem (WetBox). Open access to data for all kind of use."
+          }
+        }
+      },
+      "relatedResources": [
+        {
+          "id": {
+            "prefix": "https://deims.org/sensors/",
+            "suffix": "a5119301-bd84-4b07-9e92-b41375d4c99d"
+          },
+          "title": "Lake Jyväsjärvi Meteorological Station",
+          "changed": "2018-06-25T14:44:26+02:00"
+        },
+        {
+          "id": {
+            "prefix": "https://deims.org/sensors/",
+            "suffix": "f5cc2d2f-2802-4989-b49a-187b888f88ca"
+          },
+          "title": "Lake Jyväsjärvi Automated Water Quality Monitoring Station",
+          "changed": "2018-07-12T09:38:24+02:00"
+        },
+        {
+          "id": {
+            "prefix": "https://deims.org/sensors/",
+            "suffix": "3fece59a-5d19-4ff8-aa7a-2b9c57c58850"
+          },
+          "title": "Lake Konnevesi Meteorological Station",
+          "changed": "2018-06-25T14:44:26+02:00"
+        },
+        {
+          "id": {
+            "prefix": "https://deims.org/sensors/",
+            "suffix": "4ef0627d-ffde-46f2-8fc5-51a3352e1cf2"
+          },
+          "title": "Lake Konnevesi Automated Water Quality Monitoring Station",
+          "changed": "2018-07-12T09:38:24+02:00"
+        }
+      ],
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "source_url": "https://deims.org/api/sites/e8b3f24b-6bad-46d7-a9eb-1f17c8143685",
+  "retrieved_at": "2026-10-15T17:46:39.131487+00:00",
+  "record": {
+    "title": "Benthic Trawl Experiment - South Africa",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "e8b3f24b-6bad-46d7-a9eb-1f17c8143685"
+    },
+    "type": "site",
+    "created": "2017-08-18T15:38:17+02:00",
+    "changed": "2025-07-07T13:47:09+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "SAEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bce17afa-e548-4410-99d2-4eade740c9a9"
+              }
+            },
+            "siteCode": "LTER-SAF-ZA-26",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Lara Atkinson",
+            "email": "lara@saeon.ac.za",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "South African Environmental Observation Network (SAEON)",
+            "url": "http://www.saeon.ac.za/",
+            "ror": "https://ror.org/041j42q70"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Lara Atkinson",
+            "email": "lara@saeon.ac.za",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "Demersal trawl experimental closure",
+            "value": "http://www.saeon.ac.za/2015-benthic-trawl-experiment-research-cruise"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The experimental survey area lies west of Hondeklip Bay, off the west coast of South Africa, near the edge of the continental shelf at approximately 480 m depth. The site consists of 15 x 6 km trawl lanes.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2014,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Benthic Trawl Experiment",
+        "shortName": "BTE",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/benthic-trawl-experiment-south-africa_4720.png",
+            "alt": "Benthic Trawl Experiment lanes"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/benthic-trawl-experiment-south-africa_4722.jpg",
+            "alt": "not defined"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/photos/benthic-trawl-experiment-south-africa_4723.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 7.05,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 199.6,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Marine",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Bentho-pelagic habitats (X30)",
+            "uri": null
+          },
+          {
+            "label": "Deep-sea bed (A6)",
+            "uri": null
+          },
+          {
+            "label": "Deep-sea sand (A6.3)",
+            "uri": null
+          },
+          {
+            "label": "Habitat complexes (X)",
+            "uri": null
+          },
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (15.343 -30.7965)",
+        "country": [
+          "South Africa"
+        ],
+        "elevation": {
+          "avg": -240,
+          "min": -480,
+          "max": 0,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 90,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "only experimentation",
+          "scale": "plot scale"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "biotic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22069"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "habitat disturbance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21488"
+          },
+          {
+            "label": "species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22287"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No lodging possible",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "http://saeon.dirisa.org/management/it-governance/G373.2%20Policy%20and%20Guidelines/G373.2.2%20Policies/data-policy-_stand-alone_.pdf"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "Reprints of articles using the dataset must be provided to the data provider",
+              "The dataset provider is given a complete list of all products that make use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "na"
+        }
+      }
+    }
+  }
+}

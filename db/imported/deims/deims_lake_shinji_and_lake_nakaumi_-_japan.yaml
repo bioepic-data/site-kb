@@ -1,0 +1,288 @@
+sites:
+- id: site_kb:deims-lake_shinji_and_lake_nakaumi_-_japan
+  name: Lake Shinji and Lake Nakaumi - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 54c1fc05-0e3a-424b-abca-f9afaef34e9d
+    network_url: https://deims.org/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+    name: Lake Shinji and Lake Nakaumi - Japan
+  location:
+    latitude: 35.4472
+    longitude: 132.949
+    country: Japan
+    elevation_meters: 0.0
+  description: Lake Shinji and Lake nakaumi are coupled coastal lagoon lake systems
+    in Japan, and these lakes have suffered detrimental efects by  human activities,
+    especially during the last 40 years, because of the big national projects aiming
+    at desalination and reclamation of these lakes.  In the year 2000, however, the
+    land reclamation project in Lake Nakaumi was officially discontinued, leaving
+    Honjou area unreclaimed.  Shortly thereafter, desalination project was also terminated.  This
+    was the end of a large and expensive series of public works projects, and in 2005,
+    these two lakes were included in the list of wetlands of international importance,
+    and the efforts to restore the lakes are undergone.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: chlorophyll content of water
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chlorophyll content of water
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10088
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: diversity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diversity index
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/21513
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: lake level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: lake level
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/22141
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: lake temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: lake temperature
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/7
+      source_id: http://vocabs.lter-europe.net/EnvThes/10011
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: photosynthetically active radiation intensity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: photosynthetically active radiation intensity
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/8
+      source_id: http://vocabs.lter-europe.net/EnvThes/22186
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: secchi depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: secchi depth
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/9
+      source_id: http://vocabs.lter-europe.net/EnvThes/22226
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: sight depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: sight depth
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/10
+      source_id: http://vocabs.lter-europe.net/EnvThes/22238
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species composition
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/11
+      source_id: http://vocabs.lter-europe.net/EnvThes/22285
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: species richness
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species richness
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/12
+      source_id: http://vocabs.lter-europe.net/EnvThes/22287
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: specific conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: specific conductivity
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/13
+      source_id: http://vocabs.lter-europe.net/EnvThes/22289
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: suspended solids
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: suspended solids
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/14
+      source_id: http://vocabs.lter-europe.net/EnvThes/22293
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: water depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water depth
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/15
+      source_id: http://vocabs.lter-europe.net/EnvThes/22310
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: water level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water level
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/16
+      source_id: http://vocabs.lter-europe.net/EnvThes/30025
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/17
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/18
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: water salinity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water salinity
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/19
+      source_id: http://vocabs.lter-europe.net/EnvThes/10308
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/20
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: water transparency
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water transparency
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/21
+      source_id: http://vocabs.lter-europe.net/EnvThes/10392
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: water velocity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water velocity
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/22
+      source_id: http://vocabs.lter-europe.net/EnvThes/22315
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: water volume
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water volume
+      record_url: https://deims.org/api/sites/54c1fc05-0e3a-424b-abca-f9afaef34e9d
+      field_path: /attributes/focusDesignScale/observedProperties/23
+      source_id: http://vocabs.lter-europe.net/EnvThes/22316
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:05.238361+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  status: ACTIVE

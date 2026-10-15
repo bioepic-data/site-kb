@@ -1,0 +1,32 @@
+sites:
+- id: site_kb:deims-permafrance_aiguille_du_midi_-_france
+  name: PermaFrance Aiguille du Midi - France
+  network_registrations:
+  - network: DEIMS
+    network_id: 69452a1c-841f-4f80-be28-61bdd99ac8b7
+    network_url: https://deims.org/69452a1c-841f-4f80-be28-61bdd99ac8b7
+    name: PermaFrance Aiguille du Midi - France
+  location:
+    latitude: 45.878403
+    longitude: 6.887625
+    country: France
+    elevation_meters: 3750.0
+  description: 'High mountain granite peak at 3750 m above Chamonix, in the French
+    Alps. The site dominates a glacial environment, with the Vallée Blanche-Mer de
+    Glace to the Est and North. The site is made of two peaks: the Western peak is
+    accessible by cable car, whereas the monitoring activities are performed on the
+    Central peak.'
+  variables:
+  - name: soil temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil temperature
+      record_url: https://deims.org/api/sites/69452a1c-841f-4f80-be28-61bdd99ac8b7
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22278
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:48.547149+00:00'
+      source_modified_at: '2024-03-04T12:02:30+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

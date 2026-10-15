@@ -1,0 +1,59 @@
+sites:
+- id: site_kb:deims-kagoshima_bay_-_japan
+  name: Kagoshima Bay - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: 16f852fc-ec6e-43bc-8cba-711600e8d1d2
+    network_url: https://deims.org/16f852fc-ec6e-43bc-8cba-711600e8d1d2
+    name: Kagoshima Bay - Japan
+  location:
+    latitude: 31.6665
+    longitude: 130.7488
+    country: Japan
+    elevation_meters: -140.0
+  description: Kagoshima Bay is located at the south end of Kyushu Island. It is almost
+    80Km long (north and south), 20Km wide (east and west), and 1,130km2 in area.
+    It is 117m depth on average and 237m depth at its deepest. Since it is only 100m
+    depth at the mouth of the bay, Kagoshima Bay is considered a closed inner bay.
+    A branch of the Kuroshio Current flows in to the bay and provides the right environment
+    for corals, then we can find coral communities on the southern coast of Sakurajima
+    Island. Seaweed beds composed by Sargassum algae are distributed in shallow areas
+    and some pods of dolphin stay in the bay. We can also find benthic animals including
+    some commercial species in the deep area and the shallowest species of vestimentifera
+    (Lamellibrachia satsuma), a host of chemosynthetic bacterial symbionts. Thus,
+    Kagoshima Bay has a variety of habitats and very unique environmental conditions.
+  variables:
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/16f852fc-ec6e-43bc-8cba-711600e8d1d2
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:04.027418+00:00'
+      source_modified_at: '2020-06-29T10:28:31+02:00'
+  - name: ecosystem structure
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem structure
+      record_url: https://deims.org/api/sites/16f852fc-ec6e-43bc-8cba-711600e8d1d2
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/21475
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:04.027418+00:00'
+      source_modified_at: '2020-06-29T10:28:31+02:00'
+  - name: water temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water temperature
+      record_url: https://deims.org/api/sites/16f852fc-ec6e-43bc-8cba-711600e8d1d2
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22313
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:04.027418+00:00'
+      source_modified_at: '2020-06-29T10:28:31+02:00'
+  status: ACTIVE

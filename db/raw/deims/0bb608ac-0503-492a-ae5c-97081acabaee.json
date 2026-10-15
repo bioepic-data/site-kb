@@ -1,0 +1,531 @@
+{
+  "source_url": "https://deims.org/api/sites/0bb608ac-0503-492a-ae5c-97081acabaee",
+  "retrieved_at": "2026-10-15T17:47:09.981249+00:00",
+  "record": {
+    "title": "OZCAR-RI SNO_Karst Karsts Aquitains - France",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "0bb608ac-0503-492a-ae5c-97081acabaee"
+    },
+    "type": "site",
+    "created": "2019-02-01T11:55:47+01:00",
+    "changed": "2024-03-04T09:39:03+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER France",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d8d9206f-b1bd-4f90-84b7-8c662d4235a2"
+              }
+            },
+            "siteCode": "CZO_EU_FR_186",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "OZCAR RI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "3439de4e-c64d-4a97-bed0-7e27fadbcb7b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "SNO Karst",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1dc3ec86-22d1-4e77-8f30-2718d4cecca1"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Nicolas PEYRAUBE",
+            "email": "nicolas.peyraube@u-bordeaux.fr",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Roland LASTENNET",
+            "email": "roland.lastennet@u-bordeaux.fr",
+            "orcid": "https://orcid.org/0000-0002-7276-7978"
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Bordeaux University (I2M)",
+            "url": "https://www.i2m.u-bordeaux.fr/",
+            "ror": "https://ror.org/00wrnm709"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Nicolas PEYRAUBE",
+            "email": "nicolas.peyraube@u-bordeaux.fr",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Roland LASTENNET",
+            "email": "roland.lastennet@u-bordeaux.fr",
+            "orcid": "https://orcid.org/0000-0002-7276-7978"
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "Aquitain's karsts observatory (Aquitaine, France) regroups different karst sites located on the edge of the Aquitain sedimentary basin. These karst watersheds range from 0.01 km² (Lascaux cave) and 1 km² (Cussac cave) up to 100 km² (Toulon springs) and the land use consists of forests and agriculture under modified oceanic climate. This observatory consists of various observation and experimentation sites like patrimonial caves and large karstic hydrosystem outlets.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": null,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "OZCAR-RI SNO_Karst Karsts Aquitains",
+        "shortName": "KarAq",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/ozcar-ri-sno_karst-karsts-aquitains-france_6300.jpg",
+            "alt": "Toulon springs (Karsts Aquitains)"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 12.61,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 823,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "atlantic",
+        "biome": "mixed_forest",
+        "ecosystemType": [
+          {
+            "label": "Agricultural",
+            "uri": null
+          },
+          {
+            "label": "Forest",
+            "uri": null
+          },
+          {
+            "label": "Grasslands",
+            "uri": null
+          },
+          {
+            "label": "Lakes",
+            "uri": null
+          },
+          {
+            "label": "Large river headwaters",
+            "uri": null
+          },
+          {
+            "label": "Mixed Forest",
+            "uri": null
+          },
+          {
+            "label": "Rivers",
+            "uri": null
+          },
+          {
+            "label": "Small lakes",
+            "uri": null
+          },
+          {
+            "label": "Small rivers",
+            "uri": null
+          },
+          {
+            "label": "Temperate grasslands, savannas, and shrublands",
+            "uri": null
+          },
+          {
+            "label": "Urban",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Active opencast mineral extraction sites, including quarries (J3.2)",
+            "uri": null
+          },
+          {
+            "label": "Agricultural and horticultural waste (J6.4)",
+            "uri": null
+          },
+          {
+            "label": "Agricultural constructions (J2.4)",
+            "uri": null
+          },
+          {
+            "label": "Buildings of cities, towns and villages (J1)",
+            "uri": null
+          },
+          {
+            "label": "Constructed boundaries (J2.5)",
+            "uri": null
+          },
+          {
+            "label": "Constructed, industrial and other artificial habitats (J)",
+            "uri": null
+          },
+          {
+            "label": "Cultivated areas of gardens and parks (I2)",
+            "uri": null
+          },
+          {
+            "label": "Disused constructions of cities, towns and villages (J1.5)",
+            "uri": null
+          },
+          {
+            "label": "Disused road, rail and other constructed hard-surfaced areas (J4.1)",
+            "uri": null
+          },
+          {
+            "label": "Disused rural constructions (J2.6)",
+            "uri": null
+          },
+          {
+            "label": "Extractive industrial sites (J3)",
+            "uri": null
+          },
+          {
+            "label": "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+            "uri": null
+          },
+          {
+            "label": "Habitat complexes (X)",
+            "uri": null
+          },
+          {
+            "label": "Highly artificial man-made waters and associated structures (J5)",
+            "uri": null
+          },
+          {
+            "label": "Highly artificial non-saline standing waters (J5.3)",
+            "uri": null
+          },
+          {
+            "label": "Household waste and landfill sites (J6.2)",
+            "uri": null
+          },
+          {
+            "label": "Inland cliffs, rock pavements and outcrops (H3)",
+            "uri": null
+          },
+          {
+            "label": "Inland surface waters (C)",
+            "uri": null
+          },
+          {
+            "label": "Inland unvegetated or sparsely vegetated habitats (H)",
+            "uri": null
+          },
+          {
+            "label": "Land sparsely wooded with broadleaved deciduous trees (X13)",
+            "uri": null
+          },
+          {
+            "label": "Low density buildings (J2)",
+            "uri": null
+          },
+          {
+            "label": "Mixed Scots pine - acidophilous oak woodland (G4.7)",
+            "uri": null
+          },
+          {
+            "label": "Mixed deciduous and coniferous woodland (G4)",
+            "uri": null
+          },
+          {
+            "label": "Non-agricultural organic waste (J6.3)",
+            "uri": null
+          },
+          {
+            "label": "Rail networks (J4.3)",
+            "uri": null
+          },
+          {
+            "label": "Regularly or recently cultivated agricultural, horticultural and domestic habitats (I)",
+            "uri": null
+          },
+          {
+            "label": "Residential buildings of villages and urban peripheries (J1.2)",
+            "uri": null
+          },
+          {
+            "label": "Road networks (J4.2)",
+            "uri": null
+          },
+          {
+            "label": "Rural industrial and commercial sites still in active use (J2.3)",
+            "uri": null
+          },
+          {
+            "label": "Rural public buildings (J2.2)",
+            "uri": null
+          },
+          {
+            "label": "Sparsely wooded grasslands (E7)",
+            "uri": null
+          },
+          {
+            "label": "Surface running waters (C2)",
+            "uri": null
+          },
+          {
+            "label": "Surface standing waters (C1)",
+            "uri": null
+          },
+          {
+            "label": "Terrestrial underground caves, cave systems, passages and waterbodies (H1)",
+            "uri": null
+          },
+          {
+            "label": "Transport networks and other constructed hard-surfaced areas (J4)",
+            "uri": null
+          },
+          {
+            "label": "Urban and suburban industrial and commercial sites still in active use (J1.4)",
+            "uri": null
+          },
+          {
+            "label": "Waste deposits (J6)",
+            "uri": null
+          },
+          {
+            "label": "Woodland, forest and other wooded land (G)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Fresh water lakes",
+          "Fresh water rivers",
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": null,
+        "coordinates": "POINT (0.700098 45.198472)",
+        "country": [
+          "France"
+        ],
+        "elevation": {
+          "avg": 180,
+          "min": 80,
+          "max": 210,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 10000,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "catchment scale"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "atmospheric pressure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22060"
+          },
+          {
+            "label": "base cations content in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21208"
+          },
+          {
+            "label": "chemical composition of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21213"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "inorganic carbon content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22135"
+          },
+          {
+            "label": "inorganic nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22136"
+          },
+          {
+            "label": "maximum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21529"
+          },
+          {
+            "label": "mean annual air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21530"
+          },
+          {
+            "label": "mean annual temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21531"
+          },
+          {
+            "label": "minimum temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21532"
+          },
+          {
+            "label": "oxygen saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21215"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          },
+          {
+            "label": "redox potential of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21216"
+          },
+          {
+            "label": "solar radiation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22284"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water alkalinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10303"
+          },
+          {
+            "label": "water turbidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21217"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "regular car",
+        "allPartsAccessible": false,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": "continuous measurements of parameters",
+          "siteVisitInterval": 30
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "10-100 kW",
+            "uri": null
+          },
+          {
+            "label": "All over site/catchment",
+            "uri": null
+          },
+          {
+            "label": "Central station(s)",
+            "uri": null
+          },
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "No within site data transmission",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 2WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": "Data portal & Data policy ",
+                "value": "https://data.oreme.org/observation/snokarst"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "The opportunity to collaborate on the project using the dataset",
+              "The opportunity to review the results based on the dataset",
+              "Reprints of articles using the dataset must be provided to the data provider",
+              "The dataset provider is given a complete list of all products that make use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

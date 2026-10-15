@@ -1,0 +1,480 @@
+{
+  "source_url": "https://deims.org/api/sites/6dfa31b5-f5d2-4579-b869-c329c2b76af6",
+  "retrieved_at": "2026-10-15T17:35:38.989295+00:00",
+  "record": {
+    "title": "Algoa Bay Sentinel Site - South Africa",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "6dfa31b5-f5d2-4579-b869-c329c2b76af6"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:34:17+01:00",
+    "changed": "2022-11-11T16:53:19+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "GERI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c3abdc60-49f1-49db-81fe-863b7dbb21d3"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "SAEON",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "bce17afa-e548-4410-99d2-4eade740c9a9"
+              }
+            },
+            "siteCode": "LTER-SAF-ZA-1",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Thomas Bornman",
+            "email": "tommy@saeon.ac.za",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "South African Environmental Observation Network (SAEON)",
+            "url": "http://www.saeon.ac.za/",
+            "ror": "https://ror.org/041j42q70"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Shaun Deyzel",
+            "email": "shaun@saeon.ac.za",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "SAEON Elwandle Node",
+            "value": "https://elwandle.saeon.ac.za/"
+          },
+          {
+            "title": "SMCRI - Shallow Marine and Coastal Research Infrastructure",
+            "value": "https://smcri.saeon.ac.za/"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "The Algoa Bay Sentinel Site is a coastal observatory comprising four programmes and a geographical footprint spanning >300 km of coastline on the warm-temperate south-east coast of South Africa. The Continuous Monitoring Programme (CMP) comprise 37 permanently moored in situ observatories measuring a series of physical properties of the coastal ocean between Port Alfred and Oyster Bay. The Pelagic Ecosystem LTER Programme (PELTER) perform long-term observations selected Essential Biodiversity Variables (EBV), including phytoplankton and zooplankton. The Sandy Beaches LTER Programme (SBLTER) entail observations of short- and long-term changes in surfzone diatoms among other variables at 10 sandy beach stations in Algoa Bay. The Rocky Shores LTER Programme (RSLTER) conducts repeat observations of benthic communities associated with 7 stations on Algoa Bay island complexes and surrounding shores. The Benthic Ecosystem LTER Programme employs remote imagery technologies (sBRUV, ROV, jump cameras) to monitor long-term change in the community structure of fishes and invertebrates. First observations commenced in 2008 and is ongoing. In situ moorings record water temperature and current velocity at hourly intervals and are serviced every 3 to 6 months. PELTER and SBLTER stations are sampled monthly, while BELTER and RSLTER stations are visited quarterly and biannually respectively. The majority of moorings and stations are situated within the Addo Elephant National Park Marine Protected Area, home to the largest remaining African Penguin colony in the world. ABSS data serve conservation, research and resource management efforts. ",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 2008,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Algoa Bay Sentinel Site",
+        "shortName": "ABSS",
+        "siteType": "not applicable",
+        "protectionLevel": [
+          {
+            "label": "Category IV – Habitat/Species Management Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/IV"
+          }
+        ],
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/2022-11/Humpback%20whale%20breaching%20at%20Woody%20cape.JPG",
+            "alt": "Humpback Whale breaching off Woody Cape (photo by Stephanie Plon)"
+          },
+          {
+            "url": "https://deims.org/sites/default/files/2022-11/20170413_Algoa%20Bay%20Sentinel%20Site%20for%20LTER.jpg",
+            "alt": "Algoa Bay Sentinel Site map of instruments and stations"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 18.1,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 453,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "coastal",
+        "ecosystemType": [
+          {
+            "label": "Coastal",
+            "uri": null
+          },
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Temperate shelfs and seas",
+            "uri": null
+          },
+          {
+            "label": "Temperate upwelling",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Coastal habitats (B)",
+            "uri": null
+          },
+          {
+            "label": "High energy littoral rock (A1.1)",
+            "uri": null
+          },
+          {
+            "label": "Littoral rock and other hard substrata (A1)",
+            "uri": null
+          },
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          },
+          {
+            "label": "Rock cliffs, ledges and shores, including the supralittoral (B3)",
+            "uri": null
+          },
+          {
+            "label": "Rock cliffs, ledges and shores, with angiosperms (B3.3)",
+            "uri": null
+          }
+        ],
+        "landforms": [
+          {
+            "label": "Bay or Gulf",
+            "uri": null
+          },
+          {
+            "label": "Coast",
+            "uri": null
+          },
+          {
+            "label": "Island",
+            "uri": null
+          }
+        ],
+        "geoBonBiome": [
+          "Marine",
+          "Coastal"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((26.906891 -33.611724, 26.769905 -33.64534, 26.741066 -33.654486, 26.722527 -33.667059, 26.708794 -33.67106, 26.697807 -33.681345, 26.695297 -33.68213, 26.694438 -33.680737, 26.692379 -33.680916, 26.687787 -33.681987, 26.685684 -33.682523, 26.683452 -33.683559, 26.682336 -33.684737, 26.682165 -33.685451, 26.681092 -33.685987, 26.677487 -33.689093, 26.66826 -33.695735, 26.664913 -33.695271, 26.662381 -33.694164, 26.649249 -33.699198, 26.643026 -33.703447, 26.639636 -33.707981, 26.636159 -33.709409, 26.632726 -33.709695, 26.630838 -33.710873, 26.628907 -33.713514, 26.629379 -33.715049, 26.628392 -33.716691, 26.626375 -33.717155, 26.625345 -33.718119, 26.625817 -33.718976, 26.62204 -33.719868, 26.621611 -33.71894, 26.62101 -33.718333, 26.610668 -33.719369, 26.609423 -33.720118, 26.599123 -33.721368, 26.597321 -33.721832, 26.591828 -33.723652, 26.586292 -33.727935, 26.5817 -33.731219, 26.571057 -33.740426, 26.559684 -33.746315, 26.558053 -33.748277, 26.54947 -33.750561, 26.548054 -33.749919, 26.54711 -33.751382, 26.540201 -33.753273, 26.537883 -33.752702, 26.522219 -33.756199, 26.518915 -33.757804, 26.513164 -33.758803, 26.499646 -33.763691, 26.498358 -33.764405, 26.497242 -33.765546, 26.493766 -33.765689, 26.48793 -33.764975, 26.482351 -33.766438, 26.477888 -33.768793, 26.477115 -33.770113, 26.47454 -33.770148, 26.469133 -33.771932, 26.468275 -33.773537, 26.460593 -33.771468, 26.455572 -33.771433, 26.437719 -33.76758, 26.432784 -33.765618, 26.415317 -33.762514, 26.403601 -33.761729, 26.392529 -33.760302, 26.375577 -33.759374, 26.365964 -33.759838, 26.351502 -33.761515, 26.34558 -33.763584, 26.323392 -33.767865, 26.305368 -33.764583, 26.294038 -33.763406, 26.286528 -33.7618, 26.275928 -33.756092, 26.254513 -33.747563, 26.226146 -33.73775, 26.178102 -33.723731, 26.097422 -33.708595, 26.009016 -33.705739, 25.854864 -33.720732, 25.831347 -33.727585, 25.781221 -33.746286, 25.723028 -33.780108, 25.698824 -33.794803, 25.672731 -33.814773, 25.655737 -33.833739, 25.624838 -33.883632, 25.611277 -33.92851, 25.612993 -33.948733, 25.650244 -33.976497, 25.671186 -33.984041, 25.685949 -33.99984, 25.704317 -34.032139, 25.672045 -34.026875, 25.66432 -34.026733, 25.651789 -34.028867, 25.646811 -34.034415, 25.643721 -34.038113, 25.637712 -34.042523, 25.634966 -34.047644, 25.628958 -34.046221, 25.628443 -34.049635, 25.612307 -34.045795, 25.597029 -34.048355, 25.589819 -34.050346, 25.580378 -34.050488, 25.563383 -34.045368, 25.536432 -34.042239, 25.531626 -34.04167, 25.520983 -34.037687, 25.513086 -34.037544, 25.504675 -34.034557, 25.498323 -34.037687, 25.49489 -34.034415, 25.489397 -34.034273, 25.487337 -34.035553, 25.473261 -34.030432, 25.464678 -34.02972, 25.452833 -34.031001, 25.447168 -34.033419, 25.4391 -34.035695, 25.431547 -34.033988, 25.421934 -34.035411, 25.415583 -34.034273, 25.411806 -34.033846, 25.407686 -34.036264, 25.401335 -34.033704, 25.384684 -34.025452, 25.362024 -34.01905, 25.320482 -34.000267, 25.267954 -33.982475, 25.214396 -33.968952, 25.146589 -33.96283, 25.130281 -33.96283, 25.081701 -33.964965, 25.034838 -33.97066, 24.996729 -33.977493, 24.962568 -33.990589, 24.942656 -34.002259, 24.929266 -34.013785, 24.928064 -34.017912, 24.928923 -34.024029, 24.934244 -34.03285, 24.932184 -34.034984, 24.932528 -34.037971, 24.928236 -34.043092, 24.927893 -34.046506, 24.925146 -34.052764, 24.926863 -34.060444, 24.922915 -34.068265, 24.922571 -34.077365, 24.9224 -34.079214, 24.912615 -34.087033, 24.906607 -34.088739, 24.896822 -34.098122, 24.884462 -34.11134, 24.879141 -34.113188, 24.873648 -34.117167, 24.869356 -34.121573, 24.860601 -34.126831, 24.852018 -34.136635, 24.842062 -34.142887, 24.833136 -34.165615, 24.832792 -34.16803, 24.844294 -34.177688, 24.871931 -34.196432, 24.86867 -34.195722, 24.858713 -34.194728, 24.852018 -34.19274, 24.841375 -34.196432, 24.835539 -34.200265, 24.833307 -34.205802, 24.83777 -34.208499, 24.837599 -34.210629, 24.837255 -34.213042, 24.835024 -34.213326, 24.825239 -34.209777, 24.79434 -34.197, 24.788675 -34.198561, 24.783182 -34.200123, 24.777346 -34.198277, 24.772367 -34.197993, 24.732714 -34.186066, 24.727736 -34.186492, 24.717607 -34.19061, 24.714861 -34.192598, 24.711256 -34.193166, 24.699755 -34.188338, 24.699755 -34.190184, 24.696665 -34.189474, 24.692717 -34.190184, 24.691343 -34.187344, 24.688082 -34.187344, 24.684992 -34.186208, 24.686022 -34.184504, 24.683275 -34.183368, 24.682074 -34.185072, 24.666624 -34.178256, 24.656153 -34.174989, 24.647741 -34.173427, 24.634523 -34.171865, 24.624395 -34.173711, 24.613409 -34.176694, 24.607229 -34.183084, 24.606028 -34.185924, 24.609461 -34.190752, 24.6492 -34.292927, 25.171051 -34.170305, 25.687408 -34.083908, 26.069183 -33.929082, 26.404266 -33.837877, 26.547089 -33.808214, 26.906891 -33.611724))",
+        "coordinates": "POINT (25.98722 -33.88177)",
+        "country": [
+          "South Africa"
+        ],
+        "elevation": {
+          "avg": 7.5,
+          "min": 0,
+          "max": 15,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 628991,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "algae species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10338"
+          },
+          {
+            "label": "algae species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10343"
+          },
+          {
+            "label": "alpha diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22040"
+          },
+          {
+            "label": "ammonium content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10071"
+          },
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "ammonium nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10076"
+          },
+          {
+            "label": "animal species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10336"
+          },
+          {
+            "label": "animal species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22059"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "benthic invertebrates presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10123"
+          },
+          {
+            "label": "biological diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21391"
+          },
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "chlorophyll a content in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21214"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "community pattern",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21471"
+          },
+          {
+            "label": "community structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21472"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "current direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30026"
+          },
+          {
+            "label": "current speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30027"
+          },
+          {
+            "label": "dissolved organic nitrogen",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10125"
+          },
+          {
+            "label": "dissolved organic phosphorus",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22108"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "fish abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30017"
+          },
+          {
+            "label": "functional diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21393"
+          },
+          {
+            "label": "groundwater level",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22126"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "nutrient concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22176"
+          },
+          {
+            "label": "oxygen concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30179"
+          },
+          {
+            "label": "oxygen saturation",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21215"
+          },
+          {
+            "label": "pH value of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21218"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "phytoplankton abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30018"
+          },
+          {
+            "label": "phytoplankton biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30021"
+          },
+          {
+            "label": "secchi depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22226"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22285"
+          },
+          {
+            "label": "species group abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10021"
+          },
+          {
+            "label": "species list",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22286"
+          },
+          {
+            "label": "species presence",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10081"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water turbidity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21217"
+          },
+          {
+            "label": "zooplankton abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30019"
+          },
+          {
+            "label": "zooplankton biomass",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/30022"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 30,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": "CMP moorings are serviced on a rotational basis every 3 to 6 months. PELTER and SBLETER stations are sampled monthly. RSLTER stations are sampled annually and BELTER sites 2 to 4 times a year. ",
+          "siteVisitInterval": 30
+        },
+        "notes": " ",
+        "collection": [
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Marine Platform",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          },
+          {
+            "label": "Vehicle 4WD",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": "SAEON Data Policy",
+                "value": "https://repository.saeon.ac.za/index.php/s/nscR6iaHcy4LYds"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers",
+              "Reprints of articles using the dataset must be provided to the data provider",
+              "The data provider is given and agrees to a statement of uses to which the dataset will be put"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

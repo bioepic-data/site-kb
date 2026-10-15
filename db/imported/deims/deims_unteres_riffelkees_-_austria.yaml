@@ -1,0 +1,31 @@
+sites:
+- id: site_kb:deims-unteres_riffelkees_-_austria
+  name: Unteres Riffelkees - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 206e8225-005d-47c2-a4c4-bc766cf5380f
+    network_url: https://deims.org/206e8225-005d-47c2-a4c4-bc766cf5380f
+    name: Unteres Riffelkees - Austria
+  location:
+    latitude: 47.1333
+    longitude: 12.655
+    country: Austria
+    elevation_meters: 2600.0
+  description: "Reconstituted glacier by ice avalanches from Oberes Riffelkees(Totenlöcher).\
+    \ \r\nThe Untere Riffelkees is a heavyly debris covered glacier tongue(Bergsturz\
+    \ around 1906). \r\nThe glaicer is situated in the western Glocknergruppe in the\
+    \ upper Stubach Valley."
+  variables:
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/206e8225-005d-47c2-a4c4-bc766cf5380f
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:30.204592+00:00'
+      source_modified_at: '2023-07-24T13:18:53+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

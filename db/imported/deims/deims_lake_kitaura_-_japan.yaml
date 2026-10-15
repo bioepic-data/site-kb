@@ -1,0 +1,94 @@
+sites:
+- id: site_kb:deims-lake_kitaura_-_japan
+  name: Lake Kitaura - Japan
+  network_registrations:
+  - network: DEIMS
+    network_id: ce49b235-02b3-4c1a-a5e6-379627277b83
+    network_url: https://deims.org/ce49b235-02b3-4c1a-a5e6-379627277b83
+    name: Lake Kitaura - Japan
+  location:
+    latitude: 36.014722
+    longitude: 140.565333
+    country: Japan
+    elevation_meters: 0.0
+  description: Lake Kitaura is typical eutrophic lake in Japan. The maximum and average
+    depth is 10 m and 4.5 m, respectively.
+  variables:
+  - name: benthic invertebrates abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: benthic invertebrates abundance
+      record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22027
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: benthic invertebrates presence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: benthic invertebrates presence
+      record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/10123
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: conductivity
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: conductivity
+      record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22089
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: lake temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: lake temperature
+      record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/10011
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: secchi depth
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: secchi depth
+      record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22226
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species abundance
+      record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/10018
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  - name: water transparency
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water transparency
+      record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+      field_path: /attributes/focusDesignScale/observedProperties/6
+      source_id: http://vocabs.lter-europe.net/EnvThes/10392
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+      source_modified_at: '2020-06-29T10:42:37+02:00'
+  status: ACTIVE

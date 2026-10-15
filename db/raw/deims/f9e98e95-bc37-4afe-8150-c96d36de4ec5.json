@@ -1,0 +1,300 @@
+{
+  "source_url": "https://deims.org/api/sites/f9e98e95-bc37-4afe-8150-c96d36de4ec5",
+  "retrieved_at": "2026-10-15T17:45:47.232958+00:00",
+  "record": {
+    "title": "OZCAR-RI Glacioclim Col du Dome - France",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "f9e98e95-bc37-4afe-8150-c96d36de4ec5"
+    },
+    "type": "site",
+    "created": "2016-11-26T18:41:31+01:00",
+    "changed": "2024-03-04T09:13:50+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER France",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d8d9206f-b1bd-4f90-84b7-8c662d4235a2"
+              }
+            },
+            "siteCode": "CZO_FR_EU_214",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "OZCAR RI",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "3439de4e-c64d-4a97-bed0-7e27fadbcb7b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "SNO GLACIOCLIM",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "72da9ec6-feb6-4ae8-960c-a209a8d5cd1a"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Christian VINCENT",
+            "email": "christian.vincent@univ-grenoble-alpes.fr",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Delphine Six",
+            "email": "delphine.six@univ-grenoble-alpes.fr",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "GLACIOCLIM Observatory",
+            "value": "http://glacioclim.osug.fr"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Col du Dome (CDD) is a high plateau located in the Mont-Blanc massif (4250 m a.s.l.). Ice is cold at this altitude whatever the month of the year. Accumulation varies between 0.5 and 3 m w.e and is mostly governed by the wind. Périodic ice cores are drilled in the ice to monitor ice temperature. A weather station runs permanently. CDD is a part on the GLACIOCLIM/CRYOBS-CLIM Observatory.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1994,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "LTSER Zone Atelier Alpes - France",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "79d6c1df-570f-455f-a929-6cfe5c4ca1e9"
+                },
+                "changed": "2025-01-10T09:06:34+0100"
+              }
+            ]
+          }
+        ],
+        "siteName": "OZCAR-RI Glacioclim Col du Dome",
+        "shortName": "CDD",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": -10,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1000,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "alpine",
+        "ecosystemType": [
+          {
+            "label": "Alpine",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Ice caps and true glaciers (H4.2)",
+            "uri": null
+          },
+          {
+            "label": "Inland unvegetated or sparsely vegetated habitats (H)",
+            "uri": null
+          },
+          {
+            "label": "Snow or ice-dominated habitats (H4)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((6.8441390991211 45.84566233399, 6.8424224853516 45.840998588507, 6.8488597869873 45.838546975784, 6.8522930145264 45.839982079267, 6.8551254272461 45.843509884655, 6.8501472473144 45.845602544855, 6.8441390991211 45.84566233399))",
+        "coordinates": "POINT (6.8519 45.8432)",
+        "country": [
+          "France"
+        ],
+        "elevation": {
+          "avg": 4250,
+          "min": 4150,
+          "max": 4350,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 50,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "na"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "air temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22035"
+          },
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "landscape parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20943"
+          },
+          {
+            "label": "soil parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20944"
+          },
+          {
+            "label": "soil temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22278"
+          },
+          {
+            "label": "wind direction",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22317"
+          },
+          {
+            "label": "wind speed",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22319"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": true,
+        "accessType": null,
+        "allPartsAccessible": true,
+        "maintenanceInterval": 365,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 365
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "6 - 10 beds",
+            "uri": null
+          },
+          {
+            "label": "Data portal",
+            "uri": null
+          },
+          {
+            "label": "Helicopter",
+            "uri": null
+          },
+          {
+            "label": "Paper",
+            "uri": null
+          },
+          {
+            "label": "Proprietary file format",
+            "uri": null
+          },
+          {
+            "label": "Relational database",
+            "uri": null
+          },
+          {
+            "label": "Structured file",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset",
+              "Formal acknowledgement of the dataset providers",
+              "The opportunity to collaborate on the project using the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Regular Site"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "source_url": "https://deims.org/api/sites/9d5e3aae-d569-4571-8058-96d5bafda2e7",
+  "retrieved_at": "2026-10-15T17:49:11.151584+00:00",
+  "record": {
+    "title": "Sylt Roads - Germany",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "9d5e3aae-d569-4571-8058-96d5bafda2e7"
+    },
+    "type": "site",
+    "created": "2023-02-16T16:44:15+01:00",
+    "changed": "2025-12-11T16:02:45+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER-D (Germany)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "e904354a-f3a0-40ce-a9b5-61741f66c824"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Inga Kirstein",
+            "email": null,
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": null
+      },
+      "general": {
+        "abstract": "The Sylt Roads time series is closely related to the Helgoland Roads time series and comprises an almost identical parameter set. Sylt Roads was initiated in 1974 and is still ongoing. Its main station located in the Sylt-Romo bight close to List/Sylt (55.030000N; 8.460000E) is generally sampled twice a week. Two other stations (Entrance Koenigshafen 55.038300N; 8.438300E and Ferry Terminal 55.015530N; 8.439900E) are sporadically sampled depending on tide and weather conditions. The measured parameters comprise phytoplankton, zooplankton, water temperature, salinity, pH, chlorophylla and nutrient (N,P, Si) analyses. The plankton time-series is augmented by the biological parameters gelatinous zooplankton, meroplankton, primary productivity, fish monitoring, macroalgae, macro- and microzoobenthos providing a unique opportunity to investigate longterm changes at an ecosystem scale.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1973,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "Sylt Roads",
+        "shortName": "DE-SR",
+        "siteType": null,
+        "protectionLevel": null,
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": null,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": null,
+        "ecosystemType": [
+          {
+            "label": "Marine",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": null,
+        "landforms": null,
+        "geoBonBiome": null,
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "MULTIPOINT ((8.46 55.03), (8.4383 55.0383), (8.4399 55.01553))",
+        "coordinates": "POINT (8.4399 55.01553)",
+        "country": [
+          "Germany"
+        ],
+        "elevation": {
+          "avg": null,
+          "min": null,
+          "max": null,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1,
+          "unit": "ha"
+        },
+        "relatedLocations": [
+          {
+            "title": "Sylt Roads",
+            "id": {
+              "prefix": "https://deims.org/locations/",
+              "suffix": "6119000e-43de-4877-b316-24f782b73790"
+            },
+            "changed": "2024-05-07T14:23:24+0200"
+          }
+        ]
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": null,
+          "scale": null
+        },
+        "observations": {
+          "design": null,
+          "scale": null
+        },
+        "observedProperties": [
+          {
+            "label": "biological parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20940"
+          },
+          {
+            "label": "chemical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10333"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "environmental parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20941"
+          },
+          {
+            "label": "physical parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20938"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": null,
+        "accessType": null,
+        "allPartsAccessible": null,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": null,
+        "operation": {
+          "permanent": null,
+          "notes": null,
+          "siteVisitInterval": null
+        },
+        "notes": null,
+        "collection": null,
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": null,
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": null
+        }
+      }
+    }
+  }
+}

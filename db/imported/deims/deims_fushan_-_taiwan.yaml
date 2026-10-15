@@ -1,0 +1,81 @@
+sites:
+- id: site_kb:deims-fushan_-_taiwan
+  name: Fushan - Taiwan
+  network_registrations:
+  - network: DEIMS
+    network_id: 14c64e04-4152-455b-97a2-2cec1d2af13c
+    network_url: https://deims.org/14c64e04-4152-455b-97a2-2cec1d2af13c
+    name: Fushan - Taiwan
+  location:
+    latitude: 24.7664
+    longitude: 121.585
+    country: Taiwan
+    elevation_meters: 1035.0
+  description: "The Fushan Long-Term Ecological Site was established in 1992. It is\
+    \ the first LTER site in Taiwan. The site is managed by Taiwan Forestry Research\
+    \ Institute. It is characterized by steep slopes (averaging 35%), and frequent\
+    \ rainfall. FEF is very moist with relative humidity above 90% most of the time\
+    \ throughout the year. The forest is characterized as a moist subtropical mixed\
+    \ evergreen forest without an observable dormant season. The dominant tree species\
+    \ include Castanopsis carlesii, Machilus thunbergii,  Engelhardtia roxburghiana.\
+    \ Shrubs were mostly Ardisia quinquegona,Blastus cochinchinensis and Lasianthus\
+    \ fordii. The forest is multistoried with scattered tree ferns and shrubs, and\
+    \ with an herbaceous ground cover of 20% on the ridge,\r\n70% on slopes, and 80%\
+    \ in the valley."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/14c64e04-4152-455b-97a2-2cec1d2af13c
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:42.445844+00:00'
+      source_modified_at: '2021-02-09T12:21:44+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/14c64e04-4152-455b-97a2-2cec1d2af13c
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:42.445844+00:00'
+      source_modified_at: '2021-02-09T12:21:44+01:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/14c64e04-4152-455b-97a2-2cec1d2af13c
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:42.445844+00:00'
+      source_modified_at: '2021-02-09T12:21:44+01:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/14c64e04-4152-455b-97a2-2cec1d2af13c
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:42.445844+00:00'
+      source_modified_at: '2021-02-09T12:21:44+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/14c64e04-4152-455b-97a2-2cec1d2af13c
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:42.445844+00:00'
+      source_modified_at: '2021-02-09T12:21:44+01:00'
+  status: ACTIVE

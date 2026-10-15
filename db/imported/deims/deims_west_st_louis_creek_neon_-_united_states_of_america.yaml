@@ -1,0 +1,90 @@
+sites:
+- id: site_kb:deims-west_st_louis_creek_neon_-_united_states_of_america
+  name: West St. Louis Creek NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: 40ef616f-702a-458b-bce1-9ba961260ef0
+    network_url: https://deims.org/40ef616f-702a-458b-bce1-9ba961260ef0
+    name: West St. Louis Creek NEON - United States of America
+  location:
+    latitude: 39.89137
+    longitude: -105.9154
+    country: United States of America
+    elevation_meters: 2908.0
+  description: West St. Louis Creek (WLOU) is an aquatic site within the 93 km2 (23,000
+    acre) Fraser Experimental Forest near Winter Park, Colorado. It is a high elevation
+    mountain stream at around 2902 m (9521 ft.) just west of the Continental Divide.
+    The streams drains a 4.9 km2 (1210 acre) watershed and the forest is managed by
+    the U.S. Forest Service. A water diversion feature is present just downstream
+    of WLOU, and aids in bring water from Saint Louis and Vasquez Creeks to the City
+    of Denver. WLOU is part of NEON's Southern Rockies and Colorado Plateau Domain
+    (D13). D13 has one other aquatic site and two terrestrial sites. WLOU is not colocated
+    with a terrestrial site.
+  variables:
+  - name: DNA sequence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: DNA sequence
+      record_url: https://deims.org/api/sites/40ef616f-702a-458b-bce1-9ba961260ef0
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21400
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:08.284046+00:00'
+      source_modified_at: '2025-09-18T14:23:37+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/40ef616f-702a-458b-bce1-9ba961260ef0
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:08.284046+00:00'
+      source_modified_at: '2025-09-18T14:23:37+02:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/40ef616f-702a-458b-bce1-9ba961260ef0
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:08.284046+00:00'
+      source_modified_at: '2025-09-18T14:23:37+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/40ef616f-702a-458b-bce1-9ba961260ef0
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:08.284046+00:00'
+      source_modified_at: '2025-09-18T14:23:37+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/40ef616f-702a-458b-bce1-9ba961260ef0
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:08.284046+00:00'
+      source_modified_at: '2025-09-18T14:23:37+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/40ef616f-702a-458b-bce1-9ba961260ef0
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:48:08.284046+00:00'
+      source_modified_at: '2025-09-18T14:23:37+02:00'
+  status: ACTIVE

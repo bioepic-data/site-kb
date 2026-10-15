@@ -1,0 +1,62 @@
+sites:
+- id: site_kb:deims-ozcar-ri_roses_groundwater_network_observatory_-_france
+  name: OZCAR-RI ROSES Groundwater network observatory - France
+  network_registrations:
+  - network: DEIMS
+    network_id: 243e4f58-170c-488f-bd79-9ea37f8bb63e
+    network_url: https://deims.org/243e4f58-170c-488f-bd79-9ea37f8bb63e
+    name: OZCAR-RI ROSES Groundwater network observatory - France
+  location:
+    latitude: 43.2667
+    longitude: 0.85
+    country: France
+  description: "ROSES is the groundwater observatory network at national scale (France);\
+    \ it's based on 78 000 monitoring water points (4600 observatory boreholes and\
+    \ 75 000 qualitometers (wells, borholes, springs); some stations concern both\
+    \ measurements, quality and groundwater level). Some water points belong to water\
+    \ framework directive (WFD) such as groundwater level data network 0000000070,\
+    \  quality monitoring network 0000000071 and quality operational network 0000000072,\
+    \ and several other regional networks operated by various actors.\r\nAvailable\
+    \ data: More than 15 million piezometric levels, more than 78 million analyses\
+    \ (in situ parameters, major ions, traces, organic compound (pesticides, pharmaceutical\
+    \ substances, ...))\r\nMonitoring frequencies for the chemical data are different\
+    \ in fonction of the pressure on the ressource (monthly to yearly). Regarding\
+    \ groundwater level, for the WFD observatory boreholes network, the frequency\
+    \ is on the hour base; in the database, daily data are only available.\r\nAll\
+    \ ROSES' data are available on the ADES database ( www.ades.eaufrance.fr)"
+  variables:
+  - name: chemical parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: chemical parameter
+      record_url: https://deims.org/api/sites/243e4f58-170c-488f-bd79-9ea37f8bb63e
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/10333
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:10.610101+00:00'
+      source_modified_at: '2024-03-04T09:36:47+01:00'
+  - name: groundwater level
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: groundwater level
+      record_url: https://deims.org/api/sites/243e4f58-170c-488f-bd79-9ea37f8bb63e
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22126
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:10.610101+00:00'
+      source_modified_at: '2024-03-04T09:36:47+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/243e4f58-170c-488f-bd79-9ea37f8bb63e
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:10.610101+00:00'
+      source_modified_at: '2024-03-04T09:36:47+01:00'
+  notes: 'Biogeographical region: atlantic'
+  status: ACTIVE

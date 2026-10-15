@@ -1,0 +1,67 @@
+sites:
+- id: site_kb:deims-jochberg_-_austria
+  name: Jochberg - Austria
+  network_registrations:
+  - network: DEIMS
+    network_id: 0da4be08-87f8-41e2-a564-2cd2ccdb3da2
+    network_url: https://deims.org/0da4be08-87f8-41e2-a564-2cd2ccdb3da2
+    name: Jochberg - Austria
+  location:
+    latitude: 47.3315275
+    longitude: 12.404305
+    country: Austria
+    elevation_meters: 1050.0
+  description: The site Jochberg is part of the European Level II Forest Monitoring
+    System in the frame of the International Co-operative Programme on Assessment
+    and Monitoring of Air Pollution Effects on Forests (ICP Forests). This site is
+    one out of 16 Austrian Level II sites; it was established in 1995 and is, since
+    2006, part of the LTER Austria network. The site is situated in the east of the
+    federal country Tyrol in the Austrian Central Alps about 15 km south of the skiing-resort
+    Kitzbühel at 1050 m a.s.l., in a 95 year old managed spruce forest.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/0da4be08-87f8-41e2-a564-2cd2ccdb3da2
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:51.961547+00:00'
+      source_modified_at: '2026-10-06T11:34:57+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/0da4be08-87f8-41e2-a564-2cd2ccdb3da2
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:51.961547+00:00'
+      source_modified_at: '2026-10-06T11:34:57+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/0da4be08-87f8-41e2-a564-2cd2ccdb3da2
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:51.961547+00:00'
+      source_modified_at: '2026-10-06T11:34:57+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/0da4be08-87f8-41e2-a564-2cd2ccdb3da2
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:42:51.961547+00:00'
+      source_modified_at: '2026-10-06T11:34:57+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

@@ -1,0 +1,63 @@
+sites:
+- id: site_kb:deims-boergefjell_-_norway
+  name: Boergefjell - Norway
+  network_registrations:
+  - network: DEIMS
+    network_id: 0c1221cf-5e37-4a40-bcee-a2d85dc8969f
+    network_url: https://deims.org/0c1221cf-5e37-4a40-bcee-a2d85dc8969f
+    name: Boergefjell - Norway
+  location:
+    latitude: 65.061
+    longitude: 13.815
+    country: Norway
+    elevation_meters: 550.0
+  description: long-term terrestrial ecosystem monitoring site for biodiversity components
+    (ground vegetation, epiphytes, small mammals, birds) located in a wide mountain
+    valley in the north boreal (spruce and birch forest) and low alpine zones (tundra)
+  variables:
+  - name: diversity index
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: diversity index
+      record_url: https://deims.org/api/sites/0c1221cf-5e37-4a40-bcee-a2d85dc8969f
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21513
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:52.213202+00:00'
+      source_modified_at: '2023-07-24T15:09:31+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/0c1221cf-5e37-4a40-bcee-a2d85dc8969f
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:52.213202+00:00'
+      source_modified_at: '2023-07-24T15:09:31+02:00'
+  - name: species abundance
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species abundance
+      record_url: https://deims.org/api/sites/0c1221cf-5e37-4a40-bcee-a2d85dc8969f
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/10018
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:52.213202+00:00'
+      source_modified_at: '2023-07-24T15:09:31+02:00'
+  - name: species composition
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: species composition
+      record_url: https://deims.org/api/sites/0c1221cf-5e37-4a40-bcee-a2d85dc8969f
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/22285
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:36:52.213202+00:00'
+      source_modified_at: '2023-07-24T15:09:31+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

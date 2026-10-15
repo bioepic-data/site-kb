@@ -1,0 +1,72 @@
+sites:
+- id: site_kb:deims-fondek_-_slovenia
+  name: Fondek - Slovenia
+  network_registrations:
+  - network: DEIMS
+    network_id: 96adc9f8-190b-4a7c-be68-e51747d872a0
+    network_url: https://deims.org/96adc9f8-190b-4a7c-be68-e51747d872a0
+    name: Fondek - Slovenia
+  location:
+    latitude: 45.98945
+    longitude: 13.747716
+    country: Slovenia
+    elevation_meters: 827.0
+  description: http://meteo.gozdis.si/?page_id=57 (only in SLO language)
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/96adc9f8-190b-4a7c-be68-e51747d872a0
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:36.057782+00:00'
+      source_modified_at: '2023-09-25T08:13:40+02:00'
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/96adc9f8-190b-4a7c-be68-e51747d872a0
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:36.057782+00:00'
+      source_modified_at: '2023-09-25T08:13:40+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/96adc9f8-190b-4a7c-be68-e51747d872a0
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:36.057782+00:00'
+      source_modified_at: '2023-09-25T08:13:40+02:00'
+  - name: soil parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil parameter
+      record_url: https://deims.org/api/sites/96adc9f8-190b-4a7c-be68-e51747d872a0
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20944
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:36.057782+00:00'
+      source_modified_at: '2023-09-25T08:13:40+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/96adc9f8-190b-4a7c-be68-e51747d872a0
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:44:36.057782+00:00'
+      source_modified_at: '2023-09-25T08:13:40+02:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE

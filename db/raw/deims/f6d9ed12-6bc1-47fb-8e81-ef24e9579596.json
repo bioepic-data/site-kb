@@ -1,0 +1,387 @@
+{
+  "source_url": "https://deims.org/api/sites/f6d9ed12-6bc1-47fb-8e81-ef24e9579596",
+  "retrieved_at": "2026-10-15T17:37:02.073794+00:00",
+  "record": {
+    "title": "LTER Observatory HAUSGARTEN - Germany",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "f6d9ed12-6bc1-47fb-8e81-ef24e9579596"
+    },
+    "type": "site",
+    "created": "2012-12-25T19:09:18+01:00",
+    "changed": "2025-12-15T08:40:52+01:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "ICOS",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "80633d38-4c85-4ee0-a4ce-7bbbd99c888c"
+              }
+            },
+            "siteCode": "http://meta.icos-cp.eu/ontologies/stationentry/OS/HG",
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "ILTER",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "1aa7ccb2-a14b-43d6-90ac-5e0a6bc1d65b"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Europe",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "4742ffca-65ac-4aae-815f-83738500a1fc"
+              }
+            },
+            "siteCode": null,
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER-D (Germany)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "e904354a-f3a0-40ce-a9b5-61741f66c824"
+              }
+            },
+            "siteCode": "LTER_EU_DE_014",
+            "verified": true
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Thomas Soltwedel",
+            "email": "thomas.soltwedel@awi.de",
+            "orcid": " https://orcid.org/0000-0002-8214-5937"
+          }
+        ],
+        "operatingOrganisation": [
+          {
+            "type": "organisation",
+            "name": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research",
+            "url": "https://www.awi.de/en/",
+            "ror": "https://ror.org/032e6b942"
+          }
+        ],
+        "metadataProvider": [
+          {
+            "type": "person",
+            "name": "Ingo Schewe",
+            "email": "ingo.schewe@awi.de",
+            "orcid": null
+          }
+        ],
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": "LTER Observatory HAUSGARTEN",
+            "value": "https://www.awi.de/en/science/special-groups/deep-sea-research/observatories/lter-observatory-hausgarten.html"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "HAUSGARTEN comprises 21 permanent stations covering a depth range of 300 to 5.500 m water depth. Repeated water and sediment sampling and the deployment of moorings and different free-falling systems, which act as observation platforms, has taken place since the establishment of the observatory in 1999.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1999,
+        "yearClosed": null,
+        "relatedSites": null,
+        "siteName": "LTER Observatory HAUSGARTEN",
+        "shortName": "DE-14-HG",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": null,
+        "landUse": null,
+        "images": [
+          {
+            "url": "https://deims.org/sites/default/files/photos/HG_2014_bw.jpg",
+            "alt": "not defined"
+          }
+        ]
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": 1,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 290,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": null,
+        "biome": "marine",
+        "ecosystemType": [
+          {
+            "label": "Marine",
+            "uri": null
+          },
+          {
+            "label": "Polar",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Deep-sea bed (A6)",
+            "uri": null
+          },
+          {
+            "label": "Marine habitats (A)",
+            "uri": null
+          },
+          {
+            "label": "Pelagic water column (A7)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Marine"
+        ],
+        "geology": "Sediments in the HAUSGARTEN area dominated by glacially-influenced contouritic sediments, deposited under the influence of the West Spitsbergen Current, flowing along the slope of the western Svalbard margin. As a special feature, Vestnesa Ridge exhibits numerous small (50-300 m in diameter) pockmarks caused by episodic methane release.",
+        "hydrology": "Marine ecosystem",
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "MULTIPOLYGON (((3.158453585835 79.939108383801, 3.1584479812354 79.93909063691, 3.1583464142548 79.939091616189, 3.1583520186748 79.939109363082, 3.158453585835 79.939108383801)), ((4.4730535637652 79.731908164264, 4.4730457913692 79.731890449982, 4.4729464363204 79.731891835726, 4.4729542085452 79.73190955001, 4.4730535637652 79.731908164264)), ((5.1814529175869 79.49870804271, 5.181444118308 79.4986903532, 5.1813470824946 79.49869195728, 5.1813558816105 79.498709646793, 5.1814529175869 79.49870804271)), ((11.082254709098 79.028507003152, 11.082236787605 79.028489585188, 11.082145290973 79.028492996836, 11.082163212324 79.028510414805, 11.082254709098 79.028507003152)), ((9.460353412359 78.980807294563, 9.460338154471 78.980789788362, 9.4602465877122 78.980792705425, 9.4602618454578 78.980810211631, 9.460353412359 78.980807294563)), ((8.3330528259453 79.017007494491, 8.3330393278736 79.016989933262, 8.3329471741272 79.016992505497, 8.3329606720539 79.017010066731, 8.3330528259453 79.017007494491)), ((7.0008519792073 79.034207726723, 7.0008406093731 79.03419010995, 7.0007480208664 79.034192273266, 7.0007593905532 79.034209890043, 7.0008519792073 79.034207726723)), ((6.0868518032838 79.134907884774, 6.086841819621 79.134890232887, 6.0867481967918 79.134892115215, 6.0867581803034 79.134909767105, 6.0868518032838 79.134907884774)), ((4.9005509056389 79.130508085239, 4.900542865699 79.130490398289, 4.9004490944373 79.13049191475, 4.9004571342249 79.130509601703, 4.9005509056389 79.130508085239)), ((4.6190505816207 79.106408132003, 4.6190430193485 79.106390438496, 4.6189494184552 79.106391867987, 4.6189569805755 79.106409561496, 4.6190505816207 79.106408132003)), ((4.1735500662368 79.067608205592, 4.1735432563714 79.067590502605, 4.1734499338388 79.067591794398, 4.173456743553 79.067609497387, 4.1735500662368 79.067608205592)), ((3.6939496754393 79.061708284724, 3.69394365024 79.061690571712, 3.6938503246364 79.061691715266, 3.6938563496843 79.06170942828, 3.6939496754393 79.061708284724)), ((3.4795495062902 79.06050831993, 3.4795438309819 79.060490602797, 3.4794504937855 79.06049168006, 3.4794561689423 79.060509397195, 3.4795495062902 79.06050831993)), ((2.8388493552235 79.135908425506, 2.8388446916454 79.135890695297, 2.8387506448535 79.135891574484, 2.8387553082776 79.135909304695, 2.8388493552235 79.135908425506)), ((5.0834490783067 78.698208048885, 5.0834410599352 78.698190379296, 5.0833509217636 78.698191951104, 5.0833589399945 78.698209620695, 5.0834490783067 78.698208048885)), ((-2.6332856891232 79.000009272399, -2.6332814167496 78.999991543014, -2.6333743108017 78.999990727593, -2.6333785833255 79.000008456976, -2.6332856891232 79.000009272399)), ((-3.8499567306969 79.000009449878, -3.8499504868372 78.999991741804, -3.8500432692283 78.999990550114, -3.8500495132376 79.000008258186, -3.8499567306969 79.000009449878)), ((-4.649957426227 79.000009564259, -4.6499498875301 78.99999187455, -4.6500425736985 78.999990435733, -4.6500501125444 79.00000812544, -4.649957426227 79.000009564259)), ((-5.5499582186125 79.000009690708, -5.549949224993 78.999992025781, -5.5500417813135 78.999990309284, -5.5500507750811 79.000007974208, -5.5499582186125 79.000009690708)))",
+        "coordinates": "POINT (4 79)",
+        "country": [
+          "Germany"
+        ],
+        "elevation": {
+          "avg": -2500,
+          "min": -300,
+          "max": -5500,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 1920000,
+          "unit": "ha"
+        },
+        "relatedLocations": [
+          {
+            "title": "Hausgarten",
+            "id": {
+              "prefix": "https://deims.org/locations/",
+              "suffix": "538c823c-388c-49f8-9ce0-fffa7f72ebee"
+            },
+            "changed": "2024-05-07T14:21:19+0200"
+          }
+        ]
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "partly experimentation",
+          "scale": "micro sites"
+        },
+        "observations": {
+          "design": "mainly observation",
+          "scale": "beyond catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "ammonium nitrate concentration",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10072"
+          },
+          {
+            "label": "bacteria abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22026"
+          },
+          {
+            "label": "benthic invertebrates abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22027"
+          },
+          {
+            "label": "chlorophyll content of water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10088"
+          },
+          {
+            "label": "community composition",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22086"
+          },
+          {
+            "label": "conductivity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22089"
+          },
+          {
+            "label": "dissolved nutrient",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22107"
+          },
+          {
+            "label": "dissolved organic carbon in water",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10307"
+          },
+          {
+            "label": "diversity index",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21513"
+          },
+          {
+            "label": "ecosystem parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20939"
+          },
+          {
+            "label": "ecosystem structure",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/21475"
+          },
+          {
+            "label": "faunistic diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22119"
+          },
+          {
+            "label": "inorganic nutrient content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22137"
+          },
+          {
+            "label": "macrofauna abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22028"
+          },
+          {
+            "label": "microbial diversity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22169"
+          },
+          {
+            "label": "nitrogen content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22174"
+          },
+          {
+            "label": "percent carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22181"
+          },
+          {
+            "label": "percent organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22183"
+          },
+          {
+            "label": "photosynthetically active radiation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22186"
+          },
+          {
+            "label": "population size",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22199"
+          },
+          {
+            "label": "soil water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22281"
+          },
+          {
+            "label": "species abundance",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10018"
+          },
+          {
+            "label": "species richness",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22287"
+          },
+          {
+            "label": "species turnover",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22288"
+          },
+          {
+            "label": "total organic carbon",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22297"
+          },
+          {
+            "label": "water content",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22309"
+          },
+          {
+            "label": "water depth",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22310"
+          },
+          {
+            "label": "water parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20945"
+          },
+          {
+            "label": "water salinity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/10308"
+          },
+          {
+            "label": "water temperature",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22313"
+          },
+          {
+            "label": "water velocity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22315"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "boat",
+        "allPartsAccessible": true,
+        "maintenanceInterval": 365,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": true,
+          "notes": null,
+          "siteVisitInterval": 365
+        },
+        "notes": "HAUSGARTEN is yearly visited by RV Polarstern; moorings and free-falling systems are used to deploy sensors and autonomous devices for annual measurements and water sampling. Benthic landers were also used as platforms for long-term experiments at the deep seafloor.",
+        "collection": [
+          {
+            "label": "Boat",
+            "uri": null
+          },
+          {
+            "label": "Marine Platform",
+            "uri": null
+          },
+          {
+            "label": "No data transmission from site",
+            "uri": null
+          },
+          {
+            "label": "Other data services",
+            "uri": null
+          },
+          {
+            "label": "Spatial database (GIS)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": [
+              {
+                "title": null,
+                "value": "https://www.pangaea.de/curator/files/pangaea-data-policy.pdf"
+              }
+            ],
+            "rights": [
+              "Formal acknowledgement of the dataset providers"
+            ],
+            "notes": "The information system PANGAEA is operated as an Open Access library aimed at archiving, publishing and distributing georeferenced data from earth system research. The system guarantees long-term availability of its content through a commitment of the operating institutions.\r\nMost of the data are freely available and can be used under the terms of the license mentioned on the data set description. A few password protected data sets are under moratorium from ongoing projects. The description of each data set is always visible and includes the principle investigator (PI) who may be asked for access.\r\nEach dataset can be identified, shared, published and cited by using a Digital Object Identifier (DOI). Data are archived as supplements to publications or as citable data collections. Citations are available through the portal of the German National Library of Science and Technology (GetInfo).\r\nArchiving follows the Recommendations of the Commission on Professional Self Regulation in Science (pdf, 200 kB) for safeguarding good scientific practice.\r\nThe system is operated in the sense of the Berlin Declaration on Open Access to Knowledge in the Sciences and Humanities which is a follow up to the Budapest Open Access Initiative.\r\nPANGAEA is a member of the ICSU World Data System. The policy of data management and archiving follows the ICSU World Data System Data Policy and the OECD Principles and Guidelines for Access to Research Data from Public Funding.\r\nAuthors submitting data to the Pangaea data library for archiving aggree that all data are provided under a creative commons license."
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Master Site"
+        }
+      }
+    }
+  }
+}

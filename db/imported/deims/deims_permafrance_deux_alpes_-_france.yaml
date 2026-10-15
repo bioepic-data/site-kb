@@ -1,0 +1,32 @@
+sites:
+- id: site_kb:deims-permafrance_deux_alpes_-_france
+  name: PermaFrance Deux Alpes - France
+  network_registrations:
+  - network: DEIMS
+    network_id: a02a26c5-1113-4207-84d7-6bd64107a712
+    network_url: https://deims.org/a02a26c5-1113-4207-84d7-6bd64107a712
+    name: PermaFrance Deux Alpes - France
+  location:
+    latitude: 45.0
+    longitude: 6.19166
+    country: France
+    elevation_meters: 3000.0
+  description: Upper part of the Deux-Alpes ski resort, Est of Grenoble in the French
+    Alps. Area of glacially eroded gneiss bedrock, with some limestone cover remnants.
+    Part of the area is underlain by permafrost, and the site includes one rockglacier
+    (rockglacier Bellecombes). Many infrastructures (cable cars, dirt roads, ski tracks)
+    partly on permafrost. One chairlift end station on the rockglacier.
+  variables:
+  - name: soil temperature
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: soil temperature
+      record_url: https://deims.org/api/sites/a02a26c5-1113-4207-84d7-6bd64107a712
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/22278
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:47.824612+00:00'
+      source_modified_at: '2024-03-04T12:04:16+01:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

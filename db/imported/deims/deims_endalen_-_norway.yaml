@@ -1,0 +1,35 @@
+sites:
+- id: site_kb:deims-endalen_-_norway
+  name: Endalen - Norway
+  network_registrations:
+  - network: DEIMS
+    network_id: 88eb341d-e055-4a4f-a23a-6ba7d883cbc4
+    network_url: https://deims.org/88eb341d-e055-4a4f-a23a-6ba7d883cbc4
+    name: Endalen - Norway
+  location:
+    latitude: 62.75
+    longitude: 10.5
+    country: Norway
+  description: "In this project we monitor temporal trends in bird communities in\
+    \ a high-altitude birch-dominated habitat in Central Norway. The project aims\
+    \ to monitor both community composition and changes in territory size among and\
+    \ within species in the study period. The study started in 1967 and is still on-going.\r\
+    \n\r\nMethods: Standardized transects are monitored 10 timed in early parts of\
+    \ the breeding season, following a GPS-track of 3km. Bird species and numbers\
+    \ are noted and placed relative in the habitat. This is done to potentially estimate\
+    \ territory size, which is performed by standardized formulas annually. Both seen\
+    \ and heard individuals are noted."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/88eb341d-e055-4a4f-a23a-6ba7d883cbc4
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:41:47.857938+00:00'
+      source_modified_at: '2023-07-24T14:04:58+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

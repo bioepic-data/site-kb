@@ -1,0 +1,77 @@
+sites:
+- id: site_kb:deims-estación_costera_de_investigaciones_marinas_las_cruces_-_chile
+  name: Estación Costera de Investigaciones Marinas, Las Cruces - Chile
+  network_registrations:
+  - network: DEIMS
+    network_id: c9fc7c77-5281-4883-8905-c2236394a70b
+    network_url: https://deims.org/c9fc7c77-5281-4883-8905-c2236394a70b
+    name: Estación Costera de Investigaciones Marinas, Las Cruces - Chile
+  location:
+    latitude: -33.5
+    longitude: -71.633333
+    country: Chile
+    elevation_meters: 30.0
+  description: The site is a wave-exposed rocky shore typical of central-northern
+    Chile. The coastal border (including littoral zone and intertidal shore) as well
+    as the shallow subtidal habitat (down to about 25-30m deep) has been protected
+    from human intervention since 1982. In 2005 the marine area was declared Area
+    Marina Costera Protegida (AMCP) de Chile (Marine Protected Area). Adjacent to
+    the marine reserve there is a marine laboratory, Estación Costera de Investigaciones
+    Marinas of P. Universidad Católica de Chile.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/c9fc7c77-5281-4883-8905-c2236394a70b
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:55.379870+00:00'
+      source_modified_at: '2021-03-11T10:05:19+01:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/c9fc7c77-5281-4883-8905-c2236394a70b
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:55.379870+00:00'
+      source_modified_at: '2021-03-11T10:05:19+01:00'
+  - name: environmental parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: environmental parameter
+      record_url: https://deims.org/api/sites/c9fc7c77-5281-4883-8905-c2236394a70b
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20941
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:55.379870+00:00'
+      source_modified_at: '2021-03-11T10:05:19+01:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/c9fc7c77-5281-4883-8905-c2236394a70b
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:55.379870+00:00'
+      source_modified_at: '2021-03-11T10:05:19+01:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/c9fc7c77-5281-4883-8905-c2236394a70b
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:55.379870+00:00'
+      source_modified_at: '2021-03-11T10:05:19+01:00'
+  status: ACTIVE

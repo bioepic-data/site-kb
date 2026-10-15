@@ -1,0 +1,106 @@
+sites:
+- id: site_kb:deims-lake_barco_neon_-_united_states_of_america
+  name: Lake Barco NEON - United States of America
+  network_registrations:
+  - network: DEIMS
+    network_id: fc3606ae-df89-4e21-96df-cc380bb0d89d
+    network_url: https://deims.org/fc3606ae-df89-4e21-96df-cc380bb0d89d
+    name: Lake Barco NEON - United States of America
+  location:
+    latitude: 29.67647
+    longitude: -82.00909
+    country: United States of America
+    elevation_meters: 27.0
+  description: "Barco lake a core aquatic site is situated within Ordway-Swisher Biological\
+    \ Station (OSBS) in Putman County, Barco Lake is an oligotrophic (i.e., has low\
+    \ nutrient levels) acidic seepage lake in the mantled karst, a landscape formed\
+    \ by the dissolution of soluble rocks, of north central Florida. Common animals\
+    \ include tiger salamander, barking treefrog, spadefoot toad, gopher frog, gopher\
+    \ tortoise, worm lizard, fence lizard, mole skink, indigo snake, coachwhip snake,\
+    \ pine snake, short-tailed snake, crowned snake, eastern diamondback rattlesnake,\
+    \ bobwhite, ground dove, red-headed woodpecker, rufous-sided towhee, fox squirrel\
+    \ and pocket gopher. Barco Lake is an important breeding areas for terrestrial\
+    \ amphibians, including the threatened gopher frog, as well as many unusual or\
+    \ endemic insects, as well as an important watering holes for a number of mammals\
+    \ and birds, including ducks and wading birds.  This site has one meteorological\
+    \ station located in the riparian area and one meteorological station above water\
+    \ on a buoy. The met stations are outfitted with the a subset of the same sensors\
+    \ used at terrestrial sites. Measurements include wind speed and direction, air\
+    \ temperature, barometric pressure, relative humidity, shortwave radiation, and\
+    \ PAR.This site has one buoy-mounted sensor station and an inlet station and outlet\
+    \ station. At the buoy, the automated instrument measurements are: PAR at water\
+    \ surface, PAR below water surface, temperature at a specific depth in surface\
+    \ water, water quality (specific conductivity, chlorophyll a, dissolved oxygen\
+    \ content, pH turbidity, and fDOM), and nitrate. At the inlet and outlet stations,\
+    \ the measurements are: PAR below water surface, elevation of surface water, and\
+    \ temperature in surface water. Eight groundwater wells throughout the site collect\
+    \ specific conductivity, water tempertaure, and elevation of groundwater.\r\n\r\
+    \n\r\n Total data products planned for this site: 75"
+  variables:
+  - name: DNA sequence
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: DNA sequence
+      record_url: https://deims.org/api/sites/fc3606ae-df89-4e21-96df-cc380bb0d89d
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/21400
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.261892+00:00'
+      source_modified_at: '2025-09-17T15:23:05+02:00'
+  - name: genetic parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: genetic parameter
+      record_url: https://deims.org/api/sites/fc3606ae-df89-4e21-96df-cc380bb0d89d
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20942
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.261892+00:00'
+      source_modified_at: '2025-09-17T15:23:05+02:00'
+  - name: land cover
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: land cover
+      record_url: https://deims.org/api/sites/fc3606ae-df89-4e21-96df-cc380bb0d89d
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22142
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.261892+00:00'
+      source_modified_at: '2025-09-17T15:23:05+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/fc3606ae-df89-4e21-96df-cc380bb0d89d
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.261892+00:00'
+      source_modified_at: '2025-09-17T15:23:05+02:00'
+  - name: water parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water parameter
+      record_url: https://deims.org/api/sites/fc3606ae-df89-4e21-96df-cc380bb0d89d
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/20945
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.261892+00:00'
+      source_modified_at: '2025-09-17T15:23:05+02:00'
+  - name: water quality
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: water quality
+      record_url: https://deims.org/api/sites/fc3606ae-df89-4e21-96df-cc380bb0d89d
+      field_path: /attributes/focusDesignScale/observedProperties/5
+      source_id: http://vocabs.lter-europe.net/EnvThes/22312
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:47:41.261892+00:00'
+      source_modified_at: '2025-09-17T15:23:05+02:00'
+  status: ACTIVE

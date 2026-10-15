@@ -1,0 +1,38 @@
+sites:
+- id: site_kb:deims-ozcar-ri_glacioclim_col_du_lac_blanc_-_france
+  name: OZCAR-RI Glacioclim Col du Lac Blanc - France
+  network_registrations:
+  - network: DEIMS
+    network_id: 8c671c64-95e7-4ad8-befc-c26743e35eae
+    network_url: https://deims.org/8c671c64-95e7-4ad8-befc-c26743e35eae
+    name: OZCAR-RI Glacioclim Col du Lac Blanc - France
+  location:
+    latitude: 45.12
+    longitude: 6.11
+    country: France
+    elevation_meters: 2720.0
+  description: "Col du Lac Blanc experimental site is located at the Alpe d'Huez ski\
+    \ resort near Grenoble in the French Alps.  Col du Lac Blanc experimental field\
+    \ is located around 2700 m a.s.l and is oriented north–south. The area consists\
+    \ of a large surface of relatively flat terrain (about 25 ha). The pass orientation\
+    \ and the specific configuration of the surrounding summits make the pass closely\
+    \ resemble a natural wind tunnel.The\r\nnorth–south direction accounts for 90%\
+    \ of the wind directions. Aeolian snow transport is observed 10% of the time in\
+    \ winter and occurs with concurrent snowfall 37% of the time \r\nIt has been dedicated\
+    \ to the study of blowing snow in high mountainous regions for approximately since\
+    \ 1989 by IRSTEA (Snow Avalanche Engineering and Torrent Control Research Unit)\
+    \ and Meteo France (Snow Study Centre)."
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/8c671c64-95e7-4ad8-befc-c26743e35eae
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:45:51.340736+00:00'
+      source_modified_at: '2024-04-09T22:46:33+02:00'
+  notes: 'Biogeographical region: alpine'
+  status: ACTIVE

@@ -1,0 +1,59 @@
+sites:
+- id: site_kb:deims-sakaerat_environmental_research_station_-_thailand
+  name: Sakaerat Environmental Research Station - Thailand
+  network_registrations:
+  - network: DEIMS
+    network_id: ac2a24f6-47d2-43da-97c4-217e10e7fc1a
+    network_url: https://deims.org/ac2a24f6-47d2-43da-97c4-217e10e7fc1a
+    name: Sakaerat Environmental Research Station - Thailand
+  location:
+    latitude: 14.5
+    longitude: 100.8667
+    country: Thailand
+    elevation_meters: 380.0
+  description: The SERS is situated in the Korat Plateau between latitude 14°25′-14°33′
+    N and longitude 100°48′-100°56′ E (Fig. 1). The SERS covers an area of approximately
+    82 km2 (Trisurat et al. 2006) in seven sub-districts of Nakhon Ratchasima Province
+    in northeast Thailand, namely Ta Khob, Lam Nang Kaew, Phu Luang, Udomsap, Wang
+    Mee and Wang Ngam Khiew. Its altitude ranges from 250-762 m above mean sea level
+    and approximately 35% of the research station is situated in altitudes between
+    300-400 m. The SERS is surrounded by extensive agricultural areas and human settlements.
+    Based on visual image interpretation of Landsat-TM images, nine land-use/land-cover
+    classes were classified, namely, dry evergreen forest, mixed deciduous forest,
+    dry dipterocarp forest, secondary growth, plantation, grassland, old clearing,
+    agriculture & settlement, and water body.
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/ac2a24f6-47d2-43da-97c4-217e10e7fc1a
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:47.451366+00:00'
+      source_modified_at: '2020-06-29T10:44:57+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/ac2a24f6-47d2-43da-97c4-217e10e7fc1a
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:47.451366+00:00'
+      source_modified_at: '2020-06-29T10:44:57+02:00'
+  - name: landscape parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: landscape parameter
+      record_url: https://deims.org/api/sites/ac2a24f6-47d2-43da-97c4-217e10e7fc1a
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/20943
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:35:47.451366+00:00'
+      source_modified_at: '2020-06-29T10:44:57+02:00'
+  status: ACTIVE

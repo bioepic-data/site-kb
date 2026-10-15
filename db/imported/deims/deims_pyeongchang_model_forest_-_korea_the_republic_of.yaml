@@ -1,0 +1,43 @@
+sites:
+- id: site_kb:deims-pyeongchang_model_forest_-_korea_the_republic_of
+  name: Pyeongchang model forest - Korea (the Republic of)
+  network_registrations:
+  - network: DEIMS
+    network_id: 1bfe93a7-58a2-43d8-ab19-ecde1404e7f8
+    network_url: https://deims.org/1bfe93a7-58a2-43d8-ab19-ecde1404e7f8
+    name: Pyeongchang model forest - Korea (the Republic of)
+  location:
+    latitude: 37.0
+    longitude: 128.0
+    country: Korea (the Republic of)
+    elevation_meters: 1200.0
+  description: The Pyeongchang Model Forest (37° 48" N, 128° 52" E) was established
+    in the Jungwangsan of Pyeongchang-gun, Gangwon-do, and belongs to the temperate
+    north forest region. Because it is adjacent to the forest genetic resource protection
+    area, the risks of damage and public access to this forest are considered relatively
+    low. It comprises various species of trees such as Quercus mongolica, Acer mandshuricum,
+    Acer pictum, and Cornus controversa.
+  variables:
+  - name: atmospheric parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: atmospheric parameter
+      record_url: https://deims.org/api/sites/1bfe93a7-58a2-43d8-ab19-ecde1404e7f8
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20937
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:21.525354+00:00'
+      source_modified_at: '2020-06-29T10:43:55+02:00'
+  - name: ecosystem parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: ecosystem parameter
+      record_url: https://deims.org/api/sites/1bfe93a7-58a2-43d8-ab19-ecde1404e7f8
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/20939
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:46:21.525354+00:00'
+      source_modified_at: '2020-06-29T10:43:55+02:00'
+  status: ACTIVE

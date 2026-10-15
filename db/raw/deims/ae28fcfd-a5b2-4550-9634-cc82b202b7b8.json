@@ -1,0 +1,240 @@
+{
+  "source_url": "https://deims.org/api/sites/ae28fcfd-a5b2-4550-9634-cc82b202b7b8",
+  "retrieved_at": "2026-10-15T17:42:33.836747+00:00",
+  "record": {
+    "title": "Hintereisferner - Austria",
+    "id": {
+      "prefix": "https://deims.org/",
+      "suffix": "ae28fcfd-a5b2-4550-9634-cc82b202b7b8"
+    },
+    "type": "site",
+    "created": "2012-12-25T18:53:07+01:00",
+    "changed": "2023-07-24T11:36:40+02:00",
+    "attributes": {
+      "affiliation": {
+        "networks": [
+          {
+            "network": {
+              "name": "INTERACT",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "c0f5b78b-f3b2-4ec2-9ec3-53c79ea5e15a"
+              }
+            },
+            "siteCode": "https://eu-interact.org/field-sites/station-hintereis/",
+            "verified": true
+          },
+          {
+            "network": {
+              "name": "LTER Austria",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "d45c2690-dbef-4dbc-a742-26ea846edf28"
+              }
+            },
+            "siteCode": "LTER_EU_AT_042_003",
+            "verified": false
+          },
+          {
+            "network": {
+              "name": "World Glacier Monitoring Service (WGMS)",
+              "id": {
+                "prefix": "https://deims.org/networks/",
+                "suffix": "a9d1a81c-e453-4c0e-b564-7db825483ab0"
+              }
+            },
+            "siteCode": null,
+            "verified": false
+          }
+        ],
+        "projects": null
+      },
+      "contact": {
+        "siteManager": [
+          {
+            "type": "person",
+            "name": "Georg Kaser",
+            "email": "georg.kaser@uibk.ac.at",
+            "orcid": null
+          },
+          {
+            "type": "person",
+            "name": "Lindsey Nicholson",
+            "email": "lindsey.nicholson@uibk.ac.at",
+            "orcid": null
+          }
+        ],
+        "operatingOrganisation": null,
+        "metadataProvider": null,
+        "fundingAgency": null,
+        "siteUrl": [
+          {
+            "title": null,
+            "value": "http://imgi.uibk.ac.at/research/ice-and-climate/projects/hef"
+          }
+        ]
+      },
+      "general": {
+        "abstract": "Hintereisferner (glacier) is located at the end of Rofen valley between 2500 and 3750 m altitude. The glacier is situated in Naturpark Ötztal,  and one of the glaciers with longest records of glacier mass balance worldwide. In addition to that, a number of hydrological and meteorological observations complete the data base. Currently, 3 weather stations and 6 rain gauges provide data. Topographic and land cover data are available, in the recent years on an annual base. The area is used for Alpine tourism (but without a hut in the basin), for limited hunting and growing a few sheeps.",
+        "citation": null,
+        "relatedIdentifiers": null,
+        "status": {
+          "label": "Operational",
+          "uri": "http://vocabs.lter-europe.net/elter_cl/10772"
+        },
+        "yearEstablished": 1894,
+        "yearClosed": null,
+        "relatedSites": [
+          {
+            "typeOfRelationship": {
+              "label": "belongs to",
+              "uri": "null"
+            },
+            "listOfSites": [
+              {
+                "type": "site",
+                "title": "Rofental - Austria",
+                "id": {
+                  "prefix": "https://deims.org/",
+                  "suffix": "02ee24e5-d25e-4aa6-b6a2-9d08a12992df"
+                },
+                "changed": "2024-05-08T15:35:56+0200"
+              }
+            ]
+          }
+        ],
+        "siteName": "Hintereisferner",
+        "shortName": "HEF",
+        "siteType": "Stationary land-based site",
+        "protectionLevel": [
+          {
+            "label": "Category IV – Habitat/Species Management Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/IV"
+          },
+          {
+            "label": "Category V – Protected Landscape/Seascape/Area",
+            "uri": "http://dd.eionet.europa.eu/vocabularyconcept/cdda/IucnCategoryValue/V"
+          }
+        ],
+        "landUse": null,
+        "images": null
+      },
+      "environmentalCharacteristics": {
+        "airTemperature": {
+          "yearlyAverage": -2.22,
+          "monthlyAverage": null,
+          "unit": "°C",
+          "referencePeriod": null
+        },
+        "precipitation": {
+          "yearlyAverage": 1457.9,
+          "monthlyAverage": null,
+          "unit": "mm",
+          "referencePeriod": null
+        },
+        "biogeographicalRegion": "alpine",
+        "biome": "alpine",
+        "ecosystemType": [
+          {
+            "label": "Alpine",
+            "uri": null
+          }
+        ],
+        "eunisHabitat": [
+          {
+            "label": "Inland unvegetated or sparsely vegetated habitats (H)",
+            "uri": null
+          }
+        ],
+        "landforms": null,
+        "geoBonBiome": [
+          "Terrestrial"
+        ],
+        "geology": null,
+        "hydrology": null,
+        "soils": null,
+        "vegetation": null
+      },
+      "geographic": {
+        "boundaries": "POLYGON ((10.788059234619 46.816038456331, 10.767202377319 46.810810552903, 10.744113922119 46.805934634429, 10.728321075439 46.799824425936, 10.726003646851 46.790599046615, 10.731153488159 46.78460464055, 10.754070281982 46.783487961743, 10.774927139282 46.786309000387, 10.78857421875 46.795711394861, 10.802135467529 46.80693335252, 10.795526504517 46.815216123183, 10.788059234619 46.816038456331))",
+        "coordinates": "POINT (10.7667 46.7893411)",
+        "country": [
+          "Austria"
+        ],
+        "elevation": {
+          "avg": 2932,
+          "min": 2450,
+          "max": 3730,
+          "unit": "msl"
+        },
+        "size": {
+          "value": 740,
+          "unit": "ha"
+        },
+        "relatedLocations": null
+      },
+      "focusDesignScale": {
+        "experiments": {
+          "design": "no experimentation",
+          "scale": "beyond catchment scale"
+        },
+        "observations": {
+          "design": "only observation",
+          "scale": "plot within catchment"
+        },
+        "observedProperties": [
+          {
+            "label": "atmospheric parameter",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/20937"
+          },
+          {
+            "label": "precipitation intensity",
+            "uri": "http://vocabs.lter-europe.net/EnvThes/22204"
+          }
+        ]
+      },
+      "infrastructure": {
+        "accessibleAllYear": false,
+        "accessType": "boat",
+        "allPartsAccessible": false,
+        "maintenanceInterval": null,
+        "permanentPowerSupply": false,
+        "operation": {
+          "permanent": false,
+          "notes": null,
+          "siteVisitInterval": 1
+        },
+        "notes": null,
+        "collection": [
+          {
+            "label": "Cable based",
+            "uri": null
+          },
+          {
+            "label": "GMS/UMTS",
+            "uri": null
+          },
+          {
+            "label": "Web Map Service (WMS)",
+            "uri": null
+          }
+        ],
+        "data": {
+          "policy": {
+            "url": null,
+            "rights": [
+              "Co-authorship on publications resulting from use of the dataset"
+            ],
+            "notes": null
+          }
+        }
+      },
+      "relatedResources": null,
+      "projectRelated": {
+        "lter": {
+          "lterSiteClassification": "Extensive Site"
+        }
+      }
+    }
+  }
+}

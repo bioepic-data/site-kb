@@ -1,0 +1,85 @@
+sites:
+- id: site_kb:deims-sumava_natural_forests_-_czechia
+  name: Sumava natural forests - Czechia
+  network_registrations:
+  - network: DEIMS
+    network_id: b6712df0-d8c8-43d9-9082-eab970cb64cf
+    network_url: https://deims.org/b6712df0-d8c8-43d9-9082-eab970cb64cf
+    name: Sumava natural forests - Czechia
+  location:
+    latitude: 48.9325
+    longitude: 13.8253
+    country: Czechia
+    elevation_meters: 938.0
+  description: "Localities Boubín and Milešice represent particularly Acidic and Fresh\
+    \ nutrient medium spruce-beech forests. These forest stand types are very important\
+    \ in the scope of both area and wood-producting stands of the Czech Republic.\
+    \ Especially the Boubín (Kubani) natural forest represents a very valuable and\
+    \ felling aloof forest stand. It was just founded as a forest research reserve.\
+    \ Owing to the verderer Josef John, who processed the first detailed dendrometry\
+    \ in the Boubín natural forest in 1847, we have got unique data sets for the time\
+    \ series of over 160 years.\r\n\r\nThe hurricane Emma blew over the sites in March\
+    \ 2008 and left notable traces behind reserves' current states. The wind did not\
+    \ inflict large disturbances – it broke forest stands into pieces with various\
+    \ intensity. Both sites are fenced – especially Milešice, the site located inside\
+    \ a game-park, had to be necessarily protected against the deer game pressure.\
+    \ The Stožec-Medvědice natural forest brings a view on mountain talus forest with\
+    \ principal tree species sycamore maple, spruce, and elm."
+  variables:
+  - name: biological parameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: biological parameter
+      record_url: https://deims.org/api/sites/b6712df0-d8c8-43d9-9082-eab970cb64cf
+      field_path: /attributes/focusDesignScale/observedProperties/0
+      source_id: http://vocabs.lter-europe.net/EnvThes/20940
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:01.944712+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: tree age
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree age
+      record_url: https://deims.org/api/sites/b6712df0-d8c8-43d9-9082-eab970cb64cf
+      field_path: /attributes/focusDesignScale/observedProperties/1
+      source_id: http://vocabs.lter-europe.net/EnvThes/22300
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:01.944712+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: tree diameter
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree diameter
+      record_url: https://deims.org/api/sites/b6712df0-d8c8-43d9-9082-eab970cb64cf
+      field_path: /attributes/focusDesignScale/observedProperties/2
+      source_id: http://vocabs.lter-europe.net/EnvThes/22303
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:01.944712+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: tree distribution
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree distribution
+      record_url: https://deims.org/api/sites/b6712df0-d8c8-43d9-9082-eab970cb64cf
+      field_path: /attributes/focusDesignScale/observedProperties/3
+      source_id: http://vocabs.lter-europe.net/EnvThes/21587
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:01.944712+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  - name: tree height
+    declaration_kind: UNSPECIFIED
+    source_variables:
+    - source: DEIMS
+      source_name: tree height
+      record_url: https://deims.org/api/sites/b6712df0-d8c8-43d9-9082-eab970cb64cf
+      field_path: /attributes/focusDesignScale/observedProperties/4
+      source_id: http://vocabs.lter-europe.net/EnvThes/22305
+      vocabulary: EnvThes
+      retrieved_at: '2026-10-15T17:39:01.944712+00:00'
+      source_modified_at: '2025-01-07T11:14:56+01:00'
+  notes: 'Biogeographical region: continental'
+  status: ACTIVE
