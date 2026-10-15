@@ -1,0 +1,98 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "AR-TF2",
+    "site_name": "Rio Pipo bog",
+    "grp_team_member": [
+      {
+        "team_member_name": "Lars Kutzbach",
+        "team_member_role": "PI",
+        "team_member_institution": "Universität Hamburg",
+        "team_member_email": "lars.kutzbach@uni-hamburg.de"
+      },
+      {
+        "team_member_name": "Veronica Pancotto",
+        "team_member_role": "PI",
+        "team_member_institution": "CADIC-CONICET",
+        "team_member_email": "pancotto@cadic-conicet.gob.ar"
+      },
+      {
+        "team_member_name": "David Holl",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Universität Hamburg",
+        "team_member_email": "david.holl@uni-hamburg.de"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": null,
+    "site_desc": "Pristine Sphagnum magellanicum dominated bog located in Parque Nacional Tierra del Fuego. The peatland extends about 60 ha.",
+    "grp_location": {
+      "location_lat": "-54.8269",
+      "location_long": "-68.4549",
+      "location_elev": "60"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Sphagnum magellanicum dominated peatland. Also: Empetrum rubrum, Marsippospermum grandiflorum,Tetroncium magellanicum, Gaultheria antarctica, Nothofagus antarctica, Carex magellanica, Rostkovia magellanica, Nanodea muscosa and Pernettya pumila"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "530",
+      "mat": "5.5"
+    },
+    "country": "Argentina",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/AR-TF2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "H",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SW_IN",
+      "TA",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1543388",
+      "FLUXNET": "10.17190/AMF/2571120"
+    },
+    "grp_publish_base": [
+      2016,
+      2017,
+      2018
+    ],
+    "grp_publish_fluxnet": [
+      2016,
+      2017,
+      2018
+    ],
+    "tower_dates": {
+      "tower_start": "2016",
+      "tower_end": "2018"
+    }
+  },
+  "sha256": "ee418bb5797dda47cc30511a281706752157a20242ee9487848275ec6a3241c7",
+  "field_path": "/values/6",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "0e675fb7397761ad7c3f7af02752b11242a1911845770dc1233526ce0542e472"
+}

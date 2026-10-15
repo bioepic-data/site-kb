@@ -1,0 +1,113 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-KS1",
+    "site_name": "Kennedy Space Center (slash pine)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Bert Drake",
+        "team_member_role": "PI",
+        "team_member_institution": "Smithsonian Environmental Research Center",
+        "team_member_email": "drakeb@si.edu"
+      },
+      {
+        "team_member_name": "Ross Hinkle",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Central Florida",
+        "team_member_email": "rhinkle@ucf.edu"
+      },
+      {
+        "team_member_name": "Rosvel Bracho",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of Florida",
+        "team_member_email": "rbracho@ufl.edu"
+      },
+      {
+        "team_member_name": "Sabina Dore",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Northern Arizona University",
+        "team_member_email": "sabina.dore@nau.edu"
+      },
+      {
+        "team_member_name": "Tom Powell",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "tlpowell@lbl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "FL",
+    "site_desc": "The Kennedy Space Center Slash Pine Flatwoods site is located in the Merritt Island National Wildlife Refuge at the Kennedy Space Center (KSC) on the east coast of central Florida. Occupying 310 ha of local forest, the slash pine flatwoods ecosystem is managed as an uneven-aged stand with a sparsely populated overstory and a dense oak-dominated understory. Disturbances tend to occur on a 7 to 10 year cycle, mostly related to fire or hurricane activity. Prescribed fires have been conducted since 1969 to control understory fuel. The most recent burn was conducted in February of 1995. Following the burn, the stand was allowed to naturally regenerate into a open canopy of slash pines, less than 15% of canopy coverage ( on the order of 15-30 trees per ha), with a understory mostly composed of saw palmetto and scrub oak. There was a seasonally wet swale to the southeast that was on the margin of the flux tower footprint. A severe drought gripped most of Florida beginning in 1998 until the later half of 2001 resulting in four years of relatively low annual precipitation totals. Exceptionally high annual rainfall amounts in 2004 were the result of a pair of hurricanes that hit the area in August and September of 2004. Wind directions for the site are as follows: W and NW in the winter, afternoon E sea breeze in the summer.",
+    "grp_location": {
+      "location_lat": "28.4583",
+      "location_long": "-80.6709",
+      "location_elev": "1.00"
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_comment": "ENF covers approximately 15% of the canopy.  CSH comprises the  understory."
+    },
+    "url": "http://www.serc.si.edu/labs/co2/florida.aspx",
+    "grp_clim_avg": {
+      "map": "1266",
+      "mat": "21.90",
+      "climate_koeppen": "Cwa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-KS1",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-KS1",
+    "dom_dist_mgmt": [
+      "Fire",
+      "Storm or wind"
+    ],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "TA",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246069",
+      "FLUXNET": "10.17190/AMF/2229379"
+    },
+    "grp_publish_base": [
+      2002,
+      2003
+    ],
+    "grp_publish_fluxnet": [
+      2002,
+      2003
+    ],
+    "tower_dates": {
+      "tower_start": "2002",
+      "tower_end": "2006"
+    }
+  },
+  "sha256": "83a420a8797c41edf6181c805c101f24be269067bdd35933ec3e1c2b6acf5327",
+  "field_path": "/values/435",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "f774aa1daf940f8efe05c298b7889e535fdea0759d0549cf5d76335d2c080e81"
+}

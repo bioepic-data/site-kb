@@ -1,0 +1,131 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "AR-Bal",
+    "site_name": "Balcarce BA",
+    "grp_team_member": [
+      {
+        "team_member_name": "Maria Isabel Gassmann",
+        "team_member_role": "PI",
+        "team_member_institution": "Universidad de Buenos Aires (UBA)",
+        "team_member_email": "gassmann@at.fcen.uba.ar"
+      },
+      {
+        "team_member_name": "Natalia Edith Tonti",
+        "team_member_role": "PI",
+        "team_member_institution": "Universidad de Buenos Aires (UBA)",
+        "team_member_email": "ntonti@at.fcen.uba.ar"
+      },
+      {
+        "team_member_name": "Nahuel Ezequiel Bautista",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Universidad de Buenos Aires (UBA)",
+        "team_member_email": "nbautista@at.fcen.uba.ar"
+      },
+      {
+        "team_member_name": "Claudio Pérez",
+        "team_member_role": "Technician",
+        "team_member_institution": "Universidad de Buenos Aires (UBA)",
+        "team_member_email": "perez@at.fcen.uba.ar"
+      },
+      {
+        "team_member_name": "Mauro Covi",
+        "team_member_role": "Technician",
+        "team_member_institution": "Universidad de Buenos Aires (UBA)",
+        "team_member_email": "mcovi@at.fcen.uba.ar"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "Buenos Aires",
+    "site_desc": "The study was carried out in a 19-ha rainfed soybean plot at the Unidad Integrada Balcarce, located southeast of Buenos Aires, Argentina. The site is located in an environment of gentle hills at 130 m.a.s.l. Its soil was classified as a typical Argiudoll, with a loamy clayey texture up to 0.30 m and between 0.80 to 1.10 m depth, and a clayey texture between 0.30 and 0.80 m depth. The slope was 1:50 and oriented NE to SW. A caliche layer was found at 1 to 1.2 m depth thus the water table was considered beneath that level. The soybean variety used was DM 3810, Maturity Group III with an indeterminate growing habit. It was sown on November 21, 2012, and emerged on December 1. The crop archive had a maximum height of 0.75 m.",
+    "grp_location": {
+      "location_date_start": "201212220030",
+      "location_lat": "-37.7596",
+      "location_long": "-58.3024",
+      "location_elev": "130"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "201212220030",
+      "igbp_comment": "Soybean (DM3810, Maturity Group III), sown on November 21 with emergence on December 1 (2012) and grown under rainfed conditions."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "926",
+      "mat": "14",
+      "climate_koeppen": "Cfb"
+    },
+    "country": "Argentina",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/AR-Bal",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O",
+      "Other",
+      "Other",
+      "Other"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FC_SSITC_TEST",
+      "G",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "NEE",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2315764",
+      "FLUXNET": "10.17190/AMF/2571144"
+    },
+    "grp_publish_base": [
+      2012,
+      2013
+    ],
+    "grp_publish_fluxnet": [
+      2012,
+      2013
+    ],
+    "tower_dates": {
+      "tower_start": "2012",
+      "tower_end": "2013"
+    }
+  },
+  "sha256": "777e74625b8a353a3ba24e5581259b51f02f081aee36a700292d07a29d4760a9",
+  "field_path": "/values/0",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "a106dc4f080e6d3cef2f5f241ee48ece6b62da0f7cfcfd15f1b98d8c43241e95"
+}

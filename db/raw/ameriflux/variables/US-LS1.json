@@ -1,0 +1,105 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-LS1",
+    "site_name": "San Pedro River Lewis Springs Sacaton Grassland",
+    "grp_team_member": [
+      {
+        "team_member_name": "Russell Scott",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA-ARS",
+        "team_member_email": "russ.scott@ars.usda.gov"
+      },
+      {
+        "team_member_name": "Ross Bryant",
+        "team_member_role": "Technician",
+        "team_member_institution": "USDA",
+        "team_member_email": "Ross.Bryant@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "AZ",
+    "site_desc": "This is a riparian grassland located along an old alluvial terrace along the banks of the entrenched San Pedro River in southeastern Arizona.  Site climate is semiarid with monsoonal (Jul-Sep) rainfall.  The grasses access groundwater (depth of 2-4 m)from an alluvial aquifer recharged elsewhere.  Site water balance is not closed and ET greatly exceeds precipitation.  The perennial bunchgrasses use both rainfall, groundwater and occasional flood water.   This groundwater-using ecosystem is far more ebulliant and productive than the upland vegetation around it (shrublands and grasslands) outside of the San Pedro River corridor.",
+    "grp_location": {
+      "location_lat": "31.5615",
+      "location_long": "-110.1403",
+      "location_elev": "1230"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_comment": "Site is a riparian grassland dominated by the perennial bunchgrass, Big Sacaton (Sporobolus Wrightii)."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "288",
+      "mat": "17",
+      "climate_koeppen": "Bwh"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-LS1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Hydrologic event"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "LE",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SWC",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1660346",
+      "FLUXNET": "10.17190/AMF/3027342"
+    },
+    "grp_publish_base": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007
+    ],
+    "grp_publish_fluxnet": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007
+    ],
+    "tower_dates": {
+      "tower_start": "2003",
+      "tower_end": "2007"
+    }
+  },
+  "sha256": "7716584878520949863cb01e3d706d3935fd626b8e12f30cb404847a943972ce",
+  "field_path": "/values/460",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "39dc8b61090d88ef67b2ef80fa54f239f44e7aa6afc136a1aa6f51dfcaf85a94"
+}

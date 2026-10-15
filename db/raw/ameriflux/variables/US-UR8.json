@@ -1,0 +1,133 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-UR8",
+    "site_name": "Yellow Jacket - UCRB",
+    "grp_team_member": [
+      {
+        "team_member_name": "Christopher Neale",
+        "team_member_role": "PI",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "cneale@nebraska.edu"
+      },
+      {
+        "team_member_name": "Ivo Zution Goncalves",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "izutiongoncalves2@unl.edu"
+      },
+      {
+        "team_member_name": "Randall Ritzema",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "rritzema@nebraska.edu"
+      },
+      {
+        "team_member_name": "Sammy Akasheh",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "sammy.akasheh@unl.edu"
+      },
+      {
+        "team_member_name": "Regiane de Carvalho Bispo",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "rdecarvalhobispo2@unl.edu"
+      },
+      {
+        "team_member_name": "Ashish Masih",
+        "team_member_role": "Technician",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "amasih2@unl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CO",
+    "site_desc": "This site is located in Yellow Jacket, Colorado, on a moderate slope. The area is irrigated using a center pivot system, with alfalfa being the dominant vegetation. The region experiences a temperate climate, characterized by cool to mild temperatures throughout the year and substantial annual precipitation, creating favorable conditions for agricultural activities.",
+    "grp_location": {
+      "location_date_start": "20240505",
+      "location_lat": "37.5405",
+      "location_long": "-108.7390",
+      "location_elev": "2117.5",
+      "location_comment": "A site irrigated by a center pivot system."
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Alfalfa"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "388",
+      "mat": "10",
+      "climate_koeppen": "Cfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-UR8",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FH2O",
+      "G",
+      "GPP",
+      "H",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RECO",
+      "RH",
+      "SC",
+      "SG",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2563533"
+    },
+    "grp_publish_base": [
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": null
+    }
+  },
+  "sha256": "93dcf9d983ee47f7a0e6e52799bcd24ffe8f916299ffc26f8de58232c4a3c7c2",
+  "field_path": "/values/745",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ca38a79bef6da8da2fcd501a8947d1e2cb8c4f1fb8bca9b14cc39ddc1579ea6d"
+}

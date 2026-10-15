@@ -1,0 +1,101 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Bo2",
+    "site_name": "Bondville (companion site)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Carl J Bernacchi",
+        "team_member_role": "PI",
+        "team_member_institution": "Department of Crop Sciences, University of Illinois, Urbana-Champaign",
+        "team_member_email": "bernacch@illinois.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IL",
+    "site_desc": "Located 400m north of Tilden Meyer's site and planted with opposite crop in corn/soybean rotation",
+    "grp_location": {
+      "location_lat": "40.0090",
+      "location_long": "-88.2900",
+      "location_elev": "219",
+      "location_comment": "N; ftp://cdiac.ornl.gov/pub/ameriflux/data/Level1/Sites_ByName/Bondville_Companion_Site/BP08_DAT.LABELS"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "http://public.ornl.gov/ameriflux/Site_Info/siteInfo.cfm?KEYID=us.bondville.02"
+    },
+    "url": "http://www.life.illinois.edu/bernacchi/",
+    "grp_clim_avg": {
+      "map": "991.29",
+      "mat": "11.02",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Bo2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246037"
+    },
+    "grp_publish_base": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2004",
+      "tower_end": "2008"
+    }
+  },
+  "sha256": "86da47b517bef9de8aad97ec44065c7c1767aeba54cd6c3898214282b6cfc032",
+  "field_path": "/values/234",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "8f822bd116c72ad971cc1380b77f889383ea5f707575b067f51323bd8c7f4c6c"
+}

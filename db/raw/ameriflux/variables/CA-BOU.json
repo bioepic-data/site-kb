@@ -1,0 +1,121 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-BOU",
+    "site_name": "Bouleau Peatland",
+    "grp_team_member": [
+      {
+        "team_member_name": "Michelle Garneau",
+        "team_member_role": "PI",
+        "team_member_institution": "Université du Québec a Montréal",
+        "team_member_email": "garneau.michelle@uqam.ca"
+      },
+      {
+        "team_member_name": "Pierre Taillardat",
+        "team_member_role": "DataManager",
+        "team_member_email": "taillardat.pierre@nus.edu.sg"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "Quebec",
+    "site_desc": "This tower is located in a 2.2km2 ombrotrophic peatland covered at 60% by lichen in Northeast Quebec.",
+    "grp_location": {
+      "location_date_start": "201806131200",
+      "location_lat": "50.5244",
+      "location_long": "-63.2064",
+      "location_elev": "108"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Ombrotrophic peatland with pools.  Sphagnum fuscum, S. capillifolium, and Cladonia rangiferina dominate the hummock microforms while S. magellanicum, S. rubellum, S. cuspidatum and Trichophorum cespitosum are found on lawns and S. majus and S. pulchrum on wet hollows."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1011",
+      "mat": "1.5",
+      "climate_koeppen": "Cwc"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-BOU",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CH4",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RECO",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "WS_MAX",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1987599",
+      "FLUXNET": "10.17190/AMF/2469435"
+    },
+    "grp_publish_base": [
+      2018,
+      2019,
+      2020
+    ],
+    "grp_publish_fluxnet": [
+      2018,
+      2019,
+      2020
+    ],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": "2020"
+    }
+  },
+  "sha256": "dd2add7f6958339068412a1a299a0cf21ee1e894ca85a8ad91534f5872261274",
+  "field_path": "/values/34",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "f0ee0a16af8ec958f569f6986f2c020359aa7759401a17538f935774d426f284"
+}

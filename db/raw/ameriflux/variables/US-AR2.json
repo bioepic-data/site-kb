@@ -1,0 +1,111 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-AR2",
+    "site_name": "ARM USDA UNL OSU Woodward Switchgrass 2",
+    "grp_team_member": [
+      {
+        "team_member_name": "Dave Billesbach",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Nebraska",
+        "team_member_email": "dbillesbach1@unl.edu"
+      },
+      {
+        "team_member_name": "Margaret Torn",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawrence Berkeley National Lab",
+        "team_member_email": "mstorn@lbl.gov"
+      },
+      {
+        "team_member_name": "Chris Zou",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Oklahoma State University",
+        "team_member_email": "chris.zou@okstate.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "OK",
+    "site_desc": "The ARM USDA UNL OSU Woodward Switchgrass 2 tower is located on public land owned by the USDA-ARS Southern Plains Range Research Station in Woodward, Oklahoma. The site is on a former wheat field that is in the process of changing to switchgrass. A companion site (ARM USDA UNL OSU Woodward Switchgrass 1) is on a former native prairie. Previous wheat was planted in Fall 2008. In Spring 2009, herbicide was applied to kill the wheat prior to switchgrass planting. Later in the year, the site was sprayed with post-emergence herbicide. In 2010, fertilization occurred before herbicide was sprayed for broadleaf control.",
+    "grp_location": {
+      "location_lat": "36.6358",
+      "location_long": "-99.5975",
+      "location_elev": "646",
+      "location_comment": "From CDIAC Tom Boden database dump"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_date_start": "20100408",
+      "igbp_comment": "Planted Switchgrass"
+    },
+    "url": "http://www.arm.gov/sites/sgp",
+    "grp_clim_avg": {
+      "climate_koeppen": "Dsa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-AR2",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-AR2",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246138",
+      "FLUXNET": "10.17190/AMF/2006966"
+    },
+    "grp_publish_base": [
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "grp_publish_fluxnet": [
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "tower_dates": {
+      "tower_start": "2009",
+      "tower_end": "2012"
+    }
+  },
+  "sha256": "68abb945dd19b014d12b58f4d49e77b8e4b93a45bc6f26a94d48db8d8e09a4dd",
+  "field_path": "/values/198",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c9698b33a0030126c4772b2bae2e0edcd6c36f1f5ebbf632b13e2439f49f5129"
+}

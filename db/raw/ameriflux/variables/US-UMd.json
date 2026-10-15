@@ -1,0 +1,151 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-UMd",
+    "site_name": "UMBS Disturbance",
+    "grp_team_member": [
+      {
+        "team_member_name": "Aimee Classen",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Michigan",
+        "team_member_email": "aclassen@umich.edu"
+      },
+      {
+        "team_member_name": "Christopher Gough",
+        "team_member_role": "PI",
+        "team_member_institution": "Virginia Commonwealth University",
+        "team_member_email": "cmgough@vcu.edu"
+      },
+      {
+        "team_member_name": "Gil Bohrer",
+        "team_member_role": "PI",
+        "team_member_institution": "Ohio State University",
+        "team_member_email": "bohrer.17@osu.edu"
+      },
+      {
+        "team_member_name": "John Lenters",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Michigan",
+        "team_member_email": "jlenters@umich.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "MI",
+    "site_desc": "The UMBS Disturbance site is an artificial disturbance site that has recently been created as part of the Forest Accelerate Succession ExperimenT (FASET). In Spring 2008, every aspen and birch tree (>6,700, ~35% canopy LAI), the dominant early successional trees, were girdled over 39 ha of the FASET treatment plot to stimulate a disturbance that will move the forest into a later successional stage, dominated by maples, oaks, and white pine. This treatment caused aspen and birch mortality within 2 - 3 years. As a result of the changed canopy structure, there is a divergence in net ecosystem exchange between the control plot (enhanced carbon uptake) and the treatment plot (reduced carbon uptake).",
+    "grp_location": {
+      "location_lat": "45.5625",
+      "location_long": "-84.6975",
+      "location_elev": "239",
+      "location_comment": "From CDIAC Tom Boden database dump"
+    },
+    "grp_igbp": {
+      "igbp": "DBF"
+    },
+    "url": "http://flux.org.ohio-state.edu/",
+    "grp_clim_avg": {
+      "map": "803",
+      "mat": "5.83",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-UMd",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-UMd",
+    "dom_dist_mgmt": [
+      "Forestry"
+    ],
+    "flux_measurements_variables": [
+      "H",
+      "H2O",
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "GPP",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "RECO",
+      "RH",
+      "SC",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246134",
+      "FLUXNET": "10.17190/AMF/1881597"
+    },
+    "grp_publish_base": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "tower_dates": {
+      "tower_start": "2007",
+      "tower_end": null
+    }
+  },
+  "sha256": "b5333a1119e458ef4ee986c457e1f2ea0c8d84b1a53f9cdeb808b2213c875329",
+  "field_path": "/values/735",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "06e32588ba052aad8f0f33d00e244307f527acd4baeb701dce43c1d42c0bae18"
+}

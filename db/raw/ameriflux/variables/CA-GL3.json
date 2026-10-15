@@ -1,0 +1,97 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-GL3",
+    "site_name": "Long Point",
+    "grp_team_member": [
+      {
+        "team_member_name": "Chris Spence",
+        "team_member_role": "PI",
+        "team_member_institution": "Environment and Climate Change Canada",
+        "team_member_email": "chris.spence@ec.gc.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "Ontario",
+    "site_desc": "Long Point Lighthouse is located at the end of Long Point on Lake Erie. The eddy covariance instrumentation is located on the historic lighthouse, completed in 1916, and instrumented with eddy covariance data in 2012 by a network of scientists from both US and Canada (eventually to be called the Great Lakes Evaporation Network (GLEN)). The intent of GLEN has been to provide observations of over-lake meteorology and evaporation, improve forecasting of Great Lakes water levels, and support a wide variety of stakeholders, including the National Weather Service (NWS), Environment and Climate Change Canada, National Oceanic and Atmospheric Administration, U.S. Coast Guard, recreational boaters and commercial shipping, emergency management officials, and the Great Lakes research community.",
+    "grp_location": {
+      "location_date_start": "201205091400",
+      "location_lat": "42.5487",
+      "location_long": "-80.0165",
+      "location_elev": "172",
+      "location_comment": "Instruments mounted to lighthouse on Lake Erie"
+    },
+    "grp_igbp": {
+      "igbp": "WAT",
+      "igbp_date_start": "201205091400",
+      "igbp_comment": "Open water. No vegetation"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "965",
+      "mat": "8.4",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-GL3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "H",
+      "LE",
+      "LW_IN",
+      "PA",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TAU",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "TW",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3365232"
+    },
+    "grp_publish_base": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2012",
+      "tower_end": "2026"
+    }
+  },
+  "sha256": "fac1732f486eab8684a691e313cbc8a6495076ee1cbf10fc6dc2e80e14843d00",
+  "field_path": "/values/59",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "1e15f8234549a6f83814752db1ef307df9099eb5e4fae8a0b262da70be5df353"
+}

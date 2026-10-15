@@ -1,0 +1,87 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-WT3",
+    "site_name": "Stratford LICOR",
+    "grp_team_member": [
+      {
+        "team_member_name": "Craig Bednarz",
+        "team_member_role": "PI",
+        "team_member_institution": "West Texas A&M University",
+        "team_member_email": "cbednarz@wtamu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "TX",
+    "site_desc": "Summer annual forage production system with grazing",
+    "grp_location": {
+      "location_date_start": "20240701",
+      "location_lat": "36.3390",
+      "location_long": "-101.8290",
+      "location_elev": "1071",
+      "location_comment": "Stratford, TX summer annual forage"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": "https://wtamu.easyfluxweb.com/index.html",
+    "grp_clim_avg": {
+      "map": "482",
+      "mat": "14.4",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-WT3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FETCH_70",
+      "FETCH_90",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "PA",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TAU",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3684006"
+    },
+    "grp_publish_base": [
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": null
+    }
+  },
+  "sha256": "45845821369bab0ef32f6b944ace3f217836d6b54d39771a27e722f93b2671eb",
+  "field_path": "/values/796",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "2b70f1aa52dcbab5188155f224bada72bacf4a9e6dc5c46abd05f5f7f19d203f"
+}

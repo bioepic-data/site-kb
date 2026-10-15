@@ -1,0 +1,105 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Tur",
+    "site_name": "Turner Ranch",
+    "grp_team_member": [
+      {
+        "team_member_name": "Paul Stoy",
+        "team_member_role": "PI",
+        "team_member_institution": "Montana State University",
+        "team_member_email": "paul.stoy@montana.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MT",
+    "site_desc": "Pasture",
+    "grp_location": {
+      "location_date_start": "201711141800",
+      "location_lat": "45.5571",
+      "location_long": "-111.2286",
+      "location_elev": "1530"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_comment": "Snow cover was present throughout the measurement period. Climate is for nearby Bozeman, MT because the GHCN website is down for the government shutdown."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "670",
+      "mat": "6.67",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Tur",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Grazing"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "G",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "PA",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1825940"
+    },
+    "grp_publish_base": [
+      2017,
+      2018
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": "2018"
+    }
+  },
+  "sha256": "0db32298a042a9de69bcf8063ed7f5dc402b1e2615205625f303edc2f0acd542",
+  "field_path": "/values/704",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ec3ab47bdcf37475918a1da548784fe1e0f5479751db414d13870f74ea42a9ef"
+}

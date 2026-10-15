@@ -1,0 +1,124 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Fo2",
+    "site_name": "Flux Observations of Carbon from an Airborne Laboratory (FOCAL) Campaign Site 2",
+    "grp_team_member": [
+      {
+        "team_member_name": "Mark Heuer",
+        "team_member_role": "PI",
+        "team_member_institution": "NOAA/ARL/ATDD & ORAU",
+        "team_member_email": "Mark.Heuer@noaa.gov"
+      },
+      {
+        "team_member_name": "Praveena Krishnan",
+        "team_member_role": "PI",
+        "team_member_institution": "NOAA/ARL/ATDD",
+        "team_member_email": "praveena.krishnan@noaa.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "AK",
+    "site_desc": "This tower is locate south of Prudhoe Bay off the Dalton Highway along the Sagavanirktok (Sag) River",
+    "grp_location": {
+      "location_lat": "70.0229",
+      "location_long": "-148.6598",
+      "location_elev": "41",
+      "location_comment": "This site is locate south of Prudhoe Bay off the Dalton Highway along the Sagavanirktok (Sag) River"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "The site has wet sedge land cover (based on NSSI landcover ). Mostly dominated by wet sedge species, like  Carex aquatilis and Eriophorum angustifolium with canopy height <0.25m"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "climate_koeppen": "Dsc"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Fo2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Undisturbed"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FCH4",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SC",
+      "SCH4",
+      "SG",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "TW",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2531146",
+      "FLUXNET": "10.17190/AMF/3365273"
+    },
+    "grp_publish_base": [
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": null,
+      "tower_end": null
+    }
+  },
+  "sha256": "fc2a11f3974641df67bfd8da595d68d957ad63fb49bf7a1927a5cbc27695d1bf",
+  "field_path": "/values/336",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "2f21eb0b9dc3249dc6f1b008c4b14a8f2a39b13c6515dac78ba535a4f8ccac89"
+}

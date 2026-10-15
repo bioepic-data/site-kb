@@ -1,0 +1,120 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-TrS",
+    "site_name": "Trout Lake Area South Sparkling Bog",
+    "grp_team_member": [
+      {
+        "team_member_name": "Paul Stoy",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Wisconsin",
+        "team_member_email": "pcstoy@wisc.edu"
+      },
+      {
+        "team_member_name": "Ankur Desai",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of Wisconsin",
+        "team_member_email": "desai@aos.wisc.edu"
+      },
+      {
+        "team_member_name": "Hilary Dugan",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of Wisconsin",
+        "team_member_email": "hdugan@wisc.edu"
+      },
+      {
+        "team_member_name": "Paul Schramm",
+        "team_member_role": "Technician",
+        "team_member_institution": "University of Wisconsin",
+        "team_member_email": "pschramm@wisc.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WI",
+    "site_desc": "South Sparkling Bog was plowed after snow events during the winter of 2019/20 as an experimental treatment with Trout Bog (US-TrB) as a control",
+    "grp_location": {
+      "location_date_start": "20200317",
+      "location_lat": "46.0034",
+      "location_long": "-89.7053",
+      "location_elev": "495",
+      "location_comment": "The buoy is anchored and will move over a limited area in response to wind"
+    },
+    "grp_igbp": {
+      "igbp": "WAT",
+      "igbp_comment": "Bog lake"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "787",
+      "mat": "3.8",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-TrS",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "CO2_SIGMA",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H2O_SIGMA",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "PA",
+      "SW_IN",
+      "SW_OUT",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1825939"
+    },
+    "grp_publish_base": [
+      2020
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2020",
+      "tower_end": "2020"
+    }
+  },
+  "sha256": "0e36bea3e6342a0354b9d2b3ab15f5cb9d611d5581fb0d29995fd92515b746fa",
+  "field_path": "/values/702",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "7739493fae6bf3d09884e81d64f12d82fc2db064fb0b14c6a84040df68d1b020"
+}

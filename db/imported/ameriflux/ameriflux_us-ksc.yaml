@@ -16,3 +16,54 @@ sites:
     IGBP vegetation code: CRO; Reported flux-measurement start year: 2024; Koeppen
     climate code: Dfb; Source mean annual temperature (degrees C): 8.3; Source mean
     annual precipitation (mm): 943'
+  variables:
+  - name: CO2 flux (source-reported)
+    declaration_kind: UNSPECIFIED
+    data_product: BADM Site General Information
+    description: Flux measurement reported by the site in BADM. The declaration does
+      not specify a BASE column, processing method, or data availability.
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    source_variables:
+    - source: AMERIFLUX_BADM_SGI
+      source_id: CO2
+      source_name: CO2
+      vocabulary: BADM flux_measurements_variables
+      record_url: https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+      field_path: /values/440/flux_measurements_variables/0
+      retrieved_at: '2026-10-15T20:07:14.159898+00:00'
+  - name: H flux (source-reported)
+    declaration_kind: UNSPECIFIED
+    data_product: BADM Site General Information
+    description: Flux measurement reported by the site in BADM. The declaration does
+      not specify a BASE column, processing method, or data availability.
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    source_variables:
+    - source: AMERIFLUX_BADM_SGI
+      source_id: H
+      source_name: H
+      vocabulary: BADM flux_measurements_variables
+      record_url: https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+      field_path: /values/440/flux_measurements_variables/1
+      retrieved_at: '2026-10-15T20:07:14.159898+00:00'
+  - name: H2O flux (source-reported)
+    declaration_kind: UNSPECIFIED
+    data_product: BADM Site General Information
+    description: Flux measurement reported by the site in BADM. The declaration does
+      not specify a BASE column, processing method, or data availability.
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    source_variables:
+    - source: AMERIFLUX_BADM_SGI
+      source_id: H2O
+      source_name: H2O
+      vocabulary: BADM flux_measurements_variables
+      record_url: https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+      field_path: /values/440/flux_measurements_variables/2
+      retrieved_at: '2026-10-15T20:07:14.159898+00:00'
+  variable_notes: BADM declarations and published BASE variables are separate evidence
+    types; reported flux species are not concentration variables. No published BASE
+    variable inventory was returned for this site; this does not negate its reported
+    flux measurements. Quality flags, footprint diagnostics, and timekeeping columns
+    are excluded from property declarations.

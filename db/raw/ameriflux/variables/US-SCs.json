@@ -1,0 +1,85 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-SCs",
+    "site_name": "Southern California Climate Gradient - Coastal Sage",
+    "grp_team_member": [
+      {
+        "team_member_name": "Mike Goulden",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California - Irvine",
+        "team_member_email": "mgoulden@uci.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "Half hourly data are available at https://www.ess.uci.edu/~california/. This site is one of six Southern California Climate Gradient flux towers operated along an elevation gradient (sites are US-SCg, US-SCs, US-SCf, US-SCw, US-SCc, US-SCd). This site is a coastal sage shrubland.  Coastal sage is a small stature, closed canopy vegetation dominated by drought deciduous shrubs.  The site has historically burned every 10-20 years, with the wild fire in October 2007.  The tower data sets includes this recovery process.",
+    "grp_location": {
+      "location_lat": "33.7343",
+      "location_long": "-117.6959",
+      "location_elev": "470",
+      "location_comment": "From CDIAC Tom Boden database dump"
+    },
+    "grp_igbp": {
+      "igbp": "OSH"
+    },
+    "url": "http://www.ess.uci.edu",
+    "grp_clim_avg": {},
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-SCs",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NDVI",
+      "NETRAD",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1419501"
+    },
+    "grp_publish_base": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2007",
+      "tower_end": null
+    }
+  },
+  "sha256": "cfc2f22e30e8ca0ddb44ac11027a846de89f11be31153a897060d69b52d145a9",
+  "field_path": "/values/642",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "d922c25c39e658c228d5cc789ff6b0f61d52882f3a1adb424fb32f271280a0a6"
+}

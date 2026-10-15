@@ -1,0 +1,142 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-RC4",
+    "site_name": "Moscow Mountain on-farm site",
+    "grp_team_member": [
+      {
+        "team_member_name": "Brian Lamb",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "blamb@wsu.edu"
+      },
+      {
+        "team_member_name": "Jinshu Chi",
+        "team_member_role": "PI",
+        "team_member_institution": "The Hong Kong University of Science and Technology (Guangzhou)",
+        "team_member_email": "jinshuchi@hkust-gz.edu.cn"
+      },
+      {
+        "team_member_name": "Shelley Pressley",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "spressley@wsu.edu"
+      },
+      {
+        "team_member_name": "Bryan Carlson",
+        "team_member_role": "AncContact",
+        "team_member_institution": "USDA-ARS NSARU",
+        "team_member_email": "bryan.carlson@usda.gov"
+      },
+      {
+        "team_member_name": "Eric Russell",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "eric.s.russell@wsu.edu"
+      },
+      {
+        "team_member_name": "Patrick O'Keeffe",
+        "team_member_role": "Technician",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "pokeeffe@wsu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WA",
+    "site_desc": "The Moscow Mountain On-farm site operated 2012-2016 as part of a cluster of 5 towers (RC1 to RC5) operated for the Regional Approaches to Climate Change (REACCH) USDA-supported research project.  The site is located in the high precipitation agroecological zone of the Columbia Plateau’s dryland cropping region, near Moscow, Idaho. The site was managed with conventional (reduced) tillage. The crop rotation was spring barley, spring field peas, winter wheat, and spring wheat. Soils are silt loam mollisols including the Latahco, Thatuna, Southwick, and Larkin soil series. The site topography is sloping and is situated within the rolling hills of the Palouse region.",
+    "grp_location": {
+      "location_date_start": "201207110000",
+      "location_lat": "46.7580",
+      "location_long": "-116.9490",
+      "location_elev": "817"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "201207110000",
+      "igbp_comment": "Dryland cropping system"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "680",
+      "mat": "9",
+      "climate_koeppen": "Dsb"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-RC4",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1498750",
+      "FLUXNET": "10.17190/AMF/3027329"
+    },
+    "grp_publish_base": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "grp_publish_fluxnet": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "tower_dates": {
+      "tower_start": "2012",
+      "tower_end": "2016"
+    }
+  },
+  "sha256": "969a08d8bb1ac1b5955da62328d3f3509268038b23e085f5485bbd47cac69d61",
+  "field_path": "/values/606",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ca7d0f39957b6910bb21524df16f72e63622279ea27540f83828922eff55843d"
+}

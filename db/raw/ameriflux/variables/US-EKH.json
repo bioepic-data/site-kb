@@ -1,0 +1,142 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-EKH",
+    "site_name": "Elkhorn Slough Hester Marsh",
+    "grp_team_member": [
+      {
+        "team_member_name": "Adina Paytan",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California, Santa Cruz",
+        "team_member_email": "apaytan@ucsc.edu"
+      },
+      {
+        "team_member_name": "Jacqueline (J.J.) Jabuka",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of California, Santa Cruz",
+        "team_member_email": "jjabuka@ucsc.edu"
+      },
+      {
+        "team_member_name": "Lucas Ognibene",
+        "team_member_role": "Technician",
+        "team_member_institution": "University of California, Santa Cruz",
+        "team_member_email": "logniben@ucsc.edu"
+      },
+      {
+        "team_member_name": "Sylvain Labedens",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "University of California, Santa Cruz",
+        "team_member_email": "slabeden@ucsc.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "CA",
+    "site_desc": "Salt marsh restored in 2018 by adding soil to raise 61 acres of former salt marsh to an elevation that allows marsh plants to return and keep pace with projected sea level rise. Marsh is mostly bare soil and tidal channels. Marsh is flooded and drained diurnally.",
+    "grp_location": {
+      "location_date_start": "202206150800",
+      "location_lat": "36.8094",
+      "location_long": "-121.7523",
+      "location_elev": "0.5"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_date_start": "202207011700",
+      "igbp_comment": "limited pickleweed patches"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "894",
+      "mat": "10",
+      "climate_koeppen": "Csb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-EKH",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Land cover change"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NDVI",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "P_RAIN",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "TW",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2479624",
+      "FLUXNET": "10.17190/AMF/3027348"
+    },
+    "grp_publish_base": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2022",
+      "tower_end": null
+    }
+  },
+  "sha256": "a7dd818e0155efda86e21a4ecc162a0ca67c318a023b08d6813787c43065b992",
+  "field_path": "/values/323",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "bdd74b1ac395f7c701eb5cb326c2882f5edd504f1bbde96afc3a6956410f972c"
+}

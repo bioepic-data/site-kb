@@ -1,0 +1,95 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-WT2",
+    "site_name": "Stratford CSI",
+    "grp_team_member": [
+      {
+        "team_member_name": "Craig Bednarz",
+        "team_member_role": "PI",
+        "team_member_institution": "West Texas A&M University",
+        "team_member_email": "cbednarz@wtamu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "TX",
+    "site_desc": "Winter annual forage production system with grazing",
+    "grp_location": {
+      "location_date_start": "20241001",
+      "location_lat": "36.3393",
+      "location_long": "-101.8290",
+      "location_elev": "1056",
+      "location_comment": "Stratford, TX winter annual forage"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": "https://wtamu.easyfluxweb.com/index.html",
+    "grp_clim_avg": {
+      "map": "482",
+      "mat": "14.4",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-WT2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "LE",
+      "MO_LENGTH",
+      "PA",
+      "PBLH",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TAU",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3365237"
+    },
+    "grp_publish_base": [
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": null
+    }
+  },
+  "sha256": "2db982c2020cfa285826d700db8a46f5268a56026d178414263bcc172740dc3c",
+  "field_path": "/values/795",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "3acd94445edde3d5041b02a37dd9af1ed9dbe644edeef2fece450c7cc215c084"
+}

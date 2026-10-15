@@ -1,0 +1,83 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-SCd",
+    "site_name": "Southern California Climate Gradient - Sonoran Desert",
+    "grp_team_member": [
+      {
+        "team_member_name": "Mike Goulden",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California - Irvine",
+        "team_member_email": "mgoulden@uci.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "Half hourly data are available at https://www.ess.uci.edu/~california/. This site is one of six Southern California Climate Gradient flux towers operated along an elevation gradient (sites are US-SCg, US-SCs, US-SCf, US-SCw, US-SCc, US-SCd). This site is a low desert site in Southern California's rain shadow; the climate is extremely dry and hot.  The site has experience repeated droughts, with negligible rainfall during several years of the record.",
+    "grp_location": {
+      "location_lat": "33.6518",
+      "location_long": "-116.3721",
+      "location_elev": "275",
+      "location_comment": "From CDIAC Tom Boden database dump"
+    },
+    "grp_igbp": {
+      "igbp": "BSV"
+    },
+    "url": null,
+    "grp_clim_avg": {},
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-SCd",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NDVI",
+      "NETRAD",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1419505"
+    },
+    "grp_publish_base": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2007",
+      "tower_end": null
+    }
+  },
+  "sha256": "28794001ba3953e84e58f9504ee49ab3db1f31eba3d9d8e1606d3718b49d8d8c",
+  "field_path": "/values/639",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "e32ac282234b26ef7fc0da576c20cc5f0c38f7d687cda087d07c0dfb4bba6c23"
+}

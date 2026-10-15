@@ -1,0 +1,102 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-SF3",
+    "site_name": "Saskatchewan - Western Boreal, forest burned in 1998",
+    "grp_team_member": [
+      {
+        "team_member_name": "Brian Amiro",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Manitoba; Canadian Forest Service",
+        "team_member_email": "Brian_Amiro@umanitoba.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Fluxnet-Canada"
+    ],
+    "state": "Saskatchewan",
+    "site_desc": "The 1998 burn site (F98) was in the east part of\nPrince Albert National Park, Saskatchewan, in the\nWaskesiu Fire, ignited by lightning that burned about\n1700 ha in July 1998. The pre-fire forest consisted of\njack pine and black spruce stands, with some intermixed\naspen. The fire was severe, consuming much of the top layer of organic soil and killing all trees. In 2001, much\nof the regenerating vegetation consisted of aspen\nsaplings about 1 m tall and shorter jack pine and black\nspruce seedlings. An overstory of dead, leafless jack\npine trees dominated at a height of 18 m. Sparse grass\nand herbs, such as fireweed (Epilobium angustifolium\nL.) covered the ground. There were a large number of\nfallen dead trees, mostly perched above the ground and\nnot decomposing quickly.",
+    "grp_location": {
+      "location_lat": "54.0916",
+      "location_long": "-106.0053",
+      "location_elev": "540"
+    },
+    "grp_igbp": {
+      "igbp": "OSH",
+      "igbp_comment": "Brian Amiro - site dominated by small shrubs so this should be the primary classification. ENF is the minor classification. (Deb)"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "470",
+      "mat": "0.4",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-SF3",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/CA-SF3",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "P_RAIN",
+      "RH",
+      "SH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246008",
+      "FLUXNET": "10.17190/AMF/3027313"
+    },
+    "grp_publish_base": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "grp_publish_fluxnet": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "tower_dates": {
+      "tower_start": "2001",
+      "tower_end": "2006"
+    }
+  },
+  "sha256": "ddf967eaf6279fb0de163ef6397511a0b6f067a2b5ebc43e415beeb6cc0eb4ae",
+  "field_path": "/values/105",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "36ca7f6d48922b7e4c371793af306f7a520c0929a256a2f3f7e5a54262c05ee7"
+}

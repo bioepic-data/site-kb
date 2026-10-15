@@ -1,0 +1,111 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-INb",
+    "site_name": "INFLUX - Golf Course",
+    "grp_team_member": [
+      {
+        "team_member_name": "Kenneth Davis",
+        "team_member_role": "PI",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "kjd10@psu.edu"
+      },
+      {
+        "team_member_name": "Natasha Miles",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "nmiles@psu.edu"
+      },
+      {
+        "team_member_name": "Scott Richardson",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "srichardson@psu.edu"
+      },
+      {
+        "team_member_name": "Jason Horne",
+        "team_member_role": "DataManager",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "jph6488@psu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IN",
+    "site_desc": "Turfgrass site, highly managed",
+    "grp_location": {
+      "location_date_start": "201811071830",
+      "location_lat": "39.8706",
+      "location_long": "-86.0024",
+      "location_comment": "Tower stood over a golf course"
+    },
+    "grp_igbp": {
+      "igbp": "URB"
+    },
+    "url": "https://sites.psu.edu/influx/site-information/the-fort-golf-resort-flux-site-04/",
+    "grp_clim_avg": {
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-INb",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "CO2_SIGMA",
+      "FC",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H2O_SIGMA",
+      "LE",
+      "MO_LENGTH",
+      "PA",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "TAU",
+      "T_SONIC",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2001301"
+    },
+    "grp_publish_base": [
+      2018,
+      2019
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": "2019"
+    }
+  },
+  "sha256": "7e16ca6d6521c77b960c4988b04a8e8721b53c799757ffcdd8acaf94b623c5c5",
+  "field_path": "/values/395",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "64ee85595af7e51c1bb455cdef30199d7a60a70834f6f490dc2720953fe47ec2"
+}

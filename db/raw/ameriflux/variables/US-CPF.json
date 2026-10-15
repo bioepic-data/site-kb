@@ -1,0 +1,107 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-CPF",
+    "site_name": "Cameron Peak",
+    "grp_team_member": [
+      {
+        "team_member_name": "John Frank",
+        "team_member_role": "PI",
+        "team_member_institution": "US Forest Service, Rocky Mountain Research Station",
+        "team_member_email": "john.frank@usda.gov"
+      },
+      {
+        "team_member_name": "George Valentine",
+        "team_member_role": "DataManager",
+        "team_member_institution": "US Forest Service, Rocky Mountain Research Station",
+        "team_member_email": "george.valentine@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CO",
+    "site_desc": "This site was established in 2021 in the wake of the Cameron Peak fire, the largest wildfire in Colorado to date. The site is situated at 3,100m elevation on a ~0.5km^2 flat ridgetop within the burn zone between Sawmill Creek and Chambers Lake. The site, populated by lodgepole pine, subalpine fir and Engelmann spruce, burned heavily in fall 2020. The tower consists of one level of construction scaffolding with instruments mounted at 4.3m height.",
+    "grp_location": {
+      "location_lat": "40.5855",
+      "location_long": "-105.8696",
+      "location_elev": "3100"
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_comment": "Lodgepole pine, subalpine fir and Engelmann spruce experienced high-severity burn in fall 2020. Limited regeneration."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1121",
+      "mat": "1.6",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-CPF",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Drought",
+      "Fire",
+      "Forestry"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "D_SNOW",
+      "FC",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "T_CANOPY",
+      "TS",
+      "TSN",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2574378"
+    },
+    "grp_publish_base": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2021",
+      "tower_end": null
+    }
+  },
+  "sha256": "063b18bfdd6e2cdea5fd7b2a46d89865532bd46622f907416bf783d5b5490e92",
+  "field_path": "/values/271",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "65034871d27d68711d241b761348a1418b847f4c1c00683d9fa888e04d81699f"
+}

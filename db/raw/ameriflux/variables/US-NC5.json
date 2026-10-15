@@ -1,0 +1,137 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-NC5",
+    "site_name": "NC Butner Farm",
+    "grp_team_member": [
+      {
+        "team_member_name": "Ge Sun",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "ge.sun@usda.gov"
+      },
+      {
+        "team_member_name": "John King",
+        "team_member_role": "PI",
+        "team_member_institution": "North Carolina State University",
+        "team_member_email": "john_king@ncsu.edu"
+      },
+      {
+        "team_member_name": "Johnny Boggs",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "johnny.boggs@usda.gov"
+      },
+      {
+        "team_member_name": "Maricar Aguilos",
+        "team_member_role": "PI",
+        "team_member_institution": "North Carolina State University",
+        "team_member_email": "mmaguilo@ncsu.edu"
+      },
+      {
+        "team_member_name": "Miko Belgado",
+        "team_member_role": "Technician",
+        "team_member_institution": "North Carolina State University",
+        "team_member_email": "mjbelgad@ncsu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": null,
+    "site_desc": "The US-NC5 flux tower is located within an 80-year-old mixed pine-hardwood forest at the Umstead Research Farm in Butner, North Carolina. The northern section of this 20-hectare Fall Lake Watershed of the Neuse River Basin in the Piedmont of North Carolina, USA. The Northern portion is currently a managed cattle farm, which is slated for expansion—necessitating forest clearing in the flux site. To establish a reference baseline, a year-long, all-season eddy covariance flux monitoring campaign will be conducted from April 2025 to March 2026. This effort aims to capture the carbon flux dynamics of the mature forest ecosystem prior to a planned land-use conversion. The site will be transitioned into a silvopasture, maintained through prescribed burning and cattle grazing to promote an open-canopy watershed structure. Flux measurements will continue after the conversion.",
+    "grp_location": {
+      "location_date_start": "20250422",
+      "location_lat": "36.1565",
+      "location_long": "-78.7878",
+      "location_elev": "122"
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_date_start": "20250422"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1330",
+      "mat": "15.5",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-NC5",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Grazing"
+    ],
+    "flux_measurements_variables": [
+      "CH4",
+      "H2O",
+      "CO2"
+    ],
+    "base_variables": [
+      "ALB",
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FCH4",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3023116",
+      "FLUXNET": "10.17190/AMF/3365277"
+    },
+    "grp_publish_base": [
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2025
+    ],
+    "tower_dates": {
+      "tower_start": "2025",
+      "tower_end": null
+    }
+  },
+  "sha256": "54b0c91e2db3e9d7124282a005cafd0dc3b4366f2c563ceaa8e1beb9ed38fc24",
+  "field_path": "/values/520",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "57fea40a5abc9054c97ec6dbbe6e2a0b12d052531c66996111a7d1cce2411dd0"
+}

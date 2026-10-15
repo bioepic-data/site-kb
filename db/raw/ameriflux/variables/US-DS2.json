@@ -1,0 +1,115 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-DS2",
+    "site_name": "Staten Corn 2",
+    "grp_team_member": [
+      {
+        "team_member_name": "Steve Deverel",
+        "team_member_role": "PI",
+        "team_member_institution": "Hydrofocus, Inc",
+        "team_member_email": "sdeverel@hydrofocus.com"
+      },
+      {
+        "team_member_name": "Nick Christen",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Hydrofocus, Inc",
+        "team_member_email": "nchristen@hydrofocus.com"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "This tower is located in a corn field in the California Delta on Staten Island. The tower is positioned within several hundred hectares of homogenous agricultural (corn) fields.",
+    "grp_location": {
+      "location_date_start": "20200327",
+      "location_lat": "38.1375",
+      "location_long": "-121.5140",
+      "location_elev": "-6"
+    },
+    "grp_igbp": {
+      "igbp": "CRO"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "432",
+      "mat": "16",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-DS2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2407203",
+      "FLUXNET": "10.17190/AMF/2571148"
+    },
+    "grp_publish_base": [
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "2020",
+      "tower_end": "2024"
+    }
+  },
+  "sha256": "62c8280c75bb0dacd2d04dd4bf50c748b37b25f1bb50671b2e4d71b6376a2697",
+  "field_path": "/values/315",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "498740c5a2a6916c347125a4a11f75536ee24e6ee395be18af407635642a2d2d"
+}

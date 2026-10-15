@@ -1,0 +1,135 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-HB4",
+    "site_name": "Minim Creek Brackish Impoundment",
+    "grp_team_member": [
+      {
+        "team_member_name": "Tom O'Halloran",
+        "team_member_role": "PI",
+        "team_member_institution": "Clemson University",
+        "team_member_email": "tohallo@clemson.edu"
+      },
+      {
+        "team_member_name": "Haoyu Li",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Clemson University",
+        "team_member_email": "haoyul@clemson.edu"
+      },
+      {
+        "team_member_name": "Logan Porter",
+        "team_member_role": "Technician",
+        "team_member_institution": "Clemson University",
+        "team_member_email": "hlp@clemson.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "SC",
+    "site_desc": "An impounded, brackish wetland that is a historic rice field and adjacent to a tidal creek that is managed for water level and vegetation for waterfowl habitat.",
+    "grp_location": {
+      "location_date_start": "202003161500",
+      "location_lat": "33.2015",
+      "location_long": "-79.2975",
+      "location_elev": "1"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "managed, brackish wetland"
+    },
+    "url": "https://sites.google.com/g.clemson.edu/ohalloran/tower-sites",
+    "grp_clim_avg": {
+      "map": "1429",
+      "mat": "18.3",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-HB4",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "FC",
+      "FCH4",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "GPP",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NDVI",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "P_RAIN",
+      "RECO",
+      "RH",
+      "SPEC_NIR_IN",
+      "SPEC_NIR_OUT",
+      "SPEC_RED_IN",
+      "SPEC_RED_OUT",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2001299",
+      "FLUXNET": "10.17190/AMF/2571130"
+    },
+    "grp_publish_base": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2020",
+      "tower_end": null
+    }
+  },
+  "sha256": "22897225e98890989d26c9e3f024ea3b82151d0378f4526e4df8209d5fb8063c",
+  "field_path": "/values/361",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ab020154718f14681233d37ef1d3ba231d544c644392861b50901b6ede6201f1"
+}

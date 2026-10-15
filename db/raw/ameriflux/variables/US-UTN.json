@@ -1,0 +1,112 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-UTN",
+    "site_name": "UFLUX Nephi",
+    "grp_team_member": [
+      {
+        "team_member_name": "Paul Inkenbrandt",
+        "team_member_role": "PI",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "paulinkenbrandt@utah.gov"
+      },
+      {
+        "team_member_name": "Kathryn Ladig",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "kladig@utah.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "UFLUX"
+    ],
+    "state": "UT",
+    "site_desc": "This tower is located in between 3 agricultural pivots in a rural valley of Utah. It is within 100 meters of SCAN station 2137.  Crops include soybeans, corn, and wheat.  The tower was installed for a temporary project.",
+    "grp_location": {
+      "location_date_start": "20190115",
+      "location_lat": "39.6896",
+      "location_long": "-111.8814",
+      "location_elev": "1529"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "19800501",
+      "igbp_comment": "Corn, soybeans, or wheat"
+    },
+    "url": "https://geology.utah.gov",
+    "grp_clim_avg": {
+      "map": "396",
+      "mat": "10.2",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-UTN",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture",
+      "Grazing"
+    ],
+    "flux_measurements_variables": [
+      "H2O",
+      "CO2"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PBLH",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2204058"
+    },
+    "grp_publish_base": [
+      2023
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2022",
+      "tower_end": null
+    }
+  },
+  "sha256": "47e322d6d2c0deae1fd55a63baf582954d13378251104930dcf7c441ffc7e0a8",
+  "field_path": "/values/755",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "0d3cb457bb4bfb300a266456246c3283e32a4021537772ceac5ac08e5e6a2804"
+}

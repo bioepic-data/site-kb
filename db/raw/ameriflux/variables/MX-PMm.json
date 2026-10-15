@@ -1,0 +1,112 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "MX-PMm",
+    "site_name": "Puerto Morelos mangrove",
+    "grp_team_member": [
+      {
+        "team_member_name": "Susana Alvarado-Barrientos",
+        "team_member_role": "PI",
+        "team_member_institution": "Instituto de Ecología A.C.",
+        "team_member_email": "susana.alvarado@gmail.com"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "MexFlux"
+    ],
+    "state": "Quintana Roo",
+    "site_desc": "The tower was located at the “Dr. Alfredo Barrera Marín” Botanical Garden. The surface monitored is covered with basin mangrove (sporadically flooded wetland) that grows in a fringe parallel to the northeastern coast (ca. 1 km) of the Yucatan Peninsula. The dominant species are Rhizophora mangle and Conocarpus erectus, which grow intertwined and relatively stunted (max tree height is 5m). Under the influence of trade winds and frequent stroms. The vegetation is regenerating after complete defoliation due to hurricane Wilma (cat. 4) passing in October 2005. The site is sporadically flooded by rainfall soil saturation excess; there are no marine surface water inputs but ground water level fluctuations show tidal signals. The terrain of the monitored surface is flat, while the area downwind of the tower presents a slope which corresponds to an ancient coast line. There is extensive urban development in the coastal dune along the coast mainly for tourism use (Mayan Riviera).",
+    "grp_location": {
+      "location_date_start": "201706131400",
+      "location_lat": "20.8462",
+      "location_long": "-86.8992",
+      "location_elev": "10",
+      "location_comment": "Due to local environmental regulations that limit construction within a protected mangrove area, the tower is 20 m away from the adjacent tropical forest. Thus, data at times when wind direction comes from the area covered with forest (taller vegetation than the mangrove), is filtered out."
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "The surface within the flux tower footprint corresponds to a basin mangrove sporadially flooded. Beyond the footprint (upwind) is a large complex of coastal wetlands with patches that are permanently flooded. The vegetation type is endangared by coastal squeeze due to extensive urban development fueled by the tourism industry in the area (Mayan Riviera)."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1222",
+      "mat": "26.2",
+      "climate_koeppen": "Aw"
+    },
+    "country": "Mexico",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/MX-PMm",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_FILTER",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RH",
+      "SC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "TW",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1756415",
+      "FLUXNET": "10.17190/AMF/3027673"
+    },
+    "grp_publish_base": [
+      2017,
+      2018
+    ],
+    "grp_publish_fluxnet": [
+      2017,
+      2018
+    ],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": "2018"
+    }
+  },
+  "sha256": "22c2f753fe9ea382e9707719e93811c6e93516d58a7ced9031349104d48cff64",
+  "field_path": "/values/146",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "bb61536663227eaa085e990ff7048fecb4ce58941ff839c4116432c91d121f78"
+}

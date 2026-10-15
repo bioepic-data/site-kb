@@ -1,0 +1,108 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "BR-SM1",
+    "site_name": "Cachoeira do Sul Rice Paddy",
+    "grp_team_member": [
+      {
+        "team_member_name": "Debora Regina Roberti",
+        "team_member_role": "PI",
+        "team_member_institution": "Universidade Federal de Santa Maria",
+        "team_member_email": "debora@ufsm.br"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": null,
+    "site_desc": "The site is a  flooded rice paddy located in the Cachoeira do Sul, Rio Grande do Sul State, Brazil (latitude: -30.27°; longitude: -53.14°; altitude 40.5 m). The total cultivation area is approximately 1000 ha, subdivided into 100 mx100m plots. Flooded rice paddies have been used in this area since the 1980s and are a part of a wide lowland area susceptible to flooding by a stream (Pedro Paulo Stream). Channels and artificial reservoirs provide the water used.",
+    "grp_location": {
+      "location_lat": "-30.2771",
+      "location_long": "-53.1479",
+      "location_elev": "40.5"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "rice"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1700",
+      "mat": "17.6",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "Brazil",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/BR-SM1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CH4",
+      "H",
+      "Other",
+      "CO2"
+    ],
+    "base_variables": [
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "PA",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2586673",
+      "FLUXNET": "10.17190/AMF/3027374"
+    },
+    "grp_publish_base": [
+      2015,
+      2016
+    ],
+    "grp_publish_fluxnet": [
+      2015,
+      2016
+    ],
+    "tower_dates": {
+      "tower_start": "2015",
+      "tower_end": "2016"
+    }
+  },
+  "sha256": "71d0d3d45fab6e76c5d9d2c53ebd09e32e2a5e3ed2deb81d2c9b046a6a54df79",
+  "field_path": "/values/25",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "f08f78d3d4101c3efd8688731340480466e451543a5d85fcfcb73d192fd2250c"
+}

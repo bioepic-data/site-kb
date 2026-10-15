@@ -1,0 +1,100 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-JRn",
+    "site_name": "WV Jacks Run",
+    "grp_team_member": [
+      {
+        "team_member_name": "Derek Johnson",
+        "team_member_role": "PI",
+        "team_member_institution": "West Virginia University",
+        "team_member_email": "Derek.Johnson@mail.wvu.edu"
+      },
+      {
+        "team_member_name": "Gil Bohrer",
+        "team_member_role": "PI",
+        "team_member_institution": "Ohio State University",
+        "team_member_email": "bohrer.17@osu.edu"
+      },
+      {
+        "team_member_name": "Jaclyn Hatala Matthes",
+        "team_member_role": "PI",
+        "team_member_institution": "Wellesley College",
+        "team_member_email": "jmatthes@wellesley.edu"
+      },
+      {
+        "team_member_name": "Chante Vines",
+        "team_member_role": "DataManager",
+        "team_member_email": "vines.24@buckeyemail.osu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WV",
+    "site_desc": "CO2 and CH4 fluxes. Site located in a mowed grass meddow patch surrounded by forest, on a hilltop.",
+    "grp_location": {
+      "location_date_start": "201709300000",
+      "location_lat": "39.6789",
+      "location_long": "-80.1646",
+      "location_elev": "384.048"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_date_start": "200101010000"
+    },
+    "url": "http://flux.org.ohio-state.edu/",
+    "grp_clim_avg": {
+      "map": "1095.5",
+      "mat": "13.2",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-JRn",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O",
+      "Isotopes"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "H",
+      "LE",
+      "NETRAD",
+      "PA",
+      "RH",
+      "TA",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1617714"
+    },
+    "grp_publish_base": [
+      2017,
+      2018,
+      2019
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": "2018"
+    }
+  },
+  "sha256": "cb480d29f186b0eede9a9e735dcbbffd5d6487def55e9b52ee9d1c9f38d2b648",
+  "field_path": "/values/416",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "62aca1df49e0df525553bfa8e99d1c74cbcdb0dc98c925276642b0a98dfa4f6a"
+}

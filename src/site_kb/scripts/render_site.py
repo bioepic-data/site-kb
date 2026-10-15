@@ -130,10 +130,18 @@ def detail(site, origin, input_paths):
     rows = []
     for variable in variables:
         extra = ''.join(f'<dt>{label}</dt><dd>{term(variable[key])}</dd>' for key, label in [('term', 'Canonical term'), ('units', 'Units'), ('capability', 'Capability')] if variable.get(key))
-        extra += ''.join(f'<dt>{label}</dt><dd>{esc(variable[key])}</dd>' for key, label in [('temporal_resolution', 'Sampling interval'), ('network_variable_id', 'Source variable ID')] if variable.get(key))
+        extra += ''.join(f'<dt>{label}</dt><dd>{esc(variable[key])}</dd>' for key, label in [('temporal_resolution', 'Temporal resolution'), ('network_variable_id', 'Source variable ID')] if variable.get(key))
         for key, label in [('method', 'Method'), ('sample_context', 'Sample context'), ('sampling_period', 'Study sampling period'), ('reported_units', 'Reported units')]:
             if variable.get(key):
                 extra += f'<dt>{label}</dt><dd>{esc(variable[key])}</dd>'
+        for key, label in [('data_product', 'Source product'), ('source_category', 'Source category')]:
+            if variable.get(key):
+                extra += f'<dt>{label}</dt><dd>{esc(variable[key])}</dd>'
+        if 'gap_filled' in variable:
+            extra += '<dt>Gap filling</dt><dd>' + ('Source-marked gap-filled' if variable['gap_filled'] else 'Not marked as gap-filled') + '</dd>'
+        for key, label in [('available_years', 'Years with data'), ('data_versions', 'Publication versions'), ('source_qualifiers', 'Source qualifiers')]:
+            if variable.get(key):
+                extra += f'<dt>{label}</dt><dd>{esc(", ".join(str(v) for v in variable[key]))}</dd>'
         if variable.get('variable_id'):
             extra += f'<dt>Shared definition</dt><dd><a href="../variables.html#{slug(variable["variable_id"])}">{esc(variable["variable_id"])}</a></dd>'
         if variable.get('evidence'):
@@ -142,6 +150,8 @@ def detail(site, origin, input_paths):
             extra += '<dt>Additional terms</dt><dd>' + '<br>'.join(term(t) for t in variable['additional_terms']) + '</dd>'
         rows.append(f'<article class="variable"><h3>{esc(variable["name"])}</h3><p>{prose(variable.get("description", ""))}</p>{variable_provenance(variable)}{"<dl>" + extra + "</dl>" if extra else ""}</article>')
     var_html = ''.join(rows) or '<div class="empty-inline">No observed properties documented yet.<p>This is a metadata gap; it does not mean the site has no measurements.</p></div>'
+    if site.get('variable_notes'):
+        var_html = f'<p class="muted">{prose(site["variable_notes"])}</p>' + var_html
     loc = site.get('location', {})
     facts = [('Country', country(site)), ('Region', loc.get('state_province')), ('Latitude', loc.get('latitude')), ('Longitude', loc.get('longitude')), ('Elevation (m)', loc.get('elevation_meters')), ('Established', site.get('established')), ('Closed', site.get('closed'))]
     facts_html = ''.join(f'<dt>{label}</dt><dd>{esc(value)}</dd>' for label, value in facts if value is not None)
@@ -242,6 +252,31 @@ def render(output=Path('site'), imported=Path('db/imported'), curated=Path('db/c
         shutil.copyfile(raw_path, destination)
         for site in matching:
             paths[site['id']].append(relative.as_posix())
+    # The v2 inventory and coverage are separate evidence from basic site metadata.
+    variable_raw = imported.parent / 'raw' / 'ameriflux' / 'variables'
+    for raw_path in sorted(variable_raw.glob('*.json')):
+        if raw_path.name == 'import-report.json':
+            continue
+        snapshot = json.loads(raw_path.read_text())
+        identifier = snapshot['record']['site_id']
+        matching = [s for s in sites if any(r['network'] == 'AMERIFLUX' and r['network_id'] == identifier for r in s.get('network_registrations', []))]
+        if not matching:
+            continue
+        source_files = [raw_path]
+        for field, folder, suffix in [('definitions_sha256', 'definitions', '.json'), ('coverage_sha256', 'coverage', '.json.gz')]:
+            digest = snapshot.get(field)
+            if digest:
+                if not re.fullmatch('[0-9a-f]{64}', digest):
+                    raise ValueError('Invalid AmeriFlux source archive digest')
+                source_files.append(variable_raw / folder / (digest + suffix))
+        for source_file in source_files:
+            relative = Path('raw/ameriflux/variables') / source_file.relative_to(variable_raw)
+            destination = output / 'sources' / relative
+            if not destination.exists():
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(source_file, destination)
+            for site in matching:
+                paths[site['id']].append(relative.as_posix())
     # AmeriFlux per-site snapshots retain the complete source record and the
     # digest of the archived full response. BIF staging is not a site declaration.
     raw_dir = imported.parent / 'raw' / 'ameriflux'

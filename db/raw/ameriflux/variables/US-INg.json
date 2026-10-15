@@ -1,0 +1,124 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-INg",
+    "site_name": "INFLUX - Wayne Twp Comm (Site-7)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Kenneth Davis",
+        "team_member_role": "PI",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "kjd10@psu.edu"
+      },
+      {
+        "team_member_name": "Ben Ahlswede",
+        "team_member_role": "AncContact",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "bja5623@psu.edu"
+      },
+      {
+        "team_member_name": "Scott Richardson",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "srichardson@psu.edu"
+      },
+      {
+        "team_member_name": "Helen Kenion",
+        "team_member_role": "DataManager",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "hck5061@psu.edu"
+      },
+      {
+        "team_member_name": "Jason Horne",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "jph6488@psu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IN",
+    "site_desc": "Urban site, tower is a lattice communications tower",
+    "grp_location": {
+      "location_date_start": "201904191530",
+      "location_lat": "39.7739",
+      "location_long": "-86.2724"
+    },
+    "grp_igbp": {
+      "igbp": "URB"
+    },
+    "url": "https://sites.psu.edu/influx/site-information/site-07-wayne-twp-comm/",
+    "grp_clim_avg": {
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-INg",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "CO2_SIGMA",
+      "FC",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H2O_SIGMA",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "SC",
+      "SH",
+      "SLE",
+      "SW_IN",
+      "SW_OUT",
+      "TAU",
+      "T_SONIC",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2001305"
+    },
+    "grp_publish_base": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2019",
+      "tower_end": null
+    }
+  },
+  "sha256": "8106bad5867d8c82290b50bf870bd8cf1bfc7743ff581de6d6737b028ec60000",
+  "field_path": "/values/400",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "bec7a72719c0562f4217be72fd0e45d90661fd5bf4bfe396c1e78a6661e536e9"
+}

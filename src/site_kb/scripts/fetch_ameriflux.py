@@ -248,6 +248,12 @@ def ingest(snapshot: dict, output_dir: Path, raw_dir: Path, site_ids: list[str] 
     for code in codes:
         index, record = upstream[code]
         site = ameriflux_to_site(record)
+        # Metadata refreshes replay separately archived v2 measurement evidence.
+        # They must not erase declarations populated by fetch-ameriflux-variables.
+        from site_kb.scripts.fetch_ameriflux_variables import load_enrichment
+        enrichment = load_enrichment(raw_dir, code)
+        if enrichment is not None:
+            site["variables"], site["variable_notes"] = enrichment
         path, site["id"] = existing.get(code.lower(), (output_dir / f"ameriflux_{code.lower()}.yaml", site["id"]))
         if occupied_paths.get(path, code.lower()) != code.lower() or occupied_ids.get(site["id"], code.lower()) != code.lower():
             raise ValueError(f"AmeriFlux {code}: output path or local ID collides with an existing site")

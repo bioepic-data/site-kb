@@ -1,0 +1,85 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-SCw",
+    "site_name": "Southern California Climate Gradient - Pinyon/Juniper Woodland",
+    "grp_team_member": [
+      {
+        "team_member_name": "Mike Goulden",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California - Irvine",
+        "team_member_email": "mgoulden@uci.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "Half hourly data are available at https://www.ess.uci.edu/~california/. This site is one of six Southern California Climate Gradient flux towers operated along an elevation gradient (sites are US-SCg, US-SCs, US-SCf, US-SCw, US-SCc, US-SCd). This site is a Pinyon Juniper woodland with trees that are at least 150 years old, and ephemeral herbaceous cover following winter or spring rains.  The site has experienced repeated drought during the record and roughly 50% Pinyon mortality over the last decade.  A nearby tower site (US-SCc) burned in a 1994 wildfire; comparisons between US-SCw and US-SCc provide a measure of the effects of the 1994 on land-atmosphere exchange.",
+    "grp_location": {
+      "location_lat": "33.6047",
+      "location_long": "-116.4527",
+      "location_elev": "1281",
+      "location_comment": "From CDIAC Tom Boden database dump"
+    },
+    "grp_igbp": {
+      "igbp": "OSH"
+    },
+    "url": "http://www.ess.uci.edu",
+    "grp_clim_avg": {},
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-SCw",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NDVI",
+      "NETRAD",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1419504"
+    },
+    "grp_publish_base": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2007",
+      "tower_end": null
+    }
+  },
+  "sha256": "8330ada6d4893ab80a28698d2c32b157c4460c92dfe643a838508207e1a20835",
+  "field_path": "/values/643",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "da6105afb271882d57e8354c3ec647bfad183f17599777dfa2c253eac4971efe"
+}

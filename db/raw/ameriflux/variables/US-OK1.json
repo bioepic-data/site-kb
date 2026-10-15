@@ -1,0 +1,72 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-OK1",
+    "site_name": "ECB: Site A1 - North Field",
+    "grp_team_member": [
+      {
+        "team_member_name": "Kevin King",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA-ARS",
+        "team_member_email": "kevin.king@usda.gov"
+      },
+      {
+        "team_member_name": "Gil Bohrer",
+        "team_member_role": "DataManager",
+        "team_member_institution": "The Ohio State University",
+        "team_member_email": "bohrer.17@osu.edu"
+      },
+      {
+        "team_member_name": "Jedediah Stinner",
+        "team_member_role": "DataManager",
+        "team_member_email": "jedediah.stinner@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTAR"
+    ],
+    "state": "IN",
+    "site_desc": "Privately owned agricutural crop production field under corn-soybean-wheat, no-tillage management.",
+    "grp_location": {
+      "location_date_start": "20200204",
+      "location_lat": "41.5348",
+      "location_long": "-84.8068",
+      "location_elev": "274.93"
+    },
+    "grp_igbp": {
+      "igbp": "CRO"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "975.36",
+      "mat": "9.55",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-OK1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {},
+    "grp_publish_base": [],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2020",
+      "tower_end": null
+    }
+  },
+  "sha256": "0f6eb5c733abaca6c3e1d0e5af5bcf347c9f374e9de3923f6fdf49f3ab1906c5",
+  "field_path": "/values/560",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464"
+}

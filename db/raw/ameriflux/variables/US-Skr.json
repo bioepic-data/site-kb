@@ -1,0 +1,143 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Skr",
+    "site_name": "Shark River Slough (Tower SRS-6)  Everglades",
+    "grp_team_member": [
+      {
+        "team_member_name": "Sparkle Malone",
+        "team_member_role": "PI",
+        "team_member_institution": "Yale University",
+        "team_member_email": "sparkle.malone@yale.edu"
+      },
+      {
+        "team_member_name": "Tiffany Troxler",
+        "team_member_role": "PI",
+        "team_member_institution": "Florida International University",
+        "team_member_email": "troxlert@fiu.edu"
+      },
+      {
+        "team_member_name": "David Reed",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Yale University",
+        "team_member_email": "david.edwin.reed@gmail.com"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTER"
+    ],
+    "state": "FL",
+    "site_desc": "The Florida Everglades Shark River Slough Mangrove Forest site is located along the Shark River in the western region of Everglades National Park. Also referred to as site SRS6 of the Florida Coastal Everglades LTER program, freshwater in the mangrove riverine floods the forest floor under a meter of water twice per day. Transgressive discharge of freshwater from the Shark river follows annual rainfall distributions between the wet and dry seasons. Hurricane Wilma struck the site in October of 2005 causing significant damage. The tower was offline until the following October in order to continue temporally consistent measurements. In post-hurricane conditions, ecosystem respiration rates and solar irradiance transfer increased. 2007- 2008 measurements indicate that these factors led to an decline in both annual -NEE and daily NEE from pre-hurricane conditions in 2004-2005.",
+    "grp_location": {
+      "location_lat": "25.3629",
+      "location_long": "-81.0776",
+      "location_elev": "0",
+      "location_comment": "The lat/lon was updated on 20140508 to show the location of the tower.  Previously, the lat/lon was given as the docking platform and beginning of the boardwalk on the bank of the Shark River."
+    },
+    "grp_igbp": {
+      "igbp": "EBF",
+      "igbp_comment": "This is a tall (up to 20 m) mangrove forest."
+    },
+    "url": "https://fcelter.fiu.edu/",
+    "grp_clim_avg": {
+      "map": "1259",
+      "mat": "23.77",
+      "climate_koeppen": "Cwa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Skr",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Storm or wind"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O",
+      "CH4"
+    ],
+    "base_variables": [
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "RH",
+      "SC",
+      "SCH4",
+      "SH",
+      "SLE",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246105"
+    },
+    "grp_publish_base": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2004",
+      "tower_end": null
+    }
+  },
+  "sha256": "2943a940c321924aeba818d4af123c57231611f6267da128a3431ed37cccdc31",
+  "field_path": "/values/658",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "237545e7c798777ae084fa64ccfeb7a0524e3ce5105204448592c721ddd4b33b"
+}

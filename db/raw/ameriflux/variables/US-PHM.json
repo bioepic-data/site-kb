@@ -1,0 +1,129 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-PHM",
+    "site_name": "Plum Island High Marsh",
+    "grp_team_member": [
+      {
+        "team_member_name": "Anne Giblin",
+        "team_member_role": "PI",
+        "team_member_institution": "Marine Biological Laboratory",
+        "team_member_email": "agiblin@mbl.edu"
+      },
+      {
+        "team_member_name": "Inke Forbrich",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Toledo",
+        "team_member_email": "inke.forbrich@utoledo.edu"
+      },
+      {
+        "team_member_name": "Hannah Orton",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Marine Biological Laboratory",
+        "team_member_email": "horton@mbl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTER"
+    ],
+    "state": "MA",
+    "site_desc": "The site is a salt marsh located within the Plum Island Sound estuary, which is characterized by a tidal range of 2.5-3m and a vegetation cover of Spartina patens, Spartina alterniflora, Distichils spicata. Elevation of the high marsh is about 1.4m NAVD88.",
+    "grp_location": {
+      "location_lat": "42.7423",
+      "location_long": "-70.8301",
+      "location_elev": "1.4"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Spartina"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1262",
+      "mat": "7.2",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-PHM",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Drought",
+      "Hydrologic event"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_FILTER",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NDVI",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1543377"
+    },
+    "grp_publish_base": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2013",
+      "tower_end": null
+    }
+  },
+  "sha256": "c5292f204d24e139a80d58f5bd0ffd5866facd0f6476b9ff63207b2cda335632",
+  "field_path": "/values/588",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "2a6baf154ef3213984279411607a0f02f4bb12dc83fa134cd2c382451228c332"
+}

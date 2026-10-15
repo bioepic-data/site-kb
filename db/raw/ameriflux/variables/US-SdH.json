@@ -1,0 +1,109 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-SdH",
+    "site_name": "Nebraska SandHills Dry Valley",
+    "grp_team_member": [
+      {
+        "team_member_name": "Dave Billesbach",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Nebraska",
+        "team_member_email": "dbillesbach1@unl.edu"
+      },
+      {
+        "team_member_name": "Tim J. Arkebauer",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Nebraska",
+        "team_member_email": "tarkebauer1@unl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "NE",
+    "site_desc": "The Nebraska SandHills Dry Valley tower is located on public land owned by the University of Nebraska-Lincoln. The site is on a research cattle ranch where grazing primarily takes place.",
+    "grp_location": {
+      "location_lat": "42.0693",
+      "location_long": "-101.4072",
+      "location_elev": "1081",
+      "location_comment": "From CDIAC Tom Boden database dump"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "climate_koeppen": "Dsb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-SdH",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Grazing"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246136"
+    },
+    "grp_publish_base": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2004",
+      "tower_end": null
+    }
+  },
+  "sha256": "d3e0404e7cdae01420e98ff5cdc71c4d4d75252771776547441aef23bc38295d",
+  "field_path": "/values/646",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "638de74c7dad0a9099b856800980f79cd01091ab19c76ec8e38f157cbd89cdf0"
+}

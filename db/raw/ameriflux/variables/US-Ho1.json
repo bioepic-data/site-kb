@@ -1,0 +1,197 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Ho1",
+    "site_name": "Howland Forest (main tower)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Andrew Ouimette",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "Andrew.Ouimette@usda.gov"
+      },
+      {
+        "team_member_name": "Shawn Fraver",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Maine",
+        "team_member_email": "shawn.fraver@maine.edu"
+      },
+      {
+        "team_member_name": "David Hollinger",
+        "team_member_role": "AncContact",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "David.Hollinger@unh.edu"
+      },
+      {
+        "team_member_name": "Roel Alfredo Ruzol",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Maine",
+        "team_member_email": "roel.ruzol@maine.edu"
+      },
+      {
+        "team_member_name": "Andrew Richardson",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Northern Arizona University",
+        "team_member_email": "Andrew.richardson@nau.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "ME",
+    "site_desc": "Closed conifer forest, minimal disturbance. References: Fernandez et al. (1993),  Canadian Journal of Soil Science 73 317-328.  Hollinger et al. (1999),  Global Change Biology 5: 891-902.  Savage KE, Davidson EA (2001), Global Biogeochemical Cycles 15 337-350. Scott et al. (2004), Environmental Management, Vol. 33, Supplement 1, pp. S9-S22. Hollinger et al. (2004), Global Change Biology 10: 1689-1706.",
+    "grp_location": {
+      "location_lat": "45.2040",
+      "location_long": "-68.7402",
+      "location_elev": "60",
+      "location_comment": "ftp://cdiac.ornl.gov/pub/ameriflux/data/Level1/Sites_ByName/Howland_Forest_Main/readme"
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_comment": "~90% ENF and 10% BDF in 1km around tower.  Across region forest type is mixed ENF, DBF (no type>60%)."
+    },
+    "url": "http://howlandforest.org/site_files/site.html",
+    "grp_clim_avg": {
+      "map": "1070",
+      "mat": "5.27",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Ho1",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Ho1",
+    "dom_dist_mgmt": [
+      "Fire"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CO2",
+      "H",
+      "H2O",
+      "CO2",
+      "CH4",
+      "CH4",
+      "N2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_DIR",
+      "PPFD_IN",
+      "P_RAIN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246061",
+      "FLUXNET": "10.17190/AMF/2469453"
+    },
+    "grp_publish_base": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "1996",
+      "tower_end": null
+    }
+  },
+  "sha256": "d01628eb8b43399269cc3a09fadff17c7795905c34c3f911e5cbd6eaf15d3c18",
+  "field_path": "/values/371",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "7f0dbfbb585829d05cf4cf56fc75f07a486abf5db4f7a763c7c4bf3d436cd7d7"
+}

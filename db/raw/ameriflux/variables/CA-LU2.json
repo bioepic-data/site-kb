@@ -1,0 +1,116 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-LU2",
+    "site_name": "Lutose",
+    "grp_team_member": [
+      {
+        "team_member_name": "David Olefeldt",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Alberta",
+        "team_member_email": "olefeldt@ualberta.ca"
+      },
+      {
+        "team_member_name": "Oliver Sonnentag",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Montreal",
+        "team_member_email": "oliver.sonnentag@umontreal.ca"
+      },
+      {
+        "team_member_name": "Christopher Schulze",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of Alberta",
+        "team_member_email": "cschulze@ualberta.ca"
+      },
+      {
+        "team_member_name": "Haley Alcock",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Montreal",
+        "team_member_email": "haley.alcock@umontreal.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "Alberta",
+    "site_desc": "Lutose is a peat plateau that burned from a moderate forest fire in June 2007. Prior to the fire the site was likley an open canopy of stunted black spruce and a ground layer of Labrador tea shurbs and lichen or sphagnum. No black spruce survived the fire and lichens were still completely absent during this study. By 2019, most charred tree boles has fallen over and vegetation recovery was dominated by dense Labrador tea shrubs and sparse regenerating black spruce with around >150cm of peat.",
+    "grp_location": {
+      "location_date_start": "202010031200",
+      "location_lat": "59.4405",
+      "location_long": "-117.2422",
+      "location_elev": "324"
+    },
+    "grp_igbp": {
+      "igbp": "OSH",
+      "igbp_date_start": "200707011200",
+      "igbp_comment": "The site is a permafrost peatland (wetland) but its vegetation is likely is best described as an OSH open shrubland after the wildfire in 2007, and it likely was best described as an ENF evergreen needleleaf forest before the fire."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "379",
+      "mat": "-1.2",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-LU2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Fire"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "Other"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2574383",
+      "FLUXNET": "10.17190/AMF/3027377"
+    },
+    "grp_publish_base": [
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "2020",
+      "tower_end": "2023"
+    }
+  },
+  "sha256": "f332815f9c8de317675cfdbf6153dd7c36c2f198e9dc70fb94d44544f5dbd9e2",
+  "field_path": "/values/70",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "9f22a4c57c0116a28f883952928461536cacbb24c65d62f2f1d65f37dafa7e37"
+}

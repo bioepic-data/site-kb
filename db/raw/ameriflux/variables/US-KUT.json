@@ -1,0 +1,105 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-KUT",
+    "site_name": "KUOM Turfgrass Field",
+    "grp_team_member": [
+      {
+        "team_member_name": "Joe McFadden",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California, Santa Barbara",
+        "team_member_email": "mcfadden@ucsb.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MN",
+    "site_desc": "The site was a low-maintenace lawn consisting of cool-season turfgrasses, typical of residential lawns or urban parks in the study area. It was mowed to a height of 70 mm approximately once per week with clippings left to decompose on the surface, was not irrigated, and received one application of inorganic N fertilizer per year. The surrounding suburban residential neighborhood experienced rapid residential development in the 1950s; prior to that time, farms and nurseries were the predominant land-use types. Note that the land management of the field site changed (removal of the turfgrass lawn and planting of trees) AFTER the flux study was completed--this means that imagery after 2009 does not show the land conditions during the flux study.",
+    "grp_location": {
+      "location_lat": "44.9950",
+      "location_long": "-93.1863",
+      "location_elev": "301",
+      "location_comment": "Updated to 6 decimal digits accuracy by the PI on 20140507"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_comment": "The footprint of this tower fell within a large turfgrass field, so the flux measurements represented only grass vegetation. However, the field was located within a suburban residential neighborhood, so the local climate and environment represented urban conditions. Note that the land management of the  field site changed (removal of the turfgrass lawn and planting of trees) AFTER the flux study was completed--this means that imagery after 2009 does not show the land conditions during the flux study."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "777",
+      "mat": "7.9",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-KUT",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Land cover change"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246145"
+    },
+    "grp_publish_base": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2005",
+      "tower_end": "2009"
+    }
+  },
+  "sha256": "8ceba623949304eff5f7fef82e56b1642bfcc48ab1d237901b8cef3ec0d0458b",
+  "field_path": "/values/443",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "00e65784fc2dd7b77fe0404bb873269ab1ed8210e87d1946e554d6e40feab8e8"
+}

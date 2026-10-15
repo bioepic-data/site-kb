@@ -1,0 +1,125 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-SHC",
+    "site_name": "Sagehen Creek Field Station",
+    "grp_team_member": [
+      {
+        "team_member_name": "Sebastian Wolf",
+        "team_member_role": "PI",
+        "team_member_institution": "ETH Zurich",
+        "team_member_email": "sewolf@ethz.ch"
+      },
+      {
+        "team_member_name": "Dan Sayler",
+        "team_member_role": "Technician",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "sage_minion@berkeley.edu"
+      },
+      {
+        "team_member_name": "Andrea Carminati",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "ETH Zurich",
+        "team_member_email": "andrea.carminati@usys.ethz.ch"
+      },
+      {
+        "team_member_name": "James Kirchner",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "ETH Zurich",
+        "team_member_email": "kirchner@ethz.ch"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "CA",
+    "site_desc": "This tower is located at the Sagehen Creek Field Station of UC Berkeley. The 30m tower near the station has been used for meteorological measurements since at least 2006 and EC flux measurements were started in late June 2017. The area is dominated by coniferous forest with patches of grassland in between.",
+    "grp_location": {
+      "location_date_start": "20170620",
+      "location_lat": "39.4315",
+      "location_long": "-120.2398",
+      "location_elev": "1934"
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_date_start": "20170620",
+      "igbp_comment": "with patches of GRA"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "827",
+      "mat": "5.3",
+      "climate_koeppen": "Dsb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-SHC",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FH2O",
+      "G",
+      "H",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2567985",
+      "FLUXNET": "10.17190/AMF/2571110"
+    },
+    "grp_publish_base": [
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "grp_publish_fluxnet": [
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": null
+    }
+  },
+  "sha256": "7d85caf507df35b1944c384ed734f55c6dbaf9472b4b0c7d8bef7cece3b2a932",
+  "field_path": "/values/651",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "a9552e7b43364c8d8f0c9ab67024be4f798845062ccbcafd1ae82b118bed9954"
+}

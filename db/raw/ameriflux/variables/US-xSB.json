@@ -1,0 +1,150 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-xSB",
+    "site_name": "NEON Ordway-Swisher Biological Station (OSBS)",
+    "grp_team_member": [
+      {
+        "team_member_name": "National Ecological Observatory Network",
+        "team_member_role": "PI",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "neon-ameriflux@battelleecology.org"
+      },
+      {
+        "team_member_name": "Adam Young",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "younga1@battelleecology.org"
+      },
+      {
+        "team_member_name": "Christopher Florian",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "cflorian@battelleecology.org"
+      },
+      {
+        "team_member_name": "David Durden",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "ddurden@battelleecology.org"
+      },
+      {
+        "team_member_name": "Cove Sturtevant",
+        "team_member_role": "DataManager",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "csturtevant@battelleecology.org"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "NEON",
+      "Phenocam"
+    ],
+    "state": "FL",
+    "site_desc": "The Ordway-Swisher Biological Station (OSBS) is operated by the University of Florida and comprises over 9,300 acres. It is a year-round field station established for the long-term study and conservation of unique ecosystems through management, research and education. The Station is located approximately 20 miles east of Gainesville in Melrose (Putnam County, Florida). There are two aquatic arrays at Ordway-Swisher, representing the two dominant aquatic features on the landscape: 1) Suggs lake, a shallow surface water lake that is rich in taxa and biologically active in structure and function; and 2) Barco lake, a deep lake connected to ground water. The forest is maintained by fire and has a relatively open structure: it is managed with prescribed burns at a frequency of 3-4 years.",
+    "grp_location": {
+      "location_lat": "29.6893",
+      "location_long": "-81.9934",
+      "location_elev": "45"
+    },
+    "grp_igbp": {
+      "igbp": "ENF"
+    },
+    "url": "http://www.neonscience.org/field-sites/field-sites-map/OSBS",
+    "grp_clim_avg": {
+      "map": "1302.09",
+      "mat": "20.9",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-xSB",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Fire"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O",
+      "Isotopes"
+    ],
+    "base_variables": [
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2C13",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_BC_IN",
+      "LW_BC_OUT",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_BC_IN",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "T_CANOPY",
+      "THROUGHFALL",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1671899",
+      "FLUXNET": "10.17190/AMF/1985451"
+    },
+    "grp_publish_base": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2016",
+      "tower_end": null
+    }
+  },
+  "sha256": "d1ac9cc20ec60c4305e94db0df1912011f5d4a928760f44df8baafde1159f0bc",
+  "field_path": "/values/826",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "666b54056cae968373306f3e5f9d1b7026bfe28cd6f75299ac641af5a6a1557e"
+}

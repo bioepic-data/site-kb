@@ -1,0 +1,121 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-BCW",
+    "site_name": "Big Creek Watershed",
+    "grp_team_member": [
+      {
+        "team_member_name": "Carlos Barreto",
+        "team_member_role": "PI",
+        "team_member_institution": "Ontario Ministry of Natural Resources",
+        "team_member_email": "carlos.barreto@ontario.ca"
+      },
+      {
+        "team_member_name": "Elyn Humphreys",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "Carleton University",
+        "team_member_email": "elyn.humphreys@carleton.ca"
+      },
+      {
+        "team_member_name": "Phaedra Cowden",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Carleton University",
+        "team_member_email": "phaedracowden@cunet.carleton.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "Ontario",
+    "site_desc": "This flux tower is located in the Lower Big Creek Watershed on agricultural land restored by the Nature Conservancy of Canada.  The tower is monitoring a 0.88 ha marsh dominated by rushes and open shallow water.  This wetland was created in 2012.",
+    "grp_location": {
+      "location_lat": "42.6206",
+      "location_long": "-80.5516",
+      "location_elev": "201"
+    },
+    "grp_igbp": {
+      "igbp": "WET"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1009.8",
+      "mat": "7.8",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "Canada",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-BCW",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "CO2_SIGMA",
+      "D_SNOW",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "G",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3365231"
+    },
+    "grp_publish_base": [
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2023",
+      "tower_end": null
+    }
+  },
+  "sha256": "80fe85d705d7bb243901e0843f5da15b1bd34f0e1f95bad2b90f5e34bac23b79",
+  "field_path": "/values/33",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ae74efcf4a31996da92be390e734ba8ab113478bf9a4a53a27ed688eab41c1f4"
+}

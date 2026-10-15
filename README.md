@@ -15,6 +15,7 @@ uv sync --group dev
 just fetch-deims --limit 10
 just fetch-neon
 just fetch-ameriflux
+just fetch-ameriflux-variables --refresh
 
 # Assemble and validate
 just validate-db
@@ -27,6 +28,7 @@ just validate-terms
 | --- | --- | --- |
 | `db/raw/deims/` | Complete source JSON snapshots with retrieval timestamps | No |
 | `db/raw/ameriflux/` | Per-site source snapshots, complete API responses, import report, and locally supplied BIF originals | No |
+| `db/raw/ameriflux/variables/` | v2 site inventories, FP definitions, and compressed current BASE coverage responses | No |
 | `db/imported/deims/`, `db/imported/neon/` | Source-specific metadata normalized by importers; tracked in Git | No: refresh can overwrite these files |
 | `db/imported/ameriflux/` | AmeriFlux site metadata normalized from the public site API | No: refresh can overwrite these files |
 | `db/staged/ameriflux/bif/` | Reconstructed BIF groups for review; excluded from site assembly | No: regenerate from raw BIF inputs |
@@ -85,13 +87,23 @@ coordinates, elevation, country, and state/province. `USA` is normalized to
 `United States`; the original country and state values remain in raw snapshots.
 IGBP codes, climate summaries, and reported flux-measurement years are retained
 as attributed notes. They do not imply facility types, ontology mappings,
-establishment/closure dates, operational status, or site measurement declarations.
+establishment/closure dates, or operational status. Site-specific variables are
+imported separately by `just fetch-ameriflux-variables` from the current public v2
+API. An ordinary metadata refresh replays those archived variable sources, so it
+does not erase previously imported declarations.
 
 ```bash
 # Select specific sites (repeat --site-id); IDs are case-sensitive
 just fetch-ameriflux --site-id US-Ha1 --site-id US-xAB
 just fetch-ameriflux --limit 10 --summary-only
 just fetch-ameriflux --refresh-existing
+
+# Fetch current site-reported fluxes, BASE variables, and coverage
+just fetch-ameriflux-variables --refresh
+# Resume a previous fetch, reusing successful cached requests
+just fetch-ameriflux-variables
+# Regenerate from the completed request cache without HTTP
+just fetch-ameriflux-variables --offline
 
 # Replay a complete archived API response without HTTP
 just fetch-ameriflux --from-snapshot db/raw/ameriflux/responses/<sha256>.json
@@ -110,6 +122,34 @@ archived under `db/raw/ameriflux/responses/`; checksums cover canonical JSON rec
 arrays, not HTTP transfer bytes. Replays preserve source retrieval timestamps.
 The browser links imported YAML and per-site raw JSON.
 
+The variable importer uses `site_info_display/AmeriFlux`, `fp_var`, and
+`flux_met_variable_coverage/{site_id}` under the public v2 API. BADM flux
+declarations remain distinct from specific published BASE variables. For example,
+a reported CO2 flux is not the BASE `CO2` concentration variable; they use separate
+source namespaces (`AMERIFLUX_BADM_SGI` and `AMERIFLUX_BASE`) while preserving the
+original codes and names. Repeated BADM labels are represented once, with the
+complete original lists retained in raw snapshots. `Other` and other broad flux
+declarations retain unclassified granularity.
+
+BASE entries require positive reported coverage in at least one year when
+coverage is available. Gap-filled and unfilled variants are separate entries;
+source qualifiers, publication versions, years with data, and HH/HR resolution
+are retained. `PRODUCTS` variables are identified as derived. Other BASE variables
+may be measured or computed; absence of a gap-filling qualifier is not evidence
+of direct measurement. Units are copied from the FP definitions without conversion
+or ontology assignment. Quality flags, footprint diagnostics, and timekeeping
+columns are preserved in the archives but excluded from property declarations.
+
+The variable fetch uses four concurrent requests with bounded retries and a
+resumable `.cache/ameriflux-variables/` directory. Use `--refresh` for current data;
+the default reuses completed cache files. Source retrieval times are retained.
+Full v2 responses and per-site coverage are archived by canonical JSON checksum,
+with gzip compression for large responses. A failed coverage request is reported
+explicitly and falls back to the site-specific BASE inventory without inventing
+gap-filling flags or variable-specific years. The report in
+`db/raw/ameriflux/variables/import-report.json` records exclusions and failures.
+All selected responses are validated before imported YAML is replaced.
+
 `db/raw/ameriflux/import-report.json` records the latest selection, missing
 existing codes, and possible overlaps with other imported sites. Candidate
 matches use NEON codes in AmeriFlux names or coordinates within 100 m. They are
@@ -117,7 +157,8 @@ unreviewed, do not merge sites, and are not an exhaustive identity crosswalk.
 Consequently, the browser can contain separate records for the same physical
 site across networks. A partial refresh reports only its selected sites' overlaps.
 
-BIF staging preserves `(SITE_ID, VARIABLE_GROUP, GROUP_ID)`, all source rows,
+BIF workbook staging is an additional route for richer observations and management
+events. It preserves `(SITE_ID, VARIABLE_GROUP, GROUP_ID)`, all source rows,
 repeated values, units, comments, depths, and date qualifiers. Observation/event
 classification is independent of date availability; unknown groups remain
 unclassified. Parsed dates retain year/month precision. Originals are archived
@@ -125,7 +166,8 @@ by byte checksum; CSV text values retain whitespace and Excel cells retain their
 read values, while the original workbook preserves formatting and cell types.
 Workbooks default to the `AMF-BIF` sheet; use `--sheet` for another explicit sheet.
 Formula cells are rejected. Staging does not download restricted data, apply
-model defaults, or populate `Site.variables`. Source URLs can be supplied with
+model defaults, or itself populate `Site.variables`. The v2 importer above does
+populate site declarations. Source URLs can be supplied to BIF staging with
 `--source-url`; the archive timestamp is not an upstream modification time.
 
 See [AmeriFlux ingestion and BIF review](docs/research/ameriflux-ingestion.md)

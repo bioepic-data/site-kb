@@ -1,0 +1,148 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Mo1",
+    "site_name": "LTAR CMRB Field 1 (CMRB ASP)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Adam Schreiner-McGraw",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Agricultural Research Service, Cropping Systems & Water Quality Research Unit",
+        "team_member_email": "Adam.Schreiner-McGraw@usda.gov"
+      },
+      {
+        "team_member_name": "Jeffrey Wood",
+        "team_member_role": "AncContact",
+        "team_member_institution": "School of Natural Resources, University of Missouri",
+        "team_member_email": "woodjd@missouri.edu"
+      },
+      {
+        "team_member_name": "Megan Metz",
+        "team_member_role": "DataManager",
+        "team_member_institution": "USDA Agricultural Research Service, Cropping Systems & Water Quality Research Unit",
+        "team_member_email": "Megan.Metz@usda.gov"
+      },
+      {
+        "team_member_name": "Ed Winchester",
+        "team_member_role": "Technician",
+        "team_member_institution": "USDA Agricultural Research Service, Cropping Systems & Water Quality Research Unit",
+        "team_member_email": "winchesterEJ@missouri.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTAR",
+      "Phenocam"
+    ],
+    "state": "MO",
+    "site_desc": "Site is in a 36 ha agricultural research field near Centralia, MO on a broad, slightly sloped landscape. Currently farmed in a corn-soybean-wheat-hay rotation. Used for research since 1991; prior to that was managed for commercial crop production.",
+    "grp_location": {
+      "location_date_start": "20150602",
+      "location_lat": "39.2298",
+      "location_long": "-92.1167",
+      "location_elev": "260",
+      "location_comment": "Approximate center of 36-ha agricultural field"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Field and surrounding areas are generally in grain crop production along with some areas of pasture and hay. Trees are found along some field boundaries and along streams."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "981",
+      "mat": "12",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Mo1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "CO2_SIGMA",
+      "FC",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H2O_SIGMA",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SG",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1870588",
+      "FLUXNET": "10.17190/AMF/2229382"
+    },
+    "grp_publish_base": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2015",
+      "tower_end": null
+    }
+  },
+  "sha256": "7959068b4de9b2d7b9d5212b9b7ff309c091f1749b7e73051b878875db498ece",
+  "field_path": "/values/497",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "967f7b7d46a0a88b305cb8cbb113009627eb62a5d3b52e48bf6f3b11e7a28b0e"
+}

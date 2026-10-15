@@ -1,0 +1,118 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-GL2",
+    "site_name": "Granite Island",
+    "grp_team_member": [
+      {
+        "team_member_name": "John Lenters",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Michigan Biological Station",
+        "team_member_email": "jlenters@umich.edu"
+      },
+      {
+        "team_member_name": "Chris Spence",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Environment and Climate Change Canada",
+        "team_member_email": "chris.spence@ec.gc.ca"
+      },
+      {
+        "team_member_name": "Peter Blanken",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of Colorado-Boulder",
+        "team_member_email": "Blanken@Colorado.EDU"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MI",
+    "site_desc": "Granite Island is a small island on Lake Superior approximately 10 miles due north of Marquette, Michigan. It is roughly 6.5 miles from shore and is occupied by a lighthouse, bell tower, Coast Guard light tower, and other small structures. A flux tower to measure H, LE, and meteorological data was installed atop the bell tower in July of 2009 and has been in continuous operation since then (aside from occasional power outages or other sources of data loss). CO2 measurements were added to the flux tower in October of 2010.",
+    "grp_location": {
+      "location_date_start": "20090711",
+      "location_lat": "46.7167",
+      "location_long": "-87.4000",
+      "location_elev": "183",
+      "location_comment": "Site elevation quoted is the approximate mean water level of Lake Superior, which varies roughly +/- 2m over the historical record."
+    },
+    "grp_igbp": {
+      "igbp": "WAT",
+      "igbp_date_start": "20090711"
+    },
+    "url": "https://superiorwatersheds.org/GLEN/GraniteIsland.htm",
+    "grp_clim_avg": {
+      "map": "762",
+      "mat": "6.6",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-GL2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Undisturbed"
+    ],
+    "flux_measurements_variables": [
+      "H",
+      "H2O",
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "MO_LENGTH",
+      "PA",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "TW",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2574377"
+    },
+    "grp_publish_base": [
+      2024,
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2010",
+      "tower_end": null
+    }
+  },
+  "sha256": "dee7a1f48947499f36c41157b8b5b2d418689fd12e5080ea52d2574fa13a2cf9",
+  "field_path": "/values/346",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "673ddd50d535974b8a00d9904e3a3437d90fead9f4ee6586e7ed697c3a87c0d4"
+}

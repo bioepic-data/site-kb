@@ -1,0 +1,110 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-BRG",
+    "site_name": "Bayles Road Grassland Tower",
+    "grp_team_member": [
+      {
+        "team_member_name": "Kimberly Novick",
+        "team_member_role": "PI",
+        "team_member_institution": "Indiana University",
+        "team_member_email": "knovick@indiana.edu"
+      },
+      {
+        "team_member_name": "Quan Zhang",
+        "team_member_role": "AncContact",
+        "team_member_email": "quazhang@indiana.edu"
+      },
+      {
+        "team_member_name": "Michael Benson",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Indiana University Bloomington",
+        "team_member_email": "micbenso@iu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IN",
+    "site_desc": "The Bayles Road grassland tower is situated in an experimental field incorporated within the Indiana University Research and Teaching Preserve.  The field was historically covered by bottomland hardwood forest and later maintained for plant genetics studies.  Intermixed species of grasses, sedges, and forbs are currently maintained with occasional mowing.",
+    "grp_location": {
+      "location_date_start": "201511251000",
+      "location_lat": "39.2167",
+      "location_long": "-86.5406",
+      "location_elev": "180"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_date_start": "200510010000"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1200",
+      "mat": "11.8",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-BRG",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1756416",
+      "FLUXNET": "10.17190/AMF/2006970"
+    },
+    "grp_publish_base": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "grp_publish_fluxnet": [
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "tower_dates": {
+      "tower_start": "2016",
+      "tower_end": "2021"
+    }
+  },
+  "sha256": "d9a5e69ab01f739d8848a93dd5cc09a61ed5ed2bd97ae3914cc16dca0c34b80b",
+  "field_path": "/values/239",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c08c94873f48e967311bfbdf0362b5ee9f077dc812b8ce8efe5507f78f5390fc"
+}

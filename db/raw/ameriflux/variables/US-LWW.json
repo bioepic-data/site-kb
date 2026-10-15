@@ -1,0 +1,78 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-LWW",
+    "site_name": "Little Washita Watershed",
+    "grp_team_member": [
+      {
+        "team_member_name": "Tilden Meyers",
+        "team_member_role": "PI",
+        "team_member_institution": "NOAA/ARL",
+        "team_member_email": "Tilden.Meyers@noaa.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "OK",
+    "site_desc": "Grasslands, rangeland, Temperate, continental. Severe drought in 1998.",
+    "grp_location": {
+      "location_lat": "34.9604",
+      "location_long": "-97.9789",
+      "location_elev": "365"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": "http://ecpc.ucsd.edu/gcip/data/obs/meyers/readme.htm",
+    "grp_clim_avg": {
+      "map": "805.12",
+      "mat": "16.09",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-LWW",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-LWW",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SW_IN",
+      "TA",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246073"
+    },
+    "grp_publish_base": [
+      1997,
+      1998
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "1997",
+      "tower_end": "1998"
+    }
+  },
+  "sha256": "dfec7380adbc432862b2a72b1fe77a95e7750df9a1a96bc9a64423fd68354125",
+  "field_path": "/values/463",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "7249b4ea7fd31f094f10d833ad046998e23fc1175e101908b1dc7c76774d1655"
+}

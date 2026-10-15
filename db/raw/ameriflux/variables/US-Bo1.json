@@ -1,0 +1,114 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Bo1",
+    "site_name": "Bondville",
+    "grp_team_member": [
+      {
+        "team_member_name": "Tilden Meyers",
+        "team_member_role": "PI",
+        "team_member_institution": "NOAA/ARL",
+        "team_member_email": "Tilden.Meyers@noaa.gov"
+      },
+      {
+        "team_member_name": "Praveena Krishnan",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "NOAA/ARL/ATDD",
+        "team_member_email": "Praveena.Krishnan@noaa.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IL",
+    "site_desc": "Agriculture, continuous no-till since 1986, Annual rotation between corn (C4) and soybeans (C3). The field was planted with corn during 2005 and 2007, with soybeans during 2006 and 2008.",
+    "grp_location": {
+      "location_lat": "40.0062",
+      "location_long": "-88.2904",
+      "location_elev": "219"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "http://public.ornl.gov/ameriflux/Site_Info/siteInfo.cfm?KEYID=us.bondville.01"
+    },
+    "url": "http://www.life.illinois.edu/bernacchi/",
+    "grp_clim_avg": {
+      "map": "991.29",
+      "mat": "11.02",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Bo1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246036"
+    },
+    "grp_publish_base": [
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "1996",
+      "tower_end": null
+    }
+  },
+  "sha256": "e56276eb9085c52ec2515523b8293e1bbaede235f3cdc8c5b4ad69e181fc1d20",
+  "field_path": "/values/233",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "a1c1cdb6a8a9b4f5de84cee4b79b7f3e86038b8883645fe739ce60cf86c19e39"
+}

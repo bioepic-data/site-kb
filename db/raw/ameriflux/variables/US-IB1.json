@@ -1,0 +1,108 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-IB1",
+    "site_name": "Fermi National Accelerator Laboratory- Batavia (Agricultural site)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Roser Matamala",
+        "team_member_role": "PI",
+        "team_member_institution": "Argonne National Laboratory",
+        "team_member_email": "matamala@anl.gov"
+      },
+      {
+        "team_member_name": "David Cook",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "Argonne National Laboratory",
+        "team_member_email": "dsgcook@prodigy.net"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IL",
+    "site_desc": "Two eddy correlation systems are installed at Fermi National Accelerator Laboratory: one on a restored prairie (established October 2004) and one on a corn/soybean rotation agricultural field (established in July 2005). The prairie site had been farmed for more than 100 years, but was converted to prairie in 1989. The agricultural site has likely been farmed for more than 100 years, but the first documented instance of agricultural activity dates back to a picture taken in 1952.",
+    "grp_location": {
+      "location_lat": "41.8593",
+      "location_long": "-88.2227",
+      "location_elev": "226.5",
+      "location_comment": "225-228"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "corn and soybean rotation"
+    },
+    "url": "http://www.atmos.anl.gov/FERMI/index.html",
+    "grp_clim_avg": {
+      "map": "929.23",
+      "mat": "9.18",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-IB1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "ALB",
+      "APAR",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "USTAR",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246065"
+    },
+    "grp_publish_base": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2005",
+      "tower_end": null
+    }
+  },
+  "sha256": "d5e168d9a0c3a020304f47519079b176b7b6627602819f34fca4e2c59b2416cc",
+  "field_path": "/values/389",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "a4d84279ecd39fed373df46136b53321043af2ca48f5278065f140440aea6b73"
+}

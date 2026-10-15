@@ -1,0 +1,124 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-Man",
+    "site_name": "Manitoba - Northern Old Black Spruce (former BOREAS Northern Study Area)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Brian Amiro",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Manitoba",
+        "team_member_email": "Brian_Amiro@umanitoba.ca"
+      },
+      {
+        "team_member_name": "Steve Wofsy",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Harvard University",
+        "team_member_email": "swofsy@seas.harvard.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Fluxnet-Canada"
+    ],
+    "state": null,
+    "site_desc": "55.880° N, 98.481° W, elevation of 259 m, Boreal coniferous: Black spruce; occasional larch present in poorly-drained areas. Groundcover is moss (feathermosses and Sphagnum), Labrador Tea, Vaccinium, and willows are a main component of the understory. It was established in 1993 as a BOREAS site.",
+    "grp_location": {
+      "location_lat": "55.8796",
+      "location_long": "-98.4808",
+      "location_elev": "259"
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_comment": "naturally regenerated  forest stand after wild fire"
+    },
+    "url": "http://daac.ornl.gov/BOREAS/bhs/Sites/NSA-OBS.html",
+    "grp_clim_avg": {
+      "map": "520",
+      "mat": "-3.2",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-Man",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/CA-Man",
+    "dom_dist_mgmt": [
+      "Fire"
+    ],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "GPP",
+      "H",
+      "H2O",
+      "LE",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_BC_IN",
+      "PPFD_IN",
+      "P_RAIN",
+      "RECO",
+      "RH",
+      "SC",
+      "TA",
+      "TS",
+      "USTAR",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1245997",
+      "FLUXNET": "10.17190/AMF/2571101"
+    },
+    "grp_publish_base": [
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "grp_publish_fluxnet": [
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "tower_dates": {
+      "tower_start": "1994",
+      "tower_end": "2008"
+    }
+  },
+  "sha256": "5a929efc0480ef85a0be3d953dfaeb3b3c1567153186053ada11c0bfb93b1a9b",
+  "field_path": "/values/75",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c27ff66f9017b8679e2d0a052086f9ea5ddaecfbef4fbdb4196bbd08787a832a"
+}

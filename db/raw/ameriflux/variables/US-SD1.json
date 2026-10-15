@@ -1,0 +1,142 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-SD1",
+    "site_name": "Shatto Ditch Paired Cropland - Site 1 (Corn/Soy; No Cover Crops)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Kesondra Key",
+        "team_member_role": "PI",
+        "team_member_institution": "Indiana University - Bloomington",
+        "team_member_email": "keyke@iu.edu"
+      },
+      {
+        "team_member_name": "Kim Novick",
+        "team_member_role": "PI",
+        "team_member_institution": "Indiana University - Bloomington",
+        "team_member_email": "knovick@iu.edu"
+      },
+      {
+        "team_member_name": "Michael Voyles",
+        "team_member_role": "Technician",
+        "team_member_institution": "Indiana University - Bloomington",
+        "team_member_email": "mpvoyles@iu.edu"
+      },
+      {
+        "team_member_name": "Steve Scott",
+        "team_member_role": "Technician",
+        "team_member_institution": "Indiana University - Bloomington",
+        "team_member_email": "stlscott@indiana.edu"
+      },
+      {
+        "team_member_name": "Trevor Gress",
+        "team_member_role": "Technician",
+        "team_member_institution": "Indiana University - Bloomington",
+        "team_member_email": "trgress@iu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IN",
+    "site_desc": "US-SD1, located on mostly flat terrain with some gentle hills, is an actively managed farmland operated by working farmers following a conventional no-till corn–soybean rotation in the U.S. Midwest. US-SD1 is one of two paired working farm sites which are relatively close by; both are managed using similar conventional practices with the key difference being that the paired site (US-SD2) incorporates cover crops into its rotation, along with minor differentiating terrain and soil type, where US-SD2 is located on a gently sloped site with more sandy soils. This paired design enables direct site-to-site comparisons to assess the impacts of cover cropping on carbon, water, and energy fluxes.",
+    "grp_location": {
+      "location_date_start": "202309010000",
+      "location_lat": "41.2048",
+      "location_long": "-86.0296",
+      "location_comment": "The tower is in close proximity to its paired site (US-SD2) which uses the same farming methods but in addition to fall-planted cover crops"
+    },
+    "grp_igbp": {
+      "igbp": "CRO"
+    },
+    "url": "https://kesondrakey.github.io/",
+    "grp_clim_avg": {
+      "map": "946.16",
+      "mat": "11.45"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-SD1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_FILTER",
+      "FETCH_MAX",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3015326",
+      "FLUXNET": "10.17190/AMF/3027381"
+    },
+    "grp_publish_base": [
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2023,
+      2024,
+      2025
+    ],
+    "tower_dates": {
+      "tower_start": "2023",
+      "tower_end": null
+    }
+  },
+  "sha256": "3b99464ad86fea2db23a5145867a1eab32ed0d1e96288969f17bfe4ee11185ad",
+  "field_path": "/values/644",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "d2097895ffef4a71e0cc72faf2d352f8300e878120265f4e586aa1d38d00de20"
+}

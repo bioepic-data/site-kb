@@ -1,0 +1,100 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-CF2",
+    "site_name": "Churchill Fen Site 2",
+    "grp_team_member": [
+      {
+        "team_member_name": "Mario Tenuta",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Manitoba",
+        "team_member_email": "Mario.Tenuta@umanitoba.ca"
+      },
+      {
+        "team_member_name": "Brian Amiro",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Manitoba",
+        "team_member_email": "brian_amiro@umanitoba.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "Manitoba",
+    "site_desc": "Fen site dominated by sedges.  Flat, high water table.  Frozen for long periods each year.  Close to Arctic Ocean coast so affected by land/sea breezes and coastal weather.",
+    "grp_location": {
+      "location_lat": "58.6658",
+      "location_long": "-93.8300",
+      "location_elev": "16.5",
+      "location_comment": "This site ran from 2008 to 2011.  A nearby site was run in 2007 and 2008 at the same fen.  The 2 sites are sufficiently similar to be considered as a continuous record during these growing seasons."
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Freshwater Fen; Sedge dominated"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "452",
+      "mat": "-6.5",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-CF2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "H",
+      "H2O",
+      "LE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TS",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1634879",
+      "FLUXNET": "10.17190/AMF/3027323"
+    },
+    "grp_publish_base": [
+      2008,
+      2009,
+      2010,
+      2011
+    ],
+    "grp_publish_fluxnet": [
+      2008,
+      2009,
+      2010,
+      2011
+    ],
+    "tower_dates": {
+      "tower_start": "2008",
+      "tower_end": "2011"
+    }
+  },
+  "sha256": "ceb8ac5a087f640003b4f54988b47fe5e841468e4110e163f9ecca289543dce5",
+  "field_path": "/values/41",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "0882f4e88170e7214b56d20e5c9837ea5d0a722585cec6cab7fd121d7fb2081d"
+}

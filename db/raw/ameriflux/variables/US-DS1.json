@@ -1,0 +1,104 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-DS1",
+    "site_name": "Staten Corn 1",
+    "grp_team_member": [
+      {
+        "team_member_name": "Nick Christen",
+        "team_member_role": "PI",
+        "team_member_institution": "Hydrofocus, Inc",
+        "team_member_email": "nchristen@hydrofocus.com"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "This tower is located in a corn field in the California Delta on Staten Island. The tower is within several square kilometers of corn fields that comprise the vast majority of the southern and central portion of Staten Island",
+    "grp_location": {
+      "location_date_start": "20180714",
+      "location_lat": "38.1335",
+      "location_long": "-121.5390",
+      "location_elev": "-6"
+    },
+    "grp_igbp": {
+      "igbp": "CRO"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "432",
+      "mat": "16",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-DS1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2407202",
+      "FLUXNET": "10.17190/AMF/2571132"
+    },
+    "grp_publish_base": [
+      2018,
+      2019,
+      2020
+    ],
+    "grp_publish_fluxnet": [
+      2018,
+      2019
+    ],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": "2020"
+    }
+  },
+  "sha256": "0de7f8368e09b11c58e8215047c28e9e79a5a95ad9e6f8be9c8079fd3e688aaa",
+  "field_path": "/values/314",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "fe7486681a5e8df99ac06c10b3707b1e9ee3358219d798694f2c96ef620a79b4"
+}

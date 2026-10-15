@@ -1,0 +1,118 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-CRT",
+    "site_name": "Curtice Walter-Berger cropland",
+    "grp_team_member": [
+      {
+        "team_member_name": "Jiquan Chen",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Toledo / Michigan State University",
+        "team_member_email": "jqchen@msu.edu"
+      },
+      {
+        "team_member_name": "Housen Chu",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "Lawrence Berkeley National Lab",
+        "team_member_email": "chu.housen@gmail.com"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "OH",
+    "site_desc": "The conventional cropland site is rain fed and no irrigation is applied. As it is located in a part of the historic Great Black Swamp, drainage tiles are deployed around 0.5–1.0 m beneath the ground surface in order to draw down the water level. The soil is classified as silty clay and silty clay loam. The cultivation practices include minimum tillage and both insect and weed control.  During the study period, the cropland was planted with soybean and winter wheat.",
+    "grp_location": {
+      "location_date_start": "20100920",
+      "location_lat": "41.6285",
+      "location_long": "-83.3471",
+      "location_elev": "180",
+      "location_comment": "The tower was constructed in August and continuous measurement began in September, 2010."
+    },
+    "grp_igbp": {
+      "igbp": "CRO"
+    },
+    "url": "http://lees.geo.msu.edu/index.html",
+    "grp_clim_avg": {
+      "map": "849",
+      "mat": "10.1",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-CRT",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-CRT",
+    "dom_dist_mgmt": [
+      "Agriculture",
+      "Storm or wind",
+      "Temperature extreme"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O",
+      "CH4"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "SWP",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246156",
+      "FLUXNET": "10.17190/AMF/2006974"
+    },
+    "grp_publish_base": [
+      2011,
+      2012,
+      2013
+    ],
+    "grp_publish_fluxnet": [
+      2011,
+      2012,
+      2013
+    ],
+    "tower_dates": {
+      "tower_start": "2011",
+      "tower_end": "2013"
+    }
+  },
+  "sha256": "17ba2991149894c20d8c6b14a9d22c07020db4875861c9d2c53a87898cdd83a4",
+  "field_path": "/values/275",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "0c909e1d799a0906d3d18ef0fec0fda6b7b415cc2ec6afd168d6c7b40f6222db"
+}

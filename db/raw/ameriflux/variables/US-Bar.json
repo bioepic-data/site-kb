@@ -1,0 +1,145 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Bar",
+    "site_name": "Bartlett Experimental Forest",
+    "grp_team_member": [
+      {
+        "team_member_name": "Andrew Richardson",
+        "team_member_role": "PI",
+        "team_member_institution": "Northern Arizona University",
+        "team_member_email": "Andrew.Richardson@nau.edu"
+      },
+      {
+        "team_member_name": "David Hollinger",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "dyhollinger@gmail.com"
+      },
+      {
+        "team_member_name": "Andrew Ouimette",
+        "team_member_role": "Technician",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "apouimette@gmail.com"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "NH",
+    "site_desc": "The Bartlett Experimental Forest (448170 N, 71830 W) is located within the White Mountains National Forest in north-central New Hampshire, USA. The 1050 ha forest extends across an elevational range from 200 to 900 m a.s.l. It was established in 1931 and is managed by the USDA Forest Service Northeastern Research Station in Durham, NH. The climate is humid continental with short, cool summers (mean July temperature, 19.8C) and long, cold winters (mean January temperature, 9.8C). Annual precipitation averages 130 cm and is distributed evenly throughout the year. Soils are developed from glacial till and are predominantly shallow, well-drained spodosols. At lowto mid-elevation, vegetation is dominated by northern hardwoods (American beech, Fagus grandifolia; sugar maple, Acer saccharum; yellow birch, Betula alleghaniensis; with some red maple, Acer rubrum and paper birch, Betula papyrifera). Conifers (eastern hemlock, Tsuga canadensis; eastern white pine, Pinus strobus; red spruce, Picea rubens) are occasionally found intermixed with the more abundant deciduous species but are generally confined to the highest (red spruce) and lowest (hemlock and pine) elevations. In 2003, the site was adopted as a NASA North American Carbon Program (NACP) Tier-2 field research and validation site. A 26.5 m high tower was installed in a low-elevation northern hardwood stand in November, 2003, for the purpose of making eddy covariance measurements of the forest–atmosphere exchange of CO2, H2O and radiant energy. Continuous flux and meteorological measurements began in January, 2004, and are ongoing. Average canopy height in the vicinity of the tower is approximately 20–22 m. In the tower footprint, the forest is predominantly classified into red maple, sugar maple, and American beech forest types. Leaf area index in the vicinity of the tower is 3.6 as measured by seasonal litterfall collection, and 4.5 as measured by the optically based Li-Cor LAI-2000 instrument. Further site information: http://www.fs.fed.us/ne/durham/4155/bartlett.htm",
+    "grp_location": {
+      "location_lat": "44.0646",
+      "location_long": "-71.2881",
+      "location_elev": "272",
+      "location_comment": "... Bartlett Experimental Forest. ...The correct location is 44 deg 3' 52.702794\" N     [NOT 43 deg as I had earlier specified]  71 deg 17' 17.0766744\" W"
+    },
+    "grp_igbp": {
+      "igbp": "DBF",
+      "igbp_comment": "<10% total ENF"
+    },
+    "url": "http://www.fs.fed.us/ne/durham/4155/bartlett.htm",
+    "grp_clim_avg": {
+      "map": "1245.77",
+      "mat": "5.61",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Bar",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Forestry"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "H",
+      "LE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_BC_IN",
+      "PPFD_DIF",
+      "PPFD_DIR",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246030",
+      "FLUXNET": "10.17190/AMF/2006969"
+    },
+    "grp_publish_base": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "2004",
+      "tower_end": null
+    }
+  },
+  "sha256": "cf0784370204c74507b7ddf3c63fa16cabd070d1f675b4b188c9d4d9cb7545ca",
+  "field_path": "/values/212",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "d978f08a618cf3dcfc81def9f8e798fce889494e55e8871d7e1b3bdfaa6d316e"
+}

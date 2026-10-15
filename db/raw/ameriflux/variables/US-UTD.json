@@ -1,0 +1,128 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-UTD",
+    "site_name": "UFLUX Dugout Ranch",
+    "grp_team_member": [
+      {
+        "team_member_name": "Paul Inkenbrandt",
+        "team_member_role": "PI",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "paulinkenbrandt@utah.gov"
+      },
+      {
+        "team_member_name": "Diane Menuz",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "dmenuz@utah.gov"
+      },
+      {
+        "team_member_name": "Kathryn Ladig",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "kladig@utah.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "UFLUX"
+    ],
+    "state": "UT",
+    "site_desc": "The station is located along a fence line between two fields that are managed indentically.  The land manager plants an alfalfa mix crop and uses wheel line irrigation.",
+    "grp_location": {
+      "location_date_start": "20230525",
+      "location_lat": "38.1038",
+      "location_long": "-109.5952",
+      "location_elev": "1580"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Alphalfa hay mix"
+    },
+    "url": "https://ugs.easyfluxweb.com/index.html#",
+    "grp_clim_avg": {
+      "map": "215.65",
+      "mat": "12",
+      "climate_koeppen": "Bwk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-UTD",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FC_SSITC_TEST",
+      "G",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LEAF_WET",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PBLH",
+      "PPFD_IN",
+      "RH",
+      "SG",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2531148",
+      "FLUXNET": "10.17190/AMF/2571139"
+    },
+    "grp_publish_base": [
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2023",
+      "tower_end": null
+    }
+  },
+  "sha256": "c4068e08d0bd918b3eef79f954023164631b9e54440c7ef9d608a44dec4cc5cc",
+  "field_path": "/values/748",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "1fd33aa9c6c7f2469735e2a208e48fc3953874ce3ef7fe2419a4df6c36b1a425"
+}

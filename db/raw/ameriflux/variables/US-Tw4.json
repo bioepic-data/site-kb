@@ -1,0 +1,171 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Tw4",
+    "site_name": "Twitchell East End Wetland",
+    "grp_team_member": [
+      {
+        "team_member_name": "Dennis Baldocchi",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "baldocchi@berkeley.edu"
+      },
+      {
+        "team_member_name": "Joe Verfaillie",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "jverfail@berkeley.edu"
+      },
+      {
+        "team_member_name": "Robert Shortt",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "robert_shortt@berkeley.edu"
+      },
+      {
+        "team_member_name": "Daphne Szutu",
+        "team_member_role": "Technician",
+        "team_member_institution": "UC Berkeley",
+        "team_member_email": "daphneszutu@berkeley.edu"
+      },
+      {
+        "team_member_name": "Camilo Rey",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "UC Berkeley",
+        "team_member_email": "rey.1@berkeley.edu"
+      },
+      {
+        "team_member_name": "Elke Eichelmann",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "UC Berkeley",
+        "team_member_email": "eeichelm@berkeley.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "CA",
+    "site_desc": "The Twitchell East End Wetland is a newly constructed restored wetland on Twitchell Island, CA. This site and the surrounding region are part of the San Joaquin - Sacramento River Delta drained beginning in the 1850's and subsequently used for agriculture. The site was previously a corn field. The wetland was designed to have a mix of vegetated and open water channels and ponds (due to surface elevation differences). Flooding of the wetland was done gradually beginning in January, 2014. Berms wind throughout the wetland to allow vehicle access. Tule and Cattail plant material from a nearby wetland were spread along the berms immediately prior to flooding to facilitate plant establishment and stabilization of the berms from wind/water erosion. The tower was installed on November 25, 2013.",
+    "grp_location": {
+      "location_date_start": "20131125",
+      "location_lat": "38.1027",
+      "location_long": "-121.6413",
+      "location_elev": "-5"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_date_start": "201401",
+      "igbp_comment": "cattail and tule vegetation"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "421",
+      "mat": "15.6",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Tw4",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Tw4",
+    "dom_dist_mgmt": [
+      "Hydrologic event",
+      "Land cover change"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SPEC_NIR_IN",
+      "SPEC_NIR_OUT",
+      "SPEC_RED_IN",
+      "SPEC_RED_OUT",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246151",
+      "FLUXNET": "10.17190/AMF/2204881"
+    },
+    "grp_publish_base": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2013",
+      "tower_end": null
+    }
+  },
+  "sha256": "39520e5b712c8de11e97aef859356f485429577b01da1a02912c4471634a762d",
+  "field_path": "/values/708",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c0fbc10759f8f66a6a4b0b21cee33a0cce11b2ec3c0f21ed80ddea9adb023982"
+}

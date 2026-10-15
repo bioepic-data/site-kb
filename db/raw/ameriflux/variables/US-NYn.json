@@ -1,0 +1,108 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-NYn",
+    "site_name": "NYSM - Brooklyn",
+    "grp_team_member": [
+      {
+        "team_member_name": "Scott Miller",
+        "team_member_role": "PI",
+        "team_member_institution": "University at Albany",
+        "team_member_email": "smiller@albany.edu"
+      },
+      {
+        "team_member_name": "Anna Glodzik",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University at Albany",
+        "team_member_email": "aglodzik@albany.edu"
+      },
+      {
+        "team_member_name": "Jason Covert",
+        "team_member_role": "Technician",
+        "team_member_institution": "University at Albany",
+        "team_member_email": "jcovert@albany.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "New York State Mesonet"
+    ],
+    "state": "NY",
+    "site_desc": "Located in an urban setting. It is on a city rooftop. Obstructions within 100m include buildings, pavement. The soil type is N/A - Rooftop.  This site is a part of the New York State Mesonet Flux Network, one of multiple subnetworks (e.g. Profiler, Snow) operated by the New York State Mesonet. It also operates as a NYC Standard meteorological site.",
+    "grp_location": {
+      "location_date_start": "201801010300",
+      "location_lat": "40.6318",
+      "location_long": "-73.9537",
+      "location_elev": "33.2"
+    },
+    "grp_igbp": {
+      "igbp": "URB",
+      "igbp_date_start": "201801010300"
+    },
+    "url": "https://www.nysmesonet.org/networks/flux#stid=flux_bkln",
+    "grp_clim_avg": {
+      "map": "1225.94",
+      "mat": "12.9",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-NYn",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "Other",
+      "Other",
+      "Other"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "PA",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3684003"
+    },
+    "grp_publish_base": [
+      2018,
+      2019,
+      2020
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": null
+    }
+  },
+  "sha256": "81ba31bf1d79442d23ee6b726a695083275352581ba51be227989d4f97fe201e",
+  "field_path": "/values/552",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "16437ed1e7ad103bad2e534fb8420ff7545a2906b639ad7dc5fbf278d5d2a550"
+}

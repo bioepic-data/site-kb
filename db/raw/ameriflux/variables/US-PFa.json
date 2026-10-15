@@ -1,0 +1,141 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-PFa",
+    "site_name": "Park Falls/WLEF",
+    "grp_team_member": [
+      {
+        "team_member_name": "Ankur Desai",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Wisconsin",
+        "team_member_email": "desai@aos.wisc.edu"
+      },
+      {
+        "team_member_name": "Jonathan Thom",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of Wisconsin",
+        "team_member_email": "jthom@ssec.wisc.edu"
+      },
+      {
+        "team_member_name": "Jonathan Kofler",
+        "team_member_role": "Technician",
+        "team_member_institution": "National Oceanic and Atmospheric Administration (NOAA)",
+        "team_member_email": "jonathan.kofler@noaa.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WI",
+    "site_desc": "The flux footprint encompasses a  highly heterogeneous landscape of upland forests and wetlands (forested and nonforested).  The forests are mainly deciduous but also include substantial coniferous coverage.  The upland/lowland variability occurs on spatial scales of a few hundred meters.  This heterogeneous landscape is further complicated by a nonuniform, small scale mosaic of thinning and clearcutting of the forest.  At larger scales (1 km or greater) the forest cover mosaic is quite homogeneous for many kilometers.  The site was chosen not for study of a simple stand, but for upscaling experiments.  The daytime fetch of flux measurements from the 396m level is on the order of 5-10 km, yielding a flux footprint roughly 100x the area of a typical stand-level flux tower.  AC power (tower is a TV transmitter).",
+    "grp_location": {
+      "location_lat": "45.9451",
+      "location_long": "-90.2732",
+      "location_elev": "470.00",
+      "location_comment": "Luyssaert"
+    },
+    "grp_igbp": {
+      "igbp": "MF",
+      "igbp_comment": "70% deciduous (aspen, birch, maple, basswood, alder) and 30% conifer (balsam fir, jack pine, black spruce, white cedar)"
+    },
+    "url": "https://flux.aos.wisc.edu/fluxdata",
+    "grp_clim_avg": {
+      "map": "823",
+      "mat": "4.33",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-PFa",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-PFa",
+    "dom_dist_mgmt": [
+      "Agriculture",
+      "Forestry",
+      "Land cover change",
+      "Pests and disease"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O",
+      "CH4"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "GPP",
+      "H",
+      "H2O",
+      "LE",
+      "NEE",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RECO",
+      "RH",
+      "SC",
+      "SCH4",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246090"
+    },
+    "grp_publish_base": [
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "1996",
+      "tower_end": null
+    }
+  },
+  "sha256": "84b90ffb8a90bec310c2755ac36e1ac5ab131b3bcd36272a9fe1a75136e692ff",
+  "field_path": "/values/568",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "44b4261fb120b887046a0bd016ecbf3005f2c448495c1980c6246a8cdf0ab80d"
+}
