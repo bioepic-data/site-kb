@@ -1,0 +1,121 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-PLo",
+    "site_name": "Plum Island Oligohaline Marsh",
+    "grp_team_member": [
+      {
+        "team_member_name": "Inke Forbrich",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Toledo",
+        "team_member_email": "inke.forbrich@utoledo.edu"
+      },
+      {
+        "team_member_name": "Hannah Orton",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Marine Biological Laboratory",
+        "team_member_email": "horton@mbl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MA",
+    "site_desc": "The site is a tidal oligohaline marsh located within the Plum Island Sound estuary, which is characterized by a tidal range of 2.5-3m and a vegetation cover of Typha angustifolia. Porewater salinity changes seasonally as influenced by freshwater discharge. Elevation is about 1.4m NAVD88.",
+    "grp_location": {
+      "location_date_start": "202204150000",
+      "location_lat": "42.7496",
+      "location_long": "-70.9157",
+      "location_elev": "1.4"
+    },
+    "grp_igbp": {
+      "igbp": "WET"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1262",
+      "mat": "8.7",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-PLo",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CH4",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FETCH_FILTER",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "RECO",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3004320",
+      "FLUXNET": "10.17190/AMF/3027350"
+    },
+    "grp_publish_base": [
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "2022",
+      "tower_end": null
+    }
+  },
+  "sha256": "96d96c713eaa2a49be8967b1359a719def6ea4070946bc7a670604a35b849680",
+  "field_path": "/values/591",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c732797620f65ec07b10e95a9a77dd3ac005dd3ae457917248724b5d6a2cbabd"
+}

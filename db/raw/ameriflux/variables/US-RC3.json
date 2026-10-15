@@ -1,0 +1,142 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-RC3",
+    "site_name": "WSU Lind Dryland Research Station",
+    "grp_team_member": [
+      {
+        "team_member_name": "Brian Lamb",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "blamb@wsu.edu"
+      },
+      {
+        "team_member_name": "Jinshu Chi",
+        "team_member_role": "PI",
+        "team_member_institution": "The Hong Kong University of Science and Technology (Guangzhou)",
+        "team_member_email": "jinshuchi@hkust-gz.edu.cn"
+      },
+      {
+        "team_member_name": "Shelley Pressley",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "spressley@wsu.edu"
+      },
+      {
+        "team_member_name": "Bryan Carlson",
+        "team_member_role": "AncContact",
+        "team_member_institution": "USDA-ARS NSARU",
+        "team_member_email": "bryan.carlson@usda.gov"
+      },
+      {
+        "team_member_name": "Eric Russell",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "eric.s.russell@wsu.edu"
+      },
+      {
+        "team_member_name": "Patrick O'Keeffe",
+        "team_member_role": "Technician",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "pokeeffe@wsu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WA",
+    "site_desc": "RC3 operated from 2011-2016 at the Washington State University Lind Dryland Experimental Station, as part of a cluster of 5 towers (RC1 to RC5) operated for the Regional Approaches to Climate Change (REACCH) USDA-supported research project.  Lind is in the low precipitation region of the Columbia Plateau dryland cropping region. The area is characterized as a stable crop-fallow agroecological zone, with crops typically grown every second year to allow soil water to accumulate during intervening fallow years. Winter wheat was grown August 2012-August 2013, and August 2014-July 2015. The growing seasons of 2012 and 2014 were fallow years. Soils at Lind are predominantly silt loam texture Mollisols in the Shano and Ritzville series. Site topography is flat.",
+    "grp_location": {
+      "location_date_start": "201206280000",
+      "location_lat": "46.9910",
+      "location_long": "-118.5980"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "201206280000",
+      "igbp_comment": "Dryland cropping system"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "280",
+      "mat": "10",
+      "climate_koeppen": "Dsb"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-RC3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1498749",
+      "FLUXNET": "10.17190/AMF/3365268"
+    },
+    "grp_publish_base": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "grp_publish_fluxnet": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "tower_dates": {
+      "tower_start": "2011",
+      "tower_end": "2016"
+    }
+  },
+  "sha256": "b1e20f2b34865eef4d506d04fb1a50d32c5d920ece685f2fdcf7bf14f3f19dd0",
+  "field_path": "/values/605",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ccf42814d980d1ab6e4a61ba7d3b527b7609663e9206fd87de0c419d9a0b3e8f"
+}

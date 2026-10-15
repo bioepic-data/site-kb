@@ -1,0 +1,127 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-RGW",
+    "site_name": "Desha County Rice Farm",
+    "grp_team_member": [
+      {
+        "team_member_name": "Piet Jones",
+        "team_member_role": "PI",
+        "team_member_institution": "Arva Intelligence",
+        "team_member_email": "p.jones@arva.com"
+      },
+      {
+        "team_member_name": "Sebastien C. Biraud",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "SCBiraud@lbl.gov"
+      },
+      {
+        "team_member_name": "Stephen W. Chan",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "SWChan@lbl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "AR",
+    "site_desc": "Commercially farmed rice variety, field in Desha County, Arkansas. Part of a five-year, ground-truthing field study under the DOE ARPA-E SMARTFARM project.",
+    "grp_location": {
+      "location_date_start": "20220323",
+      "location_lat": "33.6216",
+      "location_long": "-91.4306",
+      "location_elev": "41.00"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Rice (oryza sativa)"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1283",
+      "mat": "16.7",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-RGW",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O",
+      "N2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1880915",
+      "FLUXNET": "10.17190/AMF/2469467"
+    },
+    "grp_publish_base": [
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2022",
+      "tower_end": "2025"
+    }
+  },
+  "sha256": "103db56b3298c5a8bf83746b235a982b46a51563218dc0b0343ad513f4a77628",
+  "field_path": "/values/616",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "4b7b69f25ee7077a484e972382312fdf9b11402e84a0056954b675432d75e9de"
+}

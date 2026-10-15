@@ -1,0 +1,123 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-GCE",
+    "site_name": "Georgia Coastal Ecosystems LTER Flux Tower",
+    "grp_team_member": [
+      {
+        "team_member_name": "Deepak Mishra",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Georgia",
+        "team_member_email": "dmishra@uga.edu"
+      },
+      {
+        "team_member_name": "Peter Hawman",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of Georgia",
+        "team_member_email": "peterhawman@uga.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTER"
+    ],
+    "state": "GA",
+    "site_desc": "Spartina alterniflora-dominated salt marsh on the interior of Sapelo Island, a barrier island on the Georgia Coast. The GCE-LTER research program was initiated in September 2000, and the eddy covariance flux tower was deployed in the salt marsh in July 2013. Septmber - March has North-northeast winds has SURFACE_HOMOGENEITY of 270m.",
+    "grp_location": {
+      "location_date_start": "201307091820",
+      "location_lat": "31.4441",
+      "location_long": "-81.2835",
+      "location_elev": "0.625",
+      "location_comment": "Coordinates are given for the base of the 10m tower installed on an elevated dock platform"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Natural salt marsh ecosystem, so date not relevent"
+    },
+    "url": "http://gce-lter.marsci.uga.edu/portal/flux_tower.htm",
+    "grp_clim_avg": {
+      "map": "1284",
+      "mat": "19.83",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-GCE",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Storm or wind"
+    ],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "P_RAIN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "WS_MAX",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2998637"
+    },
+    "grp_publish_base": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2013",
+      "tower_end": null
+    }
+  },
+  "sha256": "9b09350b3a2fc36117f5613c3dbc90d696bd2d8efb8868bf4fb65b98512081c2",
+  "field_path": "/values/344",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "9ffd0f10ff12df70875c65b0271c36f50edb2dfb3aad24a134b64b5fede922f2"
+}

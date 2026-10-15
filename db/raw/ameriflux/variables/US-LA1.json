@@ -1,0 +1,96 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-LA1",
+    "site_name": "Pointe-aux-Chenes Brackish Marsh",
+    "grp_team_member": [
+      {
+        "team_member_name": "Ken Krauss",
+        "team_member_role": "PI",
+        "team_member_institution": "USGS-Wetland and Aquatic Research Center",
+        "team_member_email": "kraussk@usgs.gov"
+      },
+      {
+        "team_member_name": "Melinda Martinez",
+        "team_member_role": "PI",
+        "team_member_institution": "US Geological Survey",
+        "team_member_email": "melindamartinez@usgs.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "LA",
+    "site_desc": "Brackish marsh, 40-70% organic matter, microtidal",
+    "grp_location": {
+      "location_lat": "29.5013",
+      "location_long": "-90.4449",
+      "location_elev": "0",
+      "location_comment": "near Louisiana Coastwide Reference Monitoring System (CRMS) Site 2825 and NCDC Weather Station USC00163433"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Dominant Spartina patens + Schoenoplectus americanus, as well as shallow open water areas"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1625",
+      "mat": "20.7",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-LA1",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-LA1",
+    "dom_dist_mgmt": [
+      "Undisturbed"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "N2O",
+      "CO2",
+      "CH4",
+      "H2O"
+    ],
+    "base_variables": [
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "H",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "PPFD_IN",
+      "RH",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1543386"
+    },
+    "grp_publish_base": [
+      2011,
+      2012
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2011",
+      "tower_end": "2012"
+    }
+  },
+  "sha256": "b8824ca6395ea8d5e3921f1100524031da81fb30434e5ebf77b00810d1b71508",
+  "field_path": "/values/445",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ef37c54d745f3c10b4ff9f84e11d15e5e290015f9d9d4bbb7a297868989c8c25"
+}

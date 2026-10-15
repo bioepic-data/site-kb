@@ -1,0 +1,153 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Myb",
+    "site_name": "Mayberry Wetland",
+    "grp_team_member": [
+      {
+        "team_member_name": "Dennis Baldocchi",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "baldocchi@berkeley.edu"
+      },
+      {
+        "team_member_name": "Joe Verfaillie",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "jverfail@berkeley.edu"
+      },
+      {
+        "team_member_name": "Daphne Szutu",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "UC Berkeley",
+        "team_member_email": "daphneszutu@berkeley.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "CA",
+    "site_desc": "The Mayberry Wetland site is a 300-acre restored wetland on Sherman Island, north of Mayberry Slough, that is on the property of Mayberry Farms and managed by the California Department of Water Resources and Ducks Unlimited. During Summer 2010, the site was restored from a pepperweed and annual grassland pasture to a wetland through a project managed by Bryan Brock (bpbrock@water.ca.gov). A flux tower equipped to analyze energy, H2O, CO2, and CH4 fluxes was installed on October 14, 2010. At the time of installation, flooding of the site had only recently begun after extensive reconstruction of the wetland bathymetry conducted during the summer. Although some small patches of tules remain within the site, the site is a patchwork of deep and shallow open water with some remaining vegetation. Currently, there is an intention to flood-to-kill the current pepperweed and upland grasses and let the wetland plants propagate naturally, so no additional plant manipulation will occur.",
+    "grp_location": {
+      "location_date_start": "20140313",
+      "location_lat": "38.0499",
+      "location_long": "-121.7650",
+      "location_elev": "-4",
+      "location_comment": "Main Tower: Wetland vegetation has filled in making it possible to co-locate the eddy and met sensors.  The met sensors were moved to this location on 3-13 and the eddy sensors were moved on 3-19"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_date_start": "20101014",
+      "igbp_comment": "cattail and tule vegetation"
+    },
+    "url": "http://nature.berkeley.edu/biometlab/sites.php?tab=US-Myb",
+    "grp_clim_avg": {
+      "map": "338",
+      "mat": "15.9",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Myb",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Myb",
+    "dom_dist_mgmt": [
+      "Hydrologic event",
+      "Land cover change"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "COND_WATER",
+      "FC",
+      "FCH4",
+      "GPP",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "TW",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246139",
+      "FLUXNET": "10.17190/AMF/1871139"
+    },
+    "grp_publish_base": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "tower_dates": {
+      "tower_start": "2010",
+      "tower_end": null
+    }
+  },
+  "sha256": "4196c4e68328e572b58548f1cb43b5187ca80505c600f7cb9ae03f28a9cf3300",
+  "field_path": "/values/514",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "e1717a2e44266e91d293696c50f49593c6fa8062101bd764a60953df5fb077cc"
+}

@@ -1,0 +1,85 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-CZ3",
+    "site_name": "Sierra Critical Zone, Sierra Transect, Sierran Mixed Conifer, P301",
+    "grp_team_member": [
+      {
+        "team_member_name": "Michael Goulden",
+        "team_member_role": "PI",
+        "team_member_institution": "UC Irvine",
+        "team_member_email": "mgoulden@uci.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "Half hourly data are available at https://www.ess.uci.edu/~california/.  \nThis site is one of four Southern Sierra Critical Zone Observatory flux towers operated along an elevation gradient (sites are USCZ1, USCZ2, USCZ3 and USCZ4).  \nThis site is a pine/fir forest; it historically experienced logging and wildfire, was thinned in ~2012, and experienced severe drought and ~20% canopy mortality in 2011-15.",
+    "grp_location": {
+      "location_lat": "37.0674",
+      "location_long": "-119.1951",
+      "location_elev": "2015"
+    },
+    "grp_igbp": {
+      "igbp": "ENF"
+    },
+    "url": "https://www.ess.uci.edu/~california/",
+    "grp_clim_avg": {},
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-CZ3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Drought",
+      "Forestry"
+    ],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NDVI",
+      "NETRAD",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1419512"
+    },
+    "grp_publish_base": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2008",
+      "tower_end": null
+    }
+  },
+  "sha256": "f41f0d786f07b6dc980ddd7a5d989ebb5f41f02f743861b6862981ebc75b52db",
+  "field_path": "/values/297",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "945507efa3d9bd8db3bfd6d2126f80f4fc8e43356f5be1e980f1bf2a45252cc8"
+}

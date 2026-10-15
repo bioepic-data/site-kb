@@ -1,0 +1,113 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-GBT",
+    "site_name": "GLEES Brooklyn Tower",
+    "grp_team_member": [
+      {
+        "team_member_name": "Bill Massman",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "wmassman@fs.fed.us"
+      },
+      {
+        "team_member_name": "John Frank",
+        "team_member_role": "DataManager",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "jfrank@fs.fed.us"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WY",
+    "site_desc": "*** US-GBT has been incorporated into the US-GLE dataset, making this site obsolete. All future downloads and publications should refer to US-GLE ***\n\nThe Glacier Lakes Ecosystem Experiments Site (GLEES) site is located on land owned by the U.S. government and managed by US Forest Service as part of the Medicine Bow National Forest. Many of the trees in the immediate vicinity of the site are older than 400 years, inter-dispersed among trees much younger in age. This widespread age distribution is most likely a derivation of one of two scenarios: 1) A widespread stand replacement about 400 years ago followed by a slow replacement; 2) Intermittent random disturbances over the past 400 years (Bradford et al. 2008). A decade long spruce beetle outbreak that peaked in 2008 resulted in the mortality of 85% of the forested basal area. There are a few private land holdings in the area, with scattered uncorked mining claims. Following the establishment of the National Forest, mining was banned and grazing was closed in the early 1990's in the upper portion of the GLEES site. Recreation in the winter, when snow can remain in patches into the summer months, snow mobiling and cross country skiing are popular. During the limited summer, hiking, camping and fishing are common activities. The site is accessible by vehicle only during the summer on Forest Road FDR 317, and in the winter, the tower is only reachable via snowmobile.",
+    "grp_location": {
+      "location_lat": "41.3658",
+      "location_long": "-106.2397",
+      "location_elev": "3191"
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_comment": "85% Engelmann spruce 15% Subalpine fir"
+    },
+    "url": "http://www.fs.fed.us/rmrs/experimental-forests-and-ranges/glees-glacier-lakes-ecosystem-experiments-site",
+    "grp_clim_avg": {
+      "map": "1200",
+      "mat": "0.80",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-GBT",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-GBT",
+    "dom_dist_mgmt": [
+      "Undisturbed"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1375200"
+    },
+    "grp_publish_base": [
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "1991",
+      "tower_end": "2006"
+    }
+  },
+  "sha256": "bdce8a98c4be5bf4b0295c246c03c0ed553bb3de466ffa51660971e8db11e1e8",
+  "field_path": "/values/343",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "861b6c56943ebb47b269fd8f401793e8400713ce0cc27b9a8107feebc73e8173"
+}

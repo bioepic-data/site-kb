@@ -1,0 +1,148 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-xDC",
+    "site_name": "NEON Dakota Coteau Field School (DCFS)",
+    "grp_team_member": [
+      {
+        "team_member_name": "National Ecological Observatory Network",
+        "team_member_role": "PI",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "neon-ameriflux@battelleecology.org"
+      },
+      {
+        "team_member_name": "Adam Young",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "younga1@battelleecology.org"
+      },
+      {
+        "team_member_name": "Christopher Florian",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "cflorian@battelleecology.org"
+      },
+      {
+        "team_member_name": "David Durden",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "ddurden@battelleecology.org"
+      },
+      {
+        "team_member_name": "Cove Sturtevant",
+        "team_member_role": "DataManager",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "csturtevant@battelleecology.org"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "NEON",
+      "Phenocam"
+    ],
+    "state": "ND",
+    "site_desc": "The Dakota Coteau Field School (DCFS) and Prairie Lake (PRLA) field sites are co-located in an agricultural area used primarily for cattle grazing, just a few miles east of the Woodworth and Prairie Pothole sites at the Chase Lake National Wildlife Refuge. DCFS covers 7.8 km2 (3 square miles) of grazing land in Stutsman County, ND, between the tiny communities of Pingree and Woodworth.\n\nThe population here is sparse, but the land has been transformed by agricultural activities over the last 150 years. The field site has been used only for grazing, but other land in the surrounding area has been converted to corn and soybean production. \n\nDCFS is located in an area known as the \"Prairie Pothole Region,\" a band of tall and mixed prairie that stretches across parts of North and South Dakota, Minnesota and the Canadian provinces of Alberta, Saskatchewan and Manitoba. Historically, this area supported tall to mid-height prairie grasses, including blue gamma and green needlegrass. The land here is pocked by thousands of depressions left behind by glaciers 10,000 years ago, resulting in a series of small lakes and wetland areas known as prairie potholes. These potholes receive most of their water from spring snowmelt and are a primary source of groundwater recharge for the region.\n\nNEON data will help researchers monitor the effects of climate change on the Northern Plains ecosystem. Over the last 30 years, the hydrological cycle in the plains has changed dramatically, trending wetter overall and diverging from the historical ten-year cycles. Temperatures are also rising, leading to changes in plant phenology cycles and species distribution that could negatively impact migratory bird populations and other animal species.",
+    "grp_location": {
+      "location_lat": "47.1617",
+      "location_long": "-99.1066",
+      "location_elev": "559"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": "https://www.neonscience.org/field-sites/field-sites-map/dcfs",
+    "grp_clim_avg": {
+      "map": "489.74",
+      "mat": "4.9",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-xDC",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O",
+      "Isotopes"
+    ],
+    "base_variables": [
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2C13",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_BC_IN",
+      "LW_BC_OUT",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_BC_IN",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1617728",
+      "FLUXNET": "10.17190/AMF/1985437"
+    },
+    "grp_publish_base": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": null
+    }
+  },
+  "sha256": "599bafc160aadfcaf330a05ffdbf4ae1fe9b5af6d47811f59cf6beff0cb750ca",
+  "field_path": "/values/806",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c3c9583f325d1cca4821b8eb5198744d1917043285141722c0e641ba33f424d3"
+}

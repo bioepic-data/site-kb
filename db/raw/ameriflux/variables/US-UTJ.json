@@ -1,0 +1,130 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-UTJ",
+    "site_name": "UFLUX Bluff",
+    "grp_team_member": [
+      {
+        "team_member_name": "Paul Inkenbrandt",
+        "team_member_role": "PI",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "paulinkenbrandt@utah.gov"
+      },
+      {
+        "team_member_name": "Diane Menuz",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "dmenuz@utah.gov"
+      },
+      {
+        "team_member_name": "Kathryn Ladig",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "kladig@utah.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "UFLUX"
+    ],
+    "state": "UT",
+    "site_desc": "This station is on the edge of an alfalfa field near the San Juan River",
+    "grp_location": {
+      "location_date_start": "202406051530",
+      "location_lat": "37.2818",
+      "location_long": "-109.5348",
+      "location_elev": "1281"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Alfalfa and grass mixture"
+    },
+    "url": "https://ugs.easyfluxweb.com/index.html#",
+    "grp_clim_avg": {
+      "map": "196.85",
+      "mat": "12.6",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-UTJ",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LEAF_WET",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PBLH",
+      "PPFD_IN",
+      "RH",
+      "SG",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2531150",
+      "FLUXNET": "10.17190/AMF/2571150"
+    },
+    "grp_publish_base": [
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2024,
+      2025
+    ],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": null
+    }
+  },
+  "sha256": "ee4594d6da46021967bf41ccf48530313c410ebdddeda457a97895a792dfa511",
+  "field_path": "/values/752",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "e01458446564ca290398a0bdea71bdff5fe1f1bc8c962505523922e784a25f0e"
+}

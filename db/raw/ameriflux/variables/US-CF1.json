@@ -1,0 +1,126 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-CF1",
+    "site_name": "CAF-LTAR Cook East",
+    "grp_team_member": [
+      {
+        "team_member_name": "Claire Phillips",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "claire.phillips@wsu.edu"
+      },
+      {
+        "team_member_name": "Dave Huggins",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA ARS",
+        "team_member_email": "David.Huggins@usda.gov"
+      },
+      {
+        "team_member_name": "Ian Leslie",
+        "team_member_role": "BADMContact",
+        "team_member_institution": "USDA ARS NSAR",
+        "team_member_email": "ian.leslie@usda.gov"
+      },
+      {
+        "team_member_name": "Bryan Carlson",
+        "team_member_role": "DataManager",
+        "team_member_institution": "USDA ARS",
+        "team_member_email": "bryan.carlson@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTAR",
+      "Phenocam"
+    ],
+    "state": "WA",
+    "site_desc": "CF1 has operated since May 2017 at the R.J. Cook Agronomy Farm outside of Pullman, Washington, and monitors the no-till side of a paired-catchment study that is part of the Longterm Agroecosystem Research (LTAR) site common experiment. CF1 is located in “Cook East,” a field that has been in no-till management since 1998, and represents the Alternative treatment of the LTAR common experiment. It is paired with the CF2 tower location in “Cook West,” which has been in conventional tillage since prior to 1998 and represents the Prevalent treatments of the common experiment. \n\nCook Agronomy Farm is in the high precipitation agroecological zone of the Columbia Plateau’s dryland cropping region. Crop rotations are wheat-based and include winter wheat, spring wheat, chickpea, spring canola, and winter peas. Wheat is the principal cash crop, with other crops grown in rotation for diversity, nutrient, and pest management. Soils are predominantly silt loam texture Mollisols in the Palouse, Thatuna, Naff soil series. \n\nThe CF1 tower replaced US-RC1, which operated 2012-2016 in a neighboring field that was also in no-till management since 1998. CF1 and RC1 have distinct footprints, aspects, and soil series compositions.",
+    "grp_location": {
+      "location_date_start": "20170511",
+      "location_lat": "46.7815",
+      "location_long": "-117.0821",
+      "location_elev": "794"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Dryland cropping system, predominantly winter wheat, spring cereals (barley and wheat), and pulse crops (dry pea, lentil and chickpea)"
+    },
+    "url": "http://www.cafltar.org/",
+    "grp_clim_avg": {
+      "map": "550",
+      "mat": "9",
+      "climate_koeppen": "Dsb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-CF1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1543382",
+      "FLUXNET": "10.17190/AMF/1832158"
+    },
+    "grp_publish_base": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "grp_publish_fluxnet": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": null
+    }
+  },
+  "sha256": "b2b20f9fa885c18e1fe655c9f76db306a4b79724d53f7565f431b66c306439a4",
+  "field_path": "/values/257",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "2da9fa99b71fc1ef8673863228f0994f8d0b39e239686d875728c160ab1dfec8"
+}

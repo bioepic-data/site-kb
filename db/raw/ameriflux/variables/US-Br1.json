@@ -1,0 +1,108 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Br1",
+    "site_name": "Brooks Field Site 10- Ames",
+    "grp_team_member": [
+      {
+        "team_member_name": "John Prueger",
+        "team_member_role": "PI",
+        "team_member_institution": "National Laboratory for Agriculture and the Environment",
+        "team_member_email": "john.prueger@ars.usda.gov"
+      },
+      {
+        "team_member_name": "Samantha Purdy",
+        "team_member_role": "DataManager",
+        "team_member_institution": "National Laboratory for Agriculture and the Environment",
+        "team_member_email": "samantha.purdy@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "IA",
+    "site_desc": "The Brooks Field Site 10 - Ames Site is one of three sites (Brooks Field Site 11 and Brooks Field Site 1011) located in a corn/soybean agricultural landscape of central Iowa. The farming systems, associated tillage, and nutrient management practices for soybean/corn production are typical of those throughout Upper Midwest Corn Belt. All three sites are members of the AmeriFlux network. Information for all three can be found in synchronous pages of this website.",
+    "grp_location": {
+      "location_lat": "41.9749",
+      "location_long": "-93.6906",
+      "location_elev": "313"
+    },
+    "grp_igbp": {
+      "igbp": "CRO"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "842.33",
+      "mat": "8.95",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Br1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246038"
+    },
+    "grp_publish_base": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2001",
+      "tower_end": "2025"
+    }
+  },
+  "sha256": "36cc6be900f7544c43221489d198c23a57d601ac3186f4bfa71144ade7b7ee51",
+  "field_path": "/values/236",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "82b65cdf193a59f68cb75e4174dda6aa64274027a374de48d61c14395277339a"
+}

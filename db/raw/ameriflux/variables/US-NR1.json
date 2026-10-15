@@ -1,0 +1,181 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-NR1",
+    "site_name": "Niwot Ridge Forest (LTER NWT1)",
+    "grp_team_member": [
+      {
+        "team_member_name": "John Knowles",
+        "team_member_role": "PI",
+        "team_member_institution": "Montana State University",
+        "team_member_email": "john.knowles@montana.edu"
+      },
+      {
+        "team_member_name": "Peter Blanken",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Colorado",
+        "team_member_email": "Blanken@Colorado.EDU"
+      },
+      {
+        "team_member_name": "Sean Burns",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of Colorado",
+        "team_member_email": "sean.burns@colorado.edu"
+      },
+      {
+        "team_member_name": "David Bowling",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "University of Utah",
+        "team_member_email": "david.bowling@utah.edu"
+      },
+      {
+        "team_member_name": "Russell Monson",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "The University of Arizona (emeritus)",
+        "team_member_email": "Russell.Monson@colorado.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "CO",
+    "site_desc": "The Niwot Ridge US-NR1 AmeriFlux site is located in a subalpine forest ecosystem 8 km east of the Continental Divide near Nederland, CO. The site is located at 3050 m elevation, within 600m of the LTER C-1 long-term monitoring station. The subalpine forest at the site was selectively logged in the early 1900s and the forest has not had any major disturbance since then (Burns, S.P., (2018), The Influence of Warm-Season Precipitation on Water Cycling and the Surface Energy Budget within and just-above a Colorado Subalpine Forest in Mountainous Terrain: Measurements and Modeling, PhD Thesis, https://scholar.colorado.edu/geog_gradetds/125/).\n\nAdditional data, photos, and information can be found at:\n\nBurns S. P.,  P. D. Blanken, and R. K. Monson (2020): Data, Photographs, Videos, and Information for the Niwot Ridge Subalpine Forest (US-NR1) AmeriFlux site. AmeriFlux Management Project.  https://doi.org/10.15485/1671825",
+    "grp_location": {
+      "location_lat": "40.0329",
+      "location_long": "-105.5470",
+      "location_elev": "3050",
+      "location_comment": "Fluxnet"
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_comment": "Subalpine fir (Abies lasiocarpa), Engelmann spruce (Picea engelmannii), and lodgepole pine (Pinus contorta) comprise the overstory. The understory is relatively sparse, containing tree seedlings from all three species and patches of whortleberry (Vaccinium myrtillus). There are aspens (Populus tremuloides) near the tower, but not within the tower's dominat east-west footprint. The presence of aspens may influence fluxes when the footprint shifts to the northwesterly direction from the tower (wind directions from 270-290 degrees)."
+    },
+    "url": "http://urquell.colorado.edu/data_ameriflux",
+    "grp_clim_avg": {
+      "map": "800",
+      "mat": "1.5",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-NR1",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-NR1",
+    "dom_dist_mgmt": [
+      "Forestry"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2C13",
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "LEAF_WET",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SB",
+      "SC",
+      "SG",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "T_BOLE",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246088",
+      "FLUXNET": "10.17190/AMF/1871141"
+    },
+    "grp_publish_base": [
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "tower_dates": {
+      "tower_start": "1998",
+      "tower_end": null
+    }
+  },
+  "sha256": "8c7d64e1fe231cf19acecb904091720a97badae9a241eb7cd099213dc0651322",
+  "field_path": "/values/530",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "2e23d6cf5ee283a8b317870e72738a6476ade4ceddaa6f1eaffda7811a43b23a"
+}

@@ -1,0 +1,116 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-LU1",
+    "site_name": "Steen River",
+    "grp_team_member": [
+      {
+        "team_member_name": "David Olefeldt",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Alberta",
+        "team_member_email": "olefeldt@ualberta.ca"
+      },
+      {
+        "team_member_name": "Oliver Sonnentag",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Montreal",
+        "team_member_email": "oliver.sonnentag@umontreal.ca"
+      },
+      {
+        "team_member_name": "Christopher Schulze",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of Alberta",
+        "team_member_email": "cschulze@ualberta.ca"
+      },
+      {
+        "team_member_name": "Haley Alcock",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Montreal",
+        "team_member_email": "haley.alcock@umontreal.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "Alberta",
+    "site_desc": "Steen River is a peat plateau that burned in extreme fire conditions in late May 2019. Prior to the fire the site was likley and open canopy of stunted black spruce and a ground layer of Labrador tea shurbs and lichen or sphagnum with around >150cm of peat. All low shrubs were consumed by the fire, Sphagnum mosees were singed but not combusted, all the trees deceased with needles, tertiary, secondary branches consumed by fire and >30% of primary branches rmained.",
+    "grp_location": {
+      "location_date_start": "202006071400",
+      "location_lat": "59.5951",
+      "location_long": "-117.2862",
+      "location_elev": "311"
+    },
+    "grp_igbp": {
+      "igbp": "OSH",
+      "igbp_date_start": "201905251200",
+      "igbp_comment": "The site is a permafrost peatland (wetland) but its vegetation is likely is best described as an OSH open shrubland after the wildfire in 2019, and it likely was best described as an ENF evergreen needleleaf forest before the fire."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "379",
+      "mat": "-1.2",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-LU1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Fire"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "Other"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2574382",
+      "FLUXNET": "10.17190/AMF/3027376"
+    },
+    "grp_publish_base": [
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "2020",
+      "tower_end": "2023"
+    }
+  },
+  "sha256": "15b0f6b4150e7bcf92053cb148fba467034e563e770cf4bf4b9ec2d842464af1",
+  "field_path": "/values/69",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "198e58fb5a6c30874fb63836e31cd646455221ccd460a98a485162e3ac75aeb3"
+}

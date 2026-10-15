@@ -1,0 +1,128 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-A32",
+    "site_name": "ARM-SGP Medford hay pasture",
+    "grp_team_member": [
+      {
+        "team_member_name": "Lara Kueppers",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "lmkueppers@lbl.gov"
+      },
+      {
+        "team_member_name": "Margaret Torn",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "mstorn@lbl.gov"
+      },
+      {
+        "team_member_name": "Sebastien Biraud",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "scbiraud@lbl.gov"
+      },
+      {
+        "team_member_name": "Dave Billesbach",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of Nebraska",
+        "team_member_email": "dbillesbach1@unl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "OK",
+    "site_desc": "This site is located at the ARM SGP Extended Facility E32, 8 km West of Medford, OK",
+    "grp_location": {
+      "location_date_start": "20150903",
+      "location_lat": "36.8193",
+      "location_long": "-97.8198",
+      "location_elev": "335"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_comment": "Grass pasture, periodically cut for hay"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "889",
+      "mat": "33.9",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-A32",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NDVI",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "P_RAIN",
+      "PRI",
+      "RH",
+      "SWC",
+      "SW_DIF",
+      "SW_DIR",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1436327",
+      "FLUXNET": "10.17190/AMF/1881568"
+    },
+    "grp_publish_base": [
+      2015,
+      2016,
+      2017
+    ],
+    "grp_publish_fluxnet": [
+      2015,
+      2016,
+      2017
+    ],
+    "tower_dates": {
+      "tower_start": "2015",
+      "tower_end": "2017"
+    }
+  },
+  "sha256": "32fa3b6c08fed35a7232f742beb0cd35b423ef44911b7b76bbc3ef38efbd4e7a",
+  "field_path": "/values/168",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "cdb8029e0c1b76a72ba862544d1cf47792db240cb111be50f806fbfd4032f15f"
+}

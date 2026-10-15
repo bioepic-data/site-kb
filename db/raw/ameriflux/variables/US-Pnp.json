@@ -1,0 +1,111 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Pnp",
+    "site_name": "Lake Mendota, Picnic Point Site",
+    "grp_team_member": [
+      {
+        "team_member_name": "Ankur Desai",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Wisconsin Madison",
+        "team_member_email": "desai@aos.wisc.edu"
+      },
+      {
+        "team_member_name": "David Reed",
+        "team_member_role": "FluxContact",
+        "team_member_email": "david.edwin.reed@gmail.com"
+      },
+      {
+        "team_member_name": "Jonathan Thom",
+        "team_member_role": "DataManager",
+        "team_member_email": "jthom@ssec.wisc.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WI",
+    "site_desc": "The site is located on the shoreline of Lake Mendota on the rooftop of UW-Madison's Center for Limnology.",
+    "grp_location": {
+      "location_lat": "43.0896",
+      "location_long": "-89.4158",
+      "location_elev": "260"
+    },
+    "grp_igbp": {
+      "igbp": "WAT",
+      "igbp_date_start": "201607010000"
+    },
+    "url": "http://flux.aos.wisc.edu/data/",
+    "grp_clim_avg": {
+      "map": "875",
+      "mat": "7.94",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Pnp",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "COND_WATER",
+      "DO",
+      "FC",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "P",
+      "PA",
+      "PCO2",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TW",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1433376",
+      "FLUXNET": "10.17190/AMF/2229386"
+    },
+    "grp_publish_base": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "tower_dates": {
+      "tower_start": "2016",
+      "tower_end": "2024"
+    }
+  },
+  "sha256": "166c084bf3e5f9b459c6e4267aeae6f7a2efa91136b8bf4094fccc2b90f199d1",
+  "field_path": "/values/592",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "aa506e5d260840f0c4ea03e8939722257080c29678dedd376cfadaefe5ca7748"
+}

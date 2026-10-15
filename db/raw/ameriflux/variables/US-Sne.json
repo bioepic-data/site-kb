@@ -1,0 +1,137 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Sne",
+    "site_name": "Sherman Island Restored Wetland",
+    "grp_team_member": [
+      {
+        "team_member_name": "Dennis Baldocchi",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "Baldocchi@berkeley.edu"
+      },
+      {
+        "team_member_name": "Robert Shortt",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "UC Berkeley",
+        "team_member_email": "robert_shortt@berkeley.edu"
+      },
+      {
+        "team_member_name": "Daphne Szutu",
+        "team_member_role": "Technician",
+        "team_member_institution": "UC Berkeley",
+        "team_member_email": "daphneszutu@berkeley.edu"
+      },
+      {
+        "team_member_name": "Joe Verfaillie",
+        "team_member_role": "Technician",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "jverfail@berkeley.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "CA",
+    "site_desc": "A new restored wetland on the old Sherman Pasture site. The new tower is about 67m northwest (300deg) of the old tower site (US-Snd).  On Jan 30, 2020 a temporary tower was set up in the western portion of Sherman Wetland to capture the more vegetated areas and compare with the main tower.",
+    "grp_location": {
+      "location_date_start": "201605240000",
+      "location_lat": "38.0369",
+      "location_long": "-121.7547",
+      "location_elev": "-5"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_comment": "restored wetland with tules and cattails after flooding; pepperweed before flooding"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "311",
+      "mat": "16.09",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Sne",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Sne",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1418684",
+      "FLUXNET": "10.17190/AMF/1871144"
+    },
+    "grp_publish_base": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "grp_publish_fluxnet": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "tower_dates": {
+      "tower_start": "2016",
+      "tower_end": "2021"
+    }
+  },
+  "sha256": "f64049eaf17e0de0ab42c2f954f94ff3a7421ad13e6f9b79d87869c7c941821a",
+  "field_path": "/values/664",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "64dfae8e644741c28c87d0396139cbae5d4ad75811645ddcab0d710d2d80b801"
+}

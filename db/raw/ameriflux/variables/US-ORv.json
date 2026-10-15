@@ -1,0 +1,107 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-ORv",
+    "site_name": "Olentangy River Wetland Research Park",
+    "grp_team_member": [
+      {
+        "team_member_name": "Gil Bohrer",
+        "team_member_role": "PI",
+        "team_member_institution": "The Ohio State University",
+        "team_member_email": "bohrer.17@osu.edu"
+      },
+      {
+        "team_member_name": "Justine Missik",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Ohio State University",
+        "team_member_email": "missik.2@osu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "OH",
+    "site_desc": "The ORWRP site is a 21-ha large-scale, long-term wetland campus facility that is owned by Ohio State University. It is designed to provide teaching, research, and service related to wetland and river science and ecological engineering. The site has been developed in several phases: Phase 1 (1992 - 1994) - Construction of two 2.5-acre deepwater marshes and a river water delivery system began, with pumps installed on the floodplain to bring water from the Olentangy River. In May 1994, one wetland was planted with marsh vegetation, while the other remained as an unplanted control; Phase 2 (1994 - 1999) - Development of a research and teaching infrastructure took place with the construction of boardwalks, a pavilion, and a compound. The creation of the 7-acre naturally flooded oxbow was also included; Phase 3 (2000 - 2003) - As a research building was created, three additional wetlands were created in the vicinity of the building, including a stormwater wetland that receives runoff from the roof of the building; Phase 4 - The current phase involves research access to the Olentangy River.",
+    "grp_location": {
+      "location_lat": "40.0201",
+      "location_long": "-83.0183",
+      "location_elev": "221",
+      "location_comment": "Confirmed by Gil Bohrer"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_date_start": "1994"
+    },
+    "url": "http://flux.org.ohio-state.edu/",
+    "grp_clim_avg": {
+      "map": "1499.1",
+      "mat": "11.63",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-ORv",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-ORv",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "RECO",
+      "RH",
+      "SC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246135",
+      "FLUXNET": "10.17190/AMF/1832164"
+    },
+    "grp_publish_base": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "grp_publish_fluxnet": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "tower_dates": {
+      "tower_start": "2011",
+      "tower_end": "2016"
+    }
+  },
+  "sha256": "3b52117828d26f8a7205f5497080640ae07cf62f3717cdc806b4b540d4160a61",
+  "field_path": "/values/564",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "4083077cb7a875a9ca582bfa4a4f2550ec7d99ef6d35269ee08d022c274ff05a"
+}

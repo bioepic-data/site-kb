@@ -1,0 +1,111 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-AR1",
+    "site_name": "ARM USDA UNL OSU Woodward Switchgrass 1",
+    "grp_team_member": [
+      {
+        "team_member_name": "Dave Billesbach",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Nebraska",
+        "team_member_email": "dbillesbach1@unl.edu"
+      },
+      {
+        "team_member_name": "Margaret Torn",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawerence Berkeley National Lab",
+        "team_member_email": "mstorn@lbl.gov"
+      },
+      {
+        "team_member_name": "Chris Zou",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Oklahoma State University",
+        "team_member_email": "chris.zou@okstate.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "OK",
+    "site_desc": "The ARM USDA UNL OSU Woodward Switchgrass 1 tower is located on public land owned by the USDA-ARS Southern Plains Range Research Station in Woodward, Oklahoma. The site is on a former native prairie that is in the process of changing to switchgrass. A second companion site (ARM USDA UNL OSU Woodward Switchgrass 2) is on a former wheat field. In Spring 2009, the former native prairie site was burned, cattle were put on the pasture to graze down emergent grass, and broadleaf herbicide was sprayed. In Summer 2009, the cattle were removed from the pasture, and the site was sprayed with herbicide to kill all grass. In Spring 2010, prior to the planting of switchgrass, final herbicide was sprayed to kill cheat grass and to control broadleaf plants.",
+    "grp_location": {
+      "location_lat": "36.4267",
+      "location_long": "-99.4200",
+      "location_elev": "611",
+      "location_comment": "From CDIAC Tom Boden database dump"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_date_start": "20100408",
+      "igbp_comment": "Planted Switchgrass"
+    },
+    "url": "http://www.arm.gov/sites/sgp",
+    "grp_clim_avg": {
+      "climate_koeppen": "Dsa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-AR1",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-AR1",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246137",
+      "FLUXNET": "10.17190/AMF/2006965"
+    },
+    "grp_publish_base": [
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "grp_publish_fluxnet": [
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "tower_dates": {
+      "tower_start": "2009",
+      "tower_end": "2012"
+    }
+  },
+  "sha256": "80d1ce524a03853ba39beb82c9e7a6b3accf370595a1fbc1e7a7d8f101a92194",
+  "field_path": "/values/197",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "188f3831a7c0136ea4c08f77976ab187ffb1ebfe922b113c66b53998f021dfb4"
+}

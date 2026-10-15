@@ -1,0 +1,112 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-IAM",
+    "site_name": "Iowa State University Miscanthus",
+    "grp_team_member": [
+      {
+        "team_member_name": "Vanloocke Andy",
+        "team_member_role": "PI",
+        "team_member_institution": "Iowa State University",
+        "team_member_email": "andyvanl@iastate.edu"
+      },
+      {
+        "team_member_name": "Guler Aslan-Sungur",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "Iowa State University",
+        "team_member_email": "gulera@iastate.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IA",
+    "site_desc": "This is a 4 ha (200 m x 200 m) Miscanthus established at the Sustainable Advanced Bioeconomy Research (SABR) farm at Iowa State University. The site has a long history of conventional row-cropping, predominantly corn-soy rotations. In the immediately preceding growing season, soybeans were grown at the SABR farm.",
+    "grp_location": {
+      "location_date_start": "20190601",
+      "location_lat": "41.9994",
+      "location_long": "-93.7042",
+      "location_elev": "314"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Miscanthus x giganteus perennial C4 crop. CRO (Croplands: Lands covered with temporary crops followed by harvest and a bare soil period (e.g., single and multiple cropping systems). Note that perennial woody crops will be classified as the appropriate forest or shrub land cover type.)"
+    },
+    "url": "https://sabr.shinyapps.io/appSABR/",
+    "grp_clim_avg": {
+      "map": "912",
+      "mat": "10.6",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-IAM",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "RH",
+      "SC",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2567983",
+      "FLUXNET": "10.17190/AMF/3027366"
+    },
+    "grp_publish_base": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2019",
+      "tower_end": null
+    }
+  },
+  "sha256": "6f22d2fac27e554ec20174fe231c40d7ceb924ac72db1465f8b8ee30c301282c",
+  "field_path": "/values/388",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "e3c9792dafefee4f8cf31ea7ebe5a960362f8a5a71ef99beb245943e74f6d7db"
+}

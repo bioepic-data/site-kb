@@ -1,0 +1,131 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-UTM",
+    "site_name": "UFLUX Matheson",
+    "grp_team_member": [
+      {
+        "team_member_name": "Kathryn Ladig",
+        "team_member_role": "PI",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "kladig@utah.gov"
+      },
+      {
+        "team_member_name": "Paul Inkenbrandt",
+        "team_member_role": "PI",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "paulinkenbrandt@utah.gov"
+      },
+      {
+        "team_member_name": "Diane Menuz",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "dmenuz@utah.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "UFLUX"
+    ],
+    "state": "UT",
+    "site_desc": "This station is located in a wetland, surrounded by bulrushes",
+    "grp_location": {
+      "location_date_start": "20221019",
+      "location_lat": "38.5879",
+      "location_long": "-109.5775",
+      "location_elev": "1207"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Bulrushes"
+    },
+    "url": "https://geology.utah.gov/utah-flux-network/",
+    "grp_clim_avg": {
+      "map": "240.03",
+      "mat": "13",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-UTM",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Undisturbed"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FC_SSITC_TEST",
+      "G",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LEAF_WET",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PBLH",
+      "RH",
+      "SG",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "TW",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "WTD"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2507521",
+      "FLUXNET": "10.17190/AMF/3365272"
+    },
+    "grp_publish_base": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2022",
+      "tower_end": null
+    }
+  },
+  "sha256": "7b46ef7443bf87af93fe4867974976fdd41fa85ecfecbef85a4f9c9b930e7d35",
+  "field_path": "/values/754",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "a65b130b5c009fad1ef2b3f3442fc75944ae23fe874cacce7ec61ef5c8b6f1db"
+}

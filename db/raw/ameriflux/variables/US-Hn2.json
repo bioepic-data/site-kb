@@ -1,0 +1,123 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Hn2",
+    "site_name": "Hanford 100H grassland",
+    "grp_team_member": [
+      {
+        "team_member_name": "Heping Liu",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "heping.liu@wsu.edu"
+      },
+      {
+        "team_member_name": "Maoyi Huang",
+        "team_member_role": "PI",
+        "team_member_institution": "Pacific Northwest National Laboratory",
+        "team_member_email": "Maoyi.Huang@pnnl.gov"
+      },
+      {
+        "team_member_name": "Xingyuan Chen",
+        "team_member_role": "PI",
+        "team_member_institution": "Pacific Northwest National Laboratory",
+        "team_member_email": "Xingyuan.Chen@pnnl.gov"
+      },
+      {
+        "team_member_name": "Justine Missik",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "justine.missik@wsu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WA",
+    "site_desc": "The site is a riparian grassland ecosystem characterized by a shallow water table.",
+    "grp_location": {
+      "location_lat": "46.6889",
+      "location_long": "-119.4641",
+      "location_elev": "117.5"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": "http://micromet.paccar.wsu.edu/land/",
+    "grp_clim_avg": {
+      "map": "197",
+      "mat": "12.8",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Hn2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Hydrologic event"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "LE",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1562389",
+      "FLUXNET": "10.17190/AMF/1902832"
+    },
+    "grp_publish_base": [
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "grp_publish_fluxnet": [
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "tower_dates": {
+      "tower_start": "2015",
+      "tower_end": null
+    }
+  },
+  "sha256": "53a49b855bc92edeb8d21f4067802a4cfd57a74fcd5494e8793d1b0e24685f0d",
+  "field_path": "/values/369",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c4345f1d531a7dab65779086f14a5256472f4fe42c23b14230994beb160ed3b0"
+}

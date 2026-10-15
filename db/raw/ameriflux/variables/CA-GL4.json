@@ -1,0 +1,92 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-GL4",
+    "site_name": "Nine Mile Lighthouse",
+    "grp_team_member": [
+      {
+        "team_member_name": "Chris Spence",
+        "team_member_role": "PI",
+        "team_member_institution": "Environment and Climate Change Canada",
+        "team_member_email": "chris.spence@ec.gc.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "Ontario",
+    "site_desc": "Nine Mile Lighthouse is located at the south end of Simcoe Island on Lake Ontario. The eddy covariance instrumentation is located on the historic lighthouse, built in 1833, and instrumented with eddy covariance data in 2016 by a network of scientists from both US and Canada (eventually to be called the Great Lakes Evaporation Network (GLEN)). The intent of GLEN has been to provide observations of over-lake meteorology and evaporation, improve forecasting of Great Lakes water levels, and support a wide variety of stakeholders, including the National Weather Service (NWS), Environment and Climate Change Canada, National Oceanic and Atmospheric Administration, U.S. Coast Guard, recreational boaters and commercial shipping, emergency management officials, and the Great Lakes research community.",
+    "grp_location": {
+      "location_date_start": "201205091400",
+      "location_lat": "44.1516",
+      "location_long": "-76.5559",
+      "location_elev": "77",
+      "location_comment": "Instruments mounted to lighthouse on Lake Erie"
+    },
+    "grp_igbp": {
+      "igbp": "WAT",
+      "igbp_date_start": "201611061300",
+      "igbp_comment": "Open water. No vegetation"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "951",
+      "mat": "7.3",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-GL4",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "H",
+      "LE",
+      "LW_IN",
+      "PA",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TAU",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3365233"
+    },
+    "grp_publish_base": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2016",
+      "tower_end": "2026"
+    }
+  },
+  "sha256": "1273f96a7674c38f867b268d7e73a89e493b224e6f8e0f526c4b4435e7d749bf",
+  "field_path": "/values/60",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "fc2c063517fcd143adec859ebef44f54be2cf4d8b38fa67909111dc3abb5a170"
+}

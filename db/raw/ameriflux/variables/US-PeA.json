@@ -1,0 +1,70 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-PeA",
+    "site_name": "5R Pecan Farm Above Canopy",
+    "grp_team_member": [
+      {
+        "team_member_name": "Marguerite Mauritz Tozer",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Texas at El Paso",
+        "team_member_email": "memauritz@utep.edu"
+      },
+      {
+        "team_member_name": "Katya Esquivel Herrera",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of Texas at El Paso",
+        "team_member_email": "kesquivelh@miners.utep.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "CZNet"
+    ],
+    "state": "TX",
+    "site_desc": "The flux tower is located at the 5R farm, a mature pecan orchard approximately 65 km southeast of El Paso, Texas. The pecan trees are over 15 years in average, with a mean tree height of over 12 m. This is a collaborative research site shared between TAMU and UTEP. For this site, two different eddy covariance systems are being installed along with additional sensors. The systems comprise an above canopy one, the one being described here, which also integrates soil moisture and temperature sensors, and a below canopy system. This is meant to capture the degree of coupling between both systems. The above canopy system is deployed on an 18 m tower and started running on May 9 of 2022. The goals for this site include to quantify the carbon and water balance of pecan orchards, examine linkages between water chemistry, inorganic carbonate formation, and tree productivity, quantify and upscale contribution of inorganic carbonate to total C balance, and explore potential for near-surface remote sensing to monitor orchard level C-flux, water dynamics, soil quality, and inorganic soil CO2 efflux.",
+    "grp_location": {
+      "location_date_start": "202205091430",
+      "location_lat": "31.4123",
+      "location_long": "-106.0788",
+      "location_elev": "1092",
+      "location_comment": "Site was built on 2010, with the system being recently inherited."
+    },
+    "grp_igbp": {
+      "igbp": "DBF",
+      "igbp_date_start": "202205091430",
+      "igbp_comment": "Site is a pecan orchard."
+    },
+    "url": "https://www.drylandcz.org/pecan-orchard.html",
+    "grp_clim_avg": {
+      "map": "232.66",
+      "mat": "14.72",
+      "climate_koeppen": "Bwk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-PeA",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {},
+    "grp_publish_base": [],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2022",
+      "tower_end": null
+    }
+  },
+  "sha256": "e2735e3b70cf316e4be509dd1c2e2e981a47324f4864fc9536f24818388e870c",
+  "field_path": "/values/567",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464"
+}

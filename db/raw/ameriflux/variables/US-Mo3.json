@@ -1,0 +1,145 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Mo3",
+    "site_name": "LTAR CMRB Field 3 (CMRB BAU)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Adam Schreiner-McGraw",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Agricultural Research Service, Cropping Systems & Water Quality Research Unit",
+        "team_member_email": "Adam.Schreiner-McGraw@usda.gov"
+      },
+      {
+        "team_member_name": "Jeff Wood",
+        "team_member_role": "AncContact",
+        "team_member_institution": "School of Natural Resources, University of Missouri",
+        "team_member_email": "woodjd@missouri.edu"
+      },
+      {
+        "team_member_name": "Megan Schmiedeler",
+        "team_member_role": "DataManager",
+        "team_member_institution": "USDA Agricultural Research Service, Cropping Systems & Water Quality Research Unit",
+        "team_member_email": "Megan.Schmiedeler@usda.gov"
+      },
+      {
+        "team_member_name": "Ed Winchester",
+        "team_member_role": "Technician",
+        "team_member_institution": "USDA Agricultural Research Service, Cropping Systems & Water Quality Research Unit",
+        "team_member_email": "winchesterEJ@missouri.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTAR",
+      "Phenocam"
+    ],
+    "state": "MO",
+    "site_desc": "Site is in a 20 ha agricultural field near Centralia, MO on a broad, slightly sloped landscape. Currently managed in a corn-soybean rotation for commercial crop production",
+    "grp_location": {
+      "location_date_start": "20160531",
+      "location_lat": "39.2322",
+      "location_long": "-92.1493",
+      "location_elev": "261",
+      "location_comment": "approximate center of 20-ha agricultural field"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Field surrounding areas are generally in grain crop production along with some areas of pasture and hay. Trees are found along some field boundaries and along streams"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "981",
+      "mat": "12",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Mo3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "CO2_SIGMA",
+      "FC",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H2O_SIGMA",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SG",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1870589",
+      "FLUXNET": "10.17190/AMF/2229384"
+    },
+    "grp_publish_base": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "2016",
+      "tower_end": null
+    }
+  },
+  "sha256": "104d321ae1c563d720bb9095ca74f2eb8d9e4e7bb97c5790ad65cfa13cfb52b1",
+  "field_path": "/values/499",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c8d6847ebd20fa5ff4c47db50be0d9850aadf36221e648ab60ac75ca9d8260c3"
+}

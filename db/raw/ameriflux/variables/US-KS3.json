@@ -1,0 +1,117 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-KS3",
+    "site_name": "Kennedy Space Center (salt marsh)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Ross Hinkle",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Central Florida",
+        "team_member_email": "rhinkle@ucf.edu"
+      },
+      {
+        "team_member_name": "Rosvel Bracho",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of Florida",
+        "team_member_email": "rbracho@ufl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "FL",
+    "site_desc": "Salt marsh dominated by Distichlis and being encroached by Mangrove",
+    "grp_location": {
+      "location_date_start": "201712120000",
+      "location_lat": "28.7084",
+      "location_long": "-80.7427",
+      "location_elev": "0",
+      "location_comment": "The site is in T-9 management area at Merritt Island National Wildlife Refuge"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Salt marsh dominated by Distichlis spicata with mixture of Batis and Salicornia.  Encroaching mangrove."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1340",
+      "mat": "22.3",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-KS3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Hydrologic event"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1562390",
+      "FLUXNET": "10.17190/AMF/1881586"
+    },
+    "grp_publish_base": [
+      2018,
+      2019
+    ],
+    "grp_publish_fluxnet": [
+      2018
+    ],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": "2020"
+    }
+  },
+  "sha256": "c0f9fd15415a6d846eb2b9d1709d7eed124731083a1e50d98bd88bb187f78489",
+  "field_path": "/values/437",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "249850099926531eb32c8611459791129af80fd0604190c48f027368e49e6111"
+}

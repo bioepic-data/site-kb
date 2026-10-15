@@ -1,0 +1,107 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "MX-EMg",
+    "site_name": "El Mogor",
+    "grp_team_member": [
+      {
+        "team_member_name": "Stephen H. Bullock",
+        "team_member_role": "PI",
+        "team_member_institution": "Centro de Investigación Científica y de Educación Superior de Ensenada, Baja California",
+        "team_member_email": "sbullock@cicese.edu.mx"
+      },
+      {
+        "team_member_name": "Alejandro Cueva",
+        "team_member_role": "DataManager",
+        "team_member_institution": "El Colegio de la Frontera Sur",
+        "team_member_email": "alejandro.cueva@ecosur.mx"
+      },
+      {
+        "team_member_name": "Eulogio López-Reyes",
+        "team_member_role": "Technician",
+        "team_member_institution": "Centro de Investigación Científica y de Educación Superior de Ensenada, Baja California",
+        "team_member_email": "elopez@cicese.edu.mx"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "MexFlux"
+    ],
+    "state": "Baja California",
+    "site_desc": "The vegetation is Mediterranean-climate sclerophyllous shrubland, predominately chaparral (INEGI, serie 7) with closing patches of smaller deciduous shrubs and herbaceous plants. It is also classified as closed shrubland. The climate type is \"Mediterranean\" (BSls in a modified version of Köppen's system, Garcia 1998). Summer dryness is intensified in years of low winter rainfall. Breezes from the Pacific contribute to early dry-season cloudiness and to dew. Eddy flux measurements began in 2008, 20 years after the last wildfire. The site has been grazed lightly and sporadically by cattle. The site is at the foot of moderate slopes rising to a ridge of c. 700m. The predominant daytime airflow is parallel to the ridge but nighttime flow is often downslope. The soils are apparently deep but stony, as well as sandy. Microbial crusts are common, and Selaginella is common on exposed southerly slopes.",
+    "grp_location": {
+      "location_date_start": "20070725",
+      "location_lat": "32.0298",
+      "location_long": "-116.6045",
+      "location_elev": "409",
+      "location_comment": "This tower is located on the southern flank of the Valle de Guadalupe, about 17 km from the Pacific coast."
+    },
+    "grp_igbp": {
+      "igbp": "CSH"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "281",
+      "mat": "17",
+      "climate_koeppen": "Bsh"
+    },
+    "country": "Mexico",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/MX-EMg",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Drought",
+      "Fire",
+      "Grazing"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O",
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FETCH_70",
+      "FETCH_90",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RH",
+      "SWC",
+      "TA",
+      "TAU",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1717849"
+    },
+    "grp_publish_base": [
+      2015,
+      2016,
+      2017
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2008",
+      "tower_end": null
+    }
+  },
+  "sha256": "fd947e92aed38a417cc8a31c86ec41780d4bee66d9fa46cbd68df93e388f236e",
+  "field_path": "/values/141",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "3eb2c58cb0c4b00cf8f47cf2c17c3f45d4d77dfe5b1c9343142b1da48eaa8cb8"
+}

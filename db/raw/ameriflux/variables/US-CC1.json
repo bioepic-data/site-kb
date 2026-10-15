@@ -1,0 +1,101 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-CC1",
+    "site_name": "Coloma Corn 1",
+    "grp_team_member": [
+      {
+        "team_member_name": "Paul Stoy",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Wisconsin",
+        "team_member_email": "pcstoy@wisc.edu"
+      },
+      {
+        "team_member_name": "Sharifa Brevert",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of Wisconsin",
+        "team_member_email": "brevert@wisc.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WI",
+    "site_desc": "The site is a corn (Zea mays) field on sandy soil",
+    "grp_location": {
+      "location_date_start": "202106241500",
+      "location_lat": "44.0732",
+      "location_long": "-89.6787",
+      "location_elev": "314"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Corn"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "906.5",
+      "mat": "7.5",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-CC1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1865475"
+    },
+    "grp_publish_base": [
+      2021
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2021",
+      "tower_end": "2021"
+    }
+  },
+  "sha256": "97b442b409cac04e21ff4aa8885dd0f1c4de540924c9a28ffbdc9a218882057f",
+  "field_path": "/values/253",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "f3188a76428a0684df6d19c8478da0ed6a5c344409ebcfb4233b7d135f2828a8"
+}

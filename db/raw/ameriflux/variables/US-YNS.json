@@ -1,0 +1,92 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-YNS",
+    "site_name": "North Star Yedoma",
+    "grp_team_member": [
+      {
+        "team_member_name": "Katey Walter Anthony",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Alaska Fairbanks",
+        "team_member_email": "kmwalteranthony@alaska.edu"
+      },
+      {
+        "team_member_name": "Colin Edgar",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of Alaska Fairbanks",
+        "team_member_email": "cedgar3@alaska.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "AK",
+    "site_desc": "Dry hillslope underlain by ice rich permafrost and now covered with native grasses and managed as a rustic golf course.  The land clearing performed decades ago has caused permafrost thawing, surface subsidence, and development of thermokarst mounds or baidjarahks.  No foreign fill materials, pesticides or fertilizers have been used, and the area is not irrigated.  The area outside the flux footprint is second growth deciduous forest with similar soil conditions.",
+    "grp_location": {
+      "location_lat": "64.8939",
+      "location_long": "-147.6374",
+      "location_elev": "186.9"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_comment": "Native grasses and wetland veg, mowed as rustic golf course, some second growth deciduous trees."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "275",
+      "mat": "-2.5",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-YNS",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "H",
+      "LE",
+      "NETRAD",
+      "PA",
+      "P_RAIN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2507523"
+    },
+    "grp_publish_base": [
+      2021,
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2021",
+      "tower_end": null
+    }
+  },
+  "sha256": "78395317c207cddaed5704b2548a165707265ba7eeabeb86ea864bd1a84c5c21",
+  "field_path": "/values/846",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "2d7517051188e8425d0129c7ee442597115fbefcd96dbe18fe77cf3290373d8c"
+}

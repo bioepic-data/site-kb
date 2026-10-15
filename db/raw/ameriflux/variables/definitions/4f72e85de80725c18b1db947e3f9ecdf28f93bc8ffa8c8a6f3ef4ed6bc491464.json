@@ -1,0 +1,1314 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/fp_var",
+  "retrieved_at": "2026-10-15T20:07:14.439588+00:00",
+  "sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "record": {
+    "values": [
+      {
+        "name": "COND_WATER",
+        "type": "AQUATIC",
+        "units": "µS cm-1",
+        "description": "Conductivity (i.e., electrical conductivity) of water",
+        "sequence": 100,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "DO",
+        "type": "AQUATIC",
+        "units": "µmol L-1",
+        "description": "Dissolved oxygen in water",
+        "sequence": 130,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "PCH4",
+        "type": "AQUATIC",
+        "units": "nmolCH4 mol-1",
+        "description": "Dissolved methane (CH4) in water",
+        "sequence": 620,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "PCO2",
+        "type": "AQUATIC",
+        "units": "µmolCO2 mol-1",
+        "description": "Dissolved carbon dioxide (CO2) in water",
+        "sequence": 630,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "PN2O",
+        "type": "AQUATIC",
+        "units": "nmolN2O mol-1",
+        "description": "Dissolved nitrous oxide (N2O) in water",
+        "sequence": 640,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "PPFD_UW_IN",
+        "type": "AQUATIC",
+        "units": "µmolPhotons m-2 s-1",
+        "description": "Photosynthetic photon flux density, underwater, incoming",
+        "sequence": 710,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "TW",
+        "type": "AQUATIC",
+        "units": "deg C",
+        "description": "Water temperature",
+        "sequence": 1250,
+        "model_type": "TEMP",
+        "height_direction": "pos"
+      },
+      {
+        "name": "DBH",
+        "type": "BIOLOGICAL",
+        "units": "cm",
+        "description": "Diameter of tree measured at breast height (1.3m) with continuous dendrometers",
+        "sequence": 120,
+        "model_type": "DEN",
+        "height_direction": "pos"
+      },
+      {
+        "name": "LEAF_WET",
+        "type": "BIOLOGICAL",
+        "units": "%",
+        "description": "Leaf wetness, range 0-100",
+        "sequence": 420,
+        "model_type": "LEAF_WET",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SAP_DT",
+        "type": "BIOLOGICAL",
+        "units": "deg C",
+        "description": "Difference of probes temperature for sapflow measurements",
+        "sequence": 780,
+        "model_type": "SAP",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SAP_FLOW",
+        "type": "BIOLOGICAL",
+        "units": "mmolH2O m-2 s-1",
+        "description": "Sap flow",
+        "sequence": 790,
+        "model_type": "SAP",
+        "height_direction": "pos"
+      },
+      {
+        "name": "T_BOLE",
+        "type": "BIOLOGICAL",
+        "units": "deg C",
+        "description": "Bole temperature",
+        "sequence": 1120,
+        "model_type": "TEMP",
+        "height_direction": "pos"
+      },
+      {
+        "name": "T_CANOPY",
+        "type": "BIOLOGICAL",
+        "units": "deg C",
+        "description": "Temperature of the canopy and/or surface underneath the sensor",
+        "sequence": 1130,
+        "model_type": "TEMP",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FETCH_70",
+        "type": "FOOTPRINT",
+        "units": "m",
+        "description": "Distance at which cross-wind integrated footprint cumulative probability is 70%",
+        "sequence": 190,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "FETCH_80",
+        "type": "FOOTPRINT",
+        "units": "m",
+        "description": "Distance at which cross-wind integrated footprint cumulative probability is 80%",
+        "sequence": 200,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "FETCH_90",
+        "type": "FOOTPRINT",
+        "units": "m",
+        "description": "Distance at which cross-wind integrated footprint cumulative probability is 90%",
+        "sequence": 210,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "FETCH_FILTER",
+        "type": "FOOTPRINT",
+        "units": "nondimensional",
+        "description": "Footprint quality flag (i.e., 0, 1): 0 and 1 indicate data measured when wind coming from direction that should be discarded and kept, respectively",
+        "sequence": 220,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "FETCH_MAX",
+        "type": "FOOTPRINT",
+        "units": "m",
+        "description": "Distance at which footprint contribution is maximum",
+        "sequence": 230,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "CH4",
+        "type": "GASES",
+        "units": "nmolCH4 mol-1",
+        "description": "Methane (CH4) mole fraction in wet air",
+        "sequence": 30,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "CH4_MIXING_RATIO",
+        "type": "GASES",
+        "units": "nmolCH4 mol-1",
+        "description": "Methane (CH4) in mole fraction of dry air",
+        "sequence": 40,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "CO",
+        "type": "GASES",
+        "units": "nmolCO mol-1",
+        "description": "Carbon Monoxide (CO) mole fraction in wet air",
+        "sequence": 50,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "CO2",
+        "type": "GASES",
+        "units": "µmolCO2 mol-1",
+        "description": "Carbon Dioxide (CO2) mole fraction in wet air",
+        "sequence": 60,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "CO2_MIXING_RATIO",
+        "type": "GASES",
+        "units": "µmolCO2 mol-1",
+        "description": "Carbon Dioxide (CO2) in mole fraction of dry air",
+        "sequence": 70,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "CO2_SIGMA",
+        "type": "GASES",
+        "units": "µmolCO2 mol-1",
+        "description": "Standard deviation of carbon dioxide mole fraction in wet air",
+        "sequence": 80,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "CO2C13",
+        "type": "GASES",
+        "units": "‰ (permil)",
+        "description": "Stable isotopic composition of CO2 - C13 (i.e., d13C of CO2)",
+        "sequence": 90,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FC",
+        "type": "GASES",
+        "units": "µmolCO2 m-2 s-1",
+        "description": "Carbon Dioxide (CO2) turbulent flux (no storage correction)",
+        "sequence": 150,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FCH4",
+        "type": "GASES",
+        "units": "nmolCH4 m-2 s-1",
+        "description": "Methane (CH4) turbulent flux (no storage correction)",
+        "sequence": 170,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FN2O",
+        "type": "GASES",
+        "units": "nmolN2O m-2 s-1",
+        "description": "Nitrous oxide (N2O) turbulent flux (no storage correction)",
+        "sequence": 250,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FNO",
+        "type": "GASES",
+        "units": "nmolNO m-2 s-1",
+        "description": "Nitric oxide (NO) turbulent flux (no storage correction)",
+        "sequence": 270,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FNO2",
+        "type": "GASES",
+        "units": "nmolNO2 m-2 s-1",
+        "description": "Nitrogen dioxide (NO2) turbulent flux (no storage correction)",
+        "sequence": 290,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FO3",
+        "type": "GASES",
+        "units": "nmolO3 m-2 s-1",
+        "description": "Ozone (O3) turbulent flux (no storage correction)",
+        "sequence": 310,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "H2O",
+        "type": "GASES",
+        "units": "mmolH2O mol-1",
+        "description": "Water (H2O) vapor in mole fraction of wet air",
+        "sequence": 370,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "H2O_MIXING_RATIO",
+        "type": "GASES",
+        "units": "mmolH2O mol-1",
+        "description": "Water (H2O) vapor in mole fraction of dry air",
+        "sequence": 380,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "H2O_SIGMA",
+        "type": "GASES",
+        "units": "mmolH2O mol-1",
+        "description": "Standard deviation of water vapor mole fraction",
+        "sequence": 390,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "N2O",
+        "type": "GASES",
+        "units": "nmolN2O mol-1",
+        "description": "Nitrous Oxide (N2O) mole fraction in wet air",
+        "sequence": 480,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "N2O_MIXING_RATIO",
+        "type": "GASES",
+        "units": "nmolN2O mol-1",
+        "description": "Nitrous Oxide (N2O) in mole fraction of dry air",
+        "sequence": 490,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "NO",
+        "type": "GASES",
+        "units": "nmolNO mol-1",
+        "description": "Nitric oxide (NO) mole fraction in wet air",
+        "sequence": 540,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "NO2",
+        "type": "GASES",
+        "units": "nmolNO2 mol-1",
+        "description": "Nitrogen dioxide (NO2) mole fraction in wet air",
+        "sequence": 550,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "O3",
+        "type": "GASES",
+        "units": "nmolO3 mol-1",
+        "description": "Ozone (O3) mole fraction in wet air",
+        "sequence": 560,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SC",
+        "type": "GASES",
+        "units": "µmolCO2 m-2 s-1",
+        "description": "Carbon Dioxide (CO2) storage flux",
+        "sequence": 810,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SCH4",
+        "type": "GASES",
+        "units": "nmolCH4 m-2 s-1",
+        "description": "Methane (CH4) storage flux",
+        "sequence": 820,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SN2O",
+        "type": "GASES",
+        "units": "nmolN2O m-2 s-1",
+        "description": "Nitrous oxide (N2O) storage flux",
+        "sequence": 860,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SNO",
+        "type": "GASES",
+        "units": "nmolNO m-2 s-1",
+        "description": "Nitric oxide (NO) storage flux",
+        "sequence": 870,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SNO2",
+        "type": "GASES",
+        "units": "nmolNO2 m-2 s-1",
+        "description": "Nitrogen dioxide (NO2) storage flux",
+        "sequence": 880,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SO2",
+        "type": "GASES",
+        "units": "nmolSO2 mol-1",
+        "description": "Sulfur Dioxide (SO2) mole fraction in wet air",
+        "sequence": 890,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SO3",
+        "type": "GASES",
+        "units": "nmolO3 m-2 s-1",
+        "description": "Ozone (O3) storage flux",
+        "sequence": 900,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FH2O",
+        "type": "HEAT",
+        "units": "mmolH2O m-2 s-1",
+        "description": "Water vapor (H2O) turbulent flux (no storage correction)",
+        "sequence": 235,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "G",
+        "type": "HEAT",
+        "units": "W m-2",
+        "description": "Soil heat flux",
+        "sequence": 330,
+        "model_type": "SOIL_H",
+        "height_direction": "neg"
+      },
+      {
+        "name": "H",
+        "type": "HEAT",
+        "units": "W m-2",
+        "description": "Sensible heat turbulent flux (no storage correction)",
+        "sequence": 350,
+        "model_type": "SA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "LE",
+        "type": "HEAT",
+        "units": "W m-2",
+        "description": "Latent heat turbulent flux (no storage correction)",
+        "sequence": 400,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SB",
+        "type": "HEAT",
+        "units": "W m-2",
+        "description": "Heat storage flux in biomass",
+        "sequence": 800,
+        "model_type": "TEMP",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SG",
+        "type": "HEAT",
+        "units": "W m-2",
+        "description": "Heat storage flux in the soil above the soil heat fluxes measurement",
+        "sequence": 830,
+        "model_type": "TEMP",
+        "height_direction": "neg"
+      },
+      {
+        "name": "SH",
+        "type": "HEAT",
+        "units": "W m-2",
+        "description": "Sensible heat (H) storage flux",
+        "sequence": 840,
+        "model_type": "TEMP",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SLE",
+        "type": "HEAT",
+        "units": "W m-2",
+        "description": "Latent heat (LE) storage flux",
+        "sequence": 850,
+        "model_type": "GA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "PA",
+        "type": "MET_ATM",
+        "units": "kPa",
+        "description": "Atmospheric pressure",
+        "sequence": 600,
+        "model_type": "PRES",
+        "height_direction": "pos"
+      },
+      {
+        "name": "PBLH",
+        "type": "MET_ATM",
+        "units": "m",
+        "description": "Planetary boundary layer height",
+        "sequence": 610,
+        "model_type": "PBLH",
+        "height_direction": "pos"
+      },
+      {
+        "name": "RH",
+        "type": "MET_ATM",
+        "units": "%",
+        "description": "Relative humidity, range 0-100",
+        "sequence": 760,
+        "model_type": "RH",
+        "height_direction": "pos"
+      },
+      {
+        "name": "T_SONIC",
+        "type": "MET_ATM",
+        "units": "deg C",
+        "description": "Sonic temperature",
+        "sequence": 1140,
+        "model_type": "SA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "T_SONIC_SIGMA",
+        "type": "MET_ATM",
+        "units": "deg C",
+        "description": "Standard deviation of sonic temperature",
+        "sequence": 1150,
+        "model_type": "SA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "TA",
+        "type": "MET_ATM",
+        "units": "deg C",
+        "description": "Air temperature",
+        "sequence": 1160,
+        "model_type": "TEMP",
+        "height_direction": "pos"
+      },
+      {
+        "name": "VPD",
+        "type": "MET_ATM",
+        "units": "hPa",
+        "description": "Vapor Pressure Deficit",
+        "sequence": 1290,
+        "model_type": "RH",
+        "height_direction": "pos"
+      },
+      {
+        "name": "D_SNOW",
+        "type": "MET_PRECIP",
+        "units": "cm",
+        "description": "Snow depth",
+        "sequence": 110,
+        "model_type": "SNOW",
+        "height_direction": "pos"
+      },
+      {
+        "name": "P",
+        "type": "MET_PRECIP",
+        "units": "mm",
+        "description": "Precipitation",
+        "sequence": 570,
+        "model_type": "PREC",
+        "height_direction": "pos"
+      },
+      {
+        "name": "P_RAIN",
+        "type": "MET_PRECIP",
+        "units": "mm",
+        "description": "Rainfall",
+        "sequence": 580,
+        "model_type": "RAIN",
+        "height_direction": "pos"
+      },
+      {
+        "name": "P_SNOW",
+        "type": "MET_PRECIP",
+        "units": "mm",
+        "description": "Snowfall",
+        "sequence": 590,
+        "model_type": "PREC",
+        "height_direction": "pos"
+      },
+      {
+        "name": "RUNOFF",
+        "type": "MET_PRECIP",
+        "units": "mm",
+        "description": "Run off",
+        "sequence": 770,
+        "model_type": "RAIN",
+        "height_direction": "pos"
+      },
+      {
+        "name": "STEMFLOW",
+        "type": "MET_PRECIP",
+        "units": "mm",
+        "description": "Excess precipitation that drains from outlying branches and leaves and is channeled through the stems to the ground",
+        "sequence": 1030,
+        "model_type": "RAIN",
+        "height_direction": "pos"
+      },
+      {
+        "name": "THROUGHFALL",
+        "type": "MET_PRECIP",
+        "units": "mm",
+        "description": "Excess precipitation that passes directly through a canopy or drips from wet leaves to the ground",
+        "sequence": 1190,
+        "model_type": "RAIN",
+        "height_direction": "pos"
+      },
+      {
+        "name": "ALB",
+        "type": "MET_RAD",
+        "units": "%",
+        "description": "Albedo, range 0-100",
+        "sequence": 10,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "APAR",
+        "type": "MET_RAD",
+        "units": "µmolPhoton m-2 s-1",
+        "description": "Absorbed PAR",
+        "sequence": 20,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "EVI",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Enhanced Vegetation Index",
+        "sequence": 135,
+        "model_type": "SPEC",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FAPAR",
+        "type": "MET_RAD",
+        "units": "%",
+        "description": "Fraction of absorbed PAR, range 0-100",
+        "sequence": 140,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FIPAR",
+        "type": "MET_RAD",
+        "units": "%",
+        "description": "Fraction of intercepted PAR, range 0-100",
+        "sequence": 240,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "LW_BC_IN",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Longwave radiation, below canopy incoming",
+        "sequence": 430,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "LW_BC_OUT",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Longwave radiation, below canopy outgoing",
+        "sequence": 440,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "LW_IN",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Longwave radiation, incoming",
+        "sequence": 450,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "LW_OUT",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Longwave radiation, outgoing",
+        "sequence": 460,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "MCRI",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Carotenoid Reflectance Index (Gitelson et al., 2002)",
+        "sequence": 465,
+        "model_type": "SPEC",
+        "height_direction": "pos"
+      },
+      {
+        "name": "MTCI",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Meris Terrestrial Chlorophyll Index (Dash and Curran, 2004)",
+        "sequence": 475,
+        "model_type": "SPEC",
+        "height_direction": "pos"
+      },
+      {
+        "name": "NDVI",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Normalized Difference Vegetation Index",
+        "sequence": 510,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "NETRAD",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Net radiation",
+        "sequence": 530,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "NIRV",
+        "type": "MET_RAD",
+        "units": "W m-2 sr-1 nm-1",
+        "description": "Near Infrared Vegetation Index (Badgley et al., 2017)",
+        "sequence": 535,
+        "model_type": "SPEC",
+        "height_direction": "pos"
+      },
+      {
+        "name": "PPFD_BC_IN",
+        "type": "MET_RAD",
+        "units": "µmolPhoton m-2 s-1",
+        "description": "Photosynthetic photon flux density, below canopy incoming",
+        "sequence": 650,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "PPFD_BC_OUT",
+        "type": "MET_RAD",
+        "units": "µmolPhoton m-2 s-1",
+        "description": "Photosynthetic photon flux density, below canopy outgoing",
+        "sequence": 660,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "PPFD_DIF",
+        "type": "MET_RAD",
+        "units": "µmolPhoton m-2 s-1",
+        "description": "Photosynthetic photon flux density, diffuse incoming",
+        "sequence": 670,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "PPFD_DIR",
+        "type": "MET_RAD",
+        "units": "µmolPhoton m-2 s-1",
+        "description": "Photosynthetic photon flux density, direct incoming",
+        "sequence": 680,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "PPFD_IN",
+        "type": "MET_RAD",
+        "units": "µmolPhoton m-2 s-1",
+        "description": "Photosynthetic photon flux density, incoming",
+        "sequence": 690,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "PPFD_OUT",
+        "type": "MET_RAD",
+        "units": "µmolPhoton m-2 s-1",
+        "description": "Photosynthetic photon flux density, outgoing",
+        "sequence": 700,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "PRI",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Photochemical Reflectance Index",
+        "sequence": 720,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "R_UVA",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "UVA radiation, incoming",
+        "sequence": 730,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "R_UVB",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "UVB radiation, incoming",
+        "sequence": 740,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "REDCI",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Red Edge Chlorophyll Index",
+        "sequence": 754,
+        "model_type": "SPEC",
+        "height_direction": "pos"
+      },
+      {
+        "name": "REP",
+        "type": "MET_RAD",
+        "units": "nm",
+        "description": "Red Edge Position (Dash and Curran, 2004)",
+        "sequence": 758,
+        "model_type": "SPEC",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_NIR_IN",
+        "type": "MET_RAD",
+        "units": "W m-2 nm-1",
+        "description": "Radiation (near infra-red band), incoming (hemispherical)",
+        "sequence": 910,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_NIR_OUT",
+        "type": "MET_RAD",
+        "units": "W m-2 sr-1 nm-1",
+        "description": "Radiation (near infra-red band), outgoing",
+        "sequence": 920,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_NIR_REFL",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Reflectance (near infra-red band)",
+        "sequence": 930,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_PRI_REF_IN",
+        "type": "MET_RAD",
+        "units": "W m-2 nm-1",
+        "description": "Radiation for PRI reference band (e.g., 570 nm), incoming (hemispherical)",
+        "sequence": 940,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_PRI_REF_OUT",
+        "type": "MET_RAD",
+        "units": "W m-2 sr-1 nm-1",
+        "description": "Radiation for PRI reference band (e.g., 570 nm), outgoing",
+        "sequence": 950,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_PRI_REF_REFL",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Reflectance for PRI reference band (e.g., 570 nm)",
+        "sequence": 960,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_PRI_TGT_IN",
+        "type": "MET_RAD",
+        "units": "W m-2 nm-1",
+        "description": "Radiation for PRI target band (e.g., 531 nm), incoming (hemispherical)",
+        "sequence": 970,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_PRI_TGT_OUT",
+        "type": "MET_RAD",
+        "units": "W m-2 sr-1 nm-1",
+        "description": "Radiation for PRI target band (e.g., 531 nm), outgoing",
+        "sequence": 980,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_PRI_TGT_REFL",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Reflectance for PRI target band (e.g., 531 nm)",
+        "sequence": 990,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_RED_IN",
+        "type": "MET_RAD",
+        "units": "W m-2 nm-1",
+        "description": "Radiation (red band), incoming (hemispherical)",
+        "sequence": 1000,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_RED_OUT",
+        "type": "MET_RAD",
+        "units": "W m-2 sr-1 nm-1",
+        "description": "Radiation (red band), outgoing",
+        "sequence": 1010,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SPEC_RED_REFL",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Reflectance (red band)",
+        "sequence": 1020,
+        "model_type": "SPECT",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SR",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Simple Ratio",
+        "sequence": 1025,
+        "model_type": "SPEC",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SW_BC_IN",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Shortwave radiation, below canopy incoming",
+        "sequence": 1040,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SW_BC_OUT",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Shortwave radiation, below canopy outgoing",
+        "sequence": 1050,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SW_DIF",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Shortwave radiation, diffuse incoming",
+        "sequence": 1060,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SW_DIR",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Shortwave radiation, direct incoming",
+        "sequence": 1070,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SW_IN",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Shortwave radiation, incoming",
+        "sequence": 1080,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SW_OUT",
+        "type": "MET_RAD",
+        "units": "W m-2",
+        "description": "Shortwave radiation, outgoing",
+        "sequence": 1090,
+        "model_type": "RAD",
+        "height_direction": "pos"
+      },
+      {
+        "name": "TCARI",
+        "type": "MET_RAD",
+        "units": "nondimensional",
+        "description": "Transformed Chlorophyll Absorption in Reflectance Index",
+        "sequence": 1185,
+        "model_type": "SPEC",
+        "height_direction": "pos"
+      },
+      {
+        "name": "SECA",
+        "type": "MET_SOIL",
+        "units": "dS m-1",
+        "description": "Soil apparent Electrical Conductivity",
+        "sequence": 825,
+        "model_type": null,
+        "height_direction": "neg"
+      },
+      {
+        "name": "SWC",
+        "type": "MET_SOIL",
+        "units": "%",
+        "description": "Soil water content (volumetric), range 0-100",
+        "sequence": 1100,
+        "model_type": "SWC",
+        "height_direction": "neg"
+      },
+      {
+        "name": "SWP",
+        "type": "MET_SOIL",
+        "units": "kPa",
+        "description": "Soil water potential",
+        "sequence": 1110,
+        "model_type": "SWC",
+        "height_direction": "neg"
+      },
+      {
+        "name": "TS",
+        "type": "MET_SOIL",
+        "units": "deg C",
+        "description": "Soil temperature",
+        "sequence": 1230,
+        "model_type": "TEMP",
+        "height_direction": "neg"
+      },
+      {
+        "name": "TSN",
+        "type": "MET_SOIL",
+        "units": "deg C",
+        "description": "Snow temperature",
+        "sequence": 1240,
+        "model_type": "TEMP",
+        "height_direction": "pos"
+      },
+      {
+        "name": "WTD",
+        "type": "MET_SOIL",
+        "units": "m",
+        "description": "Water table depth",
+        "sequence": 1340,
+        "model_type": "WTD",
+        "height_direction": "neg"
+      },
+      {
+        "name": "MO_LENGTH",
+        "type": "MET_WIND",
+        "units": "m",
+        "description": "Monin-Obukhov length",
+        "sequence": 470,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "TAU",
+        "type": "MET_WIND",
+        "units": "kg m-1 s-2",
+        "description": "Momentum flux",
+        "sequence": 1170,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "U_SIGMA",
+        "type": "MET_WIND",
+        "units": "m s-1",
+        "description": "Standard deviation of velocity fluctuations (towards main-wind direction after coordinates rotation)",
+        "sequence": 1260,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "USTAR",
+        "type": "MET_WIND",
+        "units": "m s-1",
+        "description": "Friction velocity",
+        "sequence": 1270,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "V_SIGMA",
+        "type": "MET_WIND",
+        "units": "m s-1",
+        "description": "Standard deviation of lateral velocity fluctuations (cross main-wind direction after coordinates rotation)",
+        "sequence": 1280,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "W_SIGMA",
+        "type": "MET_WIND",
+        "units": "m s-1",
+        "description": "Standard deviation of vertical velocity fluctuations",
+        "sequence": 1300,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "WD",
+        "type": "MET_WIND",
+        "units": "Decimal degrees",
+        "description": "Wind direction",
+        "sequence": 1310,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "WD_SIGMA",
+        "type": "MET_WIND",
+        "units": "decimal degree",
+        "description": "Standard deviation of wind direction (Yamartino, 1984)",
+        "sequence": 1315,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "WS",
+        "type": "MET_WIND",
+        "units": "m s-1",
+        "description": "Wind speed",
+        "sequence": 1320,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "WS_MAX",
+        "type": "MET_WIND",
+        "units": "m s-1",
+        "description": "maximum WS in the averaging period",
+        "sequence": 1330,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "ZL",
+        "type": "MET_WIND",
+        "units": "nondimensional",
+        "description": "Monin-Obukhov Stability parameter",
+        "sequence": 1350,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "GPP",
+        "type": "PRODUCTS",
+        "units": "µmolCO2 m-2 s-1",
+        "description": "Gross Primary Productivity",
+        "sequence": 340,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "NEE",
+        "type": "PRODUCTS",
+        "units": "µmolCO2 m-2 s-1",
+        "description": "Net Ecosystem Exchange",
+        "sequence": 520,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "RECO",
+        "type": "PRODUCTS",
+        "units": "µmolCO2 m-2 s-1",
+        "description": "Ecosystem Respiration",
+        "sequence": 750,
+        "model_type": "SAGA",
+        "height_direction": "pos"
+      },
+      {
+        "name": "FC_SSITC_TEST",
+        "type": "QC_FLAG",
+        "units": "nondimensional",
+        "description": "Results of the quality flagging for FC according to Foken et al 2004, based on a combination of Steady State and Integral Turbulence Characteristics tests by Foken and Wichura (1996) (i.e., 0, 1, 2)",
+        "sequence": 160,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "FCH4_SSITC_TEST",
+        "type": "QC_FLAG",
+        "units": "nondimensional",
+        "description": "Results of the quality flagging for FCH4 according to Foken et al 2004, based on a combination of Steady State and Integral Turbulence Characteristics tests by Foken and Wichura (1996) (i.e., 0, 1, 2)",
+        "sequence": 180,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "FN2O_SSITC_TEST",
+        "type": "QC_FLAG",
+        "units": "nondimensional",
+        "description": "Results of the quality flagging for FN2O according to Foken et al 2004, based on a combination of Steady State and Integral Turbulence Characteristics tests by Foken and Wichura (1996) (i.e., 0, 1, 2)",
+        "sequence": 260,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "FNO_SSITC_TEST",
+        "type": "QC_FLAG",
+        "units": "nondimensional",
+        "description": "Results of the quality flagging for FNO according to Foken et al 2004, based on a combination of Steady State and Integral Turbulence Characteristics tests by Foken and Wichura (1996) (i.e., 0, 1, 2)",
+        "sequence": 280,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "FNO2_SSITC_TEST",
+        "type": "QC_FLAG",
+        "units": "nondimensional",
+        "description": "Results of the quality flagging for FNO2 according to Foken et al 2004, based on a combination of Steady State and Integral Turbulence Characteristics tests by Foken and Wichura (1996) (i.e., 0, 1, 2)",
+        "sequence": 300,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "FO3_SSITC_TEST",
+        "type": "QC_FLAG",
+        "units": "nondimensional",
+        "description": "Results of the quality flagging for FO3 according to Foken et al 2004, based on a combination of Steady State and Integral Turbulence Characteristics tests by Foken and Wichura (1996) (i.e., 0, 1, 2)",
+        "sequence": 320,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "H_SSITC_TEST",
+        "type": "QC_FLAG",
+        "units": "nondimensional",
+        "description": "Results of the quality flagging for H according to Foken et al 2004, based on a combination of Steady State and Integral Turbulence Characteristics tests by Foken and Wichura (1996) (i.e., 0, 1, 2)",
+        "sequence": 360,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "LE_SSITC_TEST",
+        "type": "QC_FLAG",
+        "units": "nondimensional",
+        "description": "Results of the quality flagging for LE according to Foken et al 2004, based on a combination of Steady State and Integral Turbulence Characteristics tests by Foken and Wichura (1996) (i.e., 0, 1, 2)",
+        "sequence": 410,
+        "model_type": null,
+        "height_direction": "pos"
+      },
+      {
+        "name": "TAU_SSITC_TEST",
+        "type": "QC_FLAG",
+        "units": "nondimensional",
+        "description": "Results of the quality flagging for TAU according to Foken et al 2004, based on a combination of Steady State and Integral Turbulence Characteristics tests by Foken and Wichura (1996) (i.e., 0, 1, 2)",
+        "sequence": 1180,
+        "model_type": "WIND",
+        "height_direction": "pos"
+      },
+      {
+        "name": "TIMESTAMP",
+        "type": "TIMEKEEPING",
+        "units": "YYYYMMDDHHMM",
+        "description": "ISO timestamp – short format",
+        "sequence": 1200,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "TIMESTAMP_END",
+        "type": "TIMEKEEPING",
+        "units": "YYYYMMDDHHMM",
+        "description": "ISO timestamp end of averaging period - short format (12-digit integer)",
+        "sequence": 1210,
+        "model_type": null,
+        "height_direction": null
+      },
+      {
+        "name": "TIMESTAMP_START",
+        "type": "TIMEKEEPING",
+        "units": "YYYYMMDDHHMM",
+        "description": "ISO timestamp start of averaging period - short format (12-digit integer)",
+        "sequence": 1220,
+        "model_type": null,
+        "height_direction": null
+      }
+    ]
+  }
+}

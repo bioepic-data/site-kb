@@ -1,0 +1,151 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-xHA",
+    "site_name": "NEON Harvard Forest (HARV)",
+    "grp_team_member": [
+      {
+        "team_member_name": "National Ecological Observatory Network",
+        "team_member_role": "PI",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "neon-ameriflux@battelleecology.org"
+      },
+      {
+        "team_member_name": "Adam Young",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "younga1@battelleecology.org"
+      },
+      {
+        "team_member_name": "Christopher Florian",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "cflorian@battelleecology.org"
+      },
+      {
+        "team_member_name": "David Durden",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "ddurden@battelleecology.org"
+      },
+      {
+        "team_member_name": "Cove Sturtevant",
+        "team_member_role": "DataManager",
+        "team_member_institution": "NEON Program, Battelle",
+        "team_member_email": "csturtevant@battelleecology.org"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "NEON",
+      "Phenocam"
+    ],
+    "state": "MA",
+    "site_desc": "The Harvard Forest site is comprised of 3,750 acres of land and multiple research facilities; it is the core NEON site for the Northeast region. Harvard Forest is a department of the Faculty of Arts and Sciences of Harvard University. Representative habitats at Harvard Forest include northern, transition, and central forests; marshes, swamps, and conifer-dominated bogs; and forest plantations. Since its inception in 1907, research and education have been the focus of Harvard Forest: the original purpose was to develop a field laboratory for students, a research center in forestry and related disciplines, and a demonstration of practical sustained forestry. Since 1988, Harvard Forest has been a Long-Term Ecological Research site, funded by the National Science Foundation to conduct integrated, long-term studies of forest dynamics.",
+    "grp_location": {
+      "location_lat": "42.5369",
+      "location_long": "-72.1727",
+      "location_elev": "351"
+    },
+    "grp_igbp": {
+      "igbp": "DBF"
+    },
+    "url": "http://www.neonscience.org/field-sites/field-sites-map/HARV",
+    "grp_clim_avg": {
+      "map": "1071",
+      "mat": "6.62",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-xHA",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Forestry"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O",
+      "Isotopes"
+    ],
+    "base_variables": [
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2C13",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_BC_IN",
+      "LW_BC_OUT",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_BC_IN",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "T_CANOPY",
+      "THROUGHFALL",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1562391",
+      "FLUXNET": "10.17190/AMF/1985441"
+    },
+    "grp_publish_base": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": null
+    }
+  },
+  "sha256": "2f784e0d9586d77e16ccb1a96c7d4fb9f980c9b616af88280988e1253df2d405",
+  "field_path": "/values/811",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "973045d01ea1c657bd23126094096f02f486fd301a491547c4758a41b295cfa3"
+}

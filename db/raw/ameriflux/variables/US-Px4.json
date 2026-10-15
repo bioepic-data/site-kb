@@ -1,0 +1,77 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Px4",
+    "site_name": "Phoenix, Encanto Vehicle Lot",
+    "grp_team_member": [
+      {
+        "team_member_name": "Enrique R. Vivoni",
+        "team_member_role": "PI",
+        "team_member_institution": "Arizona State University",
+        "team_member_email": "vivoni@asu.edu"
+      },
+      {
+        "team_member_name": "Eli Perez-Ruiz",
+        "team_member_role": "AncContact",
+        "team_member_email": "eli.perez@asu.edu"
+      },
+      {
+        "team_member_name": "Nidia E. Rojas-Robles",
+        "team_member_role": "DataManager",
+        "team_member_email": "nrojasro@asu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "AZ",
+    "site_desc": "The study site is in the southwest corner of the Encanto Golf Course in Phoenix, Arizona. The site is in a vehicle parking lot next to Encanto Boulevard, about 500 m south of another eddy covariance site within Encanto Golf Course (US-Px2). The soil is well-drained Mohall clay loam but is overlain by asphalt. The low-density urban landscape surrounding the golf park consists of single-family residences, commercial areas, streets, and parking lots.",
+    "grp_location": {
+      "location_date_start": "202406130000",
+      "location_lat": "33.4734",
+      "location_long": "-112.0985",
+      "location_elev": "331",
+      "location_comment": "Located within a parking lot, surrounded by single story buildings and with a nearby gas station."
+    },
+    "grp_igbp": {
+      "igbp": "URB",
+      "igbp_date_start": "20240613",
+      "igbp_comment": "The only vegetation near the tower is turf grass, which is managed with different treatments in fairways and rough areas, the coverage is nearly continuous with a few scattered palms in rough areas and trees lining nearby streets."
+    },
+    "url": "https://hydrology.asu.edu/asu-water-research-innovation-field-sites/",
+    "grp_clim_avg": {
+      "map": "203",
+      "mat": "24.2",
+      "climate_koeppen": "Bwh"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Px4",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Drought",
+      "Land cover change",
+      "Temperature extreme"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {},
+    "grp_publish_base": [],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": null
+    }
+  },
+  "sha256": "1ab0efe21e4c09272d141c088087957f5d2fc96bdb26d845845ab609c99eeced",
+  "field_path": "/values/601",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464"
+}

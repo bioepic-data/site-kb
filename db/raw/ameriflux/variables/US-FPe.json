@@ -1,0 +1,111 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-FPe",
+    "site_name": "Fort Peck",
+    "grp_team_member": [
+      {
+        "team_member_name": "Tilden Meyers",
+        "team_member_role": "PI",
+        "team_member_institution": "NOAA/ARL",
+        "team_member_email": "Tilden.Meyers@noaa.gov"
+      },
+      {
+        "team_member_name": "Praveena Krishnan",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "NOAA/ARL/ATDD",
+        "team_member_email": "Praveena.Krishnan@noaa.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MT",
+    "site_desc": "The Fort Peck, Montana station is located on the Fort Peck Tribes Reservation, approximately fifteen miles north of Poplar, Montana. The tower is located to the west of the SURFRAD instrumentation and was installed in November of 1999.",
+    "grp_location": {
+      "location_lat": "48.3077",
+      "location_long": "-105.1019",
+      "location_elev": "634",
+      "location_comment": "http://public.ornl.gov/ameriflux/Site_Info/siteInfo.cfm?KEYID=us.fort_peck.01"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_comment": "http://public.ornl.gov/ameriflux/Site_Info/siteInfo.cfm?KEYID=us.fort_peck.01"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "334.8",
+      "mat": "5.48",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-FPe",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246053"
+    },
+    "grp_publish_base": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2000",
+      "tower_end": null
+    }
+  },
+  "sha256": "f9f12f7fa6cf06e867fd593b1874c2b74c25dda5cdb9bd2c62859c7d3bd54232",
+  "field_path": "/values/337",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ef01cba147d0f24ee8bc0f884ae28e53ccb4acde710d6279066dd41f3e3fa11f"
+}

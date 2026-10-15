@@ -1,0 +1,140 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Hsm",
+    "site_name": "Hill Slough Marsh",
+    "grp_team_member": [
+      {
+        "team_member_name": "Dennis Baldocchi",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "baldocchi@berkeley.edu"
+      },
+      {
+        "team_member_name": "Joe Verfaillie",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "jverfail@berkeley.edu"
+      },
+      {
+        "team_member_name": "Kyle Delwiche",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "kdelwiche@berkeley.edu"
+      },
+      {
+        "team_member_name": "Daphne Szutu",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "daphneszutu@berkeley.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "CA",
+    "site_desc": "The site is currently a diked marsh - upland ecotone located at the northern Suisun Marsh. It will undergo tidal restoration in Fall 2021. Restoration work is done by Ducks Unlimited Inc. and will cover an area of 649 acres. After levee breaches, the site tower will be in a high marsh system. Water level at high tide is estimated to be 0.5-1 m above the soil. Ducks Unlimited, Inc. and the Berkeley Biometeorology lab are working together to evaluate the effects of the proposed tidal marsh restoration project.",
+    "grp_location": {
+      "location_date_start": "20210311",
+      "location_lat": "38.2368",
+      "location_long": "-122.0212",
+      "location_elev": "1.113",
+      "location_comment": "The eddy covariance tower is installed on a fenced platform due to its proximity to the urban area."
+    },
+    "grp_igbp": {
+      "igbp": "WET"
+    },
+    "url": "https://nature.berkeley.edu/biometlab/sites.php",
+    "grp_clim_avg": {
+      "map": "450",
+      "mat": "15.6",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Hsm",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Hydrologic event"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "DO",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NDVI",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1890483",
+      "FLUXNET": "10.17190/AMF/2571131"
+    },
+    "grp_publish_base": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "tower_dates": {
+      "tower_start": "2021",
+      "tower_end": null
+    }
+  },
+  "sha256": "99f116f67e8c3f7344ad911494d37a83d38e1c920af7be21c526bd5c1af1e7ab",
+  "field_path": "/values/381",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "9cd7855f27629ba99154a7e38d49a4f7878428089f3f1d741c72ed491937b87c"
+}

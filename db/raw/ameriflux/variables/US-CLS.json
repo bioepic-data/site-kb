@@ -1,0 +1,122 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-CLS",
+    "site_name": "Coles Farm South",
+    "grp_team_member": [
+      {
+        "team_member_name": "John H. Prueger",
+        "team_member_role": "PI",
+        "team_member_institution": "National Laboratory for Agriculture and The Environment",
+        "team_member_email": "john.prueger@usda.gov"
+      },
+      {
+        "team_member_name": "Samantha Purdy",
+        "team_member_role": "DataManager",
+        "team_member_institution": "National Laboratory for Agriculture and The Environment",
+        "team_member_email": "samantha.purdy@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "IA",
+    "site_desc": "The land was given to Iowa State University in 1974, and was a corn-soybean rotation with conventional tillage operation until 2015.  In 2016, the management was moved to strip tillage corn-soybean rotation with cover crops.  The field is located east of Williams, IA.",
+    "grp_location": {
+      "location_date_start": "201605231300",
+      "location_lat": "42.4826",
+      "location_long": "-93.5249",
+      "location_elev": "354"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "201601010000",
+      "igbp_comment": "Crop rotation system with maize and soybean."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "981",
+      "mat": "8",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-CLS",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "CO2_SIGMA",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "RECO",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3023114"
+    },
+    "grp_publish_base": [
+      2025
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2016",
+      "tower_end": null
+    }
+  },
+  "sha256": "4727d97879b6c8ee614fa062c6c5c154761d620ddabf3c454d68d551ee95c223",
+  "field_path": "/values/265",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "2688ffd2202e22ca48fb3d57862d80dfc12c161966fee2048894e6044f191783"
+}

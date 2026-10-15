@@ -1,0 +1,83 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-CZ4",
+    "site_name": "Sierra Critical Zone, Sierra Transect, Subalpine Forest, Shorthair",
+    "grp_team_member": [
+      {
+        "team_member_name": "Michael Goulden",
+        "team_member_role": "PI",
+        "team_member_institution": "UC Irvine",
+        "team_member_email": "mgoulden@uci.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "Half hourly data are available at https://www.ess.uci.edu/~california/. This site is one of four Southern Sierra Critical Zone Observatory flux towers operated along an elevation gradient (sites are USCZ1, USCZ2, USCZ3 and USCZ4). This site is a lodgepole pine subalpine woodland with no recent disturbance.",
+    "grp_location": {
+      "location_lat": "37.0675",
+      "location_long": "-118.9867",
+      "location_elev": "2710"
+    },
+    "grp_igbp": {
+      "igbp": "ENF"
+    },
+    "url": "https://www.ess.uci.edu/~california/",
+    "grp_clim_avg": {},
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-CZ4",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Undisturbed"
+    ],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NDVI",
+      "NETRAD",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1419511"
+    },
+    "grp_publish_base": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2009",
+      "tower_end": null
+    }
+  },
+  "sha256": "f2aefbbd5c30ef05ef548c80b916e46bcbb1b90efac7ae68cf20caa7bab83c17",
+  "field_path": "/values/298",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "92d053921477c7a1bda664ce38b60caf8bfffdd61f5f387a83b5abeb8ed07bef"
+}

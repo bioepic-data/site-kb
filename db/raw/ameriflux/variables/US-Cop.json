@@ -1,0 +1,94 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Cop",
+    "site_name": "Corral Pocket",
+    "grp_team_member": [
+      {
+        "team_member_name": "David Bowling",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Utah",
+        "team_member_email": "david.bowling@utah.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "UT",
+    "site_desc": "The Corral Pocket site is located in a semi-arid grassland in southeastern Utah, just east of Canyonlands National park. For the greater part of the year, 38-80% of the ground is essentially bare. Vegetation is primarily native perennial C3/C4 grasses with annual ground converge ranging from 8-35%. Leaving the remaining 0-15% coverage to interspersed annual grasses, the remaining 0-15% coverage is occupied by annual grasses. 6-8 weeks during the late fall or winter, Livestock grazing is responsible for the majority of aboveground vegetation loss and subsequent high variability of ground coverage.",
+    "grp_location": {
+      "location_lat": "38.0900",
+      "location_long": "-109.3900",
+      "location_elev": "1520",
+      "location_comment": "From CDIAC Tom Boden database dump"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": "http://esp.cr.usgs.gov/info/sw/clim-met/corral.html",
+    "grp_clim_avg": {},
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Cop",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Cop",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246129",
+      "FLUXNET": "10.17190/AMF/2006972"
+    },
+    "grp_publish_base": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007
+    ],
+    "grp_publish_fluxnet": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007
+    ],
+    "tower_dates": {
+      "tower_start": "2001",
+      "tower_end": "2007"
+    }
+  },
+  "sha256": "9478229ca19fffe3936d6bfd57f599705c78f138e02cad12b3316d49a72063da",
+  "field_path": "/values/270",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "8fa49930efe982687779cfa90b29e7b8b8e4b451cccdc6c840b3ea455d609f98"
+}

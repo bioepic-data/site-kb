@@ -1,0 +1,122 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Act",
+    "site_name": "Acton Lake Flux Tower Site",
+    "grp_team_member": [
+      {
+        "team_member_name": "Sarah Waldo",
+        "team_member_role": "PI",
+        "team_member_institution": "US EPA Office of Research and Development",
+        "team_member_email": "waldo.sarah@epa.gov"
+      },
+      {
+        "team_member_name": "Jake Beaulieu",
+        "team_member_role": "AncContact",
+        "team_member_institution": "US EPA Office of Research and Development",
+        "team_member_email": "beaulieu.jake@epa.gov"
+      },
+      {
+        "team_member_name": "John Walker",
+        "team_member_role": "AncContact",
+        "team_member_institution": "US EPA Office of Research and Development",
+        "team_member_email": "walker.johnt@epa.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "OH",
+    "site_desc": "This tower is located at Acton Lake, a eutrophic reservoir immediately surrounded by forest but draining an agricultural watershed in Hueston Woods State Park outside of Oxford, OH. The EC instrumentation was originally deployed 25 m from shore on a dock piling. In April of 2018 a lake tower was installed >200 m from the closest shoreline. The EC instrumentation was deployed on this aquatic tower on 7 May 2018.",
+    "grp_location": {
+      "location_date_start": "201805071530",
+      "location_lat": "39.5820",
+      "location_long": "-84.7550",
+      "location_elev": "263"
+    },
+    "grp_igbp": {
+      "igbp": "WAT"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "907",
+      "mat": "11.1",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Act",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O",
+      "CH4"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_FILTER",
+      "FETCH_MAX",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "P_RAIN",
+      "RH",
+      "SC",
+      "SCH4",
+      "SH",
+      "SLE",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "TW",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1846660"
+    },
+    "grp_publish_base": [
+      2017,
+      2018
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": "2019"
+    }
+  },
+  "sha256": "c00fdd68e05e9662aa550dfaabff8312756b94add070238f28712606e235e8e8",
+  "field_path": "/values/187",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "8957a9408e3c3007d98f5d57b92f5b5c1842e3228de4ffcf6717474409d814a7"
+}

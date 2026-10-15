@@ -1,0 +1,123 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-BFS",
+    "site_name": "Robert J. Bernard Biological Field Station",
+    "grp_team_member": [
+      {
+        "team_member_name": "Sarah Kavassalis",
+        "team_member_role": "PI",
+        "team_member_institution": "Harvey Mudd College",
+        "team_member_email": "skavassalis@g.hmc.edu"
+      },
+      {
+        "team_member_name": "Helen Chen",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Harvey Mudd College / Colorado State",
+        "team_member_email": "hechen@g.hmc.edu"
+      },
+      {
+        "team_member_name": "Matthew Simpson",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Harvey Mudd College",
+        "team_member_email": "masimpson@g.hmc.edu"
+      },
+      {
+        "team_member_name": "Stephanie Fulcar",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Harvey Mudd College",
+        "team_member_email": "sfulcar@g.hmc.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "The Bernard Field Station (BFS), an 86-acre academic resource of the Claremont University Consortium, is situated within the campus of The Claremont Colleges in Claremont, CA. Its principal habitats comprise coastal sage scrub, Riversidian alluvial fan scrub, live oak forest, and grassland. The eddy covariance tower is located in the 'neck' of the field station, home to a protected area of Coastal Sage Scrub, dominated by Artemisia californica. BFS is within walking distance of Harvey Mudd College, serving as an invaluable outdoor laboratory resource for the students. With extensive flora and fauna, including over 170 species of birds, 27 species of mammals, and more than 700 species of insects, it embodies a significant ecological haven in the region that is otherwise Southern California suburbs.",
+    "grp_location": {
+      "location_date_start": "202406230900",
+      "location_lat": "34.1131",
+      "location_long": "-117.7118",
+      "location_elev": "410"
+    },
+    "grp_igbp": {
+      "igbp": "OSH",
+      "igbp_date_start": "202406230900"
+    },
+    "url": "https://www.ficus.space/bfs",
+    "grp_clim_avg": {
+      "map": "343",
+      "mat": "17.22",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-BFS",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_FILTER",
+      "FETCH_MAX",
+      "FH2O",
+      "H",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LEAF_WET",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3004319"
+    },
+    "grp_publish_base": [
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": null
+    }
+  },
+  "sha256": "7f27422e8d377ea93dc3b6da75196b86d75d0fe7e9a1d623ff4a77be4ed6c537",
+  "field_path": "/values/221",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c5c7d9eb5b83e472f015a8972c7566b6839295950880d3b666e0a40111319a4b"
+}

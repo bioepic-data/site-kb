@@ -1,0 +1,116 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-CS1",
+    "site_name": "Central Sands Irrigated Agricultural Field",
+    "grp_team_member": [
+      {
+        "team_member_name": "Ankur Desai",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Wisconsin-Madison",
+        "team_member_email": "desai@aos.wisc.edu"
+      },
+      {
+        "team_member_name": "Jonathan Thom",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of Wisconsin-Madison",
+        "team_member_email": "jonathan.thom@ssec.wisc.edu"
+      },
+      {
+        "team_member_name": "Ammara Talib",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Wisconsin",
+        "team_member_email": "talib@wisc.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WI",
+    "site_desc": "Heartland Farms Center-Pivot Irrigated Potato Field",
+    "grp_location": {
+      "location_date_start": "201806291800",
+      "location_lat": "44.1031",
+      "location_long": "-89.5379",
+      "location_elev": "328",
+      "location_comment": "Approximation based on Google maps. GPS coords forthcoming"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "2018 is Potatoes, 3-yr rotation"
+    },
+    "url": "http://flux.aos.wisc.edu/twiki/bin/view/Main/ChEASData",
+    "grp_clim_avg": {
+      "map": "830",
+      "mat": "7",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-CS1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_90",
+      "FETCH_MAX",
+      "GPP",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1617710",
+      "FLUXNET": "10.17190/AMF/1881576"
+    },
+    "grp_publish_base": [
+      2018,
+      2019
+    ],
+    "grp_publish_fluxnet": [
+      2018,
+      2019
+    ],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": "2019"
+    }
+  },
+  "sha256": "6a7aac1255bc568944da28c60fab338d2b78176656d282ab991a5025bc378133",
+  "field_path": "/values/277",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "1e331831297e3791b287ce996ce3ff3fac94a6c4da695fbb17f102bb587df7d6"
+}

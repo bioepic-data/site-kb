@@ -1,0 +1,121 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Hn3",
+    "site_name": "Hanford 100H sagebrush",
+    "grp_team_member": [
+      {
+        "team_member_name": "Heping Liu",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "heping.liu@wsu.edu"
+      },
+      {
+        "team_member_name": "Maoyi Huang",
+        "team_member_role": "PI",
+        "team_member_institution": "Pacific Northwest National Laboratory",
+        "team_member_email": "Maoyi.Huang@pnnl.gov"
+      },
+      {
+        "team_member_name": "Xingyuan Chen",
+        "team_member_role": "PI",
+        "team_member_institution": "Pacific Northwest National Laboratory",
+        "team_member_email": "Xingyuan.Chen@pnnl.gov"
+      },
+      {
+        "team_member_name": "Justine Missik",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "justine.missik@wsu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WA",
+    "site_desc": "The site is a riparian sagebrush-steppe ecosystem characterized by a shallow water table.",
+    "grp_location": {
+      "location_lat": "46.6878",
+      "location_long": "-119.4614",
+      "location_elev": "120.9"
+    },
+    "grp_igbp": {
+      "igbp": "OSH"
+    },
+    "url": "http://micromet.paccar.wsu.edu/land/",
+    "grp_clim_avg": {
+      "map": "197",
+      "mat": "12.8",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Hn3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "APAR",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1543379",
+      "FLUXNET": "10.17190/AMF/1881580"
+    },
+    "grp_publish_base": [
+      2017,
+      2018
+    ],
+    "grp_publish_fluxnet": [
+      2017,
+      2018
+    ],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": null
+    }
+  },
+  "sha256": "bbe1ccac45bf58d8bafcc423a5383a3d9f4f289d486074923a4bf42dd7e63577",
+  "field_path": "/values/370",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "6fc86f44cec862d0162fc52409659efaaeb83d964058209ad2251d9cdd2e5129"
+}

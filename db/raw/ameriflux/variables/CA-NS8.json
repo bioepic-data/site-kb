@@ -1,0 +1,99 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-NS8",
+    "site_name": "UCI-2003 burn site",
+    "grp_team_member": [
+      {
+        "team_member_name": "Mike Goulden",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California - Irvine",
+        "team_member_email": "mgoulden@uci.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": null,
+    "site_desc": "The UCI-2003 site is located in a continental boreal forest, dominated by black spruce trees, within the BOREAS northern study area in central Manitoba, Canada. The site is a member of a chronological series of sites that are representative secondary succession growth stages after large stand replacement fires. Black spruce trees undergo a slow growth process enabling the accurate determination of the chronosequence of stand age disturbance. Additionally, boreal forests make up approximately 25% of forest ecosystems on earth. With both of these in mind, the UCI sites provide an excellent location to study the CO2 exchange between the atmosphere and boreal forest ecosystems as a function of sequential wildfires.",
+    "grp_location": {
+      "location_lat": "55.8981",
+      "location_long": "-98.2161",
+      "location_elev": "274"
+    },
+    "grp_igbp": {
+      "igbp": "ENF"
+    },
+    "url": "http://www.ess.uci.edu/~boreal_canada/B2003_Page.html",
+    "grp_clim_avg": {
+      "map": "506.69",
+      "mat": "-2.71",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-NS8",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246005"
+    },
+    "grp_publish_base": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2001",
+      "tower_end": "2005"
+    }
+  },
+  "sha256": "d92b2f20b4c63e6507df846f3b02c168e5a467286951cf6ab192a82e17d3a071",
+  "field_path": "/values/88",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "3b9b5d7fabbccf504769e0528f2c834dab2496d7bf6ac4a2f2b3e56a444b518f"
+}

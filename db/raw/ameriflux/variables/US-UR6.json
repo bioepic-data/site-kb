@@ -1,0 +1,133 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-UR6",
+    "site_name": "Napi - UCRB",
+    "grp_team_member": [
+      {
+        "team_member_name": "Christopher Neale",
+        "team_member_role": "PI",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "cneale@nebraska.edu"
+      },
+      {
+        "team_member_name": "Ivo Zution Goncalves",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "izutiongoncalves2@unl.edu"
+      },
+      {
+        "team_member_name": "Randall Ritzema",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "rritzema@nebraska.edu"
+      },
+      {
+        "team_member_name": "Sammy Akasheh",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "sammy.akasheh@unl.edu"
+      },
+      {
+        "team_member_name": "Regiane de Carvalho Bispo",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "rdecarvalhobispo2@unl.edu"
+      },
+      {
+        "team_member_name": "Ashish Masih",
+        "team_member_role": "Technician",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "amasih2@unl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "NM",
+    "site_desc": "This site is located in Farmington, New Mexico, within a flat terrain and irrigated by a center pivot system. The region has a semi-arid climate, with warm summers and mild winters. The area is predominantly covered by alfalfa, which thrives in the irrigated conditions.",
+    "grp_location": {
+      "location_date_start": "20240509",
+      "location_lat": "36.5699",
+      "location_long": "-108.1125",
+      "location_elev": "1770",
+      "location_comment": "A site irrigated by a center pivot system."
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Alfalfa"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "200",
+      "mat": "12",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-UR6",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FH2O",
+      "G",
+      "GPP",
+      "H",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RECO",
+      "RH",
+      "SC",
+      "SG",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2567992"
+    },
+    "grp_publish_base": [
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": null
+    }
+  },
+  "sha256": "3d7480c44f171997a96e304da521001e5cc598f34b7f3f224cf1a4515e7a625b",
+  "field_path": "/values/743",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "e26f4e2a35f8b5e1769b1073d64a325c6c7e45985fd2fb0c446db8523865c9d7"
+}

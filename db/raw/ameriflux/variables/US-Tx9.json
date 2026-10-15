@@ -1,0 +1,78 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Tx9",
+    "site_name": "Sargent Unit Salt Marsh",
+    "grp_team_member": [
+      {
+        "team_member_name": "Binayak Mohanty",
+        "team_member_role": "PI",
+        "team_member_institution": "Texas A&M University",
+        "team_member_email": "bmohanty@tamu.edu"
+      },
+      {
+        "team_member_name": "Beomseok Chun",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Texas A&M University",
+        "team_member_email": "cbsuk97@tamu.edu"
+      },
+      {
+        "team_member_name": "Deanroy Mbabazi",
+        "team_member_role": "Technician",
+        "team_member_institution": "Texas A&M University",
+        "team_member_email": "dmbabazi@tamu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "TX",
+    "site_desc": "This tower site is located in the San Bernard Wildlife Refuge, which was established in 1969.  It is part of the National Wildlife Refuge System, a national network of lands and waters set aside for the benefit of wildlife, habitat and outdoor recreation. The Refuge provides a vital corridor of habitat for migrating and wintering birds, stretching inland from the Gulf beaches, through the salt marshes (this site - US-Tx9), and into the bottomland forests (US-Tx8) of the Brazos and San Bernard River basins.",
+    "grp_location": {
+      "location_lat": "28.7805",
+      "location_long": "-95.6144",
+      "location_elev": "0"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Tidally influenced salt marsh"
+    },
+    "url": "http://two.tamu.edu/sites/primary/susm.aspx",
+    "grp_clim_avg": {
+      "map": "1245",
+      "mat": "21.15",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Tx9",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Drought",
+      "Grazing",
+      "Hydrologic event",
+      "Land cover change",
+      "Storm or wind"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {},
+    "grp_publish_base": [],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": null
+    }
+  },
+  "sha256": "8d244c9965f05f61957b65c397e15a54b627099bc322a033987bb592a6747552",
+  "field_path": "/values/720",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464"
+}

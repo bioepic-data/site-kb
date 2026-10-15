@@ -1,0 +1,97 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Wwt",
+    "site_name": "Willamette Wheat",
+    "grp_team_member": [
+      {
+        "team_member_name": "Bev Law",
+        "team_member_role": "PI",
+        "team_member_institution": "Oregon State University",
+        "team_member_email": "bev.law@oregonstate.edu"
+      },
+      {
+        "team_member_name": "Chad Hanson",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Oregon State University",
+        "team_member_email": "chad.hanson@oregonstate.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "OR",
+    "site_desc": "The site was established in summer 2014 and is part of the Oregon eddy covariance flux tower network . Meteorological variables such as temperature, humidity, solar irradiance and wind are measured at this site. Turbulent fluxes of water vapor, carbon dioxide and heat are observed and stored as 30 minute averages. The crop changes periodically and rye grass and fescue is grown alternately at this site located in Oregon's Willamette Valley with its relatively mild climate. The Wheat site is also part of the PhenoCam network operated by Harvard University and the University of New Hampshire.",
+    "grp_location": {
+      "location_lat": "45.1089",
+      "location_long": "-122.6664",
+      "location_elev": "52"
+    },
+    "grp_igbp": {
+      "igbp": "CRO"
+    },
+    "url": "http://terraweb.forestry.oregonstate.edu/wheat.htm",
+    "grp_clim_avg": {
+      "map": "1194",
+      "mat": "11.58",
+      "climate_koeppen": "Csb"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Wwt",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "FC",
+      "GPP",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1825941"
+    },
+    "grp_publish_base": [
+      2014,
+      2015
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2014",
+      "tower_end": "2016"
+    }
+  },
+  "sha256": "449e2ea64e7a4d155b8d902a8d6e9f61d84cf0100a47e956a09a0a590ea65fcc",
+  "field_path": "/values/797",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "5162d8d0289934995f8214bc11c2aa19b34a48d3b2c04c1346f57a7243c91210"
+}

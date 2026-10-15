@@ -1,0 +1,117 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Rwe",
+    "site_name": "RCEW Reynolds Mountain East",
+    "grp_team_member": [
+      {
+        "team_member_name": "Gerald Flerchinger",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Agricultural Research Service",
+        "team_member_email": "gerald.flerchinger@usda.gov"
+      },
+      {
+        "team_member_name": "Michele L. Reba",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Agricultural Research Service",
+        "team_member_email": "michele.reba@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "ID",
+    "site_desc": "The site is located on the USDA-ARS's Reynolds Creek Experimental Watershed.  It is a mixed sagebrush site on land managed by USDI Bureau of Land Management.",
+    "grp_location": {
+      "location_date_start": "19830224",
+      "location_lat": "43.0653",
+      "location_long": "-116.7591",
+      "location_elev": "2098",
+      "location_comment": "Full meteorological station has been in place since 1983; streamflow and precipitation go much further back."
+    },
+    "grp_igbp": {
+      "igbp": "CSH",
+      "igbp_comment": "The site is a grazing alotment with light cattle grazing in summer."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "800",
+      "mat": "5.4",
+      "climate_koeppen": "Bsh"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Rwe",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "D_SNOW",
+      "FC",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_FILTER",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "RH",
+      "SC",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1617721",
+      "FLUXNET": "10.17190/AMF/1871143"
+    },
+    "grp_publish_base": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007
+    ],
+    "grp_publish_fluxnet": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007
+    ],
+    "tower_dates": {
+      "tower_start": "2003",
+      "tower_end": "2007"
+    }
+  },
+  "sha256": "8a0a93f9f9bd6c43022cacc705fee3440e945cd75e4190d4b50af413756b34bf",
+  "field_path": "/values/630",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "e846cfd60bb66af97d429e71fcd0d82a4f2ba3eadc539ba124c083da01923891"
+}

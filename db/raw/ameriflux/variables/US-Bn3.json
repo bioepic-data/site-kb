@@ -1,0 +1,102 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Bn3",
+    "site_name": "Bonanza Creek, 1999 Burn site near Delta Junction",
+    "grp_team_member": [
+      {
+        "team_member_name": "James Randerson",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California, Irvine",
+        "team_member_email": "jranders@uci.edu"
+      },
+      {
+        "team_member_name": "Heping Liu",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "heping.liu@jsums.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "AK",
+    "site_desc": "The Delta Junction 1999 Burn site is located near Delta Junction, just to the north of the Alaska Range in interior Alaska. All three Delta Junction sites are within a 15-km radius of one another. Composed of a combination of alluvial outwashes, floodplains, and low terraces dissected by glacial streams originating in the nearby Alaska Range. The Donnelly Flats fire burned ~7,600 ha of black spruce (Picea mariana) during June 1999. The boles of the black spruce remained standing 3 years after the fire. 70% of the surface was not covered by vascular plants.",
+    "grp_location": {
+      "location_lat": "63.9227",
+      "location_long": "-145.7442",
+      "location_elev": "469",
+      "location_comment": "Liu et al  2005"
+    },
+    "grp_igbp": {
+      "igbp": "OSH"
+    },
+    "url": "http://www.whrc.org/ecosystem/boreal/fieldmeasurements.html",
+    "grp_clim_avg": {
+      "climate_koeppen": "Dsc"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Bn3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246035"
+    },
+    "grp_publish_base": [
+      2002,
+      2003,
+      2004
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2003",
+      "tower_end": null
+    }
+  },
+  "sha256": "cd2debabff46121683cd3be9d2ccd972727a39e8bb3ad8aed6fa754b7a3c1200",
+  "field_path": "/values/231",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "9fd15cc044cbd009af9e8f29db820163700179ce24e149edf22df7da5caa80c6"
+}

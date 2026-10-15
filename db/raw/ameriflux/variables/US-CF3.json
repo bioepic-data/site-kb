@@ -1,0 +1,126 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-CF3",
+    "site_name": "CAF-LTAR Boyd North",
+    "grp_team_member": [
+      {
+        "team_member_name": "Claire Phillips",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "claire.phillips@wsu.edu"
+      },
+      {
+        "team_member_name": "Dave Huggins",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA ARS",
+        "team_member_email": "David.Huggins@ars.usda.gov"
+      },
+      {
+        "team_member_name": "Ian Leslie",
+        "team_member_role": "BADMContact",
+        "team_member_institution": "USDA ARS",
+        "team_member_email": "ian.leslie@ars.usda.gov"
+      },
+      {
+        "team_member_name": "Bryan Carlson",
+        "team_member_role": "DataManager",
+        "team_member_institution": "USDA ARS",
+        "team_member_email": "bryan.carlson@ars.usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTAR",
+      "Phenocam"
+    ],
+    "state": "WA",
+    "site_desc": null,
+    "grp_location": {
+      "location_date_start": "20170602",
+      "location_lat": "46.7551",
+      "location_long": "-117.1261",
+      "location_elev": "795"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Annual dryland cropping system, predominantly winter wheat, spring cereals (barley and wheat), and pulse crops (dry pea, lentil and chickpea)."
+    },
+    "url": "http://www.cafltar.org/",
+    "grp_clim_avg": {
+      "map": "550",
+      "mat": "9",
+      "climate_koeppen": "Dsb"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-CF3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1543385",
+      "FLUXNET": "10.17190/AMF/1881574"
+    },
+    "grp_publish_base": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "grp_publish_fluxnet": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": "2024"
+    }
+  },
+  "sha256": "7a7c5de9b63316400862266adc441d6994edfac586149c73943ccb41c8445b06",
+  "field_path": "/values/259",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "457c2cc367dd9d54d30d67071c185524844295dd4e04459f4a1b3127f92086f4"
+}

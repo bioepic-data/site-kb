@@ -1,0 +1,164 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Slt",
+    "site_name": "Silas Little- New Jersey",
+    "grp_team_member": [
+      {
+        "team_member_name": "Andrew Ouimette",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "Andrew.Ouimette@usda.gov"
+      },
+      {
+        "team_member_name": "Michael R. Gallagher",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "michael.r.gallagher@usda.gov"
+      },
+      {
+        "team_member_name": "Roel Alfredo Ruzol",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of Maine",
+        "team_member_email": "roel.ruzol@maine.edu"
+      },
+      {
+        "team_member_name": "Kevin Brown",
+        "team_member_role": "DataManager",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "kevin.brown3@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "NJ",
+    "site_desc": "The Silas Little flux tower is located in an upland, oak-pine stand in the New Jersey pine barrens. Disturbance history since the tower's establishment includes (1) spongy moth (Lymantria dispar) defoliation 2006-2008, (2) prescribed fires in 2019 and 2024, and (3) wind, snow storms, and drought.",
+    "grp_location": {
+      "location_date_start": "20031001",
+      "location_lat": "39.9156",
+      "location_long": "-74.5956",
+      "location_elev": "30",
+      "location_comment": "Annual tree census data, annual clip plots for understory vegetation, approx. monthly litterfall collection, forest floor sampling in 2003, 2006, 2008, 2012, 2013.  Extensive soil sampling was conducted in 2008 and 2011-12."
+    },
+    "grp_igbp": {
+      "igbp": "DBF",
+      "igbp_date_start": "20031001",
+      "igbp_comment": "The oak-dominated stand at Silas Little consists of chestnut oak (Quercus prinus L.), black oak (Q. velutina Lam.), white oak (Q. alba L.), scarlet oak (Q. coccinea Münchh.), and scattered\npitch pine (Pinus rigida Mill.) and shortleaf pine (P. echinata Mill.).  Ericaceous shrubs occur in the\nunderstory in all stands, primarily huckleberry (Gaylussacia baccata (Wangenh.) K. Koch) and blueberry (Vaccinium spp.). Sedges, mosses and lichens also occur in the understory."
+    },
+    "url": "https://research.fs.usda.gov/nrs/forestsandranges/locations/silaslittle",
+    "grp_clim_avg": {
+      "map": "1220",
+      "mat": "12.4",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Slt",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Fire",
+      "Pests and disease"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RH",
+      "SC",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246096",
+      "FLUXNET": "10.17190/AMF/2571104"
+    },
+    "grp_publish_base": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "tower_dates": {
+      "tower_start": "2004",
+      "tower_end": null
+    }
+  },
+  "sha256": "73513dea4c72fe1e65eca73fa2efeb865d70fef72adb7ea32cf3a3ff27d1da94",
+  "field_path": "/values/659",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "33f37dcfe16faf57635aaf753b9ffa8d75cdea7bac98b6546fa3b0f14be49c79"
+}

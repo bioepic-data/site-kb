@@ -1,0 +1,137 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-NGB",
+    "site_name": "NGEE Arctic Barrow",
+    "grp_team_member": [
+      {
+        "team_member_name": "Margaret Torn",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "mstorn@lbl.gov"
+      },
+      {
+        "team_member_name": "Sigrid Dengel",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "sdengel@lbl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "AK",
+    "site_desc": "The ecosystem is an Arctic coastal tundra. This site measures greenhouse gasses and meteorological variables at the Barrow Environmental Observatory (BEO) as part of the Next-Generation Ecosystem Experiment - Arctic.",
+    "grp_location": {
+      "location_lat": "71.2800",
+      "location_long": "-156.6092",
+      "location_elev": "5.273"
+    },
+    "grp_igbp": {
+      "igbp": "SNO",
+      "igbp_comment": "sedge/grass moss wetland (CAVM)"
+    },
+    "url": "http://ngee-arctic.ornl.gov/",
+    "grp_clim_avg": {
+      "map": "171",
+      "mat": "-11.27",
+      "climate_koeppen": "ET"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-NGB",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-NGB",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O",
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1436326",
+      "FLUXNET": "10.17190/AMF/1832162"
+    },
+    "grp_publish_base": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "2012",
+      "tower_end": "2023"
+    }
+  },
+  "sha256": "5cb7ce1f1fb21fa55e70f14138edab34681486601f407d6aced055f71bc518fb",
+  "field_path": "/values/524",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "acea2da35ba3ee54de11e0293152ea9ec5e805822c407cca140d170564e4528f"
+}

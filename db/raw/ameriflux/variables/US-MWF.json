@@ -1,0 +1,112 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-MWF",
+    "site_name": "Kellogg Experimental Forest",
+    "grp_team_member": [
+      {
+        "team_member_name": "Jiquan Chen",
+        "team_member_role": "PI",
+        "team_member_institution": "Michigan State University",
+        "team_member_email": "jqchen@msu.edu"
+      },
+      {
+        "team_member_name": "David Reed",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Michigan State University",
+        "team_member_email": "david.edwin.reed@gmail.com"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MI",
+    "site_desc": "716 acre mixed forest site managed by Michigan State University since 1932. The forest is a mix of maple, oak and pine, but other tree species are present. Site was chosen to represent managed forests in the Kalamzoo River watershed.",
+    "grp_location": {
+      "location_date_start": "20180716",
+      "location_lat": "42.3660",
+      "location_long": "-85.3526",
+      "location_elev": "256"
+    },
+    "grp_igbp": {
+      "igbp": "MF",
+      "igbp_date_start": "20180716"
+    },
+    "url": "http://lees.geo.msu.edu/research/NASA_carboncycle/",
+    "grp_clim_avg": {
+      "map": "842",
+      "mat": "9",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-MWF",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Undisturbed"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "P",
+      "PA",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1782820"
+    },
+    "grp_publish_base": [
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": null
+    }
+  },
+  "sha256": "3d1abfdd92051980181c78be79543d6f72e6874c3e8998e655f3b0e1334bccdd",
+  "field_path": "/values/510",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "b0bbf16dcd75ee21bdbaa2f02127f0d01d9824dea265cd9c1657d89d54eb6d7c"
+}

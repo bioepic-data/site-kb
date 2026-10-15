@@ -107,6 +107,8 @@ classes:
         range: Variable
         multivalued: true
         inlined_as_list: true
+      variable_notes:
+        description: Source coverage and interpretation notes for this site's declarations.
       datasets:
         range: Dataset
         multivalued: true
@@ -193,6 +195,26 @@ classes:
         description: Source-reported study sampling window; not an ongoing monitoring claim.
       reported_units:
         description: Verbatim study units, not a validated ontology assignment.
+      data_product:
+        description: Source data product or metadata collection supporting the declaration.
+      source_category:
+        description: Verbatim source classification of the variable, not an ontology term.
+      gap_filled:
+        description: >-
+          Whether the source marks the series as gap-filled. False means no
+          gap-filling marker was present; it does not imply a direct measurement.
+          Omit when source processing information is unavailable.
+        range: boolean
+      available_years:
+        description: Years with positive source-reported data coverage; not continuous monitoring.
+        range: integer
+        multivalued: true
+      data_versions:
+        description: Source publication versions supporting this declaration.
+        multivalued: true
+      source_qualifiers:
+        description: Verbatim source qualifiers retained without interpreting sensor height or depth.
+        multivalued: true
       name:
         description: Human-readable name; required unless variable_id resolves it.
       description:

@@ -1,0 +1,120 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Tw2",
+    "site_name": "Twitchell Corn",
+    "grp_team_member": [
+      {
+        "team_member_name": "Dennis Baldocchi",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "baldocchi@berkeley.edu"
+      },
+      {
+        "team_member_name": "Joe Verfaillie",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "jverfail@berkeley.edu"
+      },
+      {
+        "team_member_name": "Cove Sturtevant",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "csturtevant@berkeley.edu"
+      },
+      {
+        "team_member_name": "Laurie Koteen",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "lkoteen@berkeley.edu"
+      },
+      {
+        "team_member_name": "Sara Knox",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "saraknox@berkeley.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "The Twitchell Corn site is a corn field on peat soil. The tower was installed on May 17, 2012 and was equipped to analyze energy, H2O and CO2 fluxes. The field was planted in early May 2012 and harvested in early November 2012. The field was fallow during the non-growing season. The variety of corn used was ES-7477 hybrid corn commercialized by Eureka seeds. Beginning 2013-05-09 this site was converted to wetland.  The tower was moved 540m ESE to avoid earth moving in the construction.  The site is near US-Tw1, US-Tw3 and US-Twt sites.",
+    "grp_location": {
+      "location_date_start": "20130509",
+      "location_lat": "38.0969",
+      "location_long": "-121.6365",
+      "location_elev": "-5",
+      "location_comment": "The Tower was moved 540m ESE to avoid earth moving equipment as the corn fields were converted to wetland."
+    },
+    "grp_igbp": {
+      "igbp": "CRO"
+    },
+    "url": "http://nature.berkeley.edu/biometlab/sites.php?tab=US-Tw2",
+    "grp_clim_avg": {
+      "map": "421",
+      "mat": "15.5",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Tw2",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Tw2",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246148",
+      "FLUXNET": "10.17190/AMF/1881593"
+    },
+    "grp_publish_base": [
+      2012,
+      2013
+    ],
+    "grp_publish_fluxnet": [
+      2012,
+      2013
+    ],
+    "tower_dates": {
+      "tower_start": "2012",
+      "tower_end": "2013"
+    }
+  },
+  "sha256": "4d442471ced4ebaf0912b7066797a29d02e945b6e0bba86ac839c77861cae30c",
+  "field_path": "/values/706",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "28e4685ca2fe8f37904e8e48ac19269ec2e984712414f04f243d1d476318d4fe"
+}

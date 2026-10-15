@@ -1,0 +1,1849 @@
+sites:
+- id: site_kb:ameriflux-us-dmg
+  name: Dutch Slough Marsh Gilbert Tract
+  network_registrations:
+  - network: AMERIFLUX
+    network_id: US-Dmg
+    network_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Dmg
+    name: Dutch Slough Marsh Gilbert Tract
+  location:
+    latitude: 38.0015
+    longitude: -121.6691
+    elevation_meters: 1.0
+    country: United States
+    state_province: CA
+  notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-Dmg;
+    IGBP vegetation code: WET; Reported flux-measurement start year: 2021; Koeppen
+    climate code: Csa; Source mean annual temperature (degrees C): 16.1; Source mean
+    annual precipitation (mm): 365'
+  variables:
+  - name: CO2 flux (source-reported)
+    declaration_kind: UNSPECIFIED
+    data_product: BADM Site General Information
+    description: Flux measurement reported by the site in BADM. The declaration does
+      not specify a BASE column, processing method, or data availability.
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    source_variables:
+    - source: AMERIFLUX_BADM_SGI
+      source_id: CO2
+      source_name: CO2
+      vocabulary: BADM flux_measurements_variables
+      record_url: https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+      field_path: /values/311/flux_measurements_variables/0
+      retrieved_at: '2026-10-15T20:07:14.159898+00:00'
+  - name: CH4 flux (source-reported)
+    declaration_kind: UNSPECIFIED
+    data_product: BADM Site General Information
+    description: Flux measurement reported by the site in BADM. The declaration does
+      not specify a BASE column, processing method, or data availability.
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    source_variables:
+    - source: AMERIFLUX_BADM_SGI
+      source_id: CH4
+      source_name: CH4
+      vocabulary: BADM flux_measurements_variables
+      record_url: https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+      field_path: /values/311/flux_measurements_variables/1
+      retrieved_at: '2026-10-15T20:07:14.159898+00:00'
+  - name: H2O flux (source-reported)
+    declaration_kind: UNSPECIFIED
+    data_product: BADM Site General Information
+    description: Flux measurement reported by the site in BADM. The declaration does
+      not specify a BASE column, processing method, or data availability.
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    source_variables:
+    - source: AMERIFLUX_BADM_SGI
+      source_id: H2O
+      source_name: H2O
+      vocabulary: BADM flux_measurements_variables
+      record_url: https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+      field_path: /values/311/flux_measurements_variables/2
+      retrieved_at: '2026-10-15T20:07:14.159898+00:00'
+  - name: Methane (CH4) mole fraction in wet air (CH4)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: GASES
+    reported_units: nmolCH4 mol-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: CH4
+      source_name: CH4
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/0/variable
+  - name: Carbon Dioxide (CO2) mole fraction in wet air (CO2)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: GASES
+    reported_units: µmolCO2 mol-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: CO2
+      source_name: CO2
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/6/variable
+  - name: Carbon Dioxide (CO2) turbulent flux (no storage correction) (FC)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: GASES
+    reported_units: µmolCO2 m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: FC
+      source_name: FC
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/12/variable
+  - name: Carbon Dioxide (CO2) turbulent flux (no storage correction) (FC) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: GASES
+    reported_units: µmolCO2 m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: FC
+      source_name: FC
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/18/variable
+  - name: Methane (CH4) turbulent flux (no storage correction) (FCH4)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: GASES
+    reported_units: nmolCH4 m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: FCH4
+      source_name: FCH4
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/24/variable
+  - name: Methane (CH4) turbulent flux (no storage correction) (FCH4) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: GASES
+    reported_units: nmolCH4 m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: FCH4
+      source_name: FCH4
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/30/variable
+  - name: Soil heat flux (G)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: HEAT
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - '1_1_1'
+    - '2_1_1'
+    - '3_1_1'
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: G
+      source_name: G
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/48/variable
+  - name: Soil heat flux (G) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: HEAT
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F_1_1_1
+    - PI_F_2_1_1
+    - PI_F_3_1_1
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: G
+      source_name: G
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/66/variable
+  - name: Gross Primary Productivity (GPP) — gap-filled
+    description: Derived BASE product.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: PRODUCTS
+    reported_units: µmolCO2 m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: GPP
+      source_name: GPP
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/84/variable
+  - name: Sensible heat turbulent flux (no storage correction) (H)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: HEAT
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: H
+      source_name: H
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/90/variable
+  - name: Sensible heat turbulent flux (no storage correction) (H) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: HEAT
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: H
+      source_name: H
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/96/variable
+  - name: Water (H2O) vapor in mole fraction of wet air (H2O)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: GASES
+    reported_units: mmolH2O mol-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: H2O
+      source_name: H2O
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/102/variable
+  - name: Latent heat turbulent flux (no storage correction) (LE)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: HEAT
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: LE
+      source_name: LE
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/114/variable
+  - name: Latent heat turbulent flux (no storage correction) (LE) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: HEAT
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: LE
+      source_name: LE
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/120/variable
+  - name: Longwave radiation, incoming (LW_IN)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: LW_IN
+      source_name: LW_IN
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/132/variable
+  - name: Longwave radiation, incoming (LW_IN) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: LW_IN
+      source_name: LW_IN
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/138/variable
+  - name: Longwave radiation, outgoing (LW_OUT)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: LW_OUT
+      source_name: LW_OUT
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/144/variable
+  - name: Longwave radiation, outgoing (LW_OUT) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: LW_OUT
+      source_name: LW_OUT
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/150/variable
+  - name: Monin-Obukhov length (MO_LENGTH)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_WIND
+    reported_units: m
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: MO_LENGTH
+      source_name: MO_LENGTH
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/156/variable
+  - name: Normalized Difference Vegetation Index (NDVI)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: nondimensional
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: NDVI
+      source_name: NDVI
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/162/variable
+  - name: Net radiation (NETRAD)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: NETRAD
+      source_name: NETRAD
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/168/variable
+  - name: Net radiation (NETRAD) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: NETRAD
+      source_name: NETRAD
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/174/variable
+  - name: Precipitation (P)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_PRECIP
+    reported_units: mm
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: P
+      source_name: P
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/180/variable
+  - name: Precipitation (P) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_PRECIP
+    reported_units: mm
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: P
+      source_name: P
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/186/variable
+  - name: Atmospheric pressure (PA)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_ATM
+    reported_units: kPa
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: PA
+      source_name: PA
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/192/variable
+  - name: Atmospheric pressure (PA) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_ATM
+    reported_units: kPa
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: PA
+      source_name: PA
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/198/variable
+  - name: Photosynthetic photon flux density, diffuse incoming (PPFD_DIF)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: µmolPhoton m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: PPFD_DIF
+      source_name: PPFD_DIF
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/204/variable
+  - name: Photosynthetic photon flux density, incoming (PPFD_IN)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: µmolPhoton m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - '1_1_1'
+    - '2_1_1'
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: PPFD_IN
+      source_name: PPFD_IN
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/210/variable
+  - name: Photosynthetic photon flux density, incoming (PPFD_IN) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: µmolPhoton m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F_1_1_1
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: PPFD_IN
+      source_name: PPFD_IN
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/222/variable
+  - name: Photosynthetic photon flux density, outgoing (PPFD_OUT)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: µmolPhoton m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: PPFD_OUT
+      source_name: PPFD_OUT
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/228/variable
+  - name: Photosynthetic photon flux density, outgoing (PPFD_OUT) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: µmolPhoton m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: PPFD_OUT
+      source_name: PPFD_OUT
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/234/variable
+  - name: Photochemical Reflectance Index (PRI)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: nondimensional
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: PRI
+      source_name: PRI
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/240/variable
+  - name: Ecosystem Respiration (RECO) — gap-filled
+    description: Derived BASE product.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: PRODUCTS
+    reported_units: µmolCO2 m-2 s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: RECO
+      source_name: RECO
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/246/variable
+  - name: Relative humidity, range 0-100 (RH)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_ATM
+    reported_units: '%'
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: RH
+      source_name: RH
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/252/variable
+  - name: Relative humidity, range 0-100 (RH) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_ATM
+    reported_units: '%'
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: RH
+      source_name: RH
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/258/variable
+  - name: Radiation (near infra-red band), incoming (hemispherical) (SPEC_NIR_IN)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2 nm-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: SPEC_NIR_IN
+      source_name: SPEC_NIR_IN
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/264/variable
+  - name: Radiation (near infra-red band), outgoing (SPEC_NIR_OUT)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2 sr-1 nm-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: SPEC_NIR_OUT
+      source_name: SPEC_NIR_OUT
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/270/variable
+  - name: Radiation (red band), incoming (hemispherical) (SPEC_RED_IN)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2 nm-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: SPEC_RED_IN
+      source_name: SPEC_RED_IN
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/276/variable
+  - name: Radiation (red band), outgoing (SPEC_RED_OUT)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2 sr-1 nm-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: SPEC_RED_OUT
+      source_name: SPEC_RED_OUT
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/282/variable
+  - name: Shortwave radiation, incoming (SW_IN)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: SW_IN
+      source_name: SW_IN
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/288/variable
+  - name: Shortwave radiation, incoming (SW_IN) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: SW_IN
+      source_name: SW_IN
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/294/variable
+  - name: Shortwave radiation, outgoing (SW_OUT)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: SW_OUT
+      source_name: SW_OUT
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/300/variable
+  - name: Shortwave radiation, outgoing (SW_OUT) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_RAD
+    reported_units: W m-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: SW_OUT
+      source_name: SW_OUT
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/306/variable
+  - name: Air temperature (TA)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_ATM
+    reported_units: deg C
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: TA
+      source_name: TA
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/312/variable
+  - name: Air temperature (TA) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_ATM
+    reported_units: deg C
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: TA
+      source_name: TA
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/318/variable
+  - name: Momentum flux (TAU)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_WIND
+    reported_units: kg m-1 s-2
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: TAU
+      source_name: TAU
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/324/variable
+  - name: Soil temperature (TS)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_SOIL
+    reported_units: deg C
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - '1_1_1'
+    - '1_2_1'
+    - '1_3_1'
+    - '1_4_1'
+    - '1_5_1'
+    - '2_1_1'
+    - '2_2_1'
+    - '2_3_1'
+    - '2_4_1'
+    - '2_5_1'
+    - '3_1_1'
+    - '3_2_1'
+    - '3_3_1'
+    - '3_4_1'
+    - '3_5_1'
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: TS
+      source_name: TS
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/336/variable
+  - name: Soil temperature (TS) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_SOIL
+    reported_units: deg C
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F_1_1_1
+    - PI_F_2_1_1
+    - PI_F_3_1_1
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: TS
+      source_name: TS
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/426/variable
+  - name: Sonic temperature (T_SONIC)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_ATM
+    reported_units: deg C
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: T_SONIC
+      source_name: T_SONIC
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/444/variable
+  - name: Standard deviation of sonic temperature (T_SONIC_SIGMA)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_ATM
+    reported_units: deg C
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: T_SONIC_SIGMA
+      source_name: T_SONIC_SIGMA
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/450/variable
+  - name: Friction velocity (USTAR)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_WIND
+    reported_units: m s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: USTAR
+      source_name: USTAR
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/456/variable
+  - name: Vapor Pressure Deficit (VPD)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_ATM
+    reported_units: hPa
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: VPD
+      source_name: VPD
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/462/variable
+  - name: Vapor Pressure Deficit (VPD) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_ATM
+    reported_units: hPa
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: VPD
+      source_name: VPD
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/468/variable
+  - name: Standard deviation of lateral velocity fluctuations (cross main-wind direction
+      after coordinates rotation) (V_SIGMA)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_WIND
+    reported_units: m s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: V_SIGMA
+      source_name: V_SIGMA
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/474/variable
+  - name: Wind direction (WD)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_WIND
+    reported_units: Decimal degrees
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: WD
+      source_name: WD
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/480/variable
+  - name: Wind speed (WS)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_WIND
+    reported_units: m s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: WS
+      source_name: WS
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/486/variable
+  - name: Water table depth (WTD)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_SOIL
+    reported_units: m
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - '1_1_1'
+    - '2_1_1'
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: WTD
+      source_name: WTD
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/492/variable
+  - name: Water table depth (WTD) — gap-filled
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_SOIL
+    reported_units: m
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: true
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_qualifiers:
+    - PI_F_1_1_1
+    - PI_F_2_1_1
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: WTD
+      source_name: WTD
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/510/variable
+  - name: Standard deviation of vertical velocity fluctuations (W_SIGMA)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_WIND
+    reported_units: m s-1
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: W_SIGMA
+      source_name: W_SIGMA
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/522/variable
+  - name: Monin-Obukhov Stability parameter (ZL)
+    description: Published BASE variable; may be measured or computed.
+    declaration_kind: PROPERTY
+    data_product: AmeriFlux BASE
+    source_category: MET_WIND
+    reported_units: nondimensional
+    evidence:
+    - https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux
+    - https://amfcdn.lbl.gov/api/v2/fp_var
+    - https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+    gap_filled: false
+    available_years:
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - 9-5
+    temporal_resolution: half-hourly
+    source_variables:
+    - source: AMERIFLUX_BASE
+      source_id: ZL
+      source_name: ZL
+      vocabulary: AmeriFlux FP
+      record_url: https://amfcdn.lbl.gov/api/v2/flux_met_variable_coverage/US-Dmg
+      retrieved_at: '2026-10-15T20:07:21.984834+00:00'
+      field_path: /records/528/variable
+  variable_notes: BADM declarations and published BASE variables are separate evidence
+    types; reported flux species are not concentration variables. BASE entries require
+    positive reported coverage in at least one year. Years are availability summaries,
+    not continuous monitoring claims. Quality flags, footprint diagnostics, and timekeeping
+    columns are excluded from property declarations.

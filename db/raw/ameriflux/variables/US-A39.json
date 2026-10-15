@@ -1,0 +1,130 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-A39",
+    "site_name": "ARM-SGP-Morrison",
+    "grp_team_member": [
+      {
+        "team_member_name": "Ryan Sullivan",
+        "team_member_role": "PI",
+        "team_member_institution": "Argonne National Laboratory",
+        "team_member_email": "rcsullivan@anl.gov"
+      },
+      {
+        "team_member_name": "Evan Keeler",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Argonne National Laboratory",
+        "team_member_email": "ekeeler@anl.gov"
+      },
+      {
+        "team_member_name": "Jenni Kyrouac",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Argonne National Laboratory",
+        "team_member_email": "jprell@anl.gov"
+      },
+      {
+        "team_member_name": "Sujan Pal",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Argonne National Laboratory",
+        "team_member_email": "spal@anl.gov"
+      },
+      {
+        "team_member_name": "Dave Billesbach",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "University of Nebraska",
+        "team_member_email": "dbillesbach1@unl.edu"
+      },
+      {
+        "team_member_name": "Sebastien Biraud",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "scbiraud@lbl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "OK",
+    "site_desc": "This site is located at ARM SGP Extended Facility 39 near Morrison, OK",
+    "grp_location": {
+      "location_date_start": "20151006",
+      "location_lat": "36.3776",
+      "location_long": "-96.0690",
+      "location_elev": "306"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Cropland and pasture"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "965",
+      "mat": "14.95",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-A39",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2563531",
+      "FLUXNET": "10.17190/AMF/2571116"
+    },
+    "grp_publish_base": [
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2015",
+      "tower_end": null
+    }
+  },
+  "sha256": "339c6707fea5a22a1b2e29b730b5f3d5568a8c9111feb02745d47da942e10fae",
+  "field_path": "/values/172",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "be13d2fcdb0caad3c6385f52f68f75e6a3b2023208bdf6b515cca62c5e37cf8a"
+}

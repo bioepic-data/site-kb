@@ -1,0 +1,91 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Wlr",
+    "site_name": "Walnut River Watershed (Smileyburg)",
+    "grp_team_member": [
+      {
+        "team_member_name": "David Cook",
+        "team_member_role": "PI",
+        "team_member_institution": "Argonne National Laboratory",
+        "team_member_email": "dsgcook@prodigy.net"
+      },
+      {
+        "team_member_name": "Richard L. Coulter",
+        "team_member_role": "PI",
+        "team_member_institution": "Argonne National Laboratory",
+        "team_member_email": "rlcoulter@anl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "KS",
+    "site_desc": "The Walnut River Watershed site rests on a C3/C4 mixed grassland, tallgrass prairie grazed by cattle. The land is owned by a local farmer and the land is leased on a year-to-year basis.",
+    "grp_location": {
+      "location_lat": "37.5208",
+      "location_long": "-96.8550",
+      "location_elev": "408"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": "http://gonzalo.er.anl.gov/ABLE/index.html",
+    "grp_clim_avg": {
+      "map": "881",
+      "mat": "13.52",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Wlr",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "ALB",
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "USTAR",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246115"
+    },
+    "grp_publish_base": [
+      2001,
+      2002,
+      2003,
+      2004
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2001",
+      "tower_end": "2004"
+    }
+  },
+  "sha256": "9bb437d798d7ccd3777160ecefbb8517c6870bb49c89e91054507e278f2f497d",
+  "field_path": "/values/790",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "d060d497233df870f0ab77fdc9313569cf444fb413ce303ebb6b13991a2ce4f0"
+}
