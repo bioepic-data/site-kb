@@ -1,0 +1,18 @@
+sites:
+- id: site_kb:ameriflux-us-ro6
+  name: Rosemount I18_North
+  network_registrations:
+  - network: AMERIFLUX
+    network_id: US-Ro6
+    network_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Ro6
+    name: Rosemount I18_North
+  location:
+    latitude: 44.6946
+    longitude: -93.0578
+    elevation_meters: 282.0
+    country: United States
+    state_province: MN
+  notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-Ro6;
+    IGBP vegetation code: CRO; Reported flux-measurement start year: 2017; Koeppen
+    climate code: Dfa; Source mean annual temperature (degrees C): 6.4; Source mean
+    annual precipitation (mm): 879'

@@ -242,6 +242,23 @@ def render(output=Path('site'), imported=Path('db/imported'), curated=Path('db/c
         shutil.copyfile(raw_path, destination)
         for site in matching:
             paths[site['id']].append(relative.as_posix())
+    # AmeriFlux per-site snapshots retain the complete source record and the
+    # digest of the archived full response. BIF staging is not a site declaration.
+    raw_dir = imported.parent / 'raw' / 'ameriflux'
+    for raw_path in sorted(raw_dir.glob('*.json')):
+        if raw_path.name == 'import-report.json':
+            continue
+        snapshot = json.loads(raw_path.read_text())
+        identifier = snapshot['record']['SITE_ID']
+        matching = [s for s in sites if any(r['network'] == 'AMERIFLUX' and r['network_id'] == identifier for r in s.get('network_registrations', []))]
+        if not matching:
+            continue
+        relative = Path('raw/ameriflux') / raw_path.name
+        destination = output / 'sources' / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(raw_path, destination)
+        for site in matching:
+            paths[site['id']].append(relative.as_posix())
     for path in sorted((curated.parent / 'profiles').glob('*.yaml')):
         destination = output / 'sources' / 'profiles' / path.name
         destination.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,18 @@
+sites:
+- id: site_kb:ameriflux-us-umd
+  name: UMBS Disturbance
+  network_registrations:
+  - network: AMERIFLUX
+    network_id: US-UMd
+    network_url: https://ameriflux.lbl.gov/sites/siteinfo/US-UMd
+    name: UMBS Disturbance
+  location:
+    latitude: 45.5625
+    longitude: -84.6975
+    elevation_meters: 239.0
+    country: United States
+    state_province: MI
+  notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-UMd;
+    IGBP vegetation code: DBF; Reported flux-measurement start year: 2007; Koeppen
+    climate code: Dfb; Source mean annual temperature (degrees C): 5.83; Source mean
+    annual precipitation (mm): 803'

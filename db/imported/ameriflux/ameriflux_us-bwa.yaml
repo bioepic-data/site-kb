@@ -1,0 +1,16 @@
+sites:
+- id: site_kb:ameriflux-us-bwa
+  name: INFLUX - NIST Turfgrass Site
+  network_registrations:
+  - network: AMERIFLUX
+    network_id: US-BWa
+    network_url: https://ameriflux.lbl.gov/sites/siteinfo/US-BWa
+    name: INFLUX - NIST Turfgrass Site
+  location:
+    latitude: 39.1389
+    longitude: -77.2175
+    country: United States
+    state_province: MD
+  notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-BWa;
+    IGBP vegetation code: URB; Reported flux-measurement start year: 2021; Koeppen
+    climate code: Cfa'

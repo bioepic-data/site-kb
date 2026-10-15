@@ -1,0 +1,18 @@
+sites:
+- id: site_kb:ameriflux-us-rsi
+  name: Rosemount I10 Field
+  network_registrations:
+  - network: AMERIFLUX
+    network_id: US-RSI
+    network_url: https://ameriflux.lbl.gov/sites/siteinfo/US-RSI
+    name: Rosemount I10 Field
+  location:
+    latitude: 44.7059
+    longitude: -93.0673
+    elevation_meters: 283.78
+    country: United States
+    state_province: MN
+  notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-RSI;
+    IGBP vegetation code: CRO; Reported flux-measurement start year: 2020; Koeppen
+    climate code: Dfa; Source mean annual temperature (degrees C): 7.8; Source mean
+    annual precipitation (mm): 886'

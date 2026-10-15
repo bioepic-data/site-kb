@@ -1,0 +1,18 @@
+sites:
+- id: site_kb:ameriflux-us-rsv
+  name: Rosemount V8 Field
+  network_registrations:
+  - network: AMERIFLUX
+    network_id: US-RSV
+    network_url: https://ameriflux.lbl.gov/sites/siteinfo/US-RSV
+    name: Rosemount V8 Field
+  location:
+    latitude: 44.7158
+    longitude: -93.0755
+    elevation_meters: 285.97
+    country: United States
+    state_province: MN
+  notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-RSV;
+    IGBP vegetation code: CRO; Reported flux-measurement start year: 2020; Koeppen
+    climate code: Dfa; Source mean annual temperature (degrees C): 7.8; Source mean
+    annual precipitation (mm): 886'

@@ -14,6 +14,7 @@ uv sync --group dev
 # Refresh imported metadata (leaves curation untouched)
 just fetch-deims --limit 10
 just fetch-neon
+just fetch-ameriflux
 
 # Assemble and validate
 just validate-db
@@ -25,7 +26,10 @@ just validate-terms
 | Path | Purpose | Edit manually? |
 | --- | --- | --- |
 | `db/raw/deims/` | Complete source JSON snapshots with retrieval timestamps | No |
+| `db/raw/ameriflux/` | Per-site source snapshots, complete API responses, import report, and locally supplied BIF originals | No |
 | `db/imported/deims/`, `db/imported/neon/` | Source-specific metadata normalized by importers; tracked in Git | No: refresh can overwrite these files |
+| `db/imported/ameriflux/` | AmeriFlux site metadata normalized from the public site API | No: refresh can overwrite these files |
+| `db/staged/ameriflux/bif/` | Reconstructed BIF groups for review; excluded from site assembly | No: regenerate from raw BIF inputs |
 | `db/curated/sites/` | Complete, independently curated site records | Yes |
 | `db/curated/variable_mappings/` | Reusable source-to-ontology mapping assertions | Yes |
 | `db/curated/overrides/` | Partial corrections/enrichment targeting existing site IDs | Yes |
@@ -72,6 +76,60 @@ Structural normalization happens in `deims_to_site()` and `neon_to_site()` in
 `src/site_kb/scripts/fetch_*.py`. DEIMS now supports WKT point coordinates and
 imports `attributes.focusDesignScale.observedProperties` from its full JSON.
 NEON measured-variable ingestion is still pending.
+
+### AmeriFlux site metadata and BIF staging
+
+`just fetch-ameriflux` imports the public AmeriFlux site list without an account.
+It preserves source site codes and names, uses code-based local IDs, and imports
+coordinates, elevation, country, and state/province. `USA` is normalized to
+`United States`; the original country and state values remain in raw snapshots.
+IGBP codes, climate summaries, and reported flux-measurement years are retained
+as attributed notes. They do not imply facility types, ontology mappings,
+establishment/closure dates, operational status, or site measurement declarations.
+
+```bash
+# Select specific sites (repeat --site-id); IDs are case-sensitive
+just fetch-ameriflux --site-id US-Ha1 --site-id US-xAB
+just fetch-ameriflux --limit 10 --summary-only
+just fetch-ameriflux --refresh-existing
+
+# Replay a complete archived API response without HTTP
+just fetch-ameriflux --from-snapshot db/raw/ameriflux/responses/<sha256>.json
+
+# Reconstruct a locally supplied BADM/BIF CSV or workbook for review
+just stage-ameriflux-bif /path/to/AMF_SITE_BIF_VERSION.xlsx
+```
+
+The importer validates the selected batch before writing, preserves existing
+local IDs and filenames, and atomically replaces individual files. This is not a
+filesystem transaction across the whole batch; rerun from the archived response
+after an interrupted write. Refresh never deletes sites absent upstream.
+Raw per-site JSON includes the original record, API URL, JSON Pointer into the
+response, retrieval timestamp, and response checksum. Complete responses are
+archived under `db/raw/ameriflux/responses/`; checksums cover canonical JSON record
+arrays, not HTTP transfer bytes. Replays preserve source retrieval timestamps.
+The browser links imported YAML and per-site raw JSON.
+
+`db/raw/ameriflux/import-report.json` records the latest selection, missing
+existing codes, and possible overlaps with other imported sites. Candidate
+matches use NEON codes in AmeriFlux names or coordinates within 100 m. They are
+unreviewed, do not merge sites, and are not an exhaustive identity crosswalk.
+Consequently, the browser can contain separate records for the same physical
+site across networks. A partial refresh reports only its selected sites' overlaps.
+
+BIF staging preserves `(SITE_ID, VARIABLE_GROUP, GROUP_ID)`, all source rows,
+repeated values, units, comments, depths, and date qualifiers. Observation/event
+classification is independent of date availability; unknown groups remain
+unclassified. Parsed dates retain year/month precision. Originals are archived
+by byte checksum; CSV text values retain whitespace and Excel cells retain their
+read values, while the original workbook preserves formatting and cell types.
+Workbooks default to the `AMF-BIF` sheet; use `--sheet` for another explicit sheet.
+Formula cells are rejected. Staging does not download restricted data, apply
+model defaults, or populate `Site.variables`. Source URLs can be supplied with
+`--source-url`; the archive timestamp is not an upstream modification time.
+
+See [AmeriFlux ingestion and BIF review](docs/research/ameriflux-ingestion.md)
+for sources, the ecosim-agent parser audit, and remaining enrichment work.
 
 Each DEIMS declaration preserves its original name and URI in `source_variables`,
 along with registry, vocabulary, JSON record URL and field pointer, retrieval time,
