@@ -124,6 +124,26 @@ def variable_provenance(variable):
     return result
 
 
+def evidence_refs(site, pointer):
+    refs = [f'<a class="evidence-ref" href="#evidence-{i}" aria-label="Evidence {i}">[{i}]</a>'
+            for i, item in enumerate(site.get('evidence', []), 1) if pointer in item['supports']]
+    return ' ' + ' '.join(refs) if refs else ''
+
+
+def evidence_panel(site):
+    items = []
+    for i, item in enumerate(site.get('evidence', []), 1):
+        labels = []
+        for pointer in item['supports']:
+            label = pointer.strip('/').replace('location/', '').replace('network_registrations/0', 'network registration').replace('_', ' ').replace('/', ' · ').capitalize()
+            labels.append(label)
+        quote = f'<blockquote>{esc(item["quotation"])}</blockquote>' if item.get('quotation') else '<p class="muted">Source citation only; no quotation recorded for automated checking.</p>'
+        accessed = f' · Checked {esc(item["accessed_on"])}' if item.get('accessed_on') else ''
+        notes = f'<p>{prose(item["notes"])}</p>' if item.get('notes') else ''
+        items.append(f'<article class="source-evidence" id="evidence-{i}"><h3>[{i}] {link(item["source_url"], item["source_label"])}</h3><p class="evidence-supports">Supports: {esc(", ".join(labels))}</p><p class="muted">{esc(item["locator"])}{accessed}</p>{quote}{notes}</article>')
+    return '<section class="panel"><h2>Evidence for this record</h2>' + ''.join(items) + '</section>' if items else ''
+
+
 def detail(site, origin, input_paths):
     prefix = '../'
     variables = site.get('variables', [])
@@ -143,8 +163,15 @@ def detail(site, origin, input_paths):
         rows.append(f'<article class="variable"><h3>{esc(variable["name"])}</h3><p>{prose(variable.get("description", ""))}</p>{variable_provenance(variable)}{"<dl>" + extra + "</dl>" if extra else ""}</article>')
     var_html = ''.join(rows) or '<div class="empty-inline">No observed properties documented yet.<p>This is a metadata gap; it does not mean the site has no measurements.</p></div>'
     loc = site.get('location', {})
-    facts = [('Country', country(site)), ('Region', loc.get('state_province')), ('Latitude', loc.get('latitude')), ('Longitude', loc.get('longitude')), ('Elevation (m)', loc.get('elevation_meters')), ('Established', site.get('established')), ('Closed', site.get('closed'))]
-    facts_html = ''.join(f'<dt>{label}</dt><dd>{esc(value)}</dd>' for label, value in facts if value is not None)
+    facts = [('Country', country(site), '/location/country'), ('Region', loc.get('state_province'), '/location/state_province'), ('Latitude', loc.get('latitude'), '/location/latitude'), ('Longitude', loc.get('longitude'), '/location/longitude'), ('Elevation (m)', loc.get('elevation_meters'), '/location/elevation_meters'), ('Established', site.get('established'), '/established'), ('Closed', site.get('closed'), '/closed')]
+    facts_html = ''.join(f'<dt>{label}</dt><dd>{esc(value)}{evidence_refs(site, pointer)}</dd>' for label, value, pointer in facts if value is not None)
+    has_coordinates = loc.get('latitude') is not None and loc.get('longitude') is not None
+    coordinate_note = '<p class="muted coordinate-note">Coordinates not recorded.</p>'
+    if has_coordinates:
+        coordinate_note = f'<p class="muted coordinate-note">Coordinate datum: {esc(loc.get("coordinate_datum") or "not reported")}. '
+        if not all(evidence_refs(site, '/location/' + key) for key in ('latitude', 'longitude')):
+            coordinate_note += 'Field-specific coordinate evidence not recorded. '
+        coordinate_note += '</p>'
     registrations = ''.join(f'<article class="registration"><strong>{esc(r["network"])}</strong><p>{link(r.get("network_url", ""), r["network_id"])}</p><span class="muted">{esc(r.get("site_type", ""))}</span></article>' for r in site.get('network_registrations', [])) or '<p class="muted">No network registrations recorded.</p>'
     contacts = ''.join(f'<p><strong>{esc(c["name"])}</strong><br>{esc(c.get("role", ""))}<br><span class="muted">{esc(c.get("organization", ""))}</span></p>' for c in site.get('contacts', [])) or '<p class="muted">No contacts recorded.</p>'
     source_links = ''.join(f'<li><a href="../sources/{esc(p)}">{esc(p)}</a></li>' for p in input_paths)
@@ -154,10 +181,10 @@ def detail(site, origin, input_paths):
     raw = esc(yaml.safe_dump({'sites': [site]}, sort_keys=False, allow_unicode=True))
     body = f'''<main id="main" class="detail-main"><a class="back" href="../index.html">← All sites</a>
 <div class="detail-heading"><div class="eyebrow">SITE RECORD / {esc(origin.upper())}</div><h1>{esc(site['name'])}</h1><div class="tags">{badge(site.get('status', 'Unknown').capitalize(), 'status')}{''.join(badge(n) for n in networks(site))}</div><p class="intro">{prose(site.get('description', ''))}</p><p class="muted aliases">{esc('Also known as: ' + '; '.join(site['aliases'])) if site.get('aliases') else ''}</p></div>
-<div class="detail-grid"><div>{dataset_html}<section class="panel"><div class="section-title"><h2>Observed properties & variables</h2>{badge(str(len(variables)))}</div><p class="muted">Declarations may include broad parameter groups. Source vocabulary identities and ontology crosswalks are shown separately.</p>{var_html}</section>
+<div class="detail-grid"><div>{evidence_panel(site)}{dataset_html}<section class="panel"><div class="section-title"><h2>Observed properties & variables</h2>{badge(str(len(variables)))}</div><p class="muted">Declarations may include broad parameter groups. Source vocabulary identities and ontology crosswalks are shown separately.</p>{var_html}</section>
 <section class="panel"><h2>Notes & evidence</h2><p class="evidence">{prose(site.get('notes', 'No additional notes recorded.'))}</p></section>
 <section class="panel"><h2>Provenance</h2><p>Record origin: <strong>{esc(origin)}</strong>. Source files used to assemble this record:</p><ul class="source-list">{source_links}</ul><details><summary>View assembled YAML</summary><pre>{raw}</pre></details></section></div>
-<aside>{classification}<section class="panel"><h2>Location & dates</h2><dl>{facts_html}</dl>{'<p class="muted">Coordinates not recorded.</p>' if not loc else ''}</section><section class="panel"><h2>Network registrations</h2>{registrations}</section><section class="panel"><h2>Contacts</h2>{contacts}</section><section class="panel"><h2>Ecosystems</h2>{'<br>'.join(term(t) for t in site.get('ecosystem_terms', [])) or '<p class="muted">Not annotated.</p>'}</section></aside></div></main>'''
+<aside>{classification}<section class="panel"><h2>Location & dates</h2><dl>{facts_html}</dl>{coordinate_note}</section><section class="panel"><h2>Network registrations</h2>{registrations}</section><section class="panel"><h2>Contacts</h2>{contacts}</section><section class="panel"><h2>Ecosystems</h2>{'<br>'.join(term(t) for t in site.get('ecosystem_terms', [])) or '<p class="muted">Not annotated.</p>'}</section></aside></div></main>'''
     return shell(site['name'], body, prefix)
 
 

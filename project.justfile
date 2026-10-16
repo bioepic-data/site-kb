@@ -54,6 +54,14 @@ validate-terms *ARGS:
   just validate-terms-schema {{ARGS}}
   just validate-terms-data {{ARGS}}
 
+# Validate quoted evidence against fetched, reviewed source text
+validate-references: build-db
+  uv run linkml-reference-validator validate data db/sites/sites.yaml --schema src/site_kb/schema/site_kb.yaml --target-class SiteCollection --config .linkml-reference-validator.yaml --no-full-text
+
+# Fetch a reference for review; --no-cache explicitly refreshes it
+fetch-reference REF *ARGS:
+  uv run linkml-reference-validator lookup '{{REF}}' --config .linkml-reference-validator.yaml {{ARGS}}
+
 # Fetch sites from DEIMS API and write to db/imported/deims/
 fetch-deims *ARGS:
   uv run python -m site_kb.scripts.fetch_deims {{ARGS}}
@@ -68,4 +76,4 @@ fetch-all:
   just fetch-neon
 
 # Run all validations
-validate-all: validate-db validate-terms
+validate-all: validate-db validate-terms validate-references
