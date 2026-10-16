@@ -146,13 +146,18 @@ classes:
         description: Direct source URL, preferably with a page or section anchor.
         range: uri
         required: true
-      title:
+        implements:
+          - linkml:authoritative_reference
+      source_label:
+        description: Curator-supplied display label, not an assertion of an exact bibliographic title.
         required: true
       locator:
         description: Page, section, table, or source field locating the evidence.
         required: true
       quotation:
         description: Short verbatim source excerpt; line wrapping may be normalized.
+        implements:
+          - linkml:excerpt
       accessed_on:
         range: date
       notes:

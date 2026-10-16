@@ -137,10 +137,10 @@ def evidence_panel(site):
         for pointer in item['supports']:
             label = pointer.strip('/').replace('location/', '').replace('network_registrations/0', 'network registration').replace('_', ' ').replace('/', ' · ').capitalize()
             labels.append(label)
-        quote = f'<blockquote>{esc(item["quotation"])}</blockquote>' if item.get('quotation') else ''
+        quote = f'<blockquote>{esc(item["quotation"])}</blockquote>' if item.get('quotation') else '<p class="muted">Source citation only; no quotation recorded for automated checking.</p>'
         accessed = f' · Checked {esc(item["accessed_on"])}' if item.get('accessed_on') else ''
         notes = f'<p>{prose(item["notes"])}</p>' if item.get('notes') else ''
-        items.append(f'<article class="source-evidence" id="evidence-{i}"><h3>[{i}] {link(item["source_url"], item["title"])}</h3><p class="evidence-supports">Supports: {esc(", ".join(labels))}</p><p class="muted">{esc(item["locator"])}{accessed}</p>{quote}{notes}</article>')
+        items.append(f'<article class="source-evidence" id="evidence-{i}"><h3>[{i}] {link(item["source_url"], item["source_label"])}</h3><p class="evidence-supports">Supports: {esc(", ".join(labels))}</p><p class="muted">{esc(item["locator"])}{accessed}</p>{quote}{notes}</article>')
     return '<section class="panel"><h2>Evidence for this record</h2>' + ''.join(items) + '</section>' if items else ''
 
 

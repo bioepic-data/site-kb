@@ -128,7 +128,7 @@ def test_location_evidence_is_linked_and_escaped():
             'location': {'latitude': 0.0, 'longitude': -79.543},
             'evidence': [{'supports': ['/location/latitude', '/location/longitude'],
                           'source_url': 'https://example.org/source.pdf#page=54',
-                          'title': 'Source <title>', 'locator': 'Printed p. 46 (PDF p. 54)',
+                          'source_label': 'Source <title>', 'locator': 'Printed p. 46 (PDF p. 54)',
                           'quotation': '<script>alert(1)</script>',
                           'notes': 'Decimal degrees; datum unspecified.'}]}
     html = detail(site, 'Curated', [])

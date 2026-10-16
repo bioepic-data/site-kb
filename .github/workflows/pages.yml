@@ -55,6 +55,8 @@ jobs:
             [ -f "$file" ] || continue
             linkml-term-validator validate-data "$file" -s src/site_kb/schema/site_kb.yaml -t VariableMappingCollection -c conf/oak_config.yaml
           done
+      - name: Validate evidence quotations against reference cache
+        run: linkml-reference-validator validate data db/sites/sites.yaml --schema src/site_kb/schema/site_kb.yaml --target-class SiteCollection --config .linkml-reference-validator.yaml --no-full-text
       - name: Render static browser
         run: python -m site_kb.scripts.render_site
       - name: Upload Pages artifact
