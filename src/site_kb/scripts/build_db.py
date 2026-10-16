@@ -46,6 +46,28 @@ def apply_override(base: dict, override: dict) -> dict:
     return result
 
 
+def validate_site_evidence(site: dict) -> None:
+    """Reject evidence attached to absent fields, including stale list indices."""
+    for evidence in site.get('evidence', []):
+        for pointer in evidence.get('supports', []):
+            value = site
+            try:
+                if not pointer.startswith('/'):
+                    raise ValueError('not a JSON Pointer')
+                for token in pointer[1:].split('/'):
+                    token = token.replace('~1', '/').replace('~0', '~')
+                    if isinstance(value, list):
+                        if not token.isdecimal() or str(int(token)) != token:
+                            raise ValueError('invalid array index')
+                        value = value[int(token)]
+                    else:
+                        value = value[token]
+                if value is None:
+                    raise ValueError('null field')
+            except (KeyError, IndexError, TypeError, ValueError) as error:
+                raise ValueError(f"{site['id']}: evidence targets absent field {pointer}") from error
+
+
 def assemble(imported_dir: Path, curated_dir: Path) -> dict:
     sites = read_records(imported_dir)
     curated = read_records(curated_dir / "sites")
@@ -68,6 +90,7 @@ def assemble(imported_dir: Path, curated_dir: Path) -> dict:
     for identifier, site in sites.items():
         if not site.get("name"):
             raise ValueError(f"Site {identifier} requires a name after applying overrides")
+        validate_site_evidence(site)
     if not sites:
         raise ValueError("No sites found; refusing to produce an empty database")
     collection = {"sites": [sites[key] for key in sorted(sites)]}

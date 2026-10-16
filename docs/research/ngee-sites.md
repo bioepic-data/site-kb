@@ -2,7 +2,7 @@
 
 Reviewed 2026-10-15. This import covers both Next-Generation Ecosystem
 Experiments projects. It adds 18 independently curated records and two network
-enum values. Source evidence is carried in each record's registration and notes.
+enum values. Source evidence is carried in each record's registration, field-specific evidence, and notes.
 
 ## Sources and coverage
 
@@ -22,12 +22,36 @@ enum values. Source evidence is carried in each record's registration and notes.
 - [NGEE Tropics Phase 2 proposal](https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf),
   printed page 46, supplies coordinates for BCI (9.154, -79.848; 150 m), PNM
   (8.99441, -79.543), and San Lorenzo (9.280996, -79.978162; 120 m), as well as
-  the Fort Sherman alias. These are source-reported site points, not boundaries.
+  the Fort Sherman alias. These are source-reported site points, not boundaries. Printed p. 47 (PDF
+  p. 55) supplies a park reference point for Lambir Hills; printed p. 48 (PDF
+  p. 56) supplies the Paracou station point. Their degree-minute notation is
+  retained in short quotations and converted explicitly to decimal degrees.
 
 The source Arctic location URI serves as `network_id`. Tropics has no formal
 codes in its overview, so its source site names serve as identifiers, explicitly
 documented in each record. Local `site_kb` identifiers are curation keys, not
 purported upstream codes. The records preserve upstream registration names.
+
+## Field-level provenance
+
+Every NGEE record now has structured evidence and a site description. Five
+coordinate-bearing records attach evidence directly to latitude, longitude, and
+any reported elevation. PDF links open at the physical PDF page, while locators
+also name the printed page and site paragraph. Brief quotations preserve source
+notation; interpretation notes distinguish park/island/station/crane reference
+points, explain conversions and precision, and disclose that the cited passages
+do not specify a geodetic datum. WGS84 is no longer assumed by the schema.
+
+ZF2 provides a range, so its location remains without an invented point. The
+Agua Salud coordinate notation in the PDF is ambiguous and remains unresolved.
+Both limitations have source-specific evidence. The source PDF was downloaded
+and relevant coordinate pages visually checked; the local scratch copy is under
+Git-ignored `cache/ngee/`, not a new tracked upstream snapshot.
+
+Teller-27 and Kougarok-64 descriptions also use
+[Conroy et al. (2023), section 2.1](https://tc.copernicus.org/articles/17/3987/2023/#section2),
+which distinguishes the catchment and hillslope settings. This contextual
+addition does not assert new measurement declarations.
 
 ## Identity and spatial scope
 

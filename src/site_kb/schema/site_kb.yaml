@@ -127,16 +127,48 @@ classes:
         range: date
       notes:
         description: Free-text notes about this site.
+      evidence:
+        description: Field-specific source evidence for curated site assertions.
+        range: SiteEvidence
+        multivalued: true
+        inlined_as_list: true
+
+  SiteEvidence:
+    description: A source supporting specific fields in a site record, not an ontology mapping.
+    attributes:
+      supports:
+        description: JSON Pointers relative to the Site; each must resolve after assembly.
+        multivalued: true
+        required: true
+        minimum_cardinality: 1
+        pattern: '^/'
+      source_url:
+        description: Direct source URL, preferably with a page or section anchor.
+        range: uri
+        required: true
+      title:
+        required: true
+      locator:
+        description: Page, section, table, or source field locating the evidence.
+        required: true
+      quotation:
+        description: Short verbatim source excerpt; line wrapping may be normalized.
+      accessed_on:
+        range: date
+      notes:
+        description: Interpretation, spatial scope, coordinate conversion, or limitations.
 
   Location:
     description: A geographic location; coordinates may be omitted when only a region is verified.
     attributes:
       latitude:
-        description: Latitude in decimal degrees (WGS84).
+        description: Latitude in decimal degrees; datum should be stated in coordinate_datum when known.
         range: float
       longitude:
-        description: Longitude in decimal degrees (WGS84).
+        description: Longitude in decimal degrees; datum should be stated in coordinate_datum when known.
         range: float
+      coordinate_datum:
+        description: Source-reported geodetic datum; do not assume WGS84 when unspecified.
       elevation_meters:
         description: Elevation above sea level in meters.
         range: float

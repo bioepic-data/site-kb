@@ -227,13 +227,24 @@ with source identities and evidence URLs retained in each record. The networks
 are represented separately as `NGEE_ARCTIC` and `NGEE_TROPICS`.
 
 This is a curated import, not an API refresh. No site measurement declarations
-or current operational status are inferred from project membership. Only three
-Tropics records have coordinates, transcribed from the cited Phase 2 proposal.
+or current operational status are inferred from project membership. Five
+Tropics records have coordinates from the cited Phase 2 proposal, with original
+notation, page anchors, and explicit degree-minute conversions where needed.
 The remaining locations retain verified country/region metadata without guessed
 points. Overlaps with broader DEIMS locations are documented without asserting
 exact equivalence. See [NGEE scope and evidence](docs/research/ngee-sites.md).
 
 Rebuild and validate with `just site`; edit these curated inputs to update them.
+
+Curated `Site.evidence` entries identify the fields they support using JSON
+Pointers (for example `/location/latitude`), alongside `source_url`, `title`,
+`locator`, optional `quotation`, `accessed_on`, and interpretation `notes`.
+Assembly rejects references to absent fields. The browser places numbered
+citations beside location values and shows source excerpts in an evidence panel.
+State coordinate conversions and spatial scope explicitly; record
+`location.coordinate_datum` only when the source supplies it. Existing imported
+coordinates without this evidence remain visible with their provenance gap
+marked; the new evidence model does not retroactively verify those coordinates.
 
 ## BERVO harmonization
 

@@ -21,6 +21,25 @@ sites:
     equivalence is not established, so records are not merged and the DEIMS facility
     coordinates are not copied. It is not asserted to be identical to the NEON Utqiagvik
     site.
+  evidence:
+  - supports:
+    - /name
+    - /location/country
+    - /location/state_province
+    - /network_registrations/0
+    source_url: https://ngee-arctic.ornl.gov/locations/ngee-arctic-utqiagvik-barrow-alaska
+    title: 'NGEE Arctic location: NGEE Arctic Utqiagvik (Barrow), Alaska'
+    locator: Location heading and address
+    accessed_on: '2026-10-15'
+    notes: This source establishes the named field location; it does not supply a
+      verified coordinate pair in the reviewed text.
+  - supports:
+    - /description
+    source_url: https://ngee-arctic.ornl.gov/summary
+    title: NGEE Arctic project summary
+    locator: Research landscapes
+    accessed_on: '2026-10-15'
+    notes: Describes the BEO polygonal-tundra research setting.
 - id: site_kb:ngee-arctic-kougarok-64
   name: NGEE Arctic Kougarok Site, Mile Marker 64, Alaska
   aliases:
@@ -38,6 +57,29 @@ sites:
     . The location-page URI is the source identifier. Mile-marker sites are separate
     road-distance locations; town-center coordinates are not substituted. Coordinates,
     current operational status, and measurements are not asserted by this record.'
+  description: Permafrost hillslope west of Nome–Taylor Highway mile 64, with tussock
+    tundra and alder patches. Intensive stations support soil-water and vegetation
+    research.
+  evidence:
+  - supports:
+    - /name
+    - /location/country
+    - /location/state_province
+    - /network_registrations/0
+    source_url: https://ngee-arctic.ornl.gov/locations/ngee-arctic-kougarok-site-mile-marker-64-alaska
+    title: 'NGEE Arctic location: NGEE Arctic Kougarok Site, Mile Marker 64, Alaska'
+    locator: Location heading and address
+    accessed_on: '2026-10-15'
+    notes: This source establishes the named field location; it does not supply a
+      verified coordinate pair in the reviewed text.
+  - supports:
+    - /description
+    source_url: https://tc.copernicus.org/articles/17/3987/2023/#section2
+    title: Conroy et al. (2023), The Cryosphere
+    locator: Section 2.1, Site descriptions
+    accessed_on: '2026-10-15'
+    notes: The study distinguishes the Teller-27 catchment from the Kougarok-64 hillslope;
+      neither is a town-center location.
 - id: site_kb:ngee-arctic-kougarok-80
   name: NGEE Arctic Kougarok Site, Mile Marker 80, Alaska
   aliases:
@@ -55,6 +97,21 @@ sites:
     . The location-page URI is the source identifier. Mile-marker sites are separate
     road-distance locations; town-center coordinates are not substituted. Coordinates,
     current operational status, and measurements are not asserted by this record.'
+  description: NGEE Arctic field location on the Seward Peninsula, identified by its
+    road and mile marker.
+  evidence:
+  - supports:
+    - /name
+    - /location/country
+    - /location/state_province
+    - /network_registrations/0
+    - /description
+    source_url: https://ngee-arctic.ornl.gov/locations/ngee-arctic-kougarok-site-mile-marker-80-alaska
+    title: 'NGEE Arctic location: NGEE Arctic Kougarok Site, Mile Marker 80, Alaska'
+    locator: Location heading and address
+    accessed_on: '2026-10-15'
+    notes: This source establishes the named field location; it does not supply a
+      verified coordinate pair in the reviewed text.
 - id: site_kb:ngee-arctic-kougarok-86
   name: NGEE Arctic Kougarok Site, Mile Marker 86, Alaska
   aliases:
@@ -72,6 +129,21 @@ sites:
     . The location-page URI is the source identifier. Mile-marker sites are separate
     road-distance locations; town-center coordinates are not substituted. Coordinates,
     current operational status, and measurements are not asserted by this record.'
+  description: NGEE Arctic field location on the Seward Peninsula, identified by its
+    road and mile marker.
+  evidence:
+  - supports:
+    - /name
+    - /location/country
+    - /location/state_province
+    - /network_registrations/0
+    - /description
+    source_url: https://ngee-arctic.ornl.gov/locations/ngee-arctic-kougarok-site-mile-marker-86-alaska
+    title: 'NGEE Arctic location: NGEE Arctic Kougarok Site, Mile Marker 86, Alaska'
+    locator: Location heading and address
+    accessed_on: '2026-10-15'
+    notes: This source establishes the named field location; it does not supply a
+      verified coordinate pair in the reviewed text.
 - id: site_kb:ngee-arctic-teller-27
   name: NGEE Arctic Teller Site, Mile Marker 27, Alaska
   aliases:
@@ -89,6 +161,28 @@ sites:
     . The location-page URI is the source identifier. Mile-marker sites are separate
     road-distance locations; town-center coordinates are not substituted. Coordinates,
     current operational status, and measurements are not asserted by this record.'
+  description: Small headwater catchment west of Nome–Teller Highway mile 27, with
+    discontinuous permafrost and strong variation in soil moisture and vegetation.
+  evidence:
+  - supports:
+    - /name
+    - /location/country
+    - /location/state_province
+    - /network_registrations/0
+    source_url: https://ngee-arctic.ornl.gov/locations/ngee-arctic-teller-site-mile-marker-27-alaska
+    title: 'NGEE Arctic location: NGEE Arctic Teller Site, Mile Marker 27, Alaska'
+    locator: Location heading and address
+    accessed_on: '2026-10-15'
+    notes: This source establishes the named field location; it does not supply a
+      verified coordinate pair in the reviewed text.
+  - supports:
+    - /description
+    source_url: https://tc.copernicus.org/articles/17/3987/2023/#section2
+    title: Conroy et al. (2023), The Cryosphere
+    locator: Section 2.1, Site descriptions
+    accessed_on: '2026-10-15'
+    notes: The study distinguishes the Teller-27 catchment from the Kougarok-64 hillslope;
+      neither is a town-center location.
 - id: site_kb:ngee-arctic-teller-47
   name: NGEE Arctic Teller Site, Mile Marker 47, Alaska
   aliases:
@@ -106,6 +200,21 @@ sites:
     . The location-page URI is the source identifier. Mile-marker sites are separate
     road-distance locations; town-center coordinates are not substituted. Coordinates,
     current operational status, and measurements are not asserted by this record.'
+  description: NGEE Arctic field location on the Seward Peninsula, identified by its
+    road and mile marker.
+  evidence:
+  - supports:
+    - /name
+    - /location/country
+    - /location/state_province
+    - /network_registrations/0
+    - /description
+    source_url: https://ngee-arctic.ornl.gov/locations/ngee-arctic-teller-site-mile-marker-47-alaska
+    title: 'NGEE Arctic location: NGEE Arctic Teller Site, Mile Marker 47, Alaska'
+    locator: Location heading and address
+    accessed_on: '2026-10-15'
+    notes: This source establishes the named field location; it does not supply a
+      verified coordinate pair in the reviewed text.
 - id: site_kb:ngee-arctic-council-71
   name: NGEE Arctic Council Site, Mile Marker 71, Alaska
   aliases:
@@ -123,3 +232,18 @@ sites:
     . The location-page URI is the source identifier. Mile-marker sites are separate
     road-distance locations; town-center coordinates are not substituted. Coordinates,
     current operational status, and measurements are not asserted by this record.'
+  description: NGEE Arctic field location on the Seward Peninsula, identified by its
+    road and mile marker.
+  evidence:
+  - supports:
+    - /name
+    - /location/country
+    - /location/state_province
+    - /network_registrations/0
+    - /description
+    source_url: https://ngee-arctic.ornl.gov/locations/ngee-arctic-council-site-mile-marker-71-alaska
+    title: 'NGEE Arctic location: NGEE Arctic Council Site, Mile Marker 71, Alaska'
+    locator: Location heading and address
+    accessed_on: '2026-10-15'
+    notes: This source establishes the named field location; it does not supply a
+      verified coordinate pair in the reviewed text.

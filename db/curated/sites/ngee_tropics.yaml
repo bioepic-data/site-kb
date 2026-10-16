@@ -14,6 +14,28 @@ sites:
     name is used as the network identifier because the overview provides no formal
     site code. Membership reflects the published Phase 2 field-site overview, not
     a claim of current operational status.
+  description: Rio Sabana watershed field station, also hosting the TRACE forest-warming
+    experiment.
+  evidence:
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; Sabana
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    - /location/state_province
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=53
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 45 (PDF p. 53); Sabana site paragraph
+    accessed_on: '2026-10-15'
+    notes: The source places the site in Puerto Rico; the record normalizes country
+      to United States and region to Puerto Rico.
 - id: site_kb:ngee-tropics-el-verde
   name: El Verde
   location:
@@ -31,6 +53,28 @@ sites:
     network identifier because the overview provides no formal site code. Membership
     reflects the published Phase 2 field-site overview, not a claim of current operational
     status.
+  description: El Yunque rainforest research locality containing the 16-hectare Luquillo
+    Forest Dynamics Plot.
+  evidence:
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; El Verde
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    - /location/state_province
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=53
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 45 (PDF p. 53); El Verde site paragraph
+    accessed_on: '2026-10-15'
+    notes: The source places the site in Puerto Rico; the record normalizes country
+      to United States and region to Puerto Rico.
 - id: site_kb:ngee-tropics-icacos
   name: Icacos
   location:
@@ -46,6 +90,28 @@ sites:
     name is used as the network identifier because the overview provides no formal
     site code. Membership reflects the published Phase 2 field-site overview, not
     a claim of current operational status.
+  description: Montane forest watershed beside Road 191 on the southern side of the
+    Luquillo Mountains.
+  evidence:
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; Icacos
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    - /location/state_province
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=53
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 45 (PDF p. 53); Icacos site paragraph
+    accessed_on: '2026-10-15'
+    notes: The source places the site in Puerto Rico; the record normalizes country
+      to United States and region to Puerto Rico.
 - id: site_kb:ngee-tropics-barro-colorado-island
   name: Barro Colorado Island
   location:
@@ -66,6 +132,37 @@ sites:
     a claim of current operational status. Coordinate source: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf'
   aliases:
   - BCI
+  description: Forested island in Panama with a long-running 50-hectare tree census
+    plot.
+  evidence:
+  - supports:
+    - /location/latitude
+    - /location/longitude
+    - /location/elevation_meters
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=54
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 46 (PDF p. 54); Barro Colorado Island site paragraph
+    accessed_on: '2026-10-15'
+    quotation: 9.154; Long. -79.848; Elev. 150m
+    notes: Decimal-degree values transcribed directly; the line break between the
+      minus sign and longitude was joined. Island-level reference point, not a plot
+      boundary. Geodetic datum is not specified in the cited passage.
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; Barro Colorado Island
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=54
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 46 (PDF p. 54); Barro Colorado Island site paragraph
+    accessed_on: '2026-10-15'
 - id: site_kb:ngee-tropics-parque-natural-metropolitano
   name: Parque Natural Metropolitano
   location:
@@ -85,6 +182,35 @@ sites:
   aliases:
   - PNM
   - Parque Metropolitano
+  description: Canopy-crane research site at the edge of Panama City, in seasonally
+    deciduous lowland forest.
+  evidence:
+  - supports:
+    - /location/latitude
+    - /location/longitude
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=54
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 46 (PDF p. 54); Parque Natural Metropolitano site paragraph
+    accessed_on: '2026-10-15'
+    quotation: 8.99441, Long. -79.543
+    notes: Decimal-degree values transcribed directly from the canopy-crane site paragraph.
+      Geodetic datum is not specified in the cited passage.
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; Parque Natural Metropolitano
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=54
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 46 (PDF p. 54); Parque Natural Metropolitano site paragraph
+    accessed_on: '2026-10-15'
 - id: site_kb:ngee-tropics-san-lorenzo
   name: San Lorenzo
   location:
@@ -108,6 +234,36 @@ sites:
   - Fort Sherman
   - FTS
   - Parque Nacional San Lorenzo
+  description: Canopy-crane site southwest of Colón in mature lowland rainforest,
+    formerly called Fort Sherman.
+  evidence:
+  - supports:
+    - /location/latitude
+    - /location/longitude
+    - /location/elevation_meters
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=54
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 46 (PDF p. 54); San Lorenzo site paragraph
+    accessed_on: '2026-10-15'
+    quotation: 9.280996; Long. -79.978162; Elev. 120m
+    notes: Decimal-degree values transcribed directly from the canopy-crane site paragraph.
+      Geodetic datum is not specified in the cited passage.
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; San Lorenzo
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=54
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 46 (PDF p. 54); San Lorenzo site paragraph
+    accessed_on: '2026-10-15'
 - id: site_kb:ngee-tropics-agua-salud
   name: Agua Salud
   location:
@@ -122,7 +278,36 @@ sites:
     scope includes forest and pasture catchments; no individual catchment point is
     assigned. The source site name is used as the network identifier because the overview
     provides no formal site code. Membership reflects the published Phase 2 field-site
-    overview, not a claim of current operational status.
+    overview, not a claim of current operational status. The proposal prints an ambiguous
+    coordinate string (degrees followed by 130/470); it has not been silently interpreted
+    as minutes.
+  description: Contrasting forest and pasture catchments in the Panama Canal watershed,
+    used for hydrological research.
+  evidence:
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; Agua Salud
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=54
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 46 (PDF p. 54); Agua Salud site paragraph
+    accessed_on: '2026-10-15'
+  - supports:
+    - /notes
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=54
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 46 (PDF p. 54); Agua Salud paragraph
+    accessed_on: '2026-10-15'
+    notes: Supports the explanation of why coordinates remain absent; the printed
+      coordinate notation requires clarification.
 - id: site_kb:ngee-tropics-zf2
   name: ZF2
   location:
@@ -138,16 +323,48 @@ sites:
     is a regional label, not a city-center coordinate for the site. The source site
     name is used as the network identifier because the overview provides no formal
     site code. Membership reflects the published Phase 2 field-site overview, not
-    a claim of current operational status.
+    a claim of current operational status. The proposal gives latitude 2.45–2.66 S
+    and longitude 60.02–60.32 W for the site extent, not a representative point; no
+    midpoint was inferred.
   aliases:
   - Manaus
   - Experimental Station of Tropical Forestry
   - EEST
+  description: INPA forest research landscape north of Manaus, spanning plateaus,
+    hillslopes, and valleys.
+  evidence:
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; ZF2
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    - /location/state_province
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=55
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 47 (PDF p. 55); ZF2 site paragraph
+    accessed_on: '2026-10-15'
+  - supports:
+    - /notes
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=55
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 47 (PDF p. 55); INPA ZF2 opening paragraph
+    accessed_on: '2026-10-15'
+    notes: Supports the geographic-range statement. A geographic extent is not a point
+      coordinate.
 - id: site_kb:ngee-tropics-lambir-hills
   name: Lambir Hills
   location:
     country: Malaysia
     state_province: Sarawak
+    latitude: 4.183333
+    longitude: 114.016667
   network_registrations:
   - network: NGEE_TROPICS
     network_id: Lambir Hills
@@ -160,6 +377,39 @@ sites:
     a claim of current operational status.
   aliases:
   - Lambir Hills National Park
+  description: Sarawak dipterocarp forest research location with a 52-hectare census
+    plot and canopy-access infrastructure.
+  evidence:
+  - supports:
+    - /location/latitude
+    - /location/longitude
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=55
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 47 (PDF p. 55); Lambir Hills site paragraph
+    accessed_on: '2026-10-15'
+    quotation: 4°11’ N, 114°01ʹ E
+    notes: 'Latitude = 4 + 11/60 = 4.183333; longitude = 114 + 1/60 = 114.016667,
+      rounded to six decimals. The source specifies only whole minutes: extra decimal
+      digits reflect conversion, not survey precision. National-park reference location,
+      not the crane or plot boundary. Geodetic datum is not specified in the cited
+      passage.'
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; Lambir Hills
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    - /location/state_province
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=55
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 47 (PDF p. 55); Lambir Hills site paragraph
+    accessed_on: '2026-10-15'
 - id: site_kb:ngee-tropics-daintree
   name: Daintree Research Observatory
   location:
@@ -180,11 +430,33 @@ sites:
   aliases:
   - Daintree Rainforest Observatory
   - DRO
+  description: James Cook University rainforest observatory with canopy-crane access
+    and a drought experiment.
+  evidence:
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; Daintree Research Observatory
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    - /location/state_province
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=56
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 48 (PDF p. 56); Daintree Research Observatory site paragraph
+    accessed_on: '2026-10-15'
 - id: site_kb:ngee-tropics-paracou
   name: Paracou
   location:
     country: France
     state_province: French Guiana
+    latitude: 5.3
+    longitude: -52.883333
   network_registrations:
   - network: NGEE_TROPICS
     network_id: Paracou
@@ -196,3 +468,37 @@ sites:
     region. The source site name is used as the network identifier because the overview
     provides no formal site code. Membership reflects the published Phase 2 field-site
     overview, not a claim of current operational status.
+  description: French Guiana forest research site with permanent census plots and
+    the GuyaFLUX tower.
+  evidence:
+  - supports:
+    - /location/latitude
+    - /location/longitude
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=56
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 48 (PDF p. 56); Paracou site paragraph
+    accessed_on: '2026-10-15'
+    quotation: latitude 5°18ʹN and longitude 52°53ʹW
+    notes: Latitude = 5 + 18/60 = 5.3; longitude = -(52 + 53/60) = -52.883333, rounded
+      to six decimals. West is negative. The source specifies only whole minutes;
+      the point represents the station, not a plot boundary. Geodetic datum is not
+      specified in the cited passage.
+  - supports:
+    - /name
+    - /network_registrations/0
+    source_url: https://ngee-tropics.lbl.gov/research/field/
+    title: NGEE Tropics field overview
+    locator: Named Phase 2 sites; Paracou
+    accessed_on: '2026-10-15'
+    notes: Project membership documented for Phase 2; this does not establish current
+      operational status.
+  - supports:
+    - /description
+    - /location/country
+    - /location/state_province
+    source_url: https://ngee-tropics.lbl.gov/wp-content/uploads/sites/16/2020/01/NGEE-TROPICS-Phase-2-Proposal_Final_distributable.pdf#page=56
+    title: NGEE Tropics Phase 2 proposal
+    locator: Printed p. 48 (PDF p. 56); Paracou site paragraph
+    accessed_on: '2026-10-15'
+    notes: The source places the site in French Guiana; the record normalizes country
+      to France and region to French Guiana.

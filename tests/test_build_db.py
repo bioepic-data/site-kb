@@ -77,3 +77,15 @@ def test_output_cannot_overwrite_inputs(tmp_path):
 def test_importers_default_to_separate_source_directories():
     assert str(DEIMS_OUTPUT) == "db/imported/deims"
     assert str(NEON_OUTPUT) == "db/imported/neon"
+
+
+def test_site_evidence_rejects_dangling_field_references():
+    from site_kb.scripts.build_db import validate_site_evidence
+    site = {'id': 'site_kb:test', 'location': {'latitude': 0.0},
+            'network_registrations': [{'network': 'NGEE_TROPICS'}],
+            'evidence': [{'supports': ['/location/latitude', '/network_registrations/0']}]}
+    validate_site_evidence(site)
+    for pointer in ['/location/longitude', '/network_registrations/1', '/network_registrations/-1']:
+        site['evidence'][0]['supports'] = [pointer]
+        with pytest.raises(ValueError, match='evidence targets absent field'):
+            validate_site_evidence(site)
