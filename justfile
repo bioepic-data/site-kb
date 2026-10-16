@@ -91,7 +91,8 @@ test: _test-schema _test-python _test-examples
 # Run linting
 [group('model development')]
 lint:
-  uv run linkml-lint {{source_schema_dir}}
+  # Keep existing documentation/naming warnings visible; fail on schema errors.
+  uv run linkml-lint --ignore-warnings {{source_schema_dir}}
 
 # Generate md documentation for the schema
 [group('model development')]

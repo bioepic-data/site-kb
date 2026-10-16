@@ -146,7 +146,13 @@ it refuses to replace an unrecognized directory. Raw research notes remain in
 ### GitHub Pages
 
 The workflow `.github/workflows/pages.yml` tests, validates, and builds on pull
-requests and pushes to `main`. Deployment is opt-in via the repository variable
+requests and pushes to `main`. It checks schema and Python model generation,
+runs the full Python and JavaScript suites, accepts valid examples and rejects
+counterexamples, validates assembled data, ontology terms, and evidence quotations,
+and renders the browser. Schema lint errors fail the build; existing documentation
+and naming warnings remain visible without blocking it. Run `just test` and
+`just lint` for the schema/model, Python, example, and lint checks locally.
+Deployment is opt-in via the repository variable
 `ENABLE_PAGES=true` and only runs from `main`. To enable publication, configure
 **Settings → Pages → Source → GitHub Actions**, set that Actions variable, and
 push the source changes. Repository privacy alone does not make a Pages site private. `just deploy` can trigger the
