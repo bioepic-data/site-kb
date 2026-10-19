@@ -135,3 +135,35 @@ def test_ameriflux_raw_provenance_links(tmp_path):
     assert 'sources/imported/ameriflux/ameriflux_us-ha1.yaml' in html
     assert 'import-report.json' not in html
     check_links(output)
+
+
+def test_location_evidence_is_linked_and_escaped():
+    from site_kb.scripts.render_site import detail
+    site = {'id': 'site_kb:evidence', 'name': 'Evidence test',
+            'location': {'latitude': 0.0, 'longitude': -79.543},
+            'evidence': [{'supports': ['/location/latitude', '/location/longitude'],
+                          'source_url': 'https://example.org/source.pdf#page=54',
+                          'source_label': 'Source <title>', 'locator': 'Printed p. 46 (PDF p. 54)',
+                          'quotation': '<script>alert(1)</script>',
+                          'notes': 'Decimal degrees; datum unspecified.'}]}
+    html = detail(site, 'Curated', [])
+    assert html.count('href="#evidence-1"') == 2
+    assert 'id="evidence-1"' in html
+    assert 'source.pdf#page=54' in html and 'Printed p. 46 (PDF p. 54)' in html
+    assert '&lt;script&gt;alert(1)&lt;/script&gt;' in html
+    assert '<script>alert(1)</script>' not in html
+    assert 'Coordinate datum: not reported' in html
+    assert 'Coordinates not recorded' not in html
+    site['location'] = {'country': 'Panama'}
+    site.pop('evidence')
+    assert 'Coordinates not recorded' in detail(site, 'Curated', [])
+
+
+def test_curated_ngee_coordinates_have_field_specific_evidence():
+    for path in Path('db/curated/sites').glob('ngee_*.yaml'):
+        for site in yaml.safe_load(path.read_text())['sites']:
+            for key in ('latitude', 'longitude', 'elevation_meters'):
+                if key in site.get('location', {}):
+                    matches = [e for e in site.get('evidence', []) if '/location/' + key in e['supports']]
+                    assert matches, (site['id'], key)
+                    assert all(e.get('quotation') and e.get('locator') and e.get('notes') for e in matches)

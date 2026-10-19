@@ -246,7 +246,13 @@ it refuses to replace an unrecognized directory. Raw research notes remain in
 ### GitHub Pages
 
 The workflow `.github/workflows/pages.yml` tests, validates, and builds on pull
-requests and pushes to `main`. Deployment is opt-in via the repository variable
+requests and pushes to `main`. It checks schema and Python model generation,
+runs the full Python and JavaScript suites, accepts valid examples and rejects
+counterexamples, validates assembled data, ontology terms, and evidence quotations,
+and renders the browser. Schema lint errors fail the build; existing documentation
+and naming warnings remain visible without blocking it. Run `just test` and
+`just lint` for the schema/model, Python, example, and lint checks locally.
+Deployment is opt-in via the repository variable
 `ENABLE_PAGES=true` and only runs from `main`. To enable publication, configure
 **Settings → Pages → Source → GitHub Actions**, set that Actions variable, and
 push the source changes. Repository privacy alone does not make a Pages site private. `just deploy` can trigger the
@@ -317,6 +323,67 @@ separate ingestion gap. No BERVO equivalences were inferred during this change.
 and metatranscriptomes must remain distinguishable. Location can record a country
 without inventing coordinates. See [treatment-site research](docs/research/wastewater-metagenomics.md)
 for the seed-paper audit and the newly curated plants.
+
+## NGEE sites
+
+`db/curated/sites/ngee_arctic.yaml` and `ngee_tropics.yaml` contain 18 reviewed
+NGEE field-site records: seven Arctic locations and eleven named Tropics sites.
+They are curated from the projects' location pages and Phase 2 field overview,
+with source identities and evidence URLs retained in each record. The networks
+are represented separately as `NGEE_ARCTIC` and `NGEE_TROPICS`.
+
+This is a curated import, not an API refresh. No site measurement declarations
+or current operational status are inferred from project membership. Five
+Tropics records have coordinates from the cited Phase 2 proposal, with original
+notation, page anchors, and explicit degree-minute conversions where needed.
+The remaining locations retain verified country/region metadata without guessed
+points. Overlaps with broader DEIMS locations are documented without asserting
+exact equivalence. See [NGEE scope and evidence](docs/research/ngee-sites.md).
+
+Rebuild and validate with `just site`; edit these curated inputs to update them.
+
+Curated `Site.evidence` entries identify the fields they support using JSON
+Pointers (for example `/location/latitude`), alongside `source_url`, `source_label`,
+`locator`, optional `quotation`, `accessed_on`, and interpretation `notes`.
+Assembly rejects references to absent fields. The browser places numbered
+citations beside location values and shows source excerpts in an evidence panel.
+State coordinate conversions and spatial scope explicitly; record
+`location.coordinate_datum` only when the source supplies it. Existing imported
+coordinates without this evidence remain visible with their provenance gap
+marked; the new evidence model does not retroactively verify those coordinates.
+
+## Reference validation
+
+`just validate-references` rebuilds the collection and runs
+`linkml-reference-validator` against quotations in `Site.evidence`. It is also
+required by `just site` and the Pages CI workflow. The schema marks `source_url`
+as `linkml:authoritative_reference` and `quotation` as `linkml:excerpt`.
+`source_label` is a curator-written display label, not an exact bibliographic
+source title.
+
+Fetched public source text is committed under `references_cache/`, following the
+[mechmaker workflow](https://github.com/monarch-initiative/mechmaker/blob/main/template/justfile.jinja).
+The validator uses the reviewed cached text without silently refreshing it. A
+missing cache entry may be fetched; unavailable sources and unsupported prefixes
+are errors, never skips. To fetch and inspect a new source:
+
+```bash
+just fetch-reference 'https://example.org/source.pdf'
+# Explicitly refresh a source when reviewing upstream changes:
+just fetch-reference 'https://example.org/source.pdf' --no-cache
+just validate-references
+```
+
+Never write reference-cache text from the quotation being tested. Review fetched
+text and cache diffs before committing them. The validator normalizes formatting
+for substring matching; it does not verify the locator, coordinate conversion,
+spatial equivalence, or whether an excerpt supports the scientific claim.
+
+The NGEE import currently has **five automatically checked quotations**. Evidence
+entries without a quotation remain source citations and are labeled accordingly
+in HTML; a successful run does not mean those claims were checked. Tests assert
+the five comparisons actually occur offline and that a fabricated quotation and
+an unavailable source fail. Term checks remain a separate required validation.
 
 ## BERVO harmonization
 

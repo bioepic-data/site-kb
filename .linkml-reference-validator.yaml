@@ -1,0 +1,7 @@
+validation:
+  cache_dir: references_cache
+  # Check the reviewed text rather than silently refreshing it during a build.
+  trust_cached_entries: true
+  unknown_prefix_severity: ERROR
+  # Even the shortest coordinate excerpt exceeds this non-whitespace minimum.
+  min_excerpt_length: 15
