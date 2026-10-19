@@ -1,0 +1,136 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Tw5",
+    "site_name": "East Pond Wetland",
+    "grp_team_member": [
+      {
+        "team_member_name": "Dennis Baldocchi",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "baldocchi@berkeley.edu"
+      },
+      {
+        "team_member_name": "Daphne Szutu",
+        "team_member_role": "Technician",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "daphneszutu@berkeley.edu"
+      },
+      {
+        "team_member_name": "Joe Verfaillie",
+        "team_member_role": "Technician",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "jverfail@berkeley.edu"
+      },
+      {
+        "team_member_name": "Valach, Alex",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "a.c.valach@gmail.com"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "CA",
+    "site_desc": "The Twitchell Wetland site is a 6.5 acre restored wetland on Twitchell Island, that is managed by the California Department of Water Resources (DWR) and the U.S. Geological Survey (USGS). In the fall of 1997, the site was permanently flooded to a depth of approximately 55 cm. The wetland remained fairly unvegetated in patches increasing in size towards the east. The site underwent a major disturbance in 2013 when the vegetation was removed to seed a nearby restored wetland. A flux tower equipped to analyze energy, H2O, CO2, and CH4 fluxes was installed on April 17, 2018.",
+    "grp_location": {
+      "location_date_start": "201804250000",
+      "location_lat": "38.1072",
+      "location_long": "-121.6426",
+      "location_elev": "-5"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_date_start": "201809040000",
+      "igbp_comment": "Schoenoplectus acutus and Typha spp. dominate the site with Azolla covering much of the water surface"
+    },
+    "url": "http://nature.berkeley.edu/biometlab/sites.php?tab=US-Tw5",
+    "grp_clim_avg": {
+      "map": "421",
+      "mat": "15.5",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Tw5",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Tw5",
+    "dom_dist_mgmt": [
+      "Hydrologic event",
+      "Land cover change"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "GPP",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SPEC_NIR_IN",
+      "SPEC_NIR_OUT",
+      "SPEC_RED_IN",
+      "SPEC_RED_OUT",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1543380",
+      "FLUXNET": "10.17190/AMF/1881595"
+    },
+    "grp_publish_base": [
+      2018,
+      2019,
+      2020
+    ],
+    "grp_publish_fluxnet": [
+      2018,
+      2019
+    ],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": "2020"
+    }
+  },
+  "sha256": "be8d37e504d9342f683906d07cce8c3b236eefc19f3d8c5eef91dfcbf74716cf",
+  "field_path": "/values/709",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "bfcd712a8b1b4b4ab779b9999958d4289a06d6c110ad21096f4cff57007f1bf5"
+}

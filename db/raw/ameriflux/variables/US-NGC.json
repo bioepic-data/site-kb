@@ -1,0 +1,124 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-NGC",
+    "site_name": "NGEE Arctic Council",
+    "grp_team_member": [
+      {
+        "team_member_name": "Margaret Torn",
+        "team_member_role": "PI",
+        "team_member_institution": "Berkeley Lab",
+        "team_member_email": "mstorn@lbl.gov"
+      },
+      {
+        "team_member_name": "Sigrid Dengel",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "Sdengel@lbl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "AK",
+    "site_desc": "Subarctic tussock tundra, discontinuous permafrost",
+    "grp_location": {
+      "location_lat": "64.8618",
+      "location_long": "-163.7002",
+      "location_elev": "35"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_comment": "The more precise IGBP should be Tussock Tundra."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "climate_koeppen": "ET"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-NGC",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-NGC",
+    "dom_dist_mgmt": [
+      "Undisturbed"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CH4",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FCH4",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1634883",
+      "FLUXNET": "10.17190/AMF/1902838"
+    },
+    "grp_publish_base": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": "2023"
+    }
+  },
+  "sha256": "5768b28004f0344383f6bba1d214c9b6c6282059ac8f2b5bb96ae37ac6498f79",
+  "field_path": "/values/525",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "b287ec182d38349ba7b8faa282886b1046e3f6c16edc140e01e85060a737e44f"
+}

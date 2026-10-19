@@ -1,0 +1,93 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-NS4",
+    "site_name": "UCI-1964 burn site wet",
+    "grp_team_member": [
+      {
+        "team_member_name": "Mike Goulden",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California - Irvine",
+        "team_member_email": "mgoulden@uci.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": null,
+    "site_desc": "The UCI-1964 wet site is located in a continental boreal forest, dominated by black spruce trees, within the BOREAS northern study area in central Manitoba, Canada. The site is a member of a chronological series of sites that are representative secondary succession growth stages after large stand replacement fires. Black spruce trees undergo a slow growth process enabling the accurate determination of the chronosequence of stand age disturbance. Additionally, boreal forests make up approximately 25% of forest ecosystems on earth. With both of these in mind, the UCI sites provide an excellent location to study the CO2 exchange between the atmosphere and boreal forest ecosystems as a function of sequential wildfires.",
+    "grp_location": {
+      "location_lat": "55.9144",
+      "location_long": "-98.3806",
+      "location_elev": "260",
+      "location_comment": "Luyssaert"
+    },
+    "grp_igbp": {
+      "igbp": "ENF"
+    },
+    "url": "http://www.ess.uci.edu/~boreal_canada/index.html",
+    "grp_clim_avg": {
+      "map": "502.22",
+      "mat": "-2.87",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-NS4",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/CA-NS4",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "H",
+      "H2O",
+      "LE",
+      "NETRAD",
+      "P",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246001",
+      "FLUXNET": "10.17190/AMF/1902827"
+    },
+    "grp_publish_base": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ],
+    "grp_publish_fluxnet": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005
+    ],
+    "tower_dates": {
+      "tower_start": "2002",
+      "tower_end": "2004"
+    }
+  },
+  "sha256": "c72c4582d8ac7bd88bbefb907b66a8a238386337d1f924634afc0fedd50b2566",
+  "field_path": "/values/84",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "09c16b9ad5303de50b8875358abd4171aeced21e6797b98902c5dd3368398a03"
+}

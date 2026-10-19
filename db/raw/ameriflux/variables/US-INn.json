@@ -1,0 +1,115 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-INn",
+    "site_name": "INFLUX - Agricultural Site West of Indianapolis (Site-14a)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Kenneth Davis",
+        "team_member_role": "PI",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "kjd10@psu.edu"
+      },
+      {
+        "team_member_name": "Jason Horne",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "jph6488@psu.edu"
+      },
+      {
+        "team_member_name": "Natasha Miles",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "nmiles@psu.edu"
+      },
+      {
+        "team_member_name": "Scott Richardson",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "srichardson@psu.edu"
+      },
+      {
+        "team_member_name": "Samantha Murphy",
+        "team_member_role": "DataManager",
+        "team_member_institution": "The Pennsylvania State University",
+        "team_member_email": "smm8236@psu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IN",
+    "site_desc": "Agricultural site",
+    "grp_location": {
+      "location_date_start": "201901011530",
+      "location_lat": "39.9468",
+      "location_long": "-86.7880"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "201901011530"
+    },
+    "url": "https://sites.psu.edu/influx/site-information/corn-field-near-site-14/",
+    "grp_clim_avg": {
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-INn",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_FILTER",
+      "FETCH_MAX",
+      "FH2O",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "MO_LENGTH",
+      "PA",
+      "SC",
+      "SH",
+      "SLE",
+      "TAU",
+      "T_SONIC",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2001308"
+    },
+    "grp_publish_base": [
+      2019,
+      2020,
+      2021
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2019",
+      "tower_end": "2021"
+    }
+  },
+  "sha256": "2169da6aa7dd48408b7de5f649d0ae1d967f3f2dfb0cc782c27f98f19c708c44",
+  "field_path": "/values/403",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "9043d643b0ddf4a66c9a179a65a5f0d383c6d2b5326eb7447d7baf39d7ef8c10"
+}

@@ -1,0 +1,130 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-HWB",
+    "site_name": "USDA ARS Pasture Sytems and Watershed Management Research Unit- Hawbecker Site",
+    "grp_team_member": [
+      {
+        "team_member_name": "Sarah Goslee",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA ARS Pasture Systems and Watershed Management Research Unit",
+        "team_member_email": "sarah.goslee@usda.gov"
+      },
+      {
+        "team_member_name": "Jeffery Gonet",
+        "team_member_role": "DataManager",
+        "team_member_institution": "USDA ARS Pasture Systems and Watershed Management Research Unit",
+        "team_member_email": "jeffery.gonet@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTAR"
+    ],
+    "state": "PA",
+    "site_desc": "Hawbecker farm is owned by Penn State University. The farming that took place was performed  by their Farm Operations Division. The ground is rolling terrain, next to wooded areas, the Beef and Sheep Reasearch Farm, The University Airport, and other large fields maintained by Farm Operations. At the time of this collection period, the site housed another Meteorological Site, a Phenocam, and the GraceNet plots. Crop Rotation during period was  2 years Alfalfa,  1 year Corn for grain and 1 year Wheat.",
+    "grp_location": {
+      "location_date_start": "201201010000",
+      "location_lat": "40.8608",
+      "location_long": "-77.8488",
+      "location_elev": "378",
+      "location_comment": "Location information started with Met Site located to support GraceNet plots, Plot data started prior to Metsite."
+    },
+    "grp_igbp": {
+      "igbp": "CVM",
+      "igbp_comment": "Land has been privately owned prior to University Ownership, no records exist as to when crop land was cleared in landscape."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1006.35",
+      "mat": "10.1",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-HWB",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1811363",
+      "FLUXNET": "10.17190/AMF/1881582"
+    },
+    "grp_publish_base": [
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "grp_publish_fluxnet": [
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "tower_dates": {
+      "tower_start": "2015",
+      "tower_end": "2018"
+    }
+  },
+  "sha256": "869c215ea7ed629ac2700ce00f67e93e3afcbaf172032ffafe56853d6c1fda16",
+  "field_path": "/values/384",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "6188b0bba89131c6ffb61fc78ccae38bd241890651d9bcbbdd2291a4a7f8f3be"
+}

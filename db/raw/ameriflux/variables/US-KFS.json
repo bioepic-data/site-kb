@@ -1,0 +1,133 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-KFS",
+    "site_name": "Kansas Field Station",
+    "grp_team_member": [
+      {
+        "team_member_name": "Nathaniel Brunsell",
+        "team_member_role": "PI",
+        "team_member_institution": "Kansas University",
+        "team_member_email": "brunsell@ku.edu"
+      },
+      {
+        "team_member_name": "Bryan Conrad",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Kansas",
+        "team_member_email": "bryan.j.conrad@ku.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "KS",
+    "site_desc": "The study is an abandoned grassland at the Kansas Field Station and Ecological Reserves. The site is located within the tallgrass prairie-deciduous forest ecotonal area. The site was subjected to intensive agriculture from the 1940s through the late 1960s. In the mid-1970s, the site was planted with the cool-season grass Bromus inermis and used as a hay meadow until 1987. Then, mowing and burning approximately every five years maintained it as a grassland until 2007, when the eddy flux tower was installed.",
+    "grp_location": {
+      "location_lat": "39.0561",
+      "location_long": "-95.1907",
+      "location_elev": "310",
+      "location_comment": "From CDIAC Tom Boden database dump"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1014",
+      "mat": "12",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-KFS",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Fire",
+      "Temperature extreme"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PBLH",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246132",
+      "FLUXNET": "10.17190/AMF/1881585"
+    },
+    "grp_publish_base": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "grp_publish_fluxnet": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "tower_dates": {
+      "tower_start": "2007",
+      "tower_end": null
+    }
+  },
+  "sha256": "643e54b3f1c07f334465291a30fc9ddc84e54b8066a88e6fe366e20ed57677d8",
+  "field_path": "/values/423",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ee6fa2e1cb9726b100347062de4a99b8452169e420cf87329b99143a238e7ad9"
+}

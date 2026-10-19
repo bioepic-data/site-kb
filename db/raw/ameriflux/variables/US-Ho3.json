@@ -1,0 +1,153 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Ho3",
+    "site_name": "Howland Forest (harvest site)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Andrew Ouimette",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "Andrew.Ouimette@usda.gov"
+      },
+      {
+        "team_member_name": "Shawn Fraver",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Maine",
+        "team_member_email": "shawn.fraver@maine.edu"
+      },
+      {
+        "team_member_name": "David Hollinger",
+        "team_member_role": "AncContact",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "David.Hollinger@unh.edu"
+      },
+      {
+        "team_member_name": "Roel Alfredo Ruzol",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Maine",
+        "team_member_email": "roel.ruzol@maine.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "ME",
+    "site_desc": "Closed conifer forest, minimal disturbance. References: Fernandez et al. (1993),  Canadian Journal of Soil Science 73 317-328.  Hollinger et al. (1999),  Global Change Biology 5: 891-902.  Savage KE, Davidson EA (2001), Global Biogeochemical Cycles 15 337-350. Scott et al. (2004), Environmental Management, Vol. 33, Supplement 1, pp. S9-S22. Hollinger et al. (2004), Global Change Biology 10: 1689-1706.",
+    "grp_location": {
+      "location_lat": "45.2072",
+      "location_long": "-68.7265",
+      "location_elev": "61"
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_comment": "~80% ENF and 20% BDF in 200m around tower.  Across region forest type is mixed ENF, DBF (no type>60%)."
+    },
+    "url": "http://howlandforest.org/site_files/site.html",
+    "grp_clim_avg": {
+      "map": "1072",
+      "mat": "5.31",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Ho3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Forestry"
+    ],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246063",
+      "FLUXNET": "10.17190/AMF/3365265"
+    },
+    "grp_publish_base": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "tower_dates": {
+      "tower_start": "2000",
+      "tower_end": null
+    }
+  },
+  "sha256": "f367ec410f28f6494fb175a423e92c9113c706a02bfdff18c2529ef73330a31a",
+  "field_path": "/values/373",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "652777a868fc8cb35632d22a2af57f754b92b1a67ec5396fedf15a3a9e5a139e"
+}

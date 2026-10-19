@@ -1,0 +1,89 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-ARb",
+    "site_name": "ARM Southern Great Plains burn site- Lamont",
+    "grp_team_member": [
+      {
+        "team_member_name": "Margaret Torn",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "mstorn@lbl.gov"
+      },
+      {
+        "team_member_name": "Marc Fischer",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "mlfischer@lbl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "OK",
+    "site_desc": "The ARM SGP Burn site is located in the native tallgrass prairies of the USDA Grazinglands Research Laboratory near El Reno, OK. One of two adjacent 35 ha plots, the US-ARb plot was burned on 2005/03/08. The second plot, US-ARc, was left unburned as the control for experimental purposes. Aside from 2005, the region evaded burning activities for at least 15 years. Current disturbances consist of only light grazing activities.",
+    "grp_location": {
+      "location_lat": "35.5497",
+      "location_long": "-98.0402",
+      "location_elev": "424",
+      "location_comment": "Value confirmed by Marc Fischer by e-mail to Tom Boden on 12/24/2008"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": "http://www.arm.gov/sites/sgp",
+    "grp_clim_avg": {
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-ARb",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-ARb",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SW_IN",
+      "TA",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246025",
+      "FLUXNET": "10.17190/AMF/2006967"
+    },
+    "grp_publish_base": [
+      2005,
+      2006
+    ],
+    "grp_publish_fluxnet": [
+      2005,
+      2006
+    ],
+    "tower_dates": {
+      "tower_start": "2005",
+      "tower_end": "2006"
+    }
+  },
+  "sha256": "0140028ce451d00384fe4b83540090cca6d294da6c75ad9793325ac05eb44b44",
+  "field_path": "/values/199",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c9cb2be506814289ce095abd412d98561051aaf2073e595a0206e38c918ad9b5"
+}

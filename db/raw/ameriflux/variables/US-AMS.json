@@ -1,0 +1,132 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-AMS",
+    "site_name": "Argonne Testbed for Multiscale Observational Science (ATMOS)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Gavin McNicol",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Illinois at Chicago",
+        "team_member_email": "gmcnicol@uic.edu"
+      },
+      {
+        "team_member_name": "Roser Matamala",
+        "team_member_role": "PI",
+        "team_member_institution": "Argonne National Laboratory",
+        "team_member_email": "matamala@anl.gov"
+      },
+      {
+        "team_member_name": "Otto Briner",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Illinois at Chicago",
+        "team_member_email": "ottobriner@gmail.com"
+      },
+      {
+        "team_member_name": "Jack Breiter",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "University of Illinois at Chicago",
+        "team_member_email": "breiter3@uic.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IL",
+    "site_desc": "This tower is located at Argonne National Laboratory approximately 2 km north of the Des\nPlaines river and 115 m NNW from the ATMOS meteorological tower. It is downwind of a seasonally wet grassland bordered by forest 40 m N of the flux tower. The area was managed by controlled burns until 2019.",
+    "grp_location": {
+      "location_lat": "41.7018",
+      "location_long": "-87.9963",
+      "location_elev": "232"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "940",
+      "mat": "11.7",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-AMS",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture",
+      "Drought",
+      "Fire",
+      "Land cover change",
+      "Storm or wind"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "FH2O",
+      "GPP",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "RECO",
+      "RH",
+      "SC",
+      "SCH4",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2531142"
+    },
+    "grp_publish_base": [
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2021",
+      "tower_end": null
+    }
+  },
+  "sha256": "6915648a7e8273a55b0fb0319b17193039f21161e3e54ceaf9dffd22ae25e6b8",
+  "field_path": "/values/192",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "eb360623e7df8805a8716b525a7841dbc0c7db613b7e8c7f1c7355a7e4bb5c4e"
+}

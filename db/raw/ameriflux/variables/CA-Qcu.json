@@ -1,0 +1,111 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-Qcu",
+    "site_name": "Quebec - Eastern Boreal, Black Spruce/Jack Pine Cutover",
+    "grp_team_member": [
+      {
+        "team_member_name": "Hank A. Margolis",
+        "team_member_role": "PI",
+        "team_member_institution": "Université Laval",
+        "team_member_email": "Hank.Margolis@sbf.ulaval.ca"
+      },
+      {
+        "team_member_name": "Carole Coursolle",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Natural Resources Canada",
+        "team_member_email": "carole.coursolle@NRCan-RNCan.gc.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Fluxnet-Canada"
+    ],
+    "state": "Quebec",
+    "site_desc": "The ground is gently rolling with a weak slope (<5%). In mesic areas (designated as well to moderately well\ndrained areas, according to the Canadian System of Soil Classification (Agriculture Canada Expert Committee on Soil Survey, 1983)), the soil is a ferro-humic to humic podzol covered by an organic layer having an average depth of 26 cm (Fig. 1). In humid areas, the soil is organic (imperfectly to poorly drained) with an average organic layer of 125 cm. Mesic areas accounted for approximately 75% of the total surface area of the footprint and humid areas accounted for 25%.  Full-time continuous measurements eneded in 2011.  Intermittent measurements are on-going as resources permit.",
+    "grp_location": {
+      "location_lat": "49.2671",
+      "location_long": "-74.0365",
+      "location_elev": "392.3"
+    },
+    "grp_igbp": {
+      "igbp": "ENF"
+    },
+    "url": "http://www.fao.org/gtos/tems/tsite_show.jsp?TAB=5&TSITE_ID=3521",
+    "grp_clim_avg": {
+      "map": "949.78",
+      "mat": "0.13",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "Canada",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-Qcu",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246828"
+    },
+    "grp_publish_base": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2001",
+      "tower_end": "2011"
+    }
+  },
+  "sha256": "8f1523696dda7b5dd6b399ed00f4f2382fa782c7052a945a0ac195ea3e4c0a3d",
+  "field_path": "/values/95",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "9f27a3caf50e376f0fd4cc28fb51fac38e4a6af2f81a6a64878ee89d00baba98"
+}

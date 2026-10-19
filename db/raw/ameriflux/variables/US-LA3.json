@@ -1,0 +1,141 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-LA3",
+    "site_name": "Barataria Bay Saline Marsh",
+    "grp_team_member": [
+      {
+        "team_member_name": "Camille Stagg",
+        "team_member_role": "PI",
+        "team_member_institution": "USGS-Wetland and Aquatic Research Center",
+        "team_member_email": "cstagg@usgs.gov"
+      },
+      {
+        "team_member_name": "Eric Ward",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Maryland",
+        "team_member_email": "ericward@umd.edu"
+      },
+      {
+        "team_member_name": "Sergio Merino",
+        "team_member_role": "DataManager",
+        "team_member_institution": "USGS-Wetland and Aquatic Research Center",
+        "team_member_email": "smerino@usgs.gov"
+      },
+      {
+        "team_member_name": "Melinda Martinez",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Stanford University",
+        "team_member_email": "melmart@stanford.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "LA",
+    "site_desc": "Saline marsh, 20-40% organic matter, microtidal, dominated by Spartina alterniflora + Juncus roemarianus, patchy open water area",
+    "grp_location": {
+      "location_lat": "29.4936",
+      "location_long": "-89.9153",
+      "location_elev": "0.2",
+      "location_comment": "near Louisiana Coastwide Reference Monitoring System (CRMS) Site 0224 and NCDC Weather Station USC00165624"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Dominated by Spartina alterniflora + Juncus roemarianus, some Spartina patens + Distichlis spicata"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1623",
+      "mat": "20.9",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-LA3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Undisturbed"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O",
+      "CO2",
+      "CH4"
+    ],
+    "base_variables": [
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2229156",
+      "FLUXNET": "10.17190/AMF/2571117"
+    },
+    "grp_publish_base": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "2019",
+      "tower_end": null
+    }
+  },
+  "sha256": "d923839f369b99eda8b0b2715578e38818fae3cc5fc9fe805ae9f2f74f05412c",
+  "field_path": "/values/447",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "503edc139048555709fb4f150fb3e3769bed540beacd0ef54b10e1f755faf705"
+}

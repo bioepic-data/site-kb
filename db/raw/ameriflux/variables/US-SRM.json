@@ -1,0 +1,140 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-SRM",
+    "site_name": "Santa Rita Mesquite",
+    "grp_team_member": [
+      {
+        "team_member_name": "Russell Scott",
+        "team_member_role": "PI",
+        "team_member_institution": "United States Department of Agriculture",
+        "team_member_email": "russ.scott@ars.usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTAR",
+      "Phenocam"
+    ],
+    "state": "AZ",
+    "site_desc": "Semidesert grassland encroached by mesquite (Prosopis velutina) trees. Please see Scott et al. 2009 JGR-Biogeo, 114, G04004",
+    "grp_location": {
+      "location_lat": "31.8214",
+      "location_long": "-110.8661",
+      "location_elev": "1120"
+    },
+    "grp_igbp": {
+      "igbp": "WSA",
+      "igbp_comment": "MODIS website lists this as Open Shrublands (OSO), but site is more specifically a semidesert grassland that has been fully encroached by mesquite (now about 35% canopy cover, mean canopy height > 2 m). So technically, it is a woody savanna (WSA)."
+    },
+    "url": "https://santarita.arizona.edu/data-resources/data-download/usda-ars-ecosystem-atmosphere-water-and-carbon-exchange/water-and-1",
+    "grp_clim_avg": {
+      "map": "380",
+      "mat": "17.92",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-SRM",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-SRM",
+    "dom_dist_mgmt": [
+      "Grazing",
+      "Land cover change"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O",
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246104",
+      "FLUXNET": "10.17190/AMF/2475756"
+    },
+    "grp_publish_base": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "tower_dates": {
+      "tower_start": "2004",
+      "tower_end": null
+    }
+  },
+  "sha256": "94fc82f74ea11df1ec308a9aca8819c14b49bcc58a238eaffaf165b9d35b0c6b",
+  "field_path": "/values/675",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "8d27a81d4629cde46710a0cde4830b5eadad63c82edaf341a76c7fc9c27ccbb3"
+}

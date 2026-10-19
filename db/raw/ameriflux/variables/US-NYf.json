@@ -1,0 +1,108 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-NYf",
+    "site_name": "NYSM - Burt",
+    "grp_team_member": [
+      {
+        "team_member_name": "Scott Miller",
+        "team_member_role": "PI",
+        "team_member_institution": "University at Albany",
+        "team_member_email": "smiller@albany.edu"
+      },
+      {
+        "team_member_name": "Anna Glodzik",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University at Albany",
+        "team_member_email": "aglodzik@albany.edu"
+      },
+      {
+        "team_member_name": "Jason Covert",
+        "team_member_role": "Technician",
+        "team_member_institution": "University at Albany",
+        "team_member_email": "jcovert@albany.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "New York State Mesonet"
+    ],
+    "state": "NY",
+    "site_desc": "Located in a vineyard/crop field setting. It is in an opening in a vineyard with a crop field to the north. Obstructions within 100m include vineyards. The soil type is Niagara silt loam.  This site is a part of the New York State Mesonet Flux Network, one of multiple subnetworks (e.g. Profiler, Snow) operated by the New York State Mesonet. It also operates as a Standard meteorological site.",
+    "grp_location": {
+      "location_date_start": "201803101500",
+      "location_lat": "43.3170",
+      "location_long": "-78.7490",
+      "location_elev": "96"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "201803101500"
+    },
+    "url": "https://www.nysmesonet.org/networks/flux#stid=flux_burt",
+    "grp_clim_avg": {
+      "map": "855.63",
+      "mat": "9.5",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-NYf",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "Other",
+      "Other",
+      "Other"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "PA",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3683996"
+    },
+    "grp_publish_base": [
+      2018,
+      2019,
+      2020
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": null
+    }
+  },
+  "sha256": "7d3f0b3bd7b7c74148e8200a97289ea58c18f215372e8bb3c76196cec394754a",
+  "field_path": "/values/544",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "a1204987a388ac9f0ad601604da8bed196d412a8a28626d45fabf7d6cabff2b8"
+}

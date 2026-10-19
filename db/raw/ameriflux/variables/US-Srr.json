@@ -1,0 +1,148 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Srr",
+    "site_name": "Suisun marsh - Rush Ranch",
+    "grp_team_member": [
+      {
+        "team_member_name": "Patty Oikawa",
+        "team_member_role": "PI",
+        "team_member_institution": "California State University East Bay",
+        "team_member_email": "patty.oikawa@csueastbay.edu"
+      },
+      {
+        "team_member_name": "Joseph Verfaillie",
+        "team_member_role": "AncContact",
+        "team_member_institution": "University of California Berkeley",
+        "team_member_email": "jverfail@berkeley.edu"
+      },
+      {
+        "team_member_name": "Lisamarie Windham-Myers",
+        "team_member_role": "AncContact",
+        "team_member_institution": "USGS",
+        "team_member_email": "lwindham-myers@usgs.gov"
+      },
+      {
+        "team_member_name": "Brandon Broach",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "California State University East Bay",
+        "team_member_email": "bbroach2@horizon.csueastbay.edu"
+      },
+      {
+        "team_member_name": "Daphne Szutu",
+        "team_member_role": "Technician",
+        "team_member_institution": "California State University East Bay",
+        "team_member_email": "daphne.szutu@csueastbay.edu"
+      },
+      {
+        "team_member_name": "Brian Bergamaschi",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "USGS",
+        "team_member_email": "bbergama@usgs.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "This site is a 4.57 km2 brackish tidal marsh located in the San Francisco Bay National Estuarine Research Reserve (SFBNERR, http://www.nerrs.noaa.gov/reserves/san-francisco-bay.html) in Suisun Bay, CA, USA. Suisun Bay is the most extensive contiguous brackish marsh complex in California. This site is classified as a high marsh, which according to the National Wetland Inventory, is representative of over 58% of estuarine wetlands.",
+    "grp_location": {
+      "location_date_start": "20140406",
+      "location_lat": "38.2006",
+      "location_long": "-122.0264",
+      "location_elev": "8"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Schoenoplectus and Typha species, Juncus balticus, Distichlis spicata, and Sarcocornia pacifica, although it is increasingly influenced by an invasive perennial forb (Lepidium latifolium L.)"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "326",
+      "mat": "15.1",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Srr",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Srr",
+    "dom_dist_mgmt": [
+      "Drought",
+      "Storm or wind",
+      "Temperature extreme"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1418685",
+      "FLUXNET": "10.17190/AMF/2229389"
+    },
+    "grp_publish_base": [
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "grp_publish_fluxnet": [
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "tower_dates": {
+      "tower_start": "2014",
+      "tower_end": null
+    }
+  },
+  "sha256": "a8f9f33342698b134dd9fa3cda9e8f9472a88b0c57d6353f5a2e3eb9ad5cd391",
+  "field_path": "/values/676",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "cbc32b3c3728d2eed810713df6f0fe5b7562959e15e2eaca98fa8111cfb2cadc"
+}

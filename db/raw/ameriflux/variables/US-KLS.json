@@ -1,0 +1,118 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-KLS",
+    "site_name": "Kansas Land Institute",
+    "grp_team_member": [
+      {
+        "team_member_name": "Nathaniel Brunsell",
+        "team_member_role": "PI",
+        "team_member_institution": "Kansas University",
+        "team_member_email": "brunsell@ku.edu"
+      },
+      {
+        "team_member_name": "Noah Ring",
+        "team_member_role": "Technician",
+        "team_member_institution": "University of Kansas",
+        "team_member_email": "noahring@ku.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "KS",
+    "site_desc": "Perenniel Agricultural site",
+    "grp_location": {
+      "location_lat": "38.7745",
+      "location_long": "-97.5684",
+      "location_elev": "373"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "812",
+      "mat": "12",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-KLS",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Temperature extreme"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1498745",
+      "FLUXNET": "10.17190/AMF/1854367"
+    },
+    "grp_publish_base": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "grp_publish_fluxnet": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "tower_dates": {
+      "tower_start": "2012",
+      "tower_end": null
+    }
+  },
+  "sha256": "f497ce70ca81c0ec6f9feb488ee795114773acf655706d021d1409ad440c21fa",
+  "field_path": "/values/428",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "b3a531e2ef701f59502ea29e17bdf51bbde74bdd048dc1d0426b47439a949907"
+}

@@ -1,0 +1,106 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Bsg",
+    "site_name": "Burns Sagebrush",
+    "grp_team_member": [
+      {
+        "team_member_name": "Chad Hanson",
+        "team_member_role": "PI",
+        "team_member_institution": "Oregon State University",
+        "team_member_email": "chad.hanson@oregonstate.edu"
+      },
+      {
+        "team_member_name": "Chris Still",
+        "team_member_role": "PI",
+        "team_member_institution": "Oregon State University",
+        "team_member_email": "chris.still@oregonstate.edu"
+      },
+      {
+        "team_member_name": "Rory O'Connor",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA-Agricultural Research Service",
+        "team_member_email": "Rory.oconnor@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "OR",
+    "site_desc": "The site was established in 2012 and is part of a NOAA observation network for high precision measurements of carbon dioxide concentrations. It is located about 60 km southwest of Burns, Oregon in the Oregon High Desert. The vegetation in this area is dominated by sagebrush. The sampling inlets are at the heights of 18.5, 28.5, and 38.5 m. Gas analysis is performed with a Picarro 2302 Cavity Ringdown Spectrometer and a Li-Cor 7200 enclosed path IRGA. The tower is also equipped with a set of meteorological instruments, including an HMP sensor, radiation sensors (incoming and diffuse PAR, Net radiometer), and a CSAT3 sonic anemometer. This site is also part of the PhenoCam network operated by Harvard University and the University of New Hampshire.",
+    "grp_location": {
+      "location_lat": "43.4712",
+      "location_long": "-119.6909",
+      "location_elev": "1398"
+    },
+    "grp_igbp": {
+      "igbp": "OSH"
+    },
+    "url": "http://terraweb.forestry.oregonstate.edu/burns.htm",
+    "grp_clim_avg": {
+      "map": "289",
+      "mat": "7.36",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Bsg",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Grazing"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "FC",
+      "G",
+      "GPP",
+      "H",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1846661"
+    },
+    "grp_publish_base": [
+      2014,
+      2015
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2013",
+      "tower_end": "2018"
+    }
+  },
+  "sha256": "c521117c543835371f564396bb3fa070e700d7a2e3b7bbbd3d30ea2f0123db9c",
+  "field_path": "/values/241",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "401ed7a8d2fbad15687e48134ee89c7902b8242eaf332d9548645609e936a0c7"
+}

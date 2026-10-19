@@ -1,0 +1,72 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-GZ1",
+    "site_name": "Genesee, ID On-farm site Zone 1",
+    "grp_team_member": [
+      {
+        "team_member_name": "Eric Russell",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "eric.s.russell@wsu.edu"
+      },
+      {
+        "team_member_name": "Shelley Pressley",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "spressley@wsu.edu"
+      },
+      {
+        "team_member_name": "Zhongming Gao",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "zhongming.gao@wsu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WA",
+    "site_desc": "This site is located at Genesee, ID and currently under a crop rotation that consists of winter and spring crops. This site is under no-tillage management.",
+    "grp_location": {
+      "location_date_start": "20180501",
+      "location_lat": "46.5008",
+      "location_long": "-116.8068",
+      "location_elev": "746"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Dryland cropping system, predominantly winter wheat, spring cereals (barley and wheat), and pulse crops (dry pea, lentil and chickpea)"
+    },
+    "url": "http://micromet.paccar.wsu.edu/fluxlit/",
+    "grp_clim_avg": {
+      "map": "294.1",
+      "mat": "11.4",
+      "climate_koeppen": "Csb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-GZ1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {},
+    "grp_publish_base": [],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": null
+    }
+  },
+  "sha256": "3bbfd08832d4918179efe8c863d723ffcfe934a82e8418e131a25b49e0e2ce25",
+  "field_path": "/values/352",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464"
+}

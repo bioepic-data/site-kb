@@ -1,0 +1,108 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Sag",
+    "site_name": "Sag River",
+    "grp_team_member": [
+      {
+        "team_member_name": "Akira Miyata",
+        "team_member_role": "PI",
+        "team_member_institution": "National Agriculture and Food Research Organization",
+        "team_member_email": "amiyat@affrc.go.jp"
+      },
+      {
+        "team_member_name": "Yoshinobu Harazono",
+        "team_member_role": "PI",
+        "team_member_institution": "Osaka Prefecture University",
+        "team_member_email": "harazono2009gl@gmail.com"
+      },
+      {
+        "team_member_name": "Masahito Ueyama",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Osaka Prefecture University",
+        "team_member_email": "miyabi-flux@muh.biglobe.ne.jp"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "AK",
+    "site_desc": "This tower is located non-acidic moist tundra located in northeastern part of Kuparuk Basin (Sagavanirktok River). Mesic tundra consist of vascular plant, moss and a few short shrubs.",
+    "grp_location": {
+      "location_lat": "69.5131",
+      "location_long": "-148.5676",
+      "location_elev": "170"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Mesic tundra consist of vascular plant, moss and a few short shrubs."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "121",
+      "mat": "-8",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Sag",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Undisturbed"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O",
+      "CH4"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "FO3",
+      "G",
+      "GPP",
+      "H",
+      "LE",
+      "NEE",
+      "NETRAD",
+      "O3",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RECO",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "T_CANOPY",
+      "TS",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1987604",
+      "FLUXNET": "10.17190/AMF/2571113"
+    },
+    "grp_publish_base": [
+      1996
+    ],
+    "grp_publish_fluxnet": [
+      1996
+    ],
+    "tower_dates": {
+      "tower_start": "1996",
+      "tower_end": "1996"
+    }
+  },
+  "sha256": "9533db17d9237de6b76843dd595d22ae79178a37b9ed860cd7c03720a8e31d4d",
+  "field_path": "/values/633",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "6ac2c8513d52eddb5836477e05c764fd79ecc7404ef501a41453d64da677ddf5"
+}

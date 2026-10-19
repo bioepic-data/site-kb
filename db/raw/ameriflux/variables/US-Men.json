@@ -1,0 +1,97 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Men",
+    "site_name": "Lake Mendota, Center for Limnology Site",
+    "grp_team_member": [
+      {
+        "team_member_name": "Ankur Desai",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Wisconsin Madison",
+        "team_member_email": "desai@aos.wisc.edu"
+      },
+      {
+        "team_member_name": "David Reed",
+        "team_member_role": "FluxContact",
+        "team_member_email": "david.edwin.reed@gmail.com"
+      },
+      {
+        "team_member_name": "Jonathan Thom",
+        "team_member_role": "DataManager",
+        "team_member_email": "jthom@ssec.wisc.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WI",
+    "site_desc": "The site is located on the shoreline of Lake Mendota on the rooftop of UW-Madison's Center for Limnology.",
+    "grp_location": {
+      "location_lat": "43.0772",
+      "location_long": "-89.4030",
+      "location_elev": "260"
+    },
+    "grp_igbp": {
+      "igbp": "WAT",
+      "igbp_date_start": "201201010000"
+    },
+    "url": "http://flux.aos.wisc.edu/data/",
+    "grp_clim_avg": {
+      "map": "875",
+      "mat": "7.94",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Men",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "P",
+      "PA",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TW",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1433375"
+    },
+    "grp_publish_base": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2012",
+      "tower_end": "2018"
+    }
+  },
+  "sha256": "3258e7a3f0be2299e5871eb8b7901207728b100bc891ed7e38bf997ee3c687dc",
+  "field_path": "/values/480",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "78c31e6dd59f13d9862b4b0cf1eff983585727ebcad5dbe883b1a11841fd9aa7"
+}

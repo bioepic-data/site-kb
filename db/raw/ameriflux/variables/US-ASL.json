@@ -1,0 +1,97 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-ASL",
+    "site_name": "USSL San Joaquin Valley Almond Low Salinity",
+    "grp_team_member": [
+      {
+        "team_member_name": "Ray G. Anderson",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA-Agricultural Research Service, US Salinity Laboratory",
+        "team_member_email": "ray.anderson@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "almond orchard in San Joaquin Valley.  Lowest salinity almond orchard in network",
+    "grp_location": {
+      "location_date_start": "201610041230",
+      "location_lat": "36.9466",
+      "location_long": "-120.1024",
+      "location_elev": "78",
+      "location_comment": "16.2 ha orchard"
+    },
+    "grp_igbp": {
+      "igbp": "DBF",
+      "igbp_date_start": "201002010000",
+      "igbp_comment": "almond orchard"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "311",
+      "mat": "16.7",
+      "climate_koeppen": "Bwk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-ASL",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_FILTER",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "NETRAD",
+      "PA",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1617706"
+    },
+    "grp_publish_base": [
+      2016,
+      2017
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2016",
+      "tower_end": null
+    }
+  },
+  "sha256": "2d22719be7d9c63172fb7c7590f0d29131e20884bd6acdbd04ad3b2c92d180d9",
+  "field_path": "/values/203",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "73c6f4f94e341749741af7c4e1edaaff92340bf78c54a3c93cf12804c4dcf48a"
+}

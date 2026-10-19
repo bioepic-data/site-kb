@@ -1,0 +1,111 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-MWS",
+    "site_name": "Michigan State University Campus Site - Spartans",
+    "grp_team_member": [
+      {
+        "team_member_name": "Jiquan Chen",
+        "team_member_role": "PI",
+        "team_member_institution": "Michigan State University",
+        "team_member_email": "jqchen@msu.edu"
+      },
+      {
+        "team_member_name": "David Reed",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Michigan State University",
+        "team_member_email": "david.edwin.reed@gmail.com"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MI",
+    "site_desc": "Urban site located above the roof of Baker Hall, on Michigan State University's campus. In general, the campus is a low-density urban setting. Site was chosen to represent suburban areas within the Kalamazoo River watershed, although location is outside of the watershed.",
+    "grp_location": {
+      "location_date_start": "20180101",
+      "location_lat": "42.7293",
+      "location_long": "-84.4737",
+      "location_elev": "261"
+    },
+    "grp_igbp": {
+      "igbp": "URB",
+      "igbp_date_start": "20180101"
+    },
+    "url": "http://lees.geo.msu.edu/research/NASA_carboncycle/",
+    "grp_clim_avg": {
+      "map": "807",
+      "mat": "9.1",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-MWS",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Land cover change"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "P",
+      "PA",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1782821"
+    },
+    "grp_publish_base": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": null
+    }
+  },
+  "sha256": "01cdd26a0d3695eb506b20cb117f41e43cf7fbb2558c15c589a90b21dc75a954",
+  "field_path": "/values/511",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "a17cdad35415df7c8fe795d6ae9c8aa45298b2149da402ba046a927e8f5e8426"
+}

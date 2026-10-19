@@ -1,0 +1,161 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-HB2",
+    "site_name": "Hobcaw Barony Mature Longleaf Pine",
+    "grp_team_member": [
+      {
+        "team_member_name": "Tom O'Halloran",
+        "team_member_role": "PI",
+        "team_member_institution": "Clemson University",
+        "team_member_email": "tohallo@clemson.edu"
+      },
+      {
+        "team_member_name": "Haoyu Li",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Clemson University",
+        "team_member_email": "haoyul@clemson.edu"
+      },
+      {
+        "team_member_name": "Logan Porter",
+        "team_member_role": "Technician",
+        "team_member_institution": "Clemson University",
+        "team_member_email": "hlp@clemson.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "SC",
+    "site_desc": "A mature longleaf pine forest that is periodically managed with fire",
+    "grp_location": {
+      "location_date_start": "201706150000",
+      "location_lat": "33.3242",
+      "location_long": "-79.2440",
+      "location_elev": "4.7"
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_date_start": "201706150000",
+      "igbp_comment": "Primary species is pinus palustris"
+    },
+    "url": "https://sites.google.com/g.clemson.edu/ohalloran/tower-sites",
+    "grp_clim_avg": {
+      "map": "1429",
+      "mat": "18.3",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-HB2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LEAF_WET",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NDVI",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "P_RAIN",
+      "PRI",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SPEC_NIR_IN",
+      "SPEC_NIR_OUT",
+      "SPEC_PRI_REF_IN",
+      "SPEC_PRI_REF_OUT",
+      "SPEC_PRI_TGT_IN",
+      "SPEC_PRI_TGT_OUT",
+      "SPEC_RED_IN",
+      "SPEC_RED_OUT",
+      "SWC",
+      "SW_DIF",
+      "SW_DIR",
+      "SW_IN",
+      "SW_OUT",
+      "SWP",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "TW",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "WTD",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1660342",
+      "FLUXNET": "10.17190/AMF/2229377"
+    },
+    "grp_publish_base": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": null
+    }
+  },
+  "sha256": "ae99fe395547f06b5eed241b398578d1f4ed375a654e6e630e5ce9f1730fe017",
+  "field_path": "/values/359",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "22a0d04b7bdd65ea2bb0b7f68cff5f611b0f6998cccb007833a96ead25d86cfa"
+}

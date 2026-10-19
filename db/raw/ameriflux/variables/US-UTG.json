@@ -1,0 +1,128 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-UTG",
+    "site_name": "UFLUX Green River",
+    "grp_team_member": [
+      {
+        "team_member_name": "Paul Inkenbrandt",
+        "team_member_role": "PI",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "paulinkenbrandt@utah.gov"
+      },
+      {
+        "team_member_name": "Diane Menuz",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "dmenuz@utah.gov"
+      },
+      {
+        "team_member_name": "Kate Baustian",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "kbaustian@utah.gov"
+      },
+      {
+        "team_member_name": "Kathryn Ladig",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Utah Geological Survey",
+        "team_member_email": "kladig@utah.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "UFLUX"
+    ],
+    "state": "UT",
+    "site_desc": "This station is located adjacent to a large pivot that irrigates alfalpha.  The pivot is in line with the predominant wind direction.",
+    "grp_location": {
+      "location_date_start": "20250326",
+      "location_lat": "39.0188",
+      "location_long": "-110.1663",
+      "location_elev": "1245.1"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Alphalfa hay"
+    },
+    "url": "https://geology.utah.gov/utah-flux-network/",
+    "grp_clim_avg": {
+      "map": "161",
+      "mat": "21",
+      "climate_koeppen": "Bwk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-UTG",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "H2O",
+      "CO2"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "FC_SSITC_TEST",
+      "G",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "H_SSITC_TEST",
+      "LE",
+      "LEAF_WET",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PBLH",
+      "PPFD_IN",
+      "RH",
+      "SG",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3365236"
+    },
+    "grp_publish_base": [
+      2025
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2025",
+      "tower_end": null
+    }
+  },
+  "sha256": "34eef419997c736c8fc0c3d6c8fe743fa52ece26e234789651c872cc4e7ec478",
+  "field_path": "/values/750",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "f0b08402c1e7273980fbccf6b9419063a493a9e1f7fc05307b43f26711d064e2"
+}

@@ -1,0 +1,112 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Atq",
+    "site_name": "Atqasuk",
+    "grp_team_member": [
+      {
+        "team_member_name": "Donatella Zona",
+        "team_member_role": "PI",
+        "team_member_institution": "San Diego State University",
+        "team_member_email": "dzona@mail.sdsu.edu"
+      },
+      {
+        "team_member_name": "Walt Oechel",
+        "team_member_role": "PI",
+        "team_member_institution": "San Diego State University",
+        "team_member_email": "woechel@mail.sdsu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "AK",
+    "site_desc": "This site is 100 km south of Barrow, Alaska, Variety of moist-wet coastal sedge tundra, and moist-tussock tundra surfaces in the more well-drained upland.",
+    "grp_location": {
+      "location_date_start": "1999",
+      "location_lat": "70.4696",
+      "location_long": "-157.4089",
+      "location_elev": "15.00"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Moist tussock tundra"
+    },
+    "url": "http://gcrg.sdsu.edu",
+    "grp_clim_avg": {
+      "map": "93",
+      "mat": "-9.7",
+      "climate_koeppen": "ET"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Atq",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Atq",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O",
+      "CH4"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246029"
+    },
+    "grp_publish_base": [
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "1999",
+      "tower_end": null
+    }
+  },
+  "sha256": "96e601490df315dbbc9805e5b84d38c84ebdff53aec4c0de3a9d553ebccea106",
+  "field_path": "/values/205",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "cb4920a8a8eaabf011cfe01bb1f0085b23cecd67de29bbb8832d521bd9a54e44"
+}

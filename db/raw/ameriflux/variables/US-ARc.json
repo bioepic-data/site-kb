@@ -1,0 +1,89 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-ARc",
+    "site_name": "ARM Southern Great Plains control site- Lamont",
+    "grp_team_member": [
+      {
+        "team_member_name": "Margaret Torn",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "mstorn@lbl.gov"
+      },
+      {
+        "team_member_name": "Marc Fischer",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "mlfischer@lbl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "OK",
+    "site_desc": "The ARM SGP Control site is located in the native tallgrass prairies of the USDA Grazinglands Research Laboratory near El Reno, OK. One of two adjacent 35 ha plots with identical towers, measurements at the US-ARc unburned plot are used as the experimental control. The second plot, US-Arb, was burned on 2005/03/08. Measurement comparisons between the control and burn plot are used to address questions regarding the effects of burning activities on carbon fluxes. The region evaded burning activities for at least 15 years. Current disturbances consist of only light grazing activities.",
+    "grp_location": {
+      "location_lat": "35.5465",
+      "location_long": "-98.0400",
+      "location_elev": "424",
+      "location_comment": "Value confirmed by Marc Fischer by e-mail to Tom Boden on 12/24/2008"
+    },
+    "grp_igbp": {
+      "igbp": "GRA"
+    },
+    "url": "http://www.arm.gov/sites/sgp",
+    "grp_clim_avg": {
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-ARc",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-ARc",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SW_IN",
+      "TA",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246026",
+      "FLUXNET": "10.17190/AMF/2006968"
+    },
+    "grp_publish_base": [
+      2005,
+      2006
+    ],
+    "grp_publish_fluxnet": [
+      2005,
+      2006
+    ],
+    "tower_dates": {
+      "tower_start": "2005",
+      "tower_end": "2006"
+    }
+  },
+  "sha256": "b2ccc837b05a42aa38631838f91910694caf979cf13f66895eca129c13bbcd65",
+  "field_path": "/values/200",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "1adc0f10f8317a20d8f1036de1c25c21cca17755c367f5adcbd02282746c0790"
+}

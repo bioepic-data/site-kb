@@ -1,0 +1,145 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-VT2",
+    "site_name": "Vermillion Tributary Paired Cropland – Site 2 (Corn/Soy; Cover Crops)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Kesondra Key",
+        "team_member_role": "PI",
+        "team_member_institution": "Indiana University - Bloomington",
+        "team_member_email": "keyke@iu.edu"
+      },
+      {
+        "team_member_name": "Kim Novick",
+        "team_member_role": "PI",
+        "team_member_institution": "Indiana University - Bloomington",
+        "team_member_email": "knovick@iu.edu"
+      },
+      {
+        "team_member_name": "Michael Voyles",
+        "team_member_role": "Technician",
+        "team_member_institution": "Indiana University - Bloomington",
+        "team_member_email": "mpvoyles@iu.edu"
+      },
+      {
+        "team_member_name": "Steve Scott",
+        "team_member_role": "Technician",
+        "team_member_institution": "Indiana University - Bloomington",
+        "team_member_email": "stlscott@indiana.edu"
+      },
+      {
+        "team_member_name": "Trevor Gress",
+        "team_member_role": "Technician",
+        "team_member_institution": "Indiana University - Bloomington",
+        "team_member_email": "trgress@iu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IN",
+    "site_desc": "US-VT2 is located on flat, actively managed farmland operated by working farmers, following a conventional no-till corn–soybean rotation in the U.S. Midwest that uses cover crops. US-VT2 is one of two paired working farm sites on the same property; both are managed using similar conventional practices, with the key difference being that the paired site (US-VT1) does not incorporate cover crops into its rotation. This paired design enables direct site-to-site comparisons to assess the impacts of cover cropping on carbon, water, and energy fluxes.",
+    "grp_location": {
+      "location_date_start": "202309010000",
+      "location_lat": "40.4018",
+      "location_long": "-87.5213",
+      "location_elev": "216",
+      "location_comment": "The tower is in close proximity to its paired site (US-VT1) which uses the same farming methods without fall-planted cover crops"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Cover crops were air-seeded on 2023-09-08 (cereal rye). Corn was harvested on 2023-10-20. In 2024, soybeans were planted around 2024-05-01, reached full canopy by 2024-09-06, and were  harvested on 2024-10-03. Cover crops (mix of oats and radish) were air-seeded on 2024-10-03. These were later winter-killed (i.e., they do not survive cold winter conditions)"
+    },
+    "url": "https://kesondrakey.github.io/",
+    "grp_clim_avg": {
+      "map": "1068.37",
+      "mat": "11.37",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-VT2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_FILTER",
+      "FETCH_MAX",
+      "FH2O",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2567995",
+      "FLUXNET": "10.17190/AMF/3027370"
+    },
+    "grp_publish_base": [
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2023,
+      2024,
+      2025
+    ],
+    "tower_dates": {
+      "tower_start": "2023",
+      "tower_end": null
+    }
+  },
+  "sha256": "22586ad6154542e4c2a2a8bc4dd6698a79abd89d2f1189d5a64ca35fb9243e50",
+  "field_path": "/values/769",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "f39c93f3e127392da7a8b518224734d5f065d1d4579123c65878316304eb9f4a"
+}

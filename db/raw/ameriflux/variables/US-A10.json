@@ -1,0 +1,135 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-A10",
+    "site_name": "ARM-NSA-Barrow",
+    "grp_team_member": [
+      {
+        "team_member_name": "Ryan Sullivan",
+        "team_member_role": "PI",
+        "team_member_institution": "Argonne National Laboratory",
+        "team_member_email": "rcsullivan@anl.gov"
+      },
+      {
+        "team_member_name": "Dave Billesbach",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "University of Nebraska",
+        "team_member_email": "dbillesbach1@unl.edu"
+      },
+      {
+        "team_member_name": "Sebastien Biraud",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "scbiraud@lbl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "AK",
+    "site_desc": "This site is located at ARM North Slope of Alaska site near Barrow, AK",
+    "grp_location": {
+      "location_date_start": "20120328",
+      "location_lat": "71.3242",
+      "location_long": "-156.6149",
+      "location_elev": "4"
+    },
+    "grp_igbp": {
+      "igbp": "BSV",
+      "igbp_comment": "Coastal Arctic tundra"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "115.1",
+      "mat": "-11.2",
+      "climate_koeppen": "ET"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-A10",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-A10",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O",
+      "CH4"
+    ],
+    "base_variables": [
+      "ALB",
+      "CH4",
+      "CO2",
+      "FC",
+      "FCH4",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1498753",
+      "FLUXNET": "10.17190/AMF/3025776"
+    },
+    "grp_publish_base": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "grp_publish_fluxnet": [
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "tower_dates": {
+      "tower_start": "2012",
+      "tower_end": null
+    }
+  },
+  "sha256": "f66f6eafc349637841c32fe854efc5f9d98a149864990e48ad53a0a3b0042eff",
+  "field_path": "/values/162",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "06b951430abd9029374441ece603fe7390c9bdff0f46d54d210bd32aebf4537b"
+}

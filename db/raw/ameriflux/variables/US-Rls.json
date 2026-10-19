@@ -1,0 +1,132 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Rls",
+    "site_name": "RCEW Low Sagebrush",
+    "grp_team_member": [
+      {
+        "team_member_name": "Gerald Flerchinger",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Agricultural Research Service",
+        "team_member_email": "gerald.flerchinger@usda.gov"
+      },
+      {
+        "team_member_name": "NWRC Database Manager",
+        "team_member_role": "DataManager",
+        "team_member_institution": "USDA Agricultural Research Service",
+        "team_member_email": "ARS-BOISE-DATA@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTAR",
+      "Phenocam"
+    ],
+    "state": "ID",
+    "site_desc": "The site is located on the USDA-ARS's Reynolds Creek Experimental Watershed.  It is dominated by low sagebrush on land managed by USDI Bureau of Land Management.",
+    "grp_location": {
+      "location_date_start": "19841205",
+      "location_lat": "43.1439",
+      "location_long": "-116.7356",
+      "location_elev": "1608",
+      "location_comment": "Full meteorological station has been in place since 1984; streamflow and precipitation go much further back."
+    },
+    "grp_igbp": {
+      "igbp": "CSH",
+      "igbp_comment": "The site is a grazing alotment with light cattle grazing in spring."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "333",
+      "mat": "8.4",
+      "climate_koeppen": "Bsh"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Rls",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "D_SNOW",
+      "FC",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_FILTER",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1418682",
+      "FLUXNET": "10.17190/AMF/2229387"
+    },
+    "grp_publish_base": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "grp_publish_fluxnet": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "2014",
+      "tower_end": null
+    }
+  },
+  "sha256": "cd6631cf5f2bbfea4fb8914bb2c1e822f12afb6c80b0207e2b95e9d11c54521a",
+  "field_path": "/values/617",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ab4e00464717909c48b218aecb871e3fb6ce2be099f68e0cb9d377a0f82e95de"
+}

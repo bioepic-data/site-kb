@@ -1,0 +1,99 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-An2",
+    "site_name": "Anaktuvuk River Moderate Burn",
+    "grp_team_member": [
+      {
+        "team_member_name": "Adrian Rocha",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Notre Dame",
+        "team_member_email": "arocha1@nd.edu"
+      },
+      {
+        "team_member_name": "Gaius Shaver",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Marine Biological Laboratory",
+        "team_member_email": "gshaver@mbl.edu"
+      },
+      {
+        "team_member_name": "John Hobbie",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Marine Biological Laboratory",
+        "team_member_email": "jhobbie@mbl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "AK",
+    "site_desc": "The Anaktuvuk River fire on the North Slope of Alaska started on July 16, 2007 by lightning. It continued until the end of September when nearby lakes had already frozen over and burned >256,000 acres, creating a mosaic of patches that differed in burn severity.  The Anaktuvuk River Severe Burn, Moderate Burn, and Unburned sites are 40 km to the west of the nearest road and were selected in late May 2008 to determine the effects of the fire on carbon, water, and energy exchanges during the growing season. Because the fire had burned through September of the previous year, initial deployment of flux towers occurred prior to any significant vegetative regrowth, and our sampling campaign captured the full growing season in 2008. The Moderate Burn site consisted of a large area with small patches of completely and partially burned tundra intermixed across the landscape.",
+    "grp_location": {
+      "location_lat": "68.9500",
+      "location_long": "-150.2100",
+      "location_elev": "600",
+      "location_comment": "From CDIAC Tom Boden database dump"
+    },
+    "grp_igbp": {
+      "igbp": "OSH"
+    },
+    "url": null,
+    "grp_clim_avg": {},
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-An2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246143"
+    },
+    "grp_publish_base": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2008",
+      "tower_end": null
+    }
+  },
+  "sha256": "d6aaa365b1253b04b666f792beef13ed8f2622c945333ccd1a51fedf7f9948c3",
+  "field_path": "/values/194",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "fef6ffb872b836894d12de074c01fcb6f54d973d9674ab2232c7923338f9dc43"
+}

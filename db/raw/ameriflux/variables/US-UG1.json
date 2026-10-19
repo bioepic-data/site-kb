@@ -1,0 +1,70 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-UG1",
+    "site_name": "East River Riparian",
+    "grp_team_member": [
+      {
+        "team_member_name": "Dave Gochis",
+        "team_member_role": "PI",
+        "team_member_institution": "NCAR",
+        "team_member_email": "gochis@ucar.edu"
+      },
+      {
+        "team_member_name": "Justin Lentz",
+        "team_member_role": "Technician",
+        "team_member_institution": "NCAR",
+        "team_member_email": "lentz@ucar.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CO",
+    "site_desc": "This is a relatively short flux tower (5.9m) sited in a montane riparian corridor intended to estimate fluxes from within the riparian ecosystem.  The tower sits above a short riparian grass, sedge, pasture which is populated with clumps of willows.  The East River channel meanders through the site.  The riparian corridor is bounded by steep mountainsides.  Initial analysis of data from 2017-2019 was summarized in Ryken et al. (2020).  The site is continuing to be operated to improve sampling of interannual variablity.  Methane concentration sampling was augmented in 2022 but due to power issues, valid data has only been obtained in 2023.",
+    "grp_location": {
+      "location_date_start": "20170421",
+      "location_lat": "38.9230",
+      "location_long": "-106.9524",
+      "location_elev": "2755"
+    },
+    "grp_igbp": {
+      "igbp": "OSH"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "750",
+      "mat": "8",
+      "climate_koeppen": "Dsc"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-UG1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Drought",
+      "Grazing"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O",
+      "Other"
+    ],
+    "base_variables": [],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {},
+    "grp_publish_base": [],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": null
+    }
+  },
+  "sha256": "93bb7f132b77f5d657dabef00e759a1d317fff5c929cc395305501c8e6f8d1bb",
+  "field_path": "/values/724",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464"
+}

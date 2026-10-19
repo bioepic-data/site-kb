@@ -1,0 +1,70 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "MX-Iit",
+    "site_name": "Instituto de Ingenieria y Tecnologia - UACJ",
+    "grp_team_member": [
+      {
+        "team_member_name": "Eli R. Perez-Ruiz",
+        "team_member_role": "PI",
+        "team_member_institution": "Universidad Autonoma de Ciudad Juarez",
+        "team_member_email": "eli.perez@uacj.mx"
+      },
+      {
+        "team_member_name": "Felipe Adrian Vazquez-Galvez",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Universidad Autonoma de Ciudad Juarez",
+        "team_member_email": "fvazquez@uacj.mx"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "MexFlux"
+    ],
+    "state": "Chihuahua",
+    "site_desc": "This is an urban site located in the Institute of Engineering and Technology (Instituto de Ingenieria y Tecnologia, IIT) campus of the Autonomous University of Ciudad Juarez (Universidad Autonoma de Ciudad Juarez, UACJ) in Ciudad Juarez, Mexico. The tower is located in the roof of the Building E. The LCZ of the site is Open low-rise (LCZ 6), however, the site includes relatively abundant vegetation (above the city average)and parking lots, as well as nearby streets and industrial warehouses.",
+    "grp_location": {
+      "location_date_start": "20200102",
+      "location_lat": "31.7434",
+      "location_long": "-106.4316",
+      "location_elev": "1123",
+      "location_comment": "The flux tower started in the specified date, however, several meteorological and radiation sensors have been working in the site for several years."
+    },
+    "grp_igbp": {
+      "igbp": "URB",
+      "igbp_date_start": "19731010"
+    },
+    "url": "http://cecatev.uacj.mx/",
+    "grp_clim_avg": {
+      "map": "457.2",
+      "mat": "27",
+      "climate_koeppen": "Bwk"
+    },
+    "country": "Mexico",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/MX-Iit",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Temperature extreme"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {},
+    "grp_publish_base": [],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2020",
+      "tower_end": null
+    }
+  },
+  "sha256": "326d6a2e98e61a05c1c1c9eeeb35548613016fd497f005f11a3404d09c485a34",
+  "field_path": "/values/142",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464"
+}

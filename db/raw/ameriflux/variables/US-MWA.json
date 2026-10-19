@@ -1,0 +1,114 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-MWA",
+    "site_name": "Jackson Agricultural Field",
+    "grp_team_member": [
+      {
+        "team_member_name": "Jiquan Chen",
+        "team_member_role": "PI",
+        "team_member_institution": "Michigan State University",
+        "team_member_email": "jqchen@msu.edu"
+      },
+      {
+        "team_member_name": "David Reed",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Michigan State University",
+        "team_member_email": "david.edwin.reed@gmail.com"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MI",
+    "site_desc": "Agricultural site with non-irrigated conventional corn/soybean rotation. Site was chosen to represent agriculture within the Kalamazoo River watershed.",
+    "grp_location": {
+      "location_date_start": "20180112",
+      "location_lat": "42.2143",
+      "location_long": "-84.8539",
+      "location_elev": "290"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "20180112"
+    },
+    "url": "http://lees.geo.msu.edu/research/NASA_carboncycle/",
+    "grp_clim_avg": {
+      "map": "800",
+      "mat": "9.11",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-MWA",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "PA",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1782819"
+    },
+    "grp_publish_base": [
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2018",
+      "tower_end": null
+    }
+  },
+  "sha256": "237e7e4d22cac7e630fe2b06de7a7571567a1f2899613904dabc147e1fd551d6",
+  "field_path": "/values/509",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "9911ec429b751329c4210e85bb6cfbca0e3ff1d51abd0ac5fcf8b7362dd6d444"
+}

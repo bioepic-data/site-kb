@@ -1,0 +1,104 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Pon",
+    "site_name": "Ponca City",
+    "grp_team_member": [
+      {
+        "team_member_name": "Andy Suyker",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Nebraska - Lincoln",
+        "team_member_email": "asuyker1@unl.edu"
+      },
+      {
+        "team_member_name": "Todd Schimelfenig",
+        "team_member_role": "AncContact",
+        "team_member_institution": "",
+        "team_member_email": "TSchimelfenig1@unl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "OK",
+    "site_desc": "The Ponca Winter Wheat site is a 65 ha rainfed wheat field in north central Oklahoma. Planting of winter wheat takes place annually in mid-fall. By late May, most of the wheat reaches maturity, allowing for mid-summer harvest.",
+    "grp_location": {
+      "location_lat": "36.7667",
+      "location_long": "-97.1333",
+      "location_elev": "310"
+    },
+    "grp_igbp": {
+      "igbp": "CRO"
+    },
+    "url": "http://www.nrel.colostate.edu/projects/okflux/",
+    "grp_clim_avg": {
+      "map": "866.34",
+      "mat": "14.94",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Pon",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246091"
+    },
+    "grp_publish_base": [
+      1997,
+      1998,
+      1999,
+      2000
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "1997",
+      "tower_end": "2001"
+    }
+  },
+  "sha256": "fc00186e150adfaefaa062ff1f8957b18b284665bd9234ed4dd7779efa2d7abb",
+  "field_path": "/values/593",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "c9e16e68c35c0746a45ee771a0ecccad201c879932a8589e570de407c4f4a00b"
+}

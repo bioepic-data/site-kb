@@ -1,0 +1,187 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-MMS",
+    "site_name": "Morgan Monroe State Forest",
+    "grp_team_member": [
+      {
+        "team_member_name": "Kim Novick",
+        "team_member_role": "PI",
+        "team_member_institution": "Indiana University",
+        "team_member_email": "knovick@iu.edu"
+      },
+      {
+        "team_member_name": "Rich Phillips",
+        "team_member_role": "PI",
+        "team_member_institution": "Indiana University",
+        "team_member_email": "rpp6@iu.edu"
+      },
+      {
+        "team_member_name": "Mike Voyles",
+        "team_member_role": "BADMContact",
+        "team_member_institution": "Indiana University",
+        "team_member_email": "mpvoyles@iu.edu"
+      },
+      {
+        "team_member_name": "Steven Scott",
+        "team_member_role": "Technician",
+        "team_member_institution": "Indiana University",
+        "team_member_email": "stlscott@iu.edu"
+      },
+      {
+        "team_member_name": "Hans Peter Schmid",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Karlsruhe Institute of Technology, IMK-IFU",
+        "team_member_email": "hape.schmid@kit.edu"
+      },
+      {
+        "team_member_name": "Quan Zhang",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "Indiana University",
+        "team_member_email": "quazhang@indiana.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "IN",
+    "site_desc": "Owned by the Indiana Department of Natural Resources (IDNR), the Morgan Monroe State Forest, the site's namesake, is operated thanks to the long-term agreement between Indiana University and IDNR. The first settlers cleared the surrounding ridges for farming, but were largely unsuccessful. The state of Indiana purchased the land in 1929, creating the Morgan Monroe State Forest. Many of the trees in the tower footprint are 60-80 years old, surviving selective logging that ended over the past 10 years. Today, the forest is a secondary successional broadleaf forest within the maple-beech to oak hickory transition zone of the eastern deciduous forest.",
+    "grp_location": {
+      "location_lat": "39.3232",
+      "location_long": "-86.4133",
+      "location_elev": "275"
+    },
+    "grp_igbp": {
+      "igbp": "DBF",
+      "igbp_comment": "secondary successional, 29 tree species"
+    },
+    "url": "http://www.indiana.edu/~co2/",
+    "grp_clim_avg": {
+      "map": "1032",
+      "mat": "10.85",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-MMS",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-MMS",
+    "dom_dist_mgmt": [
+      "Forestry"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O",
+      "CO2",
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_BC_IN",
+      "LW_BC_OUT",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_BC_IN",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "RECO",
+      "RH",
+      "SW_BC_IN",
+      "SW_BC_OUT",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246080",
+      "FLUXNET": "10.17190/AMF/1854369"
+    },
+    "grp_publish_base": [
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "tower_dates": {
+      "tower_start": "1999",
+      "tower_end": null
+    }
+  },
+  "sha256": "cf6e0b408c5029d4f16e885cd197e5039a432c6a4b2347ff9d37a3f5778e6e34",
+  "field_path": "/values/493",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "ccb782ae1a0ac396b89078c21321beba335d8a0ce4e7f78b4058ef8ef5bcc16b"
+}

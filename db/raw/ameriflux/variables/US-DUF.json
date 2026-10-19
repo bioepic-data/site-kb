@@ -1,0 +1,113 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-DUF",
+    "site_name": "Denver Urban Field Station",
+    "grp_team_member": [
+      {
+        "team_member_name": "George Valentine",
+        "team_member_role": "PI",
+        "team_member_institution": "US Forest Service, Rocky Mountain Research Station",
+        "team_member_email": "george.valentine@usda.gov"
+      },
+      {
+        "team_member_name": "John Frank",
+        "team_member_role": "PI",
+        "team_member_institution": "US Forest Service, Rocky Mountain Research Station",
+        "team_member_email": "john.frank@usda.gov"
+      },
+      {
+        "team_member_name": "Travis Warziniack",
+        "team_member_role": "PI",
+        "team_member_institution": "US Forest Service, Rocky Mountain Research Station",
+        "team_member_email": "travis.warziniack@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CO",
+    "site_desc": "This site was established on a 25m freestanding former radio tower at the Forest Service's Rocky Mountain Research Station headquarters in Fort Collins, CO. The tower is situated next to a parking lot and several one and two story buildings. To the north and west is the campus of Colorado State University, and to the north and east is low density residential development. To the south and east are a busy intersection and rapid transit bus line, and to the south is green space surrounding the City of Fort Collins' Spring Creek Trail.",
+    "grp_location": {
+      "location_lat": "40.5678",
+      "location_long": "-105.0809",
+      "location_elev": "1527"
+    },
+    "grp_igbp": {
+      "igbp": "URB"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "402",
+      "mat": "10.4",
+      "climate_koeppen": "Bsk"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-DUF",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Land cover change"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O",
+      "CH4"
+    ],
+    "base_variables": [
+      "CH4",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FCH4",
+      "FETCH_70",
+      "FETCH_90",
+      "FH2O",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SH",
+      "SLE",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "T_SONIC",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2567981"
+    },
+    "grp_publish_base": [
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": null
+    }
+  },
+  "sha256": "07b8bd21ccea0eca3c0ce989032c5aa3ceca2dd8c94f99b58e823ec9671f8155",
+  "field_path": "/values/317",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "e3ae1dbcea348ed27ca844bdd8443a8876981024e7ea114c0b0b55f60369aa5a"
+}

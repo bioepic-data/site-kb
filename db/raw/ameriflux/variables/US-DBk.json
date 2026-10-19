@@ -1,0 +1,108 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-DBk",
+    "site_name": "Berkeley Way West",
+    "grp_team_member": [
+      {
+        "team_member_name": "Allen Goldstein",
+        "team_member_role": "PI",
+        "team_member_institution": "UC Berkeley",
+        "team_member_email": "ahg@berkeley.edu"
+      },
+      {
+        "team_member_name": "Joshua Apte",
+        "team_member_role": "PI",
+        "team_member_institution": "UC Berkeley",
+        "team_member_email": "apte@berkeley.edu"
+      },
+      {
+        "team_member_name": "Haley Lane",
+        "team_member_role": "DataManager",
+        "team_member_institution": "UC Berkeley",
+        "team_member_email": "haley_lane@berkeley.edu"
+      },
+      {
+        "team_member_name": "Erin Katz",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "UC Berkeley",
+        "team_member_email": "erin_katz@berkeley.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "This tower is located in dowtown Berkeley, CA on the roof of Berkeley Way West, an 8 story building. The surrounding area is urbanized and includes a major commercial corridor, residential areas, and the UC Berkeley campus within 1 km of the site. Multi-unit residential construction activities took place near the site on an intermittent basis throughout tower operation.",
+    "grp_location": {
+      "location_date_start": "20230504",
+      "location_lat": "37.8736",
+      "location_long": "-122.2684"
+    },
+    "grp_igbp": {
+      "igbp": "URB"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-DBk",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O"
+    ],
+    "base_variables": [
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FH2O",
+      "H",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "PA",
+      "RH",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WD_SIGMA",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2567980"
+    },
+    "grp_publish_base": [
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2022",
+      "tower_end": null
+    }
+  },
+  "sha256": "e5d3d666b485b55b89b8710d13433afbc9b5ce7fdab1995f873e391d651f031b",
+  "field_path": "/values/299",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "dd4e1631a8ce151504f597c5714b98863f95bb2956fe22578f8a55ed0c1a0ff9"
+}

@@ -1,0 +1,143 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Ro2",
+    "site_name": "Rosemount- C7",
+    "grp_team_member": [
+      {
+        "team_member_name": "John Baker",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Minnesota",
+        "team_member_email": "jbaker@umn.edu"
+      },
+      {
+        "team_member_name": "Timothy Griffis",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Minnesota",
+        "team_member_email": "tgriffis@umn.edu"
+      },
+      {
+        "team_member_name": "Ke Xiao",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Minnesota",
+        "team_member_email": "xiaox224@umn.edu"
+      },
+      {
+        "team_member_name": "Bill Breiter",
+        "team_member_role": "Technician",
+        "team_member_institution": "USDA-ARS",
+        "team_member_email": "wbreiter@umn.edu"
+      },
+      {
+        "team_member_name": "Peter Turner",
+        "team_member_role": "Affiliate",
+        "team_member_email": "turne289@umn.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "MN",
+    "site_desc": "This tower is located in a farm field farmed in accordance with the dominant farming practice in the region: a corn/soybean/clover rotation with chisel plow tillage in the fall following corn harvest and in the spring following soybeans.",
+    "grp_location": {
+      "location_date_start": "200305210000",
+      "location_lat": "44.7288",
+      "location_long": "-93.0888",
+      "location_elev": "292",
+      "location_comment": "Site is being retired in 2017 to make way for gravel mining and an asphalt plant. New site(s) are being applied for concurrently."
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "200305210000",
+      "igbp_comment": "Corn-Soybean-Kura Clover annual rotation"
+    },
+    "url": "http://www.biometeorology.umn.edu/",
+    "grp_clim_avg": {
+      "map": "879",
+      "mat": "6.4",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Ro2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "FC",
+      "G",
+      "GPP",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "T_CANOPY",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1418683",
+      "FLUXNET": "10.17190/AMF/2204876"
+    },
+    "grp_publish_base": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "grp_publish_fluxnet": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "tower_dates": {
+      "tower_start": "2003",
+      "tower_end": "2017"
+    }
+  },
+  "sha256": "19bfedd4b52f938c792eafee9996e17891830cfe0182b8776a4a4e95460b7572",
+  "field_path": "/values/620",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "433e383db29d98297d47b55d683eda92a8470da8c69d09a4d68621ff33a9e95f"
+}

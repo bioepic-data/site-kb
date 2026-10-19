@@ -1,0 +1,113 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-IAC",
+    "site_name": "Iowa State University SE tower",
+    "grp_team_member": [
+      {
+        "team_member_name": "Vanloocke Andy",
+        "team_member_role": "PI",
+        "team_member_institution": "Iowa State University",
+        "team_member_email": "andyvanl@iastate.edu"
+      },
+      {
+        "team_member_name": "Guler Aslan-Sungur",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "Iowa State University",
+        "team_member_email": "gulera@iastate.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IA",
+    "site_desc": "This is a 4 ha (200 m x 200 m) sorghum-corn-soybean rotation established at the Sustainable Advanced Bioeconomy Research (SABR) farm at Iowa State University. The site has a long history of conventional row-cropping, predominantly corn-soy rotations. In the immediately preceding growing season, soybeans were grown at the SABR farm.",
+    "grp_location": {
+      "location_date_start": "20190606",
+      "location_lat": "41.9984",
+      "location_long": "-93.7016",
+      "location_elev": "315"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "20190611",
+      "igbp_comment": "The first planted crop was Sorghum; here is the planting and harvesting time of the rotated crops for this tower.                      Planting date            Harvesting Date     Year/Crop\nJune 11, 2019\t  Oct 8, 2019\t2019/Sorghum\nApril 24, 2020\t  Oct 6, 2020\t2020/Corn\nMay 12, 2021\t  Oct 10, 2021\t2021/Soybean\nJune 6 & 9, 2022        Sep 29, 2022\t2022/Sorghum\nApril 26, 2023\t   Oct19, 2023\t2023/Corn\nApril 25, 2024\t   Oct 4, 2024\t2024/Soybean"
+    },
+    "url": "https://sabr.shinyapps.io/appSABR/",
+    "grp_clim_avg": {
+      "map": "912",
+      "mat": "10.6",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-IAC",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_SIGMA",
+      "FC",
+      "H",
+      "H2O",
+      "H2O_SIGMA",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "RH",
+      "SC",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2586672",
+      "FLUXNET": "10.17190/AMF/3027373"
+    },
+    "grp_publish_base": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2019",
+      "tower_end": null
+    }
+  },
+  "sha256": "3347e08387aafb3a34c59960c999921ed2650b22cb36ae1e7acfd536a4ec44a0",
+  "field_path": "/values/387",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "3fe5c630bda7652320866e397f050efec9a772051afb7249fb682d0bdfc6b9d7"
+}

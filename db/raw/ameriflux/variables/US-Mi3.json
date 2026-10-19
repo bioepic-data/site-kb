@@ -1,0 +1,109 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Mi3",
+    "site_name": "LTAR UCB (Upper Chesapeake Bay) Miscanthus 3",
+    "grp_team_member": [
+      {
+        "team_member_name": "Sarah Goslee",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA ARS Pasture Systems and Watershed Management Research Unit",
+        "team_member_email": "sarah.goslee@usda.gov"
+      },
+      {
+        "team_member_name": "Jeffery Gonet",
+        "team_member_role": "DataManager",
+        "team_member_institution": "USDA ARS Pasture Systems and Watershed Management Research Unit",
+        "team_member_email": "jeffery.gonet@usda.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTAR"
+    ],
+    "state": "OH",
+    "site_desc": "This Farm was a privately owned farm in Ohio Leased to Aloterra Energy Corporation out of Texas, The crop was Miscanthus grown continually originally for alternative Ethanol production but eventually for fiber as absorbant material. Miscanthus grows upwards of 15 ft tall each year.",
+    "grp_location": {
+      "location_date_start": "201506241000",
+      "location_lat": "41.8222",
+      "location_long": "-80.6370",
+      "location_elev": "270"
+    },
+    "grp_igbp": {
+      "igbp": "CVM",
+      "igbp_comment": "Land has been privately owned, no records exist as to when crop land was cleared in landscape."
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1012.7",
+      "mat": "10.5",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Mi3",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "MO_LENGTH",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "SWC",
+      "TA",
+      "TAU",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1865481"
+    },
+    "grp_publish_base": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2015",
+      "tower_end": "2019"
+    }
+  },
+  "sha256": "e6082cff03a578ab85f06723b2b640699fcc0ea063cf2a01c0c249629a198cca",
+  "field_path": "/values/487",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "3fa6e0e4695b2d131a61fde6c2b480184257743fd80af699d1e55d8823b925e3"
+}

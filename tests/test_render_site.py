@@ -122,6 +122,21 @@ def test_study_context_catalog_and_dataset_availability_are_visible(tmp_path):
     assert 'sources/curated/variables/wastewater_studies.yaml' in html
 
 
+def test_ameriflux_raw_provenance_links(tmp_path):
+    from site_kb.scripts.fetch_ameriflux import API_URL, checksum, ingest
+    imported, curated, output = tmp_path / 'imported', tmp_path / 'curated', tmp_path / 'site'
+    records = [{'SITE_ID': 'US-Ha1', 'SITE_NAME': 'Harvard Forest'}]
+    ingest({'source_url': API_URL, 'retrieved_at': '2026-10-15T00:00:00+00:00',
+            'response_sha256': checksum(records), 'records': records},
+           imported / 'ameriflux', tmp_path / 'raw/ameriflux')
+    render(output, imported, curated)
+    html = (output / 'sites' / (slug('site_kb:ameriflux-us-ha1') + '.html')).read_text()
+    assert 'sources/raw/ameriflux/US-Ha1.json' in html
+    assert 'sources/imported/ameriflux/ameriflux_us-ha1.yaml' in html
+    assert 'import-report.json' not in html
+    check_links(output)
+
+
 def test_location_evidence_is_linked_and_escaped():
     from site_kb.scripts.render_site import detail
     site = {'id': 'site_kb:evidence', 'name': 'Evidence test',

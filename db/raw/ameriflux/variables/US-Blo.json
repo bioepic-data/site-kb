@@ -1,0 +1,93 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Blo",
+    "site_name": "Blodgett Forest",
+    "grp_team_member": [
+      {
+        "team_member_name": "Allen Goldstein",
+        "team_member_role": "PI",
+        "team_member_institution": "University of California, Berkeley",
+        "team_member_email": "ahg@berkeley.edu"
+      },
+      {
+        "team_member_name": "Silvano Fares",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Entecra",
+        "team_member_email": "silvano.fares@cnr.it"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "CA",
+    "site_desc": "The flux tower site at Blodgett Forest is on a 1200 ha parcel of land owned by Sierra Pacific Industries in the Sierra Nevada range near Georgetown, California. The field site was established in May 1997 with continuous operation since May 1999. The site is situated in a ponderosa pine plantation, mixed-evergreen coniferous forest, located adjacent to Blodgett Forest Research Station. The Mediterranean-type climate of California is characterized by a protracted summer drought, with precipitation occurring mainly from October through May. The infrastructure for the ecosystem scale flux measurements includes a walkup measurement tower, two temperature controlled instrument buildings, and an electrical generation system powered by a diesel generator. Typical wind patterns at the site include upslope flow during the day (from the west) and downslope flow at night (from the east). The plantation is relatively flat, and contains a homogenous mixture of evenly aged ponderosa pine with other trees and shrubs scattered throughout the ecosystem making up less than 30% of the biomass. The daytime fetch for the tower measurements extends approximately 200 m to the southwest of the tower (this region contributes ~90% of the daytime flux), thus remote sensing images to be used for modeling should probably be centered approximately 100 m from the tower at an angle of 225 deg.",
+    "grp_location": {
+      "location_lat": "38.8953",
+      "location_long": "-120.6328",
+      "location_elev": "1315"
+    },
+    "grp_igbp": {
+      "igbp": "ENF"
+    },
+    "url": "http://www.cnr.berkeley.edu/~ahg/tgbl/group.html",
+    "grp_clim_avg": {
+      "map": "1226",
+      "mat": "11.09",
+      "climate_koeppen": "Csa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Blo",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Blo",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "TA",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246032"
+    },
+    "grp_publish_base": [
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "1997",
+      "tower_end": "2006"
+    }
+  },
+  "sha256": "653de011a01cd7dde7aa326788ad7ed4f63909069cb7e87e7689b8682675b9ff",
+  "field_path": "/values/227",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "a5ba7d3af469e6939ee467a33feb8e0b502179dd121c68e1364b474e3409f821"
+}

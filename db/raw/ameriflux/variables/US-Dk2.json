@@ -1,0 +1,121 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Dk2",
+    "site_name": "Duke Forest-hardwoods",
+    "grp_team_member": [
+      {
+        "team_member_name": "A. Christopher Oishi",
+        "team_member_role": "PI",
+        "team_member_institution": "USDA Forest Service",
+        "team_member_email": "andrew.c.oishi@usda.gov"
+      },
+      {
+        "team_member_name": "Kim Novick",
+        "team_member_role": "PI",
+        "team_member_institution": "Indiana University",
+        "team_member_email": "knovick@indiana.edu"
+      },
+      {
+        "team_member_name": "Paul Stoy",
+        "team_member_role": "PI",
+        "team_member_institution": "Montana State University",
+        "team_member_email": "paul.stoy@montana.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "NC",
+    "site_desc": "private land adjacent to the Duke Forest in November 2002",
+    "grp_location": {
+      "location_lat": "35.9736",
+      "location_long": "-79.1004",
+      "location_elev": "168"
+    },
+    "grp_igbp": {
+      "igbp": "DBF",
+      "igbp_comment": "There is a transition to MF toward the FACE site (Duke Pine forest). For the purposes of research, the area around the tower should be considered DBF."
+    },
+    "url": "http://www.nicholas.duke.edu/other/AMERIFLUX/amerflux.html",
+    "grp_clim_avg": {
+      "map": "1168.69",
+      "mat": "14.36",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Dk2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246047",
+      "FLUXNET": "10.17190/AMF/3027317"
+    },
+    "grp_publish_base": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "grp_publish_fluxnet": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008
+    ],
+    "tower_dates": {
+      "tower_start": "2001",
+      "tower_end": "2008"
+    }
+  },
+  "sha256": "b549ca48f01bed8484ba79a20c2db30b5b0a1965ca547e05ea3115e28001d657",
+  "field_path": "/values/309",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "153b0a421fb070a4b2c82e10e330dd5c4ce5d24984a0744bbdc0254235d760a0"
+}

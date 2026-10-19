@@ -70,10 +70,24 @@ fetch-deims *ARGS:
 fetch-neon *ARGS:
   uv run python -m site_kb.scripts.fetch_neon {{ARGS}}
 
+# Fetch public AmeriFlux site metadata, preserving source snapshots
+fetch-ameriflux *ARGS:
+  uv run python -m site_kb.scripts.fetch_ameriflux {{ARGS}}
+
+# Import site-reported fluxes and current published BASE variables and coverage
+fetch-ameriflux-variables *ARGS:
+  uv run python -m site_kb.scripts.fetch_ameriflux_variables {{ARGS}}
+
+# Stage local BADM/BIF groups for review; does not populate site measurements
+stage-ameriflux-bif *ARGS:
+  uv run python -m site_kb.scripts.parse_ameriflux_bif {{ARGS}}
+
 # Fetch from all sources
 fetch-all:
   just fetch-deims
   just fetch-neon
+  just fetch-ameriflux
+  just fetch-ameriflux-variables --refresh
 
 # Run all validations
 validate-all: validate-db validate-terms validate-references

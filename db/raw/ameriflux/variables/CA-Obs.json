@@ -1,0 +1,137 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-Obs",
+    "site_name": "Saskatchewan - Western Boreal, Mature Black Spruce",
+    "grp_team_member": [
+      {
+        "team_member_name": "Alan Barr",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Saskatchewan",
+        "team_member_email": "alan.barr@usask.ca"
+      },
+      {
+        "team_member_name": "Andy Black",
+        "team_member_role": "PI",
+        "team_member_institution": "University of British Columbia",
+        "team_member_email": "andrew.black@ubc.ca"
+      },
+      {
+        "team_member_name": "Warren Helgason",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Saskatchewan",
+        "team_member_email": "warren.helgason@usask.ca"
+      },
+      {
+        "team_member_name": "Bruce Johnson",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Saskatchewan",
+        "team_member_email": "bruce.johnson@usask.ca"
+      },
+      {
+        "team_member_name": "Cody David",
+        "team_member_role": "Technician",
+        "team_member_institution": "University of Saskatchewan",
+        "team_member_email": "cody.david@usask.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Fluxnet-Canada",
+      "Phenocam"
+    ],
+    "state": null,
+    "site_desc": "53.98717° N, 105.11779° W, elavation of 628.94 m, BOREAS 1994, 1996, BERMS climate measurements began Dec. 1996 and flux measurements in Apr. 1999",
+    "grp_location": {
+      "location_lat": "53.9872",
+      "location_long": "-105.1178",
+      "location_elev": "628.94",
+      "location_comment": "Bergeron, et al  2006 Global Change Biology. 12, 1-19 / Luyssaert: 520"
+    },
+    "grp_igbp": {
+      "igbp": "ENF"
+    },
+    "url": "https://water.usask.ca/berms/",
+    "grp_clim_avg": {
+      "map": "405.6",
+      "mat": "0.79",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "Canada",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-Obs",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/CA-Obs",
+    "dom_dist_mgmt": [
+      "Drought"
+    ],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "APAR",
+      "CO2",
+      "FAPAR",
+      "FC",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RECO",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_DIF",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1375198"
+    },
+    "grp_publish_base": [
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "1999",
+      "tower_end": null
+    }
+  },
+  "sha256": "7c49b523aff5aae3160fe33f5898ca1f3fe767db7b642b20755d731c2cb950fa",
+  "field_path": "/values/90",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "06404669590ec8962dc0a14e4ce09c33c34133f884100cf7b7f9685216f0ffdd"
+}

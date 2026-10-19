@@ -1,0 +1,126 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-ZF2",
+    "site_name": "Zumwalt Farm Control",
+    "grp_team_member": [
+      {
+        "team_member_name": "Sebastien C. Biraud",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "SCBiraud@lbl.gov"
+      },
+      {
+        "team_member_name": "Brian Wang",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "BrianWang@lbl.gov"
+      },
+      {
+        "team_member_name": "Stephen W. Chan",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "SWChan@lbl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "IL",
+    "site_desc": "Commercially farmed corn-soy rotation field located in Illinois as part of a multi-year study on Enhanced Rock Weathering (ERW).",
+    "grp_location": {
+      "location_date_start": "202412060000",
+      "location_lat": "40.7939",
+      "location_long": "-87.5355",
+      "location_elev": "202"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Soy bean"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "914",
+      "mat": "9",
+      "climate_koeppen": "Dfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-ZF2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O",
+      "N2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "SWP",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/3023120",
+      "FLUXNET": "10.17190/AMF/3027365"
+    },
+    "grp_publish_base": [
+      2024,
+      2025,
+      2026
+    ],
+    "grp_publish_fluxnet": [
+      2024,
+      2025
+    ],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": null
+    }
+  },
+  "sha256": "e8a0830ddf6310acf5c0454f5e7c0cc9c9564d4139fc5b4709f8dc4647a9e97c",
+  "field_path": "/values/848",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "56e73106d098f4ebc14c9868f1fe225c64b0ee3e324e71050e8a344756189cef"
+}

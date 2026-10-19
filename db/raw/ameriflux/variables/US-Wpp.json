@@ -1,0 +1,101 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Wpp",
+    "site_name": "Willamette Poplar",
+    "grp_team_member": [
+      {
+        "team_member_name": "Bev Law",
+        "team_member_role": "PI",
+        "team_member_institution": "Oregon State University",
+        "team_member_email": "bev.law@oregonstate.edu"
+      },
+      {
+        "team_member_name": "Chad Hanson",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Oregon State University",
+        "team_member_email": "chad.hanson@oregonstate.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "OR",
+    "site_desc": "This site was established in fall 2014 and is part of the Oregon eddy covariance flux tower network. The hybrid poplar plantation is located in the Willamette Valley in Oregon on a property that is managed by the cities of Eugene and Springfield, OR. The location is part of a waste water managing facility and the poplar trees are irrigated and fertilazed with pre-treated waste water. The plantation covers three different age classes and various hybrids of poplar developed for biofuel purposes. This site is also part of the PhenoCam network operated by Harvard University and the University of New Hampshire.",
+    "grp_location": {
+      "location_lat": "44.1369",
+      "location_long": "-123.1824",
+      "location_elev": "111"
+    },
+    "grp_igbp": {
+      "igbp": "DBF"
+    },
+    "url": "http://terraweb.forestry.oregonstate.edu/poplar.htm",
+    "grp_clim_avg": {
+      "map": "1293",
+      "mat": "11.39",
+      "climate_koeppen": "Csb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Wpp",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Forestry"
+    ],
+    "flux_measurements_variables": [
+      "H",
+      "CO2",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CO2",
+      "FC",
+      "GPP",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "RECO",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1579719"
+    },
+    "grp_publish_base": [
+      2015
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2015",
+      "tower_end": "2016"
+    }
+  },
+  "sha256": "bfb6158de25b5b450c2af83a131125f6448cd373d5c8209f662ed34a4f8171d4",
+  "field_path": "/values/791",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "f011319c7900c3ccd616f9fc2764baff14db5dcb947272643b41bdfed9a27184"
+}

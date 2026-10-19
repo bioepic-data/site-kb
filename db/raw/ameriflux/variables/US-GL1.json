@@ -1,0 +1,126 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-GL1",
+    "site_name": "Stannard Rock",
+    "grp_team_member": [
+      {
+        "team_member_name": "Chris Spence",
+        "team_member_role": "PI",
+        "team_member_institution": "Environment and Climate Change Canada",
+        "team_member_email": "chris.spence@ec.gc.ca"
+      },
+      {
+        "team_member_name": "John Lenters",
+        "team_member_role": "PI",
+        "team_member_institution": "University of Michigan",
+        "team_member_email": "jlenters@umich.edu"
+      },
+      {
+        "team_member_name": "Erin Nicholls",
+        "team_member_role": "DataManager",
+        "team_member_institution": "University of Calgary",
+        "team_member_email": "erin.nicholls@ucalgary.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MI",
+    "site_desc": "Stannard Rock is located 39 km from the nearest shore (Keweenaw Peninsula) in Lake Superior, 44 miles NNE of Marquette, Michigan, and 24 miles ESE of Manitou Island. The site is located on the historic Stannard Rock Lighthouse, which was completed in 1882. Eddy covariance instrumentation was installed in 2008 by a network of scientists from both US and Canada, eventually to be called the Great Lakes Evaporation Network (GLEN). The intent of GLEN has been to provide observations of over-lake meteorology and evaporation, improve forecasting of Great Lakes water levels, and support a wide variety of stakeholders, including the National Weather Service (NWS), Environment and Climate Change Canada, National Oceanic and Atmospheric Administration, U.S. Coast Guard, recreational boaters and commercial shipping, emergency management officials, and the Great Lakes research community. The eddy covariance station along with other ancillary meteorological instrumentation is located at an approximate elevation of 39.2 meters above mean lake water level. Meteorological data from the lighthouse are sent to the National Data Buoy Center, where they can be viewed in real-time at http://www.ndbc.noaa.gov/station_page.php?station=stdm4\n\nUncorrected half-hour fluxes were computed directly on the logger using a 30-minute block averaging period as high-frequency data were not available. The half hour flux measurements downloaded from the datalogger were post-processed with the following filters and corrections.  Latent and sensible heat and carbon dioxide fluxes were corrected with 2-D coordinate rotation. Although the primary objective of data collection at Stannard Rock was to quantify the evaporative flux, additional preliminary measurements of the carbon dioxide concentration and flux from the LI-7500 are also included in this dataset but it is advised to use the carbon data with caution. Carbon data reported in this dataset includes turbulent fluxes of CO2 with no storage correction (FC, µmol m-2 s-1) and CO2 density in mole fraction of wet air (CO2), which was originally output on the datalogger as average CO2 density (mg m-2 s-1) and converted into µmol mol-1 using air temperature and pressure in post-processing. Webb, Pearman, and Leuning terms were applied to account for density fluctuations for water vapor and CO2. Sonic path length, high-frequency attenuation and sensor separation were accounted for according to Horst and Massman, and the oxygen absorption correction for the KH2O hygrometer was also applied. Latent and sensible heat fluxes were assumed to be unrealistic above an absolute value of 1000 W m-2 and were removed. Both carbon flux (FC) and carbon dioxide mole fraction in wet air (CO2) and were assumed to be unrealistic above 1000 µmol m-2 s-1 and 1000 µmol mol-1 respectively. Spikes in latent and sensible heat and carbon fluxes and densities (often due to periods of precipitation) were identified by computing the mean and standard deviation over a moving, overlapping window of 336 half-hours (7 days), similar to Shao et al., and were removed when the flux was more than 1.5 standard deviations from the moving window’s mean.  While Vickers and Mahrt use a threshold of 3.5 standard deviations from the mean, a conservative value of 1.5 was chosen due to the noisy nature of over-lake data at this particular site.  This process was repeated twice for latent and sensible heat, and carbon dioxide fluxes and densities and therefore it is possible that some real, realistic data was filtered out in this process. No detrending was performed. As per AmeriFlux standards, no friction velocity (USTAR, m s-1) filtering was performed.",
+    "grp_location": {
+      "location_date_start": "200806011800",
+      "location_lat": "47.1835",
+      "location_long": "-87.2251",
+      "location_elev": "183",
+      "location_comment": "Instruments mounted to lighthouse on Lake Superior"
+    },
+    "grp_igbp": {
+      "igbp": "WAT",
+      "igbp_comment": "Open water. No vegetation"
+    },
+    "url": "https://superiorwatersheds.org/GLEN/data.htm",
+    "grp_clim_avg": {
+      "mat": "5.4",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-GL1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "H",
+      "LE",
+      "LW_IN",
+      "PA",
+      "RH",
+      "SW_IN",
+      "TA",
+      "TAU",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "TW",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2204057",
+      "FLUXNET": "10.17190/AMF/2574639"
+    },
+    "grp_publish_base": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "grp_publish_fluxnet": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
+    "tower_dates": {
+      "tower_start": "2008",
+      "tower_end": null
+    }
+  },
+  "sha256": "ff74e890ba835ab643f5904b8f5a2280ea08973cb59a806fd24058ce6421d961",
+  "field_path": "/values/345",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "f5dadeb487b368af491d7ffc6c1ca67d63940eada2110669c0646ded4dab9d03"
+}

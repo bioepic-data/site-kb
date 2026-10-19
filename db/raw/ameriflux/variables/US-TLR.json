@@ -1,0 +1,122 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-TLR",
+    "site_name": "Timberlake Observatory for Wetland Restoration (TOWeR)",
+    "grp_team_member": [
+      {
+        "team_member_name": "Camilo Rey-Sanchez",
+        "team_member_role": "PI",
+        "team_member_institution": "North Carolina State University",
+        "team_member_email": "areysan@ncsu.edu"
+      },
+      {
+        "team_member_name": "Darian Ng",
+        "team_member_role": "DataManager",
+        "team_member_institution": "North Carolina State University",
+        "team_member_email": "dcng@ncsu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "NC",
+    "site_desc": "This tower is located in Timberlake Forest, a restored forested wetland located 4 km from Albermarle Sound on the North Carolina coast.  The forest to the south of the tower had historically been ditched, drained and converted to agricultural land, and subsequently reforested with Black Gum and Cypress trees and naturally re-wetted in 2006. This southern region has a bottomland forest ecosystem which saw a large-scale succession event of pine trees following the reforestation efforts. The northern part of the forest had been ditched, but never drained or converted for other land uses. It is much wetter and more sparsely vegetated when compared to the southern region, and has a mixed bottomland forest and swamp ecosystem.",
+    "grp_location": {
+      "location_date_start": "202402110000",
+      "location_lat": "35.9168",
+      "location_long": "-76.1463",
+      "location_elev": "1"
+    },
+    "grp_igbp": {
+      "igbp": "MF",
+      "igbp_date_start": "202402110000",
+      "igbp_comment": "Tree species: Bald Cypress, Black Gum, Loblolly Pine"
+    },
+    "url": "https://ibiomet.com/",
+    "grp_clim_avg": {
+      "map": "469.4",
+      "mat": "19",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-TLR",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "CH4",
+      "CH4_MIXING_RATIO",
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "COND_WATER",
+      "FC",
+      "FCH4",
+      "FCH4_SSITC_TEST",
+      "FC_SSITC_TEST",
+      "FH2O",
+      "G",
+      "GPP",
+      "H",
+      "H2O_MIXING_RATIO",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RECO",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "TW",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "WTD"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2531147",
+      "FLUXNET": "10.17190/AMF/3027363"
+    },
+    "grp_publish_base": [
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": "2024"
+    }
+  },
+  "sha256": "2bc95092a60e661a6a8af6536a1d7eb9f3830be32177e2cd45d2bff43f097d71",
+  "field_path": "/values/699",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "af1dcb5abec379ae9514315d391b5d1b7783832979157af9624c2a5e77d98bc4"
+}

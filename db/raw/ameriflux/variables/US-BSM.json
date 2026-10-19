@@ -1,0 +1,73 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-BSM",
+    "site_name": "Barnstable Great Marsh",
+    "grp_team_member": [
+      {
+        "team_member_name": "Jim Tang",
+        "team_member_role": "PI",
+        "team_member_institution": "Marine Biological Laboratory",
+        "team_member_email": "jtang@mbl.edu"
+      },
+      {
+        "team_member_name": "Kevin Kroeger",
+        "team_member_role": "PI",
+        "team_member_institution": "USGS Woods Hole Center",
+        "team_member_email": "kkroeger@usgs.gov"
+      },
+      {
+        "team_member_name": "Faming Wang",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Marine Biological Laboratory",
+        "team_member_email": "fwang@mbl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MA",
+    "site_desc": "The tower (tripod) is located in the center of the Great Marsh in Barnstable, Cape Cod, Massachusetts. It is a natural, well-developed salt marsh site, dominated by Spartina. It is subject to typical subdaily tides.",
+    "grp_location": {
+      "location_lat": "41.7297",
+      "location_long": "-70.3644",
+      "location_elev": "0.5"
+    },
+    "grp_igbp": {
+      "igbp": "WET",
+      "igbp_comment": "Natural salt marsh dominated by Spartina"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1195",
+      "mat": "9.9",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-BSM",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "CO2",
+      "H2O",
+      "Other"
+    ],
+    "base_variables": [],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {},
+    "grp_publish_base": [],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2017",
+      "tower_end": null
+    }
+  },
+  "sha256": "14fcb9cd39df67258946729c6b99f7bb0a63ec0bcd0b1ad30fd382b73e9f5ed7",
+  "field_path": "/values/242",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464"
+}

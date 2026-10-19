@@ -1,0 +1,100 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-SJ1",
+    "site_name": "Saskatchewan - Western Boreal, Jack Pine forest harvested in 1994",
+    "grp_team_member": [
+      {
+        "team_member_name": "Alan Barr",
+        "team_member_role": "PI",
+        "team_member_institution": "Global Institute for Water Security, University of Saskatchewan",
+        "team_member_email": "alan.barr@usask.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Fluxnet-Canada"
+    ],
+    "state": null,
+    "site_desc": "53.908408° N, 104.655885° W, elavation of 580m, BERMS climate and flux measurements began in Spring 2001",
+    "grp_location": {
+      "location_lat": "53.9080",
+      "location_long": "-104.6560",
+      "location_elev": "580",
+      "location_comment": "Coursolle_et_al_2006.Can. J. For. Res. 36, 783-800."
+    },
+    "grp_igbp": {
+      "igbp": "ENF",
+      "igbp_comment": "naturally regenerated  forest stand after clear-cut harvesting"
+    },
+    "url": "http://berms.ccrp.ec.gc.ca/Sites/e-sites-hjp94.htm",
+    "grp_clim_avg": {
+      "map": "430.23",
+      "mat": "0.13",
+      "climate_koeppen": "Dfc"
+    },
+    "country": "Canada",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-SJ1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Fire",
+      "Forestry"
+    ],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "D_SNOW",
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "LEAF_WET",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "P_RAIN",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TS",
+      "TSN",
+      "USTAR",
+      "WD",
+      "WD_SIGMA",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1436320"
+    },
+    "grp_publish_base": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2001",
+      "tower_end": null
+    }
+  },
+  "sha256": "4cc9020ee3bf434897bcb215598188cb83ca9bd51b3ea0a35bcf6f57eacfdaa1",
+  "field_path": "/values/106",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "af20e06ba7f34545e11b6eb7a87e0e910ee465bbe74a86de97ec95d687c4b6c7"
+}

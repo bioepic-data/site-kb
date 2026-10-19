@@ -1,0 +1,130 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-RGA",
+    "site_name": "Arkansas Corn Farm",
+    "grp_team_member": [
+      {
+        "team_member_name": "Piet Jones",
+        "team_member_role": "PI",
+        "team_member_institution": "Arva Intelligence",
+        "team_member_email": "p.jones@arva.com"
+      },
+      {
+        "team_member_name": "Sebastien C. Biraud",
+        "team_member_role": "PI",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "SCBiraud@lbl.gov"
+      },
+      {
+        "team_member_name": "Stephen W. Chan",
+        "team_member_role": "FluxContact",
+        "team_member_institution": "Lawrence Berkeley National Laboratory",
+        "team_member_email": "SWChan@lbl.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "Phenocam"
+    ],
+    "state": "AR",
+    "site_desc": "Commercially farmed corn-soy rotation in Arkansas County, Arkansas. Part of a multi-year, ground-truthing field study under the DOE ARPA-E SMARTFARM project.",
+    "grp_location": {
+      "location_date_start": "202104080000",
+      "location_lat": "34.4159",
+      "location_long": "-91.6733",
+      "location_elev": "61.00"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_comment": "Corn (zea mays), Soybean (glycine max)"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1250",
+      "mat": "16.7",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-RGA",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H2O",
+      "N2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_80",
+      "FETCH_90",
+      "FETCH_MAX",
+      "G",
+      "H",
+      "H2O",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "LW_IN",
+      "LW_OUT",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "TS",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1880913",
+      "FLUXNET": "10.17190/AMF/2204873"
+    },
+    "grp_publish_base": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2021",
+      "tower_end": null
+    }
+  },
+  "sha256": "5a5f9ebdb0b5e9b2fef2ddfd4cf0a72fd6e179ad6c8b81c478380719e5bd705d",
+  "field_path": "/values/610",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "0c251c3fa80586bf7f4d64616e57b2f3407190cbd253b9c6ec8a4fbc73f269b4"
+}

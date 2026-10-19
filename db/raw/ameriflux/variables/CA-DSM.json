@@ -1,0 +1,122 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "CA-DSM",
+    "site_name": "Delta Salt Marsh",
+    "grp_team_member": [
+      {
+        "team_member_name": "Sara Knox",
+        "team_member_role": "PI",
+        "team_member_institution": "The University of British Columbia",
+        "team_member_email": "sara.knox@ubc.ca"
+      },
+      {
+        "team_member_name": "Rosemary Howard",
+        "team_member_role": "DataManager",
+        "team_member_institution": "McGill University",
+        "team_member_email": "rosemary.howard@mcgill.ca"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "British Columbia",
+    "site_desc": "This site is a tidal salt marsh on the eastern side of the Boundary Bay Wildlife Management Area (WMA) in Delta, British Columbia, Canada. This area is located on the southern front of the Fraser River. The total area of the Boundary Bay WMA is 11,470 ha, and the eastern part surrounding the flux tower accounts for 39 ha. This area is surrounded by farms and dikes. The Provincial Government purchased this area in 1974 limiting public access and designated it as WMA in 1995. This area has a mixed semidiurnal tidal cycle. The dominant species is Saltgrass (Distichlis spicata) with a canopy height of ~40 cm. The tower is in a high marsh system and was installed to analyze energy, H2O, CO2, and CH4 fluxes on September 3, 2021.",
+    "grp_location": {
+      "location_lat": "49.0887",
+      "location_long": "-122.8954"
+    },
+    "grp_igbp": {
+      "igbp": "WET"
+    },
+    "url": "https://blogs.ubc.ca/saraknox/data/",
+    "grp_clim_avg": {
+      "map": "1077.8",
+      "mat": "10.6",
+      "climate_koeppen": "Csb"
+    },
+    "country": "Canada",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/CA-DSM",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Land cover change"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "CH4",
+      "H",
+      "H2O"
+    ],
+    "base_variables": [
+      "ALB",
+      "CH4",
+      "CO2",
+      "COND_WATER",
+      "DO",
+      "FC",
+      "FCH4",
+      "G",
+      "H",
+      "H2O",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NDVI",
+      "NEE",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_DIF",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "PRI",
+      "RH",
+      "SC",
+      "SCH4",
+      "SH",
+      "SLE",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "TS",
+      "TW",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WTD"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1964085",
+      "FLUXNET": "10.17190/AMF/2571137"
+    },
+    "grp_publish_base": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "grp_publish_fluxnet": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "tower_dates": {
+      "tower_start": "2021",
+      "tower_end": null
+    }
+  },
+  "sha256": "1830045173190fb15f7a34f297bd6762a58d55401842754bd6a931becff4e5b3",
+  "field_path": "/values/53",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "2a8bd3e261fef983551442759cd4c2318a7eaae990800326cba46121e28bd297"
+}

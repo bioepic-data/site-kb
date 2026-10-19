@@ -1,0 +1,92 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-Goo",
+    "site_name": "Goodwin Creek",
+    "grp_team_member": [
+      {
+        "team_member_name": "Tilden Meyers",
+        "team_member_role": "PI",
+        "team_member_institution": "NOAA/ARL",
+        "team_member_email": "Tilden.Meyers@noaa.gov"
+      },
+      {
+        "team_member_name": "Praveena Krishnan",
+        "team_member_role": "Affiliate",
+        "team_member_institution": "NOAA/ARL/ATDD",
+        "team_member_email": "Praveena.Krishnan@noaa.gov"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "MS",
+    "site_desc": "The Goodwin Creek site is located in the Bluff Hills, just east of the Mississippi River valley. In addition to being a core AmeriFlux site, Goodwin Creek is also affiliated with a multitude of other projects including SURFRAD, BSRN, and one of the twelve watersheds in the USDA Conservation Reserve Program. Natural disturbances are of minimal influence to the site. The immediate region is primarily used for grazing while infrequent logging activities occur in nearby forests. The grass surrounding the base of the tower is mowed periodically to maintain a height consistent with the regional grasslands.",
+    "grp_location": {
+      "location_lat": "34.2547",
+      "location_long": "-89.8735",
+      "location_elev": "87"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_comment": "Source: http://public.ornl.gov/ameriflux/Site_Info/siteInfo.cfm?KEYID=us.goodwin_creek.01"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "1425.77",
+      "mat": "15.89",
+      "climate_koeppen": "Cfa"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-Goo",
+    "url_fluxnet": "https://fluxnet.org/sites/siteinfo/US-Goo",
+    "dom_dist_mgmt": [],
+    "flux_measurements_variables": [
+      "CO2"
+    ],
+    "base_variables": [
+      "FC",
+      "G",
+      "H",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "PPFD_OUT",
+      "RH",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "USTAR",
+      "VPD",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1246058"
+    },
+    "grp_publish_base": [
+      2002,
+      2003,
+      2004,
+      2005,
+      2006
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2002",
+      "tower_end": "2006"
+    }
+  },
+  "sha256": "765364e23445e8f5b4b7c2cb12a23b6f01e2321fafc580b709a1a4d18080379c",
+  "field_path": "/values/349",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "197768b15867f7065158536e5d854a4d832c6fcbfd7188d747823f3c677d0175"
+}

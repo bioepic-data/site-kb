@@ -1,0 +1,133 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-UR1",
+    "site_name": "Boulder - UCRB",
+    "grp_team_member": [
+      {
+        "team_member_name": "Christopher Neale",
+        "team_member_role": "PI",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "cneale@nebraska.edu"
+      },
+      {
+        "team_member_name": "Ivo Zution Goncalves",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "izutiongoncalves2@unl.edu"
+      },
+      {
+        "team_member_name": "Randall Ritzema",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "rritzema@nebraska.edu"
+      },
+      {
+        "team_member_name": "Sammy Akasheh",
+        "team_member_role": "AncContact",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "sammy.akasheh@unl.edu"
+      },
+      {
+        "team_member_name": "Regiane de Carvalho Bispo",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "rdecarvalhobispo2@unl.edu"
+      },
+      {
+        "team_member_name": "Ashish Masih",
+        "team_member_role": "Technician",
+        "team_member_institution": "Daugherty Water for Food Global Institute/University of Nebraska-Lincoln",
+        "team_member_email": "amasih2@unl.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux"
+    ],
+    "state": "WY",
+    "site_desc": "This site is located in Boulder, Wyoming, in a high-altitude grassland ecosystem. The region experiences cold winters and mild summers, with relatively low precipitation throughout the year. Snowfall is common during the winter months, contributing to the seasonal water availability. The landscape is primarily covered by grass vegetation, with some areas supported by a center pivot irrigation system, which helps sustain plant growth in the dry environment.",
+    "grp_location": {
+      "location_date_start": "20240821",
+      "location_lat": "42.6830",
+      "location_long": "-109.5440",
+      "location_elev": "2177",
+      "location_comment": "Grass area irrigated by a center pivot irrigation system"
+    },
+    "grp_igbp": {
+      "igbp": "GRA",
+      "igbp_comment": "Grass"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "237",
+      "mat": "4",
+      "climate_koeppen": "Dfb"
+    },
+    "country": "USA",
+    "status": "Active",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-UR1",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "H",
+      "H2O",
+      "CO2"
+    ],
+    "base_variables": [
+      "CO2",
+      "CO2_MIXING_RATIO",
+      "FC",
+      "FH2O",
+      "G",
+      "GPP",
+      "H",
+      "H2O_MIXING_RATIO",
+      "LE",
+      "LW_IN",
+      "LW_OUT",
+      "NEE",
+      "NETRAD",
+      "PA",
+      "PPFD_IN",
+      "P_RAIN",
+      "RECO",
+      "RH",
+      "SC",
+      "SG",
+      "SH",
+      "SLE",
+      "SWC",
+      "SW_IN",
+      "SW_OUT",
+      "TA",
+      "TAU",
+      "T_CANOPY",
+      "TS",
+      "T_SONIC",
+      "USTAR",
+      "WD",
+      "WS"
+    ],
+    "publish_ameriflux_policy": "LEGACY",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/2567988"
+    },
+    "grp_publish_base": [
+      2024,
+      2025
+    ],
+    "grp_publish_fluxnet": [],
+    "tower_dates": {
+      "tower_start": "2024",
+      "tower_end": null
+    }
+  },
+  "sha256": "9666a41ddfa10ee4d9f699957ce83b10d0bd4e268287fe900614100d3b097b12",
+  "field_path": "/values/738",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "85f110957021d6e1e4003edbd4b662065673026c55ff6ef2e853674e534aa6d7"
+}

@@ -1,0 +1,138 @@
+{
+  "source_url": "https://amfcdn.lbl.gov/api/v2/site_info_display/AmeriFlux",
+  "retrieved_at": "2026-10-15T20:07:14.159898+00:00",
+  "record": {
+    "site_id": "US-RC2",
+    "site_name": "Cook Agronomy Farm - Conventional Till",
+    "grp_team_member": [
+      {
+        "team_member_name": "Brian Lamb",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "blamb@wsu.edu"
+      },
+      {
+        "team_member_name": "Jinshu Chi",
+        "team_member_role": "PI",
+        "team_member_institution": "The Hong Kong University of Science and Technology (Guangzhou)",
+        "team_member_email": "jinshuchi@hkust-gz.edu.cn"
+      },
+      {
+        "team_member_name": "Shelley Pressley",
+        "team_member_role": "PI",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "spressley@wsu.edu"
+      },
+      {
+        "team_member_name": "Bryan Carlson",
+        "team_member_role": "AncContact",
+        "team_member_institution": "USDA-ARS NSARU",
+        "team_member_email": "bryan.carlson@usda.gov"
+      },
+      {
+        "team_member_name": "Eric Russell",
+        "team_member_role": "DataManager",
+        "team_member_institution": "Washington State University",
+        "team_member_email": "eric.s.russell@wsu.edu"
+      }
+    ],
+    "grp_network": [
+      "AmeriFlux",
+      "LTAR"
+    ],
+    "state": "WA",
+    "site_desc": "RC2 operated from 2013-2016 at the R.J. Cook Agronomy Farm, as part of a cluster of 5 towers (RC1 to RC5) operated for the Regional Approaches to Climate Change (REACCH) USDA-supported research project. The tower predates the Longterm Agroecosystem Research (LTAR) site common experiment, which was established in nearby fields at the Cook Agronomy Farm in 2017. Cook Agronomy Farm is in the high-precipitation agroecological zone of the Columbia Plateau’s dryland cropping region. Wheat-based crop rotations are grown annually. RC2 had conventional tillage management (reduced-till) since at least 1998. It was contrasted with RC1, which had no-till management over the same time period. RC2 captured the same tillage practices as the US-CF2 site established in 2017 as part of LTAR common experiment. However, the towers have distinct footprints, aspects, and soil series composition.",
+    "grp_location": {
+      "location_date_start": "201206280000",
+      "location_lat": "46.7776",
+      "location_long": "-117.0807",
+      "location_elev": "799"
+    },
+    "grp_igbp": {
+      "igbp": "CRO",
+      "igbp_date_start": "201206280000",
+      "igbp_comment": "Dryland cropping system"
+    },
+    "url": null,
+    "grp_clim_avg": {
+      "map": "550",
+      "mat": "9",
+      "climate_koeppen": "Dsb"
+    },
+    "country": "USA",
+    "status": "Inactive",
+    "url_ameriflux": "https://ameriflux.lbl.gov/sites/siteinfo/US-RC2",
+    "url_fluxnet": "https://fluxnet.org",
+    "dom_dist_mgmt": [
+      "Agriculture"
+    ],
+    "flux_measurements_variables": [
+      "CO2",
+      "H2O",
+      "N2O"
+    ],
+    "base_variables": [
+      "CO2",
+      "FC",
+      "FC_SSITC_TEST",
+      "FETCH_70",
+      "FETCH_90",
+      "FETCH_MAX",
+      "H",
+      "H_SSITC_TEST",
+      "LE",
+      "LE_SSITC_TEST",
+      "MO_LENGTH",
+      "NETRAD",
+      "P",
+      "PA",
+      "PPFD_IN",
+      "RH",
+      "SC",
+      "SH",
+      "SLE",
+      "TA",
+      "TAU",
+      "TAU_SSITC_TEST",
+      "T_SONIC",
+      "T_SONIC_SIGMA",
+      "U_SIGMA",
+      "USTAR",
+      "VPD",
+      "V_SIGMA",
+      "WD",
+      "WS",
+      "W_SIGMA",
+      "WS_MAX",
+      "ZL"
+    ],
+    "publish_ameriflux_policy": "CCBY4.0",
+    "doi": {
+      "AmeriFlux": "10.17190/AMF/1498747",
+      "FLUXNET": "10.17190/AMF/3027327"
+    },
+    "grp_publish_base": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "grp_publish_fluxnet": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "tower_dates": {
+      "tower_start": "2012",
+      "tower_end": "2016"
+    }
+  },
+  "sha256": "8dc8cad18ab3800b0243c9d5858940896c6b1c3d5d12d68ac00af7fd7375172f",
+  "field_path": "/values/604",
+  "site_response_sha256": "cdc2dbdc831dbc6d2905bf7a4112f22c23155bbbe5e5cfefbd510d6488d58e30",
+  "definitions_sha256": "4f72e85de80725c18b1db947e3f9ecdf28f93bc8ffa8c8a6f3ef4ed6bc491464",
+  "coverage_sha256": "486a5e4ca5765a2ba6c351ff0776786e15161e95e6e9bcec1f0a05f179fa94bf"
+}
