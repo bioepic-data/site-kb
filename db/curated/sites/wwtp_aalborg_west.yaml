@@ -26,7 +26,44 @@ sites:
       from the full-scale plant and 140 from batch experiments. These are project-level
       counts, not all direct plant samples. SAMEA115986499 is a derived MAG, linked
       to source metagenome ERS16511554.'
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825669
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix AalW belong to this
+      plant. Nanopore run SRR11673986 (BioSample SAMN14825669, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825667 (2016-09-08), SAMN14825668 (2017-08-30), SAMN14825669 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The
+      August–September 2018 sample is the one with long-read sequencing. Distinct from the
+      Glomicave project PRJEB67571.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
   variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome (AalW_18-Q3-R10-53). Polinton-like
+      viruses detected in the absence of nucleocytoviruses (Results). Per-plant contig
+      counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
   - variable_id: site_kb:variable-mag-completeness
     evidence:
     - https://www.ebi.ac.uk/ena/browser/view/SAMEA115986499
@@ -46,4 +83,6 @@ sites:
   notes: Coordinates and sampling context follow the deposited MAG BioSample https://www.ebi.ac.uk/ena/browser/view/SAMEA115986499.
     The MAG sample reports completeness 88.15% and contamination 2.57%; these do not
     justify interpreting all project MAGs as above 90% complete. Plant and batch experiment
-    samples must be distinguished in future sample-level ingestion.
+    samples must be distinguished in future sample-level ingestion. The PRJNA629478 Aalborg W BioSamples (Singleton et al. 2021,
+    reanalysed by Lücking et al. 2026, https://doi.org/10.1093/ismejo/wrag267) report the
+    identical lat_lon 57.049513 N 9.864788 E, supporting the same facility identity.

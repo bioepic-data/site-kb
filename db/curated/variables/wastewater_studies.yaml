@@ -133,3 +133,13 @@ variable_definitions:
 - id: site_kb:variable-taxonomic-profile
   name: Metagenomic taxonomic profile
   declaration_kind: PARAMETER_GROUP
+- id: site_kb:variable-giant-virus-contig-recovery
+  name: Nucleocytovirus, virophage and polinton-like virus contig recovery
+  declaration_kind: PARAMETER_GROUP
+  description: Metagenomic recovery of Nucleocytoviricota, virophage and polinton-like
+    virus contigs from a plant's activated-sludge assembly. An analytical result for
+    the sequenced community, not a water-chemistry property.
+  source_variables:
+  - source: Lücking et al. 2026
+    source_name: number of NCV/ virophage/PLV contigs recovered from each sampling station
+    record_url: https://doi.org/10.64898/2026.05.21.726523
