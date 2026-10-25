@@ -29,6 +29,7 @@ just validate-terms
 | `db/raw/deims/` | Complete source JSON snapshots with retrieval timestamps | No |
 | `db/raw/ameriflux/` | Per-site source snapshots, complete API responses, import report, and locally supplied BIF originals | No |
 | `db/raw/ameriflux/variables/` | v2 site inventories, FP definitions, and compressed current BASE coverage responses | No |
+| `db/raw/neon/` | Compressed complete NEON `/sites` and `/products` responses with retrieval timestamps and checksums | No |
 | `db/imported/deims/`, `db/imported/neon/` | Source-specific metadata normalized by importers; tracked in Git | No: refresh can overwrite these files |
 | `db/imported/ameriflux/` | AmeriFlux site metadata normalized from the public site API | No: refresh can overwrite these files |
 | `db/staged/ameriflux/bif/` | Reconstructed BIF groups for review; excluded from site assembly | No: regenerate from raw BIF inputs |
@@ -77,7 +78,22 @@ source renames require review of IDs and corresponding overrides.
 Structural normalization happens in `deims_to_site()` and `neon_to_site()` in
 `src/site_kb/scripts/fetch_*.py`. DEIMS now supports WKT point coordinates and
 imports `attributes.focusDesignScale.observedProperties` from its full JSON.
-NEON measured-variable ingestion is still pending.
+
+### NEON data products
+
+`just fetch-neon` archives the complete NEON `/sites` and `/products` API responses
+in `db/raw/neon/` and imports one variable declaration per data product that the
+NEON API lists for a site, with its product code (`data_product` and `source_id`),
+verbatim title, processing level, calendar years with at least one available month,
+and the releases (e.g. `RELEASE-2026`, `PROVISIONAL`) that contain those months.
+Use `just fetch-neon --offline` to regenerate imported records from the archive.
+
+A NEON data product often bundles several measured, derived, and quality-control
+fields, so declarations are `UNSPECIFIED` and no ontology term is assigned. Products
+whose description names the Airborne Observation Platform (AOP) are remote-sensing
+surveys over the site, not in-situ measurements. Product availability is not evidence of continuous collection. NEON,
+DEIMS, and AmeriFlux records for the same physical site keep separate IDs. See
+`docs/research/neon-ingestion.md`.
 
 ### AmeriFlux site metadata and BIF staging
 
@@ -315,8 +331,8 @@ study context and dataset availability on site pages.
 The curated wastewater records and MIxS profiles use shared definitions. Existing
 DEIMS imports retain their source-shaped embedded declarations and provenance;
 they are not automatically collapsed by similar labels. Reviewed source-ID
-crosswalks continue to apply to these imports. NEON variable coverage remains a
-separate ingestion gap. No BERVO equivalences were inferred during this change.
+crosswalks continue to apply to these imports. NEON data products are imported
+per site but not yet mapped to BERVO. No BERVO equivalences were inferred during this change.
 
 `Site.datasets` records assay, accession, source evidence and availability
 (`PUBLIC`, `ON_REQUEST`, `UNRESOLVED`). Targeted ARG/16S panels, shotgun metagenomes

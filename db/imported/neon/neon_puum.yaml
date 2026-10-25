@@ -17,3 +17,1920 @@ sites:
     network_url: https://deims.org/dc4e374a-afe9-4f66-87e2-dbda8ce7d052
   status: ACTIVE
   notes: 'NEON Domain: D20 (Pacific Tropical)'
+  variables:
+  - name: 2D wind speed and direction
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00001.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00001.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00001.001
+      source_name: 2D wind speed and direction
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/0
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Single aspirated air temperature
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00002.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00002.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00002.001
+      source_name: Single aspirated air temperature
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/1
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Triple aspirated air temperature
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00003.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00003.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00003.001
+      source_name: Triple aspirated air temperature
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/2
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Barometric pressure
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00004.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00004.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00004.001
+      source_name: Barometric pressure
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/3
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: IR biological temperature
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00005.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00005.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00005.001
+      source_name: IR biological temperature
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/4
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Wet deposition chemical analysis
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00013.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00013.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00013.001
+      source_name: Wet deposition chemical analysis
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/5
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Shortwave radiation (direct and diffuse pyranometer)
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00014.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00014.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00014.001
+      source_name: Shortwave radiation (direct and diffuse pyranometer)
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/6
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Shortwave radiation (primary pyranometer)
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00022.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00022.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00022.001
+      source_name: Shortwave radiation (primary pyranometer)
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/7
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Shortwave and longwave radiation (net radiometer)
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00023.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00023.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00023.001
+      source_name: Shortwave and longwave radiation (net radiometer)
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/8
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Photosynthetically active radiation (PAR)
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00024.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00024.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00024.001
+      source_name: Photosynthetically active radiation (PAR)
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/9
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Phenology images
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00033.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00033.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP1.00033.001
+      source_name: Phenology images
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/10
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Stable isotopes in precipitation
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00038.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00038.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00038.001
+      source_name: Stable isotopes in precipitation
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/11
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Soil heat flux plate
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00040.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00040.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00040.001
+      source_name: Soil heat flux plate
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/12
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Snow depth and understory phenology images
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00042.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00042.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP1.00042.001
+      source_name: Snow depth and understory phenology images
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/13
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Precipitation - weighing gauge
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00044.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00044.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00044.001
+      source_name: Precipitation - weighing gauge
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/14
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Precipitation - tipping bucket
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00045.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00045.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00045.001
+      source_name: Precipitation - tipping bucket
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/15
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Precipitation - throughfall
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00046.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00046.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00046.001
+      source_name: Precipitation - throughfall
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/16
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Photosynthetically active radiation (quantum line)
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00066.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00066.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00066.001
+      source_name: Photosynthetically active radiation (quantum line)
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/17
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Soil CO2 concentration
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00095.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00095.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00095.001
+      source_name: Soil CO2 concentration
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/18
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Soil physical and chemical properties, Megapit
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00096.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00096.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00096.001
+      source_name: Soil physical and chemical properties, Megapit
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/19
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Relative humidity
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00098.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00098.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00098.001
+      source_name: Relative humidity
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/20
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Breeding landbird point counts
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10003.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10003.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2021
+    - 2024
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10003.001
+      source_name: Breeding landbird point counts
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/21
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Coarse downed wood log survey
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10010.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10010.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2020
+    - 2022
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10010.001
+      source_name: Coarse downed wood log survey
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/22
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Coarse downed wood bulk density sampling
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10014.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10014.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2021
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10014.001
+      source_name: Coarse downed wood bulk density sampling
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/23
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Digital hemispheric photos of plot vegetation
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10017.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10017.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10017.001
+      source_name: Digital hemispheric photos of plot vegetation
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/24
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Ground beetle sequences DNA barcode
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10020.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10020.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10020.001
+      source_name: Ground beetle sequences DNA barcode
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/25
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Ground beetles sampled from pitfall traps
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10022.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10022.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10022.001
+      source_name: Ground beetles sampled from pitfall traps
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/26
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Herbaceous clip harvest
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10023.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10023.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10023.001
+      source_name: Herbaceous clip harvest
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/27
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Plant foliar traits
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10026.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10026.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10026.001
+      source_name: Plant foliar traits
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/28
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Litterfall and fine woody debris production and chemistry
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10033.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10033.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10033.001
+      source_name: Litterfall and fine woody debris production and chemistry
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/29
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Mosquito sequences DNA barcode
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10038.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10038.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10038.001
+      source_name: Mosquito sequences DNA barcode
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/30
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Mosquitoes sampled from CO2 traps
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10043.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10043.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10043.001
+      source_name: Mosquitoes sampled from CO2 traps
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/31
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Soil physical and chemical properties, distributed initial characterization
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10047.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10047.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10047.001
+      source_name: Soil physical and chemical properties, distributed initial characterization
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/32
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Plant phenology observations
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10055.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10055.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10055.001
+      source_name: Plant phenology observations
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/33
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Plant presence and percent cover
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10058.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10058.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10058.001
+      source_name: Plant presence and percent cover
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/34
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Root biomass and chemistry, periodic
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10067.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10067.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10067.001
+      source_name: Root biomass and chemistry, periodic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/35
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Soil microbe community taxonomy
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10081.002
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10081.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10081.002
+      source_name: Soil microbe community taxonomy
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/36
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Soil physical and chemical properties, periodic
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10086.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10086.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10086.001
+      source_name: Soil physical and chemical properties, periodic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/37
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Vegetation structure
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10098.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10098.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10098.001
+      source_name: Vegetation structure
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/38
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Soil microbe biomass
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10104.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10104.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10104.001
+      source_name: Soil microbe biomass
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/39
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Soil microbe metagenome sequences
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10107.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10107.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10107.001
+      source_name: Soil microbe metagenome sequences
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/40
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Soil microbe marker gene sequences
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10108.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10108.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10108.001
+      source_name: Soil microbe marker gene sequences
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/41
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Site management and event reporting
+    description: NEON Level 1 Data Product from the Terrestrial Observation System
+      (TOS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.10111.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.10111.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.10111.001
+      source_name: Site management and event reporting
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/42
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Discrete return LiDAR point cloud
+    description: NEON Level 1 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.30003.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.30003.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.30003.001
+      source_name: Discrete return LiDAR point cloud
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/43
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Spectrometer orthorectified surface directional reflectance - flightline
+    description: NEON Level 1 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.30006.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.30006.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.30006.001
+      source_name: Spectrometer orthorectified surface directional reflectance - flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/44
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Spectrometer orthorectified surface bidirectional reflectance - flightline
+    description: NEON Level 1 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.30006.002
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.30006.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP1.30006.002
+      source_name: Spectrometer orthorectified surface bidirectional reflectance -
+        flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/45
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Spectrometer orthorectified at-sensor radiance - flightline
+    description: NEON Level 1 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.30008.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.30008.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.30008.001
+      source_name: Spectrometer orthorectified at-sensor radiance - flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/46
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: High-resolution orthorectified camera imagery
+    description: NEON Level 1 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.30010.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.30010.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.30010.001
+      source_name: High-resolution orthorectified camera imagery
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/47
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Field spectral data
+    description: NEON Level 1 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.30012.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.30012.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.30012.001
+      source_name: Field spectral data
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/48
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Albedo - spectrometer - flightline
+    description: NEON Level 2 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP2.30011.001
+    source_category: Level 2 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP2.30011.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP2.30011.001
+      source_name: Albedo - spectrometer - flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/49
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: LAI - spectrometer - flightline
+    description: NEON Level 2 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP2.30012.001
+    source_category: Level 2 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP2.30012.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP2.30012.001
+      source_name: LAI - spectrometer - flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/50
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: LAI - spectrometer - bidirectional flightline
+    description: NEON Level 2 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP2.30012.002
+    source_category: Level 2 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP2.30012.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP2.30012.002
+      source_name: LAI - spectrometer - bidirectional flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/51
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: fPAR - spectrometer - flightline
+    description: NEON Level 2 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP2.30014.001
+    source_category: Level 2 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP2.30014.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP2.30014.001
+      source_name: fPAR - spectrometer - flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/52
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: fPAR - spectrometer - bidirectional flightline
+    description: NEON Level 2 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP2.30014.002
+    source_category: Level 2 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP2.30014.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP2.30014.002
+      source_name: fPAR - spectrometer - bidirectional flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/53
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Canopy water indices - flightline
+    description: NEON Level 2 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP2.30019.001
+    source_category: Level 2 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP2.30019.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP2.30019.001
+      source_name: Canopy water indices - flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/54
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Canopy water indices - bidirectional flightline
+    description: NEON Level 2 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP2.30019.002
+    source_category: Level 2 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP2.30019.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP2.30019.002
+      source_name: Canopy water indices - bidirectional flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/55
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Vegetation indices - spectrometer - flightline
+    description: NEON Level 2 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP2.30026.001
+    source_category: Level 2 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP2.30026.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP2.30026.001
+      source_name: Vegetation indices - spectrometer - flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/56
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Vegetation indices - spectrometer - bidirectional flightline
+    description: NEON Level 2 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP2.30026.002
+    source_category: Level 2 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP2.30026.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP2.30026.002
+      source_name: Vegetation indices - spectrometer - bidirectional flightline
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/57
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Spectrometer orthorectified surface directional reflectance - mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30006.001
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30006.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP3.30006.001
+      source_name: Spectrometer orthorectified surface directional reflectance - mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/58
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Spectrometer orthorectified surface bidirectional reflectance - mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30006.002
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30006.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP3.30006.002
+      source_name: Spectrometer orthorectified surface bidirectional reflectance -
+        mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/59
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: High-resolution orthorectified camera imagery mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30010.001
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30010.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP3.30010.001
+      source_name: High-resolution orthorectified camera imagery mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/60
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Albedo - spectrometer - mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30011.001
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30011.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP3.30011.001
+      source_name: Albedo - spectrometer - mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/61
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: LAI - spectrometer - mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30012.001
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30012.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP3.30012.001
+      source_name: LAI - spectrometer - mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/62
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: LAI - spectrometer - bidirectional mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30012.002
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30012.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP3.30012.002
+      source_name: LAI - spectrometer - bidirectional mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/63
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: fPAR - spectrometer - mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30014.001
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30014.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP3.30014.001
+      source_name: fPAR - spectrometer - mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/64
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: fPAR - spectrometer - bidirectional mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30014.002
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30014.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP3.30014.002
+      source_name: fPAR - spectrometer - bidirectional mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/65
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Ecosystem structure
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30015.001
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30015.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP3.30015.001
+      source_name: Ecosystem structure
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/66
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Canopy water indices - mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30019.001
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30019.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP3.30019.001
+      source_name: Canopy water indices - mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/67
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Canopy water indices - bidirectional mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30019.002
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30019.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP3.30019.002
+      source_name: Canopy water indices - bidirectional mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/68
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Elevation - LiDAR
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30024.001
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30024.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP3.30024.001
+      source_name: Elevation - LiDAR
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/69
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Slope and Aspect - LiDAR
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30025.001
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30025.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP3.30025.001
+      source_name: Slope and Aspect - LiDAR
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/70
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Vegetation indices - spectrometer - mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30026.001
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30026.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP3.30026.001
+      source_name: Vegetation indices - spectrometer - mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/71
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Vegetation indices - spectrometer - bidirectional mosaic
+    description: NEON Level 3 Data Product from the Airborne Observation Platform
+      (AOP); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP3.30026.002
+    source_category: Level 3 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP3.30026.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP3.30026.002
+      source_name: Vegetation indices - spectrometer - bidirectional mosaic
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/72
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Summary weather statistics
+    description: NEON Level 4 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP4.00001.001
+    source_category: Level 4 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP4.00001.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP4.00001.001
+      source_name: Summary weather statistics
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/73
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  - name: Bundled data products - eddy covariance
+    description: NEON Level 4 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP4.00200.001
+    source_category: Level 4 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP4.00200.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP4.00200.001
+      source_name: Bundled data products - eddy covariance
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/55/dataProducts/74
+      retrieved_at: '2026-10-25T16:21:18.592916+00:00'
+  variable_notes: Variables are NEON data products that the NEON API lists with published
+    or provisional data for this site. A product may bundle several measured, derived,
+    or quality-control fields, so declarations are not classified as single properties.
+    Available years are calendar years with at least one available month; they do
+    not imply continuous collection. Airborne Observation Platform (AOP) products
+    are remote-sensing surveys over the site, not in-situ measurements.

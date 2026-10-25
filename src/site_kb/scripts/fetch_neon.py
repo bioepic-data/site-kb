@@ -1,25 +1,131 @@
-"""Fetch site metadata from the NEON API and write to db/imported/neon/."""
+"""Fetch NEON site metadata and site-specific data products into db/imported/neon/."""
 
+from datetime import datetime, timezone
+import gzip
+import json
 from pathlib import Path
+import re
 
 import httpx
 import typer
 import yaml
 
+from site_kb.scripts.fetch_ameriflux import atomic_write, checksum
+
 NEON_API = "https://data.neonscience.org/api/v0"
+SITES_URL = f"{NEON_API}/sites"
+PRODUCTS_URL = f"{NEON_API}/products"
 OUTPUT_DIR = Path("db/imported/neon")
+RAW_DIR = Path("db/raw/neon")
+SITE_CODE = re.compile(r"[A-Z]{4}")
+PRODUCT_CODE = re.compile(r"DP[0-4]\.\d{5}\.\d{3}")
+MONTH = re.compile(r"(\d{4})-(0[1-9]|1[0-2])")
+VARIABLE_NOTE = (
+    "Variables are NEON data products that the NEON API lists with published or "
+    "provisional data for this site. A product may bundle several measured, derived, "
+    "or quality-control fields, so declarations are not classified as single properties. "
+    "Available years are calendar years with at least one available month; they do not "
+    "imply continuous collection. Airborne Observation Platform (AOP) products are "
+    "remote-sensing surveys over the site, not in-situ measurements."
+)
 
 app = typer.Typer()
 
 
-def fetch_sites() -> list[dict]:
-    """Fetch all NEON sites."""
-    resp = httpx.get(f"{NEON_API}/sites", timeout=60)
-    resp.raise_for_status()
-    return resp.json()["data"]
+def fetch_snapshot(url: str, client: httpx.Client) -> dict:
+    response = client.get(url)
+    response.raise_for_status()
+    record = response.json()
+    return {"source_url": url, "retrieved_at": datetime.now(timezone.utc).isoformat(),
+            "sha256": checksum(record), "record": record}
 
 
-def neon_to_site(neon_site: dict) -> dict:
+def verify_snapshot(snapshot: dict, source_url: str) -> list[dict]:
+    if snapshot.get("source_url") != source_url or snapshot.get("sha256") != checksum(snapshot.get("record")):
+        raise ValueError(f"Invalid source or checksum for {source_url}")
+    if datetime.fromisoformat(snapshot["retrieved_at"]).utcoffset() is None:
+        raise ValueError("Source retrieval time requires a timezone")
+    data = snapshot["record"].get("data") if isinstance(snapshot["record"], dict) else None
+    if not isinstance(data, list) or not data:
+        raise ValueError(f"Empty or malformed NEON response from {source_url}")
+    return data
+
+
+def read_snapshot(path: Path) -> dict:
+    with gzip.open(path, "rt", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def write_snapshot(path: Path, snapshot: dict) -> None:
+    """Canonical JSON with a fixed gzip timestamp so unchanged responses are byte-stable."""
+    data = json.dumps(snapshot, ensure_ascii=False, sort_keys=True).encode()
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_name(path.name + ".tmp")
+    temporary.write_bytes(gzip.compress(data, mtime=0))
+    temporary.replace(path)
+
+
+def product_index(snapshot: dict) -> dict[str, dict]:
+    result = {}
+    for product in verify_snapshot(snapshot, PRODUCTS_URL):
+        code = product.get("productCode") if isinstance(product, dict) else None
+        if not isinstance(code, str) or not PRODUCT_CODE.fullmatch(code):
+            raise ValueError(f"Malformed NEON product code: {code!r}")
+        if code in result:
+            raise ValueError(f"Duplicate NEON product {code}")
+        result[code] = product
+    return result
+
+
+def product_variable(entry: dict, products: dict[str, dict], site_index: int, product_index_: int,
+                     retrieved_at: str) -> dict:
+    """One declaration per site-listed product; months become years without inferring continuity."""
+    code = entry.get("dataProductCode")
+    title = entry.get("dataProductTitle")
+    if not isinstance(code, str) or not PRODUCT_CODE.fullmatch(code):
+        raise ValueError(f"Malformed NEON product code: {code!r}")
+    if not isinstance(title, str) or not title.strip():
+        raise ValueError(f"NEON product {code} has no title")
+    months = entry.get("availableMonths")
+    if not isinstance(months, list) or any(not isinstance(m, str) or not MONTH.fullmatch(m) for m in months):
+        raise ValueError(f"Malformed available months for {code}")
+    product = products.get(code, {})
+    team = product.get("productScienceTeam")
+    category = product.get("productCategory")
+    description = f"NEON {category or 'data product'}"
+    if team:
+        description += f" from the {team}"
+    description += "; may contain several measured, derived, or quality-control fields."
+    variable = {
+        "name": title,
+        "description": description,
+        "declaration_kind": "UNSPECIFIED",
+        "data_product": code,
+    }
+    if category:
+        variable["source_category"] = category
+    variable["evidence"] = [f"https://data.neonscience.org/data-products/{code}", SITES_URL]
+    years = sorted({int(MONTH.fullmatch(m).group(1)) for m in months})
+    if years:
+        variable["available_years"] = years
+    releases = sorted({r["release"] for r in entry.get("availableReleases") or []
+                       if isinstance(r, dict) and isinstance(r.get("release"), str) and r.get("availableMonths")})
+    if releases:
+        variable["data_versions"] = releases
+    variable["source_variables"] = [{
+        "source": "NEON",
+        "source_id": code,
+        "source_name": title,
+        "vocabulary": "NEON data product catalog",
+        "record_url": SITES_URL,
+        "field_path": f"/data/{site_index}/dataProducts/{product_index_}",
+        "retrieved_at": retrieved_at,
+    }]
+    return variable
+
+
+def neon_to_site(neon_site: dict, products: dict[str, dict] | None = None, site_index: int = 0,
+                 retrieved_at: str | None = None) -> dict:
     """Convert NEON API site to site-kb Site format."""
     code = neon_site["siteCode"]
     name = neon_site["siteName"]
@@ -64,36 +170,69 @@ def neon_to_site(neon_site: dict) -> dict:
     if domain_code:
         site["notes"] = f"NEON Domain: {domain_code} ({domain_name})"
 
+    if products is not None:
+        entries = neon_site.get("dataProducts") or []
+        variables = [product_variable(entry, products, site_index, index, retrieved_at)
+                     for index, entry in enumerate(entries)]
+        codes = [v["data_product"] for v in variables]
+        if len(codes) != len(set(codes)):
+            raise ValueError(f"Duplicate data products listed for NEON site {code}")
+        if variables:
+            site["variables"] = sorted(variables, key=lambda v: v["data_product"])
+            site["variable_notes"] = VARIABLE_NOTE
+
     return site
+
+
+def convert(sites_snapshot: dict, products_snapshot: dict) -> list[dict]:
+    """Validate the complete batch before any output is written."""
+    products = product_index(products_snapshot)
+    records = verify_snapshot(sites_snapshot, SITES_URL)
+    codes = [r.get("siteCode") if isinstance(r, dict) else None for r in records]
+    if any(not isinstance(c, str) or not SITE_CODE.fullmatch(c) for c in codes):
+        raise ValueError("Malformed NEON site code")
+    if len(codes) != len(set(codes)):
+        raise ValueError("Duplicate NEON site codes")
+    return [neon_to_site(record, products, index, sites_snapshot["retrieved_at"])
+            for index, record in enumerate(records)]
 
 
 @app.command()
 def main(
     output_dir: Path = typer.Option(OUTPUT_DIR, help="Output directory"),
+    raw_dir: Path = typer.Option(RAW_DIR, help="Archive of complete NEON API responses"),
+    offline: bool = typer.Option(False, help="Regenerate from archived responses without HTTP"),
     summary_only: bool = typer.Option(False, help="Print summary statistics only"),
 ):
-    """Fetch sites from NEON API."""
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    typer.echo("Fetching NEON sites...")
-    neon_sites = fetch_sites()
-    typer.echo(f"Found {len(neon_sites)} sites")
+    """Fetch NEON sites and their data products, archiving both complete responses."""
+    sites_path, products_path = raw_dir / "sites.json.gz", raw_dir / "products.json.gz"
+    if offline:
+        sites_snapshot, products_snapshot = read_snapshot(sites_path), read_snapshot(products_path)
+    else:
+        typer.echo("Fetching NEON sites and data products...")
+        with httpx.Client(timeout=300, follow_redirects=True) as client:
+            sites_snapshot = fetch_snapshot(SITES_URL, client)
+            products_snapshot = fetch_snapshot(PRODUCTS_URL, client)
+    sites = convert(sites_snapshot, products_snapshot)
+    typer.echo(f"Found {len(sites)} sites with {sum(len(s.get('variables', [])) for s in sites)} site data products")
 
     if summary_only:
-        for s in neon_sites:
-            typer.echo(f"  {s['siteCode']}: {s['siteName']} ({s.get('siteType', '?')})")
+        for s in sites:
+            registration = s["network_registrations"][0]
+            typer.echo(f"  {registration['network_id']}: {s['name']} ({registration.get('site_type') or '?'}), "
+                       f"{len(s.get('variables', []))} data products")
         return
 
-    for site_data in neon_sites:
-        site = neon_to_site(site_data)
-        collection = {"sites": [site]}
+    if not offline:
+        write_snapshot(sites_path, sites_snapshot)
+        write_snapshot(products_path, products_snapshot)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    for site in sites:
+        filename = f"neon_{site['network_registrations'][0]['network_id'].lower()}.yaml"
+        atomic_write(output_dir / filename,
+                     yaml.dump({"sites": [site]}, default_flow_style=False, allow_unicode=True, sort_keys=False))
 
-        code = site_data["siteCode"].lower()
-        filename = f"neon_{code}.yaml"
-        filepath = output_dir / filename
-        filepath.write_text(yaml.dump(collection, default_flow_style=False, allow_unicode=True, sort_keys=False))
-
-    typer.echo(f"Wrote {len(neon_sites)} site files to {output_dir}")
+    typer.echo(f"Wrote {len(sites)} site files to {output_dir}")
 
 
 if __name__ == "__main__":
