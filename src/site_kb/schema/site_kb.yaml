@@ -94,6 +94,24 @@ classes:
             range: ExternalOntologyTerm
         multivalued: true
         inlined_as_list: true
+      land_cover_terms:
+        description: >-
+          ENVO land-cover zones reported for the site area (e.g. area of
+          deciduous forest). Separate from ecosystems and facility types; for
+          aquatic sites they may describe the surrounding landscape.
+        range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
+        multivalued: true
+        inlined_as_list: true
+      source_classifications:
+        description: >-
+          Verbatim upstream site classifications (e.g. NEON aquatic subtype or
+          dominant NLCD classes). Source evidence, not ontology assignments.
+        range: SourceClassification
+        multivalued: true
+        inlined_as_list: true
       network_registrations:
         description: >-
           Registrations of this site in external networks/registries.
@@ -397,6 +415,85 @@ classes:
       notes:
         description: Rationale or limitations of this mapping.
 
+  SourceClassification:
+    description: >-
+      A verbatim classification value from a source record, preserved with
+      provenance. Ontology targets are assigned only by curated crosswalks.
+    attributes:
+      source:
+        description: Source registry name, e.g. NEON.
+        required: true
+      scheme:
+        description: Source field or classification scheme, e.g. dominant_nlcd_classes.
+        required: true
+      value:
+        description: Verbatim source value.
+        required: true
+      record_url:
+        description: Source record from which the value was retrieved.
+        range: uri
+      field_path:
+        description: >-
+          JSON Pointer locating the value; for tabular sources, a pointer into
+          the rows parsed as objects keyed by column name.
+      retrieved_at:
+        description: Time the source record was retrieved, in UTC.
+        range: datetime
+
+  ClassificationMappingCollection:
+    description: Curated crosswalks from source classification values to ontology terms.
+    attributes:
+      mappings:
+        range: ClassificationMapping
+        multivalued: true
+        inlined_as_list: true
+        required: true
+        minimum_cardinality: 1
+
+  ClassificationMapping:
+    description: >-
+      A directed crosswalk from a (source, scheme, value) classification to a
+      target term placed in one site slot. BROAD means the target is broader
+      than the source value. Each assertion carries its origin and evidence.
+    attributes:
+      source:
+        description: Registry name matching SourceClassification.source.
+        required: true
+      scheme:
+        description: Scheme matching SourceClassification.scheme exactly.
+        required: true
+      value:
+        description: Value matching SourceClassification.value exactly.
+        required: true
+      target_slot:
+        description: Site slot that receives the target term.
+        range: ClassificationSlotEnum
+        required: true
+      target:
+        range: OntologyTerm
+        bindings:
+          - binds_value_of: id
+            range: ExternalOntologyTerm
+        inlined: true
+        required: true
+      relation:
+        range: MappingRelationEnum
+        required: true
+      origin:
+        description: SOURCE when the correspondence is asserted upstream (e.g. an ontology xref).
+        range: MappingOriginEnum
+        required: true
+      evidence:
+        description: URLs documenting the correspondence, not just term existence.
+        range: uri
+        multivalued: true
+        required: true
+        minimum_cardinality: 1
+      attributed_to:
+      asserted_on:
+        range: date
+      notes:
+
   MeasurementProfileCollection:
     description: Standards-derived candidate metadata, not site measurement claims.
     attributes:
@@ -631,6 +728,16 @@ enums:
       RELATED:
         meaning: skos:relatedMatch
         title: has related match
+
+  ClassificationSlotEnum:
+    description: Site slots that classification crosswalks may populate.
+    permissible_values:
+      SITE_TYPE:
+        description: Kind of physical site or facility (single-valued).
+      ECOSYSTEM:
+        description: Ecosystem or biome at the site.
+      LAND_COVER:
+        description: Land-cover zone reported for the site area.
 
   MappingOriginEnum:
     permissible_values:

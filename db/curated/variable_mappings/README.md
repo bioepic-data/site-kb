@@ -29,3 +29,5 @@ shared catalog definition directly. They propagate to referencing declarations
 without inventing an upstream source identity. `bervo.yaml` supplies the first
 reviewed BERVO set, including explicit provisional CLOSE and broader matches.
 See `docs/research/bervo-integration.md` for source pinning and review limits.
+`neon_bervo.yaml` maps NEON data product codes; see `docs/research/neon-ingestion.md`
+for its relation conventions and the products left unmapped.

@@ -1,7 +1,9 @@
-"""Fetch NEON site metadata and site-specific data products into db/imported/neon/."""
+"""Fetch NEON site metadata, classifications, and data products into db/imported/neon/."""
 
+import csv
 from datetime import datetime, timezone
 import gzip
+import io
 import json
 from pathlib import Path
 import re
@@ -15,6 +17,10 @@ from site_kb.scripts.fetch_ameriflux import atomic_write, checksum
 NEON_API = "https://data.neonscience.org/api/v0"
 SITES_URL = f"{NEON_API}/sites"
 PRODUCTS_URL = f"{NEON_API}/products"
+FIELD_SITES_PAGE = "https://www.neonscience.org/field-sites/explore-field-sites"
+FIELD_SITES_EXPORT = re.compile(r'href="(/field-sites/exports/NEON_Field_Site_Metadata_\d{8})"')
+# Verbatim columns kept as source classifications; ontology terms come from curated crosswalks.
+CLASSIFICATION_COLUMNS = ("site_type", "site_subtype", "dominant_nlcd_classes")
 OUTPUT_DIR = Path("db/imported/neon")
 RAW_DIR = Path("db/raw/neon")
 SITE_CODE = re.compile(r"[A-Z]{4}")
@@ -63,6 +69,51 @@ def write_snapshot(path: Path, snapshot: dict) -> None:
     temporary = path.with_name(path.name + ".tmp")
     temporary.write_bytes(gzip.compress(data, mtime=0))
     temporary.replace(path)
+
+
+def field_sites_url(client: httpx.Client) -> str:
+    """The dated export link changes with NEON metadata updates, so discover it."""
+    response = client.get(FIELD_SITES_PAGE)
+    response.raise_for_status()
+    links = set(FIELD_SITES_EXPORT.findall(response.text))
+    if len(links) != 1:
+        raise ValueError(f"Expected one NEON field site metadata export link, found {sorted(links)}")
+    return "https://www.neonscience.org" + links.pop()
+
+
+def fetch_text_snapshot(url: str, client: httpx.Client) -> dict:
+    response = client.get(url)
+    response.raise_for_status()
+    text = response.content.decode("utf-8-sig")
+    return {"source_url": url, "retrieved_at": datetime.now(timezone.utc).isoformat(),
+            "sha256": checksum(text), "record": text}
+
+
+def field_site_rows(snapshot: dict) -> list[dict]:
+    if snapshot.get("sha256") != checksum(snapshot.get("record")) or not isinstance(snapshot.get("record"), str):
+        raise ValueError("Invalid checksum for NEON field site metadata")
+    if datetime.fromisoformat(snapshot["retrieved_at"]).utcoffset() is None:
+        raise ValueError("Source retrieval time requires a timezone")
+    rows = list(csv.DictReader(io.StringIO(snapshot["record"])))
+    if not rows or any(column not in rows[0] for column in ("site_id", *CLASSIFICATION_COLUMNS)):
+        raise ValueError("NEON field site metadata lacks expected columns")
+    codes = [row["site_id"] for row in rows]
+    if any(not SITE_CODE.fullmatch(c) for c in codes) or len(codes) != len(set(codes)):
+        raise ValueError("Malformed or duplicate site_id in NEON field site metadata")
+    return rows
+
+
+def classifications(row: dict, row_index: int, snapshot: dict) -> list[dict]:
+    """Preserve each value verbatim; NLCD classes are pipe-separated in the export."""
+    result = []
+    for column in CLASSIFICATION_COLUMNS:
+        values = row[column].split("|") if column == "dominant_nlcd_classes" else [row[column]]
+        for value in (v.strip() for v in values):
+            if value:
+                result.append({"source": "NEON", "scheme": column, "value": value,
+                               "record_url": snapshot["source_url"], "field_path": f"/{row_index}/{column}",
+                               "retrieved_at": snapshot["retrieved_at"]})
+    return result
 
 
 def product_index(snapshot: dict) -> dict[str, dict]:
@@ -184,17 +235,25 @@ def neon_to_site(neon_site: dict, products: dict[str, dict] | None = None, site_
     return site
 
 
-def convert(sites_snapshot: dict, products_snapshot: dict) -> list[dict]:
+def convert(sites_snapshot: dict, products_snapshot: dict, field_sites_snapshot: dict | None = None) -> list[dict]:
     """Validate the complete batch before any output is written."""
     products = product_index(products_snapshot)
+    rows = {}
+    if field_sites_snapshot is not None:
+        rows = {row["site_id"]: (index, row) for index, row in enumerate(field_site_rows(field_sites_snapshot))}
     records = verify_snapshot(sites_snapshot, SITES_URL)
     codes = [r.get("siteCode") if isinstance(r, dict) else None for r in records]
     if any(not isinstance(c, str) or not SITE_CODE.fullmatch(c) for c in codes):
         raise ValueError("Malformed NEON site code")
     if len(codes) != len(set(codes)):
         raise ValueError("Duplicate NEON site codes")
-    return [neon_to_site(record, products, index, sites_snapshot["retrieved_at"])
-            for index, record in enumerate(records)]
+    sites = [neon_to_site(record, products, index, sites_snapshot["retrieved_at"])
+             for index, record in enumerate(records)]
+    for site, code in zip(sites, codes):
+        if code in rows:
+            index, row = rows[code]
+            site["source_classifications"] = classifications(row, index, field_sites_snapshot)
+    return sites
 
 
 @app.command()
@@ -206,15 +265,21 @@ def main(
 ):
     """Fetch NEON sites and their data products, archiving both complete responses."""
     sites_path, products_path = raw_dir / "sites.json.gz", raw_dir / "products.json.gz"
+    field_sites_path = raw_dir / "field-sites.json.gz"
     if offline:
         sites_snapshot, products_snapshot = read_snapshot(sites_path), read_snapshot(products_path)
+        field_sites_snapshot = read_snapshot(field_sites_path) if field_sites_path.exists() else None
     else:
-        typer.echo("Fetching NEON sites and data products...")
+        typer.echo("Fetching NEON sites, data products, and field site metadata...")
         with httpx.Client(timeout=300, follow_redirects=True) as client:
             sites_snapshot = fetch_snapshot(SITES_URL, client)
             products_snapshot = fetch_snapshot(PRODUCTS_URL, client)
-    sites = convert(sites_snapshot, products_snapshot)
+            field_sites_snapshot = fetch_text_snapshot(field_sites_url(client), client)
+    sites = convert(sites_snapshot, products_snapshot, field_sites_snapshot)
     typer.echo(f"Found {len(sites)} sites with {sum(len(s.get('variables', [])) for s in sites)} site data products")
+    unclassified = [s["id"] for s in sites if not s.get("source_classifications")]
+    if unclassified:
+        typer.echo(f"No field site metadata for: {', '.join(unclassified)}")
 
     if summary_only:
         for s in sites:
@@ -226,6 +291,7 @@ def main(
     if not offline:
         write_snapshot(sites_path, sites_snapshot)
         write_snapshot(products_path, products_snapshot)
+        write_snapshot(field_sites_path, field_sites_snapshot)
     output_dir.mkdir(parents=True, exist_ok=True)
     for site in sites:
         filename = f"neon_{site['network_registrations'][0]['network_id'].lower()}.yaml"

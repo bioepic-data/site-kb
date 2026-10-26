@@ -7,6 +7,7 @@ import tempfile
 
 import typer
 import yaml
+from site_kb.scripts.classification_mappings import apply_classification_mappings, read_classification_mappings
 from site_kb.scripts.variable_catalog import read_catalog, read_profiles, resolve
 from site_kb.scripts.variable_mappings import apply_mappings, read_mappings
 
@@ -75,6 +76,8 @@ def assemble(imported_dir: Path, curated_dir: Path) -> dict:
     if collisions:
         raise ValueError(f"Curated sites duplicate imported IDs; use overrides: {sorted(collisions)}")
     sites.update(curated)
+    # Classification crosswalks precede overrides, so an override can replace their lists.
+    apply_classification_mappings(sites, read_classification_mappings(curated_dir / "classification_mappings"))
     for identifier, override in read_records(curated_dir / "overrides").items():
         if identifier not in sites:
             raise ValueError(f"Override targets unknown site: {identifier}")

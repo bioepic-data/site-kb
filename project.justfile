@@ -18,6 +18,10 @@ validate-db: build-db
     [ -f "$f" ] || continue; \
     uv run linkml-validate -s src/site_kb/schema/site_kb.yaml -C VariableMappingCollection "$f" || exit 1; \
   done
+  @for f in db/curated/classification_mappings/*.yaml; do \
+    [ -f "$f" ] || continue; \
+    uv run linkml-validate -s src/site_kb/schema/site_kb.yaml -C ClassificationMappingCollection "$f" || exit 1; \
+  done
   @for f in db/sites/*.yaml; do \
     echo "Validating $f..."; \
     uv run linkml-validate -s src/site_kb/schema/site_kb.yaml -C SiteCollection "$f" || exit 1; \
@@ -43,6 +47,10 @@ validate-terms-data *ARGS: build-db prepare-term-sources
   @for f in db/curated/variable_mappings/*.yaml; do \
     [ -f "$f" ] || continue; \
     uv run linkml-term-validator validate-data "$f" -s src/site_kb/schema/site_kb.yaml -t VariableMappingCollection -c conf/oak_config.yaml {{ARGS}} || exit 1; \
+  done
+  @for f in db/curated/classification_mappings/*.yaml; do \
+    [ -f "$f" ] || continue; \
+    uv run linkml-term-validator validate-data "$f" -s src/site_kb/schema/site_kb.yaml -t ClassificationMappingCollection -c conf/oak_config.yaml {{ARGS}} || exit 1; \
   done
   @for f in db/sites/*.yaml; do \
     echo "Validating terms in $f..."; \

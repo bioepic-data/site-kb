@@ -1,0 +1,1843 @@
+# Reviewed NEON data product to BERVO crosswalks. A product bundles fields, so most
+# assertions are NARROW (target is one property in the product) or BROAD.
+mappings:
+- source: NEON
+  source_id: DP1.00001.001
+  source_name: 2D wind speed and direction
+  target:
+    id: BERVO:8000278
+    label: Wind speed
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00001.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO defines wind speed as the magnitude of horizontal air velocity near Earth's surface, which
+    is the speed component of this 2D sonic anemometer product.
+- source: NEON
+  source_id: DP1.00001.001
+  source_name: 2D wind speed and direction
+  target:
+    id: BERVO:8000436
+    label: Wind direction
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00001.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO defines wind direction as the compass bearing from which wind originates, the direction
+    component reported by the 2D anemometers.
+- source: NEON
+  source_id: DP1.00002.001
+  source_name: Single aspirated air temperature
+  target:
+    id: BERVO:0001370
+    label: Air temperature
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00002.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO defines Air temperature as the temperature of ambient air at a specified height above ground
+    (measurement_of Air), which is exactly what the aspirated PRT sensors at tower heights report.
+- source: NEON
+  source_id: DP1.00003.001
+  source_name: Triple aspirated air temperature
+  target:
+    id: BERVO:0001370
+    label: Air temperature
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00003.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO defines Air temperature as the temperature of ambient air at a specified height above ground,
+    which is exactly what the tower-top triple aspirated sensors measure.
+- source: NEON
+  source_id: DP1.00004.001
+  source_name: Barometric pressure
+  target:
+    id: BERVO:0001375
+    label: Atmospheric pressure
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00004.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the pressure exerted by the weight of the atmosphere at a location, typically at ground
+    level (context Atmosphere, measured in Air), matching barometric station pressure.
+- source: NEON
+  source_id: DP1.00005.001
+  source_name: IR biological temperature
+  target:
+    id: BERVO:0000609
+    label: Canopy temperature
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00005.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Canopy temperature is the thermal state of vegetation (measured_in Canopy); the IR sensors
+    on the tower measure canopy/foliar surface temperature, one part of a product that also covers soil/litter
+    surface temperature.
+- source: NEON
+  source_id: DP1.00013.001
+  source_name: Wet deposition chemical analysis
+  target:
+    id: BERVO:0001427
+    label: Precipitation pH
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00013.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Precipitation pH is the acidity/alkalinity of precipitation, one of the analytes (pH) reported
+    in this wet deposition chemistry bundle.
+- source: NEON
+  source_id: DP1.00013.001
+  source_name: Wet deposition chemical analysis
+  target:
+    id: BERVO:0001430
+    label: Precipitation ammonium concentration
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00013.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Precipitation ammonium concentration is the concentration of NH4+ ions in precipitation,
+    one of the ions analysed in this product.
+- source: NEON
+  source_id: DP1.00013.001
+  source_name: Wet deposition chemical analysis
+  target:
+    id: BERVO:0001431
+    label: Precipitation nitrate concentration
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00013.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Precipitation nitrate concentration is the amount of NO3 in precipitation water, one of
+    the anions analysed in this product.
+- source: NEON
+  source_id: DP1.00014.001
+  source_name: Shortwave radiation (direct and diffuse pyranometer)
+  target:
+    id: BERVO:0001402
+    label: Direct shortwave radiation
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00014.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as solar radiation travelling directly from the sun without atmospheric scattering, i.e.
+    the direct-beam shortwave component reported by the pyranometer.
+- source: NEON
+  source_id: DP1.00014.001
+  source_name: Shortwave radiation (direct and diffuse pyranometer)
+  target:
+    id: BERVO:0001403
+    label: Diffuse shortwave radiation
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00014.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as solar radiation scattered by atmospheric particles before reaching the surface, i.e.
+    the diffuse shortwave component of this product.
+- source: NEON
+  source_id: DP1.00014.001
+  source_name: Shortwave radiation (direct and diffuse pyranometer)
+  target:
+    id: BERVO:8000276
+    label: Solar radiation
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00014.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Generic term for solar electromagnetic energy reaching Earth's surface, covering the total (global),
+    direct and diffuse shortwave quantities bundled here.
+- source: NEON
+  source_id: DP1.00022.001
+  source_name: Shortwave radiation (primary pyranometer)
+  target:
+    id: BERVO:8000115
+    label: Shortwave radiation
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00022.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Shortwave radiation is the generic solar shortwave radiation concept; no BERVO term specifically
+    defines measured incoming total shortwave at a sensor, so the general term covers this pyranometer
+    product.
+- source: NEON
+  source_id: DP1.00023.001
+  source_name: Shortwave and longwave radiation (net radiometer)
+  target:
+    id: BERVO:8000115
+    label: Shortwave radiation
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00023.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Generic shortwave (solar visible/UV) radiation concept; corresponds to the incoming and outgoing
+    shortwave components measured by the tower/soil-array/aquatic met station net radiometer.
+- source: NEON
+  source_id: DP1.00023.001
+  source_name: Shortwave and longwave radiation (net radiometer)
+  target:
+    id: BERVO:8000029
+    label: Longwave radiation
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00023.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Generic longwave (thermal infrared) radiation emitted by objects according to temperature; corresponds
+    to the incoming and outgoing longwave components of the tower/soil-array/aquatic met station net radiometer.
+- source: NEON
+  source_id: DP1.00023.001
+  source_name: Shortwave and longwave radiation (net radiometer)
+  target:
+    id: BERVO:0001380
+    label: Sky longwave radiation
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00023.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as thermal radiation emitted from the sky, which is the incoming (downwelling) longwave
+    component of the four-component net radiometer.
+- source: NEON
+  source_id: DP1.00024.001
+  source_name: Photosynthetically active radiation (PAR)
+  target:
+    id: BERVO:8000212
+    label: Photosynthetically active radiation
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00024.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: The product measures PAR photon flux density; the BERVO concept names the radiation band, so
+    it is broader. Same relation as other NEON PAR products.
+- source: NEON
+  source_id: DP1.00038.001
+  source_name: Stable isotopes in precipitation
+  target:
+    id: BERVO:8000466
+    label: Isotope ratio
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00038.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO isotope ratio is the generic proportion of isotopes of an element in a sample; the product
+    reports 18O and 2H ratios specifically in precipitation water, and no water-isotope term exists.
+- source: NEON
+  source_id: DP1.00040.001
+  source_name: Soil heat flux plate
+  target:
+    id: BERVO:8000273
+    label: Heat flux
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00040.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Heat flux is the rate of thermal energy transfer per unit area across a surface; soil heat
+    flux plates measure conductive heat flux in soil, and the only soil-specific terms are energy-balance
+    model outputs, so the generic term is used.
+- source: NEON
+  source_id: DP1.00041.001
+  source_name: Soil temperature
+  target:
+    id: BERVO:0001477
+    label: Soil temperature
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00041.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Soil temperature is the thermal state of soil at specified depths (measured_in Soil), matching
+    the multi-depth soil temperature profiles in this product.
+- source: NEON
+  source_id: DP1.00044.001
+  source_name: Precipitation - weighing gauge
+  target:
+    id: BERVO:0000309
+    label: Total precipitation
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00044.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: The weighing gauge measures precipitation amount of all forms, matching Total precipitation;
+    the same target is used for every NEON precipitation gauge.
+- source: NEON
+  source_id: DP1.00044.002
+  source_name: Precipitation - load cell-based weighing gauge
+  target:
+    id: BERVO:0000309
+    label: Total precipitation
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00044.002
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the sum of all forms of precipitation (rain, snow, sleet, hail) over a period, matching
+    bulk (all-phase) precipitation from a weighing gauge.
+- source: NEON
+  source_id: DP1.00045.001
+  source_name: Precipitation - tipping bucket
+  target:
+    id: BERVO:0000309
+    label: Total precipitation
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00045.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Gauge precipitation amount; Total precipitation is used for all NEON gauge products rather than
+    the near-duplicate Rainfall + snowfall.
+- source: NEON
+  source_id: DP1.00046.001
+  source_name: Precipitation - throughfall
+  target:
+    id: BERVO:0001829
+    label: Precipitation through canopy
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00046.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Precipitation through canopy is precipitation that penetrates the vegetation canopy to
+    reach the ground, which is what below-canopy throughfall collectors measure.
+- source: NEON
+  source_id: DP1.00066.001
+  source_name: Photosynthetically active radiation (quantum line)
+  target:
+    id: BERVO:8000212
+    label: Photosynthetically active radiation
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00066.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO PAR is the 400-700 nm radiation band with no location context; the product is PAR measured
+    specifically at the soil surface, and no below-canopy/soil-surface PAR term exists.
+- source: NEON
+  source_id: DP1.00094.001
+  source_name: Soil water content and water salinity
+  target:
+    id: BERVO:0001743
+    label: Volumetric water content
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00094.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Volumetric water content is the volume of water as a fraction of total soil volume (measured_in
+    Soil), which is the primary field of this product.
+- source: NEON
+  source_id: DP1.00094.001
+  source_name: Soil water content and water salinity
+  target:
+    id: BERVO:8000427
+    label: Salinity
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00094.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Salinity is the concentration of dissolved salts in a solution; the product also reports
+    an index of soil-water salinity.
+- source: NEON
+  source_id: DP1.00095.001
+  source_name: Soil CO2 concentration
+  target:
+    id: BERVO:0000957
+    label: Volumetric concentration of gaseous carbon dioxide
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00095.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Volumetric concentration of gaseous carbon dioxide is the CO2 volume fraction (ppmv) in
+    soil pore air (measured_in Soil), matching the soil-air CO2 concentration profiles.
+- source: NEON
+  source_id: DP1.00096.001
+  source_name: Soil physical and chemical properties, Megapit
+  target:
+    id: BERVO:0001535
+    label: Soil bulk density
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00096.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the mass of dry soil per unit volume including pores; soil bulk density is one of
+    the horizon properties reported for each Megapit horizon.
+- source: NEON
+  source_id: DP1.00096.001
+  source_name: Soil physical and chemical properties, Megapit
+  target:
+    id: BERVO:0001528
+    label: Soil clay content
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00096.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the mass of clay-sized particles per unit mass of soil, one of the texture fractions
+    reported per Megapit horizon.
+- source: NEON
+  source_id: DP1.00096.001
+  source_name: Soil physical and chemical properties, Megapit
+  target:
+    id: BERVO:0001523
+    label: Soil organic carbon content
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00096.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the mass of organic carbon per unit mass of soil; organic carbon is among the chemical
+    properties reported per Megapit horizon.
+- source: NEON
+  source_id: DP1.00098.001
+  source_name: Relative humidity
+  target:
+    id: BERVO:8000437
+    label: Relative humidity
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00098.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO defines Relative humidity as the ratio of actual to saturation water vapor pressure, the
+    headline variable of this product.
+- source: NEON
+  source_id: DP1.00098.001
+  source_name: Relative humidity
+  target:
+    id: BERVO:0001370
+    label: Air temperature
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00098.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Air temperature (ambient air at a height above ground) matches the temperature reported
+    by the tower/soil-array humidity probes.
+- source: NEON
+  source_id: DP1.00098.001
+  source_name: Relative humidity
+  target:
+    id: BERVO:8000504
+    label: Dew point
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.00098.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Dew point is the temperature at which air becomes saturated and vapor condenses, matching
+    the dew/frost point temperature field.
+- source: NEON
+  source_id: DP1.10014.001
+  source_name: Coarse downed wood bulk density sampling
+  target:
+    id: BERVO:8000233
+    label: Density
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10014.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Density is the generic mass-per-volume property; no wood- or coarse-woody-debris-specific
+    density term exists, so it broadly covers CDW bulk density.
+- source: NEON
+  source_id: DP1.10023.001
+  source_name: Herbaceous clip harvest
+  target:
+    id: BERVO:8000296
+    label: Biomass
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10023.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO biomass is the total quantity or weight of organisms in an area; the product is a specific
+    case, dry weight of clipped herbaceous vegetation by functional type.
+- source: NEON
+  source_id: DP1.10026.001
+  source_name: Plant foliar traits
+  target:
+    id: BERVO:0001847
+    label: Leaf chlorophyll content
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10026.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Leaf chlorophyll content is the content (g g-1) of Chlorophyll measured_in Leaf, matching
+    the foliar chlorophyll concentrations reported among the trait fields.
+- source: NEON
+  source_id: DP1.10026.001
+  source_name: Plant foliar traits
+  target:
+    id: BERVO:8000466
+    label: Isotope ratio
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10026.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Isotope ratio is the proportion of isotopes of an element in a sample measured by mass
+    spectrometry, matching the foliar d13C and d15N fields.
+- source: NEON
+  source_id: DP1.10033.001
+  source_name: Litterfall and fine woody debris production and chemistry
+  target:
+    id: BERVO:8000547
+    label: Litterfall
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10033.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Litterfall quantifies the rate of transfer of dead plant material (leaves, branches, etc.)
+    from vegetation to the soil surface, the mass-production component of this litter production-and-chemistry
+    bundle.
+- source: NEON
+  source_id: DP1.10047.001
+  source_name: Soil physical and chemical properties, distributed initial characterization
+  target:
+    id: BERVO:0001535
+    label: Soil bulk density
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10047.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the mass of dry soil per unit volume including pores; bulk density is one of the physical
+    properties reported by pedogenic horizon.
+- source: NEON
+  source_id: DP1.10047.001
+  source_name: Soil physical and chemical properties, distributed initial characterization
+  target:
+    id: BERVO:0000882
+    label: Soil pH
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10047.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the negative log of hydrogen ion concentration in soil solution; soil pH is among
+    the chemical properties reported by horizon.
+- source: NEON
+  source_id: DP1.10047.001
+  source_name: Soil physical and chemical properties, distributed initial characterization
+  target:
+    id: BERVO:0001523
+    label: Soil organic carbon content
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10047.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the mass of organic carbon per unit mass of soil; soil organic carbon is among the
+    chemical properties reported by horizon.
+- source: NEON
+  source_id: DP1.10055.001
+  source_name: Plant phenology observations
+  target:
+    id: BERVO:8000011
+    label: Phenological progress
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10055.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Phenological progress (synonym phenophase) is the advancement of organisms through seasonal
+    life-cycle stages, which is what phenophase status and intensity observations of tagged plants record.
+- source: NEON
+  source_id: DP1.10066.001
+  source_name: Root biomass and chemistry, Megapit
+  target:
+    id: BERVO:0001075
+    label: Root nitrogen to carbon ratio
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10066.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Root nitrogen to carbon ratio is the N:C mass ratio in root tissues, one of the root chemistry
+    properties (C and N concentrations) reported alongside root biomass.
+- source: NEON
+  source_id: DP1.10066.001
+  source_name: Root biomass and chemistry, Megapit
+  target:
+    id: BERVO:8000296
+    label: Biomass
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10066.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: The product includes root biomass alongside root chemistry; Biomass is one component.
+- source: NEON
+  source_id: DP1.10067.001
+  source_name: Root biomass and chemistry, periodic
+  target:
+    id: BERVO:8000296
+    label: Biomass
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10067.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO biomass is the quantity/weight of organisms in an area; fine root biomass per area is one
+    component of this bundled root product (target is generic, not root-specific).
+- source: NEON
+  source_id: DP1.10067.001
+  source_name: Root biomass and chemistry, periodic
+  target:
+    id: BERVO:0001075
+    label: Root nitrogen to carbon ratio
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10067.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: The product reports root carbon and nitrogen chemistry; the root-specific ratio term is used
+    for both NEON root chemistry products.
+- source: NEON
+  source_id: DP1.10067.001
+  source_name: Root biomass and chemistry, periodic
+  target:
+    id: BERVO:8000466
+    label: Isotope ratio
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10067.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the proportion of isotopes of an element in a sample; root tissue stable isotope ratios
+    (13C, 15N) are one component of the product.
+- source: NEON
+  source_id: DP1.10086.001
+  source_name: Soil physical and chemical properties, periodic
+  target:
+    id: BERVO:0000882
+    label: Soil pH
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10086.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Soil pH is the negative log of hydrogen ion concentration in soil solution (measured_in
+    Soil), one of the properties reported from the periodic soil cores.
+- source: NEON
+  source_id: DP1.10086.001
+  source_name: Soil physical and chemical properties, periodic
+  target:
+    id: BERVO:0001858
+    label: Gravimetric water content
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10086.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Gravimetric water content is soil water mass relative to dry soil mass determined by weighing
+    and drying, matching the soil moisture measured on these cores.
+- source: NEON
+  source_id: DP1.10086.001
+  source_name: Soil physical and chemical properties, periodic
+  target:
+    id: BERVO:0001523
+    label: Soil organic carbon content
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10086.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Soil organic carbon per unit soil mass; the same term is used for all NEON soil chemistry products
+    (BERVO 0001657 is a near-duplicate).
+- source: NEON
+  source_id: DP1.10098.001
+  source_name: Vegetation structure
+  target:
+    id: BERVO:8000076
+    label: Height
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10098.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Height is the generic vertical extent of organisms/features; individual plant height is
+    one of the structure measurements in this bundle (no plant-height-specific non-model term exists).
+- source: NEON
+  source_id: DP1.10098.001
+  source_name: Vegetation structure
+  target:
+    id: BERVO:8000444
+    label: Diameter
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10098.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Diameter is the distance across a circular object through its center; stem diameter is
+    one of the structure measurements in this bundle.
+- source: NEON
+  source_id: DP1.10104.001
+  source_name: Soil microbe biomass
+  target:
+    id: BERVO:8000296
+    label: Biomass
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.10104.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO biomass is the quantity or weight of organisms in a given area or volume; the product is
+    the specific case of soil microbial biomass estimated by PLFA.
+- source: NEON
+  source_id: DP1.20004.001
+  source_name: Barometric pressure above water on-buoy
+  target:
+    id: BERVO:0001375
+    label: Atmospheric pressure
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20004.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Atmospheric pressure is the pressure exerted by the atmosphere at a location (Context Atmosphere,
+    measured_in Air), matching the barometric (station) pressure measured on the buoy.
+- source: NEON
+  source_id: DP1.20008.001
+  source_name: Specific conductivity of surface water
+  target:
+    id: BERVO:8000426
+    label: Specific conductivity
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20008.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the ability of a solution to conduct electrical current per unit distance, indicating
+    dissolved ions; the product is in-situ specific conductance of surface water.
+- source: NEON
+  source_id: DP1.20015.001
+  source_name: Specific conductivity in groundwater
+  target:
+    id: BERVO:8000426
+    label: Specific conductivity
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20015.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Specific conductivity is defined for solutions without restricting the medium; the product measures
+    it in groundwater. Same relation as the surface-water product.
+- source: NEON
+  source_id: DP1.20016.001
+  source_name: Elevation of surface water
+  target:
+    id: BERVO:8000099
+    label: Altitude
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20016.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Altitude is the height of a point above sea level or a reference level; surface water elevation
+    (NAVD88-referenced water surface height) is a specific case and BERVO has no water-surface-elevation
+    term.
+- source: NEON
+  source_id: DP1.20032.001
+  source_name: Shortwave and longwave radiation above water on-buoy (net radiometer)
+  target:
+    id: BERVO:8000115
+    label: Shortwave radiation
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20032.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Generic shortwave (solar visible/UV) radiation concept; corresponds to the incoming and outgoing
+    shortwave components measured by the lake/river buoy net radiometer.
+- source: NEON
+  source_id: DP1.20032.001
+  source_name: Shortwave and longwave radiation above water on-buoy (net radiometer)
+  target:
+    id: BERVO:8000029
+    label: Longwave radiation
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20032.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Generic longwave (thermal infrared) radiation emitted by objects according to temperature; corresponds
+    to the incoming and outgoing longwave components of the lake/river buoy net radiometer.
+- source: NEON
+  source_id: DP1.20032.001
+  source_name: Shortwave and longwave radiation above water on-buoy (net radiometer)
+  target:
+    id: BERVO:0001380
+    label: Sky longwave radiation
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20032.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as thermal radiation emitted from the sky, which is the incoming (downwelling) longwave
+    component of the four-component net radiometer.
+- source: NEON
+  source_id: DP1.20042.001
+  source_name: Photosynthetically active radiation at water surface
+  target:
+    id: BERVO:8000212
+    label: Photosynthetically active radiation
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20042.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Photosynthetically active radiation is the 400-700 nm radiation used for photosynthesis
+    in terrestrial and aquatic systems; this product measures PAR flux specifically at the water surface,
+    for which no specific term exists.
+- source: NEON
+  source_id: DP1.20048.001
+  source_name: Discharge field collection
+  target:
+    id: BERVO:0001819
+    label: Water discharge
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20048.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Discharge is the volumetric flow rate through a stream channel; BERVO Water discharge defines
+    outflow through channels and from watersheds. Its measured_in attribute is Soil, a modeling context.
+    The same target is used for all NEON discharge products.
+- source: NEON
+  source_id: DP1.20053.001
+  source_name: Temperature (PRT) in surface water
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20053.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Temperature is the generic thermal-state attribute; no surface-water temperature term exists
+    (only air, soil, canopy, snow), so the generic term covers stream water temperature.
+- source: NEON
+  source_id: DP1.20054.001
+  source_name: Temperature (digital thermistor) of surface water
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20054.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Temperature is the generic kinetic-energy measure; BERVO has no surface-water temperature
+    term (only air, soil, snow, canopy), so the generic term covers this product.
+- source: NEON
+  source_id: DP1.20055.001
+  source_name: Water temperature and conductivity in lakes from subsurface moored array of sensors
+  target:
+    id: BERVO:8000426
+    label: Specific conductivity
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20055.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as a solution's ability to conduct current per unit distance; lake specific conductance
+    at depth is one of the two properties in this product.
+- source: NEON
+  source_id: DP1.20055.001
+  source_name: Water temperature and conductivity in lakes from subsurface moored array of sensors
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20055.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Generic temperature (average kinetic energy of particles); used for the lake water-temperature
+    component because BERVO has no water-temperature term (only air, soil, canopy, snow).
+- source: NEON
+  source_id: DP1.20059.001
+  source_name: Windspeed and direction above water on-buoy
+  target:
+    id: BERVO:8000278
+    label: Wind speed
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20059.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Wind speed is the magnitude of horizontal air velocity near Earth's surface, one of the
+    two fields measured by the buoy wind monitor.
+- source: NEON
+  source_id: DP1.20059.001
+  source_name: Windspeed and direction above water on-buoy
+  target:
+    id: BERVO:8000436
+    label: Wind direction
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20059.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Wind direction is the compass bearing from which wind originates, the second field of the
+    buoy wind product.
+- source: NEON
+  source_id: DP1.20063.001
+  source_name: Aquatic plant bryophyte chemical properties
+  target:
+    id: BERVO:0001855
+    label: Plant nitrogen to carbon ratio
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20063.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Plant nitrogen to carbon ratio is the N:C mass ratio in plant tissues, derivable from and
+    reported with the C and N concentrations of aquatic plants/bryophytes in this product.
+- source: NEON
+  source_id: DP1.20066.001
+  source_name: Aquatic plant bryophyte macroalgae clip harvest
+  target:
+    id: BERVO:8000296
+    label: Biomass
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20066.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: The clip harvest measures biomass of aquatic plants, bryophytes, and macroalgae; BERVO Biomass
+    is the general concept.
+- source: NEON
+  source_id: DP1.20092.001
+  source_name: Chemical properties of groundwater
+  target:
+    id: BERVO:8000261
+    label: pH
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20092.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO pH measures acidity/alkalinity of aqueous solutions, one of the general-chemistry fields
+    of groundwater grab samples.
+- source: NEON
+  source_id: DP1.20092.001
+  source_name: Chemical properties of groundwater
+  target:
+    id: BERVO:8000426
+    label: Specific conductivity
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20092.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Specific conductivity (solution conductance per unit distance) matches the groundwater
+    conductivity field.
+- source: NEON
+  source_id: DP1.20092.001
+  source_name: Chemical properties of groundwater
+  target:
+    id: BERVO:0001705
+    label: Solution ion concentration
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20092.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Solution ion concentration is the amount of ions present in a solution (Attribute Concentration,
+    measurement_of Ion), matching the anion and cation concentrations in the groundwater chemistry bundle.
+- source: NEON
+  source_id: DP1.20093.001
+  source_name: Chemical properties of surface water
+  target:
+    id: BERVO:8000261
+    label: pH
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20093.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO pH is the acidity/alkalinity of aqueous solutions incl. water quality, one of the general
+    chemistry analytes in surface water grab samples.
+- source: NEON
+  source_id: DP1.20093.001
+  source_name: Chemical properties of surface water
+  target:
+    id: BERVO:8000426
+    label: Specific conductivity
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20093.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Specific conductivity is the ability of a solution to conduct current indicating dissolved
+    ion concentration, one of the general chemistry analytes in this product.
+- source: NEON
+  source_id: DP1.20093.001
+  source_name: Chemical properties of surface water
+  target:
+    id: BERVO:8000097
+    label: Dissolved organic carbon
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20093.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Dissolved organic carbon is organic carbon dissolved in water of streams and lakes; DOC
+    concentration is one of the analytes in surface water chemistry.
+- source: NEON
+  source_id: DP1.20097.001
+  source_name: Dissolved gases in surface water
+  target:
+    id: BERVO:8000192
+    label: Carbon dioxide concentration
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20097.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the amount of CO2 in a given volume of air or water; dissolved CO2 in surface water
+    is one of the three dissolved gases (with CH4, N2O) in the product.
+- source: NEON
+  source_id: DP1.20099.001
+  source_name: Groundwater and active layer measurements at permafrost sites
+  target:
+    id: BERVO:0001522
+    label: Active layer depth of a permafrost soil
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20099.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO defines this as the depth of seasonal thaw in permafrost soils, matching the active-layer
+    thaw depth measurements.
+- source: NEON
+  source_id: DP1.20099.001
+  source_name: Groundwater and active layer measurements at permafrost sites
+  target:
+    id: BERVO:0001766
+    label: External water table depth
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20099.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO defines this as the vertical distance from land surface to the natural groundwater level,
+    matching the depth-to-liquid-groundwater measurements in wells.
+- source: NEON
+  source_id: DP1.20100.001
+  source_name: Elevation of groundwater
+  target:
+    id: BERVO:8000099
+    label: Altitude
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20100.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Altitude is the height of a point above sea level or a reference level; groundwater elevation
+    (water-table height relative to a datum) is a specific case, and BERVO water-table terms are model
+    depths below soil surface instead.
+- source: NEON
+  source_id: DP1.20163.001
+  source_name: Periphyton, seston, and phytoplankton chemical properties
+  target:
+    id: BERVO:8000466
+    label: Isotope ratio
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20163.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Isotope ratio (proportion of isotopes of an element, by mass spectrometry) matches the
+    13C/15N/34S isotope fields of periphyton/seston samples; no algal chlorophyll or C/N/P terms exist.
+- source: NEON
+  source_id: DP1.20166.001
+  source_name: Periphyton, seston, and phytoplankton collection
+  target:
+    id: BERVO:8000296
+    label: Biomass
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20166.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Biomass is the total quantity or weight of organisms in a given area or volume; periphyton/phytoplankton
+    biomass is the quantitative property within this collection-and-biomass bundle.
+- source: NEON
+  source_id: DP1.20191.001
+  source_name: Riparian vegetation % cover
+  target:
+    id: BERVO:0001834
+    label: Percent area covered by specified plant
+  relation: RELATED
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20191.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: NEON reports percent cover by vegetation category, whereas the BERVO term is cover by a specified
+    plant taxon or group.
+- source: NEON
+  source_id: DP1.20193.001
+  source_name: Salt-based stream discharge
+  target:
+    id: BERVO:0001819
+    label: Water discharge
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20193.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Discharge is the volumetric flow rate through a stream channel; BERVO Water discharge defines
+    outflow through channels and from watersheds. Its measured_in attribute is Soil, a modeling context.
+    The same target is used for all NEON discharge products.
+- source: NEON
+  source_id: DP1.20206.001
+  source_name: Stable isotopes in surface water
+  target:
+    id: BERVO:8000466
+    label: Isotope ratio
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20206.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Isotope ratio is the generic proportion of isotopes of an element in a sample; it covers
+    the water (18O, 2H) and POM (13C, 15N) isotope measurements but is not specific to surface water.
+- source: NEON
+  source_id: DP1.20217.001
+  source_name: Temperature of groundwater
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20217.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Temperature is the generic kinetic-energy measure; BERVO has no groundwater temperature
+    term, so the generic term covers this product.
+- source: NEON
+  source_id: DP1.20254.001
+  source_name: Depth profile at specific depths
+  target:
+    id: BERVO:8000069
+    label: Depth
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20254.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as vertical distance downward from a reference surface, explicitly including water column
+    structure; the product reports the depth profile of measurements.
+- source: NEON
+  source_id: DP1.20254.001
+  source_name: Depth profile at specific depths
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20254.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Generic temperature; used for the water-column temperature profile component because BERVO has
+    no water-temperature term.
+- source: NEON
+  source_id: DP1.20261.001
+  source_name: Photosynthetically active radiation below water surface
+  target:
+    id: BERVO:8000212
+    label: Photosynthetically active radiation
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20261.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO PAR is the 400-700 nm photosynthetic radiation band in general; no underwater-specific
+    PAR term exists, so it broadly covers below-surface PAR.
+- source: NEON
+  source_id: DP1.20264.001
+  source_name: Temperature at specific depth in surface water
+  target:
+    id: BERVO:8000133
+    label: Temperature
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20264.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Temperature is the generic kinetic-energy measure; BERVO has no lake/river water-column
+    temperature term, so the generic term covers this depth-profile product.
+- source: NEON
+  source_id: DP1.20271.001
+  source_name: Relative humidity and air temperature above water on-buoy
+  target:
+    id: BERVO:8000437
+    label: Relative humidity
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20271.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Relative humidity (ratio of actual to saturation vapor pressure) is the headline buoy humidity
+    field.
+- source: NEON
+  source_id: DP1.20271.001
+  source_name: Relative humidity and air temperature above water on-buoy
+  target:
+    id: BERVO:0001370
+    label: Air temperature
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20271.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Air temperature (ambient air at a height above ground/water) matches the buoy air temperature
+    field.
+- source: NEON
+  source_id: DP1.20271.001
+  source_name: Relative humidity and air temperature above water on-buoy
+  target:
+    id: BERVO:8000504
+    label: Dew point
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20271.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Dew point (temperature at which air saturates and vapor condenses) matches the dew/frost
+    point field.
+- source: NEON
+  source_id: DP1.20276.001
+  source_name: Stable isotopes in groundwater
+  target:
+    id: BERVO:8000466
+    label: Isotope ratio
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20276.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO isotope ratio is the generic proportion of isotopes of an element in a sample; the product
+    is 18O/2H ratios specifically in groundwater.
+- source: NEON
+  source_id: DP1.20288.001
+  source_name: Water quality
+  target:
+    id: BERVO:8000261
+    label: pH
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20288.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO pH measures acidity/alkalinity of aqueous solutions, one sonde field in surface water.
+- source: NEON
+  source_id: DP1.20288.001
+  source_name: Water quality
+  target:
+    id: BERVO:8000426
+    label: Specific conductivity
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20288.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Specific conductivity (solution conductance per unit distance) matches the sonde specific
+    conductance field.
+- source: NEON
+  source_id: DP1.20288.001
+  source_name: Water quality
+  target:
+    id: BERVO:0001836
+    label: Turbidity of water
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP1.20288.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Turbidity of water is light scattering by suspended particles in water (measured_in Water,
+    NTU), matching the sonde turbidity field.
+- source: NEON
+  source_id: DP2.30011.001
+  source_name: Albedo - spectrometer - flightline
+  target:
+    id: BERVO:8000263
+    label: Albedo
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP2.30011.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the fraction of incident electromagnetic radiation reflected by a surface; the product
+    is the specific case of broadband (0.4-2.5 um) surface albedo from airborne spectrometry.
+- source: NEON
+  source_id: DP2.30011.002
+  source_name: Albedo - spectrometer - bidirectional flightline
+  target:
+    id: BERVO:8000263
+    label: Albedo
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP2.30011.002
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Albedo is the fraction of incident radiation reflected by a surface; it covers the 0.4-2.5
+    um airborne land-surface albedo but is not band- or surface-specific.
+- source: NEON
+  source_id: DP2.30012.001
+  source_name: LAI - spectrometer - flightline
+  target:
+    id: BERVO:8000164
+    label: Leaf area index
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP2.30012.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Leaf area index is the ratio of total leaf area to ground area, matching the LAI definition
+    used in this spectrometer-derived product.
+- source: NEON
+  source_id: DP2.30012.002
+  source_name: LAI - spectrometer - bidirectional flightline
+  target:
+    id: BERVO:8000164
+    label: Leaf area index
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP2.30012.002
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the ratio of total leaf area to ground area covered by vegetation, matching the product's
+    LAI (leaf/needle area per unit ground area) derived from spectrometer data.
+- source: NEON
+  source_id: DP2.30014.001
+  source_name: fPAR - spectrometer - flightline
+  target:
+    id: BERVO:0000572
+    label: Fraction of incoming photosynthetically active radiation absorbed by canopy
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP2.30014.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO defines this as the proportion of incident PAR absorbed by the plant canopy, which is exactly
+    the fPAR quantity retrieved from the spectrometer.
+- source: NEON
+  source_id: DP2.30014.002
+  source_name: fPAR - spectrometer - bidirectional flightline
+  target:
+    id: BERVO:0000572
+    label: Fraction of incoming photosynthetically active radiation absorbed by canopy
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP2.30014.002
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Fraction of incoming photosynthetically active radiation absorbed by canopy is the proportion
+    of incident PAR absorbed by the plant canopy, exactly the fPAR quantity in this product.
+- source: NEON
+  source_id: DP3.30011.001
+  source_name: Albedo - spectrometer - mosaic
+  target:
+    id: BERVO:8000263
+    label: Albedo
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP3.30011.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Albedo is the fraction of incident radiation reflected by a surface; it covers the 0.4-2.5
+    um airborne land-surface albedo mosaic but is not band- or surface-specific.
+- source: NEON
+  source_id: DP3.30011.002
+  source_name: Albedo - spectrometer - bidirectional mosaic
+  target:
+    id: BERVO:8000263
+    label: Albedo
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP3.30011.002
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Albedo is the fraction of incident radiation reflected by a surface; this product is broadband
+    (0.4-2.5 um) land-surface albedo, and BERVO Surface albedo is restricted to the ground (soil) surface,
+    so the general term is used.
+- source: NEON
+  source_id: DP3.30012.001
+  source_name: LAI - spectrometer - mosaic
+  target:
+    id: BERVO:8000164
+    label: Leaf area index
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP3.30012.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the ratio of total leaf area to ground area covered by vegetation, matching the product's
+    LAI (leaf/needle area per unit ground area) derived from spectrometer data.
+- source: NEON
+  source_id: DP3.30012.002
+  source_name: LAI - spectrometer - bidirectional mosaic
+  target:
+    id: BERVO:8000164
+    label: Leaf area index
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP3.30012.002
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Leaf area index is the ratio of total leaf area to ground area, the quantity delivered
+    by the LAI mosaic.
+- source: NEON
+  source_id: DP3.30014.001
+  source_name: fPAR - spectrometer - mosaic
+  target:
+    id: BERVO:0000572
+    label: Fraction of incoming photosynthetically active radiation absorbed by canopy
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP3.30014.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Fraction of incoming photosynthetically active radiation absorbed by canopy is the proportion
+    of incident PAR absorbed by the canopy, the fPAR quantity mosaicked in this product.
+- source: NEON
+  source_id: DP3.30014.002
+  source_name: fPAR - spectrometer - bidirectional mosaic
+  target:
+    id: BERVO:0000572
+    label: Fraction of incoming photosynthetically active radiation absorbed by canopy
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP3.30014.002
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the proportion of incident PAR absorbed by the plant canopy rather than transmitted
+    or reflected, matching fPAR absorbed by green canopy elements (term is an EcoSIM per-PFT variable
+    but describes the observable quantity).
+- source: NEON
+  source_id: DP3.30015.001
+  source_name: Ecosystem structure
+  target:
+    id: BERVO:0000708
+    label: Canopy height over grid
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP3.30015.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO defines this as the vertical extent of vegetation canopy over a grid cell (Attribute Height,
+    Context Canopy), matching the 1 m gridded LiDAR canopy height model.
+- source: NEON
+  source_id: DP3.30024.001
+  source_name: Elevation - LiDAR
+  target:
+    id: BERVO:8000099
+    label: Altitude
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP3.30024.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Altitude is the height of a point above sea level or a reference level; the DTM/DSM give
+    ground and surface elevation above the NAVD88 datum, specific cases of altitude.
+- source: NEON
+  source_id: DP3.30025.001
+  source_name: Slope and Aspect - LiDAR
+  target:
+    id: BERVO:0000684
+    label: Measurement of slope
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP3.30025.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the angle of inclination of the land surface relative to horizontal in degrees, matching
+    the LiDAR slope layer.
+- source: NEON
+  source_id: DP3.30025.001
+  source_name: Slope and Aspect - LiDAR
+  target:
+    id: BERVO:0000685
+    label: Aspect
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP3.30025.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the compass direction a land surface faces in degrees from north, matching the LiDAR
+    aspect layer.
+- source: NEON
+  source_id: DP4.00001.001
+  source_name: Summary weather statistics
+  target:
+    id: BERVO:0001370
+    label: Air temperature
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP4.00001.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as temperature of ambient air at a specified height above ground; air temperature is
+    one of the summarized weather variables.
+- source: NEON
+  source_id: DP4.00001.001
+  source_name: Summary weather statistics
+  target:
+    id: BERVO:8000437
+    label: Relative humidity
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP4.00001.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the ratio of actual to saturation water vapor pressure as a percentage; relative humidity
+    is one of the summarized weather variables.
+- source: NEON
+  source_id: DP4.00001.001
+  source_name: Summary weather statistics
+  target:
+    id: BERVO:8000278
+    label: Wind speed
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP4.00001.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as the magnitude of horizontal air velocity near Earth's surface; wind speed is one of
+    the summarized weather variables.
+- source: NEON
+  source_id: DP4.00130.001
+  source_name: Continuous discharge
+  target:
+    id: BERVO:0001819
+    label: Water discharge
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP4.00130.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Discharge is the volumetric flow rate through a stream channel; BERVO Water discharge defines
+    outflow through channels and from watersheds. Its measured_in attribute is Soil, a modeling context.
+    The same target is used for all NEON discharge products.
+- source: NEON
+  source_id: DP4.00132.001
+  source_name: Bathymetric and morphological maps
+  target:
+    id: BERVO:8000069
+    label: Depth
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP4.00132.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: Defined as vertical distance downward from a reference surface incl. water column structure;
+    bathymetric water depth is the principal mapped quantity, alongside morphology and plant cover.
+- source: NEON
+  source_id: DP4.00200.001
+  source_name: Bundled data products - eddy covariance
+  target:
+    id: BERVO:0000326
+    label: Net ecosystem carbon dioxide exchange
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP4.00200.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Net ecosystem carbon dioxide exchange is the net CO2 flux between the ecosystem and atmosphere,
+    the NEE component of the eddy-covariance bundle.
+- source: NEON
+  source_id: DP4.00200.001
+  source_name: Bundled data products - eddy covariance
+  target:
+    id: BERVO:0000002
+    label: Ecosystem latent heat flux
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP4.00200.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Ecosystem latent heat flux is energy transfer with water vapour from the surface to the
+    atmosphere via evapotranspiration, a flux reported in the eddy-covariance bundle.
+- source: NEON
+  source_id: DP4.00200.001
+  source_name: Bundled data products - eddy covariance
+  target:
+    id: BERVO:0000003
+    label: Ecosystem sensible heat flux
+  relation: NARROW
+  origin: CURATED
+  evidence:
+  - https://github.com/bioepic-data/bervo/blob/23b551635d42614ec09a5670866d714007039011/bervo.obo
+  - https://data.neonscience.org/data-products/DP4.00200.001
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: BERVO Ecosystem sensible heat flux is the direct thermal energy transfer between atmosphere and
+    land surface, a flux reported in the eddy-covariance bundle.

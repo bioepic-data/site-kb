@@ -99,3 +99,28 @@ def test_offline_replay_writes_byte_stable_records(tmp_path):
     neon.main(output_dir=out, raw_dir=raw, offline=True, summary_only=False)
     written = yaml.safe_load((out / "neon_harv.yaml").read_text())
     assert written["sites"][0]["variables"][0]["source_variables"][0]["retrieved_at"] == WHEN
+
+
+def field_sites(text):
+    return {"source_url": "https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022",
+            "retrieved_at": WHEN, "record": text, "sha256": checksum(text)}
+
+
+def test_field_site_metadata_becomes_verbatim_classifications():
+    text = ('site_id,site_type,site_subtype,dominant_nlcd_classes\n'
+            'HARV,"Core Terrestrial",,"Deciduous Forest|Evergreen Forest"\n')
+    [result] = neon.convert(snapshot([site()], neon.SITES_URL), catalog(), field_sites(text))
+    values = [(c["scheme"], c["value"]) for c in result["source_classifications"]]
+    assert values == [("site_type", "Core Terrestrial"), ("dominant_nlcd_classes", "Deciduous Forest"),
+                      ("dominant_nlcd_classes", "Evergreen Forest")]
+    assert result["source_classifications"][1]["field_path"] == "/0/dominant_nlcd_classes"
+    assert "ecosystem_terms" not in result and "land_cover_terms" not in result
+
+
+def test_field_site_metadata_is_validated():
+    with pytest.raises(ValueError, match="columns"):
+        neon.convert(snapshot([site()], neon.SITES_URL), catalog(), field_sites("site_id,site_type\nHARV,x\n"))
+    tampered = field_sites("site_id,site_type,site_subtype,dominant_nlcd_classes\nHARV,a,,\n")
+    tampered["record"] += "HARV,b,,\n"
+    with pytest.raises(ValueError, match="checksum"):
+        neon.convert(snapshot([site()], neon.SITES_URL), catalog(), tampered)
