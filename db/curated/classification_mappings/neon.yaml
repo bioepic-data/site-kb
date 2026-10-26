@@ -1,0 +1,298 @@
+# NEON field site classifications to ENVO. Values match the verbatim export columns.
+mappings:
+- source: NEON
+  scheme: site_type
+  value: Core Terrestrial
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01001790
+    label: terrestrial ecosystem
+  relation: RELATED
+  origin: CURATED
+  evidence:
+  - https://www.neonscience.org/field-sites/about-field-sites
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: NEON terrestrial field sites are land sites; the site design class is related to, not identical
+    with, the ecosystem it samples.
+- source: NEON
+  scheme: site_type
+  value: Gradient Terrestrial
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01001790
+    label: terrestrial ecosystem
+  relation: RELATED
+  origin: CURATED
+  evidence:
+  - https://www.neonscience.org/field-sites/about-field-sites
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: NEON terrestrial field sites are land sites; the site design class is related to, not identical
+    with, the ecosystem it samples.
+- source: NEON
+  scheme: site_subtype
+  value: Wadeable Stream
+  target_slot: SITE_TYPE
+  target:
+    id: ENVO:00000023
+    label: stream
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://www.neonscience.org/field-sites/about-field-sites
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: The NEON aquatic site is the water body reach or lake it samples; wadeability is not represented
+    in ENVO.
+- source: NEON
+  scheme: site_subtype
+  value: Non-wadeable River
+  target_slot: SITE_TYPE
+  target:
+    id: ENVO:00000022
+    label: river
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://www.neonscience.org/field-sites/about-field-sites
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: The NEON aquatic site is the water body reach or lake it samples; wadeability is not represented
+    in ENVO.
+- source: NEON
+  scheme: site_subtype
+  value: Lake
+  target_slot: SITE_TYPE
+  target:
+    id: ENVO:00000020
+    label: lake
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://www.neonscience.org/field-sites/about-field-sites
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: The NEON aquatic site is the lake it samples.
+- source: NEON
+  scheme: site_subtype
+  value: Wadeable Stream
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:03605009
+    label: freshwater stream ecosystem
+  relation: RELATED
+  origin: CURATED
+  evidence:
+  - https://www.neonscience.org/field-sites/about-field-sites
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: NEON describes all 34 aquatic field sites as freshwater sites.
+- source: NEON
+  scheme: site_subtype
+  value: Non-wadeable River
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000253
+    label: freshwater river biome
+  relation: RELATED
+  origin: CURATED
+  evidence:
+  - https://www.neonscience.org/field-sites/about-field-sites
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: NEON describes all 34 aquatic field sites as freshwater sites; ENVO has no freshwater river ecosystem
+    class distinct from this biome.
+- source: NEON
+  scheme: site_subtype
+  value: Lake
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000252
+    label: freshwater lake biome
+  relation: RELATED
+  origin: CURATED
+  evidence:
+  - https://www.neonscience.org/field-sites/about-field-sites
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  attributed_to: site-kb curation
+  asserted_on: '2026-10-26'
+  notes: NEON describes all 34 aquatic field sites as freshwater sites; ENVO has no freshwater lake ecosystem
+    class distinct from this biome. Lake salinity is not separately assessed.
+- source: NEON
+  scheme: dominant_nlcd_classes
+  value: Deciduous Forest
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000816
+    label: area of deciduous forest
+  relation: CLOSE
+  origin: SOURCE
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description
+  attributed_to: ENVO (xref NLCD:41)
+  asserted_on: '2026-10-26'
+  notes: NEON reports the NLCD class name; MRLC lists it as NLCD class 41, and ENVO cross-references this
+    term to NLCD:41. ENVO does not assert the NLCD cover thresholds. At aquatic sites the class may describe
+    the surrounding landscape.
+- source: NEON
+  scheme: dominant_nlcd_classes
+  value: Evergreen Forest
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000843
+    label: area of evergreen forest
+  relation: CLOSE
+  origin: SOURCE
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description
+  attributed_to: ENVO (xref NLCD:42)
+  asserted_on: '2026-10-26'
+  notes: NEON reports the NLCD class name; MRLC lists it as NLCD class 42, and ENVO cross-references this
+    term to NLCD:42. ENVO does not assert the NLCD cover thresholds. At aquatic sites the class may describe
+    the surrounding landscape.
+- source: NEON
+  scheme: dominant_nlcd_classes
+  value: Mixed Forest
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000855
+    label: area of mixed forest
+  relation: CLOSE
+  origin: SOURCE
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description
+  attributed_to: ENVO (xref NLCD:43)
+  asserted_on: '2026-10-26'
+  notes: NEON reports the NLCD class name; MRLC lists it as NLCD class 43, and ENVO cross-references this
+    term to NLCD:43. ENVO does not assert the NLCD cover thresholds. At aquatic sites the class may describe
+    the surrounding landscape.
+- source: NEON
+  scheme: dominant_nlcd_classes
+  value: Dwarf Scrub
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000861
+    label: area of dwarf scrub
+  relation: CLOSE
+  origin: SOURCE
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description
+  attributed_to: ENVO (xref NLCD:51)
+  asserted_on: '2026-10-26'
+  notes: NEON reports the NLCD class name; MRLC lists it as NLCD class 51, and ENVO cross-references this
+    term to NLCD:51. ENVO does not assert the NLCD cover thresholds. At aquatic sites the class may describe
+    the surrounding landscape.
+- source: NEON
+  scheme: dominant_nlcd_classes
+  value: Shrub/Scrub
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000869
+    label: area of scrub
+  relation: CLOSE
+  origin: SOURCE
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description
+  attributed_to: ENVO (xref NLCD:52)
+  asserted_on: '2026-10-26'
+  notes: NEON reports the NLCD class name; MRLC lists it as NLCD class 52, and ENVO cross-references this
+    term to NLCD:52. ENVO does not assert the NLCD cover thresholds. At aquatic sites the class may describe
+    the surrounding landscape.
+- source: NEON
+  scheme: dominant_nlcd_classes
+  value: Grassland/Herbaceous
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000888
+    label: area of gramanoid or herbaceous vegetation
+  relation: CLOSE
+  origin: SOURCE
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description
+  attributed_to: ENVO (xref NLCD:71)
+  asserted_on: '2026-10-26'
+  notes: NEON reports the NLCD class name; MRLC lists it as NLCD class 71, and ENVO cross-references this
+    term to NLCD:71. ENVO does not assert the NLCD cover thresholds. At aquatic sites the class may describe
+    the surrounding landscape.
+- source: NEON
+  scheme: dominant_nlcd_classes
+  value: Pasture/Hay
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000891
+    label: area of pastureland or hayfields
+  relation: CLOSE
+  origin: SOURCE
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description
+  attributed_to: ENVO (xref NLCD:81)
+  asserted_on: '2026-10-26'
+  notes: NEON reports the NLCD class name; MRLC lists it as NLCD class 81, and ENVO cross-references this
+    term to NLCD:81. ENVO does not assert the NLCD cover thresholds. At aquatic sites the class may describe
+    the surrounding landscape.
+- source: NEON
+  scheme: dominant_nlcd_classes
+  value: Cultivated Crops
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000892
+    label: area of cropland
+  relation: CLOSE
+  origin: SOURCE
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description
+  attributed_to: ENVO (xref NLCD:82)
+  asserted_on: '2026-10-26'
+  notes: NEON reports the NLCD class name; MRLC lists it as NLCD class 82, and ENVO cross-references this
+    term to NLCD:82. ENVO does not assert the NLCD cover thresholds. At aquatic sites the class may describe
+    the surrounding landscape.
+- source: NEON
+  scheme: dominant_nlcd_classes
+  value: Woody Wetlands
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000893
+    label: area of woody wetland
+  relation: CLOSE
+  origin: SOURCE
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description
+  attributed_to: ENVO (xref NLCD:90)
+  asserted_on: '2026-10-26'
+  notes: NEON reports the NLCD class name; MRLC lists it as NLCD class 90, and ENVO cross-references this
+    term to NLCD:90. ENVO does not assert the NLCD cover thresholds. At aquatic sites the class may describe
+    the surrounding landscape.
+- source: NEON
+  scheme: dominant_nlcd_classes
+  value: Emergent Herbaceous Wetlands
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000894
+    label: area of emergent herbaceous wetland
+  relation: CLOSE
+  origin: SOURCE
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://www.mrlc.gov/data/legends/national-land-cover-database-class-legend-and-description
+  attributed_to: ENVO (xref NLCD:95)
+  asserted_on: '2026-10-26'
+  notes: NEON reports the NLCD class name; MRLC lists it as NLCD class 95, and ENVO cross-references this
+    term to NLCD:95. ENVO does not assert the NLCD cover thresholds. At aquatic sites the class may describe
+    the surrounding landscape.

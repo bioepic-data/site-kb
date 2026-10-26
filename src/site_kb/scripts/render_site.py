@@ -185,7 +185,9 @@ def detail(site, origin, input_paths):
     registrations = ''.join(f'<article class="registration"><strong>{esc(r["network"])}</strong><p>{link(r.get("network_url", ""), r["network_id"])}</p><span class="muted">{esc(r.get("site_type", ""))}</span></article>' for r in site.get('network_registrations', [])) or '<p class="muted">No network registrations recorded.</p>'
     contacts = ''.join(f'<p><strong>{esc(c["name"])}</strong><br>{esc(c.get("role", ""))}<br><span class="muted">{esc(c.get("organization", ""))}</span></p>' for c in site.get('contacts', [])) or '<p class="muted">No contacts recorded.</p>'
     source_links = ''.join(f'<li><a href="../sources/{esc(p)}">{esc(p)}</a></li>' for p in input_paths)
-    classification = '<section class="panel"><h2>Site type</h2>' + term(site['site_type']) + '<p class="muted">Physical facility or site classification, separate from ecosystem annotations.</p></section>' if site.get('site_type') else ''
+    land_cover = ('<section class="panel"><h2>Land cover</h2>' + '<br>'.join(term(t) + evidence_refs(site, f'/land_cover_terms/{i}') for i, t in enumerate(site['land_cover_terms']))
+                  + '<p class="muted">Reported land-cover zones; not ecosystems or facility types.</p></section>') if site.get('land_cover_terms') else ''
+    classification = '<section class="panel"><h2>Site type</h2>' + term(site['site_type']) + evidence_refs(site, '/site_type') + '<p class="muted">Physical facility or site classification, separate from ecosystem annotations.</p></section>' if site.get('site_type') else ''
     datasets = ''.join(f'<article class="variable"><h3>{link(d["url"], d["title"])}</h3><p>{esc(d["assay"])} · {esc(d["availability"])}</p><p>{esc(d.get("accession", ""))}</p><p>{prose(d.get("notes", ""))}</p></article>' for d in site.get('datasets', []))
     dataset_html = f'<section class="panel"><h2>Associated datasets</h2>{datasets}</section>' if datasets else ''
     raw = esc(yaml.safe_dump({'sites': [site]}, sort_keys=False, allow_unicode=True))
@@ -194,7 +196,7 @@ def detail(site, origin, input_paths):
 <div class="detail-grid"><div>{evidence_panel(site)}{dataset_html}<section class="panel"><div class="section-title"><h2>Observed properties & variables</h2>{badge(str(len(variables)))}</div><p class="muted">Declarations may include broad parameter groups. Source vocabulary identities and ontology crosswalks are shown separately.</p>{var_html}</section>
 <section class="panel"><h2>Notes & evidence</h2><p class="evidence">{prose(site.get('notes', 'No additional notes recorded.'))}</p></section>
 <section class="panel"><h2>Provenance</h2><p>Record origin: <strong>{esc(origin)}</strong>. Source files used to assemble this record:</p><ul class="source-list">{source_links}</ul><details><summary>View assembled YAML</summary><pre>{raw}</pre></details></section></div>
-<aside>{classification}<section class="panel"><h2>Location & dates</h2><dl>{facts_html}</dl>{coordinate_note}</section><section class="panel"><h2>Network registrations</h2>{registrations}</section><section class="panel"><h2>Contacts</h2>{contacts}</section><section class="panel"><h2>Ecosystems</h2>{'<br>'.join(term(t) for t in site.get('ecosystem_terms', [])) or '<p class="muted">Not annotated.</p>'}</section></aside></div></main>'''
+<aside>{classification}<section class="panel"><h2>Location & dates</h2><dl>{facts_html}</dl>{coordinate_note}</section><section class="panel"><h2>Network registrations</h2>{registrations}</section><section class="panel"><h2>Contacts</h2>{contacts}</section><section class="panel"><h2>Ecosystems</h2>{'<br>'.join(term(t) + evidence_refs(site, f'/ecosystem_terms/{i}') for i, t in enumerate(site.get('ecosystem_terms', []))) or '<p class="muted">Not annotated.</p>'}</section>{land_cover}</aside></div></main>'''
     return shell(site['name'], body, prefix)
 
 

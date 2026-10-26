@@ -17,3 +17,1667 @@ sites:
     network_url: https://deims.org/73f969f7-15d6-469a-a7f3-a6a810a6f10e
   status: ACTIVE
   notes: 'NEON Domain: D07 (Appalachians and Cumberland Plateau)'
+  variables:
+  - name: 2D wind speed and direction
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00001.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00001.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00001.001
+      source_name: 2D wind speed and direction
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/0
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Single aspirated air temperature
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00002.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00002.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00002.001
+      source_name: Single aspirated air temperature
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/1
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Barometric pressure
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00004.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00004.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00004.001
+      source_name: Barometric pressure
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/2
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Shortwave and longwave radiation (net radiometer)
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00023.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00023.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00023.001
+      source_name: Shortwave and longwave radiation (net radiometer)
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/3
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Photosynthetically active radiation (PAR)
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00024.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00024.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00024.001
+      source_name: Photosynthetically active radiation (PAR)
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/4
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Relative humidity
+    description: NEON Level 1 Data Product from the Terrestrial Instrument System
+      (TIS); may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.00098.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.00098.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.00098.001
+      source_name: Relative humidity
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/5
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Rapid habitat assessment of streams
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20001.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20001.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP1.20001.001
+      source_name: Rapid habitat assessment of streams
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/6
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Land-water interface images
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20002.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20002.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    source_variables:
+    - source: NEON
+      source_id: DP1.20002.001
+      source_name: Land-water interface images
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/7
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Specific conductivity in groundwater
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20015.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20015.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20015.001
+      source_name: Specific conductivity in groundwater
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/8
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Elevation of surface water
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20016.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20016.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20016.001
+      source_name: Elevation of surface water
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/9
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Nitrate in surface water
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20033.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20033.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20033.001
+      source_name: Nitrate in surface water
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/10
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Photosynthetically active radiation at water surface
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20042.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20042.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20042.001
+      source_name: Photosynthetically active radiation at water surface
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/11
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Discharge field collection
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20048.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20048.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20048.001
+      source_name: Discharge field collection
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/12
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Temperature (PRT) in surface water
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20053.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20053.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20053.001
+      source_name: Temperature (PRT) in surface water
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/13
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Temperature (digital thermistor) of surface water
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20054.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20054.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20054.001
+      source_name: Temperature (digital thermistor) of surface water
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/14
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Aquatic plant bryophyte chemical properties
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20063.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20063.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20063.001
+      source_name: Aquatic plant bryophyte chemical properties
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/15
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Aquatic plant bryophyte macroalgae clip harvest
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20066.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20066.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20066.001
+      source_name: Aquatic plant bryophyte macroalgae clip harvest
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/16
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Aquatic plant, bryophyte, lichen, and macroalgae point counts in wadeable
+      streams
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20072.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20072.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20072.001
+      source_name: Aquatic plant, bryophyte, lichen, and macroalgae point counts in
+        wadeable streams
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/17
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Benthic microbe community composition
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20086.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20086.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20086.001
+      source_name: Benthic microbe community composition
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/18
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Benthic microbe community taxonomy
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20086.002
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20086.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20086.002
+      source_name: Benthic microbe community taxonomy
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/19
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Chemical properties of groundwater
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20092.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20092.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20092.001
+      source_name: Chemical properties of groundwater
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/20
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Chemical properties of surface water
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20093.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20093.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20093.001
+      source_name: Chemical properties of surface water
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/21
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Dissolved gases in surface water
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20097.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20097.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20097.001
+      source_name: Dissolved gases in surface water
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/22
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Elevation of groundwater
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20100.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20100.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20100.001
+      source_name: Elevation of groundwater
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/23
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Fish sequences DNA barcode
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20105.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20105.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20105.001
+      source_name: Fish sequences DNA barcode
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/24
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Fish electrofishing, gill netting, and fyke netting counts
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20107.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20107.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20107.001
+      source_name: Fish electrofishing, gill netting, and fyke netting counts
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/25
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Macroinvertebrate collection
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20120.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20120.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20120.001
+      source_name: Macroinvertebrate collection
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/26
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Macroinvertebrate metabarcoding
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20126.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20126.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20126.001
+      source_name: Macroinvertebrate metabarcoding
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/27
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Surface water microbe cell count
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20138.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20138.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20138.001
+      source_name: Surface water microbe cell count
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/28
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Surface water microbe community composition
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20141.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20141.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20141.001
+      source_name: Surface water microbe community composition
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/29
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Surface water microbe community taxonomy
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20141.002
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20141.002
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    data_versions:
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20141.002
+      source_name: Surface water microbe community taxonomy
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/30
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Periphyton, seston, and phytoplankton chemical properties
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20163.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20163.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20163.001
+      source_name: Periphyton, seston, and phytoplankton chemical properties
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/31
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Periphyton, seston, and phytoplankton collection
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20166.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20166.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20166.001
+      source_name: Periphyton, seston, and phytoplankton collection
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/32
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Reaeration field and lab collection
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20190.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20190.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20190.001
+      source_name: Reaeration field and lab collection
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/33
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Riparian vegetation % cover
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20191.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20191.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20191.001
+      source_name: Riparian vegetation % cover
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/34
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Salt-based stream discharge
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20193.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20193.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20193.001
+      source_name: Salt-based stream discharge
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/35
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Sediment chemical and physical properties
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20194.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20194.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20194.001
+      source_name: Sediment chemical and physical properties
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/36
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Stable isotopes in surface water
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20206.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20206.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20206.001
+      source_name: Stable isotopes in surface water
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/37
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Temperature of groundwater
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20217.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20217.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20217.001
+      source_name: Temperature of groundwater
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/38
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Gauge height
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20267.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20267.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20267.001
+      source_name: Gauge height
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/39
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Riparian composition and structure
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20275.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20275.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20275.001
+      source_name: Riparian composition and structure
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/40
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Stable isotopes in groundwater
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20276.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20276.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20276.001
+      source_name: Stable isotopes in groundwater
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/41
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Benthic microbe group abundances
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20277.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20277.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20277.001
+      source_name: Benthic microbe group abundances
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/42
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Surface water microbe group abundances
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20278.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20278.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20278.001
+      source_name: Surface water microbe group abundances
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/43
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Benthic microbe metagenome sequences
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20279.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20279.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20279.001
+      source_name: Benthic microbe metagenome sequences
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/44
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Benthic microbe marker gene sequences
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20280.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20280.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20280.001
+      source_name: Benthic microbe marker gene sequences
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/45
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Surface water microbe metagenome sequences
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20281.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20281.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20281.001
+      source_name: Surface water microbe metagenome sequences
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/46
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Surface water microbe marker gene sequences
+    description: NEON Level 1 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20282.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20282.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20282.001
+      source_name: Surface water microbe marker gene sequences
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/47
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Water quality
+    description: NEON Level 1 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP1.20288.001
+    source_category: Level 1 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP1.20288.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP1.20288.001
+      source_name: Water quality
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/48
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Continuous discharge
+    description: NEON Level 4 Data Product from the Aquatic Instrument System (AIS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP4.00130.001
+    source_category: Level 4 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP4.00130.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP4.00130.001
+      source_name: Continuous discharge
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/49
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Stream morphology map
+    description: NEON Level 4 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP4.00131.001
+    source_category: Level 4 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP4.00131.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP4.00131.001
+      source_name: Stream morphology map
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/50
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  - name: Stage-discharge rating curves
+    description: NEON Level 4 Data Product from the Aquatic Observation System (AOS);
+      may contain several measured, derived, or quality-control fields.
+    declaration_kind: UNSPECIFIED
+    data_product: DP4.00133.001
+    source_category: Level 4 Data Product
+    evidence:
+    - https://data.neonscience.org/data-products/DP4.00133.001
+    - https://data.neonscience.org/api/v0/sites
+    available_years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    data_versions:
+    - PROVISIONAL
+    - RELEASE-2026
+    source_variables:
+    - source: NEON
+      source_id: DP4.00133.001
+      source_name: Stage-discharge rating curves
+      vocabulary: NEON data product catalog
+      record_url: https://data.neonscience.org/api/v0/sites
+      field_path: /data/76/dataProducts/51
+      retrieved_at: '2026-10-26T01:27:24.543436+00:00'
+  variable_notes: Variables are NEON data products that the NEON API lists with published
+    or provisional data for this site. A product may bundle several measured, derived,
+    or quality-control fields, so declarations are not classified as single properties.
+    Available years are calendar years with at least one available month; they do
+    not imply continuous collection. Airborne Observation Platform (AOP) products
+    are remote-sensing surveys over the site, not in-situ measurements.
+  source_classifications:
+  - source: NEON
+    scheme: site_type
+    value: Core Aquatic
+    record_url: https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+    field_path: /76/site_type
+    retrieved_at: '2026-10-26T01:27:27.463434+00:00'
+  - source: NEON
+    scheme: site_subtype
+    value: Wadeable Stream
+    record_url: https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+    field_path: /76/site_subtype
+    retrieved_at: '2026-10-26T01:27:27.463434+00:00'
+  - source: NEON
+    scheme: dominant_nlcd_classes
+    value: Deciduous Forest
+    record_url: https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+    field_path: /76/dominant_nlcd_classes
+    retrieved_at: '2026-10-26T01:27:27.463434+00:00'

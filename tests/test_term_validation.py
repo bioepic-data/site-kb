@@ -18,7 +18,7 @@ def test_every_ontology_term_field_has_a_validator_binding():
                 assert any(binding.binds_value_of == 'id' for binding in slot.bindings), (cls, slot.name)
 
 
-@pytest.mark.parametrize('field', ['site_type', 'ecosystem_terms'])
+@pytest.mark.parametrize('field', ['site_type', 'ecosystem_terms', 'land_cover_terms'])
 def test_linkml_term_validator_rejects_bad_nested_labels_and_ids(tmp_path, field):
     # Offline excerpt of the pinned ENVO release, not a mock of validator behavior.
     ontology = tmp_path / 'envo.obo'
@@ -64,3 +64,18 @@ def test_bervo_mapping_target_rejects_wrong_canonical_label(tmp_path):
     assert validator.validate(data, target_class='VariableMappingCollection').results
     data['mappings'][0]['target']['label'] = 'Temperature'
     assert not validator.validate(data, target_class='VariableMappingCollection').results
+
+
+def test_classification_mapping_target_rejects_wrong_canonical_label(tmp_path):
+    ontology = tmp_path / 'envo.obo'
+    ontology.write_text('format-version: 1.2\nontology: envo\n\n[Term]\nid: ENVO:00000020\nname: lake\n')
+    config = tmp_path / 'oak.yaml'
+    config.write_text(yaml.safe_dump({'ontology_adapters': {'ENVO': 'simpleobo:' + str(ontology)}}))
+    plugin = BindingValidationPlugin(oak_config_path=config, cache_labels=False, cache_dir=tmp_path / 'cache')
+    validator = Validator(schema=str(SCHEMA), validation_plugins=[plugin])
+    data = {'mappings': [{'source': 'NEON', 'scheme': 'site_subtype', 'value': 'Lake', 'target_slot': 'SITE_TYPE',
+            'target': {'id': 'ENVO:00000020', 'label': 'pond'}, 'relation': 'CLOSE', 'origin': 'CURATED',
+            'evidence': ['https://example.org/review']}]}
+    assert validator.validate(data, target_class='ClassificationMappingCollection').results
+    data['mappings'][0]['target']['label'] = 'lake'
+    assert not validator.validate(data, target_class='ClassificationMappingCollection').results

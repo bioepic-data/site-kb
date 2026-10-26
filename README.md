@@ -29,11 +29,13 @@ just validate-terms
 | `db/raw/deims/` | Complete source JSON snapshots with retrieval timestamps | No |
 | `db/raw/ameriflux/` | Per-site source snapshots, complete API responses, import report, and locally supplied BIF originals | No |
 | `db/raw/ameriflux/variables/` | v2 site inventories, FP definitions, and compressed current BASE coverage responses | No |
+| `db/raw/neon/` | Compressed complete NEON `/sites` and `/products` responses and the field site metadata export, with retrieval timestamps and checksums | No |
 | `db/imported/deims/`, `db/imported/neon/` | Source-specific metadata normalized by importers; tracked in Git | No: refresh can overwrite these files |
 | `db/imported/ameriflux/` | AmeriFlux site metadata normalized from the public site API | No: refresh can overwrite these files |
 | `db/staged/ameriflux/bif/` | Reconstructed BIF groups for review; excluded from site assembly | No: regenerate from raw BIF inputs |
 | `db/curated/sites/` | Complete, independently curated site records | Yes |
 | `db/curated/variable_mappings/` | Reusable source-to-ontology mapping assertions | Yes |
+| `db/curated/classification_mappings/` | Crosswalks from verbatim source site classifications to ENVO site type, ecosystem, and land-cover terms | Yes |
 | `db/curated/overrides/` | Partial corrections/enrichment targeting existing site IDs | Yes |
 | `db/sites/sites.yaml` | Assembled SiteCollection; generated and Git-ignored | No: rebuild with `just build-db` |
 | `docs/research/` | Evidence, source links, and unresolved research questions | Yes |
@@ -77,7 +79,40 @@ source renames require review of IDs and corresponding overrides.
 Structural normalization happens in `deims_to_site()` and `neon_to_site()` in
 `src/site_kb/scripts/fetch_*.py`. DEIMS now supports WKT point coordinates and
 imports `attributes.focusDesignScale.observedProperties` from its full JSON.
-NEON measured-variable ingestion is still pending.
+
+### NEON data products
+
+`just fetch-neon` archives the complete NEON `/sites` and `/products` API responses
+in `db/raw/neon/` and imports one variable declaration per data product that the
+NEON API lists for a site, with its product code (`data_product` and `source_id`),
+verbatim title, processing level, calendar years with at least one available month,
+and the releases (e.g. `RELEASE-2026`, `PROVISIONAL`) that contain those months.
+Use `just fetch-neon --offline` to regenerate imported records from the archive.
+
+A NEON data product often bundles several measured, derived, and quality-control
+fields, so declarations are `UNSPECIFIED` and no primary term is assigned. Reviewed
+crosswalks in `db/curated/variable_mappings/neon_bervo.yaml` attach BERVO mappings
+by product code, mostly as NARROW (the target is one property within the product)
+or BROAD; 74 of 156 products have no defensible BERVO target. Products
+whose description names the Airborne Observation Platform (AOP) are remote-sensing
+surveys over the site, not in-situ measurements. Product availability is not evidence of continuous collection. NEON,
+DEIMS, and AmeriFlux records for the same physical site keep separate IDs. See
+`docs/research/neon-ingestion.md`.
+
+### Site classifications and ENVO terms
+
+The importer also archives NEON's field site metadata export (its dated link is
+discovered from the explore-field-sites page) and keeps `site_type`,
+`site_subtype`, and each `dominant_nlcd_classes` value verbatim as
+`source_classifications`. The build applies `db/curated/classification_mappings/`
+by exact `(source, scheme, value)`: each assertion names a target slot (`SITE_TYPE`,
+`ECOSYSTEM`, or `LAND_COVER`), relation, origin, and evidence, and adds a site
+evidence entry pointing at the populated field. Crosswalks run before overrides,
+so an override list replaces their output; an existing `site_type` is never
+replaced. NLCD classes map to ENVO land-cover zones using ENVO's own `NLCD` xrefs.
+Terrestrial sites get `terrestrial ecosystem`. Aquatic subtypes give a water-body
+`site_type` and a freshwater ecosystem or biome. Land cover is not an ecosystem
+claim, and at aquatic sites it may describe the surrounding landscape.
 
 ### AmeriFlux site metadata and BIF staging
 
@@ -315,8 +350,8 @@ study context and dataset availability on site pages.
 The curated wastewater records and MIxS profiles use shared definitions. Existing
 DEIMS imports retain their source-shaped embedded declarations and provenance;
 they are not automatically collapsed by similar labels. Reviewed source-ID
-crosswalks continue to apply to these imports. NEON variable coverage remains a
-separate ingestion gap. No BERVO equivalences were inferred during this change.
+crosswalks continue to apply to these imports. NEON data products carry reviewed
+product-level BERVO crosswalks. No BERVO equivalences were inferred during this change.
 
 `Site.datasets` records assay, accession, source evidence and availability
 (`PUBLIC`, `ON_REQUEST`, `UNRESOLVED`). Targeted ARG/16S panels, shotgun metagenomes
