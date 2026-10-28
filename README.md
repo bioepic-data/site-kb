@@ -387,6 +387,14 @@ State coordinate conversions and spatial scope explicitly; record
 coordinates without this evidence remain visible with their provenance gap
 marked; the new evidence model does not retroactively verify those coordinates.
 
+## Danish activated-sludge plants (Lücking et al. 2026)
+
+`db/curated/sites/wwtp_denmark_nucleocytovirus.yaml` adds 22 Danish wastewater
+treatment plants from the 23-plant metagenome set reanalysed for giant viruses,
+virophages and polinton-like viruses. The existing Aalborg West record carries
+the 23rd plant's datasets. Coordinates come from the public PRJNA629478
+BioSamples. See [the research note](docs/research/denmark-nucleocytovirus.md).
+
 ## Reference validation
 
 `just validate-references` rebuilds the collection and runs

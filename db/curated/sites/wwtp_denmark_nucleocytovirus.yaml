@@ -1,0 +1,1806 @@
+sites:
+- id: site_kb:wwtp-aalborg-east
+  name: Aalborg East wastewater treatment plant
+  aliases:
+  - AalE
+  - Aalborg E
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 57.045161
+    longitude: 10.045761
+  description: Danish activated-sludge wastewater treatment plant (study code AalE) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825666
+    source_label: ENA/NCBI BioSample SAMN14825666 (AalE_18-Q3-R2-46)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Aalborg E''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code AalE carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825666
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix AalE belong to this
+      plant. Nanopore run SRR11673988 (BioSample SAMN14825666, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825664 (2016-08-30), SAMN14825665 (2017-08-30), SAMN14825666 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (AalE_18-Q3-R2-46). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-avedore
+  name: Avedøre wastewater treatment plant
+  aliases:
+  - Aved
+  - Avedore
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.608613
+    longitude: 12.450537
+  description: Danish activated-sludge wastewater treatment plant (study code Aved) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825672
+    source_label: ENA/NCBI BioSample SAMN14825672 (Aved_18-Q3-R54-62)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Avedore''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Aved carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825672
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Aved belong to this
+      plant. Nanopore run SRR11673985 (BioSample SAMN14825672, collected 2018-08-30). Illumina
+      BioSamples: SAMN14825670 (2016-09-05), SAMN14825671 (2017-09-06), SAMN14825672 (2018-08-30).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Aved_18-Q3-R54-62). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-bjergmarken
+  name: Bjergmarken wastewater treatment plant
+  aliases:
+  - Bjer
+  - Bjergmarken
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.649286
+    longitude: 12.058568
+  description: Danish activated-sludge wastewater treatment plant (study code Bjer) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825675
+    source_label: ENA/NCBI BioSample SAMN14825675 (Bjer_18-Q3-R1-45)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Bjergmarken''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Bjer carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825675
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Bjer belong to this
+      plant. Nanopore run SRR11673984 (BioSample SAMN14825675, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825673 (2016-08-29), SAMN14825674 (2017-08-29), SAMN14825675 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Bjer_18-Q3-R1-45). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-damhusaen
+  name: Damhusåen wastewater treatment plant
+  aliases:
+  - Damh
+  - Damhusaen
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.640546
+    longitude: 12.505848
+  description: Danish activated-sludge wastewater treatment plant (study code Damh) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825678
+    source_label: ENA/NCBI BioSample SAMN14825678 (Damh_18-Q3-R51-60)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Damhusaen''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Damh carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825678
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Damh belong to this
+      plant. Nanopore run SRR11673983 (BioSample SAMN14825678, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825676 (2016-09-06), SAMN14825677 (2017-09-06), SAMN14825678 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Damh_18-Q3-R51-60). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-ega
+  name: Egå wastewater treatment plant
+  aliases:
+  - Ega
+  - Ega
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 56.21314
+    longitude: 10.242467
+  description: Danish activated-sludge wastewater treatment plant (study code Ega) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825681
+    source_label: ENA/NCBI BioSample SAMN14825681 (Ega_18-Q3-R5-49)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Ega''. The display name restores Danish characters
+      / translates the compass suffix; the verbatim form is kept as an alias. All 4 PRJNA629478
+      runs for code Ega carry the same lat_lon. No datum is given, and the point is the submitter''s
+      plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825681
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Ega belong to this
+      plant. Nanopore run SRR11673982 (BioSample SAMN14825681, collected 2018-08-28). Illumina
+      BioSamples: SAMN14825679 (2016-09-07), SAMN14825680 (2017-08-28), SAMN14825681 (2018-08-28).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Ega_18-Q3-R5-49). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-ejby-molle
+  name: Ejby Mølle wastewater treatment plant
+  aliases:
+  - Ejby
+  - Ejby Molle
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.399534
+    longitude: 10.414787
+  description: Danish activated-sludge wastewater treatment plant (study code Ejby) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825684
+    source_label: ENA/NCBI BioSample SAMN14825684 (Ejby_18-Q3-R6-50)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Ejby Molle''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Ejby carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825684
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Ejby belong to this
+      plant. Nanopore run SRR11673981 (BioSample SAMN14825684, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825682 (2016-08-30), SAMN14825683 (2017-09-12), SAMN14825684 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Ejby_18-Q3-R6-50). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-esbjerg-east
+  name: Esbjerg East wastewater treatment plant
+  aliases:
+  - EsbE
+  - Esbjerg E
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.458597
+    longitude: 8.489092
+  description: Danish activated-sludge wastewater treatment plant (study code EsbE) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825687
+    source_label: ENA/NCBI BioSample SAMN14825687 (EsbE_18-Q3-R3-47)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Esbjerg E''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code EsbE carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825687
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix EsbE belong to this
+      plant. Nanopore run SRR11673980 (BioSample SAMN14825687, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825685 (2016-08-29), SAMN14825686 (2017-08-29), SAMN14825687 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (EsbE_18-Q3-R3-47). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-esbjerg-west
+  name: Esbjerg West wastewater treatment plant
+  aliases:
+  - EsbW
+  - Esbjerg W
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.488097
+    longitude: 8.430505
+  description: Danish activated-sludge wastewater treatment plant (study code EsbW) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825690
+    source_label: ENA/NCBI BioSample SAMN14825690 (EsbW_18-Q3-R4-48)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Esbjerg W''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code EsbW carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825690
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix EsbW belong to this
+      plant. Nanopore run SRR11673979 (BioSample SAMN14825690, collected 2018-09-07). Illumina
+      BioSamples: SAMN14825688 (2016-08-30), SAMN14825689 (2017-08-29), SAMN14825690 (2018-09-07).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (EsbW_18-Q3-R4-48). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-fredericia
+  name: Fredericia wastewater treatment plant
+  aliases:
+  - Fred
+  - Fredericia
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.552368
+    longitude: 9.720404
+  description: Danish activated-sludge wastewater treatment plant (study code Fred) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825693
+    source_label: ENA/NCBI BioSample SAMN14825693 (Fred_18-Q3-R57-64)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Fredericia''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Fred carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825693
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Fred belong to this
+      plant. Nanopore run SRR11673978 (BioSample SAMN14825693, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825691 (2016-08-29), SAMN14825692 (2017-08-29), SAMN14825693 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Fred_18-Q3-R57-64). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-haderslev
+  name: Haderslev wastewater treatment plant
+  aliases:
+  - Hade
+  - Haderslev
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.249786
+    longitude: 9.508609
+  description: Danish activated-sludge wastewater treatment plant (study code Hade) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825696
+    source_label: ENA/NCBI BioSample SAMN14825696 (Hade_18-Q3-R52-61)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Haderslev''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Hade carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825696
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Hade belong to this
+      plant. Nanopore run SRR11673977 (BioSample SAMN14825696, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825694 (2016-09-05), SAMN14825695 (2017-09-06), SAMN14825696 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Hade_18-Q3-R52-61). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-hirtshals
+  name: Hirtshals wastewater treatment plant
+  aliases:
+  - Hirt
+  - Hirtshals
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 57.577275
+    longitude: 9.992971
+  description: Danish activated-sludge wastewater treatment plant (study code Hirt) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825699
+    source_label: ENA/NCBI BioSample SAMN14825699 (Hirt_18-Q3-R61-65)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Hirtshals''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Hirt carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825699
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Hirt belong to this
+      plant. Nanopore run SRR11673975 (BioSample SAMN14825699, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825697 (2016-09-06), SAMN14825698 (2017-09-18), SAMN14825699 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Hirt_18-Q3-R61-65). Nucleocytoviruses
+      detected, but no virophages or polinton-like viruses (Results). Per-plant contig counts
+      are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-hjorring
+  name: Hjørring wastewater treatment plant
+  aliases:
+  - Hjor
+  - Hjorring
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 57.421265
+    longitude: 9.975411
+  description: Danish activated-sludge wastewater treatment plant (study code Hjor) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825702
+    source_label: ENA/NCBI BioSample SAMN14825702 (Hjor_18-Q3-R7-51)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Hjorring''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Hjor carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825702
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Hjor belong to this
+      plant. Nanopore run SRR11673974 (BioSample SAMN14825702, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825700 (2016-09-05), SAMN14825701 (2017-09-04), SAMN14825702 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Hjor_18-Q3-R7-51). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-kalundborg
+  name: Kalundborg wastewater treatment plant
+  aliases:
+  - Kalu
+  - Kalundborg
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.668006
+    longitude: 11.107247
+  description: Danish activated-sludge wastewater treatment plant (study code Kalu) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825705
+    source_label: ENA/NCBI BioSample SAMN14825705 (Kalu_18-Q3-R12-55)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Kalundborg''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Kalu carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825705
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Kalu belong to this
+      plant. Nanopore run SRR11673973 (BioSample SAMN14825705, collected 2018-09-03). Illumina
+      BioSamples: SAMN14825703 (2016-08-30), SAMN14825704 (2017-08-29), SAMN14825705 (2018-09-03).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Kalu_18-Q3-R12-55). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-lynetten
+  name: Lynetten wastewater treatment plant
+  aliases:
+  - Lyne
+  - Lynetten
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.695362
+    longitude: 12.612702
+  description: Danish activated-sludge wastewater treatment plant (study code Lyne) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825708
+    source_label: ENA/NCBI BioSample SAMN14825708 (Lyne_18-Q3-R50-59)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Lynetten''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Lyne carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825708
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Lyne belong to this
+      plant. Nanopore run SRR11673972 (BioSample SAMN14825708, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825706 (2016-08-20), SAMN14825707 (2017-08-20), SAMN14825708 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Lyne_18-Q3-R50-59). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-mariagerfjord
+  name: Mariagerfjord wastewater treatment plant
+  aliases:
+  - Mari
+  - Mariagerfjord
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 56.742252
+    longitude: 10.114475
+  description: Danish activated-sludge wastewater treatment plant (study code Mari) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825711
+    source_label: ENA/NCBI BioSample SAMN14825711 (Mari_18-Q3-R65-66)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Mariagerfjord''. The display name restores
+      Danish characters / translates the compass suffix; the verbatim form is kept as an alias.
+      All 4 PRJNA629478 runs for code Mari carry the same lat_lon. No datum is given, and
+      the point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825711
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Mari belong to this
+      plant. Nanopore run SRR11673971 (BioSample SAMN14825711, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825709 (2016-09-05), SAMN14825710 (2017-09-06), SAMN14825711 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Mari_18-Q3-R65-66). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-odense-northeast
+  name: Odense Northeast wastewater treatment plant
+  aliases:
+  - OdNE
+  - Odense NE
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.432604
+    longitude: 10.458855
+  description: Danish activated-sludge wastewater treatment plant (study code OdNE) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825714
+    source_label: ENA/NCBI BioSample SAMN14825714 (OdNE_18-Q3-R46-58)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Odense NE''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code OdNE carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825714
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix OdNE belong to this
+      plant. Nanopore run SRR11673970 (BioSample SAMN14825714, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825712 (2016-08-30), SAMN14825713 (2017-09-12), SAMN14825714 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (OdNE_18-Q3-R46-58). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-odense-northwest
+  name: Odense Northwest wastewater treatment plant
+  aliases:
+  - OdNW
+  - Odense NW
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.421534
+    longitude: 10.366234
+  description: Danish activated-sludge wastewater treatment plant (study code OdNW) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825717
+    source_label: ENA/NCBI BioSample SAMN14825717 (OdNW_18-Q3-R42-56)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Odense NW''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code OdNW carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825717
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix OdNW belong to this
+      plant. Nanopore run SRR11673969 (BioSample SAMN14825717, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825715 (2016-09-05), SAMN14825716 (2017-09-12), SAMN14825717 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (OdNW_18-Q3-R42-56). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-randers
+  name: Randers wastewater treatment plant
+  aliases:
+  - Rand
+  - Randers
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 56.453767
+    longitude: 10.070249
+  description: Danish activated-sludge wastewater treatment plant (study code Rand) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825720
+    source_label: ENA/NCBI BioSample SAMN14825720 (Rand_18-Q3-R56-63)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Randers''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Rand carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825720
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Rand belong to this
+      plant. Nanopore run SRR11673968 (BioSample SAMN14825720, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825718 (2016-09-06), SAMN14825719 (2017-09-05), SAMN14825720 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Rand_18-Q3-R56-63). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-ribe
+  name: Ribe wastewater treatment plant
+  aliases:
+  - Ribe
+  - Ribe
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 55.329053
+    longitude: 8.74336
+  description: Danish activated-sludge wastewater treatment plant (study code Ribe) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825723
+    source_label: ENA/NCBI BioSample SAMN14825723 (Ribe_18-Q3-R11-54)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Ribe''. The display name restores Danish characters
+      / translates the compass suffix; the verbatim form is kept as an alias. All 4 PRJNA629478
+      runs for code Ribe carry the same lat_lon. No datum is given, and the point is the submitter''s
+      plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825723
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Ribe belong to this
+      plant. Nanopore run SRR11673967 (BioSample SAMN14825723, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825721 (2016-08-30), SAMN14825722 (2017-08-29), SAMN14825723 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Ribe_18-Q3-R11-54). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-skive
+  name: Skive wastewater treatment plant
+  aliases:
+  - Skiv
+  - Skive
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 56.565132
+    longitude: 9.042158
+  description: Danish activated-sludge wastewater treatment plant (study code Skiv) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825726
+    source_label: ENA/NCBI BioSample SAMN14825726 (Skiv_18-Q3-R9-52)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Skive''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Skiv carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825726
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Skiv belong to this
+      plant. Nanopore run SRR11673966 (BioSample SAMN14825726, collected 2018-09-07). Illumina
+      BioSamples: SAMN14825724 (2016-09-05), SAMN14825725 (2017-08-30), SAMN14825726 (2018-09-07).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Skiv_18-Q3-R9-52). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-viborg
+  name: Viborg wastewater treatment plant
+  aliases:
+  - Vibo
+  - Viborg
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 56.425251
+    longitude: 9.455198
+  description: Danish activated-sludge wastewater treatment plant (study code Vibo) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825729
+    source_label: ENA/NCBI BioSample SAMN14825729 (Vibo_18-Q3-R45-57)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Viborg''. The display name restores Danish
+      characters / translates the compass suffix; the verbatim form is kept as an alias. All
+      4 PRJNA629478 runs for code Vibo carry the same lat_lon. No datum is given, and the
+      point is the submitter''s plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825729
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Vibo belong to this
+      plant. Nanopore run SRR11673964 (BioSample SAMN14825729, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825727 (2016-08-30), SAMN14825728 (2017-09-05), SAMN14825729 (2018-08-29).
+      The 2016 and 2017 Illumina samples supplied differential coverage for binning. The August–September
+      2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Vibo_18-Q3-R45-57). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
+- id: site_kb:wwtp-viby
+  name: Viby wastewater treatment plant
+  aliases:
+  - Viby
+  - Viby
+  site_type:
+    id: ENVO:00002043
+    label: wastewater treatment plant
+  location:
+    country: Denmark
+    latitude: 56.126497
+    longitude: 10.141274
+  description: Danish activated-sludge wastewater treatment plant (study code Viby) in the
+    23-plant long-read metagenome set of Singleton et al. 2021, reanalysed for giant viruses,
+    virophages and polinton-like viruses by Lücking et al. 2026.
+  evidence:
+  - supports:
+    - /name
+    - /aliases
+    - /location/country
+    - /location/latitude
+    - /location/longitude
+    source_url: https://www.ebi.ac.uk/ena/browser/view/SAMN14825732
+    source_label: ENA/NCBI BioSample SAMN14825732 (Viby_18-Q3-R106-67)
+    locator: geo_loc_name and lat_lon attributes
+    accessed_on: '2026-10-24'
+    notes: 'Verbatim geo_loc_name is ''Denmark: Viby''. The display name restores Danish characters
+      / translates the compass suffix; the verbatim form is kept as an alias. All 4 PRJNA629478
+      runs for code Viby carry the same lat_lon. No datum is given, and the point is the submitter''s
+      plant location, not a surveyed sampling point.'
+  - supports:
+    - /description
+    - /site_type
+    source_url: https://doi.org/10.1038/s41467-021-22203-2
+    source_label: Singleton et al. (2021), Nature Communications
+    locator: Methods, Sample processing and DNA extractions
+    accessed_on: '2026-10-24'
+    notes: Fresh activated-sludge samples were received from 23 Danish WWTPs in August and
+      September 2018.
+  datasets:
+  - title: Danish activated-sludge Illumina and Nanopore metagenomes (Singleton et al. 2021)
+    url: https://www.ebi.ac.uk/ena/browser/view/PRJNA629478
+    accession: PRJNA629478
+    assay: Shotgun metagenomics (Illumina HiSeq and Oxford Nanopore PromethION)
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1038/s41467-021-22203-2
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://www.ebi.ac.uk/ena/browser/view/SAMN14825732
+    notes: 'Shared 23-plant project; only runs with sample_alias prefix Viby belong to this
+      plant. Nanopore run SRR11673963 (BioSample SAMN14825732, collected 2018-08-29). Illumina
+      BioSamples: SAMN14825730 (2018-02-28), SAMN14825731 (2018-05-12), SAMN14825732 (2018-08-29).
+      Viby joined MiDAS in 2018; its February and May 2018 Illumina samples supplied differential
+      coverage. The August–September 2018 sample is the one with long-read sequencing.'
+  - title: Lücking et al. 2026 nucleocytovirus, virophage and PLV genomes and network data
+    url: https://doi.org/10.5281/zenodo.17735769
+    accession: 10.5281/zenodo.17735769
+    assay: Viral genomes, annotations and co-occurrence network derived from metagenomes
+    availability: PUBLIC
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    - https://doi.org/10.5281/zenodo.17735769
+    notes: Study-wide derived data for all 23 plants; not specific to this plant. ENA project
+      PRJEB105214 is registered for the genomes but returned no public analyses or samples
+      on 2026-10-24.
+  variables:
+  - variable_id: site_kb:variable-giant-virus-contig-recovery
+    evidence:
+    - https://doi.org/10.1093/ismejo/wrag267
+    - https://doi.org/10.64898/2026.05.21.726523
+    method: Mining of the Singleton et al. long-read/hybrid assemblies; bowtie2 short-read
+      mapping and samtools per-contig coverage
+    sample_context: One activated-sludge metagenome per plant (Viby_18-Q3-R106-67). Per-plant
+      contig counts are in Fig. 2d; not transcribed here.
+    sampling_period: August–September 2018 (Singleton et al. 2021)
+  notes: Curated 2026-10-24 from Lücking et al. 2026 (https://doi.org/10.1093/ismejo/wrag267;
+    preprint https://doi.org/10.64898/2026.05.21.726523) and the archived ENA inventory in
+    db/raw/research/denmark_nucleocytovirus_ena.json. The paper names only Hirt and AalW in
+    its text; the 23-plant identity comes from its stated source, Singleton et al. 2021, and
+    PRJNA629478. Plant-level viral genome counts were not transcribed. A study association,
+    not a claim of current monitoring.
