@@ -87,6 +87,20 @@ def _parse_coordinates(value: object) -> tuple[float | None, float | None]:
     return None, None
 
 
+def bounding_box(value: object) -> dict | None:
+    """West/south/east/north of a WKT (multi)polygon; antimeridian crossings are rejected."""
+    if not isinstance(value, str) or not re.match(r"\s*(MULTI)?POLYGON\b", value, re.IGNORECASE):
+        return None
+    pairs = re.findall(r"(-?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)\s+(-?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)", value)
+    points = [(float(x), float(y)) for x, y in pairs]
+    if not points or any(not (-180 <= x <= 180 and -90 <= y <= 90) for x, y in points):
+        raise ValueError("DEIMS boundary has no valid longitude/latitude pairs")
+    west, east = min(x for x, _ in points), max(x for x, _ in points)
+    if east - west > 180:
+        raise ValueError("DEIMS boundary appears to cross the antimeridian")
+    return {"west": west, "south": min(y for _, y in points), "east": east, "north": max(y for _, y in points)}
+
+
 def _as_dict(value: object) -> dict:
     return value if isinstance(value, dict) else {}
 
@@ -133,6 +147,9 @@ def deims_to_site(summary: dict, detail: dict, retrieved_at: str | None = None) 
     elevation = _elevation_from_geographic(geo)
     if location and elevation is not None:
         location["elevation_meters"] = elevation
+    box = bounding_box(geo.get("boundaries"))
+    if location and box:
+        location["bounding_box"] = box
 
     site = {
         "id": f"site_kb:deims-{sanitize_filename(title)}",
@@ -208,6 +225,25 @@ def deims_to_site(summary: dict, detail: dict, retrieved_at: str | None = None) 
     return site
 
 
+def replay(output_dir: Path, raw_dir: Path) -> int:
+    """Rebuild each existing record from its archived detail, keeping IDs and filenames."""
+    count = 0
+    for path in sorted(output_dir.glob("*.yaml")):
+        record = yaml.safe_load(path.read_text())["sites"][0]
+        identifier = next(r for r in record["network_registrations"] if r["network"] == "DEIMS")["network_id"]
+        raw_path = raw_dir / f"{sanitize_filename(identifier)}.json"
+        if not raw_path.exists():
+            raise ValueError(f"No archived DEIMS record for {identifier}")
+        snapshot = json.loads(raw_path.read_text())
+        detail_data = snapshot["record"]
+        summary = {"id": identifier, "title": detail_data.get("title") or record["name"]}
+        site = deims_to_site(summary, detail_data, snapshot["retrieved_at"])
+        site["id"] = record["id"]
+        path.write_text(yaml.dump({"sites": [site]}, default_flow_style=False, allow_unicode=True, sort_keys=False))
+        count += 1
+    return count
+
+
 @app.command()
 def main(
     limit: int = typer.Option(0, help="Limit number of sites to fetch (0 = all)"),
@@ -217,9 +253,14 @@ def main(
     summary_only: bool = typer.Option(False, help="Print summary statistics only"),
     refresh_existing: bool = typer.Option(False, help="Refresh only records already in output-dir, preserving local IDs and filenames"),
     raw_dir: Path = typer.Option(RAW_DIR, help="Store full source JSON and retrieval provenance here"),
+    offline: bool = typer.Option(False, help="Regenerate existing records from archived raw JSON without HTTP"),
 ):
     """Fetch sites from DEIMS-SDR API."""
     output_dir.mkdir(parents=True, exist_ok=True)
+    if offline:
+        count = replay(output_dir, raw_dir)
+        typer.echo(f"Regenerated {count} site files from {raw_dir}")
+        return
 
     existing = {}
     if refresh_existing:

@@ -32,14 +32,22 @@ def check_links(output):
             if not parsed.scheme and parsed.path:
                 assert not parsed.path.startswith('/'), (page, url)
                 assert (page.parent / unquote(parsed.path)).exists(), (page, url)
+        if 'http-equiv="refresh"' in page.read_text():
+            continue  # Redirects from merged member record IDs carry no page script.
         assert parser.scripts == [('../' if page.parent.name == 'sites' else '') + 'assets/app.js']
 
 
 def test_full_catalog_has_working_relative_links(tmp_path):
     output = tmp_path / 'site'
     count = render(output)
-    assert count == len(list(output.joinpath('sites').glob('*.html')))
+    pages = list(output.joinpath('sites').glob('*.html'))
+    redirects = [p for p in pages if 'http-equiv="refresh"' in p.read_text()]
+    assert redirects and count == len(pages) - len(redirects)
     check_links(output)
+    harvard = (output / 'sites' / (slug('site_kb:harvard-forest-quabbin-watershed-neon') + '.html')).read_text()
+    assert 'Source records' in harvard and 'Has part' in harvard and 'Within bounding box' in harvard
+    moved = (output / 'sites' / (slug('site_kb:neon-harv') + '.html')).read_text()
+    assert slug('site_kb:harvard-forest-quabbin-watershed-neon') in moved
     before = (output / 'index.html').read_bytes()
     render(output)
     assert (output / 'index.html').read_bytes() == before

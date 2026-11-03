@@ -1,6 +1,8 @@
 """Tests for DEIMS API mapping helpers."""
 
-from site_kb.scripts.fetch_deims import deims_to_site
+import pytest
+
+from site_kb.scripts.fetch_deims import bounding_box, deims_to_site
 
 
 def test_deims_list_country_without_coordinates_does_not_emit_location():
@@ -161,3 +163,11 @@ def test_http_200_api_error_payload_is_rejected(monkeypatch):
         fetch_deims.fetch_site_detail('abc')
     with pytest.raises(ValueError):
         fetch_deims.fetch_site_list()
+
+
+def test_boundary_polygons_give_bounding_boxes():
+    assert bounding_box("MULTIPOLYGON (((-72.19 42.53, -72.16 42.55, -72.17 42.52, -72.19 42.53)))") == {
+        "west": -72.19, "south": 42.52, "east": -72.16, "north": 42.55}
+    assert bounding_box("POINT (-72.1 42.5)") is None and bounding_box(None) is None
+    with pytest.raises(ValueError, match="antimeridian"):
+        bounding_box("POLYGON ((179 0, -179 0, -179 1, 179 0))")

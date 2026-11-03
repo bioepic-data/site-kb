@@ -54,6 +54,13 @@ classes:
         range: Site
         multivalued: true
         inlined_as_list: true
+      source_records:
+        description: >-
+          Complete source records of curated multi-member sites, kept as
+          sub-records so nothing is lost when members are merged.
+        range: Site
+        multivalued: true
+        inlined_as_list: true
 
   Site:
     description: >-
@@ -61,9 +68,23 @@ classes:
       a single real-world location that may be registered in multiple networks.
     attributes:
       id:
-        description: A unique identifier for this site within the knowledge base.
+        description: >-
+          A unique identifier for this site within the knowledge base. Curated
+          multi-member sites use readable slugs; other sites keep their record ID.
         identifier: true
         range: uriorcurie
+      members:
+        description: >-
+          Source records describing exactly this site, merged into this record.
+          Present only for curated multi-member sites.
+        range: SiteMember
+        multivalued: true
+        inlined_as_list: true
+      relations:
+        description: Spatial or organizational relations to other sites, including inferred inverses.
+        range: SiteRelation
+        multivalued: true
+        inlined_as_list: true
       name:
         description: The canonical name for this site.
         required: true
@@ -208,6 +229,34 @@ classes:
           - binds_value_of: id
             range: ExternalOntologyTerm
         inlined: true
+      bounding_box:
+        description: Extent of a source-reported boundary, used for containment checks.
+        range: BoundingBox
+        inlined: true
+
+  BoundingBox:
+    description: A longitude/latitude box in decimal degrees; antimeridian crossings are not supported.
+    attributes:
+      west:
+        range: float
+        required: true
+        minimum_value: -180
+        maximum_value: 180
+      south:
+        range: float
+        required: true
+        minimum_value: -90
+        maximum_value: 90
+      east:
+        range: float
+        required: true
+        minimum_value: -180
+        maximum_value: 180
+      north:
+        range: float
+        required: true
+        minimum_value: -90
+        maximum_value: 90
 
   NetworkRegistration:
     description: >-
@@ -330,6 +379,9 @@ classes:
         description: >-
           Typical temporal resolution of measurements (e.g., "1 minute",
           "hourly", "daily", "monthly").
+      source_record:
+        description: Member record that contributed this declaration to a merged site.
+        range: uriorcurie
       network_variable_id:
         description: >-
           Legacy single-source identifier. New ingestion uses source_variables
@@ -492,6 +544,132 @@ classes:
       attributed_to:
       asserted_on:
         range: date
+      notes:
+
+  SiteMember:
+    description: >-
+      A source record asserted to describe exactly the same site. Parts,
+      overlaps, and colocated sites are separate sites linked by relations.
+    attributes:
+      record:
+        description: ID of the imported or curated source record.
+        range: uriorcurie
+        required: true
+      name:
+        description: Name of the member record, copied at assembly.
+      origin:
+        description: SOURCE when a registry asserts the link (e.g. NEON's DEIMS ID).
+        range: MappingOriginEnum
+        required: true
+      evidence:
+        range: uri
+        multivalued: true
+        required: true
+        minimum_cardinality: 1
+      notes:
+
+  SiteRelation:
+    description: A relation from the containing site to another site.
+    attributes:
+      predicate:
+        range: SiteRelationPredicateEnum
+        required: true
+      object:
+        description: ID of the related site.
+        range: uriorcurie
+        required: true
+      object_name:
+        description: Name of the related site, copied at assembly.
+      origin:
+        range: MappingOriginEnum
+        required: true
+      evidence:
+        range: uri
+        multivalued: true
+        required: true
+        minimum_cardinality: 1
+      inferred:
+        description: True for inverses and symmetric counterparts generated from a curated assertion.
+        range: boolean
+      geo_check:
+        description: Result of the spatial consistency check for PART_OF/HAS_PART relations.
+        range: GeoCheckEnum
+      notes:
+
+  SiteHarmonizationCollection:
+    description: >-
+      Curated site identities and relations. Clusters merge source records that
+      describe the same site; relations link distinct sites.
+    attributes:
+      clusters:
+        range: SiteCluster
+        multivalued: true
+        inlined_as_list: true
+      relations:
+        range: SiteRelationAssertion
+        multivalued: true
+        inlined_as_list: true
+
+  SiteCluster:
+    description: A curated site assembled from two or more source records.
+    attributes:
+      id:
+        description: Readable slug identifier, e.g. site_kb:harvard-forest-quabbin-watershed-neon.
+        identifier: true
+        range: uriorcurie
+        pattern: '^site_kb:[a-z0-9]+(-[a-z0-9]+)*$'
+      name:
+        required: true
+      description:
+      aliases:
+        multivalued: true
+      members:
+        description: Members in precedence order; the first supplies single-valued fields by default.
+        range: SiteMember
+        multivalued: true
+        inlined_as_list: true
+        required: true
+        minimum_cardinality: 2
+      field_sources:
+        description: Per-field choice of member when the default precedence is wrong.
+        range: FieldSource
+        multivalued: true
+        inlined_as_list: true
+      geo_check_waiver:
+        description: Reason a failed member-location consistency check is accepted.
+      notes:
+
+  FieldSource:
+    attributes:
+      field:
+        description: A single-valued Site field such as description or location.
+        required: true
+      record:
+        range: uriorcurie
+        required: true
+
+  SiteRelationAssertion:
+    description: A curated relation; subject and object may be site or member record IDs.
+    attributes:
+      subject:
+        range: uriorcurie
+        required: true
+      predicate:
+        range: SiteRelationPredicateEnum
+        required: true
+      object:
+        range: uriorcurie
+        required: true
+      origin:
+        range: MappingOriginEnum
+        required: true
+      evidence:
+        range: uri
+        multivalued: true
+        required: true
+        minimum_cardinality: 1
+      geo_check_waiver:
+        description: Reason a failed containment check is accepted.
       notes:
 
   MeasurementProfileCollection:
@@ -728,6 +906,26 @@ enums:
       RELATED:
         meaning: skos:relatedMatch
         title: has related match
+
+  SiteRelationPredicateEnum:
+    permissible_values:
+      PART_OF:
+        description: The subject lies within the object, e.g. a tower within a site.
+      HAS_PART:
+        description: Inverse of PART_OF; only generated, never curated.
+      COLOCATED_WITH:
+        description: Distinct sites operated together or adjacent; symmetric.
+      OVERLAPS:
+        description: Footprints share area but are not established to be the same site; symmetric.
+
+  GeoCheckEnum:
+    permissible_values:
+      CONSISTENT:
+        description: The part's point or box lies within the whole's bounding box.
+      WAIVED:
+        description: The check failed and a curated waiver explains why.
+      UNCHECKABLE:
+        description: The whole has no bounding box or the part has no coordinates.
 
   ClassificationSlotEnum:
     description: Site slots that classification crosswalks may populate.

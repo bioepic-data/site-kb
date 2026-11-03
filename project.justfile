@@ -22,6 +22,10 @@ validate-db: build-db
     [ -f "$f" ] || continue; \
     uv run linkml-validate -s src/site_kb/schema/site_kb.yaml -C ClassificationMappingCollection "$f" || exit 1; \
   done
+  @for f in db/curated/harmonization/*.yaml; do \
+    [ -f "$f" ] || continue; \
+    uv run linkml-validate -s src/site_kb/schema/site_kb.yaml -C SiteHarmonizationCollection "$f" || exit 1; \
+  done
   @for f in db/sites/*.yaml; do \
     echo "Validating $f..."; \
     uv run linkml-validate -s src/site_kb/schema/site_kb.yaml -C SiteCollection "$f" || exit 1; \
@@ -89,6 +93,10 @@ fetch-ameriflux-variables *ARGS:
 # Stage local BADM/BIF groups for review; does not populate site measurements
 stage-ameriflux-bif *ARGS:
   uv run python -m site_kb.scripts.parse_ameriflux_bif {{ARGS}}
+
+# Write source-asserted site clusters and relations not yet curated, for review
+propose-site-links *ARGS:
+  uv run python -m site_kb.scripts.propose_site_links {{ARGS}}
 
 # Fetch from all sources
 fetch-all:
