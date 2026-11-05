@@ -1,0 +1,1430 @@
+# NEON site identities and relations, seeded from source-asserted links with
+# `just propose-site-links` and reviewed. NEON-DEIMS members come from the DEIMS IDs
+# NEON lists; towers are parts of the NEON site; colocations come from NEON metadata.
+clusters:
+- id: site_kb:abby-road-neon
+  name: Abby Road NEON
+  members:
+  - record: site_kb:neon-abby
+    origin: SOURCE
+    evidence: &id001
+    - https://data.neonscience.org/api/v0/sites/ABBY
+  - record: site_kb:deims-abby_road_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id001
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:arikaree-river-neon
+  name: Arikaree River NEON
+  members:
+  - record: site_kb:neon-arik
+    origin: SOURCE
+    evidence: &id002
+    - https://data.neonscience.org/api/v0/sites/ARIK
+  - record: site_kb:deims-arikaree_river_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id002
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:lake-barco-neon
+  name: Lake Barco NEON
+  members:
+  - record: site_kb:neon-barc
+    origin: SOURCE
+    evidence: &id003
+    - https://data.neonscience.org/api/v0/sites/BARC
+  - record: site_kb:deims-lake_barco_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id003
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:utqiagvik-neon
+  name: Utqiaġvik NEON
+  members:
+  - record: site_kb:neon-barr
+    origin: SOURCE
+    evidence: &id004
+    - https://data.neonscience.org/api/v0/sites/BARR
+  - record: site_kb:deims-utqiaġvik_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id004
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:bartlett-experimental-forest-neon
+  name: Bartlett Experimental Forest NEON
+  members:
+  - record: site_kb:neon-bart
+    origin: SOURCE
+    evidence: &id005
+    - https://data.neonscience.org/api/v0/sites/BART
+  - record: site_kb:deims-bartlett_experimental_forest_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id005
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:upper-big-creek-neon
+  name: Upper Big Creek NEON
+  members:
+  - record: site_kb:neon-bigc
+    origin: SOURCE
+    evidence: &id006
+    - https://data.neonscience.org/api/v0/sites/BIGC
+  - record: site_kb:deims-upper_big_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id006
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:blandy-experimental-farm-neon
+  name: Blandy Experimental Farm NEON
+  members:
+  - record: site_kb:neon-blan
+    origin: SOURCE
+    evidence: &id007
+    - https://data.neonscience.org/api/v0/sites/BLAN
+  - record: site_kb:deims-blandy_experimental_farm_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id007
+    notes: NEON lists this DEIMS ID for the site.
+  geo_check_waiver: The DEIMS point lies about 8 km from NEON coordinates and its boundary excluded them;
+    NEON coordinates are used and the DEIMS boundary is removed by override.
+- id: site_kb:blacktail-deer-creek-neon
+  name: Blacktail Deer Creek NEON
+  members:
+  - record: site_kb:neon-blde
+    origin: SOURCE
+    evidence: &id008
+    - https://data.neonscience.org/api/v0/sites/BLDE
+  - record: site_kb:deims-blacktail_deer_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id008
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:blue-river-neon
+  name: Blue River NEON
+  members:
+  - record: site_kb:neon-blue
+    origin: SOURCE
+    evidence: &id009
+    - https://data.neonscience.org/api/v0/sites/BLUE
+  - record: site_kb:deims-blue_river_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id009
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:black-warrior-river-neon
+  name: Black Warrior River NEON
+  members:
+  - record: site_kb:neon-blwa
+    origin: SOURCE
+    evidence: &id010
+    - https://data.neonscience.org/api/v0/sites/BLWA
+  - record: site_kb:deims-black_warrior_river_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id010
+    notes: NEON lists this DEIMS ID for the site.
+  geo_check_waiver: The DEIMS point matches NEON TOMB (Lower Tombigbee) coordinates, about 80 km away,
+    so it appears to be a copy error; NEON coordinates are used.
+- id: site_kb:caribou-poker-creeks-research-watershed-neon
+  name: Caribou-Poker Creeks Research Watershed NEON
+  members:
+  - record: site_kb:neon-bona
+    origin: SOURCE
+    evidence: &id011
+    - https://data.neonscience.org/api/v0/sites/BONA
+  - record: site_kb:deims-caribou-poker_creeks_research_watershed_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id011
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:caribou-creek-neon
+  name: Caribou Creek NEON
+  members:
+  - record: site_kb:neon-cari
+    origin: SOURCE
+    evidence: &id012
+    - https://data.neonscience.org/api/v0/sites/CARI
+  - record: site_kb:deims-caribou_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id012
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:lyndon-b-johnson-national-grassland-neon
+  name: Lyndon B. Johnson National Grassland NEON
+  members:
+  - record: site_kb:neon-clbj
+    origin: SOURCE
+    evidence: &id013
+    - https://data.neonscience.org/api/v0/sites/CLBJ
+  - record: site_kb:deims-lyndon_b_johnson_national_grassland_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id013
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:como-creek-neon
+  name: Como Creek NEON
+  members:
+  - record: site_kb:neon-como
+    origin: SOURCE
+    evidence: &id014
+    - https://data.neonscience.org/api/v0/sites/COMO
+  - record: site_kb:deims-como_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id014
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:central-plains-experimental-range-neon
+  name: Central Plains Experimental Range NEON
+  members:
+  - record: site_kb:neon-cper
+    origin: SOURCE
+    evidence: &id015
+    - https://data.neonscience.org/api/v0/sites/CPER
+  - record: site_kb:deims-central_plains_experimental_range_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id015
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:crampton-lake-neon
+  name: Crampton Lake NEON
+  members:
+  - record: site_kb:neon-cram
+    origin: SOURCE
+    evidence: &id016
+    - https://data.neonscience.org/api/v0/sites/CRAM
+  - record: site_kb:deims-crampton_lake_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id016
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:rio-cupeyes-neon
+  name: Río Cupeyes NEON
+  members:
+  - record: site_kb:neon-cupe
+    origin: SOURCE
+    evidence: &id017
+    - https://data.neonscience.org/api/v0/sites/CUPE
+  - record: site_kb:deims-rio_cupeyes_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id017
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:dakota-coteau-field-site-neon
+  name: Dakota Coteau Field Site NEON
+  members:
+  - record: site_kb:neon-dcfs
+    origin: SOURCE
+    evidence: &id018
+    - https://data.neonscience.org/api/v0/sites/DCFS
+  - record: site_kb:deims-dakota_coteau_field_site_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id018
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:delta-junction-neon
+  name: Delta Junction NEON
+  members:
+  - record: site_kb:neon-deju
+    origin: SOURCE
+    evidence: &id019
+    - https://data.neonscience.org/api/v0/sites/DEJU
+  - record: site_kb:deims-delta_junction_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id019
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:dead-lake-neon
+  name: Dead Lake NEON
+  members:
+  - record: site_kb:neon-dela
+    origin: SOURCE
+    evidence: &id020
+    - https://data.neonscience.org/api/v0/sites/DELA
+  - record: site_kb:deims-dead_lake_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id020
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:disney-wilderness-preserve-neon
+  name: Disney Wilderness Preserve NEON
+  members:
+  - record: site_kb:neon-dsny
+    origin: SOURCE
+    evidence: &id021
+    - https://data.neonscience.org/api/v0/sites/DSNY
+  - record: site_kb:deims-disney_wilderness_preserve_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id021
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:flint-river-neon
+  name: Flint River NEON
+  members:
+  - record: site_kb:neon-flnt
+    origin: SOURCE
+    evidence: &id022
+    - https://data.neonscience.org/api/v0/sites/FLNT
+  - record: site_kb:deims-flint_river_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id022
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:great-smoky-mountains-national-park-neon
+  name: Great Smoky Mountains National Park NEON
+  members:
+  - record: site_kb:neon-grsm
+    origin: SOURCE
+    evidence: &id023
+    - https://data.neonscience.org/api/v0/sites/GRSM
+  - record: site_kb:deims-great_smoky_mountains_national_park_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id023
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:guanica-forest-neon
+  name: Guánica Forest NEON
+  members:
+  - record: site_kb:neon-guan
+    origin: SOURCE
+    evidence: &id024
+    - https://data.neonscience.org/api/v0/sites/GUAN
+  - record: site_kb:deims-guanica_forest_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id024
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:rio-yahuecas-neon
+  name: Río Yahuecas NEON
+  members:
+  - record: site_kb:neon-guil
+    origin: SOURCE
+    evidence: &id025
+    - https://data.neonscience.org/api/v0/sites/GUIL
+  - record: site_kb:deims-río_yahuecas_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id025
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:harvard-forest-quabbin-watershed-neon
+  name: Harvard Forest & Quabbin Watershed NEON
+  members:
+  - record: site_kb:neon-harv
+    origin: SOURCE
+    evidence: &id026
+    - https://data.neonscience.org/api/v0/sites/HARV
+  - record: site_kb:deims-harvard_forest__quabbin_watershed_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id026
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:healy-neon
+  name: Healy NEON
+  members:
+  - record: site_kb:neon-heal
+    origin: SOURCE
+    evidence: &id027
+    - https://data.neonscience.org/api/v0/sites/HEAL
+  - record: site_kb:deims-healy_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id027
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:lower-hop-brook-neon
+  name: Lower Hop Brook NEON
+  members:
+  - record: site_kb:neon-hopb
+    origin: SOURCE
+    evidence: &id028
+    - https://data.neonscience.org/api/v0/sites/HOPB
+  - record: site_kb:deims-lower_hop_brook_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id028
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:the-jones-center-at-ichauway-neon
+  name: The Jones Center At Ichauway NEON
+  members:
+  - record: site_kb:neon-jerc
+    origin: SOURCE
+    evidence: &id029
+    - https://data.neonscience.org/api/v0/sites/JERC
+  - record: site_kb:deims-the_jones_center_at_ichauway_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id029
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:jornada-experimental-range-neon
+  name: Jornada Experimental Range NEON
+  members:
+  - record: site_kb:neon-jorn
+    origin: SOURCE
+    evidence: &id030
+    - https://data.neonscience.org/api/v0/sites/JORN
+  - record: site_kb:deims-jornada_experimental_range_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id030
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:kings-creek-neon
+  name: Kings Creek NEON
+  members:
+  - record: site_kb:neon-king
+    origin: SOURCE
+    evidence: &id031
+    - https://data.neonscience.org/api/v0/sites/KING
+  - record: site_kb:deims-kings_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id031
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:konza-prairie-agroecosystem-neon
+  name: Konza Prairie Agroecosystem NEON
+  members:
+  - record: site_kb:neon-kona
+    origin: SOURCE
+    evidence: &id032
+    - https://data.neonscience.org/api/v0/sites/KONA
+  - record: site_kb:deims-konza_prairie_agroecosystem_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id032
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:konza-prairie-biological-station-neon
+  name: Konza Prairie Biological Station NEON
+  members:
+  - record: site_kb:neon-konz
+    origin: SOURCE
+    evidence: &id033
+    - https://data.neonscience.org/api/v0/sites/KONZ
+  - record: site_kb:deims-konza_prairie_biological_station_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id033
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:lajas-experimental-station-neon
+  name: Lajas Experimental Station NEON
+  members:
+  - record: site_kb:neon-laja
+    origin: SOURCE
+    evidence: &id034
+    - https://data.neonscience.org/api/v0/sites/LAJA
+  - record: site_kb:deims-lajas_experimental_station_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id034
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:leconte-creek-neon
+  name: LeConte Creek NEON
+  members:
+  - record: site_kb:neon-leco
+    origin: SOURCE
+    evidence: &id035
+    - https://data.neonscience.org/api/v0/sites/LECO
+  - record: site_kb:deims-leconte_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id035
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:lenoir-landing-neon
+  name: Lenoir Landing NEON
+  members:
+  - record: site_kb:neon-leno
+    origin: SOURCE
+    evidence: &id036
+    - https://data.neonscience.org/api/v0/sites/LENO
+  - record: site_kb:deims-lenoir_landing_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id036
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:lewis-run-neon
+  name: Lewis Run NEON
+  members:
+  - record: site_kb:neon-lewi
+    origin: SOURCE
+    evidence: &id037
+    - https://data.neonscience.org/api/v0/sites/LEWI
+  - record: site_kb:deims-lewis_run_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id037
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:little-rock-lake-neon
+  name: Little Rock Lake NEON
+  members:
+  - record: site_kb:neon-liro
+    origin: SOURCE
+    evidence: &id038
+    - https://data.neonscience.org/api/v0/sites/LIRO
+  - record: site_kb:deims-little_rock_lake_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id038
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:martha-creek-neon
+  name: Martha Creek NEON
+  members:
+  - record: site_kb:neon-mart
+    origin: SOURCE
+    evidence: &id039
+    - https://data.neonscience.org/api/v0/sites/MART
+  - record: site_kb:deims-martha_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id039
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:mayfield-creek-neon
+  name: Mayfield Creek NEON
+  members:
+  - record: site_kb:neon-mayf
+    origin: SOURCE
+    evidence: &id040
+    - https://data.neonscience.org/api/v0/sites/MAYF
+  - record: site_kb:deims-mayfield_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id040
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:mcdiffett-creek-neon
+  name: McDiffett Creek NEON
+  members:
+  - record: site_kb:neon-mcdi
+    origin: SOURCE
+    evidence: &id041
+    - https://data.neonscience.org/api/v0/sites/MCDI
+  - record: site_kb:deims-mcdiffett_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id041
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:mcrae-creek-neon
+  name: McRae Creek NEON
+  members:
+  - record: site_kb:neon-mcra
+    origin: SOURCE
+    evidence: &id042
+    - https://data.neonscience.org/api/v0/sites/MCRA
+  - record: site_kb:deims-mcrae_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id042
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:mountain-lake-biological-station-neon
+  name: Mountain Lake Biological Station NEON
+  members:
+  - record: site_kb:neon-mlbs
+    origin: SOURCE
+    evidence: &id043
+    - https://data.neonscience.org/api/v0/sites/MLBS
+  - record: site_kb:deims-mountain_lake_biological_station_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id043
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:moab-neon
+  name: Moab NEON
+  members:
+  - record: site_kb:neon-moab
+    origin: SOURCE
+    evidence: &id044
+    - https://data.neonscience.org/api/v0/sites/MOAB
+  - record: site_kb:deims-moab_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id044
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:niwot-ridge-neon
+  name: Niwot Ridge NEON
+  members:
+  - record: site_kb:neon-niwo
+    origin: SOURCE
+    evidence: &id045
+    - https://data.neonscience.org/api/v0/sites/NIWO
+  - record: site_kb:deims-niwot_ridge_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id045
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:northern-great-plains-research-laboratory-neon
+  name: Northern Great Plains Research Laboratory NEON
+  members:
+  - record: site_kb:neon-nogp
+    origin: SOURCE
+    evidence: &id046
+    - https://data.neonscience.org/api/v0/sites/NOGP
+  - record: site_kb:deims-northern_great_plains_research_laboratory_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id046
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:marvin-klemme-range-research-station-neon
+  name: Marvin Klemme Range Research Station NEON
+  members:
+  - record: site_kb:neon-oaes
+    origin: SOURCE
+    evidence: &id047
+    - https://data.neonscience.org/api/v0/sites/OAES
+  - record: site_kb:deims-marvin_klemme_range_research_station_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id047
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:oksrukuyik-creek-neon
+  name: Oksrukuyik Creek NEON
+  members:
+  - record: site_kb:neon-oksr
+    origin: SOURCE
+    evidence: &id048
+    - https://data.neonscience.org/api/v0/sites/OKSR
+  - record: site_kb:deims-oksrukuyik_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id048
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:onaqui-neon
+  name: Onaqui NEON
+  members:
+  - record: site_kb:neon-onaq
+    origin: SOURCE
+    evidence: &id049
+    - https://data.neonscience.org/api/v0/sites/ONAQ
+  - record: site_kb:deims-onaqui_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id049
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:oak-ridge-neon
+  name: Oak Ridge NEON
+  members:
+  - record: site_kb:neon-ornl
+    origin: SOURCE
+    evidence: &id050
+    - https://data.neonscience.org/api/v0/sites/ORNL
+  - record: site_kb:deims-oak_ridge_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id050
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:ordway-swisher-biological-station-neon
+  name: Ordway-Swisher Biological Station NEON
+  members:
+  - record: site_kb:neon-osbs
+    origin: SOURCE
+    evidence: &id051
+    - https://data.neonscience.org/api/v0/sites/OSBS
+  - record: site_kb:deims-ordway-swisher_biological_station_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id051
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:posey-creek-neon
+  name: Posey Creek NEON
+  members:
+  - record: site_kb:neon-pose
+    origin: SOURCE
+    evidence: &id052
+    - https://data.neonscience.org/api/v0/sites/POSE
+  - record: site_kb:deims-posey_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id052
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:pringle-creek-neon
+  name: Pringle Creek NEON
+  members:
+  - record: site_kb:neon-prin
+    origin: SOURCE
+    evidence: &id053
+    - https://data.neonscience.org/api/v0/sites/PRIN
+  - record: site_kb:deims-pringle_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id053
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:prairie-lake-neon
+  name: Prairie Lake NEON
+  members:
+  - record: site_kb:neon-prla
+    origin: SOURCE
+    evidence: &id054
+    - https://data.neonscience.org/api/v0/sites/PRLA
+  - record: site_kb:deims-prairie_lake_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id054
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:prairie-pothole-neon
+  name: Prairie Pothole NEON
+  members:
+  - record: site_kb:neon-prpo
+    origin: SOURCE
+    evidence: &id055
+    - https://data.neonscience.org/api/v0/sites/PRPO
+  - record: site_kb:deims-prairie_pothole_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id055
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:puu-makaala-natural-area-reserve-neon
+  name: Puu Makaala Natural Area Reserve NEON
+  members:
+  - record: site_kb:neon-puum
+    origin: SOURCE
+    evidence: &id056
+    - https://data.neonscience.org/api/v0/sites/PUUM
+  - record: site_kb:deims-puu_makaala_natural_area_reserve_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id056
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:red-butte-creek-neon
+  name: Red Butte Creek NEON
+  members:
+  - record: site_kb:neon-redb
+    origin: SOURCE
+    evidence: &id057
+    - https://data.neonscience.org/api/v0/sites/REDB
+  - record: site_kb:deims-red_butte_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id057
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:rocky-mountains-neon
+  name: Rocky Mountains NEON
+  members:
+  - record: site_kb:neon-rmnp
+    origin: SOURCE
+    evidence: &id058
+    - https://data.neonscience.org/api/v0/sites/RMNP
+  - record: site_kb:deims-rocky_mountains_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id058
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:smithsonian-conservation-biology-institute-neon
+  name: Smithsonian Conservation Biology Institute NEON
+  members:
+  - record: site_kb:neon-scbi
+    origin: SOURCE
+    evidence: &id059
+    - https://data.neonscience.org/api/v0/sites/SCBI
+  - record: site_kb:deims-smithsonian_conservation_biology_institute_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id059
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:smithsonian-environmental-research-center-neon
+  name: Smithsonian Environmental Research Center NEON
+  members:
+  - record: site_kb:neon-serc
+    origin: SOURCE
+    evidence: &id060
+    - https://data.neonscience.org/api/v0/sites/SERC
+  - record: site_kb:deims-smithsonian_environmental_research_center_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id060
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:san-joaquin-experimental-range-neon
+  name: San Joaquin Experimental Range NEON
+  members:
+  - record: site_kb:neon-sjer
+    origin: SOURCE
+    evidence: &id061
+    - https://data.neonscience.org/api/v0/sites/SJER
+  - record: site_kb:deims-san_joaquin_experimental_range_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id061
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:soaproot-saddle-neon
+  name: Soaproot Saddle NEON
+  members:
+  - record: site_kb:neon-soap
+    origin: SOURCE
+    evidence: &id062
+    - https://data.neonscience.org/api/v0/sites/SOAP
+  - record: site_kb:deims-soaproot_saddle_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id062
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:santa-rita-experimental-range-neon
+  name: Santa Rita Experimental Range NEON
+  members:
+  - record: site_kb:neon-srer
+    origin: SOURCE
+    evidence: &id063
+    - https://data.neonscience.org/api/v0/sites/SRER
+  - record: site_kb:deims-santa_rita_experimental_range_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id063
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:steigerwaldt-chequamegon-neon
+  name: Steigerwaldt-Chequamegon NEON
+  members:
+  - record: site_kb:neon-stei
+    origin: SOURCE
+    evidence: &id064
+    - https://data.neonscience.org/api/v0/sites/STEI
+  - record: site_kb:deims-steigerwaldt__chequamegon_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id064
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:north-sterling-neon
+  name: North Sterling NEON
+  members:
+  - record: site_kb:neon-ster
+    origin: SOURCE
+    evidence: &id065
+    - https://data.neonscience.org/api/v0/sites/STER
+  - record: site_kb:deims-north_sterling_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id065
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:lake-suggs-neon
+  name: Lake Suggs NEON
+  members:
+  - record: site_kb:neon-sugg
+    origin: SOURCE
+    evidence: &id066
+    - https://data.neonscience.org/api/v0/sites/SUGG
+  - record: site_kb:deims-lake_suggs_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id066
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:sycamore-creek-neon
+  name: Sycamore Creek NEON
+  members:
+  - record: site_kb:neon-syca
+    origin: SOURCE
+    evidence: &id067
+    - https://data.neonscience.org/api/v0/sites/SYCA
+  - record: site_kb:deims-sycamore_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id067
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:talladega-national-forest-neon
+  name: Talladega National Forest NEON
+  members:
+  - record: site_kb:neon-tall
+    origin: SOURCE
+    evidence: &id068
+    - https://data.neonscience.org/api/v0/sites/TALL
+  - record: site_kb:deims-talladega_national_forest_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id068
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:lower-teakettle-neon
+  name: Lower Teakettle NEON
+  members:
+  - record: site_kb:neon-teak
+    origin: SOURCE
+    evidence: &id069
+    - https://data.neonscience.org/api/v0/sites/TEAK
+  - record: site_kb:deims-lower_teakettle_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id069
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:teakettle-creek-watershed-2-neon
+  name: Teakettle Creek - Watershed 2 NEON
+  members:
+  - record: site_kb:neon-tecr
+    origin: SOURCE
+    evidence: &id070
+    - https://data.neonscience.org/api/v0/sites/TECR
+  - record: site_kb:deims-teakettle_creek__watershed_2_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id070
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:lower-tombigbee-river-neon
+  name: Lower Tombigbee River NEON
+  members:
+  - record: site_kb:neon-tomb
+    origin: SOURCE
+    evidence: &id071
+    - https://data.neonscience.org/api/v0/sites/TOMB
+  - record: site_kb:deims-lower_tombigbee_river_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id071
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:toolik-lake-neon
+  name: Toolik Lake NEON
+  members:
+  - record: site_kb:neon-took
+    origin: SOURCE
+    evidence: &id072
+    - https://data.neonscience.org/api/v0/sites/TOOK
+  - record: site_kb:deims-toolik_lake_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id072
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:toolik-field-station-neon
+  name: Toolik Field Station NEON
+  members:
+  - record: site_kb:neon-tool
+    origin: SOURCE
+    evidence: &id073
+    - https://data.neonscience.org/api/v0/sites/TOOL
+  - record: site_kb:deims-toolik_field_station_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id073
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:treehaven-neon
+  name: Treehaven NEON
+  members:
+  - record: site_kb:neon-tree
+    origin: SOURCE
+    evidence: &id074
+    - https://data.neonscience.org/api/v0/sites/TREE
+  - record: site_kb:deims-treehaven_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id074
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:ku-field-station-neon
+  name: KU Field Station NEON
+  members:
+  - record: site_kb:neon-ukfs
+    origin: SOURCE
+    evidence: &id075
+    - https://data.neonscience.org/api/v0/sites/UKFS
+  - record: site_kb:deims-university_of_kansas_field_station_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id075
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:university-of-notre-dame-environmental-research-center-neon
+  name: University of Notre Dame Environmental Research Center NEON
+  members:
+  - record: site_kb:neon-unde
+    origin: SOURCE
+    evidence: &id076
+    - https://data.neonscience.org/api/v0/sites/UNDE
+  - record: site_kb:deims-university_of_notre_dame_environmental_research_center_neon_-_united_states_of_a
+    origin: SOURCE
+    evidence: *id076
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:walker-branch-neon
+  name: Walker Branch NEON
+  members:
+  - record: site_kb:neon-walk
+    origin: SOURCE
+    evidence: &id077
+    - https://data.neonscience.org/api/v0/sites/WALK
+  - record: site_kb:deims-walker_branch_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id077
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:west-st-louis-creek-neon
+  name: West St. Louis Creek NEON
+  members:
+  - record: site_kb:neon-wlou
+    origin: SOURCE
+    evidence: &id078
+    - https://data.neonscience.org/api/v0/sites/WLOU
+  - record: site_kb:deims-west_st_louis_creek_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id078
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:chase-lake-national-wildlife-refuge-neon
+  name: Chase Lake National Wildlife Refuge NEON
+  members:
+  - record: site_kb:neon-wood
+    origin: SOURCE
+    evidence: &id079
+    - https://data.neonscience.org/api/v0/sites/WOOD
+  - record: site_kb:deims-chase_lake_national_wildlife_refuge_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id079
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:wind-river-experimental-forest-neon
+  name: Wind River Experimental Forest NEON
+  members:
+  - record: site_kb:neon-wref
+    origin: SOURCE
+    evidence: &id080
+    - https://data.neonscience.org/api/v0/sites/WREF
+  - record: site_kb:deims-wind_river_experimental_forest_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id080
+    notes: NEON lists this DEIMS ID for the site.
+- id: site_kb:yellowstone-national-park-neon
+  name: Yellowstone National Park NEON
+  members:
+  - record: site_kb:neon-yell
+    origin: SOURCE
+    evidence: &id081
+    - https://data.neonscience.org/api/v0/sites/YELL
+  - record: site_kb:deims-yellowstone_national_park_neon_-_united_states_of_america
+    origin: SOURCE
+    evidence: *id081
+    notes: NEON lists this DEIMS ID for the site.
+relations:
+- subject: site_kb:ameriflux-pr-xgu
+  predicate: PART_OF
+  object: site_kb:neon-guan
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/PR-xGU
+  - https://www.neonscience.org/field-sites/guan
+  notes: AmeriFlux names this tower for NEON site GUAN.
+- subject: site_kb:ameriflux-pr-xla
+  predicate: PART_OF
+  object: site_kb:neon-laja
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/PR-xLA
+  - https://www.neonscience.org/field-sites/laja
+  notes: AmeriFlux names this tower for NEON site LAJA.
+- subject: site_kb:ameriflux-us-xab
+  predicate: PART_OF
+  object: site_kb:neon-abby
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xAB
+  - https://www.neonscience.org/field-sites/abby
+  notes: AmeriFlux names this tower for NEON site ABBY.
+- subject: site_kb:ameriflux-us-xae
+  predicate: PART_OF
+  object: site_kb:neon-oaes
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xAE
+  - https://www.neonscience.org/field-sites/oaes
+  notes: AmeriFlux names this tower for NEON site OAES.
+- subject: site_kb:ameriflux-us-xba
+  predicate: PART_OF
+  object: site_kb:neon-barr
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xBA
+  - https://www.neonscience.org/field-sites/barr
+  notes: AmeriFlux names this tower for NEON site BARR.
+- subject: site_kb:ameriflux-us-xbl
+  predicate: PART_OF
+  object: site_kb:neon-blan
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xBL
+  - https://www.neonscience.org/field-sites/blan
+  notes: AmeriFlux names this tower for NEON site BLAN.
+- subject: site_kb:ameriflux-us-xbn
+  predicate: PART_OF
+  object: site_kb:neon-bona
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xBN
+  - https://www.neonscience.org/field-sites/bona
+  notes: AmeriFlux names this tower for NEON site BONA.
+- subject: site_kb:ameriflux-us-xbr
+  predicate: PART_OF
+  object: site_kb:neon-bart
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xBR
+  - https://www.neonscience.org/field-sites/bart
+  notes: AmeriFlux names this tower for NEON site BART.
+- subject: site_kb:ameriflux-us-xcl
+  predicate: PART_OF
+  object: site_kb:neon-clbj
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xCL
+  - https://www.neonscience.org/field-sites/clbj
+  notes: AmeriFlux names this tower for NEON site CLBJ.
+- subject: site_kb:ameriflux-us-xcp
+  predicate: PART_OF
+  object: site_kb:neon-cper
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xCP
+  - https://www.neonscience.org/field-sites/cper
+  notes: AmeriFlux names this tower for NEON site CPER.
+- subject: site_kb:ameriflux-us-xdc
+  predicate: PART_OF
+  object: site_kb:neon-dcfs
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xDC
+  - https://www.neonscience.org/field-sites/dcfs
+  notes: AmeriFlux names this tower for NEON site DCFS.
+- subject: site_kb:ameriflux-us-xdj
+  predicate: PART_OF
+  object: site_kb:neon-deju
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xDJ
+  - https://www.neonscience.org/field-sites/deju
+  notes: AmeriFlux names this tower for NEON site DEJU.
+- subject: site_kb:ameriflux-us-xdl
+  predicate: PART_OF
+  object: site_kb:neon-dela
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xDL
+  - https://www.neonscience.org/field-sites/dela
+  notes: AmeriFlux names this tower for NEON site DELA.
+- subject: site_kb:ameriflux-us-xds
+  predicate: PART_OF
+  object: site_kb:neon-dsny
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xDS
+  - https://www.neonscience.org/field-sites/dsny
+  notes: AmeriFlux names this tower for NEON site DSNY.
+- subject: site_kb:ameriflux-us-xgr
+  predicate: PART_OF
+  object: site_kb:neon-grsm
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xGR
+  - https://www.neonscience.org/field-sites/grsm
+  notes: AmeriFlux names this tower for NEON site GRSM.
+- subject: site_kb:ameriflux-us-xha
+  predicate: PART_OF
+  object: site_kb:neon-harv
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xHA
+  - https://www.neonscience.org/field-sites/harv
+  notes: AmeriFlux names this tower for NEON site HARV.
+- subject: site_kb:ameriflux-us-xhe
+  predicate: PART_OF
+  object: site_kb:neon-heal
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xHE
+  - https://www.neonscience.org/field-sites/heal
+  notes: AmeriFlux names this tower for NEON site HEAL.
+- subject: site_kb:ameriflux-us-xje
+  predicate: PART_OF
+  object: site_kb:neon-jerc
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xJE
+  - https://www.neonscience.org/field-sites/jerc
+  notes: AmeriFlux names this tower for NEON site JERC.
+- subject: site_kb:ameriflux-us-xjr
+  predicate: PART_OF
+  object: site_kb:neon-jorn
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xJR
+  - https://www.neonscience.org/field-sites/jorn
+  notes: AmeriFlux names this tower for NEON site JORN.
+- subject: site_kb:ameriflux-us-xka
+  predicate: PART_OF
+  object: site_kb:neon-kona
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xKA
+  - https://www.neonscience.org/field-sites/kona
+  notes: AmeriFlux names this tower for NEON site KONA.
+- subject: site_kb:ameriflux-us-xkz
+  predicate: PART_OF
+  object: site_kb:neon-konz
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xKZ
+  - https://www.neonscience.org/field-sites/konz
+  notes: AmeriFlux names this tower for NEON site KONZ.
+- subject: site_kb:ameriflux-us-xle
+  predicate: PART_OF
+  object: site_kb:neon-leno
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xLE
+  - https://www.neonscience.org/field-sites/leno
+  notes: AmeriFlux names this tower for NEON site LENO.
+- subject: site_kb:ameriflux-us-xmb
+  predicate: PART_OF
+  object: site_kb:neon-moab
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xMB
+  - https://www.neonscience.org/field-sites/moab
+  notes: AmeriFlux names this tower for NEON site MOAB.
+- subject: site_kb:ameriflux-us-xml
+  predicate: PART_OF
+  object: site_kb:neon-mlbs
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xML
+  - https://www.neonscience.org/field-sites/mlbs
+  notes: AmeriFlux names this tower for NEON site MLBS.
+- subject: site_kb:ameriflux-us-xng
+  predicate: PART_OF
+  object: site_kb:neon-nogp
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xNG
+  - https://www.neonscience.org/field-sites/nogp
+  notes: AmeriFlux names this tower for NEON site NOGP.
+- subject: site_kb:ameriflux-us-xnq
+  predicate: PART_OF
+  object: site_kb:neon-onaq
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xNQ
+  - https://www.neonscience.org/field-sites/onaq
+  notes: AmeriFlux names this tower for NEON site ONAQ.
+- subject: site_kb:ameriflux-us-xnw
+  predicate: PART_OF
+  object: site_kb:neon-niwo
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xNW
+  - https://www.neonscience.org/field-sites/niwo
+  notes: AmeriFlux names this tower for NEON site NIWO.
+- subject: site_kb:ameriflux-us-xpu
+  predicate: PART_OF
+  object: site_kb:neon-puum
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xPU
+  - https://www.neonscience.org/field-sites/puum
+  notes: AmeriFlux names this tower for NEON site PUUM.
+- subject: site_kb:ameriflux-us-xrm
+  predicate: PART_OF
+  object: site_kb:neon-rmnp
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xRM
+  - https://www.neonscience.org/field-sites/rmnp
+  notes: AmeriFlux names this tower for NEON site RMNP.
+- subject: site_kb:ameriflux-us-xrn
+  predicate: PART_OF
+  object: site_kb:neon-ornl
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xRN
+  - https://www.neonscience.org/field-sites/ornl
+  notes: AmeriFlux names this tower for NEON site ORNL.
+- subject: site_kb:ameriflux-us-xsb
+  predicate: PART_OF
+  object: site_kb:neon-osbs
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xSB
+  - https://www.neonscience.org/field-sites/osbs
+  notes: AmeriFlux names this tower for NEON site OSBS.
+- subject: site_kb:ameriflux-us-xsc
+  predicate: PART_OF
+  object: site_kb:neon-scbi
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xSC
+  - https://www.neonscience.org/field-sites/scbi
+  notes: AmeriFlux names this tower for NEON site SCBI.
+- subject: site_kb:ameriflux-us-xse
+  predicate: PART_OF
+  object: site_kb:neon-serc
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xSE
+  - https://www.neonscience.org/field-sites/serc
+  notes: AmeriFlux names this tower for NEON site SERC.
+- subject: site_kb:ameriflux-us-xsj
+  predicate: PART_OF
+  object: site_kb:neon-sjer
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xSJ
+  - https://www.neonscience.org/field-sites/sjer
+  notes: AmeriFlux names this tower for NEON site SJER.
+- subject: site_kb:ameriflux-us-xsl
+  predicate: PART_OF
+  object: site_kb:neon-ster
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xSL
+  - https://www.neonscience.org/field-sites/ster
+  notes: AmeriFlux names this tower for NEON site STER.
+- subject: site_kb:ameriflux-us-xsp
+  predicate: PART_OF
+  object: site_kb:neon-soap
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xSP
+  - https://www.neonscience.org/field-sites/soap
+  notes: AmeriFlux names this tower for NEON site SOAP.
+- subject: site_kb:ameriflux-us-xsr
+  predicate: PART_OF
+  object: site_kb:neon-srer
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xSR
+  - https://www.neonscience.org/field-sites/srer
+  notes: AmeriFlux names this tower for NEON site SRER.
+- subject: site_kb:ameriflux-us-xst
+  predicate: PART_OF
+  object: site_kb:neon-stei
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xST
+  - https://www.neonscience.org/field-sites/stei
+  notes: AmeriFlux names this tower for NEON site STEI.
+- subject: site_kb:ameriflux-us-xta
+  predicate: PART_OF
+  object: site_kb:neon-tall
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xTA
+  - https://www.neonscience.org/field-sites/tall
+  notes: AmeriFlux names this tower for NEON site TALL.
+- subject: site_kb:ameriflux-us-xte
+  predicate: PART_OF
+  object: site_kb:neon-teak
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xTE
+  - https://www.neonscience.org/field-sites/teak
+  notes: AmeriFlux names this tower for NEON site TEAK.
+- subject: site_kb:ameriflux-us-xtl
+  predicate: PART_OF
+  object: site_kb:neon-tool
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xTL
+  - https://www.neonscience.org/field-sites/tool
+  notes: AmeriFlux names this tower for NEON site TOOL.
+- subject: site_kb:ameriflux-us-xtr
+  predicate: PART_OF
+  object: site_kb:neon-tree
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xTR
+  - https://www.neonscience.org/field-sites/tree
+  notes: AmeriFlux names this tower for NEON site TREE.
+- subject: site_kb:ameriflux-us-xuk
+  predicate: PART_OF
+  object: site_kb:neon-ukfs
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xUK
+  - https://www.neonscience.org/field-sites/ukfs
+  notes: AmeriFlux names this tower for NEON site UKFS.
+- subject: site_kb:ameriflux-us-xun
+  predicate: PART_OF
+  object: site_kb:neon-unde
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xUN
+  - https://www.neonscience.org/field-sites/unde
+  notes: AmeriFlux names this tower for NEON site UNDE.
+- subject: site_kb:ameriflux-us-xwd
+  predicate: PART_OF
+  object: site_kb:neon-wood
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xWD
+  - https://www.neonscience.org/field-sites/wood
+  notes: AmeriFlux names this tower for NEON site WOOD.
+- subject: site_kb:ameriflux-us-xwr
+  predicate: PART_OF
+  object: site_kb:neon-wref
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xWR
+  - https://www.neonscience.org/field-sites/wref
+  notes: AmeriFlux names this tower for NEON site WREF.
+- subject: site_kb:ameriflux-us-xye
+  predicate: PART_OF
+  object: site_kb:neon-yell
+  origin: CURATED
+  evidence:
+  - https://ameriflux.lbl.gov/sites/siteinfo/US-xYE
+  - https://www.neonscience.org/field-sites/yell
+  notes: AmeriFlux names this tower for NEON site YELL.
+- subject: site_kb:neon-barc
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-osbs
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-bigc
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-soap
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-blan
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-lewi
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-blde
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-yell
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-blwa
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-dela
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-bona
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-cari
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-clbj
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-prin
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-como
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-niwo
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-dcfs
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-prla
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-flnt
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-jerc
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-grsm
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-leco
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-harv
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-hopb
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-king
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-kona
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-leno
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-tomb
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-mayf
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-tall
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-oksr
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-tool
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-ornl
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-walk
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-osbs
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-sugg
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-pose
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-scbi
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-prpo
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-wood
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-teak
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-tecr
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.
+- subject: site_kb:neon-took
+  predicate: COLOCATED_WITH
+  object: site_kb:neon-tool
+  origin: SOURCE
+  evidence:
+  - https://www.neonscience.org/field-sites/exports/NEON_Field_Site_Metadata_20261022
+  notes: NEON field site metadata lists these sites as colocated.

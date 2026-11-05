@@ -8,6 +8,7 @@ import tempfile
 import typer
 import yaml
 from site_kb.scripts.classification_mappings import apply_classification_mappings, read_classification_mappings
+from site_kb.scripts.harmonize import harmonize, read_harmonization
 from site_kb.scripts.variable_catalog import read_catalog, read_profiles, resolve
 from site_kb.scripts.variable_mappings import apply_mappings, read_mappings
 
@@ -96,7 +97,14 @@ def assemble(imported_dir: Path, curated_dir: Path) -> dict:
         validate_site_evidence(site)
     if not sites:
         raise ValueError("No sites found; refusing to produce an empty database")
+    # Overrides and crosswalks act on source records; harmonization then merges them.
+    clusters, relations = read_harmonization(curated_dir / "harmonization")
+    sites, source_records = harmonize(sites, clusters, relations)
+    for site in sites.values():
+        validate_site_evidence(site)
     collection = {"sites": [sites[key] for key in sorted(sites)]}
+    if source_records:
+        collection["source_records"] = sorted(source_records, key=lambda record: record["id"])
     if definitions:
         collection["variable_definitions"] = [definitions[key] for key in sorted(definitions)]
     if profiles:

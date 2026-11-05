@@ -36,7 +36,9 @@ just validate-terms
 | `db/curated/sites/` | Complete, independently curated site records | Yes |
 | `db/curated/variable_mappings/` | Reusable source-to-ontology mapping assertions | Yes |
 | `db/curated/classification_mappings/` | Crosswalks from verbatim source site classifications to ENVO site type, ecosystem, and land-cover terms | Yes |
-| `db/curated/overrides/` | Partial corrections/enrichment targeting existing site IDs | Yes |
+| `db/curated/overrides/` | Partial corrections/enrichment targeting existing source record IDs | Yes |
+| `db/curated/harmonization/` | Same-site clusters (unified sites with member records) and relations between sites | Yes |
+| `db/staged/harmonization/` | Proposals from `just propose-site-links`; Git-ignored | No: regenerate |
 | `db/sites/sites.yaml` | Assembled SiteCollection; generated and Git-ignored | No: rebuild with `just build-db` |
 | `docs/research/` | Evidence, source links, and unresolved research questions | Yes |
 
@@ -45,8 +47,8 @@ archived in `db/raw/deims/`, including fields our schema does not yet model.
 The build reads imported site YAML, adds curated sites, applies reusable variable
 crosswalks by `(source, source_id)`, then applies overrides by exact site `id`. It produces a single collection sorted by ID. Duplicate IDs
 within an input layer, collisions between imported and curated sites, and
-overrides targeting absent sites are errors. It does not reconcile different
-IDs representing the same physical site.
+overrides targeting absent sites are errors. Finally it harmonizes source records
+into unified sites (see [Site harmonization](#site-harmonization)).
 
 Override files use the same `sites` wrapper but may omit required fields other
 than `id`. For example, `db/curated/overrides/neon_abby.yaml` could contain:
@@ -95,9 +97,51 @@ crosswalks in `db/curated/variable_mappings/neon_bervo.yaml` attach BERVO mappin
 by product code, mostly as NARROW (the target is one property within the product)
 or BROAD; 74 of 156 products have no defensible BERVO target. Products
 whose description names the Airborne Observation Platform (AOP) are remote-sensing
-surveys over the site, not in-situ measurements. Product availability is not evidence of continuous collection. NEON,
-DEIMS, and AmeriFlux records for the same physical site keep separate IDs. See
+surveys over the site, not in-situ measurements. Product availability is not evidence of continuous collection. See
 `docs/research/neon-ingestion.md`.
+
+## Site harmonization
+
+Imported and curated records are source records. The build merges records that
+describe exactly the same site into one unified site, Mondo-style, and links
+distinct sites with explicit relations. Both are curated in
+`db/curated/harmonization/*.yaml` (`SiteHarmonizationCollection`):
+
+- A cluster has a readable slug ID (e.g.
+  `site_kb:harvard-forest-quabbin-watershed-neon`), a curated name, and two or
+  more members, each with an origin (`SOURCE` when a registry asserts the link)
+  and evidence. Records in no cluster stay sites under their own record ID.
+- Members are merged in listed order. Single-valued fields come from the first
+  member that has them unless `field_sources` names another; coordinates stay
+  together, while other location fields such as `bounding_box` may be filled
+  from later members. Lists are unioned (terms by ID, registrations by network
+  ID), each variable records its `source_record`, and notes are kept per member.
+  Members disagreeing on `site_type` are an error until a source is chosen.
+  Field-level evidence is remapped, and dropped for values a member did not supply.
+  Fields without a merge rule are an error.
+- Complete member records remain in the output as `source_records`; the browser
+  shows them on the unified page, and member record pages redirect to it.
+- Relations are `PART_OF` (e.g. a flux tower within a site, nesting to any depth),
+  `COLOCATED_WITH`, and `OVERLAPS`. Their subject and object may be cluster IDs
+  or member record IDs. The build adds inverses (`HAS_PART`) and symmetric
+  counterparts marked `inferred`, and rejects duplicates, self-links, and
+  `PART_OF` cycles.
+- Geo checks: a `PART_OF` part's point or box must lie within the whole's
+  `bounding_box` (0.01° tolerance), recorded as `CONSISTENT`, `WAIVED` (failed,
+  with a curated `geo_check_waiver`), or `UNCHECKABLE`. A failure without a waiver,
+  or a waiver on a passing check, fails the build. Cluster members must lie in
+  each other's boxes, or within 5 km when none has a box, unless waived.
+
+Every site's own point must also lie within its own `bounding_box`.
+
+DEIMS bounding boxes come from each record's boundary polygon. The importer omits
+a box that excludes the record's own coordinates (34 records in the November 2026
+snapshot, from about 0.8 km to 2,100 km off) and says so in the record's notes; the
+raw JSON keeps the polygon. `just
+propose-site-links` writes source-asserted clusters and relations that are not yet
+curated to `db/staged/harmonization/proposals.yaml` for review; it never edits
+curated files. A test fails when the curated NEON links drift from the sources.
+Overrides still target source record IDs. See `docs/research/site-harmonization.md`.
 
 ### Site classifications and ENVO terms
 
@@ -227,6 +271,9 @@ Refresh the currently imported DEIMS records without adding the whole registry:
 just fetch-deims --refresh-existing
 just site
 ```
+
+`just fetch-deims --offline` regenerates existing records from the archived raw
+JSON without HTTP, for example after an importer change.
 
 This preserves local IDs and filenames even if upstream site names change. Full
 responses and retrieval metadata are stored in `db/raw/deims/`. Regular list-based

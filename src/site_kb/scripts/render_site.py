@@ -124,6 +124,36 @@ def variable_provenance(variable):
     return result
 
 
+PREDICATES = {'PART_OF': 'Part of', 'HAS_PART': 'Has part', 'COLOCATED_WITH': 'Colocated with', 'OVERLAPS': 'Overlaps'}
+GEO_CHECKS = {'CONSISTENT': 'Within bounding box', 'WAIVED': 'Outside bounding box; waived', 'UNCHECKABLE': 'Containment not checkable'}
+
+
+def relations_panel(site):
+    items = []
+    for relation in sorted(site.get('relations', []), key=lambda r: (r['predicate'], r['object_name'].casefold())):
+        check = f' {badge(GEO_CHECKS[relation["geo_check"]], "neutral")}' if relation.get('geo_check') else ''
+        inferred = ' <span class="muted">(inverse of a curated assertion)</span>' if relation.get('inferred') else ''
+        evidence = ' · '.join(link(url, urlsplit(url).netloc) for url in relation['evidence'])
+        notes = f'<p>{prose(relation["notes"])}</p>' if relation.get('notes') else ''
+        items.append(f'<article class="registration"><strong>{esc(PREDICATES[relation["predicate"]])}</strong>{check}<p><a href="{slug(relation["object"])}.html">{esc(relation["object_name"])}</a>{inferred}</p><p class="muted">{esc(relation["origin"].capitalize())} · {evidence}</p>{notes}</article>')
+    return '<section class="panel"><h2>Related sites</h2>' + ''.join(items) + '</section>' if items else ''
+
+
+def members_panel(site, source_records):
+    if not site.get('members'):
+        return ''
+    items = []
+    for member in site['members']:
+        record = source_records.get(member['record'], {})
+        evidence = ' · '.join(link(url, urlsplit(url).netloc) for url in member['evidence'])
+        registrations = ', '.join(f'{r["network"]} {r["network_id"]}' for r in record.get('network_registrations', []))
+        notes = f'<p>{prose(member["notes"])}</p>' if member.get('notes') else ''
+        raw = esc(yaml.safe_dump({'sites': [record]}, sort_keys=False, allow_unicode=True))
+        items.append(f'<article class="variable"><h3>{esc(member["name"])}</h3><p class="muted">{esc(member["record"])} · {esc(registrations)}</p><p>Same-site link: {esc(member["origin"].capitalize())} · {evidence}</p>{notes}<details><summary>View source record</summary><pre>{raw}</pre></details></article>')
+    return ('<section class="panel"><div class="section-title"><h2>Source records</h2>' + badge(str(len(items))) + '</div><p class="muted">Records from different registries that describe this same site. Fields are merged in the order shown; each property declaration names the record it came from.</p>'
+            + ''.join(items) + '</section>')
+
+
 def evidence_refs(site, pointer):
     refs = [f'<a class="evidence-ref" href="#evidence-{i}" aria-label="Evidence {i}">[{i}]</a>'
             for i, item in enumerate(site.get('evidence', []), 1) if pointer in item['supports']]
@@ -144,7 +174,7 @@ def evidence_panel(site):
     return '<section class="panel"><h2>Evidence for this record</h2>' + ''.join(items) + '</section>' if items else ''
 
 
-def detail(site, origin, input_paths):
+def detail(site, origin, input_paths, source_records=None):
     prefix = '../'
     variables = site.get('variables', [])
     rows = []
@@ -164,6 +194,8 @@ def detail(site, origin, input_paths):
                 extra += f'<dt>{label}</dt><dd>{esc(", ".join(str(v) for v in variable[key]))}</dd>'
         if variable.get('variable_id'):
             extra += f'<dt>Shared definition</dt><dd><a href="../variables.html#{slug(variable["variable_id"])}">{esc(variable["variable_id"])}</a></dd>'
+        if variable.get('source_record'):
+            extra += f'<dt>Source record</dt><dd>{esc(variable["source_record"])}</dd>'
         if variable.get('evidence'):
             extra += '<dt>Site evidence</dt><dd>' + '<br>'.join(link(url, url) for url in variable['evidence']) + '</dd>'
         if variable.get('additional_terms'):
@@ -174,6 +206,9 @@ def detail(site, origin, input_paths):
         var_html = f'<p class="muted">{prose(site["variable_notes"])}</p>' + var_html
     loc = site.get('location', {})
     facts = [('Country', country(site), '/location/country'), ('Region', loc.get('state_province'), '/location/state_province'), ('Latitude', loc.get('latitude'), '/location/latitude'), ('Longitude', loc.get('longitude'), '/location/longitude'), ('Elevation (m)', loc.get('elevation_meters'), '/location/elevation_meters'), ('Established', site.get('established'), '/established'), ('Closed', site.get('closed'), '/closed')]
+    box = loc.get('bounding_box')
+    if box:
+        facts.append(('Bounding box (W, S, E, N)', ', '.join(f'{box[k]:g}' for k in ('west', 'south', 'east', 'north')), '/location/bounding_box'))
     facts_html = ''.join(f'<dt>{label}</dt><dd>{esc(value)}{evidence_refs(site, pointer)}</dd>' for label, value, pointer in facts if value is not None)
     has_coordinates = loc.get('latitude') is not None and loc.get('longitude') is not None
     coordinate_note = '<p class="muted coordinate-note">Coordinates not recorded.</p>'
@@ -193,10 +228,10 @@ def detail(site, origin, input_paths):
     raw = esc(yaml.safe_dump({'sites': [site]}, sort_keys=False, allow_unicode=True))
     body = f'''<main id="main" class="detail-main"><a class="back" href="../index.html">← All sites</a>
 <div class="detail-heading"><div class="eyebrow">SITE RECORD / {esc(origin.upper())}</div><h1>{esc(site['name'])}</h1><div class="tags">{badge(site.get('status', 'Unknown').capitalize(), 'status')}{''.join(badge(n) for n in networks(site))}</div><p class="intro">{prose(site.get('description', ''))}</p><p class="muted aliases">{esc('Also known as: ' + '; '.join(site['aliases'])) if site.get('aliases') else ''}</p></div>
-<div class="detail-grid"><div>{evidence_panel(site)}{dataset_html}<section class="panel"><div class="section-title"><h2>Observed properties & variables</h2>{badge(str(len(variables)))}</div><p class="muted">Declarations may include broad parameter groups. Source vocabulary identities and ontology crosswalks are shown separately.</p>{var_html}</section>
+<div class="detail-grid"><div>{members_panel(site, source_records or {})}{evidence_panel(site)}{dataset_html}<section class="panel"><div class="section-title"><h2>Observed properties & variables</h2>{badge(str(len(variables)))}</div><p class="muted">Declarations may include broad parameter groups. Source vocabulary identities and ontology crosswalks are shown separately.</p>{var_html}</section>
 <section class="panel"><h2>Notes & evidence</h2><p class="evidence">{prose(site.get('notes', 'No additional notes recorded.'))}</p></section>
 <section class="panel"><h2>Provenance</h2><p>Record origin: <strong>{esc(origin)}</strong>. Source files used to assemble this record:</p><ul class="source-list">{source_links}</ul><details><summary>View assembled YAML</summary><pre>{raw}</pre></details></section></div>
-<aside>{classification}<section class="panel"><h2>Location & dates</h2><dl>{facts_html}</dl>{coordinate_note}</section><section class="panel"><h2>Network registrations</h2>{registrations}</section><section class="panel"><h2>Contacts</h2>{contacts}</section><section class="panel"><h2>Ecosystems</h2>{'<br>'.join(term(t) + evidence_refs(site, f'/ecosystem_terms/{i}') for i, t in enumerate(site.get('ecosystem_terms', []))) or '<p class="muted">Not annotated.</p>'}</section>{land_cover}</aside></div></main>'''
+<aside>{classification}{relations_panel(site)}<section class="panel"><h2>Location & dates</h2><dl>{facts_html}</dl>{coordinate_note}</section><section class="panel"><h2>Network registrations</h2>{registrations}</section><section class="panel"><h2>Contacts</h2>{contacts}</section><section class="panel"><h2>Ecosystems</h2>{'<br>'.join(term(t) + evidence_refs(site, f'/ecosystem_terms/{i}') for i, t in enumerate(site.get('ecosystem_terms', []))) or '<p class="muted">Not annotated.</p>'}</section>{land_cover}</aside></div></main>'''
     return shell(site['name'], body, prefix)
 
 
@@ -233,7 +268,9 @@ def render(output=Path('site'), imported=Path('db/imported'), curated=Path('db/c
     sites = sorted(collection['sites'], key=lambda s: (s['name'].casefold(), s['id']))
     curated_ids = read_records(curated / 'sites')
     override_ids = read_records(curated / 'overrides')
-    origins = {s['id']: ('Curated' if s['id'] in curated_ids else 'Enriched' if s['id'] in override_ids or any(m.get('origin') == 'CURATED' for v in s.get('variables', []) for m in v.get('mappings', [])) else 'Imported') for s in sites}
+    alias = {m['record']: s['id'] for s in sites for m in s.get('members', [])}
+    source_records = {r['id']: r for r in collection.get('source_records', [])}
+    origins = {s['id']: ('Harmonized' if s.get('members') else 'Curated' if s['id'] in curated_ids else 'Enriched' if s['id'] in override_ids or any(m.get('origin') == 'CURATED' for v in s.get('variables', []) for m in v.get('mappings', [])) else 'Imported') for s in sites}
     # The output is a dedicated generated directory, never an input or repository root.
     resolved = output.resolve()
     if resolved == Path.cwd().resolve() or any(source.resolve().is_relative_to(resolved) or resolved.is_relative_to(source.resolve()) for source in (imported, curated, ASSETS)):
@@ -258,7 +295,12 @@ def render(output=Path('site'), imported=Path('db/imported'), curated=Path('db/c
             data = yaml.safe_load(path.read_text())
             if 'sites' in data:
                 for record in data['sites']:
-                    paths[record['id']].append(relative.as_posix())
+                    paths[alias.get(record['id'], record['id'])].append(relative.as_posix())
+            elif 'clusters' in data or 'relations' in data:
+                involved = {c['id'] for c in data.get('clusters') or []}
+                involved |= {alias.get(r[k], r[k]) for r in data.get('relations') or [] for k in ('subject', 'object')}
+                for identifier in sorted(involved & paths.keys()):
+                    paths[identifier].append(relative.as_posix())
             elif 'variable_definitions' in data:
                 identifiers = {v['id'] for v in data['variable_definitions']}
                 for site in sites:
@@ -331,7 +373,11 @@ def render(output=Path('site'), imported=Path('db/imported'), curated=Path('db/c
     (output / 'data/bervo.json').write_text(json.dumps(build_bervo_view(collection), ensure_ascii=False, indent=2))
     (output / 'data/sites.json').write_text(json.dumps(collection, ensure_ascii=False, indent=2, default=str))
     for site in sites:
-        (output / 'sites' / (slug(site['id']) + '.html')).write_text(detail(site, origins[site['id']], paths[site['id']]))
+        (output / 'sites' / (slug(site['id']) + '.html')).write_text(detail(site, origins[site['id']], paths[site['id']], source_records))
+    # Member record IDs were site IDs before harmonization; keep their pages as redirects.
+    for record, target in alias.items():
+        page = f'{slug(target)}.html'
+        (output / 'sites' / (slug(record) + '.html')).write_text(f'<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={page}"><link rel="canonical" href="{page}"><title>Moved</title><p>This record is now part of <a href="{page}">{esc(next(s["name"] for s in sites if s["id"] == target))}</a>.</p>')
     countries = sorted({country(s) for s in sites})
     nets = sorted({n for s in sites for n in networks(s)})
     variable_sites = sum(bool(s.get('variables')) for s in sites)

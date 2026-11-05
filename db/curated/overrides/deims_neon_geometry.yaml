@@ -1,0 +1,7 @@
+# Corrections to DEIMS geometry for NEON sites, found by harmonization geo checks.
+# Archived raw records are unchanged; see docs/research/site-harmonization.md.
+# The importer already omits boxes that exclude a record's own point (e.g. JORN).
+sites:
+- id: site_kb:deims-blandy_experimental_farm_neon_-_united_states_of_america
+  location:
+    bounding_box: null
