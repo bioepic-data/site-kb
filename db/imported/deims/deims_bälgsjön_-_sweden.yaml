@@ -11,11 +11,6 @@ sites:
     longitude: 14.9
     country: Sweden
     elevation_meters: 220.0
-    bounding_box:
-      west: 14.829020453324
-      south: 59.560513536391
-      east: 14.85950544454
-      north: 59.581362699014
   description: Coniferous forests and mire.
   variables:
   - name: ammonium nitrate concentration
@@ -513,5 +508,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:37:29.113037+00:00'
       source_modified_at: '2020-06-29T10:39:00+02:00'
-  notes: 'Biogeographical region: boreal'
+  notes: 'Biogeographical region: boreal; DEIMS boundary omitted: it excludes the
+    record''s own coordinates by about 2.3 km; the archived raw record keeps the polygon'
   status: ACTIVE

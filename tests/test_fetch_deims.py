@@ -171,3 +171,14 @@ def test_boundary_polygons_give_bounding_boxes():
     assert bounding_box("POINT (-72.1 42.5)") is None and bounding_box(None) is None
     with pytest.raises(ValueError, match="antimeridian"):
         bounding_box("POLYGON ((179 0, -179 0, -179 1, 179 0))")
+
+
+def test_boundary_excluding_the_record_point_is_omitted_with_a_note():
+    detail = {"attributes": {"geographic": {
+        "coordinates": "POINT (13.59 46.49)",
+        "boundaries": "POLYGON ((11.43 46.27, 11.77 46.27, 11.77 46.59, 11.43 46.27))"}}}
+    site = deims_to_site({"id": "x", "title": "Tarvisio"}, detail)
+    assert "bounding_box" not in site["location"]
+    assert "DEIMS boundary omitted" in site["notes"] and "km" in site["notes"]
+    detail["attributes"]["geographic"]["coordinates"] = "POINT (11.6 46.4)"
+    assert deims_to_site({"id": "x", "title": "Tarvisio"}, detail)["location"]["bounding_box"]["west"] == 11.43

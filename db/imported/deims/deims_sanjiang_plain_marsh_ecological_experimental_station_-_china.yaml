@@ -11,11 +11,6 @@ sites:
     longitude: 133.517
     country: China
     elevation_meters: 56.0
-    bounding_box:
-      west: 133.4879
-      south: 47.5763
-      east: 133.5043
-      north: 47.5944
   description: Sanjiang Plain Marsh Ecological Experimental Station (SJM) is located
     in one of the largest marshes distribution areas, Sanjiang Plain, which is a low
     plain formed by the Heilongjiang River, Songhua River, Wusuli River. The station
@@ -502,4 +497,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:47.117027+00:00'
       source_modified_at: '2020-12-18T10:57:15+01:00'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    1.0 km; the archived raw record keeps the polygon'
   status: ACTIVE

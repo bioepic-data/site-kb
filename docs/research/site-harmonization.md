@@ -32,8 +32,7 @@ Result: 2,365 source records become 2,284 sites; 162 member records are kept as
 
 - JORN: the DEIMS boundary for "Jornada Experimental Range NEON" is identical to
   the boundary of "The Jones Center At Ichauway NEON" (Georgia, ~2,200 km away).
-  `db/curated/overrides/deims_neon_geometry.yaml` removes it; the tower check is
-  uncheckable.
+  The importer omits it (see below); the tower check is uncheckable.
 - BLAN: the DEIMS point and boundary lie ~8 km from NEON's coordinates, and the box
   excludes both NEON's point and the US-xBL tower, so it likely covers one parcel.
   The override removes the box; the cluster carries a waiver.
@@ -41,6 +40,17 @@ Result: 2,365 source records become 2,284 sites; 162 member records are kept as
   from NEON's BLWA point. The cluster carries a waiver; NEON coordinates are used.
 
 These are worth reporting to DEIMS. Raw snapshots are unchanged.
+
+## DEIMS boxes that exclude their own point (PR #5 review)
+
+Review flagged Tarvisio and Lake Päijänne, whose DEIMS boxes exclude their own
+coordinates by ~140 km and ~44 km. A scan found 34 such records: 11 off by more
+than 10 km, 10 by 2–10 km, and 13 by under 2 km (some may be a station point just
+outside a valid plot boundary). The importer now omits any box that excludes the
+record's own point beyond the 0.01° tolerance and notes the distance. The build
+fails if any site's point lies outside its own box, so overrides and merges cannot
+reintroduce one. This also covers JORN, so its override was removed; BLAN's stays
+because its box contains DEIMS's own point and conflicts only with NEON's.
 
 ## Not yet done
 

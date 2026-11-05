@@ -11,11 +11,6 @@ sites:
     longitude: 100.8667
     country: Thailand
     elevation_meters: 380.0
-    bounding_box:
-      west: 101.8443227021
-      south: 14.445579351743
-      east: 101.95636163387
-      north: 14.550381767778
   description: The SERS is situated in the Korat Plateau between latitude 14°25′-14°33′
     N and longitude 100°48′-100°56′ E (Fig. 1). The SERS covers an area of approximately
     82 km2 (Trisurat et al. 2006) in seven sub-districts of Nakhon Ratchasima Province
@@ -61,4 +56,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:35:47.451366+00:00'
       source_modified_at: '2020-06-29T10:44:57+02:00'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    105.2 km; the archived raw record keeps the polygon'
   status: ACTIVE

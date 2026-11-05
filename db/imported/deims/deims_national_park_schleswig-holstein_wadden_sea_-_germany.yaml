@@ -11,11 +11,6 @@ sites:
     longitude: 8.93333
     country: Germany
     elevation_meters: 0.0
-    bounding_box:
-      west: 8.2170668383018
-      south: 53.865863963533
-      east: 8.9165048964021
-      north: 55.045640966827
   description: 'The tidal flats between Den Helder in the Netherlands and Esbjerg
     in Denmark are the largest continuous tidal flats in the world and one of the
     last areas in Europe where nature can still develop to a great extent without
@@ -564,5 +559,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:40:16.162766+00:00'
       source_modified_at: '2025-12-15T09:18:24+01:00'
-  notes: 'Biogeographical region: atlantic'
+  notes: 'Biogeographical region: atlantic; DEIMS boundary omitted: it excludes the
+    record''s own coordinates by about 1.1 km; the archived raw record keeps the polygon'
   status: ACTIVE

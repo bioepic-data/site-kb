@@ -11,11 +11,6 @@ sites:
     longitude: 120.217
     country: China
     elevation_meters: 7.0
-    bounding_box:
-      west: 120.2131
-      south: 31.4187
-      east: 120.2167
-      north: 31.4212
   description: not ready
   variables:
   - name: biological parameter
@@ -40,4 +35,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:51.209058+00:00'
       source_modified_at: '2020-12-18T10:54:34+01:00'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    2.1 km; the archived raw record keeps the polygon'
   status: ACTIVE

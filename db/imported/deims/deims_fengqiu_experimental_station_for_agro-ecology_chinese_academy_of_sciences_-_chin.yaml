@@ -13,11 +13,6 @@ sites:
     longitude: 114.533
     country: China
     elevation_meters: 67.5
-    bounding_box:
-      west: 114.5516
-      south: 35.0163
-      east: 114.5544
-      north: 35.0206
   description: The Fengqiu Experimental Station for Agro-ecology Chinese Academy of
     Sciences is located in the Pandian countryside, Fengqiu county, Henan Province,
     China (114°24′E, 35°00′N), with flat terrain and an average altitude of 67.5 m
@@ -100,4 +95,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:28.731220+00:00'
       source_modified_at: '2020-06-29T10:41:01+02:00'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    1.7 km; the archived raw record keeps the polygon'
   status: ACTIVE

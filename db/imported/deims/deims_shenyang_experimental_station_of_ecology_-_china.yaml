@@ -11,11 +11,6 @@ sites:
     longitude: 123.4
     country: China
     elevation_meters: 41.0
-    bounding_box:
-      west: 123.3638
-      south: 41.5162
-      east: 123.3699
-      north: 41.5199
   description: The Shenyang experimental station of ecology is located at Shilihe
     village of Sujiatun district, 35 km from southern Shenyang. The Station was founded
     in 1987, and it was authorized by the Chinese Academy of Science as a key station
@@ -34,4 +29,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:28.009465+00:00'
       source_modified_at: '2020-12-18T10:57:15+01:00'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    2.5 km; the archived raw record keeps the polygon'
   status: ACTIVE

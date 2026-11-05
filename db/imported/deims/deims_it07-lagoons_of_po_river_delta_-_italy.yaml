@@ -11,11 +11,6 @@ sites:
     longitude: 12.1919
     country: Italy
     elevation_meters: 0.0
-    bounding_box:
-      west: 12.098694
-      south: 44.549122
-      east: 12.392271
-      north: 44.843455
   description: "IT07-001-M (Sacca di Goro), IT07-002-M (Valli di Comacchio)\r\nThe\
     \ Sacca di Goro is a shallow-water embayment of the Po River Delta approximately\
     \ triangular in shape with a surface area of 26 Km2, an average depth of 1.5 m,\
@@ -102,5 +97,7 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:43:16.147980+00:00'
       source_modified_at: '2023-11-16T16:46:30+01:00'
-  notes: 'Biogeographical region: continental'
+  notes: 'Biogeographical region: continental; DEIMS boundary omitted: it excludes
+    the record''s own coordinates by about 7.3 km; the archived raw record keeps the
+    polygon'
   status: ACTIVE

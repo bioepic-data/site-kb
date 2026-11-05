@@ -11,11 +11,6 @@ sites:
     longitude: -76.663096
     country: United States of America
     elevation_meters: 100.0
-    bounding_box:
-      west: -76.687316894531
-      south: 39.255119728644
-      east: -76.545867919922
-      north: 39.352883230213
   description: 'The Gwynns Falls watershed (39.724847 N, -77.314183 W; 38.708367 N,
     -76.012008 W and approximately 17,150 hectares: site map) lies in Baltimore City
     and Baltimore County, Maryland and drains into the Chesapeake Bay. It contains
@@ -36,4 +31,6 @@ sites:
     areas (90.8%) in 1990. The socioeconomic characteristics of residents in the watershed
     vary as well. For instance, the averaged median family income in 1990 was $18,598
     in the lower sub-watersheds and $49,133 in the upper sub-watersheds.'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    4.3 km; the archived raw record keeps the polygon'
   status: ACTIVE

@@ -11,11 +11,6 @@ sites:
     longitude: 128.0819
     country: Korea (the Republic of)
     elevation_meters: 763.0
-    bounding_box:
-      west: 127.4491869157
-      south: 35.247163547921
-      east: 127.48294830322
-      north: 35.275974626181
   description: "Mt. Jumbongsan site has housed the KLTER(Korea Long Term Ecological\
     \ Research) station run by Ministry of Environment and National Institute of Ecology\
     \ since 2004. Mt. Jumbongsan is located between Mt. Soraksan and Mt. Bangtaesan\
@@ -253,4 +248,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:45:28.961763+00:00'
       source_modified_at: '2020-06-29T10:40:58+02:00'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    309.5 km; the archived raw record keeps the polygon'
   status: ACTIVE

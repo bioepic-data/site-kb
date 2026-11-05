@@ -72,6 +72,26 @@ def _inside(box: dict, latitude: float, longitude: float) -> bool:
             and box["south"] - tolerance <= latitude <= box["north"] + tolerance)
 
 
+def outside_own_box_km(location: dict) -> float | None:
+    """Distance from a point to its own box when the point lies outside it, else None."""
+    box = location.get("bounding_box")
+    if not box or location.get("latitude") is None or location.get("longitude") is None:
+        return None
+    latitude, longitude = location["latitude"], location["longitude"]
+    if _inside(box, latitude, longitude):
+        return None
+    nearest = (min(max(latitude, box["south"]), box["north"]), min(max(longitude, box["west"]), box["east"]))
+    return distance_km((latitude, longitude), nearest)
+
+
+def check_own_boxes(sites: dict[str, dict]) -> None:
+    """A published box is the site's extent, so it must contain the site's own point."""
+    for identifier, site in sites.items():
+        distance = outside_own_box_km(site.get("location") or {})
+        if distance is not None:
+            raise ValueError(f"{identifier}: point lies {distance:.1f} km outside its own bounding_box")
+
+
 def containment(part: dict, whole: dict) -> str:
     """CONSISTENT, VIOLATION, or UNCHECKABLE for a part's point or box inside the whole's box."""
     box = (whole.get("location") or {}).get("bounding_box")
@@ -235,6 +255,7 @@ def harmonize(records: dict[str, dict], clusters: list[dict], relations: list[di
             _require(record not in alias, f"{record} is a member of both {alias.get(record)} and {cluster['id']}")
             alias[record] = cluster["id"]
     _require(len({c["id"] for c in clusters}) == len(clusters), "Duplicate cluster IDs")
+    check_own_boxes(records)
     sites = {identifier: record for identifier, record in records.items() if identifier not in alias}
     source_records = []
     for cluster in clusters:
@@ -243,6 +264,7 @@ def harmonize(records: dict[str, dict], clusters: list[dict], relations: list[di
             raise ValueError(f"{cluster['id']}: member locations disagree; add geo_check_waiver if intended")
         sites[cluster["id"]] = merge(cluster, members)
         source_records.extend(deepcopy(members))
+    check_own_boxes(sites)
     attach_relations(sites, relations, alias)
     return sites, source_records
 

@@ -11,11 +11,6 @@ sites:
     longitude: 132.275722331
     country: Australia
     elevation_meters: 18.5
-    bounding_box:
-      west: 132.16505
-      south: -14.39819
-      east: 132.74043
-      north: -13.81268
   description: "The Three Parks Savanna Fire-Effects Plot Network extends across three\
     \ national parks (Kakadu, Litchfield and Nitmiluk) in the Top End of the Northern\
     \ Territory. The fire monitoring program comprises two complementary components:\
@@ -192,4 +187,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:24.032252+00:00'
       source_modified_at: '2022-07-13T05:58:45+02:00'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    63.9 km; the archived raw record keeps the polygon'
   status: ACTIVE

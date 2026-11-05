@@ -11,11 +11,6 @@ sites:
     longitude: -106.84254
     country: United States of America
     elevation_meters: 1324.0
-    bounding_box:
-      west: -84.496531256
-      south: 31.172174518
-      east: -84.445278832
-      north: 31.213848715
   description: 'The Jornada LTER (JORN) terrestrial NEON field site is located about
     40 km (24.9 mi.) from Las Cruces, New Mexico in the northern Chihuahuan Desert,
     the largest desert in North America. NEON samples approximately 45.7 km2 (11,293
@@ -247,4 +242,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:48:10.098645+00:00'
       source_modified_at: '2025-09-17T14:52:02+02:00'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    2111.1 km; the archived raw record keeps the polygon'
   status: ACTIVE

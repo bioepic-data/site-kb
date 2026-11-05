@@ -132,7 +132,12 @@ distinct sites with explicit relations. Both are curated in
   or a waiver on a passing check, fails the build. Cluster members must lie in
   each other's boxes, or within 5 km when none has a box, unless waived.
 
-DEIMS bounding boxes come from each record's boundary polygon. `just
+Every site's own point must also lie within its own `bounding_box`.
+
+DEIMS bounding boxes come from each record's boundary polygon. The importer omits
+a box that excludes the record's own coordinates (34 records in the November 2026
+snapshot, from about 0.8 km to 2,100 km off) and says so in the record's notes; the
+raw JSON keeps the polygon. `just
 propose-site-links` writes source-asserted clusters and relations that are not yet
 curated to `db/staged/harmonization/proposals.yaml` for review; it never edits
 curated files. A test fails when the curated NEON links drift from the sources.

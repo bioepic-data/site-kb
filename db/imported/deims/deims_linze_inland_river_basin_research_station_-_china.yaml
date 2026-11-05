@@ -10,11 +10,6 @@ sites:
     latitude: 39.3333
     longitude: 100.117
     country: China
-    bounding_box:
-      west: 100.34703333333
-      south: 37.123783333333
-      east: 100.35418333333
-      north: 37.133283333333
   description: Linze Inland River Basin Comprehensive Research Station (Linze Staion),
     located in Linze County (39o21'N，100o07' E, a.s.l. 1367m), in the middle of the
     Hexi Corridor of Gansu Province, Northwest China, was first set up in 1975. It
@@ -86,4 +81,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:36.036163+00:00'
       source_modified_at: '2020-12-18T10:57:03+01:00'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    245.5 km; the archived raw record keeps the polygon'
   status: ACTIVE

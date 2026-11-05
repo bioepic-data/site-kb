@@ -10,11 +10,6 @@ sites:
     latitude: 44.2833
     longitude: 87.9167
     country: China
-    bounding_box:
-      west: 87.9307
-      south: 44.2911
-      east: 87.9459
-      north: 44.2955
   description: Fukang Station in the hinterland of the Eurasian continent (44o17'N,
     87o56'E and 475 m a.s.l.). The station is 8 km from the southern edge of the Gurbantonggut
     Desert and 72 km south of the highest peak of the eastern Tianshan Mountains (5445
@@ -93,4 +88,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:48.854364+00:00'
       source_modified_at: '2020-12-18T10:56:56+01:00'
+  notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
+    1.4 km; the archived raw record keeps the polygon'
   status: ACTIVE

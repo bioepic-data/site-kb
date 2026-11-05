@@ -196,3 +196,10 @@ def test_curated_neon_links_match_current_sources():
     for r in curated[1]:
         if r["origin"] == "SOURCE":
             assert (r["subject"], r["predicate"], r["object"]) in proposed_pairs
+
+
+def test_every_site_point_must_lie_in_its_own_box():
+    stray = record("site_kb:stray", "Stray", lat=46.49, lon=13.59)
+    stray["location"]["bounding_box"] = {"west": 11.43, "south": 46.27, "east": 11.77, "north": 46.59}
+    with pytest.raises(ValueError, match="outside its own bounding_box"):
+        harmonize({stray["id"]: stray}, [], [])

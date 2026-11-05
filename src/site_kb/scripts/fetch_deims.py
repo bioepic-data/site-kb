@@ -11,6 +11,8 @@ import httpx
 import typer
 import yaml
 
+from site_kb.scripts.harmonize import outside_own_box_km
+
 DEIMS_API = "https://deims.org/api"
 OUTPUT_DIR = Path("db/imported/deims")
 RAW_DIR = Path("db/raw/deims")
@@ -148,8 +150,12 @@ def deims_to_site(summary: dict, detail: dict, retrieved_at: str | None = None) 
     if location and elevation is not None:
         location["elevation_meters"] = elevation
     box = bounding_box(geo.get("boundaries"))
+    box_excluded = None
     if location and box:
-        location["bounding_box"] = box
+        # A boundary that excludes the record's own point is not a usable extent.
+        box_excluded = outside_own_box_km({**location, "bounding_box": box})
+        if box_excluded is None:
+            location["bounding_box"] = box
 
     site = {
         "id": f"site_kb:deims-{sanitize_filename(title)}",
@@ -217,6 +223,9 @@ def deims_to_site(summary: dict, detail: dict, retrieved_at: str | None = None) 
             notes.append(f"DEIMS country: {country}")
         if elevation is not None:
             notes.append(f"DEIMS average elevation: {elevation:g} m")
+    if box_excluded is not None:
+        notes.append(f"DEIMS boundary omitted: it excludes the record's own coordinates by about "
+                     f"{box_excluded:.1f} km; the archived raw record keeps the polygon")
     if notes:
         site["notes"] = "; ".join(notes)
 

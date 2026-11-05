@@ -11,11 +11,6 @@ sites:
     longitude: 7.6
     country: Italy
     elevation_meters: 2340.0
-    bounding_box:
-      west: 7.5450212932619
-      south: 45.632975218071
-      east: 7.5867408781411
-      north: 45.655664992539
   description: Avic, Mont Avic, (Champdepraz, Aosta), +390576 +5055915; Valle d'Aosta
     region
   variables:
@@ -118,5 +113,6 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:43:14.262973+00:00'
       source_modified_at: '2025-01-07T11:14:56+01:00'
-  notes: 'Biogeographical region: alpine'
+  notes: 'Biogeographical region: alpine; DEIMS boundary omitted: it excludes the
+    record''s own coordinates by about 1.0 km; the archived raw record keeps the polygon'
   status: ACTIVE
