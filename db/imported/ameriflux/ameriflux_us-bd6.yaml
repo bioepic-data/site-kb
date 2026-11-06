@@ -15,6 +15,12 @@ sites:
   notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-Bd6;
     IGBP vegetation code: CRO; Reported flux-measurement start year: 2020; Koeppen
     climate code: Cfa'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: CRO
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Bd6
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

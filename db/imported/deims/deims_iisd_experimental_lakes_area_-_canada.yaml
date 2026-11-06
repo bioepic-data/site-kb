@@ -948,4 +948,65 @@ sites:
       retrieved_at: '2026-10-15T17:51:09.663457+00:00'
       source_modified_at: '2025-09-05T09:56:02+02:00'
   notes: 'Biogeographical region: boreal'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/cc646930-044e-49f5-963a-2c1b8a5d9bd2
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:51:09.663457+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_lakes
+    record_url: https://deims.org/api/sites/cc646930-044e-49f5-963a-2c1b8a5d9bd2
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:51:09.663457+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Lakes
+    record_url: https://deims.org/api/sites/cc646930-044e-49f5-963a-2c1b8a5d9bd2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:51:09.663457+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Lakes
+    record_url: https://deims.org/api/sites/cc646930-044e-49f5-963a-2c1b8a5d9bd2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:51:09.663457+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Small lakes
+    record_url: https://deims.org/api/sites/cc646930-044e-49f5-963a-2c1b8a5d9bd2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:51:09.663457+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/cc646930-044e-49f5-963a-2c1b8a5d9bd2
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:51:09.663457+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Permanent eutrophic lakes, ponds and pools (C1.3)
+    record_url: https://deims.org/api/sites/cc646930-044e-49f5-963a-2c1b8a5d9bd2
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:51:09.663457+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Permanent mesotrophic lakes, ponds and pools (C1.2)
+    record_url: https://deims.org/api/sites/cc646930-044e-49f5-963a-2c1b8a5d9bd2
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:51:09.663457+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Permanent oligotrophic lakes, ponds and pools (C1.1)
+    record_url: https://deims.org/api/sites/cc646930-044e-49f5-963a-2c1b8a5d9bd2
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:51:09.663457+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Surface standing waters (C1)
+    record_url: https://deims.org/api/sites/cc646930-044e-49f5-963a-2c1b8a5d9bd2
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/4
+    retrieved_at: '2026-10-15T17:51:09.663457+00:00'
   status: ACTIVE

@@ -475,4 +475,41 @@ sites:
       retrieved_at: '2026-10-15T17:38:56.494191+00:00'
       source_modified_at: '2024-04-19T15:21:21+02:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/be7fcb7d-d3c2-486d-a437-4754d18ca1ca
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:38:56.494191+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/be7fcb7d-d3c2-486d-a437-4754d18ca1ca
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:38:56.494191+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/be7fcb7d-d3c2-486d-a437-4754d18ca1ca
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:38:56.494191+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland unvegetated or sparsely vegetated habitats (H)
+    record_url: https://deims.org/api/sites/be7fcb7d-d3c2-486d-a437-4754d18ca1ca
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:38:56.494191+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Miscellaneous inland habitats with very sparse or no vegetation (H5)
+    record_url: https://deims.org/api/sites/be7fcb7d-d3c2-486d-a437-4754d18ca1ca
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:38:56.494191+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/be7fcb7d-d3c2-486d-a437-4754d18ca1ca
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:38:56.494191+00:00'
   status: ACTIVE

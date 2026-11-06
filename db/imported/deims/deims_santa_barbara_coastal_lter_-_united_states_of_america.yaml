@@ -202,4 +202,65 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:36:02.461787+00:00'
       source_modified_at: '2024-10-16T20:33:32+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:36:02.461787+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:02.461787+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:36:02.461787+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Chaparral
+    record_url: https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:36:02.461787+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:36:02.461787+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:36:02.461787+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/4
+    retrieved_at: '2026-10-15T17:36:02.461787+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mediterranean forests, woodlands, and scrub
+    record_url: https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/5
+    retrieved_at: '2026-10-15T17:36:02.461787+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate shelfs and seas
+    record_url: https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/6
+    retrieved_at: '2026-10-15T17:36:02.461787+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/dbd399ed-9c26-4621-b479-7ab505c8aa35
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:36:02.461787+00:00'
   status: ACTIVE

@@ -28,4 +28,29 @@ sites:
     Protection Area and the Cairngorm National Park. Rainfall, recorded from nearby
     Braemar, is ca. 860 mm annually.
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/251cda7c-25aa-4538-b638-4a08f0ddee29
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:49:20.745247+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/251cda7c-25aa-4538-b638-4a08f0ddee29
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:49:20.745247+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Rivers
+    record_url: https://deims.org/api/sites/251cda7c-25aa-4538-b638-4a08f0ddee29
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:49:20.745247+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/251cda7c-25aa-4538-b638-4a08f0ddee29
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:49:20.745247+00:00'
   status: ACTIVE

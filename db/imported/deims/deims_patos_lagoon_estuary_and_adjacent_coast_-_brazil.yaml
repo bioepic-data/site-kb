@@ -275,4 +275,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:04.498575+00:00'
       source_modified_at: '2020-06-29T10:43:52+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/4cfe9da2-916f-4ace-8ee4-63133f2be0de
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:04.498575+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/4cfe9da2-916f-4ace-8ee4-63133f2be0de
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:44:04.498575+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/4cfe9da2-916f-4ace-8ee4-63133f2be0de
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/2
+    retrieved_at: '2026-10-15T17:44:04.498575+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: coastal
+    record_url: https://deims.org/api/sites/4cfe9da2-916f-4ace-8ee4-63133f2be0de
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:04.498575+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/4cfe9da2-916f-4ace-8ee4-63133f2be0de
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:04.498575+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/4cfe9da2-916f-4ace-8ee4-63133f2be0de
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:44:04.498575+00:00'
   status: ACTIVE

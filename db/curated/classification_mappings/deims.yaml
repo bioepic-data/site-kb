@@ -1,0 +1,1103 @@
+# DEIMS environmental characteristics to ENVO. Unmapped on purpose: "Coastal" (all
+# schemes; no ENVO coastal ecosystem or biome) and EUNIS B, E, F, G, H and X, whose
+# top-level classes span several ENVO ecosystems. Deeper EUNIS levels are not mapped.
+mappings:
+- source: DEIMS
+  scheme: ecosystemType
+  value: Forest
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000174
+    label: forest biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Rivers
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00002030
+    label: aquatic biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source does not say freshwater, so only the broader aquatic biome is asserted.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Agricultural
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000077
+    label: agricultural ecosystem
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Grasslands
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000177
+    label: grassland biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Lakes
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00002030
+    label: aquatic biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source does not say freshwater, so only the broader aquatic biome is asserted.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Fresh Water Lakes
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000252
+    label: freshwater lake biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://www.feow.org/global-maps/habitat-types
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Deciduous Forest
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000174
+    label: forest biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: ENVO has no deciduous forest biome.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Deciduous Forest
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000816
+    label: area of deciduous forest
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Alpine
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01001835
+    label: alpine biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Temperate broadleaf and mixed forests
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000174
+    label: forest biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source class spans several ENVO biomes, so the shared broader ENVO class is used. ENVO separates
+    temperate broadleaf and temperate mixed forest biomes.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Evergreen Forest
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000174
+    label: forest biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: ENVO has no evergreen forest biome.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Evergreen Forest
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000843
+    label: area of evergreen forest
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Marine
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000447
+    label: marine biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Fresh Water Rivers
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000253
+    label: freshwater river biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://www.feow.org/global-maps/habitat-types
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Mixed Forest
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000198
+    label: mixed forest biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Mixed Forest
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000855
+    label: area of mixed forest
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Small rivers
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000890
+    label: small river biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://www.feow.org/global-maps/habitat-types
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Temperate grasslands, savannas, and shrublands
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01001831
+    label: temperate biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source class spans several ENVO biomes, so the shared broader ENVO class is used.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Temperate coniferous forests
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000211
+    label: temperate coniferous forest biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Small lakes
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000892
+    label: small freshwater lake biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://www.feow.org/global-maps/habitat-types
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Montane grasslands and shrublands
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01001836
+    label: montane biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source class spans several ENVO biomes, so the shared broader ENVO class is used.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Temperate shelfs and seas
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000447
+    label: marine biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: ENVO has no shelf-sea biome.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Urban
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000249
+    label: urban biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Mediterranean forests, woodlands, and scrub
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01001833
+    label: mediterranean biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source class spans several ENVO biomes, so the shared broader ENVO class is used.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Desert
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000179
+    label: desert biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Large rivers
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000887
+    label: large river biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://www.feow.org/global-maps/habitat-types
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Rainforest
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000174
+    label: forest biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Rainforests may be tropical or temperate, so no specific ENVO biome is asserted.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Large lakes
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000891
+    label: large freshwater lake biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://www.feow.org/global-maps/habitat-types
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Deserts and xeric shrublands
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000446
+    label: terrestrial biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source class spans several ENVO biomes, so the shared broader ENVO class is used.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Boreal forests/taiga
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000250
+    label: subpolar coniferous forest biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: ENVO lists boreal forest and taiga as synonyms of this class.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Tundra
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000180
+    label: tundra biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Large river headwaters
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000888
+    label: large river headwater biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://www.feow.org/global-maps/habitat-types
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Flooded grasslands and savannas
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01001209
+    label: wetland ecosystem
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source class spans several ENVO biomes, so the shared broader ENVO class is used. Flooded
+    grasslands and savannas are seasonally inundated wetlands.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Large river deltas
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000889
+    label: large river delta biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://www.feow.org/global-maps/habitat-types
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Polar
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000339
+    label: polar biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Tropical coral
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000854
+    label: tropical marine coral reef biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Savanna
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000178
+    label: savanna biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Tropical and subtropical grasslands, savannas, and shrublands
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000446
+    label: terrestrial biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source class spans several ENVO biomes, so the shared broader ENVO class is used.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Tropical and subtropical moist broadleaf forests
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000197
+    label: broadleaf forest biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source class spans several ENVO biomes, so the shared broader ENVO class is used.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Mangroves
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000181
+    label: mangrove biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Taiga
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000250
+    label: subpolar coniferous forest biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: ENVO lists taiga as a synonym of this class.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Temperate upwelling
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000860
+    label: temperate marine upwelling biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Xeric basins
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000893
+    label: xeric basin biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://www.feow.org/global-maps/habitat-types
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Tropical and subtropical dry broadleaf forests
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000197
+    label: broadleaf forest biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source class spans several ENVO biomes, so the shared broader ENVO class is used.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Chaparral
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000176
+    label: shrubland biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: ENVO has chaparral only as a scrubland area, not a biome.
+- source: DEIMS
+  scheme: ecosystemType
+  value: Tropical upwelling
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000859
+    label: tropical marine upwelling biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: ecosystemType
+  value: Tropical and subtropical coniferous forests
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000196
+    label: coniferous forest biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  - https://doi.org/10.1641/0006-3568(2001)051%5B0933:TEOTWA%5D2.0.CO;2
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: The source class spans several ENVO biomes, so the shared broader ENVO class is used.
+- source: DEIMS
+  scheme: biome
+  value: mixed_forest
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000198
+    label: mixed forest biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: deciduous_forest
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000174
+    label: forest biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: ENVO has no deciduous forest biome.
+- source: DEIMS
+  scheme: biome
+  value: deciduous_forest
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000816
+    label: area of deciduous forest
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: evergreen_forest
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000174
+    label: forest biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: ENVO has no evergreen forest biome.
+- source: DEIMS
+  scheme: biome
+  value: evergreen_forest
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000843
+    label: area of evergreen forest
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: alpine
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01001835
+    label: alpine biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: agricultural
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000077
+    label: agricultural ecosystem
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: freshwater_lakes
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000252
+    label: freshwater lake biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: freshwater_rivers
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000253
+    label: freshwater river biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: marine
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000447
+    label: marine biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: grasslands
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000177
+    label: grassland biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: rainforest
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000174
+    label: forest biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Rainforests may be tropical or temperate, so no specific ENVO biome is asserted.
+- source: DEIMS
+  scheme: biome
+  value: taiga
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000250
+    label: subpolar coniferous forest biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: ENVO lists taiga as a synonym of this class.
+- source: DEIMS
+  scheme: biome
+  value: savanna
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000178
+    label: savanna biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: desert
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000179
+    label: desert biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: desert_scrub
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000218
+    label: xeric shrubland biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: tundra
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000180
+    label: tundra biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: urban
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000249
+    label: urban biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: biome
+  value: chaparral
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000176
+    label: shrubland biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: ENVO has chaparral only as a scrubland area, not a biome.
+- source: DEIMS
+  scheme: geoBonBiome
+  value: Terrestrial
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000446
+    label: terrestrial biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: geoBonBiome
+  value: Fresh water rivers
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000253
+    label: freshwater river biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: geoBonBiome
+  value: Fresh water lakes
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01000252
+    label: freshwater lake biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: geoBonBiome
+  value: Marine
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000447
+    label: marine biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: eunisHabitat
+  value: Marine habitats (A)
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000447
+    label: marine biome
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: eunisHabitat
+  value: Inland surface waters (C)
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00002030
+    label: aquatic biome
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: EUNIS C includes saline inland waters, so freshwater is not asserted.
+- source: DEIMS
+  scheme: eunisHabitat
+  value: Mires, bogs and fens (D)
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000044
+    label: peatland
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: eunisHabitat
+  value: Regularly or recently cultivated agricultural, horticultural and domestic habitats (I)
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:00000077
+    label: agricultural ecosystem
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+- source: DEIMS
+  scheme: eunisHabitat
+  value: Constructed, industrial and other artificial habitats (J)
+  target_slot: ECOSYSTEM
+  target:
+    id: ENVO:01001828
+    label: anthropised ecosystem
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://deims.org/api
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'

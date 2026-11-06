@@ -15,6 +15,12 @@ sites:
     IGBP vegetation code: ENF; Reported flux-measurement start year: 2013; Koeppen
     climate code: Dfc; Source mean annual temperature (degrees C): -2.8; Source mean
     annual precipitation (mm): 387.6'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: ENF
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/CA-SCC
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

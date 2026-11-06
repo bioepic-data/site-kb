@@ -293,4 +293,60 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:36:00.639590+00:00'
       source_modified_at: '2020-06-29T10:41:20+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/49e8551a-942d-483c-8402-e1a8c294a94d
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:36:00.639590+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/49e8551a-942d-483c-8402-e1a8c294a94d
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:36:00.639590+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/49e8551a-942d-483c-8402-e1a8c294a94d
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:00.639590+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/49e8551a-942d-483c-8402-e1a8c294a94d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:36:00.639590+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/49e8551a-942d-483c-8402-e1a8c294a94d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:36:00.639590+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/49e8551a-942d-483c-8402-e1a8c294a94d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:36:00.639590+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Grasslands and lands dominated by forbs, mosses or lichens (E)
+    record_url: https://deims.org/api/sites/49e8551a-942d-483c-8402-e1a8c294a94d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:36:00.639590+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Regularly or recently cultivated agricultural, horticultural and domestic
+      habitats (I)
+    record_url: https://deims.org/api/sites/49e8551a-942d-483c-8402-e1a8c294a94d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:36:00.639590+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/49e8551a-942d-483c-8402-e1a8c294a94d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:36:00.639590+00:00'
   status: ACTIVE

@@ -24,4 +24,17 @@ sites:
       retrieved_at: '2026-10-15T17:46:45.382769+00:00'
       source_modified_at: '2020-12-16T16:03:29+01:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/78bd9813-7f0e-4442-bd8d-288f2b233894
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:46:45.382769+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/78bd9813-7f0e-4442-bd8d-288f2b233894
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:46:45.382769+00:00'
   status: ACTIVE

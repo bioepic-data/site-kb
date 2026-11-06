@@ -345,4 +345,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:48:56.287376+00:00'
       source_modified_at: '2025-06-04T14:57:24+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/89e3bf9a-3e12-469e-8b7a-7e6269fc04d7
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:48:56.287376+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: savanna
+    record_url: https://deims.org/api/sites/89e3bf9a-3e12-469e-8b7a-7e6269fc04d7
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:56.287376+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/89e3bf9a-3e12-469e-8b7a-7e6269fc04d7
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:56.287376+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tropical and subtropical grasslands, savannas, and shrublands
+    record_url: https://deims.org/api/sites/89e3bf9a-3e12-469e-8b7a-7e6269fc04d7
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:48:56.287376+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Grasslands and lands dominated by forbs, mosses or lichens (E)
+    record_url: https://deims.org/api/sites/89e3bf9a-3e12-469e-8b7a-7e6269fc04d7
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:48:56.287376+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Seasonally wet and wet grasslands (E3)
+    record_url: https://deims.org/api/sites/89e3bf9a-3e12-469e-8b7a-7e6269fc04d7
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:48:56.287376+00:00'
   status: ACTIVE

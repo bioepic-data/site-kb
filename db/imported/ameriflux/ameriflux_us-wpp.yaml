@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: DBF; Reported flux-measurement start year: 2015; Reported
     flux-measurement end year: 2016; Koeppen climate code: Csb; Source mean annual
     temperature (degrees C): 11.39; Source mean annual precipitation (mm): 1293'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: DBF
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Wpp
+    field_path: /IGBP
   variables:
   - name: H flux (source-reported)
     declaration_kind: UNSPECIFIED

@@ -42,4 +42,11 @@ sites:
     \ regeneration and active afforestation are included in the management plan over\
     \ the last 15 years."
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/c4b08189-cfb6-4f7b-88ce-81bb7e3333ac
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:04.923931+00:00'
   status: ACTIVE

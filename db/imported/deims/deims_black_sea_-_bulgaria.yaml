@@ -700,4 +700,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:37:53.689749+00:00'
       source_modified_at: '2025-05-05T08:51:19+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/f4193165-b4de-4dc0-a5bd-7f051be25884
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:37:53.689749+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/f4193165-b4de-4dc0-a5bd-7f051be25884
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:37:53.689749+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/f4193165-b4de-4dc0-a5bd-7f051be25884
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:37:53.689749+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/f4193165-b4de-4dc0-a5bd-7f051be25884
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:37:53.689749+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/f4193165-b4de-4dc0-a5bd-7f051be25884
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:37:53.689749+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal habitats (B)
+    record_url: https://deims.org/api/sites/f4193165-b4de-4dc0-a5bd-7f051be25884
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:37:53.689749+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/f4193165-b4de-4dc0-a5bd-7f051be25884
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:37:53.689749+00:00'
   status: ACTIVE

@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: CVM; Reported flux-measurement start year: 2015; Reported
     flux-measurement end year: 2019; Koeppen climate code: Dfb; Source mean annual
     temperature (degrees C): 10.5; Source mean annual precipitation (mm): 1012.7'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: CVM
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Mi3
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

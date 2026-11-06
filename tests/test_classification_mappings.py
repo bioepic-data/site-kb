@@ -1,5 +1,6 @@
 """Source classification crosswalks: application, provenance, override precedence, coverage."""
 from pathlib import Path
+import re
 
 import pytest
 import yaml
@@ -91,3 +92,25 @@ def test_neon_bervo_crosswalks_target_imported_products():
             products |= {v["data_product"] for v in record.get("variables", [])}
     assert {m["source_id"] for m in data["mappings"]} <= products
     assert all(m["source"] == "NEON" and m["relation"] != "EXACT" for m in data["mappings"])
+
+
+def test_deims_and_ameriflux_crosswalks_cover_imported_values_except_documented_gaps():
+    mapped = {(m["source"], m["scheme"], m["value"])
+              for m in read_classification_mappings(ROOT / "db/curated/classification_mappings")}
+    gaps = set()
+    for folder in ("deims", "ameriflux"):
+        for path in (ROOT / "db/imported" / folder).glob("*.yaml"):
+            for record in yaml.safe_load(path.read_text())["sites"]:
+                for c in record.get("source_classifications", []):
+                    key = (c["source"], c["scheme"], c["value"])
+                    # Only top-level EUNIS classes, e.g. "Marine habitats (A)", are crosswalked.
+                    if c["scheme"] == "eunisHabitat" and not re.search(r"\([A-Z]\)$", c["value"]):
+                        continue
+                    if key not in mapped:
+                        gaps.add(key)
+    eunis = {"Coastal habitats (B)", "Grasslands and lands dominated by forbs, mosses or lichens (E)",
+             "Heathland, scrub and tundra (F)", "Woodland, forest and other wooded land (G)",
+             "Inland unvegetated or sparsely vegetated habitats (H)", "Habitat complexes (X)"}
+    documented = ({("DEIMS", scheme, "Coastal") for scheme in ("ecosystemType", "geoBonBiome")}
+                  | {("DEIMS", "biome", "coastal")} | {("DEIMS", "eunisHabitat", v) for v in eunis})
+    assert gaps == documented

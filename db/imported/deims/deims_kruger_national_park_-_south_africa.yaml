@@ -78,4 +78,29 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:45:07.827797+00:00'
       source_modified_at: '2020-06-29T10:42:32+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/8fb35fc0-08bc-480a-b779-afd01e89cac2
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:45:07.827797+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: savanna
+    record_url: https://deims.org/api/sites/8fb35fc0-08bc-480a-b779-afd01e89cac2
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:45:07.827797+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/8fb35fc0-08bc-480a-b779-afd01e89cac2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:45:07.827797+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Savanna
+    record_url: https://deims.org/api/sites/8fb35fc0-08bc-480a-b779-afd01e89cac2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:45:07.827797+00:00'
   status: ACTIVE

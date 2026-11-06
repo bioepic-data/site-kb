@@ -513,4 +513,47 @@ sites:
       retrieved_at: '2026-10-15T17:49:15.410423+00:00'
       source_modified_at: '2025-01-07T11:14:56+01:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/1b43bc23-e69b-4191-8342-20cd7af12647
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:49:15.410423+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: coastal
+    record_url: https://deims.org/api/sites/1b43bc23-e69b-4191-8342-20cd7af12647
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:49:15.410423+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/1b43bc23-e69b-4191-8342-20cd7af12647
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:49:15.410423+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Large rivers
+    record_url: https://deims.org/api/sites/1b43bc23-e69b-4191-8342-20cd7af12647
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:49:15.410423+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate shelfs and seas
+    record_url: https://deims.org/api/sites/1b43bc23-e69b-4191-8342-20cd7af12647
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:49:15.410423+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal habitats (B)
+    record_url: https://deims.org/api/sites/1b43bc23-e69b-4191-8342-20cd7af12647
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:49:15.410423+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/1b43bc23-e69b-4191-8342-20cd7af12647
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:49:15.410423+00:00'
   status: ACTIVE

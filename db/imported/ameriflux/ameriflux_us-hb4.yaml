@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: WET; Reported flux-measurement start year: 2020; Koeppen
     climate code: Cfa; Source mean annual temperature (degrees C): 18.3; Source mean
     annual precipitation (mm): 1429'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: WET
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-HB4
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

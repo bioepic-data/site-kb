@@ -132,4 +132,29 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:55.751009+00:00'
       source_modified_at: '2020-06-29T10:43:38+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:34:55.751009+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: mixed_forest
+    record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:34:55.751009+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:34:55.751009+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mixed Forest
+    record_url: https://deims.org/api/sites/24a1be3a-6378-4306-88ea-b17bdc32a2b4
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:34:55.751009+00:00'
   status: ACTIVE

@@ -796,4 +796,35 @@ sites:
       retrieved_at: '2026-10-15T17:42:54.128147+00:00'
       source_modified_at: '2025-01-07T11:14:56+01:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/b2015216-ac0a-433f-8044-8ba8c46cc6c9
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:42:54.128147+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/b2015216-ac0a-433f-8044-8ba8c46cc6c9
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:42:54.128147+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/b2015216-ac0a-433f-8044-8ba8c46cc6c9
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:42:54.128147+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland unvegetated or sparsely vegetated habitats (H)
+    record_url: https://deims.org/api/sites/b2015216-ac0a-433f-8044-8ba8c46cc6c9
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:42:54.128147+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Snow or ice-dominated habitats (H4)
+    record_url: https://deims.org/api/sites/b2015216-ac0a-433f-8044-8ba8c46cc6c9
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:42:54.128147+00:00'
   status: ACTIVE

@@ -273,4 +273,41 @@ sites:
       retrieved_at: '2026-10-15T17:39:23.062590+00:00'
       source_modified_at: '2023-07-28T10:57:46+02:00'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/177075bb-c0bb-40f2-81f7-b0a25bf029bd
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:39:23.062590+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_lakes
+    record_url: https://deims.org/api/sites/177075bb-c0bb-40f2-81f7-b0a25bf029bd
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:39:23.062590+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Lakes
+    record_url: https://deims.org/api/sites/177075bb-c0bb-40f2-81f7-b0a25bf029bd
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:39:23.062590+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Lakes
+    record_url: https://deims.org/api/sites/177075bb-c0bb-40f2-81f7-b0a25bf029bd
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:39:23.062590+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/177075bb-c0bb-40f2-81f7-b0a25bf029bd
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:39:23.062590+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Surface standing waters (C1)
+    record_url: https://deims.org/api/sites/177075bb-c0bb-40f2-81f7-b0a25bf029bd
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:39:23.062590+00:00'
   status: ACTIVE

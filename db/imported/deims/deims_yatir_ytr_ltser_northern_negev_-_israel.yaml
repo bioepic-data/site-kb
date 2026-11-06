@@ -922,4 +922,54 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:37:50.547915+00:00'
       source_modified_at: '2025-01-07T11:14:56+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/bf2cb8dd-0d38-419b-aa9c-7d53337bd98e
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:37:50.547915+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Evergreen Forest
+    record_url: https://deims.org/api/sites/bf2cb8dd-0d38-419b-aa9c-7d53337bd98e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:37:50.547915+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/bf2cb8dd-0d38-419b-aa9c-7d53337bd98e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:37:50.547915+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mediterranean forests, woodlands, and scrub
+    record_url: https://deims.org/api/sites/bf2cb8dd-0d38-419b-aa9c-7d53337bd98e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:37:50.547915+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coniferous woodland (G3)
+    record_url: https://deims.org/api/sites/bf2cb8dd-0d38-419b-aa9c-7d53337bd98e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:37:50.547915+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Lowland to montane mediterranean pine woodland (excluding black pine [Pinus
+      nigra]) (G3.7)
+    record_url: https://deims.org/api/sites/bf2cb8dd-0d38-419b-aa9c-7d53337bd98e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:37:50.547915+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Subalpine mediterranean pine woodland (G3.6)
+    record_url: https://deims.org/api/sites/bf2cb8dd-0d38-419b-aa9c-7d53337bd98e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:37:50.547915+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/bf2cb8dd-0d38-419b-aa9c-7d53337bd98e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:37:50.547915+00:00'
   status: ACTIVE

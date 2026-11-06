@@ -99,4 +99,17 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:52.936794+00:00'
       source_modified_at: '2020-06-29T10:39:02+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: urban
+    record_url: https://deims.org/api/sites/9d0a6146-2510-4701-98c4-801465336380
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:34:52.936794+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Urban
+    record_url: https://deims.org/api/sites/9d0a6146-2510-4701-98c4-801465336380
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:34:52.936794+00:00'
   status: ACTIVE

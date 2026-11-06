@@ -80,4 +80,47 @@ sites:
       retrieved_at: '2026-10-15T17:38:51.473460+00:00'
       source_modified_at: '2023-07-25T10:42:22+02:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:38:51.473460+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:38:51.473460+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:38:51.473460+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:38:51.473460+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate coniferous forests
+    record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:38:51.473460+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Mires, bogs and fens (D)
+    record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:38:51.473460+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Raised and blanket bogs (D1)
+    record_url: https://deims.org/api/sites/86f772ca-7da6-4269-9580-cce28eead36c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:38:51.473460+00:00'
   status: ACTIVE

@@ -1012,4 +1012,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:36:30.371612+00:00'
       source_modified_at: '2023-07-26T08:22:27+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:36:30.371612+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: rainforest
+    record_url: https://deims.org/api/sites/bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:30.371612+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:36:30.371612+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:36:30.371612+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rainforest
+    record_url: https://deims.org/api/sites/bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:36:30.371612+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/bd0b5bcf-4f2e-4038-8275-629ffa5bf2aa
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:36:30.371612+00:00'
   status: ACTIVE

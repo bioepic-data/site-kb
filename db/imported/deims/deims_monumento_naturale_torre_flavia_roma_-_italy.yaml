@@ -655,4 +655,59 @@ sites:
       retrieved_at: '2026-10-15T17:39:29.599092+00:00'
       source_modified_at: '2025-01-07T11:14:56+01:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/e618c7ca-2b92-46cb-9156-d87336c5a81f
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:39:29.599092+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: coastal
+    record_url: https://deims.org/api/sites/e618c7ca-2b92-46cb-9156-d87336c5a81f
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:39:29.599092+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/e618c7ca-2b92-46cb-9156-d87336c5a81f
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:39:29.599092+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal dunes and sandy shores (B1)
+    record_url: https://deims.org/api/sites/e618c7ca-2b92-46cb-9156-d87336c5a81f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:39:29.599092+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal habitats (B)
+    record_url: https://deims.org/api/sites/e618c7ca-2b92-46cb-9156-d87336c5a81f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:39:29.599092+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal stable dune grassland (grey dunes) (B1.4)
+    record_url: https://deims.org/api/sites/e618c7ca-2b92-46cb-9156-d87336c5a81f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:39:29.599092+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Sand beach driftlines (B1.1)
+    record_url: https://deims.org/api/sites/e618c7ca-2b92-46cb-9156-d87336c5a81f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:39:29.599092+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Sand beaches above the driftline (B1.2)
+    record_url: https://deims.org/api/sites/e618c7ca-2b92-46cb-9156-d87336c5a81f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/4
+    retrieved_at: '2026-10-15T17:39:29.599092+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Shifting coastal dunes (B1.3)
+    record_url: https://deims.org/api/sites/e618c7ca-2b92-46cb-9156-d87336c5a81f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/5
+    retrieved_at: '2026-10-15T17:39:29.599092+00:00'
   status: ACTIVE

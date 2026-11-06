@@ -719,4 +719,47 @@ sites:
       retrieved_at: '2026-10-15T17:42:15.131160+00:00'
       source_modified_at: '2025-01-07T11:11:07+01:00'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/5a04fee1-42aa-47e9-abfc-043a3eda12ac
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:42:15.131160+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/5a04fee1-42aa-47e9-abfc-043a3eda12ac
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:42:15.131160+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/5a04fee1-42aa-47e9-abfc-043a3eda12ac
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:42:15.131160+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/5a04fee1-42aa-47e9-abfc-043a3eda12ac
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:42:15.131160+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate broadleaf and mixed forests
+    record_url: https://deims.org/api/sites/5a04fee1-42aa-47e9-abfc-043a3eda12ac
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:42:15.131160+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate coniferous forests
+    record_url: https://deims.org/api/sites/5a04fee1-42aa-47e9-abfc-043a3eda12ac
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:42:15.131160+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/5a04fee1-42aa-47e9-abfc-043a3eda12ac
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:42:15.131160+00:00'
   status: ACTIVE

@@ -91,4 +91,35 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:48.228611+00:00'
       source_modified_at: '2021-03-11T10:56:55+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/030bec0b-f6ac-4840-b226-af813258b14b
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:48.228611+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/030bec0b-f6ac-4840-b226-af813258b14b
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:48.228611+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/030bec0b-f6ac-4840-b226-af813258b14b
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:48.228611+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tropical coral
+    record_url: https://deims.org/api/sites/030bec0b-f6ac-4840-b226-af813258b14b
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:44:48.228611+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/030bec0b-f6ac-4840-b226-af813258b14b
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:44:48.228611+00:00'
   status: ACTIVE

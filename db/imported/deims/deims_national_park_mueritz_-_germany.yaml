@@ -26,4 +26,11 @@ sites:
     \ forests have not been cultivated for over 40 years and make up an impressive\
     \ forest landscape."
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: mixed_forest
+    record_url: https://deims.org/api/sites/3ef67697-1cad-415a-987b-573fe3834dcd
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:40:04.280616+00:00'
   status: ACTIVE

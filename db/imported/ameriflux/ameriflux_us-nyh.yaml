@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: GRA; Reported flux-measurement start year: 2018; Koeppen
     climate code: Dfb; Source mean annual temperature (degrees C): 8; Source mean
     annual precipitation (mm): 1075.74'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: GRA
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-NYh
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

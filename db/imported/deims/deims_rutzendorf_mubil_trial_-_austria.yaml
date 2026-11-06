@@ -363,4 +363,43 @@ sites:
       retrieved_at: '2026-10-15T17:48:25.370540+00:00'
       source_modified_at: '2025-04-29T14:55:43+02:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/f3a6eebe-ae82-4fc6-a1ec-d9db723be139
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:48:25.370540+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/f3a6eebe-ae82-4fc6-a1ec-d9db723be139
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:25.370540+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/f3a6eebe-ae82-4fc6-a1ec-d9db723be139
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:25.370540+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Arable land and market gardens (I1)
+    record_url: https://deims.org/api/sites/f3a6eebe-ae82-4fc6-a1ec-d9db723be139
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:48:25.370540+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Arable land with unmixed crops grown by low-intensity agricultural methods
+      (I1.3)
+    record_url: https://deims.org/api/sites/f3a6eebe-ae82-4fc6-a1ec-d9db723be139
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:48:25.370540+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Regularly or recently cultivated agricultural, horticultural and domestic
+      habitats (I)
+    record_url: https://deims.org/api/sites/f3a6eebe-ae82-4fc6-a1ec-d9db723be139
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:48:25.370540+00:00'
   status: ACTIVE

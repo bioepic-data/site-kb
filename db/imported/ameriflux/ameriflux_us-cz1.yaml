@@ -16,6 +16,12 @@ sites:
     state_province: CA
   notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-CZ1;
     IGBP vegetation code: SAV; Reported flux-measurement start year: 2009'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: SAV
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-CZ1
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

@@ -139,4 +139,55 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:37:06.346199+00:00'
       source_modified_at: '2025-07-01T08:16:01+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/46db8855-a7b5-4937-8b5a-dd1f13a82606
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:37:06.346199+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: grasslands
+    record_url: https://deims.org/api/sites/46db8855-a7b5-4937-8b5a-dd1f13a82606
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:37:06.346199+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/46db8855-a7b5-4937-8b5a-dd1f13a82606
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:37:06.346199+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Flooded grasslands and savannas
+    record_url: https://deims.org/api/sites/46db8855-a7b5-4937-8b5a-dd1f13a82606
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:37:06.346199+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/46db8855-a7b5-4937-8b5a-dd1f13a82606
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:37:06.346199+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Arable land and market gardens (I1)
+    record_url: https://deims.org/api/sites/46db8855-a7b5-4937-8b5a-dd1f13a82606
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:37:06.346199+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Arable land with unmixed crops grown by low-intensity agricultural methods
+      (I1.3)
+    record_url: https://deims.org/api/sites/46db8855-a7b5-4937-8b5a-dd1f13a82606
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:37:06.346199+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Regularly or recently cultivated agricultural, horticultural and domestic
+      habitats (I)
+    record_url: https://deims.org/api/sites/46db8855-a7b5-4937-8b5a-dd1f13a82606
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:37:06.346199+00:00'
   status: ACTIVE

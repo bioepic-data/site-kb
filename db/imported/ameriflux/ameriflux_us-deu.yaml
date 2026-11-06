@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: URB; Reported flux-measurement start year: 2014; Koeppen
     climate code: Dsa; Source mean annual temperature (degrees C): 20.5; Source mean
     annual precipitation (mm): 131'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: URB
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Deu
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

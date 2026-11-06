@@ -17,4 +17,11 @@ sites:
       east: 15.083459
       north: 47.800004
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/ca6bcf27-2196-4c33-b3ce-38ba6f720891
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:42:21.608696+00:00'
   status: ACTIVE

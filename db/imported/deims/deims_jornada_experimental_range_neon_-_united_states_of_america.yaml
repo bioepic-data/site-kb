@@ -244,4 +244,29 @@ sites:
       source_modified_at: '2025-09-17T14:52:02+02:00'
   notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
     2111.1 km; the archived raw record keeps the polygon'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/9a9e1cb0-c43d-463a-87f4-e44697739d1a
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:48:10.098645+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: desert_scrub
+    record_url: https://deims.org/api/sites/9a9e1cb0-c43d-463a-87f4-e44697739d1a
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:10.098645+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Desert
+    record_url: https://deims.org/api/sites/9a9e1cb0-c43d-463a-87f4-e44697739d1a
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:10.098645+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deserts and xeric shrublands
+    record_url: https://deims.org/api/sites/9a9e1cb0-c43d-463a-87f4-e44697739d1a
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:48:10.098645+00:00'
   status: ACTIVE

@@ -551,4 +551,29 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:45.919047+00:00'
       source_modified_at: '2020-12-18T10:47:25+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/6ed77ef3-acb4-4d46-b42c-1272fbed16c3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:34:45.919047+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: grasslands
+    record_url: https://deims.org/api/sites/6ed77ef3-acb4-4d46-b42c-1272fbed16c3
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:34:45.919047+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/6ed77ef3-acb4-4d46-b42c-1272fbed16c3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:34:45.919047+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate grasslands, savannas, and shrublands
+    record_url: https://deims.org/api/sites/6ed77ef3-acb4-4d46-b42c-1272fbed16c3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:34:45.919047+00:00'
   status: ACTIVE

@@ -20,4 +20,29 @@ sites:
     \ College (previously the Queensland Department of Primary Industries Rosebank\
     \ Research Station) with a history of CSIRO research sites in the area.\r\n\r\n\
     Traditional owners at this site are the Iningai people."
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/cd030796-1566-4278-95ba-3514704f8112
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:47:16.563298+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/cd030796-1566-4278-95ba-3514704f8112
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:47:16.563298+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/cd030796-1566-4278-95ba-3514704f8112
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:47:16.563298+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/cd030796-1566-4278-95ba-3514704f8112
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:47:16.563298+00:00'
   status: ACTIVE

@@ -215,4 +215,35 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:19.817210+00:00'
       source_modified_at: '2022-07-13T05:53:00+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/47672266-1c49-4424-9589-5fa18aae36d9
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:19.817210+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: desert_scrub
+    record_url: https://deims.org/api/sites/47672266-1c49-4424-9589-5fa18aae36d9
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:19.817210+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Desert
+    record_url: https://deims.org/api/sites/47672266-1c49-4424-9589-5fa18aae36d9
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:19.817210+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deserts and xeric shrublands
+    record_url: https://deims.org/api/sites/47672266-1c49-4424-9589-5fa18aae36d9
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:44:19.817210+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland unvegetated or sparsely vegetated habitats (H)
+    record_url: https://deims.org/api/sites/47672266-1c49-4424-9589-5fa18aae36d9
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:44:19.817210+00:00'
   status: ACTIVE

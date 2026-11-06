@@ -15,6 +15,12 @@ sites:
     IGBP vegetation code: CRO; Reported flux-measurement start year: 2003; Reported
     flux-measurement end year: 2004; Koeppen climate code: Cfa; Source mean annual
     temperature (degrees C): 21; Source mean annual precipitation (mm): 1500'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: CRO
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/BR-PRS
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

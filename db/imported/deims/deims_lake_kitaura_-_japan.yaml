@@ -96,4 +96,35 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:09.372518+00:00'
       source_modified_at: '2020-06-29T10:42:37+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_lakes
+    record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Lakes
+    record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Permanent eutrophic lakes, ponds and pools (C1.3)
+    record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:44:09.372518+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Surface standing waters (C1)
+    record_url: https://deims.org/api/sites/ce49b235-02b3-4c1a-a5e6-379627277b83
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:44:09.372518+00:00'
   status: ACTIVE

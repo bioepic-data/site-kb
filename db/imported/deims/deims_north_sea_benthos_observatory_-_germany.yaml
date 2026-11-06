@@ -242,4 +242,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:15.359383+00:00'
       source_modified_at: '2025-12-15T09:32:21+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/50946250-c0fa-41b0-a917-17d2a3992eee
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:15.359383+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/50946250-c0fa-41b0-a917-17d2a3992eee
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:15.359383+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/50946250-c0fa-41b0-a917-17d2a3992eee
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:15.359383+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate shelfs and seas
+    record_url: https://deims.org/api/sites/50946250-c0fa-41b0-a917-17d2a3992eee
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:44:15.359383+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/50946250-c0fa-41b0-a917-17d2a3992eee
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:44:15.359383+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Sublittoral sediment (A5)
+    record_url: https://deims.org/api/sites/50946250-c0fa-41b0-a917-17d2a3992eee
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:44:15.359383+00:00'
   status: ACTIVE

@@ -102,4 +102,35 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:52.661392+00:00'
       source_modified_at: '2020-12-18T10:57:12+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/64e19ab3-92dc-461b-bbda-c966a7b3d0f5
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:52.661392+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/64e19ab3-92dc-461b-bbda-c966a7b3d0f5
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:44:52.661392+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: savanna
+    record_url: https://deims.org/api/sites/64e19ab3-92dc-461b-bbda-c966a7b3d0f5
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:52.661392+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/64e19ab3-92dc-461b-bbda-c966a7b3d0f5
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:52.661392+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Savanna
+    record_url: https://deims.org/api/sites/64e19ab3-92dc-461b-bbda-c966a7b3d0f5
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:44:52.661392+00:00'
   status: ACTIVE

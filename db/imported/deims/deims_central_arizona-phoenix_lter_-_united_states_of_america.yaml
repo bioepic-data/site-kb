@@ -89,4 +89,66 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:35:55.367646+00:00'
       source_modified_at: '2020-06-29T10:39:07+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: desert
+    record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Desert
+    record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Urban
+    record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Constructed, industrial and other artificial habitats (J)
+    record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Habitat complexes (X)
+    record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland unvegetated or sparsely vegetated habitats (H)
+    record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:35:55.367646+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Regularly or recently cultivated agricultural, horticultural and domestic
+      habitats (I)
+    record_url: https://deims.org/api/sites/216b3e75-2f2b-49cc-8d16-ee814cfc085e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/4
+    retrieved_at: '2026-10-15T17:35:55.367646+00:00'
   status: ACTIVE

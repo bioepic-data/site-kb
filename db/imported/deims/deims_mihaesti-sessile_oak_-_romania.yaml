@@ -13,4 +13,17 @@ sites:
     elevation_meters: 573.0
   description: ICP-Forest and FutMon networks core plot.
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/e58ce059-0459-4086-9197-96fb4855786e
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:38:12.350857+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/e58ce059-0459-4086-9197-96fb4855786e
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:38:12.350857+00:00'
   status: ACTIVE

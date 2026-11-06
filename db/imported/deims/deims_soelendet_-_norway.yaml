@@ -500,4 +500,11 @@ sites:
       retrieved_at: '2026-10-15T17:41:48.755628+00:00'
       source_modified_at: '2025-02-14T09:22:55+01:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: taiga
+    record_url: https://deims.org/api/sites/578870a5-834d-4879-8434-b503598acbd2
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:48.755628+00:00'
   status: ACTIVE

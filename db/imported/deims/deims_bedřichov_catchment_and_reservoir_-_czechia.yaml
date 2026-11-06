@@ -166,4 +166,47 @@ sites:
       retrieved_at: '2026-10-15T17:47:27.857212+00:00'
       source_modified_at: '2025-11-24T12:36:36+01:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Rivers
+    record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:47:27.857212+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/58923a61-9633-4d06-b147-65d45d2919d3
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:47:27.857212+00:00'
   status: ACTIVE

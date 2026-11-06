@@ -254,4 +254,65 @@ sites:
       retrieved_at: '2026-10-15T17:43:03.562736+00:00'
       source_modified_at: '2025-01-07T11:11:07+01:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/6869436a-80f4-4c6d-954b-a730b348d7ce
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:43:03.562736+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/6869436a-80f4-4c6d-954b-a730b348d7ce
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:43:03.562736+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/6869436a-80f4-4c6d-954b-a730b348d7ce
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:43:03.562736+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/6869436a-80f4-4c6d-954b-a730b348d7ce
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:43:03.562736+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate shelfs and seas
+    record_url: https://deims.org/api/sites/6869436a-80f4-4c6d-954b-a730b348d7ce
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:43:03.562736+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Deep-sea bed (A6)
+    record_url: https://deims.org/api/sites/6869436a-80f4-4c6d-954b-a730b348d7ce
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:43:03.562736+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Deep-sea muddy sand (A6.4)
+    record_url: https://deims.org/api/sites/6869436a-80f4-4c6d-954b-a730b348d7ce
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:43:03.562736+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Deep-sea sand (A6.3)
+    record_url: https://deims.org/api/sites/6869436a-80f4-4c6d-954b-a730b348d7ce
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:43:03.562736+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/6869436a-80f4-4c6d-954b-a730b348d7ce
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:43:03.562736+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Pelagic water column (A7)
+    record_url: https://deims.org/api/sites/6869436a-80f4-4c6d-954b-a730b348d7ce
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/4
+    retrieved_at: '2026-10-15T17:43:03.562736+00:00'
   status: ACTIVE

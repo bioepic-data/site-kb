@@ -15,6 +15,12 @@ sites:
     IGBP vegetation code: WET; Reported flux-measurement start year: 2015; Koeppen
     climate code: Am; Source mean annual temperature (degrees C): 26.4; Source mean
     annual precipitation (mm): 457.2'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: WET
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/BR-Cui
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

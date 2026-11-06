@@ -245,4 +245,23 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:47:58.808984+00:00'
       source_modified_at: '2025-09-18T16:09:47+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/5d4a0457-aff6-410b-b43a-2b3a00fba990
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:47:58.808984+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/5d4a0457-aff6-410b-b43a-2b3a00fba990
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:47:58.808984+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/5d4a0457-aff6-410b-b43a-2b3a00fba990
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:47:58.808984+00:00'
   status: ACTIVE

@@ -92,4 +92,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:47:50.461481+00:00'
       source_modified_at: '2025-09-18T08:58:00+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deciduous Forest
+    record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Rivers
+    record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:47:50.461481+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/68d82455-3f56-45d3-a9c1-643f73744fef
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:47:50.461481+00:00'
   status: ACTIVE

@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: WET; Reported flux-measurement start year: 2024; Koeppen
     climate code: Dfb; Source mean annual temperature (degrees C): 2.1; Source mean
     annual precipitation (mm): 969.7'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: WET
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/CA-WRF
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

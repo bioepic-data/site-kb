@@ -33,4 +33,23 @@ sites:
     in the lower sub-watersheds and $49,133 in the upper sub-watersheds.'
   notes: 'DEIMS boundary omitted: it excludes the record''s own coordinates by about
     4.3 km; the archived raw record keeps the polygon'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/c74174af-63ea-4783-9748-cabf980cdc22
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:45:14.533907+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Urban
+    record_url: https://deims.org/api/sites/c74174af-63ea-4783-9748-cabf980cdc22
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:45:14.533907+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/c74174af-63ea-4783-9748-cabf980cdc22
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:45:14.533907+00:00'
   status: ACTIVE

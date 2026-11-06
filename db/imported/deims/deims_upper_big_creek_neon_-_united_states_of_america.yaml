@@ -91,4 +91,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:48:16.818701+00:00'
       source_modified_at: '2025-09-17T10:11:22+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/a594cbf0-27ed-42b5-bcec-1b09635dba09
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:48:16.818701+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/a594cbf0-27ed-42b5-bcec-1b09635dba09
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:16.818701+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Evergreen Forest
+    record_url: https://deims.org/api/sites/a594cbf0-27ed-42b5-bcec-1b09635dba09
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:16.818701+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/a594cbf0-27ed-42b5-bcec-1b09635dba09
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:48:16.818701+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Rivers
+    record_url: https://deims.org/api/sites/a594cbf0-27ed-42b5-bcec-1b09635dba09
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:48:16.818701+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/a594cbf0-27ed-42b5-bcec-1b09635dba09
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:48:16.818701+00:00'
   status: ACTIVE

@@ -16,4 +16,17 @@ sites:
     \ sampling and analysis (every 2 years)\r\n- Solid soil analysis (every 10-15\
     \ years)\r\n- Increment measurements (every 5 years)\r\n- Ground vegetation analysis\
     \ (every 5 years)"
+  source_classifications:
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Boreal forests/taiga
+    record_url: https://deims.org/api/sites/490c5c4b-7739-453c-a2d3-4f0d9eb934f0
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:49:06.618557+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/490c5c4b-7739-453c-a2d3-4f0d9eb934f0
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:49:06.618557+00:00'
   status: ACTIVE

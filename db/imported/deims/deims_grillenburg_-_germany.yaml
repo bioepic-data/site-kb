@@ -23,4 +23,23 @@ sites:
     to 530 m (N), 250 m (W), 470 m (S) and 350 m (E), respectively. However, footprint
     investigations considering the site represents the specified target land cover
     type very well.
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/59bf9bb2-4765-4a99-b41f-fafd5f640e7c
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:49:50.880174+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: grasslands
+    record_url: https://deims.org/api/sites/59bf9bb2-4765-4a99-b41f-fafd5f640e7c
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:49:50.880174+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/59bf9bb2-4765-4a99-b41f-fafd5f640e7c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:49:50.880174+00:00'
   status: ACTIVE

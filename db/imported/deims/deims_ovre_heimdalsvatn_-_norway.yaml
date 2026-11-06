@@ -168,4 +168,29 @@ sites:
       retrieved_at: '2026-10-15T17:41:28.698610+00:00'
       source_modified_at: '2025-03-28T12:32:02+01:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_lakes
+    record_url: https://deims.org/api/sites/64118a34-a569-4b5b-9b3d-4b8880bc10f8
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:28.698610+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/64118a34-a569-4b5b-9b3d-4b8880bc10f8
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:41:28.698610+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Lakes
+    record_url: https://deims.org/api/sites/64118a34-a569-4b5b-9b3d-4b8880bc10f8
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:41:28.698610+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Lakes
+    record_url: https://deims.org/api/sites/64118a34-a569-4b5b-9b3d-4b8880bc10f8
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:41:28.698610+00:00'
   status: ACTIVE

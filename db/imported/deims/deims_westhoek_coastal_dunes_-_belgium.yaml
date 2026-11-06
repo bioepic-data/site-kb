@@ -218,4 +218,35 @@ sites:
       retrieved_at: '2026-10-15T17:43:33.761313+00:00'
       source_modified_at: '2022-10-24T09:55:45+02:00'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/46cdd668-31b9-4629-8293-c49c03ca6fa6
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:43:33.761313+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: coastal
+    record_url: https://deims.org/api/sites/46cdd668-31b9-4629-8293-c49c03ca6fa6
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:43:33.761313+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/46cdd668-31b9-4629-8293-c49c03ca6fa6
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:43:33.761313+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal dunes and sandy shores (B1)
+    record_url: https://deims.org/api/sites/46cdd668-31b9-4629-8293-c49c03ca6fa6
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:43:33.761313+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal habitats (B)
+    record_url: https://deims.org/api/sites/46cdd668-31b9-4629-8293-c49c03ca6fa6
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:43:33.761313+00:00'
   status: ACTIVE

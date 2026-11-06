@@ -36,4 +36,17 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:35:45.998693+00:00'
       source_modified_at: '2020-06-29T10:39:10+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/95fc2aec-1e22-4480-a21a-4297288d97e7
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:35:45.998693+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/95fc2aec-1e22-4480-a21a-4297288d97e7
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:35:45.998693+00:00'
   status: ACTIVE

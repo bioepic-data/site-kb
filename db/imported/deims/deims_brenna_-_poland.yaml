@@ -322,4 +322,41 @@ sites:
       retrieved_at: '2026-10-15T17:40:35.837830+00:00'
       source_modified_at: '2021-11-23T11:49:40+01:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/0ff5485d-4436-4153-b6fb-d6eac9c9dd23
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:40:35.837830+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: mixed_forest
+    record_url: https://deims.org/api/sites/0ff5485d-4436-4153-b6fb-d6eac9c9dd23
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:40:35.837830+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/0ff5485d-4436-4153-b6fb-d6eac9c9dd23
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:40:35.837830+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate coniferous forests
+    record_url: https://deims.org/api/sites/0ff5485d-4436-4153-b6fb-d6eac9c9dd23
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:40:35.837830+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coniferous woodland (G3)
+    record_url: https://deims.org/api/sites/0ff5485d-4436-4153-b6fb-d6eac9c9dd23
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:40:35.837830+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/0ff5485d-4436-4153-b6fb-d6eac9c9dd23
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:40:35.837830+00:00'
   status: ACTIVE

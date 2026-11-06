@@ -62,4 +62,35 @@ sites:
       retrieved_at: '2026-10-15T17:45:03.886592+00:00'
       source_modified_at: '2020-12-16T15:20:04+01:00'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/b1b47b83-fac5-4ca9-be17-65e367a70c58
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:45:03.886592+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deciduous Forest
+    record_url: https://deims.org/api/sites/b1b47b83-fac5-4ca9-be17-65e367a70c58
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:45:03.886592+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/b1b47b83-fac5-4ca9-be17-65e367a70c58
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:45:03.886592+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/b1b47b83-fac5-4ca9-be17-65e367a70c58
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:45:03.886592+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mediterranean forests, woodlands, and scrub
+    record_url: https://deims.org/api/sites/b1b47b83-fac5-4ca9-be17-65e367a70c58
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:45:03.886592+00:00'
   status: ACTIVE

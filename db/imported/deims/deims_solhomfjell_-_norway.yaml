@@ -15,4 +15,17 @@ sites:
     elevated valley between two low mountain peaks in south to middle boreal mixed
     forest
   notes: 'Biogeographical region: boreal'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/7f0512f8-3174-4294-bf59-fbd46193bea3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:36:54.648401+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: mixed_forest
+    record_url: https://deims.org/api/sites/7f0512f8-3174-4294-bf59-fbd46193bea3
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:54.648401+00:00'
   status: ACTIVE

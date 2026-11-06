@@ -226,4 +226,35 @@ sites:
       retrieved_at: '2026-10-15T17:48:32.497432+00:00'
       source_modified_at: '2021-11-04T11:52:44+01:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/2e6014fe-8f3b-4127-8ab1-405ae1303281
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:48:32.497432+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/2e6014fe-8f3b-4127-8ab1-405ae1303281
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:32.497432+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/2e6014fe-8f3b-4127-8ab1-405ae1303281
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:32.497432+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate shelfs and seas
+    record_url: https://deims.org/api/sites/2e6014fe-8f3b-4127-8ab1-405ae1303281
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:48:32.497432+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/2e6014fe-8f3b-4127-8ab1-405ae1303281
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:48:32.497432+00:00'
   status: ACTIVE

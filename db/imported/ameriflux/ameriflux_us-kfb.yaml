@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: GRA; Reported flux-measurement start year: 2006; Koeppen
     climate code: Cfa; Source mean annual temperature (degrees C): 12.77; Source mean
     annual precipitation (mm): 867'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: GRA
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-KFB
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

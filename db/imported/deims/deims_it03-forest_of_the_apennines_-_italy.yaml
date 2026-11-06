@@ -49,4 +49,35 @@ sites:
       retrieved_at: '2026-10-15T17:40:55.351040+00:00'
       source_modified_at: '2023-07-24T16:07:27+02:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/a2e325b8-9aa2-4c1b-b74c-a2ce59149252
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:40:55.351040+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/a2e325b8-9aa2-4c1b-b74c-a2ce59149252
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:40:55.351040+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deciduous Forest
+    record_url: https://deims.org/api/sites/a2e325b8-9aa2-4c1b-b74c-a2ce59149252
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:40:55.351040+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/a2e325b8-9aa2-4c1b-b74c-a2ce59149252
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:40:55.351040+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/a2e325b8-9aa2-4c1b-b74c-a2ce59149252
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:40:55.351040+00:00'
   status: ACTIVE

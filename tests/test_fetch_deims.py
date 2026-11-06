@@ -2,7 +2,7 @@
 
 import pytest
 
-from site_kb.scripts.fetch_deims import bounding_box, deims_to_site
+from site_kb.scripts.fetch_deims import bounding_box, deims_to_site, environment_classifications
 
 
 def test_deims_list_country_without_coordinates_does_not_emit_location():
@@ -182,3 +182,16 @@ def test_boundary_excluding_the_record_point_is_omitted_with_a_note():
     assert "DEIMS boundary omitted" in site["notes"] and "km" in site["notes"]
     detail["attributes"]["geographic"]["coordinates"] = "POINT (11.6 46.4)"
     assert deims_to_site({"id": "x", "title": "Tarvisio"}, detail)["location"]["bounding_box"]["west"] == 11.43
+
+
+def test_environmental_characteristics_become_verbatim_classifications():
+    env = {"biome": "mixed_forest", "geoBonBiome": ["Terrestrial"], "ecosystemType": [{"label": "Forest", "uri": None}],
+           "eunisHabitat": None}
+    result = environment_classifications(env, "abc", "2026-11-06T00:00:00+00:00")
+    assert [(c["scheme"], c["value"], c["field_path"]) for c in result] == [
+        ("geoBonBiome", "Terrestrial", "/attributes/environmentalCharacteristics/geoBonBiome/0"),
+        ("biome", "mixed_forest", "/attributes/environmentalCharacteristics/biome"),
+        ("ecosystemType", "Forest", "/attributes/environmentalCharacteristics/ecosystemType/0")]
+    assert result[0]["record_url"].endswith("/sites/abc") and result[0]["retrieved_at"].startswith("2026")
+    with pytest.raises(ValueError, match="not text"):
+        environment_classifications({"biome": 3}, "abc", None)

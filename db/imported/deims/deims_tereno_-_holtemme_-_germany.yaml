@@ -389,4 +389,35 @@ sites:
       retrieved_at: '2026-10-15T17:49:13.232118+00:00'
       source_modified_at: '2025-05-14T12:00:03+02:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/0d0422f5-596c-433b-bb5d-d51bd76703a0
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:49:13.232118+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/0d0422f5-596c-433b-bb5d-d51bd76703a0
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:49:13.232118+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Rivers
+    record_url: https://deims.org/api/sites/0d0422f5-596c-433b-bb5d-d51bd76703a0
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:49:13.232118+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Small rivers
+    record_url: https://deims.org/api/sites/0d0422f5-596c-433b-bb5d-d51bd76703a0
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:49:13.232118+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Permanent non-tidal, fast, turbulent watercourses (C2.2)
+    record_url: https://deims.org/api/sites/0d0422f5-596c-433b-bb5d-d51bd76703a0
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:49:13.232118+00:00'
   status: ACTIVE

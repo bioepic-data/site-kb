@@ -146,4 +146,41 @@ sites:
       retrieved_at: '2026-10-15T17:44:50.139560+00:00'
       source_modified_at: '2024-03-04T09:35:37+01:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/14d4e775-b092-4b13-beb2-2962bf86b7a3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:50.139560+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/14d4e775-b092-4b13-beb2-2962bf86b7a3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:44:50.139560+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/14d4e775-b092-4b13-beb2-2962bf86b7a3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/2
+    retrieved_at: '2026-10-15T17:44:50.139560+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/14d4e775-b092-4b13-beb2-2962bf86b7a3
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:50.139560+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/14d4e775-b092-4b13-beb2-2962bf86b7a3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:50.139560+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mediterranean forests, woodlands, and scrub
+    record_url: https://deims.org/api/sites/14d4e775-b092-4b13-beb2-2962bf86b7a3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:44:50.139560+00:00'
   status: ACTIVE

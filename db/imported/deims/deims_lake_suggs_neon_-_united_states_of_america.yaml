@@ -94,4 +94,35 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:47:41.828793+00:00'
       source_modified_at: '2025-09-17T15:24:43+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:47:41.828793+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:47:41.828793+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_lakes
+    record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:47:41.828793+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Lakes
+    record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:47:41.828793+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Lakes
+    record_url: https://deims.org/api/sites/ff8f509e-f06b-4d62-bd64-d53241fceee2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:47:41.828793+00:00'
   status: ACTIVE

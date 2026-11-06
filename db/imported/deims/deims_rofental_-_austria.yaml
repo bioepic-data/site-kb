@@ -542,4 +542,47 @@ sites:
       retrieved_at: '2026-10-15T17:42:33.195565+00:00'
       source_modified_at: '2024-05-08T15:35:56+02:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Alpine and subalpine grasslands (E4)
+    record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Grasslands and lands dominated by forbs, mosses or lichens (E)
+    record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland unvegetated or sparsely vegetated habitats (H)
+    record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:42:33.195565+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Snow or ice-dominated habitats (H4)
+    record_url: https://deims.org/api/sites/02ee24e5-d25e-4aa6-b6a2-9d08a12992df
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:42:33.195565+00:00'
   status: ACTIVE

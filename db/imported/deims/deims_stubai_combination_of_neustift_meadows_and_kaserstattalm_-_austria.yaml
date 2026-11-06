@@ -82,4 +82,65 @@ sites:
       retrieved_at: '2026-10-15T17:42:26.936169+00:00'
       source_modified_at: '2025-04-09T08:41:32+02:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Alpine and subalpine grasslands (E4)
+    record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coniferous woodland (G3)
+    record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Grasslands and lands dominated by forbs, mosses or lichens (E)
+    record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:42:26.936169+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/324f92a3-5940-4790-9738-5aa21992511c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:42:26.936169+00:00'
   status: ACTIVE

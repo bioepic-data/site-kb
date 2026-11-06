@@ -202,4 +202,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:45:45.939734+00:00'
       source_modified_at: '2024-03-04T09:01:33+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/909651a4-87aa-4cc2-834e-2490cc05b45d
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:45:45.939734+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/909651a4-87aa-4cc2-834e-2490cc05b45d
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:45:45.939734+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/909651a4-87aa-4cc2-834e-2490cc05b45d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:45:45.939734+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Ice caps and true glaciers (H4.2)
+    record_url: https://deims.org/api/sites/909651a4-87aa-4cc2-834e-2490cc05b45d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:45:45.939734+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland unvegetated or sparsely vegetated habitats (H)
+    record_url: https://deims.org/api/sites/909651a4-87aa-4cc2-834e-2490cc05b45d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:45:45.939734+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Snow or ice-dominated habitats (H4)
+    record_url: https://deims.org/api/sites/909651a4-87aa-4cc2-834e-2490cc05b45d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:45:45.939734+00:00'
   status: ACTIVE

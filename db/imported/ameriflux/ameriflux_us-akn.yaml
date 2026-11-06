@@ -15,6 +15,12 @@ sites:
   notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-Akn;
     IGBP vegetation code: MF; Reported flux-measurement start year: 2011; Reported
     flux-measurement end year: 2021'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: MF
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Akn
+    field_path: /IGBP
   variables:
   - name: H2O flux (source-reported)
     declaration_kind: UNSPECIFIED

@@ -148,4 +148,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:35:31.565213+00:00'
       source_modified_at: '2020-06-29T10:38:52+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Lakes
+    record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Lakes
+    record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Small lakes
+    record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:35:31.565213+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/1df9e7b7-3ea4-454c-bad1-b5d680fcfb51
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:35:31.565213+00:00'
   status: ACTIVE

@@ -89,4 +89,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:58.648794+00:00'
       source_modified_at: '2021-01-20T13:37:49+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/b6d98924-db1d-4444-9b52-93bc27a65c2b
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:34:58.648794+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/b6d98924-db1d-4444-9b52-93bc27a65c2b
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:34:58.648794+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/b6d98924-db1d-4444-9b52-93bc27a65c2b
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:34:58.648794+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/b6d98924-db1d-4444-9b52-93bc27a65c2b
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:34:58.648794+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate broadleaf and mixed forests
+    record_url: https://deims.org/api/sites/b6d98924-db1d-4444-9b52-93bc27a65c2b
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:34:58.648794+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate coniferous forests
+    record_url: https://deims.org/api/sites/b6d98924-db1d-4444-9b52-93bc27a65c2b
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:34:58.648794+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate grasslands, savannas, and shrublands
+    record_url: https://deims.org/api/sites/b6d98924-db1d-4444-9b52-93bc27a65c2b
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/4
+    retrieved_at: '2026-10-15T17:34:58.648794+00:00'
   status: ACTIVE

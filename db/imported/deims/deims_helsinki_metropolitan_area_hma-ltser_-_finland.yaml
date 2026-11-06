@@ -389,4 +389,47 @@ sites:
       retrieved_at: '2026-10-15T17:41:03.728404+00:00'
       source_modified_at: '2025-10-03T09:43:08+02:00'
   notes: 'Biogeographical region: boreal'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/35e3775a-88bc-483f-aed0-b614ce7736e2
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:41:03.728404+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: urban
+    record_url: https://deims.org/api/sites/35e3775a-88bc-483f-aed0-b614ce7736e2
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:03.728404+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Boreal forests/taiga
+    record_url: https://deims.org/api/sites/35e3775a-88bc-483f-aed0-b614ce7736e2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:41:03.728404+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/35e3775a-88bc-483f-aed0-b614ce7736e2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:41:03.728404+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/35e3775a-88bc-483f-aed0-b614ce7736e2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:41:03.728404+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Small rivers
+    record_url: https://deims.org/api/sites/35e3775a-88bc-483f-aed0-b614ce7736e2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:41:03.728404+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Urban
+    record_url: https://deims.org/api/sites/35e3775a-88bc-483f-aed0-b614ce7736e2
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/4
+    retrieved_at: '2026-10-15T17:41:03.728404+00:00'
   status: ACTIVE

@@ -253,4 +253,41 @@ sites:
       retrieved_at: '2026-10-15T17:51:08.104780+00:00'
       source_modified_at: '2025-12-11T10:48:34+01:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: mixed_forest
+    record_url: https://deims.org/api/sites/17f396ed-773a-4d59-a2aa-11aed5823c9e
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:51:08.104780+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/17f396ed-773a-4d59-a2aa-11aed5823c9e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:51:08.104780+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Lakes
+    record_url: https://deims.org/api/sites/17f396ed-773a-4d59-a2aa-11aed5823c9e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:51:08.104780+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mixed Forest
+    record_url: https://deims.org/api/sites/17f396ed-773a-4d59-a2aa-11aed5823c9e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:51:08.104780+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Small lakes
+    record_url: https://deims.org/api/sites/17f396ed-773a-4d59-a2aa-11aed5823c9e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:51:08.104780+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate broadleaf and mixed forests
+    record_url: https://deims.org/api/sites/17f396ed-773a-4d59-a2aa-11aed5823c9e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/4
+    retrieved_at: '2026-10-15T17:51:08.104780+00:00'
   status: ACTIVE

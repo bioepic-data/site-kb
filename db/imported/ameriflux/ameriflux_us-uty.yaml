@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: WAT; Reported flux-measurement start year: 2026; Koeppen
     climate code: Bsk; Source mean annual temperature (degrees C): 11; Source mean
     annual precipitation (mm): 350'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: WAT
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-UTY
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

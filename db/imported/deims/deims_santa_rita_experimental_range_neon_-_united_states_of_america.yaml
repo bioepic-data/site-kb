@@ -246,4 +246,29 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:48:10.707230+00:00'
       source_modified_at: '2025-09-18T16:17:23+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/8976fdd3-aaf3-4fc0-8861-67a93a00a39a
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:48:10.707230+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: desert
+    record_url: https://deims.org/api/sites/8976fdd3-aaf3-4fc0-8861-67a93a00a39a
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:10.707230+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Desert
+    record_url: https://deims.org/api/sites/8976fdd3-aaf3-4fc0-8861-67a93a00a39a
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:10.707230+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deserts and xeric shrublands
+    record_url: https://deims.org/api/sites/8976fdd3-aaf3-4fc0-8861-67a93a00a39a
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:48:10.707230+00:00'
   status: ACTIVE

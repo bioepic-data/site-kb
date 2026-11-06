@@ -89,4 +89,35 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:48:04.194694+00:00'
       source_modified_at: '2025-09-17T11:08:38+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/e9636471-06b8-4bc7-a14b-e6a4a698a838
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:48:04.194694+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/e9636471-06b8-4bc7-a14b-e6a4a698a838
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:04.194694+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deciduous Forest
+    record_url: https://deims.org/api/sites/e9636471-06b8-4bc7-a14b-e6a4a698a838
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:04.194694+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/e9636471-06b8-4bc7-a14b-e6a4a698a838
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:48:04.194694+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/e9636471-06b8-4bc7-a14b-e6a4a698a838
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:48:04.194694+00:00'
   status: ACTIVE

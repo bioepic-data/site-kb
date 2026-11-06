@@ -89,4 +89,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:48:22.755034+00:00'
       source_modified_at: '2025-09-19T09:34:44+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/2907ca49-90e7-433c-b4e4-8ec2f5a19483
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:48:22.755034+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/2907ca49-90e7-433c-b4e4-8ec2f5a19483
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:22.755034+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Evergreen Forest
+    record_url: https://deims.org/api/sites/2907ca49-90e7-433c-b4e4-8ec2f5a19483
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:22.755034+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Rivers
+    record_url: https://deims.org/api/sites/2907ca49-90e7-433c-b4e4-8ec2f5a19483
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:48:22.755034+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/2907ca49-90e7-433c-b4e4-8ec2f5a19483
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:48:22.755034+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Taiga
+    record_url: https://deims.org/api/sites/2907ca49-90e7-433c-b4e4-8ec2f5a19483
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:48:22.755034+00:00'
   status: ACTIVE

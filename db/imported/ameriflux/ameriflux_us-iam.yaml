@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: CRO; Reported flux-measurement start year: 2019; Koeppen
     climate code: Dfa; Source mean annual temperature (degrees C): 10.6; Source mean
     annual precipitation (mm): 912'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: CRO
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-IAM
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

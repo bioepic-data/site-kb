@@ -21,4 +21,35 @@ sites:
     species, the site holds more than 60% of total world population of the Audouin's
     gull, a threatened endemic seabird of the Mediterranean region.
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/73357ac9-5294-4570-9007-4dc949a6f70a
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:46:10.198538+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: coastal
+    record_url: https://deims.org/api/sites/73357ac9-5294-4570-9007-4dc949a6f70a
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:46:10.198538+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/73357ac9-5294-4570-9007-4dc949a6f70a
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:46:10.198538+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal dunes and sandy shores (B1)
+    record_url: https://deims.org/api/sites/73357ac9-5294-4570-9007-4dc949a6f70a
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:46:10.198538+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal habitats (B)
+    record_url: https://deims.org/api/sites/73357ac9-5294-4570-9007-4dc949a6f70a
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:46:10.198538+00:00'
   status: ACTIVE

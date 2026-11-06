@@ -15,6 +15,12 @@ sites:
   notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-A38;
     IGBP vegetation code: CVM; Reported flux-measurement start year: 2019; Koeppen
     climate code: Cfa'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: CVM
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-A38
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

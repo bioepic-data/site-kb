@@ -206,4 +206,53 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:59.914189+00:00'
       source_modified_at: '2020-06-29T10:43:57+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/2b5da7e6-e2ac-4067-b840-4550df9552d9
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:59.914189+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/2b5da7e6-e2ac-4067-b840-4550df9552d9
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:44:59.914189+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/2b5da7e6-e2ac-4067-b840-4550df9552d9
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/2
+    retrieved_at: '2026-10-15T17:44:59.914189+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: coastal
+    record_url: https://deims.org/api/sites/2b5da7e6-e2ac-4067-b840-4550df9552d9
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:59.914189+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/2b5da7e6-e2ac-4067-b840-4550df9552d9
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:59.914189+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/2b5da7e6-e2ac-4067-b840-4550df9552d9
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:44:59.914189+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Surface standing waters (C1)
+    record_url: https://deims.org/api/sites/2b5da7e6-e2ac-4067-b840-4550df9552d9
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:44:59.914189+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Temporary lakes, ponds and pools (C1.6)
+    record_url: https://deims.org/api/sites/2b5da7e6-e2ac-4067-b840-4550df9552d9
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:44:59.914189+00:00'
   status: ACTIVE

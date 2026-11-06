@@ -106,4 +106,65 @@ sites:
       retrieved_at: '2026-10-15T17:47:07.161793+00:00'
       source_modified_at: '2025-05-01T19:03:24+02:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate broadleaf and mixed forests
+    record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate coniferous forests
+    record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Beech woodland (G1.6)
+    record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Broadleaved deciduous woodland (G1)
+    record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coniferous woodland (G3)
+    record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Highly artificial coniferous plantations (G3.F)
+    record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:47:07.161793+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/85a36451-2dcf-4221-8d1e-5b95af210438
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/4
+    retrieved_at: '2026-10-15T17:47:07.161793+00:00'
   status: ACTIVE

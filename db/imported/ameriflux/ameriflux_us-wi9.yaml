@@ -15,6 +15,12 @@ sites:
   notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-Wi9;
     IGBP vegetation code: ENF; Reported flux-measurement start year: 2004; Reported
     flux-measurement end year: 2005; Koeppen climate code: Dfb'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: ENF
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Wi9
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

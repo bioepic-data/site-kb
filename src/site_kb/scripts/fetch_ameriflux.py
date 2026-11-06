@@ -169,6 +169,11 @@ def ameriflux_to_site(record: dict) -> dict:
         if value:
             notes.append(f"{label}: {value}")
     site["notes"] = "; ".join(notes)
+    igbp = optional_text(record, "IGBP")
+    if igbp:
+        # Verbatim source class; ENVO terms come only from curated crosswalks.
+        site["source_classifications"] = [{"source": "AMERIFLUX", "scheme": "IGBP", "value": igbp,
+                                           "record_url": url, "field_path": "/IGBP"}]
     return site
 
 

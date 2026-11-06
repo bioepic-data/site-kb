@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: GRA; Reported flux-measurement start year: 2000; Koeppen
     climate code: Bsk; Source mean annual temperature (degrees C): 5.48; Source mean
     annual precipitation (mm): 334.8'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: GRA
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-FPe
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

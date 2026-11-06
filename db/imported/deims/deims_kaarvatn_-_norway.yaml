@@ -15,4 +15,11 @@ sites:
     pollutants in Western Norway, located in a valley of mixed forest and grassland,
     surrounded by steep mountains
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/cac466c8-ee2a-4133-afd2-4497539e25a1
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:52.207028+00:00'
   status: ACTIVE

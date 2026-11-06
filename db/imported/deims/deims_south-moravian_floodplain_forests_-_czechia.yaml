@@ -86,4 +86,47 @@ sites:
       retrieved_at: '2026-10-15T17:38:59.483777+00:00'
       source_modified_at: '2024-09-12T17:31:12+02:00'
   notes: 'Biogeographical region: pannonian'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate broadleaf and mixed forests
+    record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Broadleaved deciduous woodland (G1)
+    record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Broadleaved swamp woodland not on acid peat (G1.4)
+    record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:38:59.483777+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/e742a1a7-61d2-4e65-8fef-2e809fd3963e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:38:59.483777+00:00'
   status: ACTIVE

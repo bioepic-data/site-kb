@@ -78,4 +78,29 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:39.218513+00:00'
       source_modified_at: '2020-06-29T10:39:02+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/9516fa76-79cc-4620-bc27-e721cdaf0db3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:34:39.218513+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/9516fa76-79cc-4620-bc27-e721cdaf0db3
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:34:39.218513+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/9516fa76-79cc-4620-bc27-e721cdaf0db3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:34:39.218513+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/9516fa76-79cc-4620-bc27-e721cdaf0db3
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:34:39.218513+00:00'
   status: ACTIVE

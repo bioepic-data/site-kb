@@ -15,6 +15,12 @@ sites:
     IGBP vegetation code: BSV; Reported flux-measurement start year: 2021; Koeppen
     climate code: Bwk; Source mean annual temperature (degrees C): 14.7; Source mean
     annual precipitation (mm): 245.1'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: BSV
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Jo3
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

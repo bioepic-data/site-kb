@@ -47,4 +47,35 @@ sites:
       retrieved_at: '2026-10-15T17:44:39.135907+00:00'
       source_modified_at: '2023-09-25T08:13:32+02:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/e87be18b-9360-459f-81cb-ec4a53cab57a
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:39.135907+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/e87be18b-9360-459f-81cb-ec4a53cab57a
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:39.135907+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/e87be18b-9360-459f-81cb-ec4a53cab57a
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:39.135907+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mixed Forest
+    record_url: https://deims.org/api/sites/e87be18b-9360-459f-81cb-ec4a53cab57a
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:44:39.135907+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/e87be18b-9360-459f-81cb-ec4a53cab57a
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:44:39.135907+00:00'
   status: ACTIVE

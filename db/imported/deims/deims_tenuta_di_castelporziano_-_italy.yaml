@@ -756,4 +756,59 @@ sites:
       retrieved_at: '2026-10-15T17:43:16.893559+00:00'
       source_modified_at: '2024-09-12T17:32:35+02:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/0d2269d3-5423-4939-a30d-077c8bc38b03
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:43:16.893559+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: mixed_forest
+    record_url: https://deims.org/api/sites/0d2269d3-5423-4939-a30d-077c8bc38b03
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:43:16.893559+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/0d2269d3-5423-4939-a30d-077c8bc38b03
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:43:16.893559+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Evergreen Forest
+    record_url: https://deims.org/api/sites/0d2269d3-5423-4939-a30d-077c8bc38b03
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:43:16.893559+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/0d2269d3-5423-4939-a30d-077c8bc38b03
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:43:16.893559+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mixed Forest
+    record_url: https://deims.org/api/sites/0d2269d3-5423-4939-a30d-077c8bc38b03
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:43:16.893559+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal habitats (B)
+    record_url: https://deims.org/api/sites/0d2269d3-5423-4939-a30d-077c8bc38b03
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:43:16.893559+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Mixed deciduous and coniferous woodland (G4)
+    record_url: https://deims.org/api/sites/0d2269d3-5423-4939-a30d-077c8bc38b03
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:43:16.893559+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/0d2269d3-5423-4939-a30d-077c8bc38b03
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:43:16.893559+00:00'
   status: ACTIVE

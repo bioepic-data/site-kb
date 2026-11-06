@@ -14,6 +14,12 @@ sites:
     state_province: AK
   notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-An1;
     IGBP vegetation code: OSH; Reported flux-measurement start year: 2008'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: OSH
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-An1
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

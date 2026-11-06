@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: OSH; Reported flux-measurement start year: 2006; Reported
     flux-measurement end year: 2009; Koeppen climate code: Bsh; Source mean annual
     temperature (degrees C): 5.1'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: OSH
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Sta
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

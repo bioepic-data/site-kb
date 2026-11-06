@@ -301,4 +301,29 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:35:04.633494+00:00'
       source_modified_at: '2021-03-11T10:05:40+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/7d4f6376-f357-4eb8-b67e-552f217e7470
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:35:04.633494+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_lakes
+    record_url: https://deims.org/api/sites/7d4f6376-f357-4eb8-b67e-552f217e7470
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:35:04.633494+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Lakes
+    record_url: https://deims.org/api/sites/7d4f6376-f357-4eb8-b67e-552f217e7470
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:35:04.633494+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Large lakes
+    record_url: https://deims.org/api/sites/7d4f6376-f357-4eb8-b67e-552f217e7470
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:35:04.633494+00:00'
   status: ACTIVE

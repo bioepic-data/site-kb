@@ -233,4 +233,41 @@ sites:
       retrieved_at: '2026-10-15T17:39:39.868283+00:00'
       source_modified_at: '2023-09-01T15:37:15+02:00'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/ddfc3f5e-8f0c-45eb-81f1-e75f5a9a693f
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:39:39.868283+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/ddfc3f5e-8f0c-45eb-81f1-e75f5a9a693f
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:39:39.868283+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Rivers
+    record_url: https://deims.org/api/sites/ddfc3f5e-8f0c-45eb-81f1-e75f5a9a693f
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:39:39.868283+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/ddfc3f5e-8f0c-45eb-81f1-e75f5a9a693f
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:39:39.868283+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/ddfc3f5e-8f0c-45eb-81f1-e75f5a9a693f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:39:39.868283+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Surface running waters (C2)
+    record_url: https://deims.org/api/sites/ddfc3f5e-8f0c-45eb-81f1-e75f5a9a693f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:39:39.868283+00:00'
   status: ACTIVE

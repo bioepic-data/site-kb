@@ -92,4 +92,17 @@ sites:
       retrieved_at: '2026-10-15T17:41:30.491031+00:00'
       source_modified_at: '2022-11-17T15:29:13+01:00'
   notes: 'Biogeographical region: boreal'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/516d7a1f-a89b-466c-8d6f-4d798422d663
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:30.491031+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/516d7a1f-a89b-466c-8d6f-4d798422d663
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:41:30.491031+00:00'
   status: ACTIVE

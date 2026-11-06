@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: CSH; Reported flux-measurement start year: 2003; Reported
     flux-measurement end year: 2007; Koeppen climate code: Bsh; Source mean annual
     temperature (degrees C): 5.4; Source mean annual precipitation (mm): 800'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: CSH
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Rwe
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

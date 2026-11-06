@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: WET; Reported flux-measurement start year: 2011; Reported
     flux-measurement end year: 2013; Koeppen climate code: Dfa; Source mean annual
     temperature (degrees C): 10.1; Source mean annual precipitation (mm): 849'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: WET
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-WPT
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

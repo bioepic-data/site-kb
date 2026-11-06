@@ -12,4 +12,11 @@ sites:
     country: Poland
     elevation_meters: 116.0
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/0ce0d289-9ef9-4232-a981-8f34869db76d
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:36:17.806995+00:00'
   status: ACTIVE

@@ -15,6 +15,12 @@ sites:
   notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-OF2;
     IGBP vegetation code: CRO; Koeppen climate code: Cfa; Source mean annual temperature
     (degrees C): 16.3; Source mean annual precipitation (mm): 1277.1'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: CRO
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-OF2
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

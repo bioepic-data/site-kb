@@ -825,4 +825,71 @@ sites:
       retrieved_at: '2026-10-15T17:40:48.191811+00:00'
       source_modified_at: '2025-12-11T11:33:01+01:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mixed Forest
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/4
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Urban
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/5
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Permanent non-tidal, smooth-flowing watercourses (C2.3)
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Surface running waters (C2)
+    record_url: https://deims.org/api/sites/9f9ba137-342d-4813-ae58-a60911c3abc1
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:40:48.191811+00:00'
   status: ACTIVE

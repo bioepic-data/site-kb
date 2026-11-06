@@ -87,4 +87,48 @@ sites:
       retrieved_at: '2026-10-15T17:38:40.149034+00:00'
       source_modified_at: '2025-02-21T10:37:51+01:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/669bef3e-2baf-4268-b4a7-20dab3f58ed3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:38:40.149034+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/669bef3e-2baf-4268-b4a7-20dab3f58ed3
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:38:40.149034+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Boreal forests/taiga
+    record_url: https://deims.org/api/sites/669bef3e-2baf-4268-b4a7-20dab3f58ed3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:38:40.149034+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/669bef3e-2baf-4268-b4a7-20dab3f58ed3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:38:40.149034+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coniferous woodland (G3)
+    record_url: https://deims.org/api/sites/669bef3e-2baf-4268-b4a7-20dab3f58ed3
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:38:40.149034+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Lines of trees, small anthropogenic woodlands, recently felled woodland,
+      early-stage woodland and coppice (G5)
+    record_url: https://deims.org/api/sites/669bef3e-2baf-4268-b4a7-20dab3f58ed3
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:38:40.149034+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/669bef3e-2baf-4268-b4a7-20dab3f58ed3
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:38:40.149034+00:00'
   status: ACTIVE

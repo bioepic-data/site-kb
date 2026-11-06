@@ -302,4 +302,29 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:51.790962+00:00'
       source_modified_at: '2020-12-18T10:57:03+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/d785f0be-0a48-4b5c-a57e-3660e960b53c
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:34:51.790962+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/d785f0be-0a48-4b5c-a57e-3660e960b53c
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:34:51.790962+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: coastal
+    record_url: https://deims.org/api/sites/d785f0be-0a48-4b5c-a57e-3660e960b53c
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:34:51.790962+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/d785f0be-0a48-4b5c-a57e-3660e960b53c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:34:51.790962+00:00'
   status: ACTIVE

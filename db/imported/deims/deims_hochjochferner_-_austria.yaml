@@ -45,4 +45,53 @@ sites:
       retrieved_at: '2026-10-15T17:42:34.906338+00:00'
       source_modified_at: '2023-07-25T08:47:59+02:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/86e3a1ca-b2ba-4b06-b096-71447df52841
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:42:34.906338+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/86e3a1ca-b2ba-4b06-b096-71447df52841
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:42:34.906338+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/86e3a1ca-b2ba-4b06-b096-71447df52841
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:42:34.906338+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Alpine and subalpine grasslands (E4)
+    record_url: https://deims.org/api/sites/86e3a1ca-b2ba-4b06-b096-71447df52841
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:42:34.906338+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Grasslands and lands dominated by forbs, mosses or lichens (E)
+    record_url: https://deims.org/api/sites/86e3a1ca-b2ba-4b06-b096-71447df52841
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:42:34.906338+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland unvegetated or sparsely vegetated habitats (H)
+    record_url: https://deims.org/api/sites/86e3a1ca-b2ba-4b06-b096-71447df52841
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:42:34.906338+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Miscellaneous inland habitats with very sparse or no vegetation (H5)
+    record_url: https://deims.org/api/sites/86e3a1ca-b2ba-4b06-b096-71447df52841
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:42:34.906338+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Snow or ice-dominated habitats (H4)
+    record_url: https://deims.org/api/sites/86e3a1ca-b2ba-4b06-b096-71447df52841
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/4
+    retrieved_at: '2026-10-15T17:42:34.906338+00:00'
   status: ACTIVE

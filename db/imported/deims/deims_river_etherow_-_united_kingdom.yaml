@@ -15,4 +15,17 @@ sites:
     managed by UK ECN Data Centre. Site description here: http://awmn.defra.gov.uk/sites/site_12.php.
     Note: The area is the size of the catchment.'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/12dd351b-394a-4ae6-a2ea-0e9d29a1cfb8
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:40:57.524188+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/12dd351b-394a-4ae6-a2ea-0e9d29a1cfb8
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:40:57.524188+00:00'
   status: ACTIVE

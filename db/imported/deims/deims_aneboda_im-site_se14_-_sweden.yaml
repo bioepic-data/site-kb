@@ -350,4 +350,41 @@ sites:
       retrieved_at: '2026-10-15T17:40:53.456998+00:00'
       source_modified_at: '2025-01-07T11:09:19+01:00'
   notes: 'Biogeographical region: boreal'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/9dd45aa6-ed7a-49d2-bea4-7750351c55d0
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:40:53.456998+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: taiga
+    record_url: https://deims.org/api/sites/9dd45aa6-ed7a-49d2-bea4-7750351c55d0
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:40:53.456998+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/9dd45aa6-ed7a-49d2-bea4-7750351c55d0
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:40:53.456998+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mixed Forest
+    record_url: https://deims.org/api/sites/9dd45aa6-ed7a-49d2-bea4-7750351c55d0
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:40:53.456998+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Mixed deciduous and coniferous woodland (G4)
+    record_url: https://deims.org/api/sites/9dd45aa6-ed7a-49d2-bea4-7750351c55d0
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:40:53.456998+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/9dd45aa6-ed7a-49d2-bea4-7750351c55d0
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:40:53.456998+00:00'
   status: ACTIVE

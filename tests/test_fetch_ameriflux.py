@@ -148,3 +148,12 @@ def test_neon_overlap_is_reported_without_adding_registration(tmp_path):
     assert len(overlaps) == 1 and len(overlaps[0]["reasons"]) == 2
     assert overlaps[0]["resolution"] == "UNREVIEWED"
     assert len(site["network_registrations"]) == 1
+
+
+def test_igbp_code_is_kept_as_a_verbatim_classification_without_terms():
+    site = amf.ameriflux_to_site(record())
+    assert site["source_classifications"] == [{"source": "AMERIFLUX", "scheme": "IGBP", "value": "DBF",
+                                               "record_url": "https://ameriflux.lbl.gov/sites/siteinfo/US-Ha1",
+                                               "field_path": "/IGBP"}]
+    assert "land_cover_terms" not in site and "ecosystem_terms" not in site
+    assert "source_classifications" not in amf.ameriflux_to_site(record(IGBP=None))

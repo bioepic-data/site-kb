@@ -20,4 +20,29 @@ sites:
     in the municipality of Santo Antônio do Leverger / MT. It has relevant characteristics
     for studies related to climatic changes, because it has a great variety of phytophysiognomies
     and soil textures.
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/f81e1670-cf4d-494f-a59f-b1b470d36e2f
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:46:11.996765+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: savanna
+    record_url: https://deims.org/api/sites/f81e1670-cf4d-494f-a59f-b1b470d36e2f
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:46:11.996765+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland unvegetated or sparsely vegetated habitats (H)
+    record_url: https://deims.org/api/sites/f81e1670-cf4d-494f-a59f-b1b470d36e2f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:46:11.996765+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/f81e1670-cf4d-494f-a59f-b1b470d36e2f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:46:11.996765+00:00'
   status: ACTIVE

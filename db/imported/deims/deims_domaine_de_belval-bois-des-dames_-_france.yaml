@@ -33,4 +33,47 @@ sites:
     \ trainees and research teams. The ultimate goal of the FFS and ZARG is to open\
     \ all infrastructure and equipment to research teams who wish to do so, with the\
     \ option of adapting the facilities to their own needs."
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/aed26423-9280-408f-b8d7-73d6495e232b
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:51:11.011563+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/aed26423-9280-408f-b8d7-73d6495e232b
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:51:11.011563+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deciduous Forest
+    record_url: https://deims.org/api/sites/aed26423-9280-408f-b8d7-73d6495e232b
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:51:11.011563+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/aed26423-9280-408f-b8d7-73d6495e232b
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:51:11.011563+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/aed26423-9280-408f-b8d7-73d6495e232b
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:51:11.011563+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Permanent eutrophic lakes, ponds and pools (C1.3)
+    record_url: https://deims.org/api/sites/aed26423-9280-408f-b8d7-73d6495e232b
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:51:11.011563+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Surface standing waters (C1)
+    record_url: https://deims.org/api/sites/aed26423-9280-408f-b8d7-73d6495e232b
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:51:11.011563+00:00'
   status: ACTIVE

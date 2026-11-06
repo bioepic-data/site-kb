@@ -212,4 +212,35 @@ sites:
       retrieved_at: '2026-10-15T17:37:26.174990+00:00'
       source_modified_at: '2023-07-28T11:16:18+02:00'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/17a4f45d-18ff-4266-84fe-497010dc72c9
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:37:26.174990+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_lakes
+    record_url: https://deims.org/api/sites/17a4f45d-18ff-4266-84fe-497010dc72c9
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:37:26.174990+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Lakes
+    record_url: https://deims.org/api/sites/17a4f45d-18ff-4266-84fe-497010dc72c9
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:37:26.174990+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Lakes
+    record_url: https://deims.org/api/sites/17a4f45d-18ff-4266-84fe-497010dc72c9
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:37:26.174990+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Small lakes
+    record_url: https://deims.org/api/sites/17a4f45d-18ff-4266-84fe-497010dc72c9
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:37:26.174990+00:00'
   status: ACTIVE

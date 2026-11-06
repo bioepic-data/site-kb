@@ -174,4 +174,47 @@ sites:
       retrieved_at: '2026-10-15T17:38:00.835933+00:00'
       source_modified_at: '2025-01-07T11:11:07+01:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/0cbb0b0f-7a42-424c-bb78-c68dd50b7915
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:38:00.835933+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/0cbb0b0f-7a42-424c-bb78-c68dd50b7915
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:38:00.835933+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/0cbb0b0f-7a42-424c-bb78-c68dd50b7915
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:38:00.835933+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tundra
+    record_url: https://deims.org/api/sites/0cbb0b0f-7a42-424c-bb78-c68dd50b7915
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:38:00.835933+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Arctic, alpine and subalpine scrub (F2)
+    record_url: https://deims.org/api/sites/0cbb0b0f-7a42-424c-bb78-c68dd50b7915
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:38:00.835933+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Heathland, scrub and tundra (F)
+    record_url: https://deims.org/api/sites/0cbb0b0f-7a42-424c-bb78-c68dd50b7915
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:38:00.835933+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Subarctic and alpine dwarf willow scrub (F2.1)
+    record_url: https://deims.org/api/sites/0cbb0b0f-7a42-424c-bb78-c68dd50b7915
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:38:00.835933+00:00'
   status: ACTIVE

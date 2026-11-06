@@ -334,4 +334,36 @@ sites:
       retrieved_at: '2026-10-15T17:45:38.152324+00:00'
       source_modified_at: '2025-04-08T15:54:43+02:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/11864430-034e-44c0-adb0-cc34c2ecd167
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:45:38.152324+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/11864430-034e-44c0-adb0-cc34c2ecd167
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:45:38.152324+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Arable land and market gardens (I1)
+    record_url: https://deims.org/api/sites/11864430-034e-44c0-adb0-cc34c2ecd167
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:45:38.152324+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Intensive unmixed crops (I1.1)
+    record_url: https://deims.org/api/sites/11864430-034e-44c0-adb0-cc34c2ecd167
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:45:38.152324+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Regularly or recently cultivated agricultural, horticultural and domestic
+      habitats (I)
+    record_url: https://deims.org/api/sites/11864430-034e-44c0-adb0-cc34c2ecd167
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:45:38.152324+00:00'
   status: ACTIVE

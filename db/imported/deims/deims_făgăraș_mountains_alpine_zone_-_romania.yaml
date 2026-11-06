@@ -106,4 +106,59 @@ sites:
       retrieved_at: '2026-10-15T17:46:07.636802+00:00'
       source_modified_at: '2020-06-29T10:41:01+02:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/c5325a5f-ac3e-450f-a8be-a928cfe5cee8
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:46:07.636802+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: grasslands
+    record_url: https://deims.org/api/sites/c5325a5f-ac3e-450f-a8be-a928cfe5cee8
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:46:07.636802+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/c5325a5f-ac3e-450f-a8be-a928cfe5cee8
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:46:07.636802+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/c5325a5f-ac3e-450f-a8be-a928cfe5cee8
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:46:07.636802+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Montane grasslands and shrublands
+    record_url: https://deims.org/api/sites/c5325a5f-ac3e-450f-a8be-a928cfe5cee8
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:46:07.636802+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate grasslands, savannas, and shrublands
+    record_url: https://deims.org/api/sites/c5325a5f-ac3e-450f-a8be-a928cfe5cee8
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:46:07.636802+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Acid alpine and subalpine grassland (E4.3)
+    record_url: https://deims.org/api/sites/c5325a5f-ac3e-450f-a8be-a928cfe5cee8
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:46:07.636802+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Alpine and subalpine grasslands (E4)
+    record_url: https://deims.org/api/sites/c5325a5f-ac3e-450f-a8be-a928cfe5cee8
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:46:07.636802+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Grasslands and lands dominated by forbs, mosses or lichens (E)
+    record_url: https://deims.org/api/sites/c5325a5f-ac3e-450f-a8be-a928cfe5cee8
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:46:07.636802+00:00'
   status: ACTIVE

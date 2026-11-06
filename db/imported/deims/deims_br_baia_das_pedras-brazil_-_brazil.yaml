@@ -14,4 +14,23 @@ sites:
   description: The Sesc Baía das Pedras Park is one of the units of the Sesc Pantanal
     Ecological Resort and is located in the municipality of Poconé, in the immediate
     vicinity of the Hotel Sesc Porto Cercado. It covers an area of 4,200 hectares
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/9f6b891b-ea70-42a5-b251-b393a1bf1e42
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:46:12.595429+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: savanna
+    record_url: https://deims.org/api/sites/9f6b891b-ea70-42a5-b251-b393a1bf1e42
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:46:12.595429+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/9f6b891b-ea70-42a5-b251-b393a1bf1e42
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:46:12.595429+00:00'
   status: ACTIVE

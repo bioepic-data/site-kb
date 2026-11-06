@@ -872,4 +872,53 @@ sites:
       retrieved_at: '2026-10-15T17:36:47.796470+00:00'
       source_modified_at: '2025-02-11T09:30:43+01:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/f30007c4-8a6e-4f11-ab87-569db54638fe
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:36:47.796470+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_lakes
+    record_url: https://deims.org/api/sites/f30007c4-8a6e-4f11-ab87-569db54638fe
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:47.796470+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Lakes
+    record_url: https://deims.org/api/sites/f30007c4-8a6e-4f11-ab87-569db54638fe
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:36:47.796470+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Lakes
+    record_url: https://deims.org/api/sites/f30007c4-8a6e-4f11-ab87-569db54638fe
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:36:47.796470+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Large lakes
+    record_url: https://deims.org/api/sites/f30007c4-8a6e-4f11-ab87-569db54638fe
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:36:47.796470+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/f30007c4-8a6e-4f11-ab87-569db54638fe
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:36:47.796470+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Permanent oligotrophic lakes, ponds and pools (C1.1)
+    record_url: https://deims.org/api/sites/f30007c4-8a6e-4f11-ab87-569db54638fe
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:36:47.796470+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Surface standing waters (C1)
+    record_url: https://deims.org/api/sites/f30007c4-8a6e-4f11-ab87-569db54638fe
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:36:47.796470+00:00'
   status: ACTIVE

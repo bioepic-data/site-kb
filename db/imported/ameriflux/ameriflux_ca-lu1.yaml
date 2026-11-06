@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: OSH; Reported flux-measurement start year: 2020; Reported
     flux-measurement end year: 2023; Koeppen climate code: Dfc; Source mean annual
     temperature (degrees C): -1.2; Source mean annual precipitation (mm): 379'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: OSH
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/CA-LU1
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

@@ -590,4 +590,47 @@ sites:
       retrieved_at: '2026-10-15T17:42:47.606659+00:00'
       source_modified_at: '2025-03-25T14:53:09+01:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/27da6893-2a06-4385-a935-901cb2bbdf70
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:42:47.606659+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/27da6893-2a06-4385-a935-901cb2bbdf70
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:42:47.606659+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deciduous Forest
+    record_url: https://deims.org/api/sites/27da6893-2a06-4385-a935-901cb2bbdf70
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:42:47.606659+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/27da6893-2a06-4385-a935-901cb2bbdf70
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:42:47.606659+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Acidophilous oak-dominated woodland (G1.8)
+    record_url: https://deims.org/api/sites/27da6893-2a06-4385-a935-901cb2bbdf70
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:42:47.606659+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Broadleaved deciduous woodland (G1)
+    record_url: https://deims.org/api/sites/27da6893-2a06-4385-a935-901cb2bbdf70
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:42:47.606659+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/27da6893-2a06-4385-a935-901cb2bbdf70
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:42:47.606659+00:00'
   status: ACTIVE

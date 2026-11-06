@@ -120,4 +120,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:23.417201+00:00'
       source_modified_at: '2022-07-13T05:55:19+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/a78ad79c-5285-4885-991c-2fb344f4f294
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:23.417201+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: desert_scrub
+    record_url: https://deims.org/api/sites/a78ad79c-5285-4885-991c-2fb344f4f294
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:23.417201+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Desert
+    record_url: https://deims.org/api/sites/a78ad79c-5285-4885-991c-2fb344f4f294
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:23.417201+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deserts and xeric shrublands
+    record_url: https://deims.org/api/sites/a78ad79c-5285-4885-991c-2fb344f4f294
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:44:23.417201+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/a78ad79c-5285-4885-991c-2fb344f4f294
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:44:23.417201+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate grasslands, savannas, and shrublands
+    record_url: https://deims.org/api/sites/a78ad79c-5285-4885-991c-2fb344f4f294
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:44:23.417201+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Heathland, scrub and tundra (F)
+    record_url: https://deims.org/api/sites/a78ad79c-5285-4885-991c-2fb344f4f294
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:44:23.417201+00:00'
   status: ACTIVE

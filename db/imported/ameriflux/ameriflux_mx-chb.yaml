@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: SAV; Reported flux-measurement start year: 2011; Koeppen
     climate code: Bwh; Source mean annual temperature (degrees C): 24.6; Source mean
     annual precipitation (mm): 286.2'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: SAV
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/MX-CHB
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

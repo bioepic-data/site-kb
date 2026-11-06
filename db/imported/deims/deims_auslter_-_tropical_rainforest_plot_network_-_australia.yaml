@@ -447,4 +447,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:28.159206+00:00'
       source_modified_at: '2022-07-13T05:59:23+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/6fc31303-c4e0-4847-84e3-9abdc5531ccd
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:28.159206+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/6fc31303-c4e0-4847-84e3-9abdc5531ccd
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:28.159206+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/6fc31303-c4e0-4847-84e3-9abdc5531ccd
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:28.159206+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tropical and subtropical moist broadleaf forests
+    record_url: https://deims.org/api/sites/6fc31303-c4e0-4847-84e3-9abdc5531ccd
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:44:28.159206+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Broadleaved evergreen woodland (G2)
+    record_url: https://deims.org/api/sites/6fc31303-c4e0-4847-84e3-9abdc5531ccd
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:44:28.159206+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/6fc31303-c4e0-4847-84e3-9abdc5531ccd
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:44:28.159206+00:00'
   status: ACTIVE

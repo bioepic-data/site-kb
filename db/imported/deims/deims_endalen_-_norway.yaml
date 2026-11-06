@@ -32,4 +32,11 @@ sites:
       retrieved_at: '2026-10-15T17:41:47.857938+00:00'
       source_modified_at: '2023-07-24T14:04:58+02:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/88eb341d-e055-4a4f-a23a-6ba7d883cbc4
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:47.857938+00:00'
   status: ACTIVE

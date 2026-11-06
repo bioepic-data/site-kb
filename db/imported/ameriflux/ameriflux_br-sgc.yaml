@@ -18,6 +18,12 @@ sites:
     IGBP vegetation code: EBF; Reported flux-measurement start year: 2004; Reported
     flux-measurement end year: 2010; Koeppen climate code: Af; Source mean annual
     temperature (degrees C): 27; Source mean annual precipitation (mm): 3000'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: EBF
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/BR-SGC
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

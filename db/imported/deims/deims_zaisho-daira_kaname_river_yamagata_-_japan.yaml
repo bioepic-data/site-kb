@@ -24,4 +24,35 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:35:11.872877+00:00'
       source_modified_at: '2020-12-18T10:30:22+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: deciduous_forest
+    record_url: https://deims.org/api/sites/6e8d9229-c577-40b7-826c-7871a3ea28a9
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:35:11.872877+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deciduous Forest
+    record_url: https://deims.org/api/sites/6e8d9229-c577-40b7-826c-7871a3ea28a9
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:35:11.872877+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/6e8d9229-c577-40b7-826c-7871a3ea28a9
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:35:11.872877+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Broadleaved deciduous woodland (G1)
+    record_url: https://deims.org/api/sites/6e8d9229-c577-40b7-826c-7871a3ea28a9
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:35:11.872877+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/6e8d9229-c577-40b7-826c-7871a3ea28a9
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:35:11.872877+00:00'
   status: ACTIVE

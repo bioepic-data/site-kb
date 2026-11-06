@@ -244,4 +244,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:47:37.902750+00:00'
       source_modified_at: '2025-09-17T14:36:11+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/0b6a046a-1097-4aea-8095-73cfa9940eac
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:47:37.902750+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/0b6a046a-1097-4aea-8095-73cfa9940eac
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:47:37.902750+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Evergreen Forest
+    record_url: https://deims.org/api/sites/0b6a046a-1097-4aea-8095-73cfa9940eac
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:47:37.902750+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/0b6a046a-1097-4aea-8095-73cfa9940eac
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:47:37.902750+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Rivers
+    record_url: https://deims.org/api/sites/0b6a046a-1097-4aea-8095-73cfa9940eac
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:47:37.902750+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rainforest
+    record_url: https://deims.org/api/sites/0b6a046a-1097-4aea-8095-73cfa9940eac
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:47:37.902750+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/0b6a046a-1097-4aea-8095-73cfa9940eac
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/4
+    retrieved_at: '2026-10-15T17:47:37.902750+00:00'
   status: ACTIVE

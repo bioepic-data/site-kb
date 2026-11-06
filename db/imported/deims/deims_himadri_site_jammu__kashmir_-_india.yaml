@@ -122,4 +122,11 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:46:09.600407+00:00'
       source_modified_at: '2020-06-29T10:41:08+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/f9a87496-9be3-4949-ab6f-477cc2f507af
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:46:09.600407+00:00'
   status: ACTIVE

@@ -82,4 +82,59 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:43.375227+00:00'
       source_modified_at: '2020-12-18T11:04:34+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/90be04ce-6799-4f40-8749-17c2af123280
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:34:43.375227+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/90be04ce-6799-4f40-8749-17c2af123280
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:34:43.375227+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/90be04ce-6799-4f40-8749-17c2af123280
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:34:43.375227+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/90be04ce-6799-4f40-8749-17c2af123280
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:34:43.375227+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/90be04ce-6799-4f40-8749-17c2af123280
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:34:43.375227+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Evergreen Forest
+    record_url: https://deims.org/api/sites/90be04ce-6799-4f40-8749-17c2af123280
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:34:43.375227+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/90be04ce-6799-4f40-8749-17c2af123280
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:34:43.375227+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/90be04ce-6799-4f40-8749-17c2af123280
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/4
+    retrieved_at: '2026-10-15T17:34:43.375227+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Montane grasslands and shrublands
+    record_url: https://deims.org/api/sites/90be04ce-6799-4f40-8749-17c2af123280
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/5
+    retrieved_at: '2026-10-15T17:34:43.375227+00:00'
   status: ACTIVE

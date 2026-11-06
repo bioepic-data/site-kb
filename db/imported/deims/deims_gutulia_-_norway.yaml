@@ -14,4 +14,17 @@ sites:
   description: long-term terrestrial ecosystems site located in rolling mountain terrain
     in north boreal conifer and birch forest and low alpine vegetation zones
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/85f200be-f34a-49c2-b894-a0d0cb3c3b1e
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:36:53.449915+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: taiga
+    record_url: https://deims.org/api/sites/85f200be-f34a-49c2-b894-a0d0cb3c3b1e
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:53.449915+00:00'
   status: ACTIVE

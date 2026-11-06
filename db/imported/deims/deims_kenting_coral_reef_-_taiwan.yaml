@@ -80,4 +80,23 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:35:44.788267+00:00'
       source_modified_at: '2020-06-29T10:41:20+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/f73666e3-a7d6-45c9-8361-59b4871b654c
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:35:44.788267+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/f73666e3-a7d6-45c9-8361-59b4871b654c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:35:44.788267+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tropical coral
+    record_url: https://deims.org/api/sites/f73666e3-a7d6-45c9-8361-59b4871b654c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:35:44.788267+00:00'
   status: ACTIVE

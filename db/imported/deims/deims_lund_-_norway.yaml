@@ -14,4 +14,17 @@ sites:
   description: long-term terrestrial ecosystems monitoring site in rolling hills/mountains
     in middle to north boreal birch forest and low alpine vegetation zones
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/1d792727-6bd0-4fda-a3f8-33972f3c4fff
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:36:54.037765+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/1d792727-6bd0-4fda-a3f8-33972f3c4fff
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:54.037765+00:00'
   status: ACTIVE

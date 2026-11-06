@@ -15,4 +15,17 @@ sites:
     rolling hill landscape in north boreal birch forest and low alpine vegetation
     zones
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/f469e62a-1e98-41eb-af35-9bab3faf8aed
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:36:50.539944+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/f469e62a-1e98-41eb-af35-9bab3faf8aed
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:50.539944+00:00'
   status: ACTIVE

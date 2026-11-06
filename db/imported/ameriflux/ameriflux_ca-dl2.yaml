@@ -15,6 +15,12 @@ sites:
     IGBP vegetation code: WET; Reported flux-measurement start year: 2006; Koeppen
     climate code: Dfc; Source mean annual temperature (degrees C): -9; Source mean
     annual precipitation (mm): 250'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: WET
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/CA-DL2
+    field_path: /IGBP
   variables:
   - name: CH4 flux (source-reported)
     declaration_kind: UNSPECIFIED

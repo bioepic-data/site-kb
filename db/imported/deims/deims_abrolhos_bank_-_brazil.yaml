@@ -219,4 +219,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:45:00.665798+00:00'
       source_modified_at: '2021-02-12T10:15:13+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/a497328f-1e2d-416c-bc25-6ccf31965af4
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:45:00.665798+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/a497328f-1e2d-416c-bc25-6ccf31965af4
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:45:00.665798+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/a497328f-1e2d-416c-bc25-6ccf31965af4
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:45:00.665798+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/a497328f-1e2d-416c-bc25-6ccf31965af4
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:45:00.665798+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/a497328f-1e2d-416c-bc25-6ccf31965af4
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:45:00.665798+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tropical coral
+    record_url: https://deims.org/api/sites/a497328f-1e2d-416c-bc25-6ccf31965af4
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:45:00.665798+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/a497328f-1e2d-416c-bc25-6ccf31965af4
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:45:00.665798+00:00'
   status: ACTIVE

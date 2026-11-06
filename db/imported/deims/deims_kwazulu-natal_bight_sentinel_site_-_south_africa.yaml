@@ -74,4 +74,53 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:49:01.112478+00:00'
       source_modified_at: '2025-01-10T09:23:33+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/0ae80e03-6e3d-4e39-b42a-a9a1f588f33c
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:49:01.112478+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/0ae80e03-6e3d-4e39-b42a-a9a1f588f33c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:49:01.112478+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/0ae80e03-6e3d-4e39-b42a-a9a1f588f33c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:49:01.112478+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mangroves
+    record_url: https://deims.org/api/sites/0ae80e03-6e3d-4e39-b42a-a9a1f588f33c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:49:01.112478+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/0ae80e03-6e3d-4e39-b42a-a9a1f588f33c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:49:01.112478+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tropical coral
+    record_url: https://deims.org/api/sites/0ae80e03-6e3d-4e39-b42a-a9a1f588f33c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/4
+    retrieved_at: '2026-10-15T17:49:01.112478+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tropical upwelling
+    record_url: https://deims.org/api/sites/0ae80e03-6e3d-4e39-b42a-a9a1f588f33c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/5
+    retrieved_at: '2026-10-15T17:49:01.112478+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Urban
+    record_url: https://deims.org/api/sites/0ae80e03-6e3d-4e39-b42a-a9a1f588f33c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/6
+    retrieved_at: '2026-10-15T17:49:01.112478+00:00'
   status: ACTIVE

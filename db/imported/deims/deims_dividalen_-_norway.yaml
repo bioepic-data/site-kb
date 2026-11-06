@@ -14,4 +14,71 @@ sites:
   description: long-term ecosystems monitoring site located in a broad valley covering
     north boral pine and birch forest and low alpine vegetation zones
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: tundra
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Boreal forests/taiga
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tundra
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Arctic, alpine and subalpine scrub (F2)
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Heathland, scrub and tundra (F)
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Mixed deciduous and coniferous woodland (G4)
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Mixed taiga woodland with birch (G4.2)
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/35cddb94-0c01-45ea-96fc-351ace2e088d
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/4
+    retrieved_at: '2026-10-15T17:36:52.860450+00:00'
   status: ACTIVE

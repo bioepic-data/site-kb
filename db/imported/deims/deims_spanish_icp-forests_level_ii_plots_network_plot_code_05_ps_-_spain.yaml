@@ -453,4 +453,47 @@ sites:
       retrieved_at: '2026-10-15T17:41:49.515544+00:00'
       source_modified_at: '2025-05-26T11:17:28+02:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/6b5ea4b7-c31d-4418-9dd5-233188df1114
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:41:49.515544+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/6b5ea4b7-c31d-4418-9dd5-233188df1114
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:49.515544+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/6b5ea4b7-c31d-4418-9dd5-233188df1114
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:41:49.515544+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate coniferous forests
+    record_url: https://deims.org/api/sites/6b5ea4b7-c31d-4418-9dd5-233188df1114
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:41:49.515544+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coniferous woodland (G3)
+    record_url: https://deims.org/api/sites/6b5ea4b7-c31d-4418-9dd5-233188df1114
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:41:49.515544+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Scots pine woodland south of the taiga (G3.4)
+    record_url: https://deims.org/api/sites/6b5ea4b7-c31d-4418-9dd5-233188df1114
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:41:49.515544+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/6b5ea4b7-c31d-4418-9dd5-233188df1114
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:41:49.515544+00:00'
   status: ACTIVE

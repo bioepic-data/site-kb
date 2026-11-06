@@ -14,6 +14,12 @@ sites:
   notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-MAC;
     IGBP vegetation code: WET; Reported flux-measurement start year: 2013; Reported
     flux-measurement end year: 2015; Koeppen climate code: Cwa'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: WET
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-MAC
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

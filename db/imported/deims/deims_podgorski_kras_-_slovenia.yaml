@@ -204,4 +204,41 @@ sites:
       retrieved_at: '2026-10-15T17:46:26.732155+00:00'
       source_modified_at: '2025-04-23T10:42:03+02:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/a4822c8a-2cc3-4c44-8456-03e6b0216a0f
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:46:26.732155+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: grasslands
+    record_url: https://deims.org/api/sites/a4822c8a-2cc3-4c44-8456-03e6b0216a0f
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:46:26.732155+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/a4822c8a-2cc3-4c44-8456-03e6b0216a0f
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:46:26.732155+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/a4822c8a-2cc3-4c44-8456-03e6b0216a0f
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:46:26.732155+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Grasslands and lands dominated by forbs, mosses or lichens (E)
+    record_url: https://deims.org/api/sites/a4822c8a-2cc3-4c44-8456-03e6b0216a0f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:46:26.732155+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/a4822c8a-2cc3-4c44-8456-03e6b0216a0f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:46:26.732155+00:00'
   status: ACTIVE

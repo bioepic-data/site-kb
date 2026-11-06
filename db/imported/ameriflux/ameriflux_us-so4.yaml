@@ -15,6 +15,12 @@ sites:
   notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-SO4;
     IGBP vegetation code: CSH; Reported flux-measurement start year: 2004; Koeppen
     climate code: Csa'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: CSH
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-SO4
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

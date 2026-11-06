@@ -309,4 +309,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:37:36.652949+00:00'
       source_modified_at: '2025-01-07T11:14:56+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/1c9f9148-e8dc-4b67-ac13-ce387c5a6a2f
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:37:36.652949+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/1c9f9148-e8dc-4b67-ac13-ce387c5a6a2f
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:37:36.652949+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/1c9f9148-e8dc-4b67-ac13-ce387c5a6a2f
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:37:36.652949+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Completely mixed water column with full salinity (A7.3)
+    record_url: https://deims.org/api/sites/1c9f9148-e8dc-4b67-ac13-ce387c5a6a2f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:37:36.652949+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/1c9f9148-e8dc-4b67-ac13-ce387c5a6a2f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:37:36.652949+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Pelagic water column (A7)
+    record_url: https://deims.org/api/sites/1c9f9148-e8dc-4b67-ac13-ce387c5a6a2f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:37:36.652949+00:00'
   status: ACTIVE

@@ -1,0 +1,261 @@
+# AmeriFlux IGBP land-cover codes to ENVO land-cover zones.
+mappings:
+- source: AMERIFLUX
+  scheme: IGBP
+  value: ENF
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000843
+    label: area of evergreen forest
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Evergreen needleleaf forests; ENVO does not separate needleleaf from broadleaf forest areas.
+    ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: EBF
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000843
+    label: area of evergreen forest
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Evergreen broadleaf forests; ENVO does not separate needleleaf from broadleaf forest areas. ENVO
+    has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: DNF
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000816
+    label: area of deciduous forest
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Deciduous needleleaf forests; ENVO does not separate needleleaf from broadleaf forest areas.
+    ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: DBF
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000816
+    label: area of deciduous forest
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Deciduous broadleaf forests; ENVO does not separate needleleaf from broadleaf forest areas. ENVO
+    has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: MF
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000855
+    label: area of mixed forest
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Mixed forests. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: CSH
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000869
+    label: area of scrub
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Closed shrublands; ENVO does not distinguish shrub canopy density. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: OSH
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000869
+    label: area of scrub
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Open shrublands; ENVO does not distinguish shrub canopy density. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: WSA
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:00000261
+    label: savanna
+  relation: BROAD
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Woody savannas (30-60% tree cover); ENVO has one savanna class. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: SAV
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:00000261
+    label: savanna
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Savannas. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: GRA
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000888
+    label: area of gramanoid or herbaceous vegetation
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Grasslands. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: WET
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:00000043
+    label: wetland area
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Permanent wetlands. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: CRO
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000892
+    label: area of cropland
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Croplands. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: URB
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01001269
+    label: area of developed space
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Urban and built-up lands. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: CVM
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000892
+    label: area of cropland
+  relation: RELATED
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: 'Cropland/natural vegetation mosaics: cropland is only part of the mosaic. ENVO has no IGBP cross-references.'
+- source: AMERIFLUX
+  scheme: IGBP
+  value: SNO
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000746
+    label: area of perennial ice or snow
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Permanent snow and ice. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: BSV
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000752
+    label: area of barren land
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Barren sparse vegetation. ENVO has no IGBP cross-references.
+- source: AMERIFLUX
+  scheme: IGBP
+  value: WAT
+  target_slot: LAND_COVER
+  target:
+    id: ENVO:01000666
+    label: area of open water
+  relation: CLOSE
+  origin: CURATED
+  evidence:
+  - https://github.com/EnvironmentOntology/envo/blob/v2026-06-26/envo.obo
+  - https://fluxnet.org/data/badm-data-templates/igbp-classification/
+  attributed_to: site-kb curation
+  asserted_on: '2026-11-06'
+  notes: Water bodies. ENVO has no IGBP cross-references.

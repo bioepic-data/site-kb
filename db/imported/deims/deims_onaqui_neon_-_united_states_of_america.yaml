@@ -245,4 +245,29 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:48:11.994506+00:00'
       source_modified_at: '2025-09-18T11:15:21+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/4dfd3534-9b2b-45df-8307-bdb54bad3d10
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:48:11.994506+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/4dfd3534-9b2b-45df-8307-bdb54bad3d10
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:11.994506+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Evergreen Forest
+    record_url: https://deims.org/api/sites/4dfd3534-9b2b-45df-8307-bdb54bad3d10
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:11.994506+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/4dfd3534-9b2b-45df-8307-bdb54bad3d10
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:48:11.994506+00:00'
   status: ACTIVE

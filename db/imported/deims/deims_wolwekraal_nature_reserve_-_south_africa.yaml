@@ -50,4 +50,53 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:43:36.941671+00:00'
       source_modified_at: '2020-06-29T10:46:08+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:43:36.941671+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: desert_scrub
+    record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:43:36.941671+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:43:36.941671+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Desert
+    record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:43:36.941671+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Deserts and xeric shrublands
+    record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:43:36.941671+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Dry organic substrates with very sparse or no vegetation (H5.4)
+    record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:43:36.941671+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland unvegetated or sparsely vegetated habitats (H)
+    record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:43:36.941671+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Miscellaneous inland habitats with very sparse or no vegetation (H5)
+    record_url: https://deims.org/api/sites/356fac88-0041-4833-8273-b31789bc3763
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:43:36.941671+00:00'
   status: ACTIVE

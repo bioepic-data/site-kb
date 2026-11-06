@@ -33,4 +33,53 @@ sites:
       retrieved_at: '2026-10-15T17:42:30.204592+00:00'
       source_modified_at: '2023-07-24T13:18:53+02:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/206e8225-005d-47c2-a4c4-bc766cf5380f
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:42:30.204592+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/206e8225-005d-47c2-a4c4-bc766cf5380f
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:42:30.204592+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/206e8225-005d-47c2-a4c4-bc766cf5380f
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/2
+    retrieved_at: '2026-10-15T17:42:30.204592+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/206e8225-005d-47c2-a4c4-bc766cf5380f
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:42:30.204592+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/206e8225-005d-47c2-a4c4-bc766cf5380f
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:42:30.204592+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Ice caps and true glaciers (H4.2)
+    record_url: https://deims.org/api/sites/206e8225-005d-47c2-a4c4-bc766cf5380f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:42:30.204592+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland unvegetated or sparsely vegetated habitats (H)
+    record_url: https://deims.org/api/sites/206e8225-005d-47c2-a4c4-bc766cf5380f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:42:30.204592+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Snow or ice-dominated habitats (H4)
+    record_url: https://deims.org/api/sites/206e8225-005d-47c2-a4c4-bc766cf5380f
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:42:30.204592+00:00'
   status: ACTIVE

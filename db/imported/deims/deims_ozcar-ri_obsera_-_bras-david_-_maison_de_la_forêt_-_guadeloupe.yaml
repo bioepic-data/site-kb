@@ -204,4 +204,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:40:05.783133+00:00'
       source_modified_at: '2024-03-04T09:25:09+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/ee79db03-e505-4148-9e39-229fe9a3495d
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:40:05.783133+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/ee79db03-e505-4148-9e39-229fe9a3495d
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:40:05.783133+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: rainforest
+    record_url: https://deims.org/api/sites/ee79db03-e505-4148-9e39-229fe9a3495d
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:40:05.783133+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/ee79db03-e505-4148-9e39-229fe9a3495d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:40:05.783133+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rainforest
+    record_url: https://deims.org/api/sites/ee79db03-e505-4148-9e39-229fe9a3495d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:40:05.783133+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/ee79db03-e505-4148-9e39-229fe9a3495d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:40:05.783133+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Small rivers
+    record_url: https://deims.org/api/sites/ee79db03-e505-4148-9e39-229fe9a3495d
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:40:05.783133+00:00'
   status: ACTIVE

@@ -13,4 +13,11 @@ sites:
     elevation_meters: 900.0
   description: This site established in 2005 as part of a research project funded
     by the Israel Science Foundation (#1077/03)
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: chaparral
+    record_url: https://deims.org/api/sites/37d811af-9ff2-48bc-a330-3e4d46fee33d
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:40:54.084186+00:00'
   status: ACTIVE

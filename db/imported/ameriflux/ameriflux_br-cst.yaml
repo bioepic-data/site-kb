@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: DNF; Reported flux-measurement start year: 2014; Koeppen
     climate code: Bsh; Source mean annual temperature (degrees C): 25.2; Source mean
     annual precipitation (mm): 642'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: DNF
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/BR-CST
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

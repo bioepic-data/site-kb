@@ -114,4 +114,17 @@ sites:
       retrieved_at: '2026-10-15T17:48:43.411873+00:00'
       source_modified_at: '2025-09-08T10:24:26+02:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/504dc9e9-3ea8-4ef8-9a00-b042fac11300
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:43.411873+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/504dc9e9-3ea8-4ef8-9a00-b042fac11300
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:43.411873+00:00'
   status: ACTIVE

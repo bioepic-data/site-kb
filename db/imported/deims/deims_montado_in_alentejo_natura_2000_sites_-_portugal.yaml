@@ -335,4 +335,59 @@ sites:
       retrieved_at: '2026-10-15T17:45:19.251835+00:00'
       source_modified_at: '2020-06-29T10:42:55+02:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/10e6a0e2-a593-43d0-b915-31ec6e2d840e
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:45:19.251835+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/10e6a0e2-a593-43d0-b915-31ec6e2d840e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:45:19.251835+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/10e6a0e2-a593-43d0-b915-31ec6e2d840e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:45:19.251835+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/10e6a0e2-a593-43d0-b915-31ec6e2d840e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:45:19.251835+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mediterranean forests, woodlands, and scrub
+    record_url: https://deims.org/api/sites/10e6a0e2-a593-43d0-b915-31ec6e2d840e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/3
+    retrieved_at: '2026-10-15T17:45:19.251835+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Savanna
+    record_url: https://deims.org/api/sites/10e6a0e2-a593-43d0-b915-31ec6e2d840e
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/4
+    retrieved_at: '2026-10-15T17:45:19.251835+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Broadleaved evergreen woodland (G2)
+    record_url: https://deims.org/api/sites/10e6a0e2-a593-43d0-b915-31ec6e2d840e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:45:19.251835+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Mediterranean evergreen oak woodland (G2.1)
+    record_url: https://deims.org/api/sites/10e6a0e2-a593-43d0-b915-31ec6e2d840e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:45:19.251835+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/10e6a0e2-a593-43d0-b915-31ec6e2d840e
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:45:19.251835+00:00'
   status: ACTIVE

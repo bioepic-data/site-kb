@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: OSH; Reported flux-measurement start year: 2024; Reported
     flux-measurement end year: 2026; Koeppen climate code: Csa; Source mean annual
     temperature (degrees C): 16; Source mean annual precipitation (mm): 350'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: OSH
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-Wb1
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

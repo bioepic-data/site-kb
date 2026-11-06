@@ -75,4 +75,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:40:08.615002+00:00'
       source_modified_at: '2023-10-27T10:42:40+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Polar
+    record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Ice-associated marine habitats (A8)
+    record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:40:08.615002+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Sea ice (A8.1)
+    record_url: https://deims.org/api/sites/b4121cd7-8b02-4872-b1d2-516d1c02056a
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:40:08.615002+00:00'
   status: ACTIVE

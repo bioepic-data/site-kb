@@ -135,4 +135,30 @@ sites:
       retrieved_at: '2026-10-15T17:41:31.061703+00:00'
       source_modified_at: '2023-07-25T13:54:38+02:00'
   notes: 'Biogeographical region: boreal'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/f5699647-fef5-4d94-a0bc-8016b0a7552a
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:41:31.061703+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/f5699647-fef5-4d94-a0bc-8016b0a7552a
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:31.061703+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/f5699647-fef5-4d94-a0bc-8016b0a7552a
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:41:31.061703+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Regularly or recently cultivated agricultural, horticultural and domestic
+      habitats (I)
+    record_url: https://deims.org/api/sites/f5699647-fef5-4d94-a0bc-8016b0a7552a
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:41:31.061703+00:00'
   status: ACTIVE

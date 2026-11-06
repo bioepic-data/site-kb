@@ -231,4 +231,47 @@ sites:
       retrieved_at: '2026-10-15T17:39:36.745906+00:00'
       source_modified_at: '2023-07-28T10:19:14+02:00'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/e6cdc394-033f-481b-815f-b0b95d3e43c1
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:39:36.745906+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/e6cdc394-033f-481b-815f-b0b95d3e43c1
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:39:36.745906+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Rivers
+    record_url: https://deims.org/api/sites/e6cdc394-033f-481b-815f-b0b95d3e43c1
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:39:36.745906+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/e6cdc394-033f-481b-815f-b0b95d3e43c1
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:39:36.745906+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/e6cdc394-033f-481b-815f-b0b95d3e43c1
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:39:36.745906+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Surface running waters (C2)
+    record_url: https://deims.org/api/sites/e6cdc394-033f-481b-815f-b0b95d3e43c1
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:39:36.745906+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Tidal rivers, upstream from the estuary (C2.4)
+    record_url: https://deims.org/api/sites/e6cdc394-033f-481b-815f-b0b95d3e43c1
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:39:36.745906+00:00'
   status: ACTIVE

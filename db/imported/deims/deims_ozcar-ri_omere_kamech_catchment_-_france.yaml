@@ -686,4 +686,36 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:40:33.987167+00:00'
       source_modified_at: '2024-03-04T09:30:51+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/c617f8c8-1b19-4683-8546-a3c23c39bc0b
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:40:33.987167+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/c617f8c8-1b19-4683-8546-a3c23c39bc0b
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:40:33.987167+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/c617f8c8-1b19-4683-8546-a3c23c39bc0b
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:40:33.987167+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Habitat complexes (X)
+    record_url: https://deims.org/api/sites/c617f8c8-1b19-4683-8546-a3c23c39bc0b
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:40:33.987167+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Intensively-farmed crops interspersed with strips of natural and/or semi-natural
+      vegetation (X07)
+    record_url: https://deims.org/api/sites/c617f8c8-1b19-4683-8546-a3c23c39bc0b
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:40:33.987167+00:00'
   status: ACTIVE

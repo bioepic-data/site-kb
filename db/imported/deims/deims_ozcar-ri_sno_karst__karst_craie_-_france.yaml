@@ -174,4 +174,23 @@ sites:
       retrieved_at: '2026-10-15T17:47:08.714561+00:00'
       source_modified_at: '2026-06-01T08:22:11+02:00'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/9abe3e61-7bd8-461d-8674-c33e70f198ba
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:47:08.714561+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/9abe3e61-7bd8-461d-8674-c33e70f198ba
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:47:08.714561+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/9abe3e61-7bd8-461d-8674-c33e70f198ba
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:47:08.714561+00:00'
   status: ACTIVE

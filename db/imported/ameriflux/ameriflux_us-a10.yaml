@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: BSV; Reported flux-measurement start year: 2012; Koeppen
     climate code: ET; Source mean annual temperature (degrees C): -11.2; Source mean
     annual precipitation (mm): 115.1'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: BSV
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-A10
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

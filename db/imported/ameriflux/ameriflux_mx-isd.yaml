@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: OSH; Reported flux-measurement start year: 2019; Reported
     flux-measurement end year: 2020; Koeppen climate code: Bsh; Source mean annual
     temperature (degrees C): 17.5; Source mean annual precipitation (mm): 493'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: OSH
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/MX-ISD
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

@@ -116,4 +116,35 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:34:34.061411+00:00'
       source_modified_at: '2020-12-18T10:23:40+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:34:34.061411+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:34:34.061411+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:34:34.061411+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Domestic gardens of villages and urban peripheries (X25)
+    record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:34:34.061411+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Habitat complexes (X)
+    record_url: https://deims.org/api/sites/0c20aa08-f120-4c37-bf26-cef5fcb34980
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:34:34.061411+00:00'
   status: ACTIVE

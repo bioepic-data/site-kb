@@ -96,4 +96,29 @@ sites:
       retrieved_at: '2026-10-15T17:38:35.691582+00:00'
       source_modified_at: '2024-03-25T14:13:57+01:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/02ebdc77-d35c-4e19-ad7b-31a65885e7df
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:38:35.691582+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/02ebdc77-d35c-4e19-ad7b-31a65885e7df
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:38:35.691582+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/02ebdc77-d35c-4e19-ad7b-31a65885e7df
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:38:35.691582+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/02ebdc77-d35c-4e19-ad7b-31a65885e7df
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:38:35.691582+00:00'
   status: ACTIVE

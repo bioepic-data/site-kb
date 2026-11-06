@@ -39,4 +39,53 @@ sites:
       retrieved_at: '2026-10-15T17:45:49.811531+00:00'
       source_modified_at: '2024-03-04T12:06:26+01:00'
   notes: 'Biogeographical region: alpine'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/649f1b7c-86c7-495c-9e35-2c76811b9423
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:45:49.811531+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/649f1b7c-86c7-495c-9e35-2c76811b9423
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:45:49.811531+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/649f1b7c-86c7-495c-9e35-2c76811b9423
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:45:49.811531+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Montane grasslands and shrublands
+    record_url: https://deims.org/api/sites/649f1b7c-86c7-495c-9e35-2c76811b9423
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:45:49.811531+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Alpine and subalpine grasslands (E4)
+    record_url: https://deims.org/api/sites/649f1b7c-86c7-495c-9e35-2c76811b9423
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:45:49.811531+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Calcareous alpine and subalpine grassland (E4.4)
+    record_url: https://deims.org/api/sites/649f1b7c-86c7-495c-9e35-2c76811b9423
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:45:49.811531+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Grasslands and lands dominated by forbs, mosses or lichens (E)
+    record_url: https://deims.org/api/sites/649f1b7c-86c7-495c-9e35-2c76811b9423
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:45:49.811531+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Vegetated snow-patch (E4.1)
+    record_url: https://deims.org/api/sites/649f1b7c-86c7-495c-9e35-2c76811b9423
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:45:49.811531+00:00'
   status: ACTIVE

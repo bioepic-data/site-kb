@@ -11,4 +11,11 @@ sites:
     longitude: 35.1679
     country: Jordan
     elevation_meters: 100.0
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: desert
+    record_url: https://deims.org/api/sites/59135db4-1a43-4632-b926-cad81f132c44
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:37.891139+00:00'
   status: ACTIVE

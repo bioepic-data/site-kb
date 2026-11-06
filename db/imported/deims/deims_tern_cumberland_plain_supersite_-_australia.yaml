@@ -378,4 +378,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:43:39.033944+00:00'
       source_modified_at: '2021-02-08T23:28:39+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/a1bb29d8-197c-4181-90d8-76083afd44bb
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:43:39.033944+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/a1bb29d8-197c-4181-90d8-76083afd44bb
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:43:39.033944+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/a1bb29d8-197c-4181-90d8-76083afd44bb
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:43:39.033944+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Evergreen Forest
+    record_url: https://deims.org/api/sites/a1bb29d8-197c-4181-90d8-76083afd44bb
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:43:39.033944+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/a1bb29d8-197c-4181-90d8-76083afd44bb
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:43:39.033944+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Broadleaved evergreen woodland (G2)
+    record_url: https://deims.org/api/sites/a1bb29d8-197c-4181-90d8-76083afd44bb
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:43:39.033944+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/a1bb29d8-197c-4181-90d8-76083afd44bb
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:43:39.033944+00:00'
   status: ACTIVE

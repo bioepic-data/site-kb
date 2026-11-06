@@ -101,4 +101,47 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:37:06.973845+00:00'
       source_modified_at: '2021-11-23T11:49:00+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/72ebc320-a76b-4b49-b0a3-7a885408e18c
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:37:06.973845+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: coastal
+    record_url: https://deims.org/api/sites/72ebc320-a76b-4b49-b0a3-7a885408e18c
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:37:06.973845+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Coastal
+    record_url: https://deims.org/api/sites/72ebc320-a76b-4b49-b0a3-7a885408e18c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:37:06.973845+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal dune scrub (B1.6)
+    record_url: https://deims.org/api/sites/72ebc320-a76b-4b49-b0a3-7a885408e18c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:37:06.973845+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal dunes and sandy shores (B1)
+    record_url: https://deims.org/api/sites/72ebc320-a76b-4b49-b0a3-7a885408e18c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:37:06.973845+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal habitats (B)
+    record_url: https://deims.org/api/sites/72ebc320-a76b-4b49-b0a3-7a885408e18c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:37:06.973845+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal stable dune grassland (grey dunes) (B1.4)
+    record_url: https://deims.org/api/sites/72ebc320-a76b-4b49-b0a3-7a885408e18c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/3
+    retrieved_at: '2026-10-15T17:37:06.973845+00:00'
   status: ACTIVE

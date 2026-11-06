@@ -158,6 +158,16 @@ Terrestrial sites get `terrestrial ecosystem`. Aquatic subtypes give a water-bod
 `site_type` and a freshwater ecosystem or biome. Land cover is not an ecosystem
 claim, and at aquatic sites it may describe the surrounding landscape.
 
+The DEIMS importer keeps `geoBonBiome`, `biome`, `ecosystemType`, and `eunisHabitat`
+values from `environmentalCharacteristics`, and the AmeriFlux importer keeps the
+IGBP code (still also in notes), the same way. `deims.yaml` maps them to ENVO
+biomes and ecosystems, plus land cover for forest-type classes; `ameriflux.yaml`
+maps IGBP codes to ENVO land-cover zones. Compound WWF classes (e.g. "Temperate
+grasslands, savannas, and shrublands") map BROAD to a shared parent, and freshwater
+is asserted only where the source says so. "Coastal", most top-level EUNIS classes,
+and deeper EUNIS levels are deliberately unmapped; a test fails on any other
+unmapped value. See `docs/research/envo-classifications.md`.
+
 ### AmeriFlux site metadata and BIF staging
 
 `just fetch-ameriflux` imports the public AmeriFlux site list without an account.

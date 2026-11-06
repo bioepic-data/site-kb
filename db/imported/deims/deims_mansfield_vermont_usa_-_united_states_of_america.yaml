@@ -19,4 +19,41 @@ sites:
   description: This site consists of 8 sites along an elevation gradient from 470-660
     m in elevation on the western slope of Mt. Mansfield, with 3 harvest treatments
     plus a control. Mixed deciduous-conifer forest.
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/4e0929f9-72f7-47fa-865c-d380f5387a39
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:46:43.001945+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: mixed_forest
+    record_url: https://deims.org/api/sites/4e0929f9-72f7-47fa-865c-d380f5387a39
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:46:43.001945+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/4e0929f9-72f7-47fa-865c-d380f5387a39
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:46:43.001945+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Mixed Forest
+    record_url: https://deims.org/api/sites/4e0929f9-72f7-47fa-865c-d380f5387a39
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:46:43.001945+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Mixed deciduous and coniferous woodland (G4)
+    record_url: https://deims.org/api/sites/4e0929f9-72f7-47fa-865c-d380f5387a39
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:46:43.001945+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/4e0929f9-72f7-47fa-865c-d380f5387a39
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:46:43.001945+00:00'
   status: ACTIVE

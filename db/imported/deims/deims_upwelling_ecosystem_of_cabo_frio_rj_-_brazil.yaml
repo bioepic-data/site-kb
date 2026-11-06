@@ -78,4 +78,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:44:56.810359+00:00'
       source_modified_at: '2020-06-29T10:46:02+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:44:56.810359+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:44:56.810359+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:44:56.810359+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:44:56.810359+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tropical coral
+    record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:44:56.810359+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tropical upwelling
+    record_url: https://deims.org/api/sites/96fc075d-96f1-4677-bf67-5777dd2225c3
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:44:56.810359+00:00'
   status: ACTIVE

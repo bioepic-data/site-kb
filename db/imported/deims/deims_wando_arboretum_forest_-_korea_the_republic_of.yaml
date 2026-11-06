@@ -54,4 +54,23 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:46:20.918697+00:00'
       source_modified_at: '2021-03-03T11:56:41+01:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: mixed_forest
+    record_url: https://deims.org/api/sites/a76ff329-bbca-4901-807c-cb7764b64d57
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:46:20.918697+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/a76ff329-bbca-4901-807c-cb7764b64d57
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:46:20.918697+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Woodland, forest and other wooded land (G)
+    record_url: https://deims.org/api/sites/a76ff329-bbca-4901-807c-cb7764b64d57
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:46:20.918697+00:00'
   status: ACTIVE

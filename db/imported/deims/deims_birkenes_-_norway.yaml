@@ -15,4 +15,11 @@ sites:
     in a landscape of rolling hills with mixed forests, grasslands, lakes and some
     marginal agriculture.
   notes: 'Biogeographical region: boreal'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: taiga
+    record_url: https://deims.org/api/sites/68af6e55-e241-4afe-a3a6-32e79eef12fb
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:36:55.850091+00:00'
   status: ACTIVE

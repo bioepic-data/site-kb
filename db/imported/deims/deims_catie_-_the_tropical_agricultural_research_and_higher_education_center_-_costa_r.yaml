@@ -44,4 +44,35 @@ sites:
     \ pruned to maintain a 4m height of the stem. 5ton/ha of coffee pulp is applies\
     \ annually as an organic fertilizer; weeds are controlled mechanically, and coffee\
     \ diseases are not treated."
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/1029e880-bc98-427b-ada4-b53a76bb0023
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:45:59.963429+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: rainforest
+    record_url: https://deims.org/api/sites/1029e880-bc98-427b-ada4-b53a76bb0023
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:45:59.963429+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/1029e880-bc98-427b-ada4-b53a76bb0023
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:45:59.963429+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/1029e880-bc98-427b-ada4-b53a76bb0023
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:45:59.963429+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tropical and subtropical moist broadleaf forests
+    record_url: https://deims.org/api/sites/1029e880-bc98-427b-ada4-b53a76bb0023
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:45:59.963429+00:00'
   status: ACTIVE

@@ -378,4 +378,29 @@ sites:
       retrieved_at: '2026-10-15T17:45:28.307006+00:00'
       source_modified_at: '2023-07-25T08:31:33+02:00'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/f14a3e3e-96a6-4071-a8c6-08110ce45b85
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:45:28.307006+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_rivers
+    record_url: https://deims.org/api/sites/f14a3e3e-96a6-4071-a8c6-08110ce45b85
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:45:28.307006+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/f14a3e3e-96a6-4071-a8c6-08110ce45b85
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:45:28.307006+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Coastal habitats (B)
+    record_url: https://deims.org/api/sites/f14a3e3e-96a6-4071-a8c6-08110ce45b85
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:45:28.307006+00:00'
   status: ACTIVE

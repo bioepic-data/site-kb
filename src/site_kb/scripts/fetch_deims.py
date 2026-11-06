@@ -125,6 +125,32 @@ def _elevation_from_geographic(geo: dict) -> float | None:
     return _as_float(elevation)
 
 
+ENVIRONMENT_SCHEMES = ("geoBonBiome", "biome", "ecosystemType", "eunisHabitat")
+
+
+def environment_classifications(env_chars: dict, site_id: str, retrieved_at: str | None) -> list[dict]:
+    """Verbatim environmental classes; ENVO terms come only from curated crosswalks."""
+    result = []
+    for scheme in ENVIRONMENT_SCHEMES:
+        values = env_chars.get(scheme)
+        pointer = f"/attributes/environmentalCharacteristics/{scheme}"
+        entries = list(enumerate(values)) if isinstance(values, list) else [(None, values)]
+        for index, value in entries:
+            label = value.get("label") if isinstance(value, dict) else value
+            if label is None:
+                continue
+            if not isinstance(label, str):
+                raise ValueError(f"DEIMS {site_id}: {scheme} value is not text")
+            if label.strip():
+                item = {"source": "DEIMS", "scheme": scheme, "value": label.strip(),
+                        "record_url": f"{DEIMS_API}/sites/{site_id}",
+                        "field_path": pointer if index is None else f"{pointer}/{index}"}
+                if retrieved_at:
+                    item["retrieved_at"] = retrieved_at
+                result.append(item)
+    return result
+
+
 def deims_to_site(summary: dict, detail: dict, retrieved_at: str | None = None) -> dict:
     """Convert DEIMS API response to site-kb Site format."""
     title = _as_text(summary.get("title")) or "Unknown"
@@ -228,6 +254,9 @@ def deims_to_site(summary: dict, detail: dict, retrieved_at: str | None = None) 
                      f"{box_excluded:.1f} km; the archived raw record keeps the polygon")
     if notes:
         site["notes"] = "; ".join(notes)
+    classifications = environment_classifications(env_chars, site_id, retrieved_at)
+    if classifications:
+        site["source_classifications"] = classifications
 
     site["status"] = "ACTIVE"
 

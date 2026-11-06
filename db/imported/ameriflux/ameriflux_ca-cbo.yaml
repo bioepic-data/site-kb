@@ -15,6 +15,12 @@ sites:
     IGBP vegetation code: DBF; Reported flux-measurement start year: 1995; Koeppen
     climate code: Dfb; Source mean annual temperature (degrees C): 6.66; Source mean
     annual precipitation (mm): 876.34'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: DBF
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/CA-Cbo
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

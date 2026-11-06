@@ -99,4 +99,41 @@ sites:
       retrieved_at: '2026-10-15T17:38:52.106761+00:00'
       source_modified_at: '2021-11-23T11:49:15+01:00'
   notes: 'Biogeographical region: continental'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/fe549052-0fca-45dc-9fc3-77dfb6a05ee0
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:38:52.106761+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/fe549052-0fca-45dc-9fc3-77dfb6a05ee0
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:38:52.106761+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/fe549052-0fca-45dc-9fc3-77dfb6a05ee0
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:38:52.106761+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Rivers
+    record_url: https://deims.org/api/sites/fe549052-0fca-45dc-9fc3-77dfb6a05ee0
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:38:52.106761+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Tundra
+    record_url: https://deims.org/api/sites/fe549052-0fca-45dc-9fc3-77dfb6a05ee0
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:38:52.106761+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/fe549052-0fca-45dc-9fc3-77dfb6a05ee0
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:38:52.106761+00:00'
   status: ACTIVE

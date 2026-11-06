@@ -927,4 +927,47 @@ sites:
       retrieved_at: '2026-10-15T17:46:48.027912+00:00'
       source_modified_at: '2022-08-31T16:14:49+02:00'
   notes: 'Biogeographical region: atlantic'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/3ddda72f-a8d9-4ac2-8fef-1abb58e53675
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:46:48.027912+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: mixed_forest
+    record_url: https://deims.org/api/sites/3ddda72f-a8d9-4ac2-8fef-1abb58e53675
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:46:48.027912+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Forest
+    record_url: https://deims.org/api/sites/3ddda72f-a8d9-4ac2-8fef-1abb58e53675
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:46:48.027912+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate broadleaf and mixed forests
+    record_url: https://deims.org/api/sites/3ddda72f-a8d9-4ac2-8fef-1abb58e53675
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:46:48.027912+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Heathland, scrub and tundra (F)
+    record_url: https://deims.org/api/sites/3ddda72f-a8d9-4ac2-8fef-1abb58e53675
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:46:48.027912+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Temperate shrub heathland (F4)
+    record_url: https://deims.org/api/sites/3ddda72f-a8d9-4ac2-8fef-1abb58e53675
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:46:48.027912+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Wet heaths (F4.1)
+    record_url: https://deims.org/api/sites/3ddda72f-a8d9-4ac2-8fef-1abb58e53675
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:46:48.027912+00:00'
   status: ACTIVE

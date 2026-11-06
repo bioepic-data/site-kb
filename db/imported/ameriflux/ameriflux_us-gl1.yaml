@@ -15,6 +15,12 @@ sites:
   notes: 'AmeriFlux site metadata: https://ameriflux.lbl.gov/sites/siteinfo/US-GL1;
     IGBP vegetation code: WAT; Reported flux-measurement start year: 2008; Koeppen
     climate code: Dfb; Source mean annual temperature (degrees C): 5.4'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: WAT
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-GL1
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

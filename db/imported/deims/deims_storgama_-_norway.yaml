@@ -13,4 +13,11 @@ sites:
   description: Catchment stream monitoring of water chemistry. Mountainous catchment
     (59% bare rock) on acid-sensitives soils, 580-690 masl
   notes: 'Biogeographical region: boreal'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/d9a8ed41-1deb-40b8-9d9a-adcc859e3c47
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:27.490132+00:00'
   status: ACTIVE

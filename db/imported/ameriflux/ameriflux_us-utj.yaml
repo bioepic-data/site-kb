@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: CRO; Reported flux-measurement start year: 2024; Koeppen
     climate code: Bsk; Source mean annual temperature (degrees C): 12.6; Source mean
     annual precipitation (mm): 196.85'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: CRO
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/US-UTJ
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

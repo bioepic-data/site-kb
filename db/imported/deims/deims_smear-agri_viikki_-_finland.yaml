@@ -374,4 +374,42 @@ sites:
       retrieved_at: '2026-10-15T17:51:06.797324+00:00'
       source_modified_at: '2026-02-11T07:53:10+01:00'
   notes: 'Biogeographical region: boreal'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/5d64b207-5a68-410f-a2ec-cf0e05d4c0ac
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:51:06.797324+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: agricultural
+    record_url: https://deims.org/api/sites/5d64b207-5a68-410f-a2ec-cf0e05d4c0ac
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:51:06.797324+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Agricultural
+    record_url: https://deims.org/api/sites/5d64b207-5a68-410f-a2ec-cf0e05d4c0ac
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:51:06.797324+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Arable land and market gardens (I1)
+    record_url: https://deims.org/api/sites/5d64b207-5a68-410f-a2ec-cf0e05d4c0ac
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:51:06.797324+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Intensive unmixed crops (I1.1)
+    record_url: https://deims.org/api/sites/5d64b207-5a68-410f-a2ec-cf0e05d4c0ac
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:51:06.797324+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Regularly or recently cultivated agricultural, horticultural and domestic
+      habitats (I)
+    record_url: https://deims.org/api/sites/5d64b207-5a68-410f-a2ec-cf0e05d4c0ac
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:51:06.797324+00:00'
   status: ACTIVE

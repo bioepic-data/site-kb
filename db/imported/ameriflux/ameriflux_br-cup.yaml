@@ -16,6 +16,12 @@ sites:
     IGBP vegetation code: DBF; Reported flux-measurement start year: 2024; Koeppen
     climate code: Af; Source mean annual temperature (degrees C): 25; Source mean
     annual precipitation (mm): 1900'
+  source_classifications:
+  - source: AMERIFLUX
+    scheme: IGBP
+    value: DBF
+    record_url: https://ameriflux.lbl.gov/sites/siteinfo/BR-CUP
+    field_path: /IGBP
   variables:
   - name: CO2 flux (source-reported)
     declaration_kind: UNSPECIFIED

@@ -13,4 +13,11 @@ sites:
   description: Terrestrial ecosystems monitoring site located in boreal coniferous
     forests
   notes: 'Biogeographical region: boreal'
+  source_classifications:
+  - source: DEIMS
+    scheme: biome
+    value: evergreen_forest
+    record_url: https://deims.org/api/sites/fc572f40-4bed-49c2-86a0-de6fbc97c27a
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:41:28.094289+00:00'
   status: ACTIVE

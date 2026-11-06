@@ -25,4 +25,41 @@ sites:
     \ and there are some that can be considered severely degraded. Wetland degradation\
     \ in this alpine region can lead to loss of ecosystem services as well as livelihood\
     \ of the locals."
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water rivers
+    record_url: https://deims.org/api/sites/3caf19a6-2d81-472e-be2e-06825e6b6217
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:48:59.912831+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Terrestrial
+    record_url: https://deims.org/api/sites/3caf19a6-2d81-472e-be2e-06825e6b6217
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:48:59.912831+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: alpine
+    record_url: https://deims.org/api/sites/3caf19a6-2d81-472e-be2e-06825e6b6217
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:48:59.912831+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Alpine
+    record_url: https://deims.org/api/sites/3caf19a6-2d81-472e-be2e-06825e6b6217
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:48:59.912831+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Grasslands
+    record_url: https://deims.org/api/sites/3caf19a6-2d81-472e-be2e-06825e6b6217
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:48:59.912831+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Montane grasslands and shrublands
+    record_url: https://deims.org/api/sites/3caf19a6-2d81-472e-be2e-06825e6b6217
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/2
+    retrieved_at: '2026-10-15T17:48:59.912831+00:00'
   status: ACTIVE

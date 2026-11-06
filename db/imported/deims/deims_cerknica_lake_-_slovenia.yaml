@@ -207,4 +207,47 @@ sites:
       retrieved_at: '2026-10-15T17:38:49.378347+00:00'
       source_modified_at: '2025-03-18T11:50:47+01:00'
   notes: 'Biogeographical region: mediterranean'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Fresh water lakes
+    record_url: https://deims.org/api/sites/9026e5f2-af78-4610-8e8a-bd73466da65c
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:38:49.378347+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: freshwater_lakes
+    record_url: https://deims.org/api/sites/9026e5f2-af78-4610-8e8a-bd73466da65c
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:38:49.378347+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Fresh Water Lakes
+    record_url: https://deims.org/api/sites/9026e5f2-af78-4610-8e8a-bd73466da65c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:38:49.378347+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Lakes
+    record_url: https://deims.org/api/sites/9026e5f2-af78-4610-8e8a-bd73466da65c
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:38:49.378347+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Inland surface waters (C)
+    record_url: https://deims.org/api/sites/9026e5f2-af78-4610-8e8a-bd73466da65c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:38:49.378347+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Surface standing waters (C1)
+    record_url: https://deims.org/api/sites/9026e5f2-af78-4610-8e8a-bd73466da65c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/1
+    retrieved_at: '2026-10-15T17:38:49.378347+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Temporary lakes, ponds and pools (C1.6)
+    record_url: https://deims.org/api/sites/9026e5f2-af78-4610-8e8a-bd73466da65c
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/2
+    retrieved_at: '2026-10-15T17:38:49.378347+00:00'
   status: ACTIVE

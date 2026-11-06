@@ -126,4 +126,41 @@ sites:
       vocabulary: EnvThes
       retrieved_at: '2026-10-15T17:43:53.996696+00:00'
       source_modified_at: '2023-07-25T08:19:13+02:00'
+  source_classifications:
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Marine
+    record_url: https://deims.org/api/sites/177ff4a8-9481-495e-a55a-ec7d32bf6e30
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/0
+    retrieved_at: '2026-10-15T17:43:53.996696+00:00'
+  - source: DEIMS
+    scheme: geoBonBiome
+    value: Coastal
+    record_url: https://deims.org/api/sites/177ff4a8-9481-495e-a55a-ec7d32bf6e30
+    field_path: /attributes/environmentalCharacteristics/geoBonBiome/1
+    retrieved_at: '2026-10-15T17:43:53.996696+00:00'
+  - source: DEIMS
+    scheme: biome
+    value: marine
+    record_url: https://deims.org/api/sites/177ff4a8-9481-495e-a55a-ec7d32bf6e30
+    field_path: /attributes/environmentalCharacteristics/biome
+    retrieved_at: '2026-10-15T17:43:53.996696+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Marine
+    record_url: https://deims.org/api/sites/177ff4a8-9481-495e-a55a-ec7d32bf6e30
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/0
+    retrieved_at: '2026-10-15T17:43:53.996696+00:00'
+  - source: DEIMS
+    scheme: ecosystemType
+    value: Temperate shelfs and seas
+    record_url: https://deims.org/api/sites/177ff4a8-9481-495e-a55a-ec7d32bf6e30
+    field_path: /attributes/environmentalCharacteristics/ecosystemType/1
+    retrieved_at: '2026-10-15T17:43:53.996696+00:00'
+  - source: DEIMS
+    scheme: eunisHabitat
+    value: Marine habitats (A)
+    record_url: https://deims.org/api/sites/177ff4a8-9481-495e-a55a-ec7d32bf6e30
+    field_path: /attributes/environmentalCharacteristics/eunisHabitat/0
+    retrieved_at: '2026-10-15T17:43:53.996696+00:00'
   status: ACTIVE
